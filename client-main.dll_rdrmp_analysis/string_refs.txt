@@ -1,0 +1,170 @@
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1801008e0
+STRING=SpriteBatch can only draw Texture2D resources
+REF_FROM=1800631ef TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180062f90
+FUNCTION_ENTRY=180062f90
+FUNCTION_RVA=0x62F90
+============================================================
+KEYWORD=content/
+STRING_ADDRESS=18010cfc0
+STRING=$/content/scripting/DesignerDefined/Pause
+REF_FROM=180001b17 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180001a80
+FUNCTION_ENTRY=180001a80
+FUNCTION_RVA=0x1A80
+REF_FROM=180001b1e TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180001a80
+FUNCTION_ENTRY=180001a80
+FUNCTION_RVA=0x1A80
+REF_FROM=180001c7d TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180001a80
+FUNCTION_ENTRY=180001a80
+FUNCTION_RVA=0x1A80
+REF_FROM=18000228d TYPE=PARAM SOURCE=ANALYSIS
+FUNCTION=FUN_180001a80
+FUNCTION_ENTRY=180001a80
+FUNCTION_RVA=0x1A80
+REF_FROM=180003ffb TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180002f50
+FUNCTION_ENTRY=180002f50
+FUNCTION_RVA=0x2F50
+REF_FROM=180004002 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180002f50
+FUNCTION_ENTRY=180002f50
+FUNCTION_RVA=0x2F50
+============================================================
+KEYWORD=mount
+STRING_ADDRESS=18010d000
+STRING=Dmoney_amount
+REF_FROM=180004186 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180002f50
+FUNCTION_ENTRY=180002f50
+FUNCTION_RVA=0x2F50
+REF_FROM=18000418d TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180002f50
+FUNCTION_ENTRY=180002f50
+FUNCTION_RVA=0x2F50
+============================================================
+KEYWORD=multiplayer
+STRING_ADDRESS=18010d020
+STRING=In Multiplayer
+REF_FROM=180004585 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180002f50
+FUNCTION_ENTRY=180002f50
+FUNCTION_RVA=0x2F50
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=18010d128
+STRING=failed_server_retrieving_resources
+REF_FROM=1800060fd TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180005ad0
+FUNCTION_ENTRY=180005ad0
+FUNCTION_RVA=0x5AD0
+============================================================
+KEYWORD=Launch
+STRING_ADDRESS=180110d10
+STRING=Launch the game in singleplayer state. (For debug purpose)
+REF_FROM=18005a35c TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180059fd0
+FUNCTION_ENTRY=180059fd0
+FUNCTION_RVA=0x59FD0
+============================================================
+KEYWORD=content
+STRING_ADDRESS=180111210
+STRING=##ConsoleContent
+REF_FROM=18005d5f6 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_18005d410
+FUNCTION_ENTRY=18005d410
+FUNCTION_RVA=0x5D410
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=18012a80a
+STRING=?DownloadResource@HTTPClient@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEBVpath@filesystem@3@@Z
+REF_FROM=<none>
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=18012a90a
+STRING=?DownloadResources@HTTPClient@@QEAA_NAEBVpath@filesystem@std@@@Z
+REF_FROM=<none>
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=18012a9a8
+STRING=?LoadResource@ResourcesManager@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+REF_FROM=<none>
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=18012aa14
+STRING=?UnloadResource@ResourcesManager@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+REF_FROM=<none>
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=18012aa82
+STRING=?LoadAllResources@ResourcesManager@@QEAAXXZ
+REF_FROM=<none>
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=18012aab0
+STRING=?DoesAllResourcesAreLoaded@ResourcesManager@@QEBA_NXZ
+REF_FROM=<none>
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=18012aae8
+STRING=?UnloadAllResources@ResourcesManager@@QEAAXXZ
+REF_FROM=<none>
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=18012ab18
+STRING=?Get@?$Singleton@VResourcesManager@@@@SA?BV?$shared_ptr@VResourcesManager@@@std@@XZ
+REF_FROM=<none>
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=18012be0a
+STRING=FindResourceW
+REF_FROM=<none>
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=18012be1a
+STRING=LoadResource
+REF_FROM=<none>
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=18012be2a
+STRING=LockResource
+REF_FROM=<none>
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=18012be3a
+STRING=SizeofResource
+REF_FROM=<none>
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=180130790
+STRING=.?AV?$_Ref_count_obj2@UResourceMap@?$SharedResourcePool@PEAUID3D11DeviceContext@@UContextResources@Impl@SpriteBatch@DX11@DirectX@@$$V@DirectX@@@std@@
+REF_FROM=<none>
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=180130840
+STRING=.?AV?$_Ref_count_obj2@UResourceMap@?$SharedResourcePool@PEAUID3D11Device@@UDeviceResources@Impl@SpriteBatch@DX11@DirectX@@$$V@DirectX@@@std@@
+REF_FROM=<none>
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=180130910
+STRING=.?AV?$_Ref_count_obj2@UWrappedData@?$SharedResourcePool@PEAUID3D11DeviceContext@@UContextResources@Impl@SpriteBatch@DX11@DirectX@@$$V@DirectX@@@std@@
+REF_FROM=<none>
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1801309c0
+STRING=.?AV?$_Ref_count_obj2@UWrappedData@?$SharedResourcePool@PEAUID3D11Device@@UDeviceResources@Impl@SpriteBatch@DX11@DirectX@@$$V@DirectX@@@std@@
+REF_FROM=<none>
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=180130a60
+STRING=.?AV?$_Ref_count_obj2@UResourceMap@?$SharedResourcePool@PEAUID3D11Device@@VImpl@CommonStates@DX11@DirectX@@$$V@DirectX@@@std@@
+REF_FROM=<none>
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=180130b20
+STRING=.?AV?$_Ref_count_obj2@UWrappedData@?$SharedResourcePool@PEAUID3D11Device@@VImpl@CommonStates@DX11@DirectX@@$$V@DirectX@@@std@@
+REF_FROM=<none>
