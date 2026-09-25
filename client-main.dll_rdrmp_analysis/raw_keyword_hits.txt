@@ -1,0 +1,6 @@
+ASCII	resource	.rdata	180100904	<none>		
+ASCII	resource	.rdata	18010d141	<none>		
+ASCII	mount	.rdata	18010d008	<none>		
+ASCII	content	.rdata	18010cfc2	<none>		
+
+TOTAL_HITS=4
