@@ -1,0 +1,772 @@
+180000000	2	MZ
+180000118	4	PE
+180000220	8	.text
+180000248	8	.rdata
+180000270	8	.data
+180000298	8	.pdata
+1800002c0	8	.rsrc
+1800002e8	8	.reloc
+180078840	44	!x-sys-default-locale
+180078920	15	bad allocation
+180078948	18	Unknown exception
+180078960	21	bad array new length
+1800789a0	16	string too long
+1800789b8	8	generic
+1800789c0	9	iostream
+1800789cc	7	system
+1800789d8	9	bad cast
+1800789e4	6	false
+1800789f8	23	invalid stoul argument
+180078a10	28	stoul argument out of range
+180078a50	15	unknown region
+180078a60	13	unknown file
+180078a70	13	unknown line
+180078a84	7	0x%02x
+180078a98	8	[error]
+180078aa0	9	[error] 
+180078aac	6	 --> 
+180078ab8	6	 ...\n
+180078ac8	8	\nHint: 
+180078adc	7	exists
+180078ae8	19	create_directories
+180078b00	14	invalid token
+180078b10	36	toml::parse_boolean: internal error
+180078b38	32	the next token is not a boolean
+180078b58	22	toml::parse_boolean: 
+180078b70	28	too large input (> int64_t)
+180078b90	67	toml::parse_binary_integer: only signed 64bit integer is available
+180078bd8	43	toml::parse_binary_integer: internal error
+180078c08	33	the next token is not an integer
+180078c30	28	toml::parse_binary_integer:
+180078c50	13	out of range
+180078c60	27	toml::parse_octal_integer:
+180078c80	33	toml::parse_hexadecimal_integer:
+180078ca8	32	toml::parse_hexadecimal_integer
+180078cc8	13	leading zero
+180078ce0	64	toml::parse_integer: leading zero in an Integer is not allowed.
+180078d20	19	none of 0x, 0o, 0b
+180078d38	54	toml::parse_integer: unknown integer prefix appeared.
+180078d70	21	toml::parse_integer:
+180078d88	22	toml::parse_integer: 
+180078dc8	22	toml::parse_floating:
+180078de0	30	the next token is not a float
+180078e00	23	toml::parse_floating: 
+180078e18	28	not a valid UTF-8 codepoint
+180078e40	89	toml::read_utf8_codepoint: codepoints in the range [0xD800, 0xDFFF] are not valid UTF-8.
+180078ea0	30	should be in [0x00..0x10FFFF]
+180078ec0	57	toml::read_utf8_codepoint: input codepoint is too large.
+180078f00	38	the next token is not a backslash "\"
+180078f28	30	toml::parse_escape_sequence: 
+180078f70	69	parse_escape_sequence: invalid token found in UTF-8 codepoint uXXXX.
+180078fc0	72	parse_escape_sequence: invalid token found in UTF-8 codepoint Uxxxxxxxx
+180079010	103	if you want to write backslash as just one backslash, use literal string like: regex    = '<\i\c*\s*>'
+180079080	64	escape sequence is one of \, ", b, t, n, f, r, uxxxx, Uxxxxxxxx
+1800790c0	57	parse_escape_sequence: unknown escape sequence appeared.
+180079100	14	should be """
+180079110	37	parse_ml_basic_string: invalid token
+180079138	21	not sufficient token
+180079150	48	parse_ml_basic_string: unexpected end of region
+180079188	12	end of this
+180079198	60	parse_ml_basic_string: closing delimiter has invalid length
+1800791d8	51	parse_ml_basic_string: invalid utf8 sequence found
+180079210	76	toml::parse_ml_basic_string: the next token is not a valid multiline string
+180079260	12	should be "
+180079270	34	parse_basic_string: invalid token
+180079298	45	parse_basic_string: unexpected end of region
+1800792c8	48	parse_basic_string: invalid utf8 sequence found
+1800792f8	63	toml::parse_basic_string: the next token is not a valid string
+180079338	14	should be '''
+180079348	39	parse_ml_literal_string: invalid token
+180079378	62	parse_ml_literal_string: closing delimiter has invalid length
+1800793b8	53	parse_ml_literal_string: invalid utf8 sequence found
+1800793f0	86	toml::parse_ml_literal_string: the next token is not a valid multiline literal string
+180079448	12	should be '
+180079458	36	parse_literal_string: invalid token
+180079480	50	parse_literal_string: invalid utf8 sequence found
+1800794c0	73	toml::parse_literal_string: the next token is not a valid literal string
+180079510	31	the next token is not a string
+180079530	21	toml::parse_string: 
+180079548	14	should be `-`
+180079558	44	toml::parse_local_date: invalid year format
+180079588	45	toml::parse_local_date: invalid month format
+1800795b8	43	toml::parse_local_date: invalid day format
+1800795f0	78	month should be 01-12, day should be 01-28,29,30,31, depending on month/year.
+180079640	61	toml::parse_date: invalid date: it does not conform RFC3339.
+180079680	35	the next token is not a local_date
+1800796a8	25	toml::parse_local_date: 
+1800796c8	14	should be `:`
+1800796d8	44	toml::parse_local_time: invalid year format
+180079708	45	toml::parse_local_time: invalid month format
+180079738	46	toml::parse_local_time: invalid second format
+180079770	107	hour should be 00-23, minute should be 00-59, second should be 00-60 (depending on the leap second rules.)
+1800797e0	67	toml::parse_local_time: invalid time: it does not conform RFC3339.
+180079828	49	toml::parse_local_time: invalid subsecond format
+180079860	35	the next token is not a local_time
+180079888	25	toml::parse_local_time: 
+1800798a8	19	date, not datetime
+1800798c0	52	toml::parse_local_datetime: invalid datetime format
+1800798f8	29	should be `T` or ` ` (space)
+180079918	20	invalid time format
+180079930	39	the next token is not a local_datetime
+180079958	29	toml::parse_local_datetime: 
+180079978	53	toml::parse_offset_datetime: invalid datetime format
+1800799b0	74	toml::parse_offset_datetime: invalid offset: it does not conform RFC3339.
+180079a00	26	should be `Z` or `+HH:MM`
+180079a20	40	the next token is not a offset_datetime
+180079a48	30	toml::parse_offset_datetime: 
+180079a68	35	the next token is not a simple key
+180079a90	25	toml::parse_simple_key: 
+180079ab0	49	toml::parse_key: dotted key contains invalid key
+180079ae8	14	should be `.`
+180079af8	50	toml::parse_key: dotted key contains invalid key 
+180079b30	63	bare keys  : non-empty strings composed only of [A-Za-z0-9_-].
+180079b70	59	quoted keys: same as "basic strings" or 'literal strings'.
+180079bb0	64	dotted keys: sequence of bare or quoted keys joined with a dot.
+180079bf0	19	is not a valid key
+180079c08	42	toml::parse_key: an invalid key appeared.
+180079c38	21	pass: +09:00, -05:30
+180079c50	19	fail: +9:00, -5:30
+180079c68	15	[+-]HH:MM or Z
+180079c78	37	bad offset: should be [+-]HH:MM or Z
+180079ca0	54	pass: 1979-05-27T07:32:00, 1979-05-27 07:32:00.999999
+180079cd8	43	fail: 1979-05-27T7:32:00, 1979-05-27 17:32
+180079d08	16	HH:MM:SS.subsec
+180079d18	36	bad time: should be HH:MM:SS.subsec
+180079d40	42	fail: 1979-05-27T7:32:00, 1979-05-27 7:32
+180079d70	25	T or space required here
+180079d90	20	bad time: missing T
+180079da8	47	pass: +1.0, -2e-2, 3.141_592_653_589, inf, nan
+180079dd8	39	fail: .0, 1., _1.0, 1.0_, 1_.0, 1.0__0
+180079e00	46	bad float: `_` should be surrounded by digits
+180079e30	53	pass: -42, 1_000, 1_2_3_4_5, 0xC0FFEE, 0b0010, 0o755
+180079e68	19	fail: 1__000, 0123
+180079e80	48	bad integer: `_` should be surrounded by digits
+180079eb0	26	bad integer: leading zero
+180079ed0	61	pass: 1979-05-27T07:32:00-07:00, 1979-05-27 07:32:00.999999Z
+180079f10	53	fail: 1979-05-27T7:32:00-7:00, 1979-05-27 7:32-00:30
+180079f48	29	bad datetime: invalid format
+180079f68	26	bad float: invalid format
+180079f88	34	integer part required before this
+180079fb0	32	`_` is not surrounded by digits
+180079fd0	47	bad number: `_` should be surrounded by digits
+18007a000	35	bad format: unknown value appeared
+18007a028	14	should be `[`
+18007a038	30	toml::parse_table_key: no `[`
+18007a058	8	not key
+18007a060	35	toml::parse_table_key: invalid key
+18007a088	14	should be `]`
+18007a098	30	toml::parse_table_key: no `]`
+18007a0b8	17	expected newline
+18007a0d0	58	toml::parse_table_key: newline required after [table.key]
+18007a110	45	toml::parse_table_key: not a valid table key
+18007a140	15	should be `[[`
+18007a150	37	toml::parse_array_table_key: no `[[`
+18007a178	10	not a key
+18007a188	41	toml::parse_array_table_key: invalid key
+18007a1b8	15	should be `]]`
+18007a1c8	37	toml::parse_array_table_key: no `]]`
+18007a1f0	66	toml::parse_array_table_key: newline required after [[table.key]]
+18007a238	51	toml::parse_array_table_key: not a valid table key
+18007a270	22	Created config file !
+18007a288	49	Failed to load config data, file doesn't exist !
+18007a2c0	31	toml::value::operator[](key): 
+18007a2e0	29	toml::result: bad unwrap_err
+18007a300	27	toml::result: bad unwrap: 
+18007a320	27	toml::value::as_string(): 
+18007a340	29	toml::value::as_floating(): 
+18007a360	28	toml::value::as_integer(): 
+18007a380	28	toml::value::as_boolean(): 
+18007a3a0	24	invalid string position
+18007a3b8	16	vector too long
+18007a3c8	25	invalid vector subscript
+18007a3e8	34	toml::parse_value: input is empty
+18007a410	8	unknown
+18007a418	42	toml::parse_value: unknown token appeared
+18007a448	15	unknown format
+18007a458	45	toml::parse_toml_file: unknown line appeared
+18007a488	34	toml::parse: Error opening file "
+18007a4b0	20	the actual type is 
+18007a4c8	13	bad_cast to 
+18007a4d8	27	unordered_map/set too long
+18007a4f8	26	invalid hash bucket count
+18007a518	49	toml::parse_array: recursion limit (64) exceeded
+18007a550	34	toml::parse_array: input is empty
+18007a578	41	toml::parse_array: token is not an array
+18007a5a8	18	array starts here
+18007a5c0	25	it is not a valid value.
+18007a5e0	68	toml::parse_array: value having invalid format appeared in an array
+18007a628	14	should be `,`
+18007a638	61	toml::parse_array: missing array separator `,` after a value
+18007a678	17	should be closed
+18007a690	47	toml::parse_array: array did not closed by `]`
+18007a6c0	56	toml::parse_inline_table: recursion limit (64) exceeded
+18007a6f8	38	the next token is not an inline table
+18007a720	27	toml::parse_inline_table: 
+18007a740	62	toml::parse_inline_table: failed to insert value into table: 
+18007a780	14	should be `}`
+18007a790	55	toml::parse_inline_table: missing table separator `}` 
+18007a7c8	50	toml::parse_inline_table: missing curly brace `}`
+18007a800	55	toml::parse_inline_table: missing table separator `,` 
+18007a840	75	toml::parse_inline_table: trailing comma is not allowed in an inline table
+18007a890	61	toml::parse_inline_table: inline table did not closed by `}`
+18007a8d8	28	expected newline, but got '
+18007a8f8	39	toml::parse_table: invalid line format
+18007a920	22	table already defined
+18007a938	39	this conflicts with the previous table
+18007a960	21	") cannot be defined
+18007a978	38	toml::insert_value: array of table ("
+18007a9a0	22	 value already exists
+18007a9b8	6	this 
+18007a9c0	37	while inserting this array-of-tables
+18007a9e8	32	") collides with existing value
+18007aa10	23	 value has static size
+18007aa28	43	appending it to the statically sized array
+18007aa58	42	") collides with existing array-of-tables
+18007aa88	26	table already exists here
+18007aaa8	20	table defined twice
+18007aac0	19	") already exists.
+18007aad8	29	toml::insert_value: table ("
+18007aaf8	20	already exists here
+18007ab10	19	this defined twice
+18007ab28	29	toml::insert_value: value ("
+18007ab48	29	array of tables defined here
+18007ab68	49	table conflicts with the previous array of table
+18007aba0	39	toml::insert_value: array of tables ("
+18007abc8	26	value already exists here
+18007abe8	20	value defined twice
+18007ac00	28	inline tables are immutable
+18007ac20	15	inserting this
+18007ac30	34	) but inline tables are immutable
+18007ac58	51	toml::insert_value: inserting to an inline table (
+18007ac90	16	actual type is 
+18007aca0	42	) is neither table nor an array of tables
+18007acd0	29	toml::insert_value: target (
+18007acf0	29	this array is not insertable
+18007ad10	33	") conflicts with existing value
+18007ad38	38	this array of table has a static size
+18007ad60	60	") cannot be inserted to an existing inline array-of-tables
+18007ada0	31	toml::insert_value: a table ("
+18007adc0	50	toml::detail::insert_nested_key: never reach here
+18007ae00	76	[error] toml::visit: toml::basic_value does not have any valid basic_value.
+18007ae78	6	\\n"""
+18007ae90	26	toml::value::as_table(): 
+18007aeb0	26	toml::value::as_array(): 
+18007aed0	31	toml::value::as_local_time(): 
+18007aef0	31	toml::value::as_local_date(): 
+18007af10	35	toml::value::as_local_datetime(): 
+18007af38	36	toml::value::as_offset_datetime(): 
+18007af60	32	invalid unordered_map<K, T> key
+18007af80	29	toml::value::contains(key): 
+18007afe0	9	\u00%02x
+18007aff0	24	key expected before '='
+18007b008	54	toml::parse_key_value_pair: empty key is not allowed.
+18007b040	43	Did you forget '.' to separate dotted-key?
+18007b070	51	Allowed characters for bare key are [0-9a-zA-Z_-].
+18007b0a8	25	invalid character in key
+18007b0c8	51	toml::parse_key_value_pair: invalid format for key
+18007b100	14	should be `=`
+18007b110	60	toml::parse_key_value_pair: missing key-value separator `=`
+18007b150	32	expected value, but got nothing
+18007b170	72	toml::parse_key_value_pair: missing value after key-value separator '='
+18007b1b8	9	internal
+18007b1c8	8	boolean
+18007b1d0	8	integer
+18007b1d8	9	floating
+18007b1e4	7	string
+18007b1f0	16	offset_datetime
+18007b200	15	local_datetime
+18007b210	11	local_date
+18007b220	11	local_time
+18007b22c	6	array
+18007b234	6	table
+18007b23c	6	empty
+18007b3c0	14	unknown error
+18007b598	22	iostream stream error
+18007b7e8	13	UnnamedFiber
+18007b7f8	7	LUAJob
+18007b880	17	map/set too long
+18007b898	17	create_directory
+18007b8ac	7	[Init]
+18007b8b4	7	[Info]
+18007b8c0	10	[Warning]
+18007b8d0	8	[Error]
+18007b8d8	13	[Dev] [Info]
+18007b8e8	16	[Dev] [Warning]
+18007b8f8	14	[Dev] [Error]
+18007b908	7	[Dev] 
+18007b910	8	../logs
+18007b918	11	Client.log
+18007b928	24	[%02d:%02d:%02d] %s %s\n
+18007b948	20	[%02d:%02d:%02d] %s
+18007b960	22	invalid map<K, T> key
+18007b978	23	Threads pool cleaned !
+18007bc68	9	userdata
+18007bf74	6	limit
+18007bf88	19	'for' step is zero
+18007bf9c	6	index
+18007bfa8	14	initial value
+18007bfb8	43	'__newindex' chain too long; possible loop
+18007bfe8	40	'__index' chain too long; possible loop
+18007c010	14	get length of
+18007c020	23	string length overflow
+18007c038	26	attempt to perform 'n%%0'
+18007c058	26	attempt to divide by zero
+18007c078	15	table overflow
+18007c088	19	table index is NaN
+18007c0a0	19	table index is nil
+18007c0b4	6	.xXnN
+18007c0bc	6	%.14g
+18007c0cc	7	(null)
+18007c0d8	12	-0123456789
+18007c0f0	43	invalid option '%%%c' to 'lua_pushfstring'
+18007c130	17	C stack overflow
+18007c148	10	error in 
+18007c158	29	error object is not a string
+18007c180	15	stack overflow
+18007c190	24	error in error handling
+18007c1b0	9	(vararg)
+18007c1c0	14	(C temporary)
+18007c1d0	12	(temporary)
+18007c1dc	7	global
+18007c1ec	6	local
+18007c1f4	6	field
+18007c200	8	upvalue
+18007c208	14	integer index
+18007c218	7	method
+18007c220	9	constant
+18007c230	11	metamethod
+18007c240	13	for iterator
+18007c250	11	 (%s '%s')
+18007c270	27	attempt to %s a %s value%s
+18007c290	12	concatenate
+18007c2a0	39	bad 'for' %s (number expected, got %s)
+18007c2c8	33	attempt to compare two %s values
+18007c2f0	39	number%s has no integer representation
+18007c318	10	%s:%d: %s
+18007c328	30	attempt to compare %s with %s
+18007c348	39	variable '%s' got a non-closable value
+18007c388	9	function
+18007c394	7	number
+18007c39c	6	proto
+18007c3a4	7	thread
+18007c3b0	11	__newindex
+18007c3c0	8	__index
+18007c3c8	6	__len
+18007c3d0	7	__mode
+18007c3d8	6	__add
+18007c3e8	6	__mul
+18007c3f0	6	__sub
+18007c3f8	6	__pow
+18007c400	6	__mod
+18007c408	7	__idiv
+18007c410	6	__div
+18007c418	6	__bor
+18007c420	7	__band
+18007c428	6	__shl
+18007c430	7	__bxor
+18007c438	6	__unm
+18007c440	6	__shr
+18007c450	7	__bnot
+18007c458	9	__concat
+18007c470	8	__close
+18007c478	7	__call
+18007c480	29	perform bitwise operation on
+18007c4a1	6	_name
+18007c4a8	22	perform arithmetic on
+18007c4c0	39	memory allocation error: block too big
+18007c4f0	6	break
+18007c4f8	7	elseif
+18007c524	7	repeat
+18007c538	7	return
+18007c540	6	while
+18007c548	6	until
+18007c570	6	<eof>
+18007c580	10	<integer>
+18007c590	9	<number>
+18007c5a0	9	<string>
+18007c5ac	7	<name>
+18007e150	4	RSDS
+18007e168	96	C:\Users\K3rhos\Documents\Visual Studio 2022\Projects\RDRMP\build\Release\data\client-shared.pdb
+18008955a	18	client-shared.dll
+18008956c	124	?$TSS0@?1??Get@?$Singleton@VClientEventsHandler@Scripting@@@@SA?BV?$shared_ptr@VClientEventsHandler@Scripting@@@std@@XZ@4HA
+1800895e8	78	?$TSS0@?1??Get@?$Singleton@VConfig@@@@SA?BV?$shared_ptr@VConfig@@@std@@XZ@4HA
+180089636	86	?$TSS0@?1??Get@?$Singleton@VFibersPool@@@@SA?BV?$shared_ptr@VFibersPool@@@std@@XZ@4HA
+18008968c	92	?$TSS0@?1??Get@?$Singleton@VLUAFibersPool@@@@SA?BV?$shared_ptr@VLUAFibersPool@@@std@@XZ@4HA
+1800896e8	88	?$TSS0@?1??Get@?$Singleton@VThreadsPool@@@@SA?BV?$shared_ptr@VThreadsPool@@@std@@XZ@4HA
+180089740	57	??0?$Singleton@VClientEventsHandler@Scripting@@@@QEAA@XZ
+180089779	34	??0?$Singleton@VConfig@@@@QEAA@XZ
+18008979b	38	??0?$Singleton@VFibersPool@@@@QEAA@XZ
+1800897c1	41	??0?$Singleton@VLUAFibersPool@@@@QEAA@XZ
+1800897ea	39	??0?$Singleton@VThreadsPool@@@@QEAA@XZ
+180089811	42	??0ClientEventsHandler@Scripting@@QEAA@XZ
+18008983b	27	??0Config@@QEAA@$$QEAV0@@Z
+180089856	25	??0Config@@QEAA@AEBV0@@Z
+18008986f	19	??0Config@@QEAA@XZ
+180089882	26	??0Fiber@@QEAA@$$QEAV0@@Z
+18008989c	24	??0Fiber@@QEAA@AEBV0@@Z
+1800898b4	18	??0Fiber@@QEAA@XZ
+1800898c6	23	??0FibersPool@@QEAA@XZ
+1800898dd	25	??0IFiber@@QEAA@AEBV0@@Z
+1800898f6	19	??0IFiber@@QEAA@XZ
+180089909	29	??0LUAFiber@@QEAA@$$QEAV0@@Z
+180089926	27	??0LUAFiber@@QEAA@AEBV0@@Z
+180089941	21	??0LUAFiber@@QEAA@XZ
+180089956	26	??0LUAFibersPool@@QEAA@XZ
+180089970	25	??0Thread@@QEAA@AEBV0@@Z
+180089989	19	??0Thread@@QEAA@XZ
+18008999c	32	??0ThreadsPool@@QEAA@$$QEAV0@@Z
+1800899bc	30	??0ThreadsPool@@QEAA@AEBV0@@Z
+1800899da	24	??0ThreadsPool@@QEAA@XZ
+1800899f2	57	??1?$Singleton@VClientEventsHandler@Scripting@@@@QEAA@XZ
+180089a2b	34	??1?$Singleton@VConfig@@@@QEAA@XZ
+180089a4d	38	??1?$Singleton@VFibersPool@@@@QEAA@XZ
+180089a73	41	??1?$Singleton@VLUAFibersPool@@@@QEAA@XZ
+180089a9c	39	??1?$Singleton@VThreadsPool@@@@QEAA@XZ
+180089ac3	42	??1ClientEventsHandler@Scripting@@QEAA@XZ
+180089aed	19	??1Config@@QEAA@XZ
+180089b00	18	??1Fiber@@QEAA@XZ
+180089b12	23	??1FibersPool@@QEAA@XZ
+180089b29	19	??1IFiber@@QEAA@XZ
+180089b3c	21	??1LUAFiber@@QEAA@XZ
+180089b51	26	??1LUAFibersPool@@QEAA@XZ
+180089b6b	19	??1Thread@@QEAA@XZ
+180089b7e	24	??1ThreadsPool@@QEAA@XZ
+180089b96	68	??4?$Singleton@VClientEventsHandler@Scripting@@@@QEAAAEAV0@AEBV0@@Z
+180089bda	45	??4?$Singleton@VConfig@@@@QEAAAEAV0@AEBV0@@Z
+180089c07	49	??4?$Singleton@VFibersPool@@@@QEAAAEAV0@AEBV0@@Z
+180089c38	52	??4?$Singleton@VLUAFibersPool@@@@QEAAAEAV0@AEBV0@@Z
+180089c6c	50	??4?$Singleton@VThreadsPool@@@@QEAAAEAV0@AEBV0@@Z
+180089c9e	32	??4Config@@QEAAAEAV0@$$QEAV0@@Z
+180089cbe	30	??4Config@@QEAAAEAV0@AEBV0@@Z
+180089cdc	31	??4Fiber@@QEAAAEAV0@$$QEAV0@@Z
+180089cfb	29	??4Fiber@@QEAAAEAV0@AEBV0@@Z
+180089d18	30	??4IFiber@@QEAAAEAV0@AEBV0@@Z
+180089d36	34	??4LUAFiber@@QEAAAEAV0@$$QEAV0@@Z
+180089d58	32	??4LUAFiber@@QEAAAEAV0@AEBV0@@Z
+180089d78	35	??4ThisFiber@@QEAAAEAU0@$$QEAU0@@Z
+180089d9b	33	??4ThisFiber@@QEAAAEAU0@AEBU0@@Z
+180089dbc	30	??4Thread@@QEAAAEAV0@AEBV0@@Z
+180089dda	37	??4ThreadsPool@@QEAAAEAV0@$$QEAV0@@Z
+180089dff	35	??4ThreadsPool@@QEAAAEAV0@AEBV0@@Z
+180089e22	15	??_7Fiber@@6B@
+180089e31	16	??_7IFiber@@6B@
+180089e41	18	??_7LUAFiber@@6B@
+180089e53	16	??_7Thread@@6B@
+180089e63	70	?Add@FibersPool@@QEAAXW4RunFilter@@AEBV?$shared_ptr@VIFiber@@@std@@@Z
+180089ea9	60	?Add@LUAFibersPool@@QEAAXAEBV?$shared_ptr@VIFiber@@@std@@@Z
+180089ee5	44	?Add@LUAFibersPool@@QEAAXPEAUlua_State@@H@Z
+180089f11	103	?Add@ThreadsPool@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVThread@@@Z
+180089f78	39	?AddToCache@Log@@SAXW4LogType@@PEBD1ZZ
+180089f9f	27	?Clear@FibersPool@@QEAAXXZ
+180089fba	28	?Clear@ThreadsPool@@QEAAXXZ
+180089fd6	58	?ClearAllByInstance@LUAFibersPool@@QEAAXPEAUlua_State@@@Z
+18008a010	23	?Close@Thread@@QEAAXXZ
+18008a027	28	?Count@FibersPool@@QEBA_KXZ
+18008a043	31	?Count@LUAFibersPool@@QEBA_KXZ
+18008a062	41	?DoGarbageCollection@FibersPool@@QEAAXXZ
+18008a08b	44	?DoGarbageCollection@LUAFibersPool@@QEAAXXZ
+18008a0b7	40	?DoRun@FibersPool@@QEAAXW4RunFilter@@@Z
+18008a0df	30	?DoRun@LUAFibersPool@@QEAAXXZ
+18008a0fd	110	?Get@?$Singleton@VClientEventsHandler@Scripting@@@@SA?BV?$shared_ptr@VClientEventsHandler@Scripting@@@std@@XZ
+18008a16b	64	?Get@?$Singleton@VConfig@@@@SA?BV?$shared_ptr@VConfig@@@std@@XZ
+18008a1ab	72	?Get@?$Singleton@VFibersPool@@@@SA?BV?$shared_ptr@VFibersPool@@@std@@XZ
+18008a1f3	78	?Get@?$Singleton@VLUAFibersPool@@@@SA?BV?$shared_ptr@VLUAFibersPool@@@std@@XZ
+18008a241	74	?Get@?$Singleton@VThreadsPool@@@@SA?BV?$shared_ptr@VThreadsPool@@@std@@XZ
+18008a28b	82	?GetCachedLogs@Log@@SA?BV?$vector@ULogLine@@V?$allocator@ULogLine@@@std@@@std@@XZ
+18008a2dd	45	?GetInstance@LUAFiber@@QEBAPEAUlua_State@@XZ
+18008a30a	88	?GetName@IFiber@@QEAA?BV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+18008a362	53	?Initialize@Config@@QEAAXAEBVpath@filesystem@std@@@Z
+18008a397	26	?IsDirty@IFiber@@QEBA_NXZ
+18008a3b1	106	?LoadData@Config@@QEBA_NAEAV?$basic_value@Udiscard_comments@toml@@Vunordered_map@std@@Vvector@4@@toml@@@Z
+18008a41b	28	?POOL_SIZE@FibersPool@@0_KB
+18008a437	31	?POOL_SIZE@LUAFibersPool@@0_KB
+18008a456	34	?Print@Log@@SAXW4LogType@@PEBD1ZZ
+18008a478	63	?RegisterOnLogReceived@Log@@SAXAEBV?$function@$$A6AXXZ@std@@@Z
+18008a4b7	43	?Remove@FibersPool@@QEAAXW4RunFilter@@_K@Z
+18008a4e2	33	?Remove@LUAFibersPool@@QEAAX_K@Z
+18008a503	94	?Remove@ThreadsPool@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+18008a561	20	?Run@Fiber@@UEAAXXZ
+18008a575	23	?Run@LUAFiber@@UEAAXXZ
+18008a58c	28	?SetAsDirty@IFiber@@AEAAXXZ
+18008a5a8	73	?SetCEFKeyValuePair@Config@@QEBAXAEBV?$scoped_refptr@VCefListValue@@@@@Z
+18008a5f1	46	?SetHandler@LUAFiber@@QEAAXPEAUlua_State@@H@Z
+18008a61f	60	?SetJobFunction@Fiber@@QEAAXAEBV?$function@$$A6AXXZ@std@@@Z
+18008a65b	90	?SetName@IFiber@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+18008a6b5	170	?SetValue@Config@@QEBAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$basic_value@Udiscard_comments@toml@@Vunordered_map@std@@Vvector@4@@toml@@@Z
+18008a75f	23	?Start@IFiber@@MEAAXXZ
+18008a776	23	?Start@Thread@@MEAAXXZ
+18008a78d	22	?Stop@Thread@@MEAAXXZ
+18008a7a3	22	?Tick@IFiber@@QEAAXXZ
+18008a7b9	24	?Update@IFiber@@MEAAXXZ
+18008a7d1	24	?Update@Thread@@MEAAXXZ
+18008a7e9	24	?Wait@IFiber@@QEAAX_K@Z
+18008a801	25	?Wait@ThisFiber@@SAX_K@Z
+18008a81a	59	?__autoclassinit2@ClientEventsHandler@Scripting@@QEAAX_K@Z
+18008a855	35	?__autoclassinit2@Fiber@@QEAAX_K@Z
+18008a878	36	?__autoclassinit2@IFiber@@QEAAX_K@Z
+18008a89c	38	?__autoclassinit2@LUAFiber@@QEAAX_K@Z
+18008a8c2	36	?__autoclassinit2@Thread@@QEAAX_K@Z
+18008a8e6	41	?__autoclassinit2@ThreadsPool@@QEAAX_K@Z
+18008a90f	38	?s_Current@ThisFiber@@2PEAVIFiber@@EA
+18008a935	131	?singleton@?1??Get@?$Singleton@VClientEventsHandler@Scripting@@@@SA?BV?$shared_ptr@VClientEventsHandler@Scripting@@@std@@XZ@4V34@A
+18008a9b8	85	?singleton@?1??Get@?$Singleton@VConfig@@@@SA?BV?$shared_ptr@VConfig@@@std@@XZ@4V34@A
+18008aa0d	93	?singleton@?1??Get@?$Singleton@VFibersPool@@@@SA?BV?$shared_ptr@VFibersPool@@@std@@XZ@4V34@A
+18008aa6a	99	?singleton@?1??Get@?$Singleton@VLUAFibersPool@@@@SA?BV?$shared_ptr@VLUAFibersPool@@@std@@XZ@4V34@A
+18008aacd	95	?singleton@?1??Get@?$Singleton@VThreadsPool@@@@SA?BV?$shared_ptr@VThreadsPool@@@std@@XZ@4V34@A
+18008b2da	23	cef_string_utf16_clear
+18008b2f4	25	cef_string_utf16_to_utf8
+18008b310	22	cef_string_utf8_clear
+18008b326	11	libcef.dll
+18008b334	12	DeleteFiber
+18008b342	14	SwitchToFiber
+18008b352	15	GetTickCount64
+18008b364	15	IsThreadAFiber
+18008b376	21	ConvertThreadToFiber
+18008b38e	12	CreateFiber
+18008b39c	19	GetModuleFileNameA
+18008b3b2	20	WaitForSingleObject
+18008b3c8	12	CloseHandle
+18008b3d6	13	CreateThread
+18008b3e6	13	GetLastError
+18008b3f6	15	FormatMessageA
+18008b406	13	KERNEL32.dll
+18008b416	24	?_Xbad_alloc@std@@YAXXZ
+18008b430	24	??1_Lockit@std@@QEAA@XZ
+18008b44a	25	??0_Lockit@std@@QEAA@H@Z
+18008b466	32	?uncaught_exceptions@std@@YAHXZ
+18008b488	50	?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ
+18008b4bc	35	?_Xinvalid_argument@std@@YAXPEBD@Z
+18008b4e2	31	?_Xout_of_range@std@@YAXPEBD@Z
+18008b504	27	?_Winerror_map@std@@YAHH@Z
+18008b522	48	?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
+18008b554	38	?_Fiopen@std@@YAPEAU_iobuf@@PEB_WHH@Z
+18008b57c	36	?setw@std@@YA?AU?$_Smanip@_J@1@_J@Z
+18008b5a2	31	?_Xlength_error@std@@YAXPEBD@Z
+18008b5c4	30	?_Syserror_map@std@@YAPEBDH@Z
+18008b5e4	71	?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z
+18008b62e	89	?seekg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@V?$fpos@U_Mbstatet@@@2@@Z
+18008b68a	69	?seekg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@_JH@Z
+18008b6d2	84	?tellg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA?AV?$fpos@U_Mbstatet@@@2@XZ
+18008b728	74	?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
+18008b774	75	?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
+18008b7c2	69	?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
+18008b80a	63	??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
+18008b84c	65	?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
+18008b890	66	??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAG@Z
+18008b8d4	66	??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAH@Z
+18008b918	63	?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
+18008b95a	57	?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
+18008b996	74	?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z
+18008b9e2	58	??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
+18008ba1e	62	?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXXZ
+18008ba5e	60	?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+18008ba9c	66	?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+18008bae0	81	?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+18008bb34	82	?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+18008bb88	62	?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+18008bbc8	52	??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
+18008bbfe	106	??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+18008bc6a	106	??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+18008bcd6	58	??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+18008bd12	62	?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+18008bd52	64	?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+18008bd94	67	?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ
+18008bdda	62	?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+18008be1a	70	?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+18008be62	70	?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+18008beaa	75	?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
+18008bef8	61	?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+18008bf38	75	?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+18008bf86	52	??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ
+18008bfbc	56	??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+18008bff6	81	??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z
+18008c04a	89	??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z
+18008c0a6	63	??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@I@Z
+18008c0e8	56	??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+18008c122	89	??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z
+18008c17e	66	??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAI@Z
+18008c1c2	67	??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEA_J@Z
+18008c208	66	??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAN@Z
+18008c24c	33	?iword@ios_base@std@@QEAAAEAJH@Z
+18008c270	28	?xalloc@ios_base@std@@SAHXZ
+18008c28e	35	?exceptions@ios_base@std@@QEAAXH@Z
+18008c2b4	29	?fail@ios_base@std@@QEBA_NXZ
+18008c2d4	29	?good@ios_base@std@@QEBA_NXZ
+18008c2f4	42	?always_noconv@codecvt_base@std@@QEBA_NXZ
+18008c320	27	??Bid@locale@std@@QEAA_KXZ
+18008c33e	31	__std_atomic_notify_all_direct
+18008c360	25	__std_atomic_wait_direct
+18008c37c	30	?_Throw_Cpp_error@std@@YAXH@Z
+18008c39c	10	_Mtx_lock
+18008c3a8	12	_Mtx_unlock
+18008c3b4	13	MSVCP140.dll
+18008c3c2	25	MSVCP140_ATOMIC_WAIT.dll
+18008c3de	19	__CxxFrameHandler4
+18008c3f4	24	__std_exception_destroy
+18008c40e	21	__std_exception_copy
+18008c426	16	__std_terminate
+18008c438	10	_purecall
+18008c444	21	__C_specific_handler
+18008c45c	7	memcpy
+18008c466	8	memmove
+18008c470	7	strchr
+18008c47a	8	longjmp
+18008c484	7	memchr
+18008c48e	20	__current_exception
+18008c4a4	28	__current_exception_context
+18008c4c2	19	_CxxThrowException
+18008c4d8	7	memset
+18008c4e2	29	__std_type_info_destroy_list
+18008c500	19	VCRUNTIME140_1.dll
+18008c514	17	VCRUNTIME140.dll
+18008c528	35	_invalid_parameter_noinfo_noreturn
+18008c54e	10	setlocale
+18008c55a	6	fputc
+18008c562	8	isgraph
+18008c56c	7	_dsign
+18008c576	7	fflush
+18008c580	7	fclose
+18008c58a	8	strtoul
+18008c594	8	isalpha
+18008c59e	20	_configthreadlocale
+18008c5b4	6	fgetc
+18008c5bc	13	_unlock_file
+18008c5cc	11	_lock_file
+18008c5da	7	fwrite
+18008c5e4	7	_errno
+18008c5ee	24	__stdio_common_vsprintf
+18008c608	8	fgetpos
+18008c612	8	setvbuf
+18008c61c	7	ungetc
+18008c626	8	fsetpos
+18008c630	8	isdigit
+18008c63a	6	fread
+18008c642	10	_fseeki64
+18008c64e	28	_get_stream_buffer_pointers
+18008c66c	6	abort
+18008c674	15	_localtime64_s
+18008c686	26	__stdio_common_vsprintf_s
+18008c6a2	27	__stdio_common_vsnprintf_s
+18008c6c0	8	fopen_s
+18008c6ca	8	_time64
+18008c6d4	26	__stdio_common_vfprintf_s
+18008c6f0	8	strcoll
+18008c6fa	6	frexp
+18008c702	8	strpbrk
+18008c70c	7	strtod
+18008c716	11	localeconv
+18008c724	6	ldexp
+18008c72c	7	strspn
+18008c736	20	___lc_codepage_func
+18008c74c	5	free
+18008c754	7	malloc
+18008c75e	10	_callnewh
+18008c76a	16	_seh_filter_dll
+18008c77c	23	_configure_narrow_argv
+18008c796	31	_initialize_narrow_environment
+18008c7b8	25	_initialize_onexit_table
+18008c7d4	26	_register_onexit_function
+18008c7f0	22	_execute_onexit_table
+18008c808	12	_crt_atexit
+18008c816	7	_cexit
+18008c820	10	terminate
+18008c82c	10	_initterm
+18008c838	12	_initterm_e
+18008c844	31	api-ms-win-crt-heap-l1-1-0.dll
+18008c864	34	api-ms-win-crt-runtime-l1-1-0.dll
+18008c886	33	api-ms-win-crt-locale-l1-1-0.dll
+18008c8a8	32	api-ms-win-crt-stdio-l1-1-0.dll
+18008c8c8	33	api-ms-win-crt-string-l1-1-0.dll
+18008c8ea	31	api-ms-win-crt-math-l1-1-0.dll
+18008c90a	34	api-ms-win-crt-convert-l1-1-0.dll
+18008c92c	37	api-ms-win-crt-filesystem-l1-1-0.dll
+18008c952	31	api-ms-win-crt-time-l1-1-0.dll
+18008c974	10	LocalFree
+18008c980	16	GetLocaleInfoEx
+18008c992	17	CreateDirectoryW
+18008c9a6	12	CreateFileW
+18008c9b4	10	FindClose
+18008c9c0	15	FindFirstFileW
+18008c9d2	21	GetFileAttributesExW
+18008c9ea	16	AreFileApisANSI
+18008c9fc	29	GetFileInformationByHandleEx
+18008ca1c	20	MultiByteToWideChar
+18008ca32	20	WideCharToMultiByte
+18008ca48	24	ReleaseSRWLockExclusive
+18008ca62	24	AcquireSRWLockExclusive
+18008ca7c	25	WakeAllConditionVariable
+18008ca98	26	SleepConditionVariableSRW
+18008cab4	18	RtlCaptureContext
+18008cac8	23	RtlLookupFunctionEntry
+18008cae2	17	RtlVirtualUnwind
+18008caf6	25	UnhandledExceptionFilter
+18008cb12	28	SetUnhandledExceptionFilter
+18008cb30	18	GetCurrentProcess
+18008cb44	17	TerminateProcess
+18008cb58	26	IsProcessorFeaturePresent
+18008cb74	18	IsDebuggerPresent
+18008cb88	24	QueryPerformanceCounter
+18008cba2	20	GetCurrentProcessId
+18008cbb8	19	GetCurrentThreadId
+18008cbce	24	GetSystemTimeAsFileTime
+18008cbe8	26	DisableThreadLibraryCalls
+18008cc04	20	InitializeSListHead
+18008cc1a	16	__RTDynamicCast
+18008cc2c	7	memcmp
+18008cc36	19	__intrinsic_setjmp
+18008cc4c	6	ceilf
+18008cc54	6	floor
+18008cc5c	5	fmod
+18008cc64	4	pow
+18008d188	24	.?AVbad_alloc@std@@
+18008d1b0	24	.?AVexception@std@@
+18008d1d8	32	.?AVbad_array_new_length@std@@
+18008d208	32	.?AVfailure@ios_base@std@@
+18008d238	24	.?AVruntime_error@std@@
+18008d260	24	.?AVsystem_error@std@@
+18008d288	32	.?AUinternal_error@toml@@
+18008d2b8	24	.?AUexception@toml@@
+18008d2e0	24	.?AVbad_cast@std@@
+18008d308	24	.?AUsyntax_error@toml@@
+18008d330	40	.?AVfilesystem_error@filesystem@std@@
+18008d368	24	.?AV_System_error@std@@
+18008d390	24	.?AUtype_error@toml@@
+18008d3b8	16	.?AVLUAFiber@@
+18008d3e0	16	.?AVtype_info@@
+18008d400	64	.?AV?$_Ref_count_obj2@VClientEventsHandler@Scripting@@@std@@
+18008d450	32	.?AV_Ref_count_base@std@@
+18008d480	56	.?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
+18008d4d0	56	.?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@
+18008d520	56	.?AV?$_Ref_count_obj2@Uregion_base@detail@toml@@@std@@
+18008d570	72	.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+18008d5c8	24	.?AVios_base@std@@
+18008d5f0	32	.?AVerror_category@std@@
+18008d620	40	.?AV_System_error_category@std@@
+18008d658	40	.?AV?$_Ref_count_obj2@VConfig@@@std@@
+18008d690	40	.?AV_Generic_error_category@std@@
+18008d6c8	32	.?AUregion_base@detail@toml@@
+18008d6f8	24	.?AV?$_Iosb@H@std@@
+18008d720	40	.?AV_Iostream_error_category2@std@@
+18008d760	56	.?AV?$basic_ofstream@DU?$char_traits@D@std@@@std@@
+18008d7a8	32	.?AUlocation@detail@toml@@
+18008d7e0	56	.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+18008d830	80	.?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+18008d890	56	.?AV?$_Ref_count_obj2@Uregion@detail@toml@@@std@@
+18008d8d8	32	.?AUregion@detail@toml@@
+18008d910	80	.?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+18008d970	56	.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+18008d9b8	48	.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+18008da00	56	.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+18008da50	72	.?AV?$_Ref_count_obj2@V?$vector@DV?$allocator@D@std@@@std@@@std@@
+18008daa8	48	.?AV?$_Ref_count_obj2@VFibersPool@@@std@@
+18008dae8	16	.?AVFiber@@
+18008db08	16	.?AVIFiber@@
+18008db28	40	.?AV?$_Ref_count_obj2@VLUAFiber@@@std@@
+18008db60	48	.?AV?$_Ref_count_obj2@VLUAFibersPool@@@std@@
+18008dba0	48	.?AV?$_Ref_count_obj2@VThreadsPool@@@std@@
+18008dbe0	16	.?AVThread@@
+18008dc00	40	.?AV?$_Ref_count@VThread@@@std@@
+180094060	382	<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\r\n<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>\r\n  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">\r\n    <security>\r\n      <requestedPrivileges>\r\n        <requestedExecutionLevel level='asInvoker' uiAccess='false' />\r\n      </requestedPrivileges>\r\n    </security>\r\n  </trustInfo>\r\n</assembly>\r\n
+ff000002d0	24	
+ff000002ee	2	
+ff00001268	522	

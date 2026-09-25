@@ -1,0 +1,8 @@
+name=Headers start=180000000 end=1800003ff size=0x400 read=true write=false exec=false initialized=true
+name=.text start=180001000 end=1800775ff size=0x76600 read=true write=false exec=true initialized=true
+name=.rdata start=180078000 end=18008cdff size=0x14e00 read=true write=false exec=false initialized=true
+name=.data start=18008d000 end=18008e68f size=0x1690 read=true write=true exec=false initialized=true
+name=.pdata start=18008f000 end=1800937ff size=0x4800 read=true write=false exec=false initialized=true
+name=.rsrc start=180094000 end=1800941ff size=0x200 read=true write=false exec=false initialized=true
+name=.reloc start=180095000 end=1800953ff size=0x400 read=true write=false exec=false initialized=true
+name=tdb start=ff00000000 end=ff0000184f size=0x1850 read=true write=true exec=false initialized=true

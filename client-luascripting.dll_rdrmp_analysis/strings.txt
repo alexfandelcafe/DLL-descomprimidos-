@@ -1,0 +1,4446 @@
+180000000	2	MZ
+180000130	4	PE
+180000238	8	.text
+180000260	8	.rdata
+180000288	8	.data
+1800002b0	8	.pdata
+1800002d8	8	.rsrc
+180000300	8	.reloc
+180256b50	125	C:\Users\K3rhos\Desktop\cef_binary_135.0.20+ge7de5c3+chromium-135.0.7049.85_windows64\libcef_dll\ctocpp\list_value_ctocpp.cc
+180256bd0	36	 called with unexpected class type 
+180256bf8	14	UnwrapDerived
+180256c08	22	Check failed: false. 
+180256c20	6	 vs. 
+180256c28	18	) at API version 
+180256c40	12	, expected 
+180256c50	54	Cannot wrap struct with invalid base.size value (got 
+180256c90	125	C:\Users\K3rhos\Desktop\cef_binary_135.0.20+ge7de5c3+chromium-135.0.7049.85_windows64\libcef_dll/ctocpp/ctocpp_ref_counted.h
+180256d10	37	kWrapperType == wrapperStruct->type_
+180256d38	15	Check failed: 
+180256e20	127	C:\Users\K3rhos\Desktop\cef_binary_135.0.20+ge7de5c3+chromium-135.0.7049.85_windows64\libcef_dll\ctocpp\binary_value_ctocpp.cc
+1802570d0	131	C:\Users\K3rhos\Desktop\cef_binary_135.0.20+ge7de5c3+chromium-135.0.7049.85_windows64\libcef_dll\ctocpp\dictionary_value_ctocpp.cc
+180257310	120	C:\Users\K3rhos\Desktop\cef_binary_135.0.20+ge7de5c3+chromium-135.0.7049.85_windows64\libcef_dll\ctocpp\value_ctocpp.cc
+180257f80	28	Dear ImGui 1.91.4 (19140)
+180257fa0	32	Size column to fit###SizeOne
+180257fc0	36	Size all columns to fit###SizeAll
+180257fe8	40	Size all columns to default###SizeAll
+180258010	28	Reset order###ResetOrder
+180258030	16	(Main menu bar)
+180258048	12	(Untitled)
+180258058	12	Open '%s'
+180258068	24	Copy Link###CopyLink
+180258088	10	LeftArrow
+180258098	11	RightArrow
+1802580a8	8	UpArrow
+1802580b0	10	DownArrow
+1802580bc	7	PageUp
+1802580c8	9	PageDown
+1802580e0	7	Insert
+1802580e8	7	Delete
+1802580f0	10	Backspace
+1802580fc	6	Space
+180258104	6	Enter
+18025810c	7	Escape
+180258118	9	LeftCtrl
+180258128	10	LeftShift
+180258138	8	LeftAlt
+180258140	10	LeftSuper
+180258150	10	RightCtrl
+180258160	11	RightShift
+180258170	9	RightAlt
+180258180	11	RightSuper
+1802581c8	11	Apostrophe
+1802581d4	6	Comma
+1802581dc	6	Minus
+1802581e4	7	Period
+1802581ec	6	Slash
+1802581f8	10	Semicolon
+180258204	6	Equal
+180258210	12	LeftBracket
+180258220	10	Backslash
+180258230	13	RightBracket
+180258240	12	GraveAccent
+180258250	9	CapsLock
+180258260	11	ScrollLock
+180258270	8	NumLock
+180258278	12	PrintScreen
+180258284	6	Pause
+180258290	8	Keypad0
+180258298	8	Keypad1
+1802582a0	8	Keypad2
+1802582a8	8	Keypad3
+1802582b0	8	Keypad4
+1802582b8	8	Keypad5
+1802582c0	8	Keypad6
+1802582c8	8	Keypad7
+1802582d0	8	Keypad8
+1802582d8	8	Keypad9
+1802582e0	14	KeypadDecimal
+1802582f0	13	KeypadDivide
+180258300	15	KeypadMultiply
+180258310	15	KeypadSubtract
+180258320	10	KeypadAdd
+180258330	12	KeypadEnter
+180258340	12	KeypadEqual
+180258350	8	AppBack
+180258358	11	AppForward
+180258368	13	GamepadStart
+180258378	12	GamepadBack
+180258388	16	GamepadFaceLeft
+180258398	17	GamepadFaceRight
+1802583b0	14	GamepadFaceUp
+1802583c0	16	GamepadFaceDown
+1802583d0	16	GamepadDpadLeft
+1802583e0	17	GamepadDpadRight
+1802583f8	14	GamepadDpadUp
+180258408	16	GamepadDpadDown
+180258418	10	GamepadL1
+180258428	10	GamepadR1
+180258438	10	GamepadL2
+180258448	10	GamepadR2
+180258458	10	GamepadL3
+180258468	10	GamepadR3
+180258478	18	GamepadLStickLeft
+180258490	19	GamepadLStickRight
+1802584a8	16	GamepadLStickUp
+1802584b8	18	GamepadLStickDown
+1802584d0	18	GamepadRStickLeft
+1802584e8	19	GamepadRStickRight
+180258500	16	GamepadRStickUp
+180258510	18	GamepadRStickDown
+180258528	10	MouseLeft
+180258538	11	MouseRight
+180258548	12	MouseMiddle
+180258558	8	MouseX1
+180258560	8	MouseX2
+180258568	12	MouseWheelX
+180258578	12	MouseWheelY
+180258588	8	ModCtrl
+180258590	9	ModShift
+18025859c	7	ModAlt
+1802585a8	9	ModSuper
+1802585c0	3296	..-         -XXXXXXX-    X    -           X           -XXXXXXX          -          XXXXXXX-     XX          - XX       XX ..-         -X.....X-   X.X   -          X.X          -X.....X          -          X.....X-    X..X         -X..X     X..X---         -XXX.XXX-  X...X  -         X...X         -X....X           -           X....X-    X..X         -X...X   X...XX           -  X.X  - X.....X -        X.....X        -X...X            -            X...X-    X..X         - X...X X...X XX          -  X.X  -X.......X-       X.......X       -X..X.X           -           X.X..X-    X..X         -  X...X...X  X.X         -  X.X  -XXXX.XXXX-       XXXX.XXXX       -X.X X.X          -          X.X X.X-    X..XXX       -   X.....X   X..X        -  X.X  -   X.X   -          X.X          -XX   X.X         -         X.X   XX-    X..X..XXX    -    X...X    X...X       -  X.X  -   X.X   -    XX    X.X    XX    -      X.X        -        X.X      -    X..X..X..XX  -     X.X     X....X      -  X.X  -   X.X   -   X.X    X.X    X.X   -       X.X       -       X.X       -    X..X..X..X.X -    X...X    X.....X     -  X.X  -   X.X   -  X..X    X.X    X..X  -        X.X      -      X.X        -XXX X..X..X..X..X-   X.....X   X......X    -  X.X  -   X.X   - X...XXXXXX.XXXXXX...X -         X.X   XX-XX   X.X         -X..XX........X..X-  X...X...X  X.......X   -  X.X  -   X.X   -X.....................X-          X.X X.X-X.X X.X          -X...X...........X- X...X X...X X........X  -  X.X  -   X.X   - X...XXXXXX.XXXXXX...X -           X.X..X-X..X.X           - X..............X-X...X   X...XX.........X -XXX.XXX-   X.X   -  X..X    X.X    X..X  -            X...X-X...X            -  X.............X-X..X     X..XX..........X-X.....X-   X.X   -   X.X    X.X    X.X   -           X....X-X....X           -  X.............X- XX       XX X......XXXXX-XXXXXXX-   X.X   -    XX    X.X    XX    -          X.....X-X.....X          -   X............X--------------X...X..X    ---------   X.X   -          X.X          -          XXXXXXX-XXXXXXX          -   X...........X -             X..X X..X   -       -XXXX.XXXX-       XXXX.XXXX       -------------------------------------    X..........X -             X.X  X..X   -       -X.......X-       X.......X       -    XX           XX    -           -    X..........X -             XX    X..X  -       - X.....X -        X.....X        -   X.X           X.X   -           -     X........X  -                   X..X  -       -  X...X  -         X...X         -  X..X           X..X  -           -     X........X  -                    XX   -       -   X.X   -          X.X          - X...XXXXXXXXXXXXX...X -           -     XXXXXXXXXX  -             -------------       -    X    -           X           -X.....................X-           -------------------                                 ----------------------------------- X...XXXXXXXXXXXXX...X -                                                                                                 -  X..X           X..X  -                                                                                                 -   X.X           X.X   -                                                                                                 -    XX           XX    -                                           
+18025c3d0	6	%I64d
+18025c3dc	6	%I64u
+18025c3ec	7	double
+18025c510	44	!x-sys-default-locale
+18025c5e0	15	bad allocation
+18025c608	18	Unknown exception
+18025c620	21	bad array new length
+18025c638	16	string too long
+18025c650	19	unregistered class
+18025c668	20	%s expected, got %s
+18025c680	41	The class is not registered in LuaBridge
+18025c6b0	21	No member named '%s'
+18025c6c8	24	No writable member '%s'
+18025c6e0	14	missing error
+18025c6f0	32	Unable to continue registration
+18025c710	8	__index
+18025c718	11	__newindex
+18025c728	43	endNamespace () called on global namespace
+18025c754	6	event
+18025c760	9	register
+18025c770	12	add_handler
+18025c780	8	trigger
+18025c788	18	trigger_on_server
+18025c7a0	50	You cannot register an event with 'core:' prefix.
+18025c7d8	46	You cannot call an event with 'core:' prefix.
+18025c808	7	string
+18025c818	28	Failed to dump function: %s
+18025c838	25	Invalid arguments count.
+18025c860	28	Failed to load function: %s
+18025c880	16	vector too long
+18025ccf8	14	unknown error
+18025d988	9	userdata
+180261068	8	generic
+180261070	7	system
+180261078	9	bad cast
+180261084	6	false
+180261098	23	invalid stoul argument
+1802610b0	28	stoul argument out of range
+1802610fc	14	?\UNC\
+180261110	30	\\?\GLOBALROOT
+180261130	6	space
+180261138	17	weakly_canonical
+180261170	15	unknown region
+180261180	13	unknown file
+180261190	13	unknown line
+1802611a4	7	0x%02x
+1802611b8	8	[error]
+1802611c0	9	[error] 
+1802611cc	6	 --> 
+1802611d8	6	 ...\n
+1802611e8	8	\nHint: 
+1802611f0	14	invalid token
+180261200	36	toml::parse_boolean: internal error
+180261228	32	the next token is not a boolean
+180261248	22	toml::parse_boolean: 
+180261260	28	too large input (> int64_t)
+180261280	67	toml::parse_binary_integer: only signed 64bit integer is available
+1802612c8	43	toml::parse_binary_integer: internal error
+1802612f8	33	the next token is not an integer
+180261320	28	toml::parse_binary_integer:
+180261340	13	out of range
+180261350	27	toml::parse_octal_integer:
+180261370	33	toml::parse_hexadecimal_integer:
+180261398	32	toml::parse_hexadecimal_integer
+1802613b8	13	leading zero
+1802613d0	64	toml::parse_integer: leading zero in an Integer is not allowed.
+180261410	19	none of 0x, 0o, 0b
+180261428	54	toml::parse_integer: unknown integer prefix appeared.
+180261460	21	toml::parse_integer:
+180261478	22	toml::parse_integer: 
+1802614b8	22	toml::parse_floating:
+1802614d0	30	the next token is not a float
+1802614f0	23	toml::parse_floating: 
+180261508	28	not a valid UTF-8 codepoint
+180261530	89	toml::read_utf8_codepoint: codepoints in the range [0xD800, 0xDFFF] are not valid UTF-8.
+180261590	30	should be in [0x00..0x10FFFF]
+1802615b0	57	toml::read_utf8_codepoint: input codepoint is too large.
+1802615f0	38	the next token is not a backslash "\"
+180261618	30	toml::parse_escape_sequence: 
+180261660	69	parse_escape_sequence: invalid token found in UTF-8 codepoint uXXXX.
+1802616b0	72	parse_escape_sequence: invalid token found in UTF-8 codepoint Uxxxxxxxx
+180261700	103	if you want to write backslash as just one backslash, use literal string like: regex    = '<\i\c*\s*>'
+180261770	64	escape sequence is one of \, ", b, t, n, f, r, uxxxx, Uxxxxxxxx
+1802617b0	57	parse_escape_sequence: unknown escape sequence appeared.
+1802617f0	14	should be """
+180261800	37	parse_ml_basic_string: invalid token
+180261828	21	not sufficient token
+180261840	48	parse_ml_basic_string: unexpected end of region
+180261878	12	end of this
+180261888	60	parse_ml_basic_string: closing delimiter has invalid length
+1802618c8	51	parse_ml_basic_string: invalid utf8 sequence found
+180261900	76	toml::parse_ml_basic_string: the next token is not a valid multiline string
+180261950	12	should be "
+180261960	34	parse_basic_string: invalid token
+180261988	45	parse_basic_string: unexpected end of region
+1802619b8	48	parse_basic_string: invalid utf8 sequence found
+1802619e8	63	toml::parse_basic_string: the next token is not a valid string
+180261a28	14	should be '''
+180261a38	39	parse_ml_literal_string: invalid token
+180261a68	62	parse_ml_literal_string: closing delimiter has invalid length
+180261aa8	53	parse_ml_literal_string: invalid utf8 sequence found
+180261ae0	86	toml::parse_ml_literal_string: the next token is not a valid multiline literal string
+180261b38	12	should be '
+180261b48	36	parse_literal_string: invalid token
+180261b70	50	parse_literal_string: invalid utf8 sequence found
+180261bb0	73	toml::parse_literal_string: the next token is not a valid literal string
+180261c00	31	the next token is not a string
+180261c20	21	toml::parse_string: 
+180261c38	14	should be `-`
+180261c48	44	toml::parse_local_date: invalid year format
+180261c78	45	toml::parse_local_date: invalid month format
+180261ca8	43	toml::parse_local_date: invalid day format
+180261ce0	78	month should be 01-12, day should be 01-28,29,30,31, depending on month/year.
+180261d30	61	toml::parse_date: invalid date: it does not conform RFC3339.
+180261d70	35	the next token is not a local_date
+180261d98	25	toml::parse_local_date: 
+180261db8	14	should be `:`
+180261dc8	44	toml::parse_local_time: invalid year format
+180261df8	45	toml::parse_local_time: invalid month format
+180261e28	46	toml::parse_local_time: invalid second format
+180261e60	107	hour should be 00-23, minute should be 00-59, second should be 00-60 (depending on the leap second rules.)
+180261ed0	67	toml::parse_local_time: invalid time: it does not conform RFC3339.
+180261f18	49	toml::parse_local_time: invalid subsecond format
+180261f50	35	the next token is not a local_time
+180261f78	25	toml::parse_local_time: 
+180261f98	19	date, not datetime
+180261fb0	52	toml::parse_local_datetime: invalid datetime format
+180261fe8	29	should be `T` or ` ` (space)
+180262008	20	invalid time format
+180262020	39	the next token is not a local_datetime
+180262048	29	toml::parse_local_datetime: 
+180262068	53	toml::parse_offset_datetime: invalid datetime format
+1802620a0	74	toml::parse_offset_datetime: invalid offset: it does not conform RFC3339.
+1802620f0	26	should be `Z` or `+HH:MM`
+180262110	40	the next token is not a offset_datetime
+180262138	30	toml::parse_offset_datetime: 
+180262158	35	the next token is not a simple key
+180262180	25	toml::parse_simple_key: 
+1802621a0	49	toml::parse_key: dotted key contains invalid key
+1802621d8	14	should be `.`
+1802621e8	50	toml::parse_key: dotted key contains invalid key 
+180262220	63	bare keys  : non-empty strings composed only of [A-Za-z0-9_-].
+180262260	59	quoted keys: same as "basic strings" or 'literal strings'.
+1802622a0	64	dotted keys: sequence of bare or quoted keys joined with a dot.
+1802622e0	19	is not a valid key
+1802622f8	42	toml::parse_key: an invalid key appeared.
+180262328	21	pass: +09:00, -05:30
+180262340	19	fail: +9:00, -5:30
+180262358	15	[+-]HH:MM or Z
+180262368	37	bad offset: should be [+-]HH:MM or Z
+180262390	54	pass: 1979-05-27T07:32:00, 1979-05-27 07:32:00.999999
+1802623c8	43	fail: 1979-05-27T7:32:00, 1979-05-27 17:32
+1802623f8	16	HH:MM:SS.subsec
+180262408	36	bad time: should be HH:MM:SS.subsec
+180262430	42	fail: 1979-05-27T7:32:00, 1979-05-27 7:32
+180262460	25	T or space required here
+180262480	20	bad time: missing T
+180262498	47	pass: +1.0, -2e-2, 3.141_592_653_589, inf, nan
+1802624c8	39	fail: .0, 1., _1.0, 1.0_, 1_.0, 1.0__0
+1802624f0	46	bad float: `_` should be surrounded by digits
+180262520	53	pass: -42, 1_000, 1_2_3_4_5, 0xC0FFEE, 0b0010, 0o755
+180262558	19	fail: 1__000, 0123
+180262570	48	bad integer: `_` should be surrounded by digits
+1802625a0	26	bad integer: leading zero
+1802625c0	61	pass: 1979-05-27T07:32:00-07:00, 1979-05-27 07:32:00.999999Z
+180262600	53	fail: 1979-05-27T7:32:00-7:00, 1979-05-27 7:32-00:30
+180262638	29	bad datetime: invalid format
+180262658	26	bad float: invalid format
+180262678	34	integer part required before this
+1802626a0	32	`_` is not surrounded by digits
+1802626c0	47	bad number: `_` should be surrounded by digits
+1802626f0	35	bad format: unknown value appeared
+180262718	14	should be `[`
+180262728	30	toml::parse_table_key: no `[`
+180262748	8	not key
+180262750	35	toml::parse_table_key: invalid key
+180262778	14	should be `]`
+180262788	30	toml::parse_table_key: no `]`
+1802627a8	17	expected newline
+1802627c0	58	toml::parse_table_key: newline required after [table.key]
+180262800	45	toml::parse_table_key: not a valid table key
+180262830	15	should be `[[`
+180262840	37	toml::parse_array_table_key: no `[[`
+180262868	10	not a key
+180262878	41	toml::parse_array_table_key: invalid key
+1802628a8	15	should be `]]`
+1802628b8	37	toml::parse_array_table_key: no `]]`
+1802628e0	66	toml::parse_array_table_key: newline required after [[table.key]]
+180262928	51	toml::parse_array_table_key: not a valid table key
+18026295c	8	const 
+180262968	12	__metatable
+180262978	8	vector3
+180262980	6	__add
+180262988	6	__sub
+180262990	6	__mul
+180262998	11	__tostring
+1802629a8	11	normalized
+1802629b8	8	is_null
+1802629c0	9	distance
+1802629e4	7	thread
+1802629ec	7	create
+1802629fc	6	imgui
+180262a08	14	get_mouse_pos
+180262a20	12	add_message
+180262a30	8	is_open
+180262a38	18	)(\s+[^>]*)?)\s*>
+180262a50	13	<\s*(\/?\s*(
+180262a68	13	font|span|br
+180262a88	18	send_chat_message
+180262a9c	7	ESCAPE
+180262acc	6	MINUS
+180262ad4	6	EQUAL
+180262ae0	10	BACKSPACE
+180262b18	20	LEFT_SQUARE_BRACKET
+180262b30	21	RIGHT_SQUARE_BRACKET
+180262b48	6	ENTER
+180262b50	10	LEFT_CTRL
+180262b80	10	SEMICOLON
+180262b90	11	APOSTROPHE
+180262b9c	6	GRAVE
+180262ba8	11	LEFT_SHIFT
+180262bb8	10	BACKSLASH
+180262bdc	6	COMMA
+180262be4	7	PERIOD
+180262bf0	14	FORWARD_SLASH
+180262c00	12	RIGHT_SHIFT
+180262c10	9	ASTERISK
+180262c20	9	LEFT_ALT
+180262c2c	6	SPACE
+180262c38	10	CAPS_LOCK
+180262c70	8	NUMLOCK
+180262c78	12	SCROLL_LOCK
+180262c88	9	NUMPAD_7
+180262c98	9	NUMPAD_8
+180262ca8	9	NUMPAD_9
+180262cb8	13	NUMPAD_MINUS
+180262cc8	9	NUMPAD_4
+180262cd8	9	NUMPAD_5
+180262ce8	9	NUMPAD_6
+180262cf8	12	NUMPAD_PLUS
+180262d08	9	NUMPAD_1
+180262d18	9	NUMPAD_2
+180262d28	9	NUMPAD_3
+180262d38	9	NUMPAD_0
+180262d48	14	NUMPAD_PERIOD
+180262d60	13	LEFT_WINDOWS
+180262d70	14	RIGHT_WINDOWS
+180262d88	13	NUMPAD_ENTER
+180262d98	11	RIGHT_CTRL
+180262da8	21	NUMPAD_FORWARD_SLASH
+180262dc0	10	RIGHT_ALT
+180262dd8	9	UP_ARROW
+180262de8	8	PAGE_UP
+180262df0	11	LEFT_ARROW
+180262e00	12	RIGHT_ARROW
+180262e10	11	DOWN_ARROW
+180262e20	10	PAGE_DOWN
+180262e2c	7	INSERT
+180262e34	7	DELETE
+180262e40	8	natives
+180262e48	6	actor
+180262e50	15	teleport_actor
+180262e60	28	teleport_actor_with_heading
+180262e80	14	get_max_speed
+180262e90	13	get_position
+180262ea0	12	get_heading
+180262eb0	15	get_actor_axis
+180262ec0	18	set_actor_heading
+180262ed8	25	set_actor_one_shot_death
+180262ef8	32	get_actor_one_shot_death_status
+180262f18	24	get_physinst_from_actor
+180262f30	24	can_actor_hogtie_target
+180262f48	16	is_actor_player
+180262f58	22	is_actor_local_player
+180262f70	19	get_debug_padindex
+180262f88	20	get_player_padindex
+180262fa0	29	get_player_padindex_no_actor
+180262fc0	20	set_player_padindex
+180262fd8	19	set_player_control
+180262ff0	37	set_player_enable_mount_use_contexts
+180263018	29	set_player_disable_targeting
+180263038	23	is_player_controllable
+180263050	20	is_player_in_combat
+180263068	27	is_player_in_combat_within
+180263088	36	set_reticle_draw_disabled_by_script
+1802630b0	26	set_player_control_rumble
+1802630d0	13	reset_rumble
+1802630e0	26	get_player_control_config
+180263100	26	set_player_control_config
+180263120	14	player_rumble
+180263130	29	set_player_current_notoriety
+180263150	25	set_player_current_honor
+180263170	22	set_player_combatmode
+180263188	22	get_player_combatmode
+1802631a0	31	set_player_combatmode_override
+1802631c0	32	set_player_combatmode_exclusion
+1802631e0	25	set_player_vehicle_input
+180263200	32	add_player_control_horse_follow
+180263220	32	rem_player_control_horse_follow
+180263240	17	get_player_actor
+180263258	16	is_local_player
+180263268	22	is_local_player_valid
+180263280	14	is_slot_valid
+180263290	15	get_slot_actor
+1802632a0	15	get_actor_slot
+1802632b0	15	get_local_slot
+1802632c0	14	get_slot_name
+1802632d0	18	get_slot_position
+1802632e8	16	get_slot_facing
+1802632f8	27	is_player_targetting_actor
+180263318	18	is_player_deadeye
+180263330	24	set_player_deadeye_mode
+180263348	26	set_force_player_aim_mode
+180263368	29	set_player_endless_readymode
+180263388	22	get_player_zoom_state
+1802633a0	22	is_player_using_cover
+1802633b8	23	attach_player_to_cover
+1802633d0	27	simulate_player_input_gait
+1802633f0	20	actor_pop_next_gait
+180263408	21	is_actor_using_cover
+180263420	21	is_actor_using_ledge
+180263438	26	set_player_deadeye_points
+180263458	26	add_player_deadeye_points
+180263478	26	get_player_deadeye_points
+180263498	20	set_disable_deadeye
+1802634b0	27	set_deadeye_point_modifier
+1802634d0	23	set_max_deadeye_points
+1802634e8	29	set_deadeye_multilock_enable
+180263508	31	set_deadeye_targetpaint_enable
+180263528	28	set_deadeye_invulnerability
+180263548	27	set_deadeye_damage_scaling
+180263568	30	set_deadeye_regeneration_rate
+180263588	41	set_deadeye_regeneration_rate_multiplier
+1802635b8	22	set_deadeye_timescale
+1802635d0	21	set_infinite_deadeye
+1802635e8	27	get_time_player_shot_close
+180263608	19	set_player_posture
+180263620	25	set_actor_allow_dismount
+180263640	26	set_actor_invulnerability
+180263660	26	get_actor_invulnerability
+180263680	16	set_tough_actor
+180263690	21	set_actor_unkillable
+1802636a8	25	set_actor_permanent_dead
+1802636c8	18	clear_actor_proof
+1802636e0	16	get_actor_proof
+1802636f0	16	set_actor_proof
+180263700	26	set_actor_overhealth_mode
+180263720	28	actor_repair_incapacitation
+180263740	24	get_actor_incapacitated
+180263758	21	set_allow_ride_by_ai
+180263770	25	set_allow_ride_by_player
+180263790	15	set_allow_ride
+1802637a0	15	set_allow_jack
+1802637b0	18	set_allow_execute
+1802637c8	24	set_allow_deadeye_locks
+1802637e0	31	set_deadeye_locks_on_head_only
+180263800	19	actor_dismount_now
+180263818	18	is_actor_reacting
+180263830	26	get_actor_update_priority
+180263850	26	set_actor_update_priority
+180263870	33	_set_actor_force_high_lod_update
+180263898	24	actor_force_next_update
+1802638b0	23	is_any_actor_in_sphere
+1802638c8	31	set_npc_to_npc_cripple_disable
+1802638e8	35	set_npc_to_npc_damage_scale_factor
+180263910	41	set_player_to_player_damage_scale_factor
+180263940	37	set_npc_to_actor_damage_scale_factor
+180263968	30	set_actor_death_drop_distance
+180263988	24	set_damage_scale_enable
+1802639a0	19	set_cripple_enable
+1802639b8	17	set_cripple_flag
+1802639d0	18	is_actor_crippled
+1802639e8	17	is_actor_handsup
+180263a00	30	set_allow_cold_weather_breath
+180263a20	24	set_dlc_fallback_avatar
+180263a38	12	set_emotion
+180263a48	22	set_actor_stop_update
+180263a60	22	get_actor_stop_update
+180263a78	17	is_actor_in_room
+180263a90	27	register_traffic_objectset
+180263ab0	23	register_traffic_actor
+180263ac8	29	register_gps_curve_objectset
+180263ae8	27	reset_player_target_weight
+180263b08	23	set_zombie_target_mode
+180263b20	32	set_actor_skip_visibility_check
+180263b40	20	feed_code_warp_dist
+180263b58	34	set_actor_streaming_high_priority
+180263b80	9	actorset
+180263b90	26	create_actorset_in_layout
+180263bb0	18	is_actorset_valid
+180263bc8	17	destroy_actorset
+180263be0	17	disband_actorset
+180263bf8	20	add_actorset_member
+180263c10	23	remove_actorset_member
+180263c28	21	is_actor_in_actorset
+180263c40	24	get_actor_from_actorset
+180263c58	18	get_actorset_size
+180263c70	10	actordraw
+180263c80	15	set_draw_actor
+180263c90	15	get_draw_actor
+180263ca0	10	ai_animal
+180263cb0	42	animal_species_flock_and_tuning_clear_all
+180263ce0	42	animal_species_needs_domestication_levels
+180263d10	38	animal_species_set_special_use_gringo
+180263d38	38	animal_species_set_unalerted_behavior
+180263d60	33	animal_species_flock_set_enabled
+180263d88	35	animal_species_flock_set_parameter
+180263db0	43	animal_species_flock_set_boolean_parameter
+180263de0	41	animal_species_add_external_random_noise
+180263e10	38	animal_species_add_external_repulsion
+180263e38	53	animal_species_add_external_influence_flock_reasoner
+180263e70	39	animal_species_tuning_get_attrib_float
+180263e98	38	animal_species_tuning_set_attrib_bool
+180263ec0	39	animal_species_tuning_set_attrib_float
+180263ee8	38	animal_species_tuning_move_set_attrib
+180263f10	49	animal_species_tuning_set_attachment_with_offset
+180263f48	52	animal_species_tuning_set_attachment_with_childbone
+180263f80	44	animal_species_tuning_set_hunting_prey_prop
+180263fb0	49	animal_species_tuning_set_attrib_float_from_time
+180263fe8	26	animal_species_init_begin
+180264008	29	animal_species_init_register
+180264028	24	animal_species_init_end
+180264040	32	animal_species_gringo_clear_all
+180264060	31	animal_species_gringo_load_all
+180264080	29	animal_species_rel_clear_all
+1802640a0	43	animal_species_rel_set_attack_grab_enabled
+1802640d0	41	animal_species_rel_set_predator_and_prey
+180264100	30	animal_species_rel_set_threat
+180264120	29	animal_species_rel_set_avoid
+180264140	33	animal_species_rel_set_play_hunt
+180264168	34	animal_species_rel_set_play_chase
+180264190	32	animal_species_rel_set_play_beg
+1802641b0	34	animal_species_rel_set_play_growl
+1802641d8	34	animal_species_rel_set_play_sniff
+180264200	34	animal_species_rel_get_can_attack
+180264228	34	animal_species_rel_set_can_attack
+180264250	32	animal_species_rel_set_can_warn
+180264270	34	animal_species_rel_set_eat_gringo
+180264298	31	animal_actor_get_domestication
+1802642b8	31	animal_actor_set_domestication
+1802642d8	25	animal_actor_get_species
+1802642f8	30	animal_tuning_set_attrib_bool
+180264318	31	animal_tuning_set_attrib_float
+180264338	24	animal_actor_set_docile
+180264350	13	ai_attention
+180264360	27	add_fixed_attention_target
+180264380	10	ai_combat
+180264390	34	combat_class_ai_clear_all_attribs
+1802643b8	33	combat_class_ai_get_attrib_float
+1802643e0	35	combat_class_ai_get_range_accuracy
+180264408	32	combat_class_ai_set_attrib_bool
+180264428	33	combat_class_ai_set_attrib_float
+180264450	42	combat_class_ai_set_fight_attack_distance
+180264480	43	combat_class_ai_set_fight_desired_distance
+1802644b0	47	combat_class_ai_set_fight_time_between_attacks
+1802644e0	48	combat_class_ai_set_friendly_fire_consideration
+180264510	35	combat_class_ai_set_range_accuracy
+180264538	47	combat_class_ai_set_range_between_bursts_delay
+180264568	31	combat_class_name_register_int
+180264588	28	combat_class_request_exists
+1802645a8	31	combat_class_request_get_actor
+1802645c8	34	combat_class_request_get_enum_int
+1802645f0	31	combat_class_request_completed
+180264610	31	combat_class_server_set_script
+180264630	40	ai_combat_set_new_state_machine_enabled
+180264658	12	ai_converse
+180264668	33	ai_converse_set_greeting_context
+180264690	39	ai_converse_set_gossip_ambient_context
+1802646b8	37	ai_converse_set_gossip_reply_context
+1802646e0	38	ai_converse_set_goodbye_start_context
+180264708	32	ai_converse_set_goodbye_context
+180264728	42	ai_converse_init_campfire_context_storage
+180264758	40	ai_converse_set_campfire_invite_context
+180264780	33	ai_converse_set_campfire_context
+1802647a8	39	ai_converse_set_campfire_story_context
+1802647d0	44	ai_converse_set_campfire_story_done_context
+180264800	45	ai_converse_set_campfire_story_leave_context
+180264830	42	ai_converse_set_campfire_response_context
+180264860	30	ai_set_campfire_story_enabled
+180264880	32	ai_converse_set_giddyup_context
+1802648a0	29	ai_converse_set_woah_context
+1802648c0	20	ai_converse_disable
+1802648d8	19	ai_converse_enable
+1802648f0	35	ai_converse_add_campfire_converser
+180264918	38	ai_converse_remove_campfire_converser
+180264940	36	ai_converse_set_greet_saucy_context
+180264968	32	ai_converse_set_solicit_context
+180264988	34	ai_converse_set_rejection_context
+1802649b0	20	game_estimate_mount
+1802649c8	37	ai_converse_set_greet_player_context
+1802649f0	10	ai_memory
+180264a00	20	memory_clear_events
+180264a18	17	memory_clear_all
+180264a30	37	memory_consider_according_to_faction
+180264a58	19	memory_consider_as
+180264a70	25	memory_consider_as_enemy
+180264a90	25	memory_get_is_identified
+180264ab0	22	memory_get_is_visible
+180264ac8	35	memory_get_was_visible_within_time
+180264af0	16	memory_identify
+180264b00	23	memory_report_position
+180264b18	28	memory_report_position_auto
+180264b38	25	memory_get_must_identify
+180264b58	23	memory_attack_on_sight
+180264b70	31	memory_clear_riding_preference
+180264b90	21	memory_prefer_riding
+180264ba8	22	memory_prefer_walking
+180264bc0	20	memory_prefer_melee
+180264bd8	19	memory_force_melee
+180264bf0	22	memory_allow_shooting
+180264c08	24	memory_allow_take_cover
+180264c20	33	memory_allow_throwing_explosives
+180264c48	36	memory_clear_weapon_draw_preference
+180264c70	34	memory_set_weapon_draw_preference
+180264c98	36	memory_get_position_last_known_time
+180264cc0	30	memory_everybody_forget_about
+180264ce0	41	memory_everybody_forget_about_everything
+180264d10	43	memory_should_always_pathfind_in_formation
+180264d40	27	ai_global_clear_all_danger
+180264d60	23	ai_global_clear_danger
+180264d78	31	ai_global_get_permanent_danger
+180264d98	20	ai_global_is_danger
+180264db0	31	ai_global_set_permanent_danger
+180264dd0	24	ai_global_report_danger
+180264de8	8	ai_misc
+180264df0	22	ai_behavior_set_allow
+180264e08	22	ai_goal_aim_at_object
+180264e20	18	ai_goal_aim_clear
+180264e38	22	ai_goal_look_at_actor
+180264e50	22	ai_goal_look_at_coord
+180264e68	26	ai_goal_look_at_actor_new
+180264e88	24	ai_goal_look_at_neutral
+180264ea0	19	ai_goal_look_clear
+180264eb8	23	ai_goal_shoot_at_coord
+180264ed0	20	ai_goal_shoot_clear
+180264ee8	24	ai_predicate_find_named
+180264f00	22	ai_predicate_is_valid
+180264f18	28	ai_predicate_override_clear
+180264f38	32	ai_predicate_override_clear_all
+180264f58	31	ai_predicate_override_set_bool
+180264f78	16	ai_ignore_actor
+180264f88	23	ai_stop_ignoring_actor
+180264fa0	24	ai_stop_ignoring_actors
+180264fb8	19	ai_dont_harm_actor
+180264fd0	25	ai_clear_dont_harm_actor
+180264ff0	31	ai_set_allow_hostile_attack_ai
+180265010	35	ai_set_allow_hostile_attack_player
+180265038	25	ai_shoot_target_set_bone
+180265058	23	set_forced_look_enable
+180265070	25	stop_force_look_at_coord
+180265090	20	force_look_at_actor
+1802650a8	27	set_auto_conversation_look
+1802650c8	35	ai_goal_look_at_player_when_within
+1802650f0	19	clear_actors_horse
+180265108	17	get_actors_horse
+180265120	17	set_actors_horse
+180265138	22	is_ai_actor_in_combat
+180265150	22	is_ai_actor_unalerted
+180265168	31	ai_set_range_accuracy_modifier
+180265188	16	ai_set_disarmed
+180265198	41	ai_impairment_mask_get_current_for_actor
+1802651c8	27	ai_impairment_mask_matches
+1802651e8	21	ai_actor_force_speed
+180265200	38	ai_actor_set_match_walk_speed_enabled
+180265228	24	ai_set_weapon_max_range
+180265240	24	ai_set_weapon_min_range
+180265258	28	ai_set_weapon_desired_range
+180265278	22	ai_set_burst_duration
+180265290	33	ai_set_burst_duration_randomness
+1802652b8	18	ai_set_fire_delay
+1802652d0	29	ai_set_fire_delay_randomness
+1802652f0	23	ai_set_shots_per_burst
+180265308	24	ai_clear_burst_duration
+180265320	35	ai_clear_burst_duration_randomness
+180265348	20	ai_clear_fire_delay
+180265360	31	ai_clear_fire_delay_randomness
+180265380	25	ai_clear_shots_per_burst
+1802653a0	20	ai_reset_firing_fsm
+1802653b8	38	ai_set_gatling_max_horizontal_degrees
+1802653e0	23	ai_is_hostile_or_enemy
+1802653f8	21	ai_quick_exit_gringo
+180265410	15	ai_is_aggroing
+180265420	32	ai_set_allowed_mount_directions
+180265440	22	ai_avoid_ignore_actor
+180265458	30	is_ai_actor_engaged_in_combat
+180265478	41	was_ai_actor_player_weapon_threatened_by
+1802654a8	35	ai_set_allow_attack_hogtied_actors
+1802654d0	21	ai_get_is_retreating
+1802654e8	41	ai_has_player_projectile_impacted_within
+180265518	44	ai_has_player_projectile_near_missed_within
+180265548	43	ai_set_player_projectile_impact_hear_range
+180265578	28	ai_has_actor_bumped_into_me
+180265598	19	ai_was_pushed_over
+1802655b0	42	ai_self_defense_get_attacked_player_first
+1802655e0	25	ai_get_task_retreat_flag
+180265600	22	prevent_despawn_clear
+180265618	27	prevent_despawn_set_sphere
+180265638	33	ai_has_actor_threatened_recently
+180265660	18	ai_replace_all_tr
+180265678	28	ai_set_tr_program_for_actor
+180265694	7	ai_nav
+1802656a0	28	ai_clear_nav_material_usage
+1802656c0	23	ai_set_nav_actor_width
+1802656d8	36	ai_set_nav_hazard_avoidance_enabled
+180265700	26	ai_set_nav_material_usage
+180265720	31	ai_set_nav_pathfinding_enabled
+180265740	44	ai_set_nav_pathfinding_enabled_when_driving
+180265770	33	ai_set_nav_max_water_depth_level
+180265798	32	ai_set_nav_actor_avoidance_mode
+1802657b8	39	ai_set_nav_actor_avoidance_allow_turns
+1802657e0	31	ai_reset_nav_subgrid_cell_size
+180265800	29	ai_set_nav_subgrid_cell_size
+180265820	37	ai_set_nav_failsafe_movement_enabled
+180265848	37	ai_get_nav_failsafe_movement_enabled
+180265870	17	ai_swap_nav_data
+180265888	14	ai_perception
+180265898	18	disable_verify_ss
+1802658b0	37	ai_perception_set_visual_id_distance
+1802658d8	33	ai_perception_set_visual_id_time
+180265900	22	ai_disable_perception
+180265918	21	ai_enable_perception
+180265930	8	ai_ride
+180265938	24	ai_riding_set_attribute
+180265950	22	ai_riding_set_enabled
+180265968	10	ai_speech
+180265978	21	ai_speech_add_phrase
+180265990	29	ai_speech_add_tag_for_phrase
+1802659b0	25	ai_speech_register_event
+1802659d0	23	ai_speech_register_tag
+1802659e8	30	ai_speech_register_tags_begin
+180265a08	28	ai_speech_register_tags_end
+180265a28	30	ai_speech_get_allow_for_actor
+180265a48	38	ai_speech_set_allow_context_for_actor
+180265a70	35	ai_speech_set_allow_context_global
+180265a98	30	ai_speech_set_allow_for_actor
+180265ab8	30	ai_speech_set_default_package
+180265ad8	33	ai_get_actor_conversation_target
+180265b00	24	ai_is_actor_socializing
+180265b18	18	ai_speech_context
+180265b30	25	speech_context_init_data
+180265b50	25	speech_context_add_child
+180265b70	36	speech_context_set_time_restriction
+180265b98	47	speech_context_set_opposite_gender_restriction
+180265bc8	41	speech_context_set_ethnicity_restriction
+180265bf8	38	speech_context_set_restriction_is_law
+180265c20	44	speech_context_set_weather_restriction_good
+180265c50	45	speech_context_set_weather_restriction_rainy
+180265c80	33	speech_context_set_target_player
+180265ca8	42	speech_context_set_target_initial_faction
+180265cd8	47	speech_context_set_player_identity_restriction
+180265d08	38	speech_context_set_allow_phrase_reuse
+180265d30	35	disable_noncombat_speech_universal
+180265d58	36	disable_noncombat_speech_individual
+180265d80	10	ai_vision
+180265d90	33	can_anyone_of_faction_see_object
+180265db8	9	ai_world
+180265dc8	24	enable_ambient_spawning
+180265de0	29	set_ambient_force_wait_state
+180265e00	27	set_pop_density_multiplier
+180265e20	35	destroy_ambient_actors_if_possible
+180265e48	48	force_ambient_num_actors_requested_for_missions
+180265e78	46	set_ambient_num_actors_requested_for_missions
+180265ea8	44	get_ambient_num_actors_granted_for_missions
+180265ed8	33	get_ambient_max_num_total_actors
+180265f00	33	set_ambient_max_num_total_actors
+180265f28	36	set_ambient_actor_speed_scale_range
+180265f50	37	set_ambient_tuning_max_visible_range
+180265f78	31	clear_ambient_all_restrictions
+180265f98	35	add_ambient_spawn_type_restriction
+180265fc0	37	clear_ambient_spawn_type_restriction
+180265fe8	42	clear_all_ambient_spawn_type_restrictions
+180266018	47	set_ambient_streaming_required_pop_actor_scale
+180266048	51	add_ai_move_restriction_stay_outside_of_volume_set
+180266080	54	remove_ai_move_restriction_stay_outside_of_volume_set
+1802660b8	52	add_ambient_move_restriction_stay_outside_of_volume
+1802660f0	53	add_ambient_spawn_restriction_stay_outside_of_volume
+180266128	55	remove_ambient_move_restriction_stay_outside_of_volume
+180266160	56	remove_ambient_spawn_restriction_stay_outside_of_volume
+180266198	43	does_ambient_move_restriction_volume_exist
+1802661c8	44	does_ambient_spawn_restriction_volume_exist
+1802661f8	25	release_actor_as_ambient
+180266218	23	would_actor_be_visible
+180266230	38	activate_emergency_teleport_for_actor
+180266258	40	deactivate_emergency_teleport_for_actor
+180266280	44	is_point_in_ambient_move_restriction_volume
+1802662b0	41	set_actor_obey_ambient_move_restrictions
+1802662e0	42	does_actor_obey_ambient_move_restrictions
+180266310	34	set_ambient_dead_count_decay_rate
+180266338	9	ambience
+180266348	39	ambience_audio_entity_update_territory
+180266370	38	ambience_audio_entity_update_location
+180266398	31	ambience_audio_validate_region
+1802663b8	8	ambient
+1802663c0	28	ambient_set_updates_enabled
+1802663e0	26	ambient_set_point_spacing
+180266400	25	ambient_set_slope_values
+180266420	25	ambient_reset_used_cells
+180266440	24	ambient_set_scan_center
+180266458	31	ambient_set_scan_center_player
+180266478	21	ambient_reset_filter
+180266490	32	ambient_set_random_search_order
+1802664b0	28	ambient_set_oneshot_queries
+1802664d0	26	ambient_set_search_center
+1802664f0	32	ambient_set_search_center_actor
+180266510	33	ambient_set_search_center_player
+180266538	25	ambient_set_slope_filter
+180266558	28	ambient_enable_slope_filter
+180266578	33	ambient_set_slope_filter_precise
+1802665a0	36	ambient_enable_slope_filter_precise
+1802665c8	24	ambient_set_bump_filter
+1802665e0	27	ambient_enable_bump_filter
+180266600	28	ambient_set_distance_filter
+180266620	31	ambient_enable_distance_filter
+180266640	29	ambient_set_elevation_filter
+180266660	28	ambient_set_quadrant_filter
+180266680	31	ambient_enable_quadrant_filter
+1802666a0	32	ambient_enable_offscreen_filter
+1802666c0	40	ambient_enable_material_at_point_filter
+1802666e8	37	ambient_set_material_at_point_filter
+180266710	48	ambient_enable_material_in_area_includes_filter
+180266740	45	ambient_set_material_in_area_includes_filter
+180266770	45	ambient_set_material_in_area_excludes_filter
+1802667a0	47	_ambient_enable_elevation_in_area_range_filter
+1802667d0	44	_ambient_set_elevation_in_area_range_filter
+180266800	51	ambient_enable_elevation_derivative_in_area_filter
+180266838	48	ambient_set_elevation_derivative_in_area_filter
+180266868	29	ambient_set_exclusion_volume
+180266888	18	ambient_get_point
+1802668a8	28	get_actor_anim_current_time
+1802668c8	28	set_actor_anim_current_time
+1802668e8	22	is_actor_anim_playing
+180266900	19	actor_has_anim_set
+180266918	29	set_animation_override_scale
+180266938	17	set_panim_params
+180266950	16	set_panim_phase
+180266960	26	set_actor_anim_phase_lock
+180266980	30	release_actor_anim_phase_lock
+1802669a0	27	is_actor_anim_phase_locked
+1802669c0	24	set_actor_cutscene_mode
+1802669d8	17	request_anim_set
+1802669f0	20	has_anim_set_loaded
+180266a08	16	remove_anim_set
+180266a18	23	set_anim_set_for_actor
+180266a30	25	reset_anim_set_for_actor
+180266a50	30	dlc_replace_existing_anim_set
+180266a70	20	request_action_tree
+180266a88	23	has_action_tree_loaded
+180266aa0	19	remove_action_tree
+180266ab8	26	set_action_node_for_actor
+180266ad8	25	set_react_node_for_actor
+180266af8	27	reset_react_node_for_actor
+180266b18	27	reset_actiontree_for_actor
+180266b38	23	set_linked_anim_target
+180266b50	23	get_linked_anim_target
+180266b68	25	clear_linked_anim_target
+180266b88	37	is_actor_performing_linked_animation
+180266bb0	23	is_action_node_playing
+180266bc8	31	is_action_node_playing_partial
+180266be8	30	is_actor_playing_node_in_tree
+180266c08	31	get_curr_action_node_play_time
+180266c28	42	tough_armour_get_tuning_regeneration_rate
+180266c58	38	tough_armour_set_tuning_hit_deduction
+180266c80	35	tough_armour_set_tuning_pad_armour
+180266ca8	42	tough_armour_set_tuning_regeneration_rate
+180266cd8	41	set_actor_character_cloth_scaled_pinning
+180266d08	18	set_actor_to_seat
+180266d20	9	animator
+180266d30	25	is_object_animator_valid
+180266d50	23	create_object_animator
+180266d68	33	create_object_animator_on_object
+180266d90	25	is_object_animator_ready
+180266db0	30	get_object_animator_on_object
+180266dd0	25	set_object_animator_node
+180266df0	26	set_object_animator_phase
+180266e10	25	set_object_animator_rate
+180266e30	26	get_object_animator_phase
+180266e50	31	set_object_animator_bone_range
+180266e70	30	set_object_animator_animation
+180266e90	24	destroy_object_animator
+180266ea8	25	get_object_from_animator
+180266ec8	30	link_object_animator_to_actor
+180266ee8	6	audio
+180266ef0	26	new_scripted_conversation
+180266f10	25	add_line_to_conversation
+180266f30	29	add_new_conversation_speaker
+180266f50	38	add_new_frontend_conversation_speaker
+180266f78	26	start_script_conversation
+180266f98	33	is_scripted_conversation_ongoing
+180266fc0	28	abort_scripted_conversation
+180266fe0	29	unregister_script_with_audio
+180267000	27	request_mission_audio_bank
+180267020	36	mission_audio_bank_no_longer_needed
+180267048	13	get_sound_id
+180267058	17	release_sound_id
+180267070	18	is_sound_id_valid
+180267088	11	play_sound
+180267098	20	play_sound_frontend
+1802670b0	31	play_sound_frontend_initparams
+1802670d0	31	play_sound_frontend_persistent
+1802670f0	25	play_sound_from_position
+180267110	36	play_sound_from_position_persistent
+180267138	42	play_walla_sound_from_position_persistent
+180267168	22	play_sound_from_actor
+180267180	28	play_walla_sound_from_actor
+1802671a0	23	play_sound_from_object
+1802671b8	26	audio_set_vehicle_damaged
+1802671d8	11	stop_sound
+1802671e8	19	has_sound_finished
+180267200	33	audio_attach_microphone_to_actor
+180267228	35	audio_set_mission_name_for_journal
+180267250	37	audio_clear_mission_name_for_journal
+180267278	27	audio_reset_speech_history
+180267298	36	audio_reset_scripted_speech_history
+1802672c0	33	audio_clear_conversation_history
+1802672e8	24	say_single_line_context
+180267300	23	say_single_line_string
+180267318	34	say_single_line_string_with_reply
+180267340	34	say_single_line_context_over_pain
+180267368	33	say_single_line_string_over_pain
+180267390	44	say_single_line_string_with_reply_over_pain
+1802673c0	36	say_single_line_string_with_backups
+1802673e8	25	say_single_line_scripted
+180267408	28	say_single_line_string_beat
+180267428	42	say_single_line_string_scripted_interrupt
+180267458	24	audio_play_vocal_effect
+180267470	16	audio_play_pain
+180267480	23	set_ambient_voice_name
+180267498	40	clear_alternate_speech_context_for_pain
+1802674c0	40	cancel_currently_playing_ambient_speech
+1802674e8	26	is_ambient_speech_playing
+180267508	27	is_scripted_speech_playing
+180267528	22	is_any_speech_playing
+180267540	16	audio_stop_pain
+180267550	30	audio_play_player_hogtie_line
+180267570	41	audio_trigger_player_looting_male_speech
+1802675a0	43	audio_trigger_player_looting_female_speech
+1802675d0	21	audio_shut_off_walla
+1802675e8	20	audio_turn_on_walla
+180267600	23	set_local_player_voice
+180267618	28	set_local_player_pain_voice
+180267638	27	audio_turn_off_pain_vocals
+180267658	26	audio_turn_on_pain_vocals
+180267678	30	audio_turn_off_vocals_effects
+180267698	22	audio_set_player_mood
+1802676b0	27	audio_allow_preduel_speech
+1802676d0	30	audio_disallow_preduel_speech
+1802676f0	41	audio_clear_player_disabled_context_list
+180267720	42	audio_add_to_player_disabled_context_list
+180267750	24	add_companion_permanent
+180267768	27	audio_enable_player_taunts
+180267788	35	audio_init_caucasian_army_ae_range
+1802677b0	33	audio_init_mexican_army_ae_range
+1802677d8	38	audio_init_mission_character_ae_range
+180267800	34	audio_init_rcm_character_ae_range
+180267828	29	audio_init_fac_invalid_value
+180267848	36	audio_init_fac_cattle_rustler_value
+180267870	33	audio_init_fac_drunkndirty_value
+180267898	38	audio_init_fac_generic_criminal_value
+1802678c0	44	audio_init_fac_indian_law_enforcement_value
+1802678f0	35	audio_init_fac_indian_raider_value
+180267918	37	audio_init_fac_law_enforcement_value
+180267940	37	audio_init_fac_mexican_bandito_value
+180267968	45	audio_init_fac_mexican_law_enforcement_value
+180267998	35	audio_init_fac_mexican_rebel_value
+1802679c0	37	audio_init_fac_mexican_soldier_value
+1802679e8	31	audio_init_fac_smugglers_value
+180267a08	45	audio_init_fac_fac_u_s_law_enforcement_value
+180267a38	35	audio_init_zombie_bruiser_ae_range
+180267a60	32	audio_init_zombie_fast_ae_range
+180267a80	33	audio_init_zombie_toxic_ae_range
+180267aa8	37	audio_init_zombie_mp_player_ae_range
+180267ad0	34	audio_init_zombie_mp_female_value
+180267af8	28	audio_init_fac_zombie_value
+180267b18	46	audio_set_current_area_is_under_zombie_attack
+180267b48	23	audio_init_zombie_zone
+180267b60	28	audio_init_zombie_pack_info
+180267b80	24	audio_init_nun_ae_range
+180267b98	28	audio_set_global_law_values
+180267bb8	18	stop_ped_speaking
+180267bd0	19	audio_mission_init
+180267be8	22	audio_mission_release
+180267c00	27	audio_play_distant_thunder
+180267c20	24	audio_music_force_track
+180267c38	29	audio_music_force_track_hash
+180267c58	21	audio_music_set_mood
+180267c70	21	audio_music_one_shot
+180267c88	26	audio_music_play_prepared
+180267ca8	43	audio_music_get_random_track_from_playlist
+180267cd8	24	audio_music_is_prepared
+180267cf0	22	audio_music_set_state
+180267d08	28	audio_music_release_control
+180267d28	20	audio_music_suspend
+180267d40	32	audio_is_scripted_music_playing
+180267d60	31	audio_play_all_lines_for_actor
+180267d80	15	audio_mg_start
+180267d90	14	audio_mg_stop
+180267da0	22	audio_mg_fillet_start
+180267db8	27	audio_mg_fillet_hit_finger
+180267dd8	26	audio_mg_fillet_hit_table
+180267df8	32	audio_mg_fillet_pull_from_table
+180267e18	20	audio_mg_fillet_end
+180267e30	28	audio_add_alternate_context
+180267e50	20	load_audio_metadata
+180267e68	23	load_audio_speech_data
+180267e80	30	get_audio_bank_loading_status
+180267ea0	16	load_audio_bank
+180267eb0	23	make_audio_slot_static
+180267ec8	43	_audio_set_ms_between_player_talks_to_self
+180267ef8	8	builtin
+180267f00	13	waitunwarped
+180267f10	13	waitunpaused
+180267f20	17	start_new_script
+180267f38	27	start_new_script_with_args
+180267f58	10	settimera
+180267f68	9	timestep
+180267f78	12	printstring
+180267f88	11	printfloat
+180267f98	9	printint
+180267fa8	8	printnl
+180267fb0	12	printvector
+180267fd4	6	vdist
+180267fdc	7	vdist2
+180267fe8	11	shift_left
+180267ff8	12	shift_right
+180268004	6	floor
+180268014	6	round
+180268020	9	to_float
+180268030	17	snapshot_globals
+180268048	27	get_latest_console_command
+180268068	29	reset_latest_console_command
+180268088	26	get_console_command_token
+1802680a8	31	get_num_console_command_tokens
+1802680d0	16	get_game_camera
+1802680e0	13	camera_reset
+1802680f0	13	camera_probe
+180268100	31	get_game_camera_reset_position
+180268120	24	set_camera_follow_actor
+180268138	27	set_camera_follow_actor_ex
+180268158	23	get_lookstick_invert_y
+180268170	23	set_lookstick_invert_y
+180268188	31	set_game_camera_curve_override
+1802681a8	34	reset_game_camera_curve_overrides
+1802681d0	31	force_vehicle_cinematic_camera
+1802681f0	29	set_game_camera_vehicle_mode
+180268210	33	allow_game_camera_auto_centering
+180268238	37	get_game_camera_auto_centering_state
+180268260	31	allow_game_camera_auto_tilting
+180268280	35	get_game_camera_auto_tilting_state
+1802682a8	22	set_game_camera_focus
+1802682c0	25	enable_game_camera_focus
+1802682e0	26	disable_game_camera_focus
+180268300	29	is_game_camera_focus_enabled
+180268320	32	is_switch_camera_button_enabled
+180268340	33	set_switch_camera_button_enabled
+180268364	7	camera
+180268370	24	create_camera_in_layout
+180268388	37	get_current_camera_type_from_channel
+1802683b0	30	set_current_camera_on_channel
+1802683d0	27	remove_camera_from_channel
+1802683f0	28	get_camera_channel_position
+180268410	29	get_camera_channel_direction
+180268430	40	is_current_camera_channel_transitioning
+180268458	28	is_camera_active_on_channel
+180268478	29	init_camera_from_game_camera
+180268498	25	init_camera_from_channel
+1802684b8	20	set_camera_position
+1802684d0	20	get_camera_position
+1802684e8	21	set_camera_direction
+180268500	21	get_camera_direction
+180268518	21	get_camera_up_vector
+180268530	15	set_camera_fov
+180268540	15	get_camera_fov
+180268550	24	set_camera_aspect_ratio
+180268568	24	get_camera_aspect_ratio
+180268580	27	set_camera_near_clip_plane
+1802685a0	26	set_camera_far_clip_plane
+1802685c0	23	set_camera_orientation
+1802685d8	27	set_camera_target_position
+1802685f8	25	set_camera_target_object
+180268618	32	set_camera_collision_parameters
+180268638	31	add_camera_collision_exclusion
+180268658	34	remove_camera_collision_exclusion
+180268680	20	reset_camera_target
+180268698	29	set_camera_collision_enabled
+1802686b8	36	set_camera_targetdof_using_soft_dof
+1802686e0	23	reset_camera_targetdof
+1802686f8	27	set_camera_lighting_scheme
+180268718	35	camera_get_current_transition_type
+180268740	25	camera_is_visible_object
+180268760	24	camera_is_visible_actor
+180268778	24	camera_is_visible_point
+180268790	25	camera_is_visible_volume
+1802687b0	28	create_camerashot_in_layout
+1802687d0	33	init_camerashot_from_game_camera
+1802687f8	24	force_camerashot_update
+180268810	24	set_camerashot_position
+180268828	24	get_camerashot_position
+180268840	25	set_camerashot_direction
+180268860	25	get_camerashot_direction
+180268880	19	set_camerashot_fov
+180268898	19	get_camerashot_fov
+1802688b0	28	set_camerashot_aspect_ratio
+1802688d0	31	set_camerashot_near_clip_plane
+1802688f0	30	set_camerashot_far_clip_plane
+180268910	30	get_camerashot_far_clip_plane
+180268930	27	set_camerashot_orientation
+180268950	31	set_camerashot_target_position
+180268970	29	set_camerashot_target_object
+180268990	37	set_camerashot_target_object_offsets
+1802689b8	34	set_camerashot_target_object_roll
+1802689e0	25	set_camerashot_from_lens
+180268a00	32	set_camerashot_targetdof_object
+180268a20	39	set_camerashot_targetdof_target_offset
+180268a48	40	set_camerashot_targetdof_fixed_distance
+180268a70	38	set_camerashot_targetdof_focal_length
+180268a98	41	set_camerashot_targetdof_cutoff_distance
+180268ac8	35	set_camerashot_targetdof_smoothing
+180268af0	40	set_camerashot_targetdof_using_soft_dof
+180268b18	36	set_camerashot_targetdof_filtertype
+180268b40	31	set_camerashot_targetdof_fstop
+180268b60	27	reset_camerashot_targetdof
+180268b80	36	set_camerashot_collision_parameters
+180268ba8	35	add_camerashot_collision_exclusion
+180268bd0	35	add_camerashot_collision_boundflag
+180268bf8	24	reset_camerashot_target
+180268c10	27	set_camerashot_perspective
+180268c30	37	set_camerashot_control_sequence_vec3
+180268c58	38	add_camera_shot_transition_indefinite
+180268c80	39	add_camera_shot_transition_ease_in_out
+180268ca8	23	set_fixed_transition_t
+180268cc0	32	set_transition_collision_params
+180268ce0	27	get_camera_shot_transition
+180268d00	37	is_processing_camera_shot_transition
+180268d28	35	end_current_camera_shot_transition
+180268d50	33	set_camerashot_collision_enabled
+180268d78	34	set_cutscene_streaming_load_scene
+180268da0	18	attach_camerashot
+180268db8	18	detach_camerashot
+180268dd0	28	camerashot_is_visible_actor
+180268df0	28	camerashot_add_arc_behavior
+180268e10	43	camerashot_add_lookstick_rotation_behavior
+180268e40	25	create_aimramp_in_layout
+180268e60	15	update_aimramp
+180268e70	32	create_cutsceneobject_in_layout
+180268e90	31	get_camera_from_cutsceneobject
+180268eb0	20	play_cutsceneobject
+180268ec8	35	get_camerashot_from_cutsceneobject
+180268ef0	35	cutsceneobject_add_transition_hold
+180268f18	35	cutsceneobject_add_transition_lerp
+180268f40	38	cutsceneobject_add_transition_ease_in
+180268f68	39	cutsceneobject_add_transition_ease_out
+180268f90	42	cutsceneobject_add_transition_ease_in_out
+180268fc0	41	cutsceneobject_add_transition_indefinite
+180268ff0	40	cutsceneobject_add_transition_decorator
+180269018	36	cutsceneobject_add_transition_fixed
+180269040	43	cutsceneobject_get_current_transition_type
+180269070	43	end_current_transition_from_cutsceneobject
+1802690a0	26	set_cutsceneobject_paused
+1802690c0	25	is_cutsceneobject_paused
+1802690e0	26	check_cutscene_collisions
+180269100	28	get_cutsceneobject_sequence
+180269120	36	cutsceneobject_set_recenter_gamecam
+180269148	31	set_cutsceneinputs_target_guid
+180269168	37	add_cameratransition_event_hudfadein
+180269190	38	add_cameratransition_event_hudfadeout
+1802691b8	43	add_cameratransition_event_gamecamerareset
+1802691e8	47	add_cameratransition_event_gamecameraresettilt
+180269218	53	add_cameratransition_event_cutgamecamerabehindplayer
+180269250	30	is_cutscene_tuner_playingback
+180269270	31	cancel_cutscene_tuner_playback
+180269290	34	get_cutscene_tuner_cutsceneobject
+1802692b8	32	get_cutscene_tuner_inputsobject
+1802692d8	31	get_cutscene_tuner_script_name
+1802692f8	34	get_cutscene_tuner_cutscene_index
+180269320	33	create_camera_focus_point_object
+180269348	45	create_camera_focus_point_object_with_tuning
+180269378	23	is_camera_focus_active
+180269390	25	set_camera_focus_enabled
+1802693b0	24	is_camera_focus_enabled
+1802693c8	32	set_camera_focus_prompt_enabled
+1802693e8	39	set_camera_focus_player_input_disabled
+180269410	37	set_camera_focus_player_invulnerable
+180269438	29	set_camera_focus_prompt_text
+180269458	24	set_camera_focus_object
+180269478	23	override_benchmark_pos
+180269490	23	override_benchmark_dir
+1802694a8	15	set_debug_draw
+1802694b8	21	get_debug_draw_state
+1802694d0	12	_0x6de957c6
+1802694e0	18	script_breakpoint
+1802694f8	25	gringo_debug_check_sound
+180269518	26	disable_actor_refcounting
+180269538	16	get_script_name
+180269548	22	get_short_script_name
+180269560	22	terminate_this_script
+180269578	19	get_this_script_id
+180269590	16	is_script_valid
+1802695a0	18	does_script_exist
+1802695b8	16	is_exitflag_set
+1802695c8	29	_is_any_named_script_running
+1802695e8	35	_terminate_all_named_child_scripts
+180269610	17	terminate_script
+180269628	22	add_persistent_script
+180269640	25	remove_persistent_script
+180269660	32	script_max_allowed_instructions
+180269680	25	script_used_instructions
+1802696a0	30	script_remaining_instructions
+1802696c0	14	rand_set_seed
+1802696d0	15	rand_int_range
+1802696e0	17	rand_float_range
+1802696f8	25	rand_int_range_different
+180269718	20	rand_float_gaussian
+180269730	16	file_start_path
+180269740	17	file_add_to_path
+180269758	14	file_end_path
+180269768	22	file_get_current_path
+180269780	6	get_x
+180269788	6	get_y
+180269790	6	get_z
+180269798	11	vnormalize
+1802697a4	7	vcross
+1802697b4	7	vscale
+1802697c0	31	_vdirection_vector_from_eulers
+1802697e0	28	_vrotate_vector_from_eulers
+180269800	27	_vrotate_euler_from_eulers
+180269820	17	rotate_vector_xz
+180269838	32	_construct_matrix_and_transform
+180269868	11	sin_degree
+180269878	11	cos_degree
+180269888	11	tan_degree
+180269898	12	atan_degree
+1802698a8	13	atan2_degree
+1802698b8	25	_get_vector_heading_degs
+1802698d8	25	_get_vector_heading_rads
+1802698f8	31	get_angle_between_vectors_degs
+180269918	25	vector_from_heading_degs
+180269938	27	_transform_world_to_screen
+180269958	22	get_current_game_time
+180269970	26	get_current_unwarped_time
+180269990	16	get_system_time
+1802699a0	14	get_timestamp
+1802699b0	13	get_utc_time
+1802699c0	30	get_unwarped_realtime_seconds
+1802699e0	17	get_profile_time
+1802699f8	20	get_last_frame_time
+180269a10	12	log_message
+180269a20	12	log_warning
+180269a30	10	log_error
+180269a40	17	get_target_actor
+180269a58	25	gringo_set_target_object
+180269a78	18	get_target_object
+180269a90	16	is_gringo_valid
+180269aa0	29	get_gringo_activation_sphere
+180269ac0	32	disable_gringo_streaming_checks
+180269ae0	31	enable_gringo_streaming_checks
+180269b00	24	gringo_allow_activation
+180269b18	29	gringo_is_activation_allowed
+180269b38	17	is_debugkey_down
+180269b50	20	is_debugkey_pressed
+180269b68	15	is_button_down
+180269b78	18	is_button_pressed
+180269b90	19	is_button_released
+180269ba8	24	get_analog_button_value
+180269bc0	23	is_digital_action_down
+180269bd8	26	is_digital_action_pressed
+180269bf8	27	is_digital_action_released
+180269c18	20	get_analogue_action
+180269c30	12	_0x4586516d
+180269c40	12	_0x7e452200
+180269c50	12	get_stick_x
+180269c60	12	get_stick_y
+180269c70	28	reset_time_since_last_input
+180269c90	26	get_time_since_last_input
+180269cb0	36	get_time_since_last_movestick_input
+180269cd8	33	get_time_since_last_button_input
+180269d00	20	is_right_mouse_down
+180269d18	23	is_right_mouse_pressed
+180269d30	24	is_right_mouse_released
+180269d48	19	is_left_mouse_down
+180269d60	22	is_left_mouse_pressed
+180269d78	17	get_mouse_axis_x
+180269d90	17	get_mouse_axis_y
+180269da8	13	get_mouse_dx
+180269db8	13	get_mouse_dy
+180269dc8	22	get_mouse_sensitivity
+180269de0	18	debug_draw_vector
+180269df8	16	debug_draw_line
+180269e08	18	debug_draw_sphere
+180269e20	18	debug_draw_string
+180269e38	25	draw_string_current_font
+180269e58	21	set_debug_fade_state
+180269e70	12	_0xd1d88eb8
+180269e80	12	_0x21e19cd5
+180269e90	12	_0x1b6fe39b
+180269ea0	12	_0xaaebac28
+180269eb0	21	script_gettestregion
+180269ec8	22	script_gettestmission
+180269ee0	21	script_gettestscript
+180269ef8	33	script_gettestscriptcontinuemark
+180269f20	33	script_settestscriptcontinuemark
+180269f48	22	script_wantautomation
+180269f60	19	script_gettesttype
+180269f78	20	retrieve_game_state
+180269f90	17	store_game_state
+180269fa8	18	reset_stored_data
+180269fc0	11	reset_game
+180269fd0	18	is_game_resetting
+180269fe8	17	_get_param_value
+18026a000	19	get_districts_name
+18026a018	10	load_game
+18026a028	15	load_soft_save
+18026a038	10	save_game
+18026a048	15	save_soft_save
+18026a058	23	save_manager_hard_save
+18026a070	23	save_manager_hard_load
+18026a088	38	save_manager_create_save_display_name
+18026a0b0	27	save_manager_register_data
+18026a0d0	30	save_manager_set_save_version
+18026a0f0	39	save_manager_set_save_version_for_type
+18026a118	30	save_manager_create_save_file
+18026a138	28	save_manager_register_stats
+18026a158	36	save_manager_register_profile_stats
+18026a180	32	save_manager_is_saving_disabled
+18026a1a0	35	save_manager_is_sp_saving_disabled
+18026a1c8	21	get_extras_file_name
+18026a1e0	16	does_file_exist
+18026a1f0	14	write_to_file
+18026a200	13	is_dev_build
+18026a210	7	is_ps3
+18026a218	7	is_ps4
+18026a220	10	is_switch
+18026a230	9	is_30fps
+18026a23c	6	is_pc
+18026a248	28	_are_bumper_buttons_swapped
+18026a268	21	is_disk_cache_primed
+18026a280	28	is_using_keyboard_and_mouse
+18026a2a0	24	get_last_mouse_movement
+18026a2b8	20	is_player_signed_in
+18026a2d0	22	get_local_player_name
+18026a2e8	22	get_num_world_cameras
+18026a300	26	get_world_camera_at_index
+18026a320	25	get_closest_world_camera
+18026a340	11	pause_game
+18026a350	13	unpause_game
+18026a360	15	is_game_paused
+18026a370	27	set_script_cutscene_active
+18026a390	23	set_tree_cost_modifier
+18026a3a8	21	set_uses_quad_ik_fix
+18026a3c0	25	set_visibility_fov_clamp
+18026a3e0	17	set_mission_info
+18026a3f8	19	clear_mission_info
+18026a410	26	get_commandline_start_pos
+18026a430	14	set_start_pos
+18026a440	27	is_startpos_in_commandline
+18026a460	32	_was_last_reset_for_multiplayer
+18026a480	20	script_done_loading
+18026a498	18	launch_new_script
+18026a4b0	28	launch_new_script_with_args
+18026a4d0	17	is_launch_retail
+18026a4e8	24	is_simulate_start_press
+18026a500	30	is_simulate_start_multiplayer
+18026a520	21	is_d11_cutscene_hack
+18026a538	22	is_display_widescreen
+18026a550	26	get_exp_mode_prompt_state
+18026a570	26	set_exp_mode_prompt_state
+18026a590	17	get_game_edition
+18026a5a4	6	cover
+18026a5b0	28	find_nearest_cover_location
+18026a5d0	31	find_cover_locations_in_volume
+18026a5f0	33	get_cover_location_base_position
+18026a618	29	get_cover_location_direction
+18026a638	28	get_cover_location_position
+18026a658	24	is_cover_location_valid
+18026a670	28	add_ai_coverset_for_propset
+18026a68c	7	curves
+18026a698	13	enable_curve
+18026a6a8	20	are_curves_in_range
+18026a6c0	18	start_curve_query
+18026a6d8	18	get_curve_by_name
+18026a6f0	21	is_curve_query_valid
+18026a708	30	get_num_points_in_curve_query
+18026a728	30	get_num_curves_in_curve_query
+18026a748	27	get_point_from_curve_query
+18026a768	42	get_curve_from_curve_index_in_curve_query
+18026a798	42	get_curve_from_point_index_in_curve_query
+18026a7c8	39	get_closest_point_to_curve_curve_query
+18026a7f0	42	remove_curve_from_curve_query_using_curve
+18026a820	43	_travel_distance_on_curve_from_curve_point
+18026a850	45	_travel_distance_on_curve_from_curve_point_2
+18026a880	38	curve_calculate_distance_by_step_size
+18026a8b0	64	curve_calculate_distance_by_forced_component_subdivision_bounds
+18026a8f0	14	release_curve
+18026a900	15	get_curve_type
+18026a910	15	get_curve_name
+18026a920	16	get_curve_point
+18026a930	17	set_curve_active
+18026a948	17	set_curve_weight
+18026a960	9	cutscene
+18026a970	37	cutscene_manager_does_cutscene_exist
+18026a998	30	cutscene_manager_load_cutfile
+18026a9b8	35	cutscene_manager_is_cutfile_loaded
+18026a9e0	36	cutscene_manager_get_loaded_cutfile
+18026aa08	32	cutscene_manager_resume_loading
+18026aa28	31	cutscene_manager_load_cutscene
+18026aa48	36	cutscene_manager_is_cutscene_loaded
+18026aa70	33	cutscene_manager_unload_cutscene
+18026aa98	31	cutscene_manager_play_cutscene
+18026aab8	31	cutscene_manager_stop_cutscene
+18026aad8	37	cutscene_manager_is_cutscene_playing
+18026ab00	38	cutscene_manager_is_cutscene_finished
+18026ab28	42	cutscene_manager_reset_gamecamera_on_exit
+18026ab58	43	cutscene_manager_orient_gamecamera_on_exit
+18026ab88	39	cutscene_manager_set_skip_ui_stack_pop
+18026abb0	45	cutscene_manager_set_hide_noncutscene_actors
+18026abe0	45	cutscene_manager_can_set_post_cutscene_poses
+18026ac10	51	cutscene_manager_clear_can_set_post_cutscene_poses
+18026ac48	34	cutscene_manager_get_current_time
+18026ac70	35	cutscene_manager_get_current_frame
+18026ac98	34	cutscene_manager_get_total_frames
+18026acc0	41	cutscene_manager_get_num_cutscene_actors
+18026acf0	41	cutscene_manager_get_cutscene_actor_name
+18026ad20	36	cutscene_manager_get_cutscene_actor
+18026ad48	58	cutscene_manager_get_cutscene_actor_by_index_start_orient
+18026ad88	56	cutscene_manager_get_cutscene_actor_by_index_end_orient
+18026adc0	40	cutscene_manager_get_num_cutscene_props
+18026ade8	40	cutscene_manager_get_cutscene_prop_name
+18026ae10	35	cutscene_manager_get_cutscene_prop
+18026ae38	57	cutscene_manager_get_cutscene_prop_by_index_start_orient
+18026ae78	55	cutscene_manager_get_cutscene_prop_by_index_end_orient
+18026aeb0	28	cutscene_manager_hide_actor
+18026aed0	28	cutscene_manager_show_actor
+18026aef0	54	cutscene_manager_get_initial_streaming_load_scene_ext
+18026af28	52	cutscene_manager_set_final_streaming_load_scene_ext
+18026af60	42	cutscene_manager_set_asset_override_actor
+18026af90	39	cutscene_manager_get_script_event_data
+18026afb8	36	cutscene_manager_clear_script_event
+18026afe0	55	cutscene_manager_set_was_john_now_jack_in_rcm_cutscene
+18026b018	10	decorator
+18026b028	23	decor_get_bool_verbose
+18026b040	24	decor_get_float_verbose
+18026b058	22	decor_get_int_verbose
+18026b070	15	decor_set_bool
+18026b080	16	decor_set_float
+18026b090	14	decor_set_int
+18026b0a0	17	decor_set_vector
+18026b0b8	17	decor_set_string
+18026b0d0	17	decor_set_object
+18026b0e8	19	decor_check_string
+18026b100	22	decor_get_string_hash
+18026b118	15	decor_get_bool
+18026b128	16	decor_get_float
+18026b138	14	decor_get_int
+18026b148	17	decor_get_vector
+18026b160	17	decor_get_object
+18026b178	18	decor_check_exist
+18026b190	13	decor_remove
+18026b1a0	17	decor_remove_all
+18026b1b8	21	dlc_pre_init_content
+18026b1d0	17	dlc_init_content
+18026b1e8	33	dlc_preinitialize_fragment_stubs
+18026b210	33	dlc_init_stringtable_streamables
+18026b238	31	dlc_is_content_purchased_flags
+18026b258	17	dlc_unmount_pack
+18026b278	18	find_nearest_door
+18026b290	21	get_door_from_object
+18026b2a8	14	is_door_valid
+18026b2b8	15	is_door_locked
+18026b2c8	14	set_door_lock
+18026b2d8	15	is_door_closed
+18026b2e8	15	is_door_opened
+18026b2f8	16	is_door_opening
+18026b308	16	is_door_closing
+18026b318	20	set_door_auto_close
+18026b330	23	set_door_current_speed
+18026b348	10	open_door
+18026b358	20	open_door_direction
+18026b370	15	open_door_fast
+18026b380	25	open_door_direction_fast
+18026b3a0	11	close_door
+18026b3b0	16	close_door_fast
+18026b3c0	27	set_all_door_locks_visible
+18026b3e0	22	set_door_lock_visible
+18026b3f8	26	is_door_open_in_direction
+18026b414	7	entity
+18026b420	15	is_actor_valid
+18026b430	26	get_actorenum_from_string
+18026b450	17	is_actor_on_foot
+18026b468	30	get_actor_offset_world_coords
+18026b488	25	transform_actor_to_world
+18026b4a8	16	actors_in_range
+18026b4b8	19	get_actor_velocity
+18026b4d0	17	get_actor_height
+18026b4e8	29	set_global_actor_weapon_bias
+18026b508	31	reset_global_actor_weapon_bias
+18026b528	21	locate_actor_of_type
+18026b540	19	is_area_obstructed
+18026b558	20	is_area_obstructed2
+18026b570	22	get_actorenum_species
+18026b588	30	get_actorenum_actor_base_type
+18026b5a8	27	get_actorenum_avatar_group
+18026b5c8	31	get_actorenum_mp_anim_set_name
+18026b5e8	23	decor_handles_relative
+18026b600	20	get_actor_gait_type
+18026b618	18	get_actor_posture
+18026b630	18	set_actor_posture
+18026b648	18	reset_actor_gaits
+18026b660	14	is_actor_male
+18026b670	14	set_actor_sex
+18026b680	23	set_actor_is_companion
+18026b698	29	set_actor_is_the_beastmaster
+18026b6b8	29	set_actor_time_of_last_crime
+18026b6d8	24	destroy_impaired_actors
+18026b6f0	24	is_player_weapon_zoomed
+18026b708	16	is_actor_animal
+18026b718	19	is_actor_crouching
+18026b730	16	is_actor_flying
+18026b740	15	is_actor_human
+18026b750	17	is_actor_jumping
+18026b768	18	is_actor_shooting
+18026b780	21	is_actor_blindfiring
+18026b798	19	is_actor_reloading
+18026b7b0	18	is_actor_throwing
+18026b7c8	19	is_actor_whistling
+18026b7e0	19	is_actor_on_ladder
+18026b7f8	18	is_actor_outdoors
+18026b810	14	suspend_mover
+18026b820	13	enable_mover
+18026b830	17	set_mover_frozen
+18026b848	16	is_mover_frozen
+18026b858	28	set_actor_use_coarse_bounds
+18026b878	25	supress_mover_collisions
+18026b898	19	is_actor_on_ground
+18026b8b0	18	is_actor_in_water
+18026b8c8	26	is_actor_in_water_ofdepth
+18026b8e8	22	get_actor_stuck_state
+18026b900	18	is_actor_rideable
+18026b918	19	set_actor_rideable
+18026b930	23	get_vehicle_bump_count
+18026b948	25	reset_vehicle_bump_count
+18026b968	22	set_custom_anim_speed
+18026b980	18	actor_reset_anims
+18026b998	31	_schedule_stop_custom_unfreeze
+18026b9b8	32	_schedule_stop_custom_unsuspend
+18026b9d8	27	_schedule_stop_replication
+18026b9f8	31	set_actor_can_play_bored_idles
+18026ba18	28	set_actor_can_play_gestures
+18026ba38	27	actor_enable_variable_mesh
+18026ba58	31	actor_is_variable_mesh_enabled
+18026ba78	30	actor_set_grabbed_by_cutscene
+18026ba98	29	actor_is_grabbed_by_cutscene
+18026bab8	25	is_actor_fully_faded_ext
+18026bad8	28	set_actor_hearing_max_range
+18026baf8	31	set_actor_vision_field_of_view
+18026bb18	27	get_actor_vision_max_range
+18026bb38	27	set_actor_vision_max_range
+18026bb58	38	set_universal_vision_range_multiplier
+18026bb80	22	set_actor_vision_xray
+18026bb98	22	get_actor_vision_xray
+18026bbb0	39	get_actor_current_weapon_ai_parameters
+18026bbd8	31	get_actor_allow_bump_reactions
+18026bbf8	31	set_actor_allow_bump_reactions
+18026bc18	34	set_actor_allow_nm_bump_reactions
+18026bc40	31	set_rcm_actor_call_over_enable
+18026bc60	26	set_rcm_was_john_now_jack
+18026bc80	33	set_rcm_actor_call_over_suppress
+18026bca8	39	set_actor_allow_player_greet_responses
+18026bcd0	33	set_actor_allow_weapon_reactions
+18026bcf8	37	set_actor_allow_weapon_reaction_flee
+18026bd20	37	get_actor_weapon_reaction_actor_type
+18026bd48	37	set_actor_weapon_reaction_actor_type
+18026bd70	39	set_actor_weapon_reaction_no_flee_hack
+18026bd98	40	set_player_cause_weapon_reaction_combat
+18026bdc0	23	set_actor_allow_disarm
+18026bdd8	22	set_animal_can_attack
+18026bdf0	19	get_current_gringo
+18026be08	29	set_actor_gringo_restriction
+18026be28	31	clear_actor_gringo_restriction
+18026be48	28	make_actor_ready_for_action
+18026be68	26	is_actor_ready_for_action
+18026be88	24	report_gringo_use_phase
+18026bea0	18	clear_all_corpses
+18026beb8	15	can_player_die
+18026bec8	22	clear_actor_max_speed
+18026bee0	20	set_actor_max_speed
+18026bef8	29	set_actor_max_speed_absolute
+18026bf18	22	clear_actor_min_speed
+18026bf30	20	set_actor_min_speed
+18026bf48	29	get_actor_max_speed_absolute
+18026bf68	16	set_actor_speed
+18026bf78	18	clear_last_attack
+18026bf90	23	get_last_attack_target
+18026bfa8	21	get_last_attack_time
+18026bfc0	27	get_damage_by_local_player
+18026bfe0	23	get_actor_combat_class
+18026bff8	29	_dlc_shotgun_spread_override
+18026c018	11	begin_duel
+18026c028	17	add_duel_hostage
+18026c040	23	get_current_duel_score
+18026c058	20	set_duel_difficulty
+18026c070	43	set_actor_exempt_from_ambient_restrictions
+18026c0a0	15	add_capability
+18026c0b0	18	remove_capability
+18026c0c8	15	has_capability
+18026c0d8	34	get_last_on_screen_time_for_actor
+18026c100	25	net_set_node_replication
+18026c120	24	set_actor_action_signal
+18026c138	30	toggle_actor_action_signal_on
+18026c158	31	toggle_actor_action_signal_off
+18026c178	28	get_actor_melee_targeted_by
+18026c198	41	set_actor_auto_transition_to_driver_seat
+18026c1c8	38	set_actor_move_conflict_high_priority
+18026c1f0	58	set_actor_move_conflict_allowed_to_run_over_small_animals
+18026c230	21	set_actor_is_ambient
+18026c248	24	set_actor_is_shopkeeper
+18026c260	23	set_actor_should_taunt
+18026c278	19	set_actor_can_bump
+18026c290	24	set_actor_max_freshness
+18026c2a8	24	get_actor_max_freshness
+18026c2c0	25	make_bird_fly_from_point
+18026c2e0	15	is_event_valid
+18026c2f0	22	get_event_from_object
+18026c308	22	get_object_from_event
+18026c320	11	copy_event
+18026c330	17	get_event_layout
+18026c348	15	get_event_type
+18026c358	27	get_event_target_as_object
+18026c378	29	get_event_target_as_physinst
+18026c398	22	get_event_perpetrator
+18026c3b0	23	add_new_event_response
+18026c3c8	30	add_new_ranged_event_response
+18026c3e8	22	remove_event_response
+18026c400	36	ranged_event_response_init_complete
+18026c428	28	register_for_creation_event
+18026c448	15	get_event_time
+18026c458	19	_get_iteration_set
+18026c470	18	create_event_trap
+18026c488	21	event_trap_on_volume
+18026c4a0	26	event_trap_on_perpetrator
+18026c4c0	21	event_trap_on_target
+18026c4d8	20	event_trap_on_owner
+18026c4f0	24	event_trap_store_events
+18026c508	24	event_trap_clear_events
+18026c520	27	event_trap_successful_trap
+18026c540	27	event_trap_clear_trap_flag
+18026c560	24	get_num_event_responses
+18026c578	22	get_event_response_id
+18026c590	23	get_event_for_response
+18026c5a8	10	explosion
+18026c5b8	18	_create_explosion
+18026c5d0	33	enable_replication_set_explosion
+18026c5f8	8	faction
+18026c600	16	reload_factions
+18026c610	15	reset_factions
+18026c620	18	get_actor_faction
+18026c638	18	set_actor_faction
+18026c650	17	is_faction_valid
+18026c668	20	verify_faction_enum
+18026c680	32	set_faction_is_lawful_to_attack
+18026c6a0	28	set_factions_status_one_way
+18026c6c0	28	set_factions_status_two_way
+18026c6e0	36	set_ambient_factions_status_two_way
+18026c708	30	reset_factions_status_two_way
+18026c728	38	reset_ambient_factions_status_two_way
+18026c750	45	set_faction_to_faction_accuracy_scale_factor
+18026c780	43	set_faction_to_faction_damage_scale_factor
+18026c7b0	41	clear_faction_status_to_individual_actor
+18026c7e0	39	get_faction_status_to_individual_actor
+18026c808	39	set_faction_status_to_individual_actor
+18026c838	11	enable_pip
+18026c848	15	is_pip_enabled
+18026c858	13	clear_decals
+18026c868	13	create_decal
+18026c878	23	create_direction_decal
+18026c890	25	create_decal_with_normal
+18026c8b0	14	at_fired_last
+18026c8c0	23	_set_melee_marker_size
+18026c8d8	24	_set_melee_marker_color
+18026c8f0	35	_set_melee_marker_strobe_intensity
+18026c918	31	_fx_enable_script_melee_marker
+18026c938	16	ppp_load_preset
+18026c948	18	ppp_unload_preset
+18026c960	23	reset_analog_positions
+18026c978	26	ppp_get_element_magnitude
+18026c998	15	cancel_deadeye
+18026c9a8	11	fire_shock
+18026c9b8	16	set_shock_speed
+18026c9c8	20	set_shock_amplitude
+18026c9e0	9	dof_push
+18026c9f0	8	dof_pop
+18026c9f8	8	dof_set
+18026ca00	15	dof_set_kernel
+18026ca10	19	add_glow_to_object
+18026ca28	22	remove_glow_indicator
+18026ca40	19	create_object_glow
+18026ca58	20	destroy_object_glow
+18026ca70	18	clear_tumbleweeds
+18026ca88	18	allow_tumbleweeds
+18026caa0	20	add_zombie_to_actor
+18026cab8	19	add_blood_to_actor
+18026cad0	22	clear_character_blood
+18026cae8	19	clear_player_blood
+18026cb00	27	set_player_blood_fade_rate
+18026cb20	20	prick_player_finger
+18026cb38	11	burn_actor
+18026cb48	21	limit_blood_on_actor
+18026cb60	21	load_ptfx_dlc_assets
+18026cb78	10	addshader
+18026cb90	26	disable_player_gringo_use
+18026cbb0	18	is_mission_script
+18026cbc8	22	set_is_mission_script
+18026cbe0	30	set_script_avoids_stringtable
+18026cc00	15	get_game_state
+18026cc10	17	set_pause_script
+18026cc28	20	enable_use_contexts
+18026cc40	25	are_use_contexts_enabled
+18026cc60	28	is_script_use_context_valid
+18026cc80	33	add_script_use_context_in_volume
+18026cca8	23	add_script_use_context
+18026ccc0	29	add_script_use_context_stick
+18026cce0	30	is_script_use_context_pressed
+18026cd00	36	was_script_use_context_ever_pressed
+18026cd28	21	set_use_context_text
+18026cd40	27	release_script_use_context
+18026cd60	30	net_mailbox_is_signed_into_sc
+18026cd80	35	net_mailbox_get_max_num_challenges
+18026cda8	35	net_mailbox_get_challenge_by_index
+18026cdd0	32	net_mailbox_get_challenge_by_id
+18026cdf0	31	net_mailbox_is_challenge_valid
+18026ce10	20	sc_challenge_launch
+18026ce28	22	sc_challenge_clean_up
+18026ce40	24	sc_challenge_is_running
+18026ce58	23	sc_challenge_is_active
+18026ce70	33	sc_challenge_get_community_total
+18026ce98	33	sc_challenge_get_community_value
+18026cec0	32	sc_challenge_process_expiration
+18026cee0	34	sc_challenge_get_expiration_state
+18026cf08	36	sc_challenge_reset_expiration_state
+18026cf30	26	sc_challenge_is_var_valid
+18026cf50	27	sc_challenge_get_var_float
+18026cf70	25	sc_challenge_get_var_int
+18026cf90	26	sc_challenge_get_var_bool
+18026cfb0	21	sc_challenge_release
+18026cfc8	32	sc_challenge_get_leaderboard_id
+18026cfe8	43	sc_challenge_get_min_lb_refresh_delay_secs
+18026d018	39	sc_challenge_get_min_submit_delay_secs
+18026d040	8	gateway
+18026d048	18	gateway_get_actor
+18026d060	18	gateway_set_actor
+18026d078	19	gateway_get_volume
+18026d090	19	gateway_get_marker
+18026d0a8	15	gateway_update
+18026d0b8	25	actor_data_gravity_limit
+18026d0d8	16	gateway_disable
+18026d0e8	22	gateways_are_disabled
+18026d100	20	gateway_is_disabled
+18026d118	11	gravestone
+18026d128	27	is_gravestone_sector_ready
+18026d148	30	set_current_gravestone_sector
+18026d168	33	create_gravestone_text_in_layout
+18026d190	25	create_wantedposter_text
+18026d1b0	15	create_mp_text
+18026d1c0	9	greeting
+18026d1d0	21	set_greeting_context
+18026d1e8	36	set_non_verbal_greeting_probability
+18026d210	35	set_greeting_look_at_angle_default
+18026d238	42	set_greeting_look_at_angle_actor_specific
+18026d268	37	set_greeting_probability_npc_default
+18026d290	40	set_greeting_probability_player_default
+18026d2b8	40	set_greeting_probability_actor_specific
+18026d2e0	31	set_greeting_min_time_interval
+18026d300	43	set_greeting_min_time_interval_same_target
+18026d330	26	set_greeting_max_distance
+18026d350	32	set_greeting_min_movement_speed
+18026d370	32	set_greeting_max_movement_angle
+18026d390	42	set_greeting_anim_signal_timeout_duration
+18026d3bc	7	gringo
+18026d3c8	17	is_gringo_active
+18026d3e0	16	is_gringo_ready
+18026d3f0	17	gringo_is_active
+18026d408	18	gringo_get_target
+18026d420	12	gringo_wait
+18026d430	12	gringo_stop
+18026d440	19	gringo_stay_active
+18026d458	18	gringo_deactivate
+18026d470	35	gringo_deactivate_and_reset_actors
+18026d498	19	gringo_enable_type
+18026d4b0	20	gringo_disable_type
+18026d4c8	20	gringo_enable_spawn
+18026d4e0	22	locate_gringo_of_type
+18026d4f8	28	locate_gringo_of_type_by_id
+18026d518	23	locate_gringos_of_type
+18026d530	22	locate_gringo_of_name
+18026d548	23	locate_gringos_of_name
+18026d560	21	gringo_actor_can_use
+18026d578	30	gringo_setup_prop_association
+18026d598	30	gringo_setup_attr_association
+18026d5b8	22	gringo_load_animation
+18026d5d0	24	gringo_unload_animation
+18026d5e8	31	gringo_load_animation_for_user
+18026d608	33	gringo_unload_animation_for_user
+18026d630	26	gringo_has_animset_loaded
+18026d650	41	gringo_load_animation_for_actor_enum_ext
+18026d680	43	gringo_unload_animation_for_actor_enum_ext
+18026d6b0	45	gringo_has_animset_loaded_for_actor_enum_ext
+18026d6e0	29	gringo_enable_player_control
+18026d700	28	gringo_set_usable_by_player
+18026d720	28	gringo_usable_by_actor_enum
+18026d740	25	gringo_debug_is_selected
+18026d760	27	_gringo_player_override_on
+18026d780	25	gringo_get_my_object_ref
+18026d7a0	24	gringo_get_my_gringo_id
+18026d7b8	28	_gringo_is_break_toggle_set
+18026d7d8	30	gringo_set_all_uses_ownership
+18026d7f8	25	gringo_set_use_ownership
+18026d818	33	gringo_set_child_use_activations
+18026d840	40	gringo_set_common_layer_use_activations
+18026d868	24	gringo_handles_movement
+18026d880	26	is_gringo_component_valid
+18026d8a0	28	gringo_component_check_name
+18026d8c0	26	gringo_get_component_hash
+18026d8e0	28	gringo_is_component_of_type
+18026d900	29	gringo_get_first_named_child
+18026d920	23	gringo_get_first_child
+18026d938	37	gringo_get_index_of_next_named_child
+18026d960	31	gringo_get_index_of_next_child
+18026d980	33	gringo_get_child_component_count
+18026d9a8	35	gringo_get_indexed_child_component
+18026d9d0	31	gringo_get_prop_from_component
+18026d9f0	35	gringo_get_prop_from_component_ext
+18026da18	28	gringo_get_parent_component
+18026da38	32	gringo_get_user_pos_with_offset
+18026da58	26	gringo_set_message_return
+18026da78	33	gringo_get_msg_component_context
+18026daa0	27	gringo_has_pending_message
+18026dac0	24	gringo_get_message_type
+18026dad8	28	gringo_get_requesting_actor
+18026daf8	26	gringo_set_request_string
+18026db18	34	gringo_set_request_failure_reason
+18026db40	25	gringo_is_force_quitting
+18026db60	25	gringo_is_capable_of_use
+18026db80	28	gringo_should_suspend_mover
+18026dba0	24	gringo_should_fix_mover
+18026dbb8	34	gringo_get_use_component_position
+18026dbe0	38	gringo_get_use_component_position_ext
+18026dc08	45	gringo_get_use_component_offset_position_ext
+18026dc38	29	gringo_get_use_component_ext
+18026dc58	40	gringo_get_use_component_position_local
+18026dc80	33	gringo_get_use_requires_obstacle
+18026dca8	33	gringo_is_character_blend_paused
+18026dcd0	32	gringo_get_tasked_user_external
+18026dcf0	23	gringo_set_reuse_delay
+18026dd08	33	gringo_get_use_component_heading
+18026dd30	37	gringo_get_use_component_heading_ext
+18026dd58	24	gringo_set_availability
+18026dd70	24	gringo_get_availability
+18026dd88	28	gringo_set_availability_ext
+18026dda8	30	gringo_get_request_mid_action
+18026ddc8	26	gringo_set_component_user
+18026dde8	26	gringo_get_component_user
+18026de08	28	gringo_clear_component_user
+18026de28	34	gringo_query_named_component_user
+18026de50	20	gringo_reward_actor
+18026de68	27	gringo_report_use_finished
+18026de88	26	gringo_was_use_successful
+18026dea8	32	gringo_satisfy_motives_of_actor
+18026dec8	26	gringo_play_anim_on_actor
+18026dee8	29	gringo_is_actor_playing_anim
+18026df08	37	gringo_return_actor_to_default_anims
+18026df30	24	gringo_owns_actor_anims
+18026df48	46	gringo_play_anim_on_actor_with_prop_component
+18026df78	32	gringo_actor_drop_attached_prop
+18026df98	20	attach_prop_to_anim
+18026dfb0	27	gringo_attach_prop_to_anim
+18026dfd0	28	gringo_get_prop_attach_slot
+18026dff0	24	attach_slot_from_string
+18026e008	29	gringo_anim_get_ast_filename
+18026e028	29	gringo_anim_get_act_filename
+18026e048	39	gringo_get_actor_specific_ast_filename
+18026e070	29	gringo_anim_get_act_rootnode
+18026e090	39	gringo_anim_is_subnode_playing_by_hash
+18026e0b8	30	gringo_anim_play_node_by_hash
+18026e0d8	18	gringo_actor_face
+18026e0f0	21	gringo_actor_move_to
+18026e108	30	gringo_actor_move_to_and_face
+18026e128	47	gringo_actor_move_to_and_face_with_user_offset
+18026e158	27	gringo_set_prop_collisions
+18026e178	19	gringo_reinit_prop
+18026e190	21	gringo_is_prop_ready
+18026e1a8	20	gringo_get_physinst
+18026e1c0	29	gringo_prop_reset_gracefully
+18026e1e0	30	gringo_is_target_object_ready
+18026e200	21	get_gringo_bool_attr
+18026e218	20	get_gringo_int_attr
+18026e230	27	get_gringo_object_ref_attr
+18026e250	23	get_gringo_struct_attr
+18026e268	22	get_gringo_float_attr
+18026e280	23	get_gringo_vector_attr
+18026e298	34	get_gringo_relative_position_attr
+18026e2c0	37	get_gringo_relative_orientation_attr
+18026e2e8	23	get_gringo_string_attr
+18026e300	21	set_gringo_bool_attr
+18026e318	20	set_gringo_int_attr
+18026e330	27	set_gringo_object_ref_attr
+18026e350	22	set_gringo_float_attr
+18026e368	23	set_gringo_vector_attr
+18026e380	18	gringo_query_bool
+18026e398	17	gringo_query_int
+18026e3b0	24	gringo_query_object_ref
+18026e3c8	20	gringo_query_struct
+18026e3e0	19	gringo_query_float
+18026e3f8	20	gringo_query_string
+18026e410	18	gringo_query_prop
+18026e428	19	gringo_update_bool
+18026e440	18	gringo_update_int
+18026e458	25	gringo_update_object_ref
+18026e478	21	gringo_update_struct
+18026e490	27	gringo_get_attribute_count
+18026e4b0	21	gringo_get_attribute
+18026e4c8	26	gringo_is_attribute_valid
+18026e4e8	26	gringo_get_attribute_hash
+18026e508	33	gringo_get_vector_attr_by_handle
+18026e530	33	gringo_get_string_attr_by_handle
+18026e558	32	gringo_get_float_attr_by_handle
+18026e578	31	gringo_get_attr_type_by_handle
+18026e5a0	16	gui_make_window
+18026e5b0	14	gui_make_text
+18026e5c0	17	gui_make_overlay
+18026e5d8	24	gui_windows_with_values
+18026e5f0	20	gui_move_window_abs
+18026e608	17	gui_close_window
+18026e620	17	gui_window_valid
+18026e638	13	gui_set_text
+18026e648	21	gui_set_text_justify
+18026e660	19	gui_set_text_color
+18026e678	16	gui_main_window
+18026e688	27	gui_message_released_input
+18026e6a4	7	f2vstr
+18026e6ac	6	f2str
+18026e6b4	6	i2str
+18026e6bc	6	v2str
+18026e6c8	24	float_to_string_verbose
+18026e6e0	25	float_to_string_formated
+18026e700	14	int_to_string
+18026e710	17	vector_to_string
+18026e724	7	health
+18026e730	18	get_last_attacker
+18026e748	18	get_last_hit_time
+18026e760	20	get_last_hit_weapon
+18026e778	19	get_last_hit_flags
+18026e790	16	get_last_damage
+18026e7a0	18	get_last_hit_zone
+18026e7b8	27	get_corpse_last_hit_weapon
+18026e7d8	25	get_corpse_last_hit_zone
+18026e7f8	15	clear_last_hit
+18026e808	11	kill_actor
+18026e818	23	kill_actor_with_killer
+18026e830	15	is_actor_alive
+18026e840	14	is_actor_dead
+18026e850	17	is_actor_ragdoll
+18026e868	17	set_actor_health
+18026e880	17	get_actor_health
+18026e898	21	get_actor_max_health
+18026e8b0	21	set_actor_max_health
+18026e8c8	21	_actor_has_ko_points
+18026e8e0	20	set_actor_ko_points
+18026e8f8	20	get_actor_ko_points
+18026e910	24	get_actor_max_ko_points
+18026e928	23	set_actor_knockouttime
+18026e940	31	set_actor_knockouttime_default
+18026e960	15	is_actor_drunk
+18026e970	16	set_actor_drunk
+18026e980	21	set_actor_passed_out
+18026e998	29	set_actor_hanging_from_noose
+18026e9b8	24	_set_hit_info_dda_level
+18026e9d0	26	_reset_hit_info_dda_level
+18026e9f0	8	holster
+18026e9f8	21	actor_holster_weapon
+18026ea10	26	actor_start_force_holster
+18026ea30	24	actor_end_force_holster
+18026ea48	23	actor_draw_last_weapon
+18026ea60	22	actor_draw_any_weapon
+18026ea78	18	actor_draw_weapon
+18026ea90	19	actor_is_holstered
+18026eaa8	29	set_weapon_selection_enabled
+18026eac8	40	set_weapon_selection_ai_min_range_actor
+18026eaf0	42	set_weapon_selection_ai_min_range_default
+18026eb20	46	set_weapon_selection_ai_base_priority_default
+18026eb50	48	set_weapon_selection_ai_can_use_indoors_default
+18026eb88	21	ui_set_prompt_string
+18026eba0	19	ui_set_prompt_icon
+18026ebb8	26	ui_set_prompt_icon_string
+18026ebd8	15	ui_hide_prompt
+18026ebe8	15	flash_set_bool
+18026ebf8	14	flash_set_int
+18026ec08	16	flash_set_float
+18026ec18	20	flash_set_array_int
+18026ec30	17	flash_set_string
+18026ec48	23	flash_set_array_string
+18026ec60	15	flash_get_bool
+18026ec70	14	flash_get_int
+18026ec80	16	flash_get_float
+18026ec90	33	flash_set_array_string_formatted
+18026ecb8	10	print_big
+18026ecc8	14	print_small_b
+18026ecd8	13	print_help_b
+18026ece8	18	print_objective_b
+18026ed00	12	print_money
+18026ed10	17	print_big_format
+18026ed28	19	print_small_format
+18026ed40	23	print_objective_format
+18026ed58	18	print_help_format
+18026ed70	27	get_last_printed_objective
+18026ed90	24	clear_printed_objective
+18026eda8	26	hud_is_showing_small_text
+18026edc8	24	hud_is_showing_big_text
+18026ede0	25	hud_is_showing_objective
+18026ee00	25	hud_is_showing_help_text
+18026ee20	21	hud_clear_small_text
+18026ee38	19	hud_clear_big_text
+18026ee50	18	hud_clear_counter
+18026ee68	20	hud_clear_objective
+18026ee80	27	hud_clear_small_text_queue
+18026eea0	25	hud_clear_big_text_queue
+18026eec0	26	hud_clear_objective_queue
+18026eee0	21	hud_clear_help_queue
+18026eef8	19	add_blip_for_actor
+18026ef10	20	add_blip_for_object
+18026ef28	19	add_blip_for_coord
+18026ef40	17	change_blip_icon
+18026ef58	13	set_blip_pos
+18026ef68	15	set_blip_scale
+18026ef78	15	set_blip_color
+18026ef88	18	set_blip_priority
+18026efa0	15	set_blip_blink
+18026efb0	14	set_blip_flag
+18026efc0	17	set_blip_visible
+18026efd8	16	is_blip_visible
+18026efe8	14	is_blip_valid
+18026eff8	12	remove_blip
+18026f008	18	get_blip_on_actor
+18026f020	19	get_blip_on_object
+18026f038	14	get_blip_icon
+18026f048	16	set_current_map
+18026f058	18	set_stamina_blink
+18026f070	18	set_deadeye_blink
+18026f088	23	set_hud_map_scale_walk
+18026f0a0	24	set_hud_map_scale_drive
+18026f0b8	27	set_hud_map_scale_override
+18026f0d8	17	get_radar_radius
+18026f0f0	29	abort_hud_map_scale_override
+18026f110	12	_0x2148ac15
+18026f120	12	_0x444c3c32
+18026f130	21	set_blip_hudmap_only
+18026f148	23	set_blip_pausemap_only
+18026f160	25	get_blip_impairment_mask
+18026f180	25	set_blip_impairment_mask
+18026f1a0	22	set_blip_max_distance
+18026f1b8	22	set_blip_min_distance
+18026f1d0	25	_set_blip_height_enabled
+18026f1f0	14	set_blip_name
+18026f200	14	clear_regions
+18026f210	14	append_region
+18026f220	19	set_region_visited
+18026f238	24	is_hud_map_draw_enabled
+18026f250	25	set_hud_map_draw_enabled
+18026f270	31	set_hud_map_draw_enabled_timed
+18026f290	19	is_hud_map_visible
+18026f2a8	24	set_radar_tiles_visible
+18026f2c0	32	hud_set_shoot_blip_max_distance
+18026f2e0	37	hud_set_shoot_blip_enabled_for_actor
+18026f308	36	hud_clear_shoot_blip_icon_for_actor
+18026f330	34	hud_get_shoot_blip_icon_for_actor
+18026f358	34	hud_set_shoot_blip_icon_for_actor
+18026f380	17	set_stat_message
+18026f398	19	clear_stat_message
+18026f3b0	24	is_stat_message_showing
+18026f3c8	18	hud_timer_display
+18026f3e0	14	hud_timer_get
+18026f3f0	20	hud_timer_countdown
+18026f408	16	hud_timer_pause
+18026f418	17	wantedfx_enabled
+18026f430	19	wantedfx_set_level
+18026f448	20	hud_counter_display
+18026f460	16	hud_counter_set
+18026f470	11	hud_enable
+18026f480	19	hud_set_fade_color
+18026f498	13	hud_fade_out
+18026f4a8	27	hud_fade_to_loading_screen
+18026f4c8	12	hud_fade_in
+18026f4d8	16	hud_fade_in_now
+18026f4e8	13	hud_is_faded
+18026f4f8	14	hud_is_fading
+18026f508	30	ui_show_mission_loadingscreen
+18026f528	29	ui_show_random_loadingscreen
+18026f548	21	flash_intro_shutdown
+18026f560	22	flash_intro_fade_logo
+18026f578	29	flash_intro_fade_press_start
+18026f598	33	flash_intro_are_legals_completed
+18026f5c0	24	movie_player_stop_movie
+18026f5d8	21	ui_is_showing_dialog
+18026f5f0	17	ui_transition_to
+18026f608	21	ui_get_reboot_reason
+18026f620	14	ui_send_event
+18026f630	9	ui_enter
+18026f640	12	_0x8a8bdcf9
+18026f650	16	clear_newspaper
+18026f660	15	show_newspaper
+18026f670	19	set_newspaper_info
+18026f688	13	set_gps_path
+18026f698	17	is_gps_recompute
+18026f6b0	15	clear_gps_path
+18026f6c0	26	get_user_defined_waypoint
+18026f6e0	33	is_user_defined_waypoint_cleared
+18026f708	18	find_traffic_path
+18026f720	17	is_teleportation
+18026f738	23	get_last_nearest_point
+18026f750	29	hud_set_minigame_type_layout
+18026f770	21	hud_stamina_override
+18026f788	19	ui_cheat_get_value
+18026f7a0	19	ui_cheat_set_value
+18026f7b8	19	ui_cheat_get_state
+18026f7d0	19	ui_cheat_set_state
+18026f7e8	18	ui_cheat_set_code
+18026f800	19	ui_set_has_cheated
+18026f818	15	ui_has_cheated
+18026f828	31	ui_dump_message_queue_to_notes
+18026f848	23	ui_clear_message_queue
+18026f860	26	ui_is_message_queue_empty
+18026f880	27	ui_remove_message_in_queue
+18026f8a0	26	hud_set_center_blip_shown
+18026f8c0	25	is_dlc_zombiepack_active
+18026f8e0	19	is_hardcore_active
+18026f8f8	22	_hud_set_zombie_theme
+18026f910	22	_hud_set_normal_theme
+18026f928	10	indicator
+18026f938	19	set_indicator_draw
+18026f950	13	intersection
+18026f960	18	find_intersection
+18026f978	25	find_ground_intersection
+18026f998	39	find_ground_intersection_with_material
+18026f9c0	24	find_water_intersection
+18026f9d8	23	get_material_at_vector
+18026f9f0	26	get_actor_ground_material
+18026fa10	20	is_position_indoors
+18026fa28	10	inventory
+18026fa38	9	add_item
+18026fa48	16	add_item_by_crc
+18026fa58	24	has_inventory_component
+18026fa70	15	get_item_count
+18026fa80	22	get_item_count_by_crc
+18026fa98	19	get_max_item_count
+18026fab0	19	set_max_item_count
+18026fac8	21	add_accessory_by_crc
+18026fae0	16	add_collectable
+18026faf0	19	remove_collectable
+18026fb08	11	ready_item
+18026fb18	9	has_item
+18026fb28	12	delete_item
+18026fb38	17	delete_accessory
+18026fb50	28	actor_get_item_crc_at_index
+18026fb70	33	actor_get_accessory_crc_at_index
+18026fb98	35	actor_get_collectable_crc_at_index
+18026fbc0	22	is_item_weapon_by_crc
+18026fbd8	27	get_item_in_hand_equipslot
+18026fbf8	19	get_item_equipslot
+18026fc10	28	actor_disable_weapon_render
+18026fc30	26	actor_force_weapon_render
+18026fc50	16	is_weapon_drawn
+18026fc60	21	give_weapon_to_actor
+18026fc78	22	actor_set_next_weapon
+18026fc90	25	actor_put_weapon_in_hand
+18026fcb0	25	actor_has_weapon_in_hand
+18026fcd0	43	actor_set_next_equip_slot_from_weapon_enum
+18026fd00	26	actor_set_next_equip_slot
+18026fd20	26	actor_get_next_equip_slot
+18026fd40	29	actor_get_current_equip_slot
+18026fd60	30	actor_get_best_weapon_of_type
+18026fd80	25	delete_weapon_from_actor
+18026fda0	20	get_weapon_equipped
+18026fdb8	33	get_weapon_is_externally_created
+18026fde0	19	get_weapon_in_hand
+18026fdf8	23	get_weapon_in_hand_crc
+18026fe10	25	get_weapon_enum_from_crc
+18026fe30	23	set_equip_slot_enabled
+18026fe48	16	equip_accessory
+18026fe58	18	deequip_accessory
+18026fe70	19	has_accessory_enum
+18026fe88	23	is_accessory_equippped
+18026fea0	20	drop_accessory_enum
+18026feb8	22	actor_set_weapon_ammo
+18026fed0	29	actor_set_weapon_ammo_by_crc
+18026fef0	17	actor_has_weapon
+18026ff08	22	actor_add_weapon_ammo
+18026ff20	22	actor_get_weapon_ammo
+18026ff38	26	actor_discard_weapon_ammo
+18026ff58	24	actor_has_variable_mesh
+18026ff70	28	get_ammoenum_for_weaponenum
+18026ff90	28	get_weaponenum_for_ammoenum
+18026ffb0	16	set_weapon_gold
+18026ffc0	16	get_weapon_gold
+18026ffd0	18	is_golden_guns_on
+18026ffe8	16	fire_projectile
+18026fff8	19	actor_add_inv_ammo
+180270010	19	actor_set_inv_ammo
+180270028	30	actor_set_inv_ammo_max_amount
+180270048	28	actor_set_inv_ammo_infinite
+180270068	19	actor_get_inv_ammo
+180270080	30	actor_get_inv_ammo_max_amount
+1802700a0	28	actor_get_inv_ammo_infinite
+1802700c0	33	actor_should_drop_items_on_death
+1802700e8	40	actor_set_drop_item_on_death_enumerated
+180270110	21	create_weapon_pickup
+180270128	19	remove_all_pickups
+180270140	29	get_num_weapons_in_inventory
+180270160	33	get_num_accessories_in_inventory
+180270188	34	get_num_collectables_in_inventory
+1802701b0	30	delete_all_weapons_from_actor
+1802701d0	34	delete_all_accessories_from_actor
+1802701f8	32	delete_all_inventory_from_actor
+180270218	27	setup_associated_fragments
+180270238	22	gringoitem_get_action
+180270250	29	gringoitem_clear_for_new_use
+180270270	8	journal
+180270278	25	set_exclusive_journal_id
+180270298	27	reset_exclusive_journal_id
+1802702b8	23	toggle_coop_journal_ui
+1802702d0	18	toggle_journal_ui
+1802702e8	18	get_journal_entry
+180270300	21	create_journal_entry
+180270318	29	create_journal_entry_by_hash
+180270338	25	is_journal_entry_in_list
+180270358	32	get_num_journal_entries_in_list
+180270378	26	get_journal_entry_in_list
+180270398	22	prepend_journal_entry
+1802703b0	21	append_journal_entry
+1802703c8	21	remove_journal_entry
+1802703e0	20	clear_journal_entry
+1802703f8	29	prepend_journal_entry_detail
+180270418	28	append_journal_entry_detail
+180270438	32	clear_journal_entry_detail_list
+180270458	30	get_journal_entry_num_details
+180270478	39	get_journal_entry_detail_hash_by_index
+1802704a0	39	get_journal_entry_detail_style_by_hash
+1802704c8	31	set_journal_entry_detail_style
+1802704e8	39	set_journal_entry_detail_style_by_hash
+180270510	26	is_journal_entry_targeted
+180270530	23	get_journal_entry_type
+180270548	25	is_journal_entry_updated
+180270568	28	get_journal_entry_misc_flag
+180270588	27	get_targeted_journal_entry
+1802705a8	21	target_journal_entry
+1802705c0	26	set_journal_entry_updated
+1802705e0	25	set_journal_entry_trophy
+180270600	25	deactivate_journal_entry
+180270620	27	set_journal_entry_progress
+180270640	27	get_journal_entry_progress
+180270660	36	set_journal_entry_disallow_tracking
+180270688	36	get_journal_entry_disallow_tracking
+1802706b0	36	set_journal_entry_current_objective
+1802706d8	24	get_last_note_objective
+1802706f0	6	lasso
+1802706f8	17	get_lasso_target
+180270710	15	get_lasso_user
+180270720	19	get_hogtied_master
+180270738	27	get_attached_hogtie_victim
+180270758	13	detach_lasso
+180270768	17	free_from_hogtie
+180270780	12	lasso_event
+180270790	27	set_intended_hogtie_master
+1802707b0	23	is_actor_being_dragged
+1802707c8	17	is_actor_hogtied
+1802707e0	19	is_actor_in_hogtie
+1802707f8	23	get_actor_hogtie_state
+180270810	13	hogtie_actor
+180270820	29	attach_hogtie_actor_to_actor
+180270840	25	set_hogtie_attach_victim
+180270860	27	clear_hogtie_attach_victim
+180270880	25	is_actor_hogtie_attached
+1802708a0	29	is_hogtie_putdown_obstructed
+1802708c0	28	is_hogtie_pickup_obstructed
+1802708e0	29	is_hogtie_cutfree_obstructed
+180270900	34	is_hogtie_horse_pickup_obstructed
+180270928	25	immediately_lasso_target
+180270944	6	leash
+180270950	20	create_leash_object
+180270968	16	leash_constrain
+180270978	14	leash_restart
+180270988	28	leash_set_constraint_length
+1802709a8	23	leash_set_leash_length
+1802709c0	25	leash_release_constraint
+1802709e0	22	leash_attach_to_world
+1802709f8	23	leash_attach_to_object
+180270a10	33	leash_attach_to_fragment_locator
+180270a38	28	leash_attach_to_object_bone
+180270a58	35	leash_attach_to_object_bone_visual
+180270a80	20	leash_detach_object
+180270a98	16	leash_is_broken
+180270aa8	12	leash_break
+180270ab8	28	create_rope_for_bridge_left
+180270ad8	29	create_rope_for_bridge_right
+180270af8	23	leash_stay_constrained
+180270b10	9	minigame
+180270b20	15	start_minigame
+180270b30	20	push_minigame_input
+180270b48	20	is_minigame_running
+180270b60	21	end_current_minigame
+180270b78	12	_0x6aad0420
+180270b88	12	_0x655d350b
+180270b98	25	set_current_minigame_int
+180270bb8	23	set_minigame_win_state
+180270bd8	22	create_object_locator
+180270bf0	37	object_locator_attach_to_object_bone
+180270c18	42	object_locator_attach_to_fragment_locator
+180270c48	32	object_locator_attach_to_object
+180270c68	45	object_locator_get_locator_local_orientation
+180270c98	42	object_locator_get_locator_local_position
+180270cc4	6	mixer
+180270cd0	26	dynamicmixer_triggerstate
+180270cf0	37	dynamicmixer_triggerstate_persistent
+180270d18	28	dynamicmixer_detriggerstate
+180270d38	35	_dynamicmixer_triggerstate_preduel
+180270d5c	7	motive
+180270d68	19	set_motive_by_enum
+180270d7c	6	movie
+180270d88	19	world_movie_player
+180270da0	19	_start_world_movie
+180270db8	18	_stop_world_movie
+180270dd0	24	_is_world_movie_playing
+180270de8	8	navmesh
+180270df0	39	streaming_is_movable_nav_mesh_resident
+180270e18	35	streaming_request_movable_nav_mesh
+180270e40	37	streaming_unrequest_movable_nav_mesh
+180270e68	27	set_actor_movable_nav_mesh
+180270e88	9	navquery
+180270e98	17	create_nav_query
+180270eb0	18	nav_query_is_done
+180270ec8	28	nav_query_can_path_to_point
+180270ee8	36	nav_query_receive_can_path_to_point
+180270f10	34	nav_query_start_can_path_to_point
+180270f38	15	nav_query_stop
+180270f50	8	net_log
+180270f58	24	net_is_online_available
+180270f70	22	net_is_session_client
+180270f88	17	net_get_nat_type
+180270fa0	25	net_get_local_gamer_name
+180270fc0	18	get_slot_for_host
+180270fd8	16	get_num_players
+180270fe8	21	net_start_new_script
+180271000	19	net_scriptmsg_send
+180271018	24	net_scriptmsg_ispending
+180271030	22	net_scriptmsg_getnext
+180271048	31	net_scriptmsg_register_handler
+180271068	28	net_scriptmsg_query_handler
+180271088	49	_net_is_slot_valid_in_client_broadcast_variables
+1802710c0	40	_net_is_client_data_valid_for_all_slots
+1802710e8	43	is_data_valid_for_host_broadcast_variables
+180271118	19	net_request_object
+180271130	34	net_object_replication_mode_start
+180271158	32	net_object_replication_mode_end
+180271178	32	net_object_get_replication_mode
+180271198	32	net_object_set_replication_mode
+1802711b8	26	net_object_lock_ownership
+1802711d8	36	_net_set_replicate_always_to_layout
+180271200	44	_net_set_layout_objects_replicate_to_layout
+180271230	25	net_actor_get_script_int
+180271250	25	net_actor_set_equip_type
+180271270	25	net_actor_set_script_int
+180271290	26	net_object_set_script_int
+1802712b0	26	net_object_get_script_int
+1802712d0	30	net_actor_set_allow_blip_sync
+1802712f0	41	net_actor_set_gringo_navigation_complete
+180271320	28	net_get_session_gamer_count
+180271340	18	award_achievement
+180271358	28	has_achievement_been_passed
+180271378	13	award_avatar
+180271388	20	net_get_posse_count
+1802713a0	20	net_is_posse_leader
+1802713b8	26	net_get_posse_leader_slot
+1802713d8	27	net_get_gamer_posse_leader
+1802713f8	25	net_get_gamer_posse_size
+180271418	23	net_posse_remove_gamer
+180271430	28	net_posse_is_invite_present
+180271450	29	net_posse_is_request_present
+180271470	34	net_set_quickmatch_playlist_range
+180271498	34	net_set_this_script_is_net_script
+1802714c0	29	net_unregister_as_net_script
+1802714e0	22	net_get_script_status
+1802714f8	26	net_is_player_participant
+180271518	27	net_is_host_of_this_script
+180271538	28	net_get_host_of_this_script
+180271558	26	net_allow_players_to_join
+180271578	39	net_is_script_registered_as_net_script
+1802715a0	32	net_script_get_num_participants
+1802715c0	18	net_gamerdata_set
+1802715d8	23	net_get_kill_effect_on
+1802715f0	36	_net_session_get_normalize_position
+180271618	43	_net_session_get_current_search_generation
+180271648	51	_net_session_get_generation_for_net_session_object
+180271680	59	_net_session_get_joined_generation_from_net_session_object
+1802716c0	26	net_join_session_from_obj
+1802716e0	31	_net_get_session_gamemode_type
+180271700	36	is_session_currently_joined_session
+180271728	31	net_session_set_game_locale_ex
+180271748	31	net_session_set_game_mode_type
+180271768	27	net_voice_broadcast_enable
+180271788	28	net_voice_broadcast_disable
+1802717a8	16	net_is_unlocked
+1802717b8	37	net_get_area_overload_state_for_slot
+1802717e0	20	update_profile_stat
+1802717f8	27	update_string_profile_stat
+180271818	35	net_broadcast_explode_target_event
+180271840	15	net_set_unlock
+180271858	33	_net_gametype_add_gametype_entry
+180271880	33	_net_gametype_get_gametype_entry
+1802718a8	29	game_instance_iterator_start
+1802718c8	28	game_instance_iterator_next
+1802718e8	25	game_instance_set_region
+180271908	19	add_playlist_to_db
+180271920	21	get_playlist_from_db
+180271938	29	get_playlist_from_db_by_name
+180271958	10	net_stats
+180271968	23	net_update_leaderboard
+180271980	20	net_start_lb_update
+180271998	18	net_end_lb_update
+1802719b0	31	net_create_friend_score_reader
+1802719d0	25	net_report_friend_scores
+1802719f0	31	net_get_local_gamer_score_info
+180271a10	34	net_get_nearest_friend_score_info
+180271a38	28	net_get_nearest_friend_name
+180271a58	31	net_get_slot_of_nearest_friend
+180271a78	35	net_is_friend_score_info_available
+180271aa0	25	net_get_local_gamer_rank
+180271ac0	28	net_get_nearest_friend_rank
+180271ae0	30	net_lb_friends_select_nearest
+180271b00	31	net_challenge_lb_create_reader
+180271b20	32	net_challenge_lb_destroy_reader
+180271b40	35	net_challenge_lb_does_reader_exist
+180271b68	34	net_challenge_lb_is_read_complete
+180271b90	43	net_challenge_lb_is_local_gamer_info_valid
+180271bc0	38	net_challenge_lb_get_local_gamer_name
+180271be8	39	net_challenge_lb_get_local_gamer_stats
+180271c10	42	net_challenge_lb_is_top_friend_info_valid
+180271c40	37	net_challenge_lb_get_top_friend_name
+180271c68	38	net_challenge_lb_get_top_friend_stats
+180271c90	42	net_challenge_lb_is_top_scorer_info_valid
+180271cc0	37	net_challenge_lb_get_top_scorer_name
+180271ce8	38	net_challenge_lb_get_top_scorer_stats
+180271d10	51	net_challenge_lb_is_scorer_above_player_info_valid
+180271d48	46	net_challenge_lb_get_scorer_above_player_name
+180271d78	47	net_challenge_lb_get_scorer_above_player_stats
+180271da8	7	net_ui
+180271db0	36	net_get_and_clear_game_mode_request
+180271dd8	35	net_get_and_clear_playlist_request
+180271e00	36	net_get_and_clear_quit_game_request
+180271e28	23	net_get_free_roam_mode
+180271e40	23	net_set_free_roam_mode
+180271e58	23	net_register_game_type
+180271e70	27	net_register_playlist_type
+180271e90	24	net_set_playlist_locked
+180271ea8	21	net_get_joinwish_pad
+180271ec0	23	net_authenticate_gamer
+180271ed8	24	net_get_gamer_hex_color
+180271ef0	24	net_get_gamer_rgb_color
+180271f08	32	net_is_gamer_radar_blip_visible
+180271f28	25	_net_sys_ui_set_position
+180271f48	24	net_player_barker_reset
+180271f60	28	net_get_using_sphere_curves
+180271f80	29	net_player_show_context_menu
+180271fa0	22	net_player_list_reset
+180271fb8	25	net_player_list_add_item
+180271fd8	31	net_player_list_add_gamer_slot
+180271ff8	30	net_player_list_set_highlight
+180272018	29	net_player_list_set_top_team
+180272038	31	net_player_list_set_team_score
+180272058	30	net_player_list_set_team_sort
+180272078	26	net_player_list_set_title
+180272098	29	net_player_list_set_template
+1802720b8	27	net_player_list_set_header
+1802720d8	32	net_player_list_set_description
+1802720f8	26	net_player_list_timer_set
+180272118	38	net_player_list_timer_enable_flashing
+180272140	33	net_player_list_set_current_item
+180272168	41	net_player_list_set_current_item_by_slot
+180272198	47	net_player_list_set_current_item_mscore_string
+1802721c8	44	net_player_list_set_current_item_mscore_int
+1802721f8	38	net_player_list_set_current_item_team
+180272220	42	net_player_list_set_current_item_priority
+180272250	38	net_player_list_set_current_item_dead
+180272278	19	net_ticker_reportf
+180272290	17	net_ticker_clear
+1802722a8	27	net_xp_total_report_change
+1802722c8	21	net_scoregraph_setup
+1802722e0	29	net_scoregraph_clear_markers
+180272300	32	net_scoregraph_add_player_score
+180272320	32	net_scoregraph_add_player_label
+180272340	30	net_scoregraph_add_team_score
+180272360	30	net_scoregraph_add_team_label
+180272380	7	object
+180272388	18	verify_type_count
+1802723a0	19	verify_event_count
+1802723b8	12	_0x26011c78
+1802723c8	12	log_object2
+1802723d8	12	log_object3
+1802723e8	19	is_layoutref_valid
+180272400	16	is_object_valid
+180272410	18	is_iterator_valid
+180272428	19	is_pers_char_valid
+180272440	16	is_popset_valid
+180272450	14	is_zone_valid
+180272460	15	is_crime_valid
+180272470	16	get_object_type
+180272480	24	get_num_objects_of_type
+180272498	28	get_max_num_objects_of_type
+1802724b8	18	find_named_layout
+1802724d0	15	get_actor_name
+1802724e0	16	get_object_name
+1802724f0	16	get_layout_name
+180272500	22	get_object_model_name
+180272518	19	get_something_name
+180272530	31	get_cover_location_from_object
+180272550	23	get_gringo_from_object
+180272568	21	get_prop_from_object
+180272580	23	get_object_from_gringo
+180272598	22	get_object_from_actor
+1802725b0	23	get_object_from_volume
+1802725c8	26	get_object_from_pers_char
+1802725e8	22	get_object_from_squad
+180272600	22	get_object_from_crime
+180272618	25	get_object_from_physinst
+180272638	22	get_actor_from_object
+180272650	23	get_volume_from_object
+180272668	26	get_pers_char_from_object
+180272688	25	get_iterator_from_object
+1802726a8	22	get_squad_from_object
+1802726c0	23	get_layout_from_object
+1802726d8	30	get_mobile_layout_from_object
+1802726f8	22	get_crime_from_object
+180272710	23	get_camera_from_object
+180272728	26	get_nav_query_from_object
+180272748	14	create_layout
+180272758	21	create_mobile_layout
+180272770	24	create_corpse_in_layout
+180272788	31	create_corpse_in_layout_random
+1802727a8	32	create_cover_location_in_layout
+1802727c8	23	create_point_in_layout
+1802727e0	29	create_point_light_in_layout
+180272800	24	create_volume_in_layout
+180272818	28	create_volume_set_in_layout
+180272838	24	create_gringo_in_layout
+180272850	20	in_targetting_posse
+180272868	30	create_gringo_in_layout_by_id
+180272888	30	create_gringo_on_object_by_id
+1802728a8	25	create_propset_in_layout
+1802728c8	22	create_prop_in_layout
+1802728e0	28	create_prop_in_layout_by_id
+180272900	22	create_path_in_layout
+180272918	33	create_path_in_layout_from_table
+180272940	26	create_obstacle_in_layout
+180272960	26	create_obstacle_on_object
+180272980	23	create_squad_in_layout
+180272998	27	create_formation_in_layout
+1802729b8	23	create_crime_in_layout
+1802729d0	35	create_ai_speech_package_in_layout
+1802729f8	27	mark_layout_consider_whole
+180272a18	19	release_layout_ref
+180272a30	23	release_layout_objects
+180272a48	23	destroy_layout_objects
+180272a60	27	init_mobile_layout_objects
+180272a80	31	store_mobile_layout_transforms
+180272aa0	26	transform_object_relative
+180272ac0	35	mark_object_for_aggressive_cleanup
+180272ae8	19	release_object_ref
+180272b00	14	release_actor
+180272b10	15	release_volume
+180272b20	18	release_pers_char
+180272b38	15	destroy_volume
+180272b48	14	destroy_actor
+180272b58	15	destroy_layout
+180272b68	15	destroy_object
+180272b78	17	destroy_iterator
+180272b90	18	destroy_pers_char
+180272ba8	20	destroy_point_light
+180272bc0	23	destroy_population_set
+180272bd8	13	destroy_zone
+180272be8	14	destroy_crime
+180272bf8	21	give_object_to_actor
+180272c10	22	give_object_to_layout
+180272c28	17	get_object_owner
+180272c40	19	destroy_gc_objects
+180272c58	33	_was_last_object_already_in_game
+180272c80	19	get_ambient_layout
+180272c98	22	get_art_gringo_layout
+180272cb0	14	get_gc_layout
+180272cc0	27	create_objectset_in_layout
+180272ce0	19	is_objectset_valid
+180272cf8	24	add_object_to_objectset
+180272d10	19	get_objectset_size
+180272d28	26	get_object_from_objectset
+180272d48	26	get_objectset_from_object
+180272d68	32	get_indexed_object_in_objectset
+180272d88	23	is_object_in_objectset
+180272da0	29	remove_object_from_objectset
+180272dc0	16	clean_objectset
+180272dd0	18	disband_objectset
+180272de8	18	destroy_objectset
+180272e00	21	is_point_light_valid
+180272e18	23	set_enable_point_light
+180272e30	20	is_object_in_volume
+180272e48	19	locate_named_point
+180272e60	19	locate_named_actor
+180272e78	20	locate_named_volume
+180272e90	24	locate_actors_in_volume
+180272ea8	25	locate_gringos_in_volume
+180272ec8	18	set_volume_params
+180272ee0	18	add_to_volume_set
+180272ef8	12	copy_volume
+180272f08	13	scale_volume
+180272f18	33	set_actor_stay_outside_of_volume
+180272f40	33	add_actor_stay_outside_of_volume
+180272f68	29	set_actor_stay_within_volume
+180272f88	29	add_actor_stay_within_volume
+180272fa8	31	clear_actor_stay_within_volume
+180272fc8	28	set_actor_volume_parameters
+180272fe8	32	remove_actor_stay_within_volume
+180273008	36	remove_actor_stay_outside_of_volume
+180273030	33	add_corpse_retainment_volume_obj
+180273058	36	remove_corpse_retainment_volume_obj
+180273080	30	add_corpse_removal_volume_obj
+1802730a0	33	remove_corpse_removal_volume_obj
+1802730c8	43	add_corpse_prevent_interference_volume_obj
+1802730f8	46	remove_corpse_prevent_interference_volume_obj
+180273128	19	toggle_cover_props
+180273140	19	create_zone_volume
+180273158	35	create_volume_spawning_zone_volume
+180273180	22	create_population_set
+180273198	32	create_population_set_in_layout
+1802731b8	28	create_named_population_set
+1802731d8	25	create_gateway_in_layout
+1802731f8	37	create_gateway_from_params_in_layout
+180273220	20	create_gateway_type
+180273238	21	snap_actor_to_gringo
+180273250	21	_rmptfx_effect_start
+180273268	33	_rmptfx_effect_start_and_fade_in
+180273290	20	_rmptfx_effect_stop
+1802732a8	30	_rmptfx_effect_stop_and_reset
+1802732c8	33	_rmptfx_effect_stop_and_fade_out
+1802732f0	17	reset_rmptfx_all
+180273308	23	reset_rmptfx_in_volume
+180273320	32	create_rmptfx_emitter_in_layout
+180273340	32	create_rmptfx_emitter_on_object
+180273360	30	create_rmptfx_emitter_on_bone
+180273380	31	create_rmptfx_emitter_on_curve
+1802733a0	19	is_rmptfx_finished
+1802733b8	17	set_rmptfx_scale
+1802733d0	19	hide_rmptfx_effect
+1802733e8	19	show_rmptfx_effect
+180273400	39	start_recording_shoot_events_for_actor
+180273428	38	stop_recording_shoot_events_for_actor
+180273450	23	add_formation_location
+180273468	23	get_formation_location
+180273480	28	get_num_formation_locations
+1802734a0	19	get_crime_position
+1802734b8	15	get_crime_type
+1802734c8	26	get_crime_begin_timestamp
+1802734e8	24	get_crime_end_timestamp
+180273500	20	get_crime_witnessed
+180273518	19	get_crime_criminal
+180273530	17	get_crime_victim
+180273548	23	get_crime_world_region
+180273560	18	get_crime_faction
+180273578	18	get_crime_counter
+180273590	17	is_crime_tallied
+1802735a8	21	is_crime_in_progress
+1802735c0	20	get_crime_objectset
+1802735d8	20	set_crime_objectset
+1802735f0	19	set_crime_position
+180273608	15	set_crime_type
+180273618	26	set_crime_begin_timestamp
+180273638	24	set_crime_end_timestamp
+180273650	20	set_crime_witnessed
+180273668	19	set_crime_criminal
+180273680	17	set_crime_victim
+180273698	23	set_crime_world_region
+1802736b0	18	set_crime_faction
+1802736c8	18	set_crime_counter
+1802736e0	18	set_crime_tallied
+1802736f8	22	set_crime_in_progress
+180273710	23	create_object_iterator
+180273728	29	create_named_object_iterator
+180273748	22	start_object_iterator
+180273760	21	object_iterator_next
+180273778	21	object_iterator_prev
+180273790	24	object_iterator_current
+1802737a8	22	object_iterator_reset
+1802737c0	24	iterate_on_partial_name
+1802737d8	30	iterate_on_partial_model_name
+1802737f8	23	iterate_on_object_type
+180273810	18	iterate_in_sphere
+180273828	18	iterate_in_volume
+180273840	19	iterate_everywhere
+180273858	18	iterate_in_layout
+180273870	15	iterate_in_set
+180273880	22	iterate_in_event_trap
+180273898	22	iterate_in_volume_set
+1802738b0	20	get_iterator_parent
+1802738c8	25	get_num_iterator_matches
+1802738e8	22	find_object_in_object
+180273900	22	find_object_in_layout
+180273918	21	find_actor_in_layout
+180273930	22	find_volume_in_layout
+180273948	29	clear_ambient_objects_sphere
+180273968	29	clear_ambient_objects_volume
+180273988	20	get_object_position
+1802739a0	26	rotate_object_around_axis
+1802739c0	16	get_object_axis
+1802739d0	29	get_object_relative_position
+1802739f0	27	get_object_relative_offset
+180273a10	32	get_object_relative_orientation
+180273a30	48	get_object_relative_orientation_in_object_space
+180273a60	38	prepare_corpse_for_animal_consumption
+180273a88	26	get_position_object_space
+180273aa8	23	get_object_orientation
+180273ac0	19	get_object_heading
+180273ad8	20	set_object_position
+180273af0	30	set_object_position_on_ground
+180273b10	23	set_object_orientation
+180273b28	22	snap_object_to_ground
+180273b40	31	get_object_named_bone_position
+180273b60	34	get_object_named_bone_orientation
+180273b88	26	teleport_object_to_object
+180273ba8	19	is_object_attached
+180273bc0	23	get_object_attachement
+180273bd8	23	get_object_attached_to
+180273bf0	15	attach_objects
+180273c00	22	attach_objects_no_drv
+180273c18	29	attach_objects_using_locator
+180273c38	26	attach_objects_continuous
+180273c58	24	attach_objects_physical
+180273c70	33	attach_set_rotational_constraint
+180273c98	20	is_attachment_valid
+180273cb0	25	remove_object_attachment
+180273cd0	30	remove_object_from_attachment
+180273cf0	30	remove_all_object_attachments
+180273d10	30	set_attachment_local_rotation
+180273d30	28	set_attachment_local_offset
+180273d50	31	set_attachment_ignore_rotation
+180273d70	17	reference_object
+180273d88	16	reference_actor
+180273d98	19	dereference_object
+180273db0	18	dereference_actor
+180273dc8	29	init_native_actorenum_player
+180273de8	28	init_native_actorenum_human
+180273e08	29	init_native_actorenum_animal
+180273e28	38	init_native_actorenum_rideable_animal
+180273e50	36	init_native_actorenum_flying_animal
+180273e78	30	init_native_actorenum_vehicle
+180273e98	28	init_native_actorenum_train
+180273eb8	33	init_native_actorenum_dlc_player
+180273ee0	32	init_native_actorenum_dlc_human
+180273f00	42	init_native_actorenum_dlc_rideable_animal
+180273f30	17	is_actorenum_dlc
+180273f48	23	is_actorenum_installed
+180273f60	33	set_lock_offset_actorenum_animal
+180273f88	23	create_actor_in_layout
+180273fa0	30	create_player_actor_in_layout
+180273fc0	27	create_pers_char_in_layout
+180273fe0	31	respawn_player_actor_in_layout
+180274000	16	is_actor_inited
+180274010	15	get_actor_enum
+180274020	22	get_actor_enum_string
+180274038	27	get_actor_enum_from_string
+180274058	32	get_actor_enum_string_from_enum
+180274078	31	get_actor_enum_variation_count
+180274098	23	get_actor_enum_faction
+1802740b0	28	switch_actor_enum_variation
+1802740d0	22	switch_player_to_enum
+1802740e8	23	turn_actor_into_zombie
+180274100	39	set_actor_hard_lock_aquire_bone_casual
+180274128	32	set_actor_hard_lock_aquire_bone
+180274148	14	request_asset
+180274158	13	get_asset_id
+180274168	13	remove_asset
+180274178	16	ae_get_asset_id
+180274188	15	get_asset_name
+180274198	21	is_assettypeid_valid
+1802741b0	31	is_assettypeid_valid_by_string
+1802741d0	22	get_corpse_actor_enum
+1802741e8	31	get_previous_actor_from_corpse
+180274208	27	request_articulated_corpse
+180274228	21	request_fixed_corpse
+180274240	28	set_prop_collide_with_world
+180274260	31	set_prop_collide_with_movables
+180274280	29	set_prop_collide_with_object
+1802742a0	30	set_object_collide_with_world
+1802742c0	33	set_object_collide_with_movables
+1802742e8	31	set_object_collide_with_object
+180274308	29	set_prop_ai_obstacle_enabled
+180274328	22	get_curve_from_object
+180274340	19	destroy_curvequery
+180274358	15	destroy_camera
+180274368	20	create_world_sector
+180274380	23	is_world_sector_loaded
+180274398	18	mark_region_ready
+1802743b0	30	get_world_sector_child_object
+1802743d0	39	save_pop_set_birds_spawning_from_trees
+1802743f8	33	set_town_volume_for_ambient_peds
+180274420	36	save_pop_set_human_spawning_in_town
+180274448	54	save_pop_set_human_spawning_in_town_conversation_full
+180274480	58	save_pop_set_human_spawning_in_town_conversation_response
+1802744c0	23	set_agressive_event_on
+1802744d8	17	set_town_density
+1802744f0	24	set_weather_pop_density
+180274510	17	set_path_looping
+180274528	18	add_point_to_path
+180274540	20	get_num_path_points
+180274558	20	get_path_num_points
+180274570	15	get_path_point
+180274580	34	estimate_two_distances_along_path
+1802745a8	13	set_hogtying
+1802745b8	15	set_fasttravel
+1802745c8	12	_0x9f832205
+1802745d8	12	_0xf413fdb2
+1802745e8	12	_0x63d3aafc
+1802745f8	12	_0x3b93b981
+180274608	22	set_horse_break_intro
+180274620	12	_0xeb0f9f0c
+180274630	16	set_saving_game
+180274640	23	set_saving_game_zombie
+180274658	23	set_first_pay_cutscene
+180274670	12	_0x02859ce6
+180274680	28	set_armadillo_movie_playing
+1802746a0	29	set_blackwater_movie_playing
+1802746c0	14	set_in_prison
+1802746d0	12	_0x9ced1c7e
+1802746e0	12	_0xd9dda7e2
+1802746f0	21	set_using_binoculars
+180274708	18	set_paying_bounty
+180274720	9	perschar
+180274730	29	activate_actor_for_pers_char
+180274750	31	deactivate_actor_for_pers_char
+180274770	43	deactivate_actors_for_pers_chars_in_volume
+1802747a0	25	get_actor_from_pers_char
+1802747c0	30	get_pers_char_death_timestamp
+1802747e0	25	get_pers_char_from_actor
+180274800	24	set_pers_char_safe_zone
+180274818	19	is_pers_char_alive
+180274830	17	revive_pers_char
+180274848	47	set_pers_char_exempt_from_ambient_restrictions
+180274878	22	set_pers_char_enabled
+180274890	36	set_pers_char_allow_spawn_elsewhere
+1802748b8	8	physics
+1802748c0	22	get_physinst_velocity
+1802748d8	19	is_physinst_active
+1802748f0	39	set_physinst_collides_against_inactive
+180274918	20	set_physinst_frozen
+180274930	19	is_physinst_frozen
+180274948	18	set_physinst_hide
+180274960	17	is_physinst_hide
+180274978	16	break_off_above
+180274988	20	get_locator_offsets
+1802749a0	28	set_infinite_mass_vs_movers
+1802749c0	39	set_global_disable_spu_collider_update
+1802749e8	39	set_global_aggressive_corpse_recycling
+180274a10	31	liquid_test_set_velocity_scale
+180274a30	20	clean_cache_entries
+180274a48	9	physinst
+180274a58	15	is_prop_broken
+180274a68	18	get_prop_velocity
+180274a80	18	set_prop_velocity
+180274a98	31	set_prop_angular_velocity_degs
+180274ab8	26	set_prop_velocity_on_axis
+180274ad8	18	is_physinst_valid
+180274af0	18	is_physinst_ready
+180274b08	21	is_physinst_in_level
+180274b20	20	set_sleep_tolerance
+180274b38	21	set_bridge_stiffness
+180274b50	18	activate_physinst
+180274b68	26	has_physinst_broken_apart
+180274b88	24	locate_physinst_of_type
+180274ba0	32	locate_physinst_of_partial_type
+180274bc0	33	locate_physinsts_of_partial_type
+180274be8	39	attach_physinst_to_world2_high_quality
+180274c10	19	release_constraint
+180274c28	14	hide_physinst
+180274c38	14	show_physinst
+180274c48	30	set_sector_props_super_locked
+180274c68	19	lights_set_on_time
+180274c80	20	lights_set_off_time
+180274c98	17	set_prop_no_fade
+180274cb0	12	playernames
+180274cc0	29	net_gamer_set_actor_override
+180274ce0	19	net_gamer_set_team
+180274cf8	26	net_gamer_setmy_jpn_title
+180274d18	20	in_selected_pedpath
+180274d30	24	net_gamer_barker_accept
+180274d48	24	net_gamer_barker_reject
+180274d60	20	net_gamer_set_title
+180274d78	32	net_gamer_icon_force_visibility
+180274d98	27	net_gamer_icon_reset_timer
+180274db8	34	net_gamer_icon_force_text_visible
+180274de0	21	end_scripted_request
+180274df8	27	net_gamer_icons_show_local
+180274e18	28	net_gamer_icons_set_stealth
+180274e38	28	net_gamer_blips_set_stealth
+180274e58	19	net_hud_tune_value
+180274e70	36	net_gamer_set_icon_stealth_override
+180274e98	36	net_gamer_set_blip_stealth_override
+180274ec0	19	is_horses_relative
+180274ed8	30	net_gamer_blips_force_visible
+180274ef8	35	net_gamer_blips_show_posse_members
+180274f20	33	net_gamer_blips_show_on_full_map
+180274f48	37	net_gamer_blips_treat_cover_as_alive
+180274f70	30	net_posse_get_leader_waypoint
+180274f90	35	net_posse_is_leader_waypoint_valid
+180274fb8	10	playstats
+180274fc8	13	playstat_int
+180274fd8	14	playstat_int3
+180274fe8	16	playstat_string
+180274ff8	20	playstat_deed_named
+180275010	23	playstat_mp_deed_start
+180275028	26	playstat_mp_deed_complete
+180275048	29	playstat_mp_deed_complete_ex
+180275068	26	playstat_mp_coop_complete
+180275088	11	population
+180275098	28	begin_population_definition
+1802750b8	26	end_population_definition
+1802750d8	29	link_actorenum_to_population
+1802750f8	35	link_actorenum_to_population_timed
+180275120	26	set_accessoryset_on_spawn
+180275140	41	set_zone_population_animal_domestication
+180275170	26	set_zone_population_count
+180275190	33	set_zone_population_count_random
+1802751b8	28	set_zone_population_density
+1802751d8	25	set_zone_population_type
+1802751f8	42	set_zone_population_spawn_multi_per_point
+180275228	25	set_zone_restrict_actors
+180275248	29	set_zone_population_is_flock
+180275268	35	set_zone_population_max_flock_size
+180275290	35	set_zone_population_min_flock_size
+1802752b8	33	set_zone_population_max_per_cell
+1802752e0	42	set_flock_default_population_max_per_cell
+180275310	47	set_individual_default_population_max_per_cell
+180275340	18	set_zone_priority
+180275358	30	set_zone_force_spawn_distance
+180275378	25	set_zone_reserve_gringos
+180275398	31	set_zone_spawn_only_at_gringos
+1802753b8	36	clear_zone_allowed_gringo_type_list
+1802753e0	37	add_to_zone_allowed_gringo_type_list
+180275408	37	set_zone_respect_volume_restrictions
+180275430	31	set_default_population_density
+180275450	28	set_default_population_type
+180275470	42	get_rand_actorenum_from_population_native
+1802754a0	33	make_next_rand_actorenums_unique
+1802754c8	24	is_population_set_ready
+1802754e0	36	is_population_set_required_resident
+180275508	26	find_named_population_set
+180275528	33	get_num_actorenums_in_population
+180275550	28	get_actorenum_in_population
+180275570	35	get_actorenum_in_population_weight
+180275598	36	marketing_get_ambient_density_level
+1802755c0	39	set_zone_allowed_spawn_ready_too_close
+1802755e8	28	ambient_spawn_prestream_set
+180275608	12	pppelements
+180275618	21	wantedfx_set_opacity
+180275630	18	fire_bloodsplatfx
+180275648	14	clear_deathfx
+180275658	21	binocularsfx_enabled
+180275670	22	binocularsfx_isloaded
+180275688	19	zombiemode_enabled
+1802756a0	22	texturefx_set_opacity
+1802756b8	23	texturefx_set_position
+1802756d0	18	texturefx_enabled
+1802756e8	19	texturefx_set_name
+180275700	20	texturefx_set_scale
+180275714	6	probe
+180275720	32	rotate_object_upright_to_ground
+180275740	22	visible_rects_boolean
+180275760	25	get_physinst_from_object
+180275780	27	get_new_physinst_in_sphere
+1802757a0	14	is_prop_fixed
+1802757b0	15	set_prop_fixed
+1802757c0	22	get_center_of_gravity
+1802757d8	22	has_prop_been_damaged
+1802757f0	16	set_prop_health
+180275800	21	reset_props_in_world
+180275818	22	reset_props_in_volume
+180275830	11	reset_prop
+180275840	20	set_prop_targetable
+180275858	39	set_prop_targetable_acquisition_radius
+180275880	36	set_prop_targetable_target_box_size
+1802758a8	31	set_prop_targetable_score_bias
+1802758c8	29	set_prop_targetable_as_enemy
+1802758e8	20	is_prop_streamed_in
+180275900	17	grave_set_dug_up
+180275918	22	get_grave_from_object
+180275930	27	play_simple_prop_animation
+180275950	16	set_draw_object
+180275960	30	prop_is_variable_mesh_enabled
+180275980	26	prop_enable_variable_mesh
+1802759a0	15	set_prop_remap
+1802759b0	17	clear_prop_remap
+1802759c4	7	render
+1802759d0	36	rendering_enable_character_clipping
+1802759f8	17	print_frame_time
+180275a10	36	set_maximum_spotlight_cascade_count
+180275a34	7	riding
+180275a40	22	set_most_recent_mount
+180275a58	22	get_most_recent_mount
+180275a70	22	get_most_recent_rider
+180275a88	15	is_actor_horse
+180275a98	14	is_actor_mule
+180275aa8	16	is_actor_riding
+180275ab8	30	is_actor_riding_and_in_saddle
+180275ad8	17	is_actor_mounted
+180275af0	10	get_rider
+180275b00	10	get_mount
+180275b10	24	set_mounts_as_passenger
+180275b28	18	actor_mount_actor
+180275b40	26	does_horse_have_accessory
+180275b60	18	accessorize_horse
+180275b78	37	horse_add_repulsion_exclusion_volume
+180275ba0	40	horse_remove_repulsion_exclusion_volume
+180275bc8	25	horse_set_curr_freshness
+180275be8	25	horse_get_curr_freshness
+180275c08	21	horse_lock_freshness
+180275c20	23	horse_unlock_freshness
+180275c38	35	horse_set_infinite_freshness_cheat
+180275c68	11	shop_clear
+180275c78	13	shop_refresh
+180275c88	21	shop_set_player_bank
+180275ca0	14	shop_add_item
+180275cb0	23	shop_set_item_quantity
+180275cc8	23	shop_get_item_quantity
+180275ce0	29	shop_set_item_purchase_price
+180275d00	29	shop_get_item_purchase_price
+180275d20	25	shop_get_item_sell_price
+180275d40	22	shop_set_item_blocked
+180275d58	21	shop_is_item_blocked
+180275d70	24	shop_get_item_misc_flag
+180275d88	22	shop_is_sell_selected
+180275da0	21	shop_set_current_tab
+180275db8	16	shop_lock_input
+180275dc8	20	satchel_set_enabled
+180275de0	31	satchel_toggle_no_pause_outfit
+180275e00	22	satchel_create_outfit
+180275e18	25	satchel_set_outfit_state
+180275e38	25	satchel_get_outfit_state
+180275e58	27	satchel_set_outfit_texture
+180275e78	28	satchel_allow_outfit_change
+180275e98	27	satchel_set_current_outfit
+180275eb8	11	socialclub
+180275ec8	20	ui_challenge_create
+180275ee0	29	ui_challenge_set_description
+180275f00	31	ui_challenge_set_title_texture
+180275f20	26	ui_challenge_set_progress
+180275f40	33	ui_challenge_set_progress_detail
+180275f68	29	ui_challenge_set_trophy_type
+180275f88	27	ui_challenge_set_objective
+180275fa8	33	ui_challenge_set_objective_style
+180275fd0	35	ui_challenge_set_objective_style_b
+180275ff8	31	ui_challenge_set_column_header
+180276018	29	ui_challenge_set_time_header
+180276038	27	ui_challenge_set_time_info
+180276058	26	ui_challenge_make_current
+180276074	7	speech
+180276080	35	can_actor_enum_play_speech_context
+1802760a8	30	register_actor_speech_context
+1802760c8	41	finish_registering_actor_speech_contexts
+1802760f8	29	register_num_speech_contexts
+180276118	27	register_num_context_types
+180276134	7	squads
+180276140	10	squad_get
+180276150	15	squad_is_valid
+180276160	11	squad_join
+180276170	12	squad_leave
+180276180	17	squad_make_empty
+180276198	13	squads_merge
+1802761a8	25	squad_get_actor_by_index
+1802761c8	15	squad_get_size
+1802761d8	23	squad_compute_centroid
+1802761f0	18	squad_set_faction
+180276208	29	squad_goal_add_battle_allies
+180276228	36	squad_goal_add_battle_defend_volume
+180276250	22	squad_goal_add_combat
+180276268	42	squad_goal_add_faction_status_within_goal
+180276298	36	squad_goal_add_follow_traffic_curve
+1802762c0	28	squad_goal_add_general_task
+1802762e0	32	squad_goal_add_meet_at_position
+180276300	58	squad_goal_add_restrict_investigation_distance_from_squad
+180276340	32	squad_goal_add_share_perception
+180276360	38	squad_goal_add_stay_outside_of_volume
+180276388	34	squad_goal_add_stay_within_volume
+1802763b0	27	squad_goal_add_animal_herd
+1802763d0	22	squad_goal_get_status
+1802763e8	20	squad_goal_is_valid
+180276400	18	squad_goals_clear
+180276418	32	squad_is_goal_controlling_actor
+180276438	42	squad_get_single_actor_controlled_by_goal
+180276468	39	squad_goal_link_modifier_to_other_goal
+180276490	41	squad_flock_set_external_movement_tuning
+1802764c0	31	squad_flock_add_external_alert
+1802764e0	41	squad_flock_add_external_attraction_path
+180276510	35	squad_flock_add_external_repulsion
+180276538	40	squad_flock_add_external_velocity_match
+180276560	47	squad_flock_player_proximity_boost_set_enabled
+180276590	45	squad_flock_player_whistle_boost_set_enabled
+1802765c0	41	squad_animal_herd_set_flocking_parameter
+1802765f0	44	squad_animal_herd_clear_external_influences
+180276620	41	squad_animal_herd_add_external_repulsion
+180276650	44	squad_hunt_enemies_set_default_blip_alerted
+180276680	50	squad_hunt_enemies_set_default_blip_investigating
+1802766b8	46	squad_hunt_enemies_set_default_blip_unalerted
+1802766e8	36	squad_get_num_not_eliminated_actors
+180276710	41	squad_set_not_eliminated_impairment_mask
+180276740	41	squad_get_not_eliminated_impairment_mask
+180276770	42	squad_battle_allies_set_formation_density
+1802767a0	45	squad_follow_traffic_curve_set_behavior_flag
+1802767d0	41	squad_follow_traffic_curve_enqueue_curve
+180276800	45	squad_follow_traffic_curve_set_task_priority
+180276830	52	squad_follow_traffic_curve_is_curve_already_in_list
+180276870	12	create_stat
+180276880	10	hide_stat
+180276890	12	update_stat
+1802768a0	22	enable_journal_replay
+1802768b8	23	set_journal_info_label
+1802768d0	25	get_sagplayer_stat_float
+1802768f0	23	get_sagplayer_stat_int
+180276908	25	set_sagplayer_stat_float
+180276928	23	set_sagplayer_stat_int
+180276940	27	get_num_kills_last_deadeye
+18027695c	7	stream
+180276968	24	streaming_request_actor
+180276980	26	streaming_is_actor_loaded
+1802769a0	22	streaming_evict_actor
+1802769b8	26	streaming_is_world_loaded
+1802769d8	35	streaming_is_world_loaded_priority
+180276a00	28	streaming_are_bounds_loaded
+180276a20	23	streaming_request_prop
+180276a38	25	streaming_is_prop_loaded
+180276a58	21	streaming_evict_prop
+180276a70	26	streaming_request_propset
+180276a90	28	streaming_is_propset_loaded
+180276ab0	24	streaming_evict_propset
+180276ac8	25	streaming_request_gringo
+180276ae8	27	streaming_is_gringo_loaded
+180276b08	23	streaming_evict_gringo
+180276b20	36	streaming_request_gringo_dictionary
+180276b48	38	streaming_is_gringo_dictionary_loaded
+180276b70	34	streaming_evict_gringo_dictionary
+180276b98	25	streaming_request_script
+180276bb8	27	streaming_is_script_loaded
+180276bd8	23	streaming_evict_script
+180276bf0	32	streaming_load_all_requests_now
+180276c10	25	streaming_load_scene_ext
+180276c30	23	streaming_unload_scene
+180276c48	28	streaming_override_main_poi
+180276c68	27	streaming_release_main_poi
+180276c88	32	streaming_has_override_main_poi
+180276ca8	36	streaming_get_override_main_poi_pos
+180276cd0	31	streaming_enable_poi_streaming
+180276cf0	30	streaming_prevent_sniper_mode
+180276d10	28	streaming_set_cutscene_mode
+180276d30	24	streaming_enable_bounds
+180276d48	22	streaming_load_bounds
+180276d60	26	streaming_load_bounds_ext
+180276d80	24	streaming_unload_bounds
+180276d98	20	streaming_evict_all
+180276db0	22	is_player_teleporting
+180276dc8	18	dump_memory_stats
+180276de0	27	report_metrics_performance
+180276e00	24	streaming_set_poi_limit
+180276e18	41	streaming_enable_force_fragment_high_lod
+180276e48	42	streaming_disable_force_fragment_high_lod
+180276e78	45	streaming_enable_force_child_sector_high_lod
+180276ea8	46	streaming_disable_force_child_sector_high_lod
+180276ed8	17	resize_actor_set
+180276ef0	16	is_string_valid
+180276f00	18	strings_are_equal
+180276f18	26	strings_are_equal_clamped
+180276f38	23	string_contains_string
+180276f50	16	string_to_float
+180276f60	14	string_to_int
+180276f70	15	string_to_hash
+180276f80	14	string_length
+180276f90	19	stringtable_length
+180276fa8	13	string_lower
+180276fb8	13	string_upper
+180276fc8	24	set_ownership_straggler
+180276fe0	18	string_num_tokens
+180276ff8	17	string_get_token
+180277010	23	string_clear_tokenizer
+180277028	8	ss_init
+180277030	12	ss_register
+180277040	14	ss_get_string
+180277050	17	ss_get_string_id
+180277068	12	ss_finalize
+180277078	14	ss_unfinalize
+180277088	18	ss_set_table_size
+1802770a0	12	stringtable
+1802770b0	25	stringtable_append_table
+1802770d0	21	request_string_table
+1802770e8	24	has_string_table_loaded
+180277100	20	remove_string_table
+180277118	10	targeting
+180277128	24	get_actor_under_reticle
+180277140	25	get_reticle_target_point
+180277160	28	set_player_perfect_accuracy
+180277180	34	override_player_targeting_weights
+1802771a8	21	set_actor_base_score
+1802771c0	24	set_actor_hardlock_bias
+1802771d8	37	set_actor_use_fullscreen_acquisition
+180277200	26	set_actor_can_be_targeted
+180277220	38	set_actor_can_be_targeted_casual_only
+180277248	28	set_actor_can_be_hardlocked
+180277268	24	actor_can_be_hardlocked
+180277280	28	set_actor_can_be_softlocked
+1802772a0	29	set_actor_can_be_aimassisted
+1802772c0	30	set_actor_can_be_bumptargeted
+1802772e0	35	set_actor_only_hardlock_if_hostile
+180277308	27	is_actor_in_accuracy_range
+180277328	32	set_can_actor_hardlock_neutrals
+180277348	50	calculate_normalized_screen_distance_from_reticle
+18027737c	6	tasks
+180277388	20	task_action_perform
+1802773a0	19	task_animal_patrol
+1802773b8	32	task_animal_circle_aggressively
+1802773d8	24	task_bird_land_at_coord
+1802773f0	24	task_bird_soar_at_coord
+180277408	12	task_crouch
+180277418	14	task_dismount
+180277428	10	task_dive
+180277438	25	task_draw_holster_weapon
+180277458	16	task_face_actor
+180277468	16	task_face_coord
+180277478	16	task_flee_coord
+180277488	16	task_flee_actor
+180277498	19	task_flee_actorset
+1802774b0	18	task_follow_actor
+1802774c8	30	task_follow_and_attack_object
+1802774e8	19	task_follow_object
+180277500	30	task_follow_object_along_path
+180277520	31	task_follow_object_at_distance
+180277540	17	task_follow_path
+180277558	36	task_follow_path_from_nearest_point
+180277580	22	task_go_near_actorset
+180277598	19	task_go_near_coord
+1802775b0	20	task_go_near_object
+1802775c8	17	task_go_to_coord
+1802775e0	26	task_go_to_coord_and_stay
+180277600	25	task_go_to_coord_nonstop
+180277620	27	task_go_to_coord_precisely
+180277640	18	task_go_to_object
+180277658	23	task_guard_patrol_path
+180277670	17	task_guard_stand
+180277688	19	task_hide_at_cover
+1802776a0	18	task_horse_action
+1802776b8	15	task_kill_char
+1802776c8	18	task_melee_attack
+1802776e0	11	task_mount
+1802776f0	24	task_point_gun_at_coord
+180277708	25	task_point_gun_at_object
+180277728	30	task_respond_to_horse_whistle
+180277748	12	task_search
+180277758	23	task_search_for_object
+180277770	27	task_seek_cover_from_actor
+180277790	22	task_sequence_perform
+1802777a8	33	task_sequence_perform_repeatedly
+1802777d0	20	task_shoot_at_coord
+1802777e8	34	task_shoot_at_coord_from_position
+180277810	34	task_shoot_enemies_from_any_cover
+180277838	30	task_shoot_enemies_from_cover
+180277858	33	task_shoot_enemies_from_position
+180277880	22	task_shoot_from_cover
+180277898	25	task_shoot_from_position
+1802778b8	17	task_stand_still
+1802778d0	20	task_surround_actor
+1802778e8	17	task_taunt_actor
+180277900	26	task_taunt_actor_in_place
+180277920	16	task_use_gringo
+180277930	15	task_use_lasso
+180277940	16	task_use_turret
+180277950	30	task_use_turret_against_coord
+180277970	31	task_use_turret_against_object
+180277990	19	task_vehicle_enter
+1802779a8	37	task_vehicle_enter_specific_location
+1802779d0	19	task_vehicle_leave
+1802779e8	12	task_wander
+1802779f8	19	task_wander_in_box
+180277a10	22	task_wander_in_volume
+180277a28	19	task_go_near_actor
+180277a40	16	get_task_status
+180277a50	32	is_tasked_to_use_gringo_forever
+180277a70	20	get_nth_task_status
+180277a88	37	get_task_sequence_current_task_index
+180277ab0	28	get_task_next_point_on_path
+180277ad0	11	task_clear
+180277ae0	29	task_override_clear_movetype
+180277b00	28	task_override_clear_posture
+180277b20	27	task_override_set_movetype
+180277b40	37	task_override_set_movespeed_absolute
+180277b68	39	task_override_set_movespeed_normalized
+180277b90	26	task_override_set_posture
+180277bb0	18	task_priority_set
+180277bc8	19	task_sequence_open
+180277be0	20	task_sequence_close
+180277bf8	22	task_sequence_release
+180277c10	21	set_actor_face_style
+180277c28	31	ai_set_enable_stickup_override
+180277c48	37	ai_set_enable_horse_charge_reactions
+180277c70	34	ai_set_enable_dead_body_reactions
+180277c98	22	task_failure_mode_set
+180277cb8	29	get_minutes_from_time_of_day
+180277cd8	23	get_time_of_day_as_int
+180277cf0	18	get_total_minutes
+180277d08	27	convert_time_of_day_to_int
+180277d28	8	set_day
+180277d30	9	get_hour
+180277d40	11	get_minute
+180277d50	11	get_second
+180277d60	8	get_day
+180277d68	9	add_time
+180277d78	27	add_time_using_time_of_day
+180277d98	16	get_time_of_day
+180277da8	17	make_time_of_day
+180277dc0	20	make_time_of_day_ex
+180277dd8	14	is_later_than
+180277de8	16	is_earlier_than
+180277df8	17	time_is_in_range
+180277e10	19	advance_time_hours
+180277e28	16	set_time_of_day
+180277e38	22	set_time_acceleration
+180277e50	22	get_time_acceleration
+180277e68	17	cancel_time_warp
+180277e7c	7	turret
+180277e88	16	is_using_turret
+180277ea0	13	ui_stackpush
+180277eb0	7	ui_pop
+180277eb8	8	ui_push
+180277ec0	8	ui_goto
+180277ec8	8	ui_exit
+180277ed0	8	ui_show
+180277ed8	11	ui_refresh
+180277ee8	8	ui_hide
+180277ef0	10	ui_enable
+180277f00	11	ui_disable
+180277f10	12	ui_isactive
+180277f20	12	ui_activate
+180277f30	14	ui_deactivate
+180277f40	11	ui_exclude
+180277f50	11	ui_include
+180277f60	13	ui_isfocused
+180277f70	9	ui_focus
+180277f80	11	ui_unfocus
+180277f90	11	ui_restore
+180277fa0	12	ui_suppress
+180277fb0	22	ui_get_selected_index
+180277fc8	13	ui_set_style
+180277fd8	13	ui_add_child
+180277fe8	12	ui_set_data
+180277ff8	20	ui_get_num_children
+180278010	14	ui_anim_setup
+180278020	16	ui_anim_restart
+180278030	17	ui_anim_get_time
+180278048	30	ui_register_streaming_texture
+180278068	14	ui_set_string
+180278078	21	ui_set_string_format
+180278090	13	ui_set_money
+1802780a0	14	ui_get_string
+1802780b0	22	ui_get_string_by_hash
+1802780c8	30	ui_messagebox_set_description
+1802780e8	18	ui_label_set_text
+180278100	19	ui_label_set_value
+180278118	26	ai_set_special_areas_time
+180278138	19	ui_button_set_text
+180278150	20	ui_texture_set_name
+180278168	20	ui_texture_set_hash
+180278180	12	ui_set_text
+180278190	17	ui_set_text_hash
+1802781a8	24	ui_set_progress_bar_val
+1802781c0	27	ui_set_progress_bar_change
+1802781e0	23	_ui_set_auto_exit_time
+1802781f8	12	ui_set_icon
+180278208	22	ui_is_fuimovie_loaded
+180278220	7	ui_hud
+180278228	11	ui_addicon
+180278238	9	vehicles
+180278248	30	get_actor_most_recent_vehicle
+180278268	18	is_actor_on_train
+180278280	17	is_actor_on_boat
+180278298	17	is_actor_vehicle
+1802782b0	23	is_actor_draft_vehicle
+1802782c8	25	is_actor_driving_vehicle
+1802782e8	25	is_actor_jacking_vehicle
+180278308	24	is_actor_inside_vehicle
+180278320	24	is_actor_riding_vehicle
+180278338	12	get_vehicle
+180278348	24	get_actor_vehicle_state
+180278360	23	get_num_drafted_actors
+180278378	21	set_actor_in_vehicle
+180278390	16	get_draft_actor
+1802783a0	17	is_actor_drafted
+1802783b8	21	get_actor_drafted_to
+1802783d0	17	is_seat_occupied
+1802783e8	26	get_actor_in_vehicle_seat
+180278408	24	get_num_available_seats
+180278420	23	get_num_occupied_seats
+180278438	20	enable_vehicle_seat
+180278450	13	stop_vehicle
+180278460	14	start_vehicle
+180278470	27	accessorize_vehicle_horses
+180278490	24	get_num_draft_positions
+1802784a8	24	attach_draft_to_vehicle
+1802784c0	35	detach_draft_from_vehicle_by_actor
+1802784e8	35	detach_draft_from_vehicle_by_index
+180278510	23	train_create_new_train
+180278528	20	train_destroy_train
+180278540	20	train_release_train
+180278558	15	train_is_valid
+180278568	30	train_add_train_car_from_enum
+180278588	19	train_get_velocity
+1802785a0	21	train_set_target_pos
+1802785b8	16	train_set_speed
+1802785c8	23	train_set_target_speed
+1802785e0	20	train_set_max_accel
+1802785f8	20	train_set_max_decel
+180278610	25	train_set_engine_enabled
+180278630	19	train_get_num_cars
+180278648	29	train_set_position_direction
+180278668	39	train_set_position_direction_precisely
+180278690	13	train_set_fx
+1802786a0	28	train_play_whistle_sequence
+1802786c0	26	train_enable_visual_debug
+1802786e0	18	train_destroy_car
+1802786f8	20	train_get_lod_level
+180278710	21	train_force_high_lod
+180278728	14	train_get_car
+180278738	35	train_set_particle_effects_enabled
+180278760	27	train_set_autopilot_enable
+180278780	23	train_set_audio_enable
+180278798	25	train_set_junction_state
+1802787b8	30	train_get_curve_network_point
+1802787d8	31	train_get_nearest_poi_distance
+1802787f8	19	train_get_position
+180278810	21	set_boat_extra_steer
+180278828	27	set_vehicle_engine_running
+180278848	26	is_vehicle_engine_running
+180278868	29	set_vehicle_allowed_to_drive
+180278888	28	is_vehicle_allowed_to_drive
+1802788a8	31	set_vehicle_passengers_allowed
+1802788c8	29	set_vehicle_ejection_enabled
+1802788e8	22	vehicle_set_handbrake
+180278900	30	is_any_vehicle_wheel_detached
+180278920	32	get_vehicle_wheel_count_initial
+180278940	32	get_vehicle_wheel_count_current
+180278960	7	volume
+180278968	16	is_volume_valid
+180278978	19	is_point_in_volume
+180278990	19	is_actor_in_volume
+1802789a8	29	delete_projectiles_in_volume
+1802789c8	18	get_volume_center
+1802789e0	19	set_volume_enabled
+1802789f8	18	is_volume_enabled
+180278a10	19	get_volume_heading
+180278a28	17	get_volume_scale
+180278a40	32	generate_random_point_in_volume
+180278a60	34	find_vol_surface_points_for_point
+180278a84	7	weapon
+180278a90	30	init_native_weaponenum_pistol
+180278ab0	29	init_native_weaponenum_rifle
+180278ad0	32	init_native_weaponenum_repeater
+180278af0	35	init_native_weaponenum_sniperrifle
+180278b18	31	init_native_weaponenum_shotgun
+180278b38	30	init_native_weaponenum_thrown
+180278b58	40	init_native_weaponenum_thrown_exploding
+180278b80	27	init_native_weaponenum_bow
+180278ba0	29	init_native_weaponenum_melee
+180278bc0	29	init_native_weaponenum_lasso
+180278be0	30	init_native_weaponenum_turret
+180278c00	30	init_native_weaponenum_cannon
+180278c20	28	init_native_weaponenum_ammo
+180278c40	33	get_weapon_enum_string_from_enum
+180278c68	24	get_weapon_display_name
+180278c80	25	get_weapon_internal_name
+180278ca0	22	_get_weapon_icon_name
+180278cb8	25	get_weapon_fragment_name
+180278cd8	32	init_native_weaponenum_category
+180278cf8	31	finalize_weaponenum_categories
+180278d18	22	set_weaponenum_locked
+180278d30	21	is_weaponenum_locked
+180278d48	30	get_weapon_category_from_enum
+180278d68	14	get_ammo_enum
+180278d78	19	set_ammo_drop_bias
+180278d90	31	get_ammo_enum_string_from_enum
+180278db0	24	get_ammo_enum_icon_name
+180278dc8	20	get_weapon_max_ammo
+180278de0	23	resolve_dlc_weaponenum
+180278df8	21	add_idlefx_to_weapon
+180278e10	8	weather
+180278e18	12	set_weather
+180278e28	12	get_weather
+180278e38	20	set_weather_complex
+180278e50	9	set_wind
+180278e60	14	set_auto_wind
+180278e70	16	set_rain_amount
+180278e80	21	set_lightning_amount
+180278e98	22	set_weather_type_good
+180278eb0	23	set_weather_type_rainy
+180278ec8	27	trigger_lightning_sequence
+180278ee8	33	trigger_cloud_lightning_sequence
+180278f10	22	enable_weather_sphere
+180278f28	26	is_weather_sphere_enabled
+180278f48	26	_set_sky_is_intro_running
+180278f68	27	override_benchmark_weather
+180278f88	24	override_benchmark_time
+180278fa0	6	world
+180278fa8	24	clear_area_of_tree_type
+180278fc0	25	reset_tree_type_clearing
+180278fe0	30	reset_this_tree_type_clearing
+180279000	15	set_dust_level
+180279010	24	set_dust_level_modifier
+180279028	19	set_dust_level_mid
+180279040	19	set_dust_level_far
+180279058	20	clear_area_of_grass
+180279070	30	clear_area_of_breakable_trees
+180279090	35	reset_this_breakable_tree_clearing
+1802790b8	35	reset_all_breakable_tree_clearings
+1802790e0	24	reload_smictionary_list
+1802790f8	25	set_zombie_dlc_is_active
+180279118	21	zombie_dlc_is_active
+180279130	23	zombie_dlc_load_assets
+180279148	26	zombie_dlc_load_assets_mp
+180279168	25	zombie_dlc_unload_assets
+180279188	28	zombie_dlc_is_load_complete
+1802791a8	30	zombie_dlc_is_unload_complete
+1802791c8	27	set_phosphorus_ammo_active
+1802791e8	26	is_phosphorus_ammo_active
+180279208	22	create_fire_on_object
+180279220	22	create_fire_in_volume
+180279238	15	stop_all_fires
+180279248	18	_stop_all_fires_2
+180279260	21	create_fire_property
+180279278	18	get_fire_property
+180279290	24	stop_all_fire_in_sphere
+1802792a8	24	stop_all_fire_in_volume
+1802792c0	21	replace_world_sector
+1802792d8	39	replace_world_sector_load_bounding_box
+180279300	20	enable_world_sector
+180279318	21	disable_world_sector
+180279330	20	enable_child_sector
+180279348	21	disable_child_sector
+180279360	18	hide_child_sector
+180279378	18	show_child_sector
+180279390	22	set_use_actor_stagger
+1802793a8	19	fire_create_handle
+1802793c0	21	fire_is_handle_valid
+1802793d8	20	fire_release_handle
+1802793f0	29	fire_release_infinite_handle
+180279410	37	fire_find_handle_from_attached_actor
+180279438	21	fire_create_on_actor
+180279450	22	fire_create_in_volume
+180279468	22	fire_is_actor_on_fire
+180279480	20	fire_stop_all_fires
+180279498	19	fire_stop_on_actor
+1802794b0	27	fire_stop_flames_in_volume
+1802794d0	15	fire_get_owner
+1802794e0	15	fire_set_owner
+1802794f0	24	fire_set_damage_allowed
+180279508	24	fire_set_control_volume
+180279520	20	fire_set_max_flames
+180279538	29	fire_set_target_fill_percent
+180279558	19	fire_set_grow_rate
+180279570	20	fire_set_decay_rate
+180279588	24	fire_set_expire_allowed
+1802795a0	22	fire_set_grow_allowed
+1802795b8	23	count_flames_in_sphere
+1802795d0	23	count_flames_in_volume
+1802795e8	30	fire_are_any_flames_in_volume
+180279608	29	fire_set_guns_blazing_active
+180279628	9	extended
+180279638	12	is_key_down
+180279648	15	is_key_pressed
+180279658	16	is_key_released
+180279668	14	ui_add_string
+180279678	17	ui_remove_string
+18027968c	7	player
+1802796a0	9	position
+1802796b0	9	rotation
+1802796c0	9	is_local
+1802796d0	6	table
+1802796e8	23	core:on_resource_start
+180279700	22	core:on_resource_stop
+180279718	14	manifest.toml
+180279728	15	client_scripts
+180279738	30	Resource at '%s' is invalid !
+180279760	22	Started resource '%s'
+180279778	6	print
+180279780	6	error
+180279788	22	CURRENT_RESOURCE_NAME
+1802797a0	22	Stopped resource '%s'
+1802797b8	32	invalid unordered_map<K, T> key
+1802797d8	29	toml::result: bad unwrap_err
+1802797f8	27	toml::result: bad unwrap: 
+180279818	24	invalid string position
+180279830	25	invalid vector subscript
+180279850	34	toml::parse_value: input is empty
+180279878	8	unknown
+180279880	42	toml::parse_value: unknown token appeared
+1802798b0	15	unknown format
+1802798c0	45	toml::parse_toml_file: unknown line appeared
+1802798f0	7	__call
+1802798f8	38	 metamethod registration is forbidden
+180279928	27	unordered_map/set too long
+180279948	26	toml::value::as_table(): 
+180279968	26	invalid hash bucket count
+180279988	22	vector<bool> too long
+1802799a0	49	toml::parse_array: recursion limit (64) exceeded
+1802799d8	34	toml::parse_array: input is empty
+180279a00	41	toml::parse_array: token is not an array
+180279a30	18	array starts here
+180279a48	25	it is not a valid value.
+180279a70	68	toml::parse_array: value having invalid format appeared in an array
+180279ab8	14	should be `,`
+180279ac8	61	toml::parse_array: missing array separator `,` after a value
+180279b08	17	should be closed
+180279b20	47	toml::parse_array: array did not closed by `]`
+180279b50	56	toml::parse_inline_table: recursion limit (64) exceeded
+180279b88	38	the next token is not an inline table
+180279bb0	27	toml::parse_inline_table: 
+180279bd0	62	toml::parse_inline_table: failed to insert value into table: 
+180279c10	14	should be `}`
+180279c20	55	toml::parse_inline_table: missing table separator `}` 
+180279c58	50	toml::parse_inline_table: missing curly brace `}`
+180279c90	55	toml::parse_inline_table: missing table separator `,` 
+180279cd0	75	toml::parse_inline_table: trailing comma is not allowed in an inline table
+180279d20	61	toml::parse_inline_table: inline table did not closed by `}`
+180279d68	28	expected newline, but got '
+180279d88	39	toml::parse_table: invalid line format
+180279db0	22	table already defined
+180279dc8	39	this conflicts with the previous table
+180279df0	21	") cannot be defined
+180279e08	38	toml::insert_value: array of table ("
+180279e30	22	 value already exists
+180279e48	6	this 
+180279e50	37	while inserting this array-of-tables
+180279e78	32	") collides with existing value
+180279ea0	23	 value has static size
+180279eb8	43	appending it to the statically sized array
+180279ee8	42	") collides with existing array-of-tables
+180279f18	26	table already exists here
+180279f38	20	table defined twice
+180279f50	19	") already exists.
+180279f68	29	toml::insert_value: table ("
+180279f88	20	already exists here
+180279fa0	19	this defined twice
+180279fb8	29	toml::insert_value: value ("
+180279fd8	29	array of tables defined here
+180279ff8	49	table conflicts with the previous array of table
+18027a030	39	toml::insert_value: array of tables ("
+18027a058	26	value already exists here
+18027a078	20	value defined twice
+18027a090	28	inline tables are immutable
+18027a0b0	15	inserting this
+18027a0c0	34	) but inline tables are immutable
+18027a0e8	51	toml::insert_value: inserting to an inline table (
+18027a120	16	actual type is 
+18027a130	42	) is neither table nor an array of tables
+18027a160	29	toml::insert_value: target (
+18027a180	29	this array is not insertable
+18027a1a0	33	") conflicts with existing value
+18027a1c8	38	this array of table has a static size
+18027a1f0	60	") cannot be inserted to an existing inline array-of-tables
+18027a230	31	toml::insert_value: a table ("
+18027a250	50	toml::detail::insert_nested_key: never reach here
+18027a288	13	Invalid size
+18027a2a0	6	array
+18027a2a8	20	the actual type is 
+18027a2c0	13	bad_cast to 
+18027a2d0	29	toml::value::contains(key): 
+18027a2f0	26	toml::value::as_array(): 
+18027a310	24	nil passed to reference
+18027a328	24	key expected before '='
+18027a340	54	toml::parse_key_value_pair: empty key is not allowed.
+18027a378	43	Did you forget '.' to separate dotted-key?
+18027a3a8	51	Allowed characters for bare key are [0-9a-zA-Z_-].
+18027a3e0	25	invalid character in key
+18027a400	51	toml::parse_key_value_pair: invalid format for key
+18027a438	14	should be `=`
+18027a448	60	toml::parse_key_value_pair: missing key-value separator `=`
+18027a488	32	expected value, but got nothing
+18027a4b0	72	toml::parse_key_value_pair: missing value after key-value separator '='
+18027a4f8	9	internal
+18027a508	8	boolean
+18027a510	27	toml::value::as_string(): 
+18027a530	8	integer
+18027a538	9	floating
+18027a548	16	offset_datetime
+18027a558	15	local_datetime
+18027a568	11	local_date
+18027a578	11	local_time
+18027a584	6	empty
+18027a58c	8	alnum
+18027a598	12	alnum
+18027a5a4	6	alpha
+18027a5b0	12	alpha
+18027a5bc	6	blank
+18027a5c8	12	blank
+18027a5d4	6	cntrl
+18027a5e0	12	cntrl
+18027a5f4	6	digit
+18027a600	12	digit
+18027a60c	6	graph
+18027a618	12	graph
+18027a624	6	lower
+18027a630	12	lower
+18027a640	12	print
+18027a64c	6	punct
+18027a658	12	punct
+18027a668	12	space
+18027a67c	6	upper
+18027a688	12	upper
+18027a69c	7	xdigit
+18027a6a8	14	xdigit
+18027a718	8	_LOADED
+18027a728	22	bad argument #%d (%s)
+18027a740	30	calling '%s' on bad self (%s)
+18027a760	8	method
+18027a768	8	__name
+18027a770	30	bad argument #%d to '%s' (%s)
+18027a798	15	light userdata
+18027a7a8	8	%s:%d: 
+18027a7b0	20	invalid option '%s'
+18027a7c8	15	stack overflow
+18027a7d8	20	stack overflow (%s)
+18027a7f0	37	number has no integer representation
+18027a818	15	value expected
+18027a828	8	__close
+18027a830	18	not enough memory
+18027a848	17	buffer too large
+18027a85c	7	_UBOX*
+18027a864	7	=stdin
+18027a870	17	cannot %s %s: %s
+18027a89c	7	reopen
+18027a8a8	32	object length is not an integer
+18027a8d8	34	'__tostring' must return a string
+18027a8fc	7	%s: %p
+18027a908	29	error object is not a string
+18027a928	18	too many upvalues
+18027a940	50	PANIC: unprotected error in call to Lua API (%s)\n
+18027a978	14	Lua warning: 
+18027a988	6	__len
+18027a990	38	wrong number of arguments to 'insert'
+18027a9b8	23	position out of bounds
+18027a9d0	24	destination wrap around
+18027a9e8	26	too many elements to move
+18027aa08	27	too many results to unpack
+18027aa28	53	invalid value (%s) at index %I in table for 'concat'
+18027aa60	14	array too big
+18027aa70	35	invalid order function for sorting
+18027aa94	7	insert
+18027aa9c	7	concat
+18027aaa4	7	unpack
+18027aabc	7	remove
+18027aad8	13	nil or table
+18027aae8	18	base out of range
+18027ab00	16	table or string
+18027ab10	36	cannot change a protected metatable
+18027ab38	13	generational
+18027ab48	12	incremental
+18027ab58	8	restart
+18027ab68	6	count
+18027ab70	8	collect
+18027ab78	9	setpause
+18027ab90	10	isrunning
+18027aba0	11	setstepmul
+18027abb0	26	too many nested functions
+18027abd0	8	__pairs
+18027abe0	37	reader function must return a string
+18027ac08	18	assertion failed!
+18027ac20	8	=(load)
+18027ac28	7	assert
+18027ac30	19	index out of range
+18027ac44	7	dofile
+18027ac50	15	collectgarbage
+18027ac60	7	ipairs
+18027ac68	13	getmetatable
+18027ac80	9	loadfile
+18027ac8c	6	pairs
+18027aca4	6	pcall
+18027acac	7	rawlen
+18027acb8	9	rawequal
+18027acc4	7	rawset
+18027accc	7	rawget
+18027acd8	13	setmetatable
+18027ace8	7	select
+18027acf0	9	tostring
+18027ad00	9	tonumber
+18027ad0c	7	xpcall
+18027ad20	8	Lua 5.4
+18027ad28	9	_VERSION
+18027ad38	29	final position out of bounds
+18027ad58	31	initial position out of bounds
+18027ad78	22	string slice too long
+18027ad90	14	out of bounds
+18027ada0	19	value out of range
+18027adb8	19	invalid UTF-8 code
+18027add0	40	initial position is a continuation byte
+18027ae00	10	codepoint
+18027ae0c	7	offset
+18027ae20	12	charpattern
+18027ae2c	6	codes
+18027ae48	27	resulting string too large
+18027ae68	33	attempt to %s a '%s' with a '%s'
+18027ae90	30	unable to dump given function
+18027aeb0	6	__pow
+18027aeb8	6	__mod
+18027aec0	7	__idiv
+18027aec8	6	__div
+18027aed0	27	invalid capture index %%%d
+18027aeec	6	__unm
+18027aef8	35	malformed pattern (ends with '%%')
+18027af20	24	invalid pattern capture
+18027af38	47	malformed pattern (missing arguments to '%%b')
+18027af68	32	malformed pattern (missing ']')
+18027af88	20	pattern too complex
+18027afa0	18	too many captures
+18027afb8	19	unfinished capture
+18027afd0	35	missing '[' after '%%f' in pattern
+18027aff8	42	invalid use of '%c' in replacement string
+18027b028	11	^$*+?.([%-
+18027b038	22	string/function/table
+18027b050	33	invalid replacement value (a %s)
+18027b078	11	%.14gx0p+0
+18027b084	6	%.14g
+18027b090	49	modifiers for format '%%a'/'%%A' not implemented
+18027b0cc	6	\%03d
+18027b0d8	8	-1e9999
+18027b0e0	7	1e9999
+18027b0ec	6	(0/0)
+18027b0fc	7	0x%llx
+18027b108	39	invalid conversion specification: '%s'
+18027b130	26	value has no literal form
+18027b150	26	invalid format (too long)
+18027b170	16	-+#0 123456789.
+18027b188	9	no value
+18027b1a8	7	(null)
+18027b1b0	6	-+#0 
+18027b1b8	22	string contains zeros
+18027b1d0	38	specifier '%%q' cannot have modifiers
+18027b1f8	40	integral size (%d) out of limits [1,%d]
+18027b220	36	invalid conversion '%s' to 'format'
+18027b248	27	invalid format option '%c'
+18027b268	35	missing size for format option 'c'
+18027b290	41	format asks for alignment not power of 2
+18027b2c0	35	invalid next option for option 'X'
+18027b2e8	18	unsigned overflow
+18027b300	17	integer overflow
+18027b318	41	string length does not fit in given size
+18027b348	30	string longer than given size
+18027b368	24	format result too large
+18027b380	23	variable-length format
+18027b398	31	initial position out of string
+18027b3b8	46	%d-byte integer does not fit into Lua Integer
+18027b3e8	17	too many results
+18027b400	22	data string too short
+18027b420	33	unfinished string for format 'z'
+18027b444	7	format
+18027b45c	7	gmatch
+18027b468	6	match
+18027b478	8	reverse
+18027b480	9	packsize
+18027b498	26	wrong number of arguments
+18027b4b4	6	float
+18027b4bc	7	random
+18027b4c8	18	interval is empty
+18027b4e8	11	randomseed
+18027b518	10	tointeger
+18027b558	11	mininteger
+18027b568	11	maxinteger
+18027b578	10	error in 
+18027b588	17	C stack overflow
+18027b5a8	19	'for' step is zero
+18027b5bc	6	limit
+18027b5c4	6	index
+18027b5d0	14	initial value
+18027b5e0	43	'__newindex' chain too long; possible loop
+18027b610	40	'__index' chain too long; possible loop
+18027b638	14	get length of
+18027b648	23	string length overflow
+18027b660	26	attempt to perform 'n%%0'
+18027b680	26	attempt to divide by zero
+18027b6a0	22	invalid key to 'next'
+18027b6b8	19	table index is nil
+18027b6d0	15	table overflow
+18027b6e0	19	table index is NaN
+18027b6f8	12	-0123456789
+18027b704	6	.xXnN
+18027b718	43	invalid option '%%%c' to 'lua_pushfstring'
+18027b748	12	[string "
+18027b758	24	error in error handling
+18027b770	42	attempt to load a %s chunk (mode is '%s')
+18027b7a4	7	binary
+18027b7b0	9	(vararg)
+18027b7c0	14	(C temporary)
+18027b7d0	12	(temporary)
+18027b7f4	7	global
+18027b804	6	local
+18027b80c	6	field
+18027b818	8	upvalue
+18027b820	14	integer index
+18027b830	13	for iterator
+18027b840	9	constant
+18027b858	11	metamethod
+18027b868	27	attempt to %s a %s value%s
+18027b888	11	 (%s '%s')
+18027b898	39	bad 'for' %s (number expected, got %s)
+18027b8c8	39	number%s has no integer representation
+18027b8f0	12	concatenate
+18027b900	30	attempt to compare %s with %s
+18027b920	33	attempt to compare two %s values
+18027b948	10	%s:%d: %s
+18027b958	39	variable '%s' got a non-closable value
+18027b988	7	number
+18027b990	6	proto
+18027b998	9	function
+18027b9ac	7	__mode
+18027b9b4	6	__bor
+18027b9bc	7	__band
+18027b9c4	6	__shl
+18027b9cc	7	__bxor
+18027b9d4	7	__bnot
+18027b9dc	6	__shr
+18027b9f8	29	perform bitwise operation on
+18027ba18	9	__concat
+18027ba28	22	perform arithmetic on
+18027ba40	39	memory allocation error: block too big
+18027ba68	26	too many %s (limit is %d)
+18027ba84	6	break
+18027baa0	7	elseif
+18027bac4	7	return
+18027bacc	7	repeat
+18027bad4	6	until
+18027bae8	6	while
+18027bb10	9	<number>
+18027bb1c	6	<eof>
+18027bb24	7	<name>
+18027bb30	10	<integer>
+18027bb40	25	lexical element too long
+18027bb60	9	<string>
+18027bb70	8	'<\%d>'
+18027bb80	11	%s near %s
+18027bb98	25	chunk has too many lines
+18027bbb8	17	malformed number
+18027bbd0	41	unfinished long %s (starting at line %d)
+18027bc00	8	comment
+18027bc08	12	missing '{'
+18027bc18	27	hexadecimal digit expected
+18027bc38	12	missing '}'
+18027bc48	22	UTF-8 value too large
+18027bc60	18	unfinished string
+18027bc78	25	decimal escape too large
+18027bc98	30	invalid long string delimiter
+18027bcb8	24	invalid escape sequence
+18027bcd0	27	%s: bad binary format (%s)
+18027bcf0	31	bad format for constant string
+18027bd10	16	truncated chunk
+18027bd20	19	not a binary chunk
+18027bd38	17	%s size mismatch
+18027bd50	16	format mismatch
+18027bd60	17	version mismatch
+18027bd78	12	Instruction
+18027bd88	16	corrupted chunk
+18027bd98	11	lua_Number
+18027bda8	12	lua_Integer
+18027bdb8	22	float format mismatch
+18027bdd0	24	integer format mismatch
+18027bde8	14	binary string
+18027bdf8	12	%s expected
+18027be08	20	function at line %d
+18027be20	14	main function
+18027be30	37	%s expected (to close %s at line %d)
+18027be58	32	too many %s (limit is %d) in %s
+18027be78	41	attempt to assign to const variable '%s'
+18027bea8	16	local variables
+18027beb8	56	<goto %s> at line %d jumps into the scope of local '%s'
+18027bef0	9	upvalues
+18027bf00	30	break outside loop at line %d
+18027bf20	13	labels/gotos
+18027bf30	10	functions
+18027bf40	44	no visible label '%s' for <goto> at line %d
+18027bf70	25	<name> or '...' expected
+18027bf90	28	function arguments expected
+18027bfb8	43	cannot use '...' outside a vararg function
+18027bfe8	18	unexpected symbol
+18027c000	38	label '%s' already defined on line %d
+18027c028	13	syntax error
+18027c038	12	(for state)
+18027c048	27	control structure too long
+18027c064	8	const
+18027c070	21	'=' or 'in' expected
+18027c088	23	unknown attribute '%s'
+18027c0a0	8	close
+18027c0a8	46	multiple to-be-closed variables in local list
+18027c0d8	6	lines
+18027c0e0	48	function or expression needs too many registers
+18027c110	8	opcodes
+18027c118	10	constants
+18027c128	19	There was no error
+18027c140	9	unzipper
+18027c150	15	Internal error
+18027c160	43	Error, couldn't get the current entry info
+18027c190	13	Unkown Error
+18027c1a0	17	ZipSlip security
+18027c1b8	21	Invalid info entry '
+18027c1d0	9	' in zip
+18027c1e0	30	Error opening internal file '
+18027c200	15	Not a zip file
+18027c210	15	Does not exist
+18027c268	7	.z%02u
+18027c270	27	unknown compression method
+18027c290	23	incorrect header check
+18027c2a8	25	unknown header flags set
+18027c2c8	20	invalid window size
+18027c2e0	19	invalid block type
+18027c2f8	20	header crc mismatch
+18027c310	36	too many length or distance symbols
+18027c338	29	invalid stored block lengths
+18027c358	26	invalid bit length repeat
+18027c378	25	invalid code lengths set
+18027c398	28	invalid literal/lengths set
+18027c3b8	37	invalid code -- missing end-of-block
+18027c3e0	28	invalid literal/length code
+18027c400	22	invalid distances set
+18027c418	30	invalid distance too far back
+18027c438	22	invalid distance code
+18027c450	23	incorrect length check
+18027c468	21	incorrect data check
+18027ec8c	4	RSDS
+18027eca4	102	C:\Users\K3rhos\Documents\Visual Studio 2022\Projects\RDRMP\build\Release\data\client-luascripting.pdb
+18027eea0	8	.rdata
+18027eed8	16	.rdata$voltmd
+18027efb0	8	.edata
+18027f010	8	.data
+18027f054	8	.pdata
+1802b9cf0	24	client-luascripting.dll
+1802b9d08	98	?$TSS0@?1??Get@?$Singleton@VResourcesManager@@@@SA?BV?$shared_ptr@VResourcesManager@@@std@@XZ@4HA
+1802b9d6a	44	??0?$Singleton@VResourcesManager@@@@QEAA@XZ
+1802b9d96	27	??0Resource@@QEAA@AEBV0@@Z
+1802b9db1	108	??0Resource@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVpath@filesystem@2@@Z
+1802b9e1d	37	??0ResourcesManager@@QEAA@$$QEAV0@@Z
+1802b9e42	35	??0ResourcesManager@@QEAA@AEBV0@@Z
+1802b9e65	29	??0ResourcesManager@@QEAA@XZ
+1802b9e82	44	??1?$Singleton@VResourcesManager@@@@QEAA@XZ
+1802b9eae	21	??1Resource@@QEAA@XZ
+1802b9ec3	29	??1ResourcesManager@@QEAA@XZ
+1802b9ee0	55	??4?$Singleton@VResourcesManager@@@@QEAAAEAV0@AEBV0@@Z
+1802b9f17	32	??4Resource@@QEAAAEAV0@AEBV0@@Z
+1802b9f37	42	??4ResourcesManager@@QEAAAEAV0@$$QEAV0@@Z
+1802b9f61	40	??4ResourcesManager@@QEAAAEAV0@AEBV0@@Z
+1802b9f89	54	?DoesAllResourcesAreLoaded@ResourcesManager@@QEBA_NXZ
+1802b9fbf	84	?Get@?$Singleton@VResourcesManager@@@@SA?BV?$shared_ptr@VResourcesManager@@@std@@XZ
+1802ba013	34	?GetConsumption@Resource@@QEBAMXZ
+1802ba035	73	?GetConsumptions@Resource@@QEBA?BV?$vector@MV?$allocator@M@std@@@std@@XZ
+1802ba07e	45	?GetInstance@Resource@@QEBAPEAUlua_State@@XZ
+1802ba0ab	86	?GetResource@ResourcesManager@@QEBA?BV?$shared_ptr@VResource@@@std@@PEAUlua_State@@@Z
+1802ba101	56	?GetTotalResourcesConsumption@ResourcesManager@@QEBAMXZ
+1802ba139	30	?IsStarted@Resource@@QEBA_NXZ
+1802ba157	421	?Items@ResourcesManager@@QEBA?AV?$unordered_map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VResource@@@2@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VResource@@@2@@std@@@2@@std@@XZ
+1802ba2fc	24	?Load@Resource@@QEAAXXZ
+1802ba314	44	?LoadAllResources@ResourcesManager@@QEAAXXZ
+1802ba340	105	?LoadResource@ResourcesManager@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+1802ba3a9	27	?Preload@Resource@@QEAAXXZ
+1802ba3c4	130	?PreloadResource@ResourcesManager@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVpath@filesystem@3@@Z
+1802ba446	26	?Unload@Resource@@QEAAXXZ
+1802ba460	46	?UnloadAllResources@ResourcesManager@@QEAAXXZ
+1802ba48e	107	?UnloadResource@ResourcesManager@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+1802ba4f9	38	?UpdateConsumptions@Resource@@QEAAXXZ
+1802ba51f	43	?__LoadClientScripts@Resource@@CAXPEAV1@@Z
+1802ba54a	38	?__autoclassinit2@Resource@@QEAAX_K@Z
+1802ba570	46	?__autoclassinit2@ResourcesManager@@QEAAX_K@Z
+1802ba59e	105	?singleton@?1??Get@?$Singleton@VResourcesManager@@@@SA?BV?$shared_ptr@VResourcesManager@@@std@@XZ@4V34@A
+1802bafb2	29	?IsOpen@ChatClient@@QEBA_NXZ
+1802bafd2	163	?SendProcessMessage@CEFManager@@QEBAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEBV?$scoped_refptr@VCefListValue@@@@W4cef_process_id_t@@@Z
+1802bb078	72	?Get@?$Singleton@VCEFManager@@@@SA?BV?$shared_ptr@VCEFManager@@@std@@XZ
+1802bb0c0	23	client-webrenderer.dll
+1802bb0da	23	cef_string_utf16_clear
+1802bb0f4	25	cef_string_utf8_to_utf16
+1802bb10e	11	libcef.dll
+1802bb11c	126	?ServerEvent@ClientSend@@SAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVDataSerializer@Scripting@@@Z
+1802bb19c	57	?Get@PlayerManager@@QEBA?BV?$optional@UPlayer@@@std@@G@Z
+1802bb1d8	72	?Get@?$Singleton@VGameClient@@@@SA?BV?$shared_ptr@VGameClient@@@std@@XZ
+1802bb222	75	?GetPlayerManager@GameClient@@QEBA?BV?$shared_ptr@VPlayerManager@@@std@@XZ
+1802bb26e	22	client-networking.dll
+1802bb286	56	?GetCommand@scrThread@rage@@SAP6AXPEAVInfoBase@12@@ZI@Z
+1802bb2be	14	game-core.dll
+1802bb2ce	16	TerminateThread
+1802bb2e0	12	CloseHandle
+1802bb2ee	13	CreateThread
+1802bb2fe	13	GetLastError
+1802bb30e	13	SetLastError
+1802bb31e	15	FormatMessageA
+1802bb330	20	MultiByteToWideChar
+1802bb346	20	WideCharToMultiByte
+1802bb35c	24	QueryPerformanceCounter
+1802bb376	12	DeleteFiber
+1802bb384	14	SwitchToFiber
+1802bb394	15	GetTickCount64
+1802bb3a6	15	IsThreadAFiber
+1802bb3b8	21	ConvertThreadToFiber
+1802bb3d0	12	CreateFiber
+1802bb3dc	13	KERNEL32.dll
+1802bb3ec	34	?Print@Log@@SAXW4LogType@@PEBD1ZZ
+1802bb410	110	?Get@?$Singleton@VClientEventsHandler@Scripting@@@@SA?BV?$shared_ptr@VClientEventsHandler@Scripting@@@std@@XZ
+1802bb480	25	?Wait@ThisFiber@@SAX_K@Z
+1802bb49c	58	?ClearAllByInstance@LUAFibersPool@@QEAAXPEAUlua_State@@@Z
+1802bb4d8	44	?Add@LUAFibersPool@@QEAAXPEAUlua_State@@H@Z
+1802bb506	78	?Get@?$Singleton@VLUAFibersPool@@@@SA?BV?$shared_ptr@VLUAFibersPool@@@std@@XZ
+1802bb554	18	client-shared.dll
+1802bb568	24	?_Xbad_alloc@std@@YAXXZ
+1802bb582	36	?setw@std@@YA?AU?$_Smanip@_J@1@_J@Z
+1802bb5a8	31	?_Xlength_error@std@@YAXPEBD@Z
+1802bb5ca	65	?pbase@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+1802bb60e	58	??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
+1802bb64a	65	?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+1802bb68e	64	?gptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+1802bb6d0	64	?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+1802bb712	65	?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+1802bb756	65	?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+1802bb79a	52	??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
+1802bb7d0	106	??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+1802bb83c	106	??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+1802bb8a8	58	??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+1802bb8e4	62	?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+1802bb924	64	?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+1802bb966	67	?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ
+1802bb9ac	62	?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+1802bb9ec	70	?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+1802bba34	70	?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+1802bba7c	75	?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
+1802bbaca	61	?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+1802bbb0a	75	?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+1802bbb58	52	??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ
+1802bbb8e	56	??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+1802bbbc8	89	??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z
+1802bbc24	63	??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@I@Z
+1802bbc66	56	??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+1802bbca0	71	?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z
+1802bbcea	9	_Strxfrm
+1802bbcf6	24	??1_Lockit@std@@QEAA@XZ
+1802bbd10	25	??0_Lockit@std@@QEAA@H@Z
+1802bbd2c	30	?_Throw_Cpp_error@std@@YAXH@Z
+1802bbd4c	32	?uncaught_exceptions@std@@YAHXZ
+1802bbd6e	50	?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ
+1802bbda2	41	?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z
+1802bbdce	35	?_Xinvalid_argument@std@@YAXPEBD@Z
+1802bbdf4	31	?_Xout_of_range@std@@YAXPEBD@Z
+1802bbe16	57	?_Xregex_error@std@@YAXW4error_type@regex_constants@1@@Z
+1802bbe52	27	?_Winerror_map@std@@YAHH@Z
+1802bbe70	33	?id@?$ctype@D@std@@2V0locale@2@A
+1802bbe94	35	?id@?$collate@D@std@@2V0locale@2@A
+1802bbeba	30	?_Syserror_map@std@@YAPEBDH@Z
+1802bbeda	10	_Mtx_lock
+1802bbee6	9	_Strcoll
+1802bbef2	12	_Mtx_unlock
+1802bbf00	69	?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
+1802bbf48	66	??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAG@Z
+1802bbf8c	66	??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAH@Z
+1802bbfd0	89	?seekg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@V?$fpos@U_Mbstatet@@@2@@Z
+1802bc02c	69	?seekg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@_JH@Z
+1802bc074	84	?tellg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA?AV?$fpos@U_Mbstatet@@@2@XZ
+1802bc0ca	63	?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
+1802bc10c	60	?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+1802bc14a	66	?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+1802bc18e	62	?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+1802bc1ce	105	??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+1802bc23a	59	?clear@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+1802bc278	81	??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z
+1802bc2cc	89	??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z
+1802bc328	66	??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAI@Z
+1802bc36c	67	??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEA_J@Z
+1802bc3b2	66	??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAN@Z
+1802bc3f6	57	??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+1802bc432	33	?iword@ios_base@std@@QEAAAEAJH@Z
+1802bc456	28	?xalloc@ios_base@std@@SAHXZ
+1802bc474	29	?fail@ios_base@std@@QEBA_NXZ
+1802bc494	29	?good@ios_base@std@@QEBA_NXZ
+1802bc4b4	60	?_Getcat@?$ctype@D@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
+1802bc4f2	43	?tolower@?$ctype@D@std@@QEBAPEBDPEADPEBD@Z
+1802bc520	33	?tolower@?$ctype@D@std@@QEBADD@Z
+1802bc544	29	??1facet@locale@std@@MEAA@XZ
+1802bc564	31	??0facet@locale@std@@IEAA@_K@Z
+1802bc586	52	?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
+1802bc5bc	35	?_Incref@facet@locale@std@@UEAAXXZ
+1802bc5e2	27	??Bid@locale@std@@QEAA_KXZ
+1802bc600	44	?_Getcoll@_Locinfo@std@@QEBA?AU_Collvec@@XZ
+1802bc62e	25	??1_Locinfo@std@@QEAA@XZ
+1802bc64a	29	??0_Locinfo@std@@QEAA@PEBD@Z
+1802bc66a	63	??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
+1802bc6ac	64	??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_K@Z
+1802bc6ee	72	?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEBD_J@Z
+1802bc738	32	?_Xbad_function_call@std@@YAXXZ
+1802bc758	13	MSVCP140.dll
+1802bc768	19	__CxxFrameHandler4
+1802bc77e	24	__std_exception_destroy
+1802bc798	21	__std_exception_copy
+1802bc7b0	16	__std_terminate
+1802bc7c2	7	strchr
+1802bc7cc	10	_purecall
+1802bc7d8	7	memcpy
+1802bc7e2	8	memmove
+1802bc7ec	8	longjmp
+1802bc7f6	7	memchr
+1802bc800	7	memset
+1802bc80a	7	memcmp
+1802bc814	21	__C_specific_handler
+1802bc82c	20	__current_exception
+1802bc842	28	__current_exception_context
+1802bc860	19	_CxxThrowException
+1802bc876	29	__std_type_info_destroy_list
+1802bc894	19	VCRUNTIME140_1.dll
+1802bc8a8	17	VCRUNTIME140.dll
+1802bc8bc	35	_invalid_parameter_noinfo_noreturn
+1802bc8e2	8	isgraph
+1802bc8ec	8	realloc
+1802bc8f6	8	strtoul
+1802bc900	8	isalpha
+1802bc90a	26	__stdio_common_vsprintf_s
+1802bc926	7	_errno
+1802bc930	24	__stdio_common_vsprintf
+1802bc94a	5	free
+1802bc952	8	isdigit
+1802bc95c	8	isspace
+1802bc966	8	freopen
+1802bc970	7	ferror
+1802bc97a	6	fopen
+1802bc982	16	__acrt_iob_func
+1802bc994	7	fflush
+1802bc99e	7	fclose
+1802bc9a8	5	getc
+1802bc9b0	24	__stdio_common_vfprintf
+1802bc9ca	8	strncmp
+1802bc9d4	5	feof
+1802bc9dc	6	fread
+1802bc9e4	9	strerror
+1802bc9f0	6	clock
+1802bc9f8	8	_time64
+1802bca02	8	toupper
+1802bca0c	8	isalnum
+1802bca16	7	fwrite
+1802bca20	7	strspn
+1802bca2a	8	strpbrk
+1802bca34	8	isupper
+1802bca3e	8	tolower
+1802bca48	9	isxdigit
+1802bca54	11	localeconv
+1802bca62	8	iscntrl
+1802bca6c	6	frexp
+1802bca74	8	ispunct
+1802bca7e	8	islower
+1802bca88	8	strcoll
+1802bca92	7	strtod
+1802bca9c	6	ldexp
+1802bcaa4	6	abort
+1802bcaac	8	strncpy
+1802bcab6	7	malloc
+1802bcac0	6	sqrtf
+1802bcac8	6	ceilf
+1802bcad0	4	log
+1802bcad6	4	pow
+1802bcadc	10	_fseeki64
+1802bcae8	10	_ftelli64
+1802bcaf4	11	_stat64i32
+1802bcb02	20	___lc_codepage_func
+1802bcb18	10	_callnewh
+1802bcb24	16	_seh_filter_dll
+1802bcb36	23	_configure_narrow_argv
+1802bcb50	31	_initialize_narrow_environment
+1802bcb72	25	_initialize_onexit_table
+1802bcb8e	26	_register_onexit_function
+1802bcbaa	22	_execute_onexit_table
+1802bcbc2	12	_crt_atexit
+1802bcbd0	7	_cexit
+1802bcbda	10	terminate
+1802bcbe6	10	_initterm
+1802bcbf2	12	_initterm_e
+1802bcbfe	31	api-ms-win-crt-heap-l1-1-0.dll
+1802bcc1e	34	api-ms-win-crt-runtime-l1-1-0.dll
+1802bcc40	33	api-ms-win-crt-string-l1-1-0.dll
+1802bcc62	34	api-ms-win-crt-convert-l1-1-0.dll
+1802bcc84	32	api-ms-win-crt-stdio-l1-1-0.dll
+1802bcca4	31	api-ms-win-crt-time-l1-1-0.dll
+1802bccc4	33	api-ms-win-crt-locale-l1-1-0.dll
+1802bcce6	31	api-ms-win-crt-math-l1-1-0.dll
+1802bcd06	37	api-ms-win-crt-filesystem-l1-1-0.dll
+1802bcd2e	21	cef_string_utf16_set
+1802bcd46	31	cef_string_userfree_utf16_free
+1802bcd68	22	cef_list_value_create
+1802bcd80	22	cef_get_min_log_level
+1802bcd98	8	cef_log
+1802bcda2	22	cef_string_list_alloc
+1802bcdba	21	cef_string_list_free
+1802bcdd2	21	cef_string_list_size
+1802bcdea	22	cef_string_list_value
+1802bce02	23	cef_string_list_append
+1802bce1c	12	CreateFileW
+1802bce2a	26	GetFinalPathNameByHandleW
+1802bce46	16	AreFileApisANSI
+1802bce58	10	LocalFree
+1802bce64	16	GetLocaleInfoEx
+1802bce76	24	ReleaseSRWLockExclusive
+1802bce90	24	AcquireSRWLockExclusive
+1802bceaa	25	WakeAllConditionVariable
+1802bcec6	26	SleepConditionVariableSRW
+1802bcee2	18	RtlCaptureContext
+1802bcef6	23	RtlLookupFunctionEntry
+1802bcf10	17	RtlVirtualUnwind
+1802bcf24	25	UnhandledExceptionFilter
+1802bcf40	28	SetUnhandledExceptionFilter
+1802bcf5e	18	GetCurrentProcess
+1802bcf72	17	TerminateProcess
+1802bcf86	26	IsProcessorFeaturePresent
+1802bcfa2	18	IsDebuggerPresent
+1802bcfb6	20	GetCurrentProcessId
+1802bcfcc	19	GetCurrentThreadId
+1802bcfe2	24	GetSystemTimeAsFileTime
+1802bcffc	26	DisableThreadLibraryCalls
+1802bd018	20	InitializeSListHead
+1802bd02e	16	__RTDynamicCast
+1802bd040	19	__intrinsic_setjmp
+1802bd056	5	acos
+1802bd05e	5	asin
+1802bd066	6	atan2
+1802bd06e	5	ceil
+1802bd076	4	cos
+1802bd07c	4	exp
+1802bd082	6	floor
+1802bd08a	5	fmaf
+1802bd092	5	fmod
+1802bd09a	6	log10
+1802bd0a2	4	sin
+1802bd0a8	5	sqrt
+1802bd0b0	4	tan
+1802be250	24	.?AVbad_alloc@std@@
+1802be278	24	.?AVlogic_error@std@@
+1802be2a0	32	.?AVLuaException@luabridge@@
+1802be2d0	56	.P6A_NPEAUlua_State@@HAEBVDataSerializer@Scripting@@@Z
+1802be318	24	.?AVexception@std@@
+1802be340	32	.?AVbad_array_new_length@std@@
+1802be370	24	.?AVruntime_error@std@@
+1802be398	8	.PEAD
+1802be3b0	24	.?AVsystem_error@std@@
+1802be3d8	32	.?AUinternal_error@toml@@
+1802be408	48	.?AV<lambda_1>@?4??Unload@Resource@@QEAAXXZ@
+1802be448	24	.?AVChatClient@@
+1802be470	24	.?AUexception@toml@@
+1802be498	24	.?AVbad_cast@std@@
+1802be4c0	24	.?AVClientHandler@@
+1802be4e8	8	.PEAX
+1802be500	24	.?AUsyntax_error@toml@@
+1802be528	40	.?AVfilesystem_error@filesystem@std@@
+1802be560	24	.?AV_System_error@std@@
+1802be588	24	.?AUtype_error@toml@@
+1802be5b0	16	.?AVtype_info@@
+1802be5d0	72	.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+1802be628	24	.?AVios_base@std@@
+1802be650	24	.?AV?$_Iosb@H@std@@
+1802be680	104	.?AV?$_Func_impl_no_alloc@P6A_NPEAUlua_State@@HAEBVDataSerializer@Scripting@@@Z_NPEAU1@HAEBV23@@std@@
+1802be700	56	.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+1802be750	80	.?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+1802be7b0	72	.?AV?$_Func_base@_NPEAUlua_State@@HAEBVDataSerializer@Scripting@@@std@@
+1802be810	80	.?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+1802be870	56	.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+1802be8b8	48	.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+1802be8f8	32	.?AVUserdata@detail@luabridge@@
+1802be930	56	.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+1802be980	56	.?AV?$UserdataValue@UVector3@@@detail@luabridge@@
+1802be9d0	72	.?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+1802bea28	24	.?AV_Node_if@std@@
+1802bea50	24	.?AV?$collate@D@std@@
+1802bea80	56	.?AV?$_Ref_count_obj2@Uregion_base@detail@toml@@@std@@
+1802beac8	32	.?AV?$_Func_base@XH@std@@
+1802beaf8	24	.?AV?$_Node_str@D@std@@
+1802beb20	32	.?AVerror_category@std@@
+1802beb50	24	.?AV_Node_end_rep@std@@
+1802beb78	40	.?AV_System_error_category@std@@
+1802bebb0	32	.?AV_Node_end_group@std@@
+1802bebe0	56	.?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@
+1802bec28	24	.?AV_Node_back@std@@
+1802bec50	24	.?AV_Facet_base@std@@
+1802bec78	32	.?AVLUAPlayer@LUAScripting@@
+1802beca8	40	.?AV_Generic_error_category@std@@
+1802bece0	32	.?AUregion_base@detail@toml@@
+1802bed10	32	.?AU_Crt_new_delete@std@@
+1802bed40	32	.?AVLUAVector3@LUAScripting@@
+1802bed70	32	.?AUlocation@detail@toml@@
+1802beda0	24	.?AV_Node_base@std@@
+1802bedd0	56	.?AV?$_Ref_count_obj2@Uregion@detail@toml@@@std@@
+1802bee18	32	.?AUregion@detail@toml@@
+1802bee48	24	.?AV_Root_node@std@@
+1802bee70	32	.?AVLUANatives@LUAScripting@@
+1802beea0	24	.?AVfacet@locale@std@@
+1802beec8	24	.?AV_Node_assert@std@@
+1802beef0	32	.?AVLUAChat@LUAScripting@@
+1802bef20	32	.?AV_Ref_count_base@std@@
+1802bef50	40	.?AVUserdataPtr@detail@luabridge@@
+1802bef88	32	.?AVLUAImGUI@LUAScripting@@
+1802befb8	32	.?AVLUAEvent@LUAScripting@@
+1802beff0	80	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??Unload@Resource@@QEAAXXZ@XH@std@@
+1802bf050	24	.?AV_Node_rep@std@@
+1802bf078	24	.?AVILUALibrary@@
+1802bf0a0	72	.?AV?$_Ref_count_obj2@V?$vector@DV?$allocator@D@std@@@std@@@std@@
+1802bf100	56	.?AV?$_Node_class@DV?$regex_traits@D@std@@@std@@
+1802bf148	24	.?AV_Node_capture@std@@
+1802bf170	24	.?AV_Node_endif@std@@
+1802bf1a0	64	.?AV?$UserdataValue@W4e_WeaponModel@@@detail@luabridge@@
+1802bf1f0	56	.?AV?$UserdataValue@UPlayer@@@detail@luabridge@@
+1802bf238	32	.?AVLUAThread@LUAScripting@@
+1802bf268	40	.?AV?$_Ref_count_obj2@VResource@@@std@@
+1802bf2a0	48	.?AV?$_Ref_count_obj2@VResourcesManager@@@std@@
+1802bf2e0	40	.?AUUnzipperErrorCategory@zipper@@
+1802bf320	56	.?AV?$_Ref_count_obj2@VHandler@Scripting@@@std@@
+1802de060	382	<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\r\n<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>\r\n  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">\r\n    <security>\r\n      <requestedPrivileges>\r\n        <requestedExecutionLevel level='asInvoker' uiAccess='false' />\r\n      </requestedPrivileges>\r\n    </security>\r\n  </trustInfo>\r\n</assembly>\r\n
+ff000002d0	24	
+ff000002ee	2	
+ff00001268	522	

@@ -1,0 +1,204 @@
+============================================================
+API=FindClose
+ADDRESS=EXTERNAL:00000004
+REF_FROM=180078000 TYPE=DATA
+REF_FROM=18006d1a8 TYPE=COMPUTED_CALL
+FUNCTION=FUN_18006d0c0
+FUNCTION_ENTRY=18006d0c0
+FUNCTION_RVA=0x6D0C0
+FUNCTION_PROTO=DWORD __fastcall FUN_18006d0c0(LPCWSTR param_1, ulonglong * param_2, uint param_3, uint param_4)
+============================================================
+API=CreateFileW
+ADDRESS=EXTERNAL:00000005
+REF_FROM=180078008 TYPE=DATA
+REF_FROM=18006d41b TYPE=COMPUTED_CALL
+FUNCTION=__std_fs_open_handle
+FUNCTION_ENTRY=18006d3e8
+FUNCTION_RVA=0x6D3E8
+FUNCTION_PROTO=DWORD __fastcall __std_fs_open_handle(undefined8 * param_1, LPCWSTR param_2, DWORD param_3, DWORD param_4)
+============================================================
+API=GetModuleFileNameA
+ADDRESS=EXTERNAL:0000000d
+REF_FROM=180078048 TYPE=DATA
+REF_FROM=18005bfa7 TYPE=COMPUTED_CALL
+FUNCTION=FUN_18005bf60
+FUNCTION_ENTRY=18005bf60
+FUNCTION_RVA=0x5BF60
+FUNCTION_PROTO=uint * __fastcall FUN_18005bf60(uint * param_1)
+============================================================
+API=CloseHandle
+ADDRESS=EXTERNAL:0000000f
+REF_FROM=180078058 TYPE=DATA
+REF_FROM=18005e3ee TYPE=COMPUTED_JUMP
+FUNCTION=~Thread
+FUNCTION_ENTRY=18005e3e0
+FUNCTION_RVA=0x5E3E0
+FUNCTION_PROTO=void __thiscall ~Thread(Thread * this)
+REF_FROM=18005f71d TYPE=COMPUTED_CALL
+FUNCTION=FUN_18005f700
+FUNCTION_ENTRY=18005f700
+FUNCTION_RVA=0x5F700
+FUNCTION_PROTO=undefined __fastcall FUN_18005f700(longlong param_1)
+REF_FROM=18005f75c TYPE=COMPUTED_CALL
+FUNCTION=FUN_18005f740
+FUNCTION_ENTRY=18005f740
+FUNCTION_RVA=0x5F740
+FUNCTION_PROTO=undefined __fastcall FUN_18005f740(undefined8 * param_1)
+REF_FROM=18006d251 TYPE=COMPUTED_CALL
+FUNCTION=FUN_18006d0c0
+FUNCTION_ENTRY=18006d0c0
+FUNCTION_RVA=0x6D0C0
+FUNCTION_PROTO=DWORD __fastcall FUN_18006d0c0(LPCWSTR param_1, ulonglong * param_2, uint param_3, uint param_4)
+REF_FROM=18006d2a0 TYPE=COMPUTED_CALL
+FUNCTION=FUN_18006d0c0
+FUNCTION_ENTRY=18006d0c0
+FUNCTION_RVA=0x6D0C0
+FUNCTION_PROTO=DWORD __fastcall FUN_18006d0c0(LPCWSTR param_1, ulonglong * param_2, uint param_3, uint param_4)
+REF_FROM=18006d306 TYPE=COMPUTED_CALL
+FUNCTION=FUN_18006d0c0
+FUNCTION_ENTRY=18006d0c0
+FUNCTION_RVA=0x6D0C0
+FUNCTION_PROTO=DWORD __fastcall FUN_18006d0c0(LPCWSTR param_1, ulonglong * param_2, uint param_3, uint param_4)
+REF_FROM=18006d35d TYPE=COMPUTED_CALL
+FUNCTION=FUN_18006d0c0
+FUNCTION_ENTRY=18006d0c0
+FUNCTION_RVA=0x6D0C0
+FUNCTION_PROTO=DWORD __fastcall FUN_18006d0c0(LPCWSTR param_1, ulonglong * param_2, uint param_3, uint param_4)
+REF_FROM=18006d3ce TYPE=COMPUTED_CALL
+FUNCTION=FUN_18006d0c0
+FUNCTION_ENTRY=18006d0c0
+FUNCTION_RVA=0x6D0C0
+FUNCTION_PROTO=DWORD __fastcall FUN_18006d0c0(LPCWSTR param_1, ulonglong * param_2, uint param_3, uint param_4)
+REF_FROM=18006d392 TYPE=COMPUTED_CALL
+FUNCTION=FUN_18006d0c0
+FUNCTION_ENTRY=18006d0c0
+FUNCTION_RVA=0x6D0C0
+FUNCTION_PROTO=DWORD __fastcall FUN_18006d0c0(LPCWSTR param_1, ulonglong * param_2, uint param_3, uint param_4)
+============================================================
+API=WideCharToMultiByte
+ADDRESS=EXTERNAL:00000025
+REF_FROM=180078108 TYPE=DATA
+REF_FROM=18006ceb3 TYPE=COMPUTED_CALL
+FUNCTION=__std_fs_convert_wide_to_narrow
+FUNCTION_ENTRY=18006ce58
+FUNCTION_RVA=0x6CE58
+FUNCTION_PROTO=undefined8 __fastcall __std_fs_convert_wide_to_narrow(UINT param_1, LPCWSTR param_2, int param_3, LPSTR param_4, int param_5)
+REF_FROM=18006cf3f TYPE=COMPUTED_CALL
+FUNCTION=__std_fs_convert_wide_to_narrow
+FUNCTION_ENTRY=18006ce58
+FUNCTION_RVA=0x6CE58
+FUNCTION_PROTO=undefined8 __fastcall __std_fs_convert_wide_to_narrow(UINT param_1, LPCWSTR param_2, int param_3, LPSTR param_4, int param_5)
+REF_FROM=18006cefd TYPE=COMPUTED_CALL
+FUNCTION=__std_fs_convert_wide_to_narrow
+FUNCTION_ENTRY=18006ce58
+FUNCTION_RVA=0x6CE58
+FUNCTION_PROTO=undefined8 __fastcall __std_fs_convert_wide_to_narrow(UINT param_1, LPCWSTR param_2, int param_3, LPSTR param_4, int param_5)
+REF_FROM=18006cfc5 TYPE=COMPUTED_CALL
+FUNCTION=FUN_18006cf7c
+FUNCTION_ENTRY=18006cf7c
+FUNCTION_RVA=0x6CF7C
+FUNCTION_PROTO=undefined8 __fastcall FUN_18006cf7c(UINT param_1, LPCWSTR param_2, int param_3, LPSTR param_4, int param_5)
+REF_FROM=18006d008 TYPE=COMPUTED_CALL
+FUNCTION=FUN_18006cf7c
+FUNCTION_ENTRY=18006cf7c
+FUNCTION_RVA=0x6CF7C
+FUNCTION_PROTO=undefined8 __fastcall FUN_18006cf7c(UINT param_1, LPCWSTR param_2, int param_3, LPSTR param_4, int param_5)
+============================================================
+API=MultiByteToWideChar
+ADDRESS=EXTERNAL:00000026
+REF_FROM=180078110 TYPE=DATA
+REF_FROM=18006ce2c TYPE=COMPUTED_CALL
+FUNCTION=__std_fs_convert_narrow_to_wide
+FUNCTION_ENTRY=18006ce10
+FUNCTION_RVA=0x6CE10
+FUNCTION_PROTO=undefined8 __fastcall __std_fs_convert_narrow_to_wide(UINT param_1, LPCSTR param_2, int param_3, LPWSTR param_4, int param_5)
+============================================================
+API=GetFileAttributesExW
+ADDRESS=EXTERNAL:00000029
+REF_FROM=180078128 TYPE=DATA
+REF_FROM=18006d16d TYPE=COMPUTED_CALL
+FUNCTION=FUN_18006d0c0
+FUNCTION_ENTRY=18006d0c0
+FUNCTION_RVA=0x6D0C0
+FUNCTION_PROTO=DWORD __fastcall FUN_18006d0c0(LPCWSTR param_1, ulonglong * param_2, uint param_3, uint param_4)
+============================================================
+API=FindFirstFileW
+ADDRESS=EXTERNAL:0000002a
+REF_FROM=180078130 TYPE=DATA
+REF_FROM=18006d18e TYPE=COMPUTED_CALL
+FUNCTION=FUN_18006d0c0
+FUNCTION_ENTRY=18006d0c0
+FUNCTION_RVA=0x6D0C0
+FUNCTION_PROTO=DWORD __fastcall FUN_18006d0c0(LPCWSTR param_1, ulonglong * param_2, uint param_3, uint param_4)
+============================================================
+API=setstate
+ADDRESS=EXTERNAL:0000002e
+REF_FROM=180078158 TYPE=DATA
+REF_FROM=1800349b0 TYPE=COMPUTED_CALL
+FUNCTION=FUN_180034840
+FUNCTION_ENTRY=180034840
+FUNCTION_RVA=0x34840
+FUNCTION_PROTO=basic_ostream<char,std::char_traits<char>_> * __fastcall FUN_180034840(basic_ostream<char,std::char_traits<char>_> * param_1, char * param_2, ulonglong param_3)
+REF_FROM=180026a8c TYPE=COMPUTED_CALL
+FUNCTION=FUN_180026900
+FUNCTION_ENTRY=180026900
+FUNCTION_RVA=0x26900
+FUNCTION_PROTO=basic_ostream<char,std::char_traits<char>_> * __fastcall FUN_180026900(basic_ostream<char,std::char_traits<char>_> * param_1, char * param_2)
+REF_FROM=180026d75 TYPE=COMPUTED_CALL
+FUNCTION=FUN_180026bf0
+FUNCTION_ENTRY=180026bf0
+FUNCTION_RVA=0x26BF0
+FUNCTION_PROTO=basic_ostream<char,std::char_traits<char>_> * __fastcall FUN_180026bf0(basic_ostream<char,std::char_traits<char>_> * param_1, char param_2)
+REF_FROM=180029d13 TYPE=COMPUTED_CALL
+FUNCTION=FUN_180029c20
+FUNCTION_ENTRY=180029c20
+FUNCTION_RVA=0x29C20
+FUNCTION_PROTO=basic_ostream<char,std::char_traits<char>_> * __fastcall FUN_180029c20(basic_ostream<char,std::char_traits<char>_> * param_1, wchar_t * param_2)
+REF_FROM=18003a333 TYPE=COMPUTED_CALL
+FUNCTION=FUN_18003a240
+FUNCTION_ENTRY=18003a240
+FUNCTION_RVA=0x3A240
+FUNCTION_PROTO=basic_istream<char,std::char_traits<char>_> * __fastcall FUN_18003a240(basic_istream<char,std::char_traits<char>_> * param_1, wchar_t * param_2)
+REF_FROM=18007266b TYPE=COMPUTED_CALL
+FUNCTION=FUN_180072648
+FUNCTION_ENTRY=180072648
+FUNCTION_RVA=0x72648
+FUNCTION_PROTO=undefined8 __fastcall FUN_180072648(undefined8 param_1, longlong param_2)
+REF_FROM=1800726cb TYPE=COMPUTED_CALL
+FUNCTION=FUN_1800726a8
+FUNCTION_ENTRY=1800726a8
+FUNCTION_RVA=0x726A8
+FUNCTION_PROTO=undefined8 __fastcall FUN_1800726a8(undefined8 param_1, longlong param_2)
+REF_FROM=180019424 TYPE=COMPUTED_CALL
+FUNCTION=SetCEFKeyValuePair
+FUNCTION_ENTRY=180019050
+FUNCTION_RVA=0x19050
+FUNCTION_PROTO=void __thiscall SetCEFKeyValuePair(Config * this, scoped_refptr<CefListValue> * param_1)
+REF_FROM=1800188aa TYPE=COMPUTED_CALL
+FUNCTION=Initialize
+FUNCTION_ENTRY=1800186f0
+FUNCTION_RVA=0x186F0
+FUNCTION_PROTO=void __thiscall Initialize(Config * this, path * param_1)
+REF_FROM=180018efc TYPE=COMPUTED_CALL
+FUNCTION=SetValue
+FUNCTION_ENTRY=180018be0
+FUNCTION_RVA=0x18BE0
+FUNCTION_PROTO=void __thiscall SetValue(Config * this, basic_string<char,std::char_traits<char>,std::allocator<char>_> * param_1, basic_value<toml::discard_comments,std::unordered_map,std::vector> * param_2)
+============================================================
+API=_Fiopen
+ADDRESS=EXTERNAL:00000066
+REF_FROM=180078318 TYPE=DATA
+REF_FROM=180032eba TYPE=COMPUTED_CALL
+FUNCTION=FUN_180032e80
+FUNCTION_ENTRY=180032e80
+FUNCTION_RVA=0x32E80
+FUNCTION_PROTO=basic_streambuf<char,std::char_traits<char>_> * __fastcall FUN_180032e80(basic_streambuf<char,std::char_traits<char>_> * param_1, wchar_t * param_2, int param_3)
+============================================================
+API=fopen_s
+ADDRESS=EXTERNAL:000000ab
+REF_FROM=1800785e8 TYPE=DATA
+REF_FROM=18005c5bf TYPE=COMPUTED_CALL
+FUNCTION=Print
+FUNCTION_ENTRY=18005c160
+FUNCTION_RVA=0x5C160
+FUNCTION_PROTO=void __cdecl Print(LogType param_1, char * param_2, char * param_3, ...)

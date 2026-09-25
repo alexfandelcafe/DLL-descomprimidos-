@@ -1,0 +1,608 @@
+============================================================
+KEYWORD=mount
+STRING_ADDRESS=180262ff0
+STRING=set_player_enable_mount_use_contexts
+REF_FROM=18002363f TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=mount
+STRING_ADDRESS=180263620
+STRING=set_actor_allow_dismount
+REF_FROM=180023b3b TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=mount
+STRING_ADDRESS=180263800
+STRING=actor_dismount_now
+REF_FROM=180023cdd TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=mount
+STRING_ADDRESS=1802649b0
+STRING=game_estimate_mount
+REF_FROM=18002489b TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=mount
+STRING_ADDRESS=180265420
+STRING=ai_set_allowed_mount_directions
+REF_FROM=1800250d1 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=package
+STRING_ADDRESS=180265ab8
+STRING=ai_speech_set_default_package
+REF_FROM=1800255a3 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=FILE_START_PATH
+STRING_ADDRESS=180269730
+STRING=file_start_path
+REF_FROM=180028033 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=FILE_END_PATH
+STRING_ADDRESS=180269758
+STRING=file_end_path
+REF_FROM=18002805f TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=multiplayer
+STRING_ADDRESS=18026a460
+STRING=_was_last_reset_for_multiplayer
+REF_FROM=180028ca9 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=Launch
+STRING_ADDRESS=18026a498
+STRING=launch_new_script
+REF_FROM=180028cd5 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=Launch
+STRING_ADDRESS=18026a4b0
+STRING=launch_new_script_with_args
+REF_FROM=180028ceb TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=Launch
+STRING_ADDRESS=18026a4d0
+STRING=is_launch_retail
+REF_FROM=180028d01 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=multiplayer
+STRING_ADDRESS=18026a500
+STRING=is_simulate_start_multiplayer
+REF_FROM=180028d2d TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=asset
+STRING_ADDRESS=18026af60
+STRING=cutscene_manager_set_asset_override_actor
+REF_FROM=1800293a6 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=content
+STRING_ADDRESS=18026b1b8
+STRING=dlc_pre_init_content
+REF_FROM=1800295ee TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=content
+STRING_ADDRESS=18026b1d0
+STRING=dlc_init_content
+REF_FROM=180029604 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=content
+STRING_ADDRESS=18026b238
+STRING=dlc_is_content_purchased_flags
+REF_FROM=180029646 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=mount
+STRING_ADDRESS=18026b258
+STRING=dlc_unmount_pack
+REF_FROM=18002965c TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=asset
+STRING_ADDRESS=18026cb60
+STRING=load_ptfx_dlc_assets
+REF_FROM=18002abe6 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=Launch
+STRING_ADDRESS=18026ce10
+STRING=sc_challenge_launch
+REF_FROM=18002ae07 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=mount
+STRING_ADDRESS=180270028
+STRING=actor_set_inv_ammo_max_amount
+REF_FROM=18002d7d6 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=mount
+STRING_ADDRESS=180270080
+STRING=actor_get_inv_ammo_max_amount
+REF_FROM=18002d818 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=package
+STRING_ADDRESS=1802729d0
+STRING=create_ai_speech_package_in_layout
+REF_FROM=18002f7db TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=asset
+STRING_ADDRESS=180274148
+STRING=request_asset
+REF_FROM=180030a81 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=asset
+STRING_ADDRESS=180274158
+STRING=get_asset_id
+REF_FROM=180030a97 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=asset
+STRING_ADDRESS=180274168
+STRING=remove_asset
+REF_FROM=180030aad TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=asset
+STRING_ADDRESS=180274178
+STRING=ae_get_asset_id
+REF_FROM=180030ac3 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=asset
+STRING_ADDRESS=180274188
+STRING=get_asset_name
+REF_FROM=180030ad9 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=asset
+STRING_ADDRESS=180274198
+STRING=is_assettypeid_valid
+REF_FROM=180030aef TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=asset
+STRING_ADDRESS=1802741b0
+STRING=is_assettypeid_valid_by_string
+REF_FROM=180030b05 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=MULTI_
+STRING_ADDRESS=1802751f8
+STRING=set_zone_population_spawn_multi_per_point
+REF_FROM=180031887 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=mount
+STRING_ADDRESS=180275a40
+STRING=set_most_recent_mount
+REF_FROM=180031f22 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=mount
+STRING_ADDRESS=180275a58
+STRING=get_most_recent_mount
+REF_FROM=180031f38 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=mount
+STRING_ADDRESS=180275ad8
+STRING=is_actor_mounted
+REF_FROM=180031fbc TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=mount
+STRING_ADDRESS=180275b00
+STRING=get_mount
+REF_FROM=180031fe8 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=mount
+STRING_ADDRESS=180275b10
+STRING=set_mounts_as_passenger
+REF_FROM=180031ffe TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=mount
+STRING_ADDRESS=180275b28
+STRING=actor_mount_actor
+REF_FROM=180032014 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=mount
+STRING_ADDRESS=180277418
+STRING=task_dismount
+REF_FROM=180033338 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=mount
+STRING_ADDRESS=1802776e0
+STRING=task_mount
+REF_FROM=1800335b6 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=mount
+STRING_ADDRESS=180278e70
+STRING=set_rain_amount
+REF_FROM=180034b48 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=mount
+STRING_ADDRESS=180278e80
+STRING=set_lightning_amount
+REF_FROM=180034b5e TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=asset
+STRING_ADDRESS=180279130
+STRING=zombie_dlc_load_assets
+REF_FROM=180034d91 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=asset
+STRING_ADDRESS=180279148
+STRING=zombie_dlc_load_assets_mp
+REF_FROM=180034da7 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=asset
+STRING_ADDRESS=180279168
+STRING=zombie_dlc_unload_assets
+REF_FROM=180034dbd TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180023460
+FUNCTION_ENTRY=180023460
+FUNCTION_RVA=0x23460
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802796e8
+STRING=core:on_resource_start
+REF_FROM=1801a7179 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=__LoadClientScripts
+FUNCTION_ENTRY=1801a6df0
+FUNCTION_RVA=0x1A6DF0
+REF_FROM=1801a6091 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=Resource
+FUNCTION_ENTRY=1801a5fb0
+FUNCTION_RVA=0x1A5FB0
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=180279700
+STRING=core:on_resource_stop
+REF_FROM=1801a75ed TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=Unload
+FUNCTION_ENTRY=1801a74d0
+FUNCTION_RVA=0x1A74D0
+REF_FROM=1801a611a TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=Resource
+FUNCTION_ENTRY=1801a5fb0
+FUNCTION_RVA=0x1A5FB0
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=180279738
+STRING=Resource at '%s' is invalid !
+REF_FROM=180251a20 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_180251a02
+FUNCTION_ENTRY=180251a02
+FUNCTION_RVA=0x251A02
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=180279760
+STRING=Started resource '%s'
+REF_FROM=1801a71e8 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=__LoadClientScripts
+FUNCTION_ENTRY=1801a6df0
+FUNCTION_RVA=0x1A6DF0
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=180279788
+STRING=CURRENT_RESOURCE_NAME
+REF_FROM=1801a7480 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=Load
+FUNCTION_ENTRY=1801a7270
+FUNCTION_RVA=0x1A7270
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802797a0
+STRING=Stopped resource '%s'
+REF_FROM=1801a773f TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=Unload
+FUNCTION_ENTRY=1801a74d0
+FUNCTION_RVA=0x1A74D0
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802b9d08
+STRING=?$TSS0@?1??Get@?$Singleton@VResourcesManager@@@@SA?BV?$shared_ptr@VResourcesManager@@@std@@XZ@4HA
+REF_FROM=1802b9c18 TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802b9d6a
+STRING=??0?$Singleton@VResourcesManager@@@@QEAA@XZ
+REF_FROM=1802b9c1c TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802b9d96
+STRING=??0Resource@@QEAA@AEBV0@@Z
+REF_FROM=1802b9c20 TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802b9db1
+STRING=??0Resource@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVpath@filesystem@2@@Z
+REF_FROM=1802b9c24 TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802b9e1d
+STRING=??0ResourcesManager@@QEAA@$$QEAV0@@Z
+REF_FROM=1802b9c28 TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802b9e42
+STRING=??0ResourcesManager@@QEAA@AEBV0@@Z
+REF_FROM=1802b9c2c TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802b9e65
+STRING=??0ResourcesManager@@QEAA@XZ
+REF_FROM=1802b9c30 TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802b9e82
+STRING=??1?$Singleton@VResourcesManager@@@@QEAA@XZ
+REF_FROM=1802b9c34 TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802b9eae
+STRING=??1Resource@@QEAA@XZ
+REF_FROM=1802b9c38 TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802b9ec3
+STRING=??1ResourcesManager@@QEAA@XZ
+REF_FROM=1802b9c3c TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802b9ee0
+STRING=??4?$Singleton@VResourcesManager@@@@QEAAAEAV0@AEBV0@@Z
+REF_FROM=1802b9c40 TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802b9f17
+STRING=??4Resource@@QEAAAEAV0@AEBV0@@Z
+REF_FROM=1802b9c44 TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802b9f37
+STRING=??4ResourcesManager@@QEAAAEAV0@$$QEAV0@@Z
+REF_FROM=1802b9c48 TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802b9f61
+STRING=??4ResourcesManager@@QEAAAEAV0@AEBV0@@Z
+REF_FROM=1802b9c4c TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802b9f89
+STRING=?DoesAllResourcesAreLoaded@ResourcesManager@@QEBA_NXZ
+REF_FROM=1802b9c50 TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802b9fbf
+STRING=?Get@?$Singleton@VResourcesManager@@@@SA?BV?$shared_ptr@VResourcesManager@@@std@@XZ
+REF_FROM=1802b9c54 TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802ba013
+STRING=?GetConsumption@Resource@@QEBAMXZ
+REF_FROM=1802b9c58 TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802ba035
+STRING=?GetConsumptions@Resource@@QEBA?BV?$vector@MV?$allocator@M@std@@@std@@XZ
+REF_FROM=1802b9c5c TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802ba07e
+STRING=?GetInstance@Resource@@QEBAPEAUlua_State@@XZ
+REF_FROM=1802b9c60 TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802ba0ab
+STRING=?GetResource@ResourcesManager@@QEBA?BV?$shared_ptr@VResource@@@std@@PEAUlua_State@@@Z
+REF_FROM=1802b9c64 TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802ba101
+STRING=?GetTotalResourcesConsumption@ResourcesManager@@QEBAMXZ
+REF_FROM=1802b9c68 TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802ba139
+STRING=?IsStarted@Resource@@QEBA_NXZ
+REF_FROM=1802b9c6c TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802ba157
+STRING=?Items@ResourcesManager@@QEBA?AV?$unordered_map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VResource@@@2@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VResource@@@2@@std@@@2@@std@@XZ
+REF_FROM=1802b9c70 TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802ba2fc
+STRING=?Load@Resource@@QEAAXXZ
+REF_FROM=1802b9c74 TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802ba314
+STRING=?LoadAllResources@ResourcesManager@@QEAAXXZ
+REF_FROM=1802b9c78 TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802ba340
+STRING=?LoadResource@ResourcesManager@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+REF_FROM=1802b9c7c TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802ba3a9
+STRING=?Preload@Resource@@QEAAXXZ
+REF_FROM=1802b9c80 TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802ba3c4
+STRING=?PreloadResource@ResourcesManager@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVpath@filesystem@3@@Z
+REF_FROM=1802b9c84 TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802ba446
+STRING=?Unload@Resource@@QEAAXXZ
+REF_FROM=1802b9c88 TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802ba460
+STRING=?UnloadAllResources@ResourcesManager@@QEAAXXZ
+REF_FROM=1802b9c8c TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802ba48e
+STRING=?UnloadResource@ResourcesManager@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+REF_FROM=1802b9c90 TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802ba4f9
+STRING=?UpdateConsumptions@Resource@@QEAAXXZ
+REF_FROM=1802b9c94 TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802ba51f
+STRING=?__LoadClientScripts@Resource@@CAXPEAV1@@Z
+REF_FROM=1802b9c98 TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802ba54a
+STRING=?__autoclassinit2@Resource@@QEAAX_K@Z
+REF_FROM=1802b9c9c TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802ba570
+STRING=?__autoclassinit2@ResourcesManager@@QEAAX_K@Z
+REF_FROM=1802b9ca0 TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802ba59e
+STRING=?singleton@?1??Get@?$Singleton@VResourcesManager@@@@SA?BV?$shared_ptr@VResourcesManager@@@std@@XZ@4V34@A
+REF_FROM=1802b9ca4 TYPE=DATA SOURCE=DEFAULT
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802be408
+STRING=.?AV<lambda_1>@?4??Unload@Resource@@QEAAXXZ@
+REF_FROM=<none>
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802beff0
+STRING=.?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??Unload@Resource@@QEAAXXZ@XH@std@@
+REF_FROM=<none>
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802bf268
+STRING=.?AV?$_Ref_count_obj2@VResource@@@std@@
+REF_FROM=<none>
+============================================================
+KEYWORD=resource
+STRING_ADDRESS=1802bf2a0
+STRING=.?AV?$_Ref_count_obj2@VResourcesManager@@@std@@
+REF_FROM=<none>
