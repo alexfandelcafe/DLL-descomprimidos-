@@ -1,0 +1,207 @@
+============================================================
+API=GetModuleHandleW
+ADDRESS=EXTERNAL:00000006
+REF_FROM=180011020 TYPE=DATA
+REF_FROM=180001c0d TYPE=COMPUTED_CALL
+FUNCTION=FUN_180001820
+FUNCTION_ENTRY=180001820
+FUNCTION_RVA=0x1820
+FUNCTION_PROTO=undefined __fastcall FUN_180001820(undefined8 * param_1, longlong * param_2, longlong param_3)
+============================================================
+API=GetModuleFileNameA
+ADDRESS=EXTERNAL:00000007
+REF_FROM=180011028 TYPE=DATA
+REF_FROM=180006df7 TYPE=COMPUTED_CALL
+FUNCTION=FUN_180006db0
+FUNCTION_ENTRY=180006db0
+FUNCTION_RVA=0x6DB0
+FUNCTION_PROTO=uint * __fastcall FUN_180006db0(uint * param_1)
+============================================================
+API=VirtualProtect
+ADDRESS=EXTERNAL:00000009
+REF_FROM=180011038 TYPE=DATA
+REF_FROM=18000d3bb TYPE=COMPUTED_CALL
+FUNCTION=FUN_18000d2f8
+FUNCTION_ENTRY=18000d2f8
+FUNCTION_RVA=0xD2F8
+FUNCTION_PROTO=undefined8 __fastcall FUN_18000d2f8(ulonglong param_1, int param_2)
+REF_FROM=18000d354 TYPE=COMPUTED_CALL
+FUNCTION=FUN_18000d2f8
+FUNCTION_ENTRY=18000d2f8
+FUNCTION_RVA=0xD2F8
+FUNCTION_PROTO=undefined8 __fastcall FUN_18000d2f8(ulonglong param_1, int param_2)
+REF_FROM=18000b78b TYPE=COMPUTED_CALL
+FUNCTION=DisableAllInputs
+FUNCTION_ENTRY=18000b750
+FUNCTION_RVA=0xB750
+FUNCTION_PROTO=void __cdecl DisableAllInputs(bool param_1)
+REF_FROM=18000b7a6 TYPE=COMPUTED_CALL
+FUNCTION=DisableAllInputs
+FUNCTION_ENTRY=18000b750
+FUNCTION_RVA=0xB750
+FUNCTION_PROTO=void __cdecl DisableAllInputs(bool param_1)
+============================================================
+API=CloseHandle
+ADDRESS=EXTERNAL:0000000a
+REF_FROM=180011040 TYPE=DATA
+REF_FROM=18000da6f TYPE=COMPUTED_CALL
+FUNCTION=FUN_18000da28
+FUNCTION_ENTRY=18000da28
+FUNCTION_RVA=0xDA28
+FUNCTION_PROTO=undefined __fastcall FUN_18000da28(longlong * param_1)
+REF_FROM=18000d69e TYPE=COMPUTED_CALL
+FUNCTION=FUN_18000d44c
+FUNCTION_ENTRY=18000d44c
+FUNCTION_RVA=0xD44C
+FUNCTION_PROTO=undefined __fastcall FUN_18000d44c(longlong * param_1, uint param_2, int param_3)
+REF_FROM=18000d577 TYPE=COMPUTED_CALL
+FUNCTION=FUN_18000d44c
+FUNCTION_ENTRY=18000d44c
+FUNCTION_RVA=0xD44C
+FUNCTION_PROTO=undefined __fastcall FUN_18000d44c(longlong * param_1, uint param_2, int param_3)
+REF_FROM=18000ec8d TYPE=COMPUTED_CALL
+FUNCTION=FUN_18000eafc
+FUNCTION_ENTRY=18000eafc
+FUNCTION_RVA=0xEAFC
+FUNCTION_PROTO=DWORD __fastcall FUN_18000eafc(LPCWSTR param_1, ulonglong * param_2, uint param_3, uint param_4)
+REF_FROM=18000ecdc TYPE=COMPUTED_CALL
+FUNCTION=FUN_18000eafc
+FUNCTION_ENTRY=18000eafc
+FUNCTION_RVA=0xEAFC
+FUNCTION_PROTO=DWORD __fastcall FUN_18000eafc(LPCWSTR param_1, ulonglong * param_2, uint param_3, uint param_4)
+REF_FROM=18000ed42 TYPE=COMPUTED_CALL
+FUNCTION=FUN_18000eafc
+FUNCTION_ENTRY=18000eafc
+FUNCTION_RVA=0xEAFC
+FUNCTION_PROTO=DWORD __fastcall FUN_18000eafc(LPCWSTR param_1, ulonglong * param_2, uint param_3, uint param_4)
+REF_FROM=18000ed99 TYPE=COMPUTED_CALL
+FUNCTION=FUN_18000eafc
+FUNCTION_ENTRY=18000eafc
+FUNCTION_RVA=0xEAFC
+FUNCTION_PROTO=DWORD __fastcall FUN_18000eafc(LPCWSTR param_1, ulonglong * param_2, uint param_3, uint param_4)
+REF_FROM=18000ee0a TYPE=COMPUTED_CALL
+FUNCTION=FUN_18000eafc
+FUNCTION_ENTRY=18000eafc
+FUNCTION_RVA=0xEAFC
+FUNCTION_PROTO=DWORD __fastcall FUN_18000eafc(LPCWSTR param_1, ulonglong * param_2, uint param_3, uint param_4)
+REF_FROM=18000edce TYPE=COMPUTED_CALL
+FUNCTION=FUN_18000eafc
+FUNCTION_ENTRY=18000eafc
+FUNCTION_RVA=0xEAFC
+FUNCTION_PROTO=DWORD __fastcall FUN_18000eafc(LPCWSTR param_1, ulonglong * param_2, uint param_3, uint param_4)
+============================================================
+API=OpenThread
+ADDRESS=EXTERNAL:00000011
+REF_FROM=180011078 TYPE=DATA
+REF_FROM=18000da55 TYPE=COMPUTED_CALL
+FUNCTION=FUN_18000da28
+FUNCTION_ENTRY=18000da28
+FUNCTION_RVA=0xDA28
+FUNCTION_PROTO=undefined __fastcall FUN_18000da28(longlong * param_1)
+REF_FROM=18000d5a1 TYPE=COMPUTED_CALL
+FUNCTION=FUN_18000d44c
+FUNCTION_ENTRY=18000d44c
+FUNCTION_RVA=0xD44C
+FUNCTION_PROTO=undefined __fastcall FUN_18000d44c(longlong * param_1, uint param_2, int param_3)
+============================================================
+API=VirtualAlloc
+ADDRESS=EXTERNAL:0000001b
+REF_FROM=1800110c8 TYPE=DATA
+REF_FROM=18000dcb0 TYPE=COMPUTED_CALL
+FUNCTION=FUN_18000db2c
+FUNCTION_ENTRY=18000db2c
+FUNCTION_RVA=0xDB2C
+FUNCTION_PROTO=undefined8 * __fastcall FUN_18000db2c(undefined8 * param_1)
+REF_FROM=18000dc19 TYPE=COMPUTED_CALL
+FUNCTION=FUN_18000db2c
+FUNCTION_ENTRY=18000db2c
+FUNCTION_RVA=0xDB2C
+FUNCTION_PROTO=undefined8 * __fastcall FUN_18000db2c(undefined8 * param_1)
+============================================================
+API=CreateFileW
+ADDRESS=EXTERNAL:0000001e
+REF_FROM=1800110e0 TYPE=DATA
+REF_FROM=18000ee57 TYPE=COMPUTED_CALL
+FUNCTION=__std_fs_open_handle
+FUNCTION_ENTRY=18000ee24
+FUNCTION_RVA=0xEE24
+FUNCTION_PROTO=DWORD __fastcall __std_fs_open_handle(undefined8 * param_1, LPCWSTR param_2, DWORD param_3, DWORD param_4)
+============================================================
+API=FindFirstFileW
+ADDRESS=EXTERNAL:00000022
+REF_FROM=180011100 TYPE=DATA
+REF_FROM=18000ebca TYPE=COMPUTED_CALL
+FUNCTION=FUN_18000eafc
+FUNCTION_ENTRY=18000eafc
+FUNCTION_RVA=0xEAFC
+FUNCTION_PROTO=DWORD __fastcall FUN_18000eafc(LPCWSTR param_1, ulonglong * param_2, uint param_3, uint param_4)
+============================================================
+API=GetFileAttributesExW
+ADDRESS=EXTERNAL:0000002f
+REF_FROM=180011168 TYPE=DATA
+REF_FROM=18000eba9 TYPE=COMPUTED_CALL
+FUNCTION=FUN_18000eafc
+FUNCTION_ENTRY=18000eafc
+FUNCTION_RVA=0xEAFC
+FUNCTION_PROTO=DWORD __fastcall FUN_18000eafc(LPCWSTR param_1, ulonglong * param_2, uint param_3, uint param_4)
+============================================================
+API=FindClose
+ADDRESS=EXTERNAL:00000032
+REF_FROM=180011180 TYPE=DATA
+REF_FROM=18000ebe4 TYPE=COMPUTED_CALL
+FUNCTION=FUN_18000eafc
+FUNCTION_ENTRY=18000eafc
+FUNCTION_RVA=0xEAFC
+FUNCTION_PROTO=DWORD __fastcall FUN_18000eafc(LPCWSTR param_1, ulonglong * param_2, uint param_3, uint param_4)
+============================================================
+API=MultiByteToWideChar
+ADDRESS=EXTERNAL:00000034
+REF_FROM=180011190 TYPE=DATA
+REF_FROM=18000e8e0 TYPE=COMPUTED_CALL
+FUNCTION=__std_fs_convert_narrow_to_wide
+FUNCTION_ENTRY=18000e8c4
+FUNCTION_RVA=0xE8C4
+FUNCTION_PROTO=undefined8 __fastcall __std_fs_convert_narrow_to_wide(UINT param_1, LPCSTR param_2, int param_3, LPWSTR param_4, int param_5)
+============================================================
+API=WideCharToMultiByte
+ADDRESS=EXTERNAL:00000035
+REF_FROM=180011198 TYPE=DATA
+REF_FROM=18000ea79 TYPE=COMPUTED_CALL
+FUNCTION=FUN_18000ea30
+FUNCTION_ENTRY=18000ea30
+FUNCTION_RVA=0xEA30
+FUNCTION_PROTO=undefined8 __fastcall FUN_18000ea30(UINT param_1, LPCWSTR param_2, int param_3, LPSTR param_4, int param_5)
+REF_FROM=18000eabc TYPE=COMPUTED_CALL
+FUNCTION=FUN_18000ea30
+FUNCTION_ENTRY=18000ea30
+FUNCTION_RVA=0xEA30
+FUNCTION_PROTO=undefined8 __fastcall FUN_18000ea30(UINT param_1, LPCWSTR param_2, int param_3, LPSTR param_4, int param_5)
+REF_FROM=18000e967 TYPE=COMPUTED_CALL
+FUNCTION=__std_fs_convert_wide_to_narrow
+FUNCTION_ENTRY=18000e90c
+FUNCTION_RVA=0xE90C
+FUNCTION_PROTO=undefined8 __fastcall __std_fs_convert_wide_to_narrow(UINT param_1, LPCWSTR param_2, int param_3, LPSTR param_4, int param_5)
+REF_FROM=18000e9f3 TYPE=COMPUTED_CALL
+FUNCTION=__std_fs_convert_wide_to_narrow
+FUNCTION_ENTRY=18000e90c
+FUNCTION_RVA=0xE90C
+FUNCTION_PROTO=undefined8 __fastcall __std_fs_convert_wide_to_narrow(UINT param_1, LPCWSTR param_2, int param_3, LPSTR param_4, int param_5)
+REF_FROM=18000e9b1 TYPE=COMPUTED_CALL
+FUNCTION=__std_fs_convert_wide_to_narrow
+FUNCTION_ENTRY=18000e90c
+FUNCTION_RVA=0xE90C
+FUNCTION_PROTO=undefined8 __fastcall __std_fs_convert_wide_to_narrow(UINT param_1, LPCWSTR param_2, int param_3, LPSTR param_4, int param_5)
+============================================================
+API=setstate
+ADDRESS=EXTERNAL:0000004d
+REF_FROM=180011260 TYPE=DATA
+REF_FROM=1800102b7 TYPE=COMPUTED_CALL
+FUNCTION=FUN_180010294
+FUNCTION_ENTRY=180010294
+FUNCTION_RVA=0x10294
+FUNCTION_PROTO=undefined8 __fastcall FUN_180010294(undefined8 param_1, longlong param_2)
+REF_FROM=180002c82 TYPE=COMPUTED_CALL
+FUNCTION=FUN_180002ae0
+FUNCTION_ENTRY=180002ae0
+FUNCTION_RVA=0x2AE0
+FUNCTION_PROTO=basic_istream<char,std::char_traits<char>_> * __fastcall FUN_180002ae0(basic_istream<char,std::char_traits<char>_> * param_1, longlong * param_2, undefined8 param_3)

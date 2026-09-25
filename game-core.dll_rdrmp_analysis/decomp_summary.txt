@@ -1,0 +1,134 @@
+STATUS	RVA	ADDRESS	NAME	PRIORITY	SEED_TYPE	ERROR
+OK	0x1820	180001820	FUN_180001820	160	STRING,API	
+OK	0x8070	180008070	PostLoad	155	STRING,NAME	
+OK	0x1090	180001090	FUN_180001090	100	STRING	
+OK	0x11F0	1800011f0	FUN_1800011f0	100	STRING	
+OK	0x8740	180008740	GetCommand	100	STRING	
+OK	0x8A40	180008a40	FUN_180008a40	100	STRING	
+OK	0x8C10	180008c10	FUN_180008c10	100	STRING	
+OK	0xC490	18000c490	FUN_18000c490	100	STRING	
+OK	0xEE24	18000ee24	__std_fs_open_handle	100	API,NAME	
+OK	0x2AE0	180002ae0	FUN_180002ae0	60	API	
+OK	0x6DB0	180006db0	FUN_180006db0	60	API	
+OK	0xB750	18000b750	DisableAllInputs	60	API	
+OK	0xD2F8	18000d2f8	FUN_18000d2f8	60	API	
+OK	0xD44C	18000d44c	FUN_18000d44c	60	API	
+OK	0xDA28	18000da28	FUN_18000da28	60	API	
+OK	0xDB2C	18000db2c	FUN_18000db2c	60	API	
+OK	0xE8C4	18000e8c4	__std_fs_convert_narrow_to_wide	60	API	
+OK	0xE90C	18000e90c	__std_fs_convert_wide_to_narrow	60	API	
+OK	0xEA30	18000ea30	FUN_18000ea30	60	API	
+OK	0xEAFC	18000eafc	FUN_18000eafc	60	API	
+OK	0x10294	180010294	FUN_180010294	60	API	
+OK	0x1FE0	180001fe0	PostLoad	55	NAME	
+OK	0x3CE0	180003ce0	PostLoad	55	NAME	
+OK	0x3DA0	180003da0	PreLoad	55	NAME	
+OK	0x3E50	180003e50	PreLoad	55	NAME	
+OK	0x3F80	180003f80	PreLoad	55	NAME	
+OK	0x4040	180004040	PreLoad	55	NAME	
+OK	0x4100	180004100	PostLoad	55	NAME	
+OK	0x85D0	1800085d0	Unload	55	NAME	
+OK	0xB630	18000b630	PostLoad	55	NAME	
+OK	0xB6F0	18000b6f0	PreLoad	55	NAME	
+OK	0xBE90	18000be90	PostLoad	55	NAME	
+OK	0xC060	18000c060	PostLoad	55	NAME	
+FAILED	unknown	EXTERNAL:00000007	GetModuleFileNameA	15	CONTEXT	Exception while decompiling EXTERNAL:00000007: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:0000001e	CreateFileW	15	CONTEXT	Exception while decompiling EXTERNAL:0000001e: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:00000022	FindFirstFileW	15	CONTEXT	Exception while decompiling EXTERNAL:00000022: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:0000002f	GetFileAttributesExW	15	CONTEXT	Exception while decompiling EXTERNAL:0000002f: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:00000033	GetFileInformationByHandleEx	15	CONTEXT	Exception while decompiling EXTERNAL:00000033: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:00000001	Print	0	CONTEXT	Exception while decompiling EXTERNAL:00000001: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:00000004	GetCurrentProcess	0	CONTEXT	Exception while decompiling EXTERNAL:00000004: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:00000005	K32GetModuleInformation	0	CONTEXT	Exception while decompiling EXTERNAL:00000005: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:00000006	GetModuleHandleW	0	CONTEXT	Exception while decompiling EXTERNAL:00000006: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:00000008	Sleep	0	CONTEXT	Exception while decompiling EXTERNAL:00000008: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:00000009	VirtualProtect	0	CONTEXT	Exception while decompiling EXTERNAL:00000009: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:0000000a	CloseHandle	0	CONTEXT	Exception while decompiling EXTERNAL:0000000a: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:0000000c	HeapAlloc	0	CONTEXT	Exception while decompiling EXTERNAL:0000000c: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:0000000d	HeapReAlloc	0	CONTEXT	Exception while decompiling EXTERNAL:0000000d: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:0000000e	HeapFree	0	CONTEXT	Exception while decompiling EXTERNAL:0000000e: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:0000000f	GetCurrentProcessId	0	CONTEXT	Exception while decompiling EXTERNAL:0000000f: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:00000010	GetCurrentThreadId	0	CONTEXT	Exception while decompiling EXTERNAL:00000010: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:00000011	OpenThread	0	CONTEXT	Exception while decompiling EXTERNAL:00000011: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:00000012	SuspendThread	0	CONTEXT	Exception while decompiling EXTERNAL:00000012: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:00000013	ResumeThread	0	CONTEXT	Exception while decompiling EXTERNAL:00000013: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:00000014	GetThreadContext	0	CONTEXT	Exception while decompiling EXTERNAL:00000014: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:00000015	SetThreadContext	0	CONTEXT	Exception while decompiling EXTERNAL:00000015: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:00000016	FlushInstructionCache	0	CONTEXT	Exception while decompiling EXTERNAL:00000016: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:0000001a	GetSystemInfo	0	CONTEXT	Exception while decompiling EXTERNAL:0000001a: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:0000001b	VirtualAlloc	0	CONTEXT	Exception while decompiling EXTERNAL:0000001b: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:0000001d	VirtualQuery	0	CONTEXT	Exception while decompiling EXTERNAL:0000001d: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:00000031	GetLastError	0	CONTEXT	Exception while decompiling EXTERNAL:00000031: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:00000032	FindClose	0	CONTEXT	Exception while decompiling EXTERNAL:00000032: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:00000034	MultiByteToWideChar	0	CONTEXT	Exception while decompiling EXTERNAL:00000034: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:00000035	WideCharToMultiByte	0	CONTEXT	Exception while decompiling EXTERNAL:00000035: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:0000003b	operator_bool	0	CONTEXT	Exception while decompiling EXTERNAL:0000003b: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:0000003c	getloc	0	CONTEXT	Exception while decompiling EXTERNAL:0000003c: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:0000003d	operator>>	0	CONTEXT	Exception while decompiling EXTERNAL:0000003d: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:0000003e	operator>>	0	CONTEXT	Exception while decompiling EXTERNAL:0000003e: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:0000003f	~basic_istream<char,std::char_traits<char>_>	0	CONTEXT	Exception while decompiling EXTERNAL:0000003f: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:00000040	~basic_ios<char,std::char_traits<char>_>	0	CONTEXT	Exception while decompiling EXTERNAL:00000040: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:0000004a	basic_istream<char,std::char_traits<char>_>	0	CONTEXT	Exception while decompiling EXTERNAL:0000004a: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:0000004b	basic_ios<char,std::char_traits<char>_>	0	CONTEXT	Exception while decompiling EXTERNAL:0000004b: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:0000004c	basic_streambuf<char,std::char_traits<char>_>	0	CONTEXT	Exception while decompiling EXTERNAL:0000004c: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:0000004d	setstate	0	CONTEXT	Exception while decompiling EXTERNAL:0000004d: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:0000004e	sgetc	0	CONTEXT	Exception while decompiling EXTERNAL:0000004e: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:0000004f	snextc	0	CONTEXT	Exception while decompiling EXTERNAL:0000004f: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:00000050	_Ipfx	0	CONTEXT	Exception while decompiling EXTERNAL:00000050: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:00000053	_Xbad_function_call	0	CONTEXT	Exception while decompiling EXTERNAL:00000053: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:0000006d	isxdigit	0	CONTEXT	Exception while decompiling EXTERNAL:0000006d: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:00000070	_invalid_parameter_noinfo_noreturn	0	CONTEXT	Exception while decompiling EXTERNAL:00000070: Cannot marshal address space: EXTERNAL 
+FAILED	unknown	EXTERNAL:0000007b	abort	0	CONTEXT	Exception while decompiling EXTERNAL:0000007b: Cannot marshal address space: EXTERNAL 
+OK	0x1730	180001730	FUN_180001730	0	CONTEXT	
+OK	0x2650	180002650	FUN_180002650	0	CONTEXT	
+OK	0x2710	180002710	FUN_180002710	0	CONTEXT	
+OK	0x2890	180002890	FUN_180002890	0	CONTEXT	
+OK	0x29D0	1800029d0	FUN_1800029d0	0	CONTEXT	
+OK	0x2CC0	180002cc0	FUN_180002cc0	0	CONTEXT	
+OK	0x2E30	180002e30	FUN_180002e30	0	CONTEXT	
+OK	0x2FB0	180002fb0	FUN_180002fb0	0	CONTEXT	
+OK	0x4260	180004260	FUN_180004260	0	CONTEXT	
+OK	0x42A0	1800042a0	FUN_1800042a0	0	CONTEXT	
+OK	0x42E0	1800042e0	FUN_1800042e0	0	CONTEXT	
+OK	0x44B0	1800044b0	FUN_1800044b0	0	CONTEXT	
+OK	0x45D0	1800045d0	FUN_1800045d0	0	CONTEXT	
+OK	0x46A0	1800046a0	FUN_1800046a0	0	CONTEXT	
+OK	0x5C30	180005c30	FUN_180005c30	0	CONTEXT	
+OK	0x5DA0	180005da0	FUN_180005da0	0	CONTEXT	
+OK	0x6190	180006190	FUN_180006190	0	CONTEXT	
+OK	0x6FC0	180006fc0	FUN_180006fc0	0	CONTEXT	
+OK	0x70C0	1800070c0	FUN_1800070c0	0	CONTEXT	
+OK	0x71E0	1800071e0	n_Wait	0	CONTEXT	
+OK	0x77D0	1800077d0	n_QuitGame	0	CONTEXT	
+OK	0x7910	180007910	FUN_180007910	0	CONTEXT	
+OK	0x7EF0	180007ef0	FUN_180007ef0	0	CONTEXT	
+OK	0x7FA0	180007fa0	FUN_180007fa0	0	CONTEXT	
+OK	0x88C0	1800088c0	FUN_1800088c0	0	CONTEXT	
+OK	0x88E0	1800088e0	FUN_1800088e0	0	CONTEXT	
+OK	0x9990	180009990	FUN_180009990	0	CONTEXT	
+OK	0xA140	18000a140	FUN_18000a140	0	CONTEXT	
+OK	0xC140	18000c140	FUN_18000c140	0	CONTEXT	
+OK	0xC230	18000c230	FUN_18000c230	0	CONTEXT	
+OK	0xC2C0	18000c2c0	FUN_18000c2c0	0	CONTEXT	
+OK	0xD158	18000d158	FUN_18000d158	0	CONTEXT	
+OK	0xD218	18000d218	FUN_18000d218	0	CONTEXT	
+OK	0xD740	18000d740	FUN_18000d740	0	CONTEXT	
+OK	0xD8E0	18000d8e0	FUN_18000d8e0	0	CONTEXT	
+OK	0xD8E8	18000d8e8	FUN_18000d8e8	0	CONTEXT	
+OK	0xD8F4	18000d8f4	FUN_18000d8f4	0	CONTEXT	
+OK	0xD950	18000d950	FUN_18000d950	0	CONTEXT	
+OK	0xDAA0	18000daa0	FUN_18000daa0	0	CONTEXT	
+OK	0xE75F	18000e75f	CreateToolhelp32Snapshot	0	CONTEXT	
+OK	0xE765	18000e765	Thread32First	0	CONTEXT	
+OK	0xE76B	18000e76b	Thread32Next	0	CONTEXT	
+OK	0xE89C	18000e89c	FUN_18000e89c	0	CONTEXT	
+OK	0xEE90	18000ee90	__security_check_cookie	0	CONTEXT	
+OK	0xEEB0	18000eeb0	FUN_18000eeb0	0	CONTEXT	
+OK	0xF244	18000f244	atexit	0	CONTEXT	
+OK	0xF264	18000f264	FUN_18000f264	0	CONTEXT	
+OK	0xF2D4	18000f2d4	_Init_thread_footer	0	CONTEXT	
+OK	0xF340	18000f340	FUN_18000f340	0	CONTEXT	
+OK	0xF3B8	18000f3b8	`eh_vector_destructor_iterator'	0	CONTEXT	
+OK	0x1000A	18001000a	memset	0	CONTEXT	
+OK	0x10950	180010950	FUN_180010950	0	CONTEXT	
+OK	0x109D0	1800109d0	FUN_1800109d0	0	CONTEXT	

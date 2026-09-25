@@ -1,0 +1,413 @@
+180000000	2	MZ
+180000108	4	PE
+180000210	8	.text
+180000238	8	.rdata
+180000260	8	.data
+180000288	8	.pdata
+1800002b0	8	.rsrc
+1800002d8	8	.reloc
+180011600	44	!x-sys-default-locale
+180011698	15	bad allocation
+1800116c0	18	Unknown exception
+1800116d8	21	bad array new length
+1800116f0	16	string too long
+180011700	9	bad cast
+180011710	28	Invalid pattern format '%s'
+180011730	20	Failed to find '%s'
+180011750	73	E8 ? ? ? ? EB 0D BA ? ? ? ? 48 8B CB E8 ? ? ? ? 48 83 3D ? ? ? ? ? 74 21
+1800117a0	11	globalBase
+1800117b0	16	vector too long
+1800117c0	24	invalid string position
+1800118c0	94	4C 8B 05 ? ? ? ? 0F B7 D1 8B C2 C1 E9 10 48 03 C0 66 41 39 4C C0 ? 75 50 48 03 D2 49 8B 14 D0
+180011920	36	rage::aGuidGohBase::sm_ManagerSlots
+1800119a0	67	E8 ? ? ? ? 48 39 3D ? ? ? ? 0F 85 ? ? ? ? E8 ? ? ? ? 8B 0D ? ? ? ?
+1800119e8	16	patch_SkipLogos
+180011aa0	23	0F B6 0D ? ? ? ? 84 C9
+180011ab8	42	rage::ioMouse::sm_DisableCursorAlteration
+180011ae8	44	40 53 48 83 EC 20 0F B6 D9 0F B6 0D ? ? ? ?
+180011b18	35	rage::ioMouse::UnlockAndShowCursor
+180011b40	23	8B 05 ? ? ? ? 8D 48 FD
+180011b58	32	rdr2scripting::game::_GameState
+180011bb0	31	FF 05 ? ? ? ? 48 8D 15 ? ? ? ?
+180011bd0	33	rage::grcDevice::sm_FrameCounter
+180011c30	73	48 8D 05 ? ? ? ? 48 89 74 24 ? 48 8D 4C 24 ? 48 89 44 24 ? 48 89 4C 24 ?
+180011c80	26	rage::ioKeyboard::KeyDown
+180011ca0	29	48 8D 05 ? ? ? ? 48 89 75 80
+180011cc0	29	rage::ioKeyboard::KeyPressed
+180011ce0	29	48 8D 05 ? ? ? ? 48 89 4D F8
+180011d00	30	rage::ioKeyboard::KeyReleased
+180011d20	27	unordered_map/set too long
+180011d40	26	invalid hash bucket count
+180011ee8	14	unknown error
+180012098	8	generic
+1800120a0	7	system
+1800120b4	7	exists
+1800120c0	27	Failed to create hook '%s'
+1800120e0	27	Failed to enable hook '%s'
+180012100	33	scripting/DesignerDefined/Player
+180012128	45	scripting/DesignerDefined/long_update_thread
+180012158	23	content/ui/boot.sc.xml
+180012170	19	content/ui/boot.sc
+180012188	43	content/ui/pausemenu/pausemenuscene.sc.xml
+1800121b8	39	content/ui/pausemenu/pausemenuscene.sc
+1800121e0	37	content/ui/pausemenu/savegame.sc.xml
+180012208	33	content/ui/pausemenu/savegame.sc
+180012230	41	content/ui/net/profileeditor/main.sc.xml
+180012260	37	content/ui/net/profileeditor/main.sc
+180012288	16	OnUpdatePerTick
+180012298	17	OnUpdatePerFrame
+1800122b0	26	OnPressStartScriptRunning
+1800122d0	20	OnMainScriptRunning
+1800122e8	11	OnQuitGame
+1800122f4	6	game\
+180012300	46	48 89 5C 24 ? 57 48 83 EC 20 44 8B 0D ? ? ? ?
+180012330	33	rage::scrThread::RegisterCommand
+180012358	26	4C 8B 1D ? ? ? ? 41 8B C1
+180012378	41	rage::scrThread::sm_CommandsRegistration
+1800123a8	20	E8 ? ? ? ? 8D 56 10
+1800123c0	22	rage::scrThread::Wait
+1800123e0	65	E8 ? ? ? ? 48 8B 0B 8B 44 24 40 89 01 48 83 C4 30 5B C3 CC 40 53
+180012428	33	sagCoreScript::RDRStartNewScript
+180012450	32	E8 ? ? ? ? 48 8B D8 85 FF 74 16
+180012470	40	rage::scrThread::StartNewThreadOverride
+1800124a0	104	48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 41 54 41 55 41 56 41 57 48 83 EC 30 48 8B 05 ? ? ? ? 33 ED
+180012508	35	rage::fiAssetManager::fullReadPath
+180012530	39	48 83 EC 28 E8 ? ? ? ? C6 80 ? ? ? ? ?
+180012558	9	QuitGame
+180012568	30	Waiting for native invoker...
+180012588	12	PRINTSTRING
+180012598	39	Failed to find native with hash 0x%08X
+1800125c0	99	48 8B 05 ? ? ? ? 0F B7 CA 48 03 C9 C1 EA 10 66 39 54 C8 ? 75 03 B0 01 C3 32 C0 C3 CC 48 89 5C 24 ?
+180012628	36	rage::aGuidGeneral::sm_ManagerSlots
+1800126b8	35	rage::UIInput::sm_DisableAllInputs
+1800126e0	25	48 83 BB ? ? ? ? ? 74 5A
+180012738	32	rage::sagPlayer::sm_LocalPlayer
+180012758	28	48 89 15 ? ? ? ? E9 ? ? ? ?
+1800127d0	31	rage::UIStringTable::SetString
+1800127f0	37	rage::UIStringTable::GetStringByHash
+180012818	26	E8 ? ? ? ? 48 85 F6 74 25
+180012838	47	E8 ? ? ? ? 48 8B 0B 48 89 01 48 83 C4 20 5B C3
+1800143d0	4	RSDS
+1800143e8	92	C:\Users\K3rhos\Documents\Visual Studio 2022\Projects\RDRMP\build\Release\data\game-core.pdb
+1800145dc	8	.rdata
+180014614	16	.rdata$voltmd
+1800146ec	8	.edata
+18001474c	8	.data
+180014790	8	.pdata
+1800162b8	14	game-core.dll
+1800162c6	43	??0gohObjectManager@rage@@QEAA@$$QEAV01@@Z
+1800162f1	41	??0gohObjectManager@rage@@QEAA@AEBV01@@Z
+18001631a	34	??0gohObjectManager@rage@@QEAA@XZ
+18001633c	44	??0mvrMoverComponent@rage@@QEAA@$$QEAU01@@Z
+180016368	42	??0mvrMoverComponent@rage@@QEAA@AEBU01@@Z
+180016392	35	??0mvrMoverComponent@rage@@QEAA@XZ
+1800163b5	35	??0sagActor@rage@@QEAA@$$QEAU01@@Z
+1800163d8	33	??0sagActor@rage@@QEAA@AEBU01@@Z
+1800163f9	26	??0sagActor@rage@@QEAA@XZ
+180016413	42	??0sagActorManager@rage@@QEAA@$$QEAV01@@Z
+18001643d	40	??0sagActorManager@rage@@QEAA@AEBV01@@Z
+180016465	33	??0sagActorManager@rage@@QEAA@XZ
+180016486	39	??0sagPlayerMgr@rage@@QEAA@$$QEAV01@@Z
+1800164ad	37	??0sagPlayerMgr@rage@@QEAA@AEBV01@@Z
+1800164d2	30	??0sagPlayerMgr@rage@@QEAA@XZ
+1800164f0	36	??0scrThread@rage@@QEAA@$$QEAV01@@Z
+180016514	34	??0scrThread@rage@@QEAA@AEBV01@@Z
+180016536	27	??0scrThread@rage@@QEAA@XZ
+180016551	68	??4?$StaticCallbacksHandler@VscrThread@rage@@@@QEAAAEAV0@$$QEAV0@@Z
+180016595	66	??4?$StaticCallbacksHandler@VscrThread@rage@@@@QEAAAEAV0@AEBV0@@Z
+1800165d7	54	??4animAnimatorComponent@rage@@QEAAAEAU01@$$QEAU01@@Z
+18001660d	52	??4animAnimatorComponent@rage@@QEAAAEAU01@AEBU01@@Z
+180016641	49	??4gohObjectManager@rage@@QEAAAEAV01@$$QEAV01@@Z
+180016672	47	??4gohObjectManager@rage@@QEAAAEAV01@AEBV01@@Z
+1800166a1	52	??4hlthHealthComponent@rage@@QEAAAEAU01@$$QEAU01@@Z
+1800166d5	50	??4hlthHealthComponent@rage@@QEAAAEAU01@AEBU01@@Z
+180016707	50	??4mvrMoverComponent@rage@@QEAAAEAU01@$$QEAU01@@Z
+180016739	48	??4mvrMoverComponent@rage@@QEAAAEAU01@AEBU01@@Z
+180016769	41	??4sagActor@rage@@QEAAAEAU01@$$QEAU01@@Z
+180016792	39	??4sagActor@rage@@QEAAAEAU01@AEBU01@@Z
+1800167b9	48	??4sagActorManager@rage@@QEAAAEAV01@$$QEAV01@@Z
+1800167e9	46	??4sagActorManager@rage@@QEAAAEAV01@AEBV01@@Z
+180016817	42	??4sagPlayer@rage@@QEAAAEAU01@$$QEAU01@@Z
+180016841	40	??4sagPlayer@rage@@QEAAAEAU01@AEBU01@@Z
+180016869	45	??4sagPlayerMgr@rage@@QEAAAEAV01@$$QEAV01@@Z
+180016896	43	??4sagPlayerMgr@rage@@QEAAAEAV01@AEBV01@@Z
+1800168c1	42	??4scrThread@rage@@QEAAAEAV01@$$QEAV01@@Z
+1800168eb	40	??4scrThread@rage@@QEAAAEAV01@AEBV01@@Z
+180016913	31	??_7gohObjectManager@rage@@6B@
+180016932	23	??_7sagActor@rage@@6B@
+180016949	30	??_7sagActorManager@rage@@6B@
+180016967	27	??_7sagPlayerMgr@rage@@6B@
+180016982	24	??_7scrThread@rage@@6B@
+18001699a	66	?ClearCallbacks@?$StaticCallbacksHandler@VscrThread@rage@@@@SAXXZ
+1800169dc	40	?DisableAllInputs@UIInput@rage@@SAX_N@Z
+180016a04	47	?DisableCursorAlteration@ioMouse@rage@@SAX_N@Z
+180016a33	48	?DisablePlayerControl@sagPlayer@rage@@QEAAX_N@Z
+180016a63	56	?EnableMoverCollision@mvrMoverComponent@rage@@QEAAX_N@Z
+180016a9b	132	?ExecuteCallback@?$StaticCallbacksHandler@VscrThread@rage@@@@SAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+180016b1f	53	?GetActor@sagActorManager@rage@@SAPEAUsagActor@2@I@Z
+180016b54	56	?GetCommand@scrThread@rage@@SAP6AXPEAVInfoBase@12@@ZI@Z
+180016b8c	60	?GetCurrentAnimDuration@animAnimatorComponent@rage@@QEAANXZ
+180016bc8	37	?GetFrameCount@grcDevice@rage@@SAIXZ
+180016bed	40	?GetGameState@game@rdr2scripting@@SAIXZ
+180016c15	38	?GetGlobalPtr@globalBase@rage@@SA_KXZ
+180016c3b	50	?GetGohObject@sagActor@rage@@QEBAPEAUgohBase@2@XZ
+180016c6d	56	?GetLocalPlayer@sagPlayerMgr@rage@@SAPEAUsagPlayer@2@XZ
+180016ca5	62	?GetObjectFromGuid@gohObjectManager@rage@@SAPEAUgohBase@2@I@Z
+180016ce3	54	?GetPlayerActor@sagPlayer@rage@@QEBAPEAUsagActor@2@XZ
+180016d19	39	?GetPlayerGuid@sagPlayer@rage@@QEBAIXZ
+180016d40	56	?GetPosition@mvrMoverComponent@rage@@QEBA?AUVector3@@XZ
+180016d78	56	?GetRotation@mvrMoverComponent@rage@@QEBA?AUVector3@@XZ
+180016db0	33	?IsAlive@sagActor@rage@@QEBA_NXZ
+180016dd1	33	?IsDrunk@sagActor@rage@@QEBA_NXZ
+180016df2	38	?IsInitialized@scrThread@rage@@CA_NXZ
+180016e18	34	?KeyDown@ioKeyboard@rage@@SA_NI@Z
+180016e3a	37	?KeyPressed@ioKeyboard@rage@@SA_NI@Z
+180016e5f	38	?KeyReleased@ioKeyboard@rage@@SA_NI@Z
+180016e85	63	?MaybeGetCurrentWeapon@sagPlayer@rage@@QEBAPEAUunkStruct4@2@XZ
+180016ec4	63	?OverrideCommand@scrThread@rage@@SA_NIP6AXPEAVInfoBase@12@@Z@Z
+180016f03	38	?PostLoad@UIStringTable@rage@@UEAAXXZ
+180016f29	35	?PostLoad@globalBase@rage@@UEAAXXZ
+180016f4c	41	?PostLoad@gohObjectManager@rage@@UEAAXXZ
+180016f75	35	?PostLoad@ioKeyboard@rage@@UEAAXXZ
+180016f98	40	?PostLoad@sagActorManager@rage@@UEAAXXZ
+180016fc0	37	?PostLoad@sagPlayerMgr@rage@@UEAAXXZ
+180016fe5	34	?PostLoad@scrThread@rage@@UEAAXXZ
+180017007	26	?PreLoad@Patches@@UEAAXXZ
+180017021	31	?PreLoad@UIInput@rage@@UEAAXXZ
+180017040	37	?PreLoad@game@rdr2scripting@@UEAAXXZ
+180017065	33	?PreLoad@grcDevice@rage@@UEAAXXZ
+180017086	31	?PreLoad@ioMouse@rage@@UEAAXXZ
+1800170a5	32	?QuitGame@scrThread@rage@@SAXXZ
+1800170c5	159	?RegisterCallback@?$StaticCallbacksHandler@VscrThread@rage@@@@SAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$function@$$A6AXXZ@3@@Z
+180017164	63	?RegisterCommand@scrThread@rage@@SA_NIP6AXPEAVInfoBase@12@@Z@Z
+1800171a3	52	?SetMaxHitPoints@hlthHealthComponent@rage@@QEAAXM@Z
+1800171d7	32	?Unload@scrThread@rage@@UEAAXXZ
+1800171f7	43	?UnlockAndShowCursor@ioMouse@rage@@SAX_N@Z
+180017222	34	?n_QuitGame@scrThread@rage@@CAXXZ
+180017244	55	?n_StartNewThreadOverride@scrThread@rage@@CAIIPEAIIH@Z
+18001727b	46	?n_Wait@scrThread@rage@@CAXPEAVInfoBase@12@@Z
+1800172a9	38	?o_QuitGame@scrThread@rage@@0P6AXXZEA
+1800172cf	59	?o_StartNewThreadOverride@scrThread@rage@@0P6AIIPEAIIH@ZEA
+18001730a	50	?o_Wait@scrThread@rage@@0P6AXPEAVInfoBase@12@@ZEA
+18001733c	49	?s_CommandsRegistration@scrThread@rage@@0PEA_KEA
+18001736d	40	?s_FullReadPath@scrThread@rage@@0PEAXEA
+180017395	54	?s_GeneralManagerSlots@sagActorManager@rage@@0PEA_KEA
+1800173cb	55	?s_GohBaseManagerSlots@gohObjectManager@rage@@0PEA_KEA
+180017402	57	?s_LocalPlayer@sagPlayerMgr@rage@@0PEAPEAUsagPlayer@2@EA
+18001743b	38	?s_QuitGame@scrThread@rage@@0P6AXXZEA
+180017461	73	?s_RegisterCommand@scrThread@rage@@0P6A_NPEAXIP6AXPEAVInfoBase@12@@Z@ZEA
+1800174aa	42	?s_StartNewScript@scrThread@rage@@0PEAXEA
+1800174d4	50	?s_StartNewThreadOverride@scrThread@rage@@0PEAXEA
+180017506	32	?s_Wait@scrThread@rage@@0PEAXEA
+180017a4a	34	?Print@Log@@SAXW4LogType@@PEBD1ZZ
+180017a6c	18	client-shared.dll
+180017a80	18	GetCurrentProcess
+180017a94	24	K32GetModuleInformation
+180017aae	17	GetModuleHandleW
+180017ac2	19	GetModuleFileNameA
+180017ad8	6	Sleep
+180017ae0	15	VirtualProtect
+180017af2	12	CloseHandle
+180017b00	11	HeapCreate
+180017b0e	10	HeapAlloc
+180017b1a	12	HeapReAlloc
+180017b28	9	HeapFree
+180017b34	20	GetCurrentProcessId
+180017b4a	19	GetCurrentThreadId
+180017b60	11	OpenThread
+180017b6e	14	SuspendThread
+180017b7e	13	ResumeThread
+180017b8e	17	GetThreadContext
+180017ba2	17	SetThreadContext
+180017bb6	22	FlushInstructionCache
+180017bce	25	CreateToolhelp32Snapshot
+180017bea	14	Thread32First
+180017bfa	13	Thread32Next
+180017c0a	14	GetSystemInfo
+180017c1a	13	VirtualAlloc
+180017c2a	12	VirtualFree
+180017c38	13	VirtualQuery
+180017c46	13	KERNEL32.dll
+180017c56	24	??1_Lockit@std@@QEAA@XZ
+180017c70	25	??0_Lockit@std@@QEAA@H@Z
+180017c8c	50	?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ
+180017cc0	24	?_Xbad_alloc@std@@YAXXZ
+180017cda	31	?_Xout_of_range@std@@YAXPEBD@Z
+180017cfc	32	?_Xbad_function_call@std@@YAXXZ
+180017d1e	33	?id@?$ctype@D@std@@2V0locale@2@A
+180017d42	31	?_Xlength_error@std@@YAXPEBD@Z
+180017d64	63	?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA_N_N@Z
+180017da6	63	?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+180017de8	62	?sgetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+180017e28	62	?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+180017e68	58	??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
+180017ea4	52	??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
+180017eda	106	??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+180017f46	58	??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+180017f82	62	?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+180017fc2	64	?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+180018004	67	?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ
+18001804a	62	?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+18001808a	70	?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+1800180d2	70	?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+18001811a	75	?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
+180018168	61	?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+1800181a8	75	?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+1800181f6	52	??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ
+18001822c	56	??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+180018266	89	??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z
+1800182c2	66	??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAI@Z
+180018306	41	?getloc@ios_base@std@@QEBA?AVlocale@2@XZ
+180018332	26	??Bios_base@std@@QEBA_NXZ
+18001834e	60	?_Getcat@?$ctype@D@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
+18001838c	27	??Bid@locale@std@@QEAA_KXZ
+1800183aa	27	?_Winerror_map@std@@YAHH@Z
+1800183c8	30	?_Syserror_map@std@@YAPEBDH@Z
+1800183e6	13	MSVCP140.dll
+1800183f6	19	__CxxFrameHandler4
+18001840c	24	__std_exception_destroy
+180018426	21	__std_exception_copy
+18001843e	16	__std_terminate
+180018450	10	_purecall
+18001845c	21	__C_specific_handler
+180018474	20	__current_exception
+18001848a	28	__current_exception_context
+1800184a8	19	_CxxThrowException
+1800184be	7	memset
+1800184c8	29	__std_type_info_destroy_list
+1800184e6	19	VCRUNTIME140_1.dll
+1800184fa	17	VCRUNTIME140.dll
+18001850e	9	isxdigit
+18001851a	35	_invalid_parameter_noinfo_noreturn
+180018540	8	tolower
+18001854a	5	free
+180018552	7	malloc
+18001855c	20	___lc_codepage_func
+180018572	6	abort
+18001857a	10	_callnewh
+180018586	16	_seh_filter_dll
+180018598	23	_configure_narrow_argv
+1800185b2	31	_initialize_narrow_environment
+1800185d4	25	_initialize_onexit_table
+1800185f0	26	_register_onexit_function
+18001860c	22	_execute_onexit_table
+180018624	12	_crt_atexit
+180018632	7	_cexit
+18001863c	10	terminate
+180018648	10	_initterm
+180018654	12	_initterm_e
+180018660	31	api-ms-win-crt-heap-l1-1-0.dll
+180018680	33	api-ms-win-crt-string-l1-1-0.dll
+1800186a2	34	api-ms-win-crt-runtime-l1-1-0.dll
+1800186c4	33	api-ms-win-crt-locale-l1-1-0.dll
+1800186e8	10	LocalFree
+1800186f4	15	FormatMessageA
+180018706	16	GetLocaleInfoEx
+180018718	12	CreateFileW
+180018726	10	FindClose
+180018732	15	FindFirstFileW
+180018744	21	GetFileAttributesExW
+18001875c	16	AreFileApisANSI
+18001876e	13	GetLastError
+18001877e	29	GetFileInformationByHandleEx
+18001879e	20	MultiByteToWideChar
+1800187b4	20	WideCharToMultiByte
+1800187ca	24	ReleaseSRWLockExclusive
+1800187e4	24	AcquireSRWLockExclusive
+1800187fe	25	WakeAllConditionVariable
+18001881a	26	SleepConditionVariableSRW
+180018836	18	RtlCaptureContext
+18001884a	23	RtlLookupFunctionEntry
+180018864	17	RtlVirtualUnwind
+180018878	25	UnhandledExceptionFilter
+180018894	28	SetUnhandledExceptionFilter
+1800188b2	17	TerminateProcess
+1800188c6	26	IsProcessorFeaturePresent
+1800188e2	18	IsDebuggerPresent
+1800188f6	24	QueryPerformanceCounter
+180018910	24	GetSystemTimeAsFileTime
+18001892a	26	DisableThreadLibraryCalls
+180018946	20	InitializeSListHead
+18001895c	7	memchr
+180018966	7	memcmp
+180018970	7	memcpy
+18001897a	8	memmove
+180018984	7	atan2f
+18001898e	6	ceilf
+180018994	31	api-ms-win-crt-math-l1-1-0.dll
+18001913c	65	@@@@AI@@@@LB@@@@@@@@ODS@@@DWC\@`@@@@@@@@@@@@@@dfnk@@jF@@DF@@[D@@
+180019380	56	.?AV<lambda_1>@?1??PostLoad@globalBase@rage@@UEAAXXZ@
+1800193c8	24	.?AVbad_alloc@std@@
+1800193f0	24	.?AVbad_cast@std@@
+180019418	24	.?AVexception@std@@
+180019440	32	.?AVbad_array_new_length@std@@
+180019470	64	.?AV<lambda_1>@?1??PostLoad@gohObjectManager@rage@@UEAAXXZ@
+1800194c0	48	.?AV<lambda_1>@?1??PreLoad@Patches@@UEAAXXZ@
+180019500	56	.?AV<lambda_1>@?1??PreLoad@ioMouse@rage@@UEAAXXZ@
+180019550	56	.?AV<lambda_2>@?1??PreLoad@ioMouse@rage@@UEAAXXZ@
+1800195a0	56	.?AV<lambda_1>@?1??PreLoad@game@rdr2scripting@@UEAAXXZ@
+1800195f0	56	.?AV<lambda_1>@?1??PreLoad@grcDevice@rage@@UEAAXXZ@
+180019640	56	.?AV<lambda_3>@?1??PostLoad@ioKeyboard@rage@@UEAAXXZ@
+180019690	56	.?AV<lambda_2>@?1??PostLoad@ioKeyboard@rage@@UEAAXXZ@
+1800196e0	56	.?AV<lambda_1>@?1??PostLoad@ioKeyboard@rage@@UEAAXXZ@
+180019728	24	.?AVruntime_error@std@@
+180019750	24	.?AVsystem_error@std@@
+180019780	56	.?AV<lambda_2>@?1??PostLoad@scrThread@rage@@UEAAXXZ@
+1800197d0	56	.?AV<lambda_5>@?1??PostLoad@scrThread@rage@@UEAAXXZ@
+180019820	56	.?AV<lambda_6>@?1??PostLoad@scrThread@rage@@UEAAXXZ@
+180019870	56	.?AV<lambda_3>@?1??PostLoad@scrThread@rage@@UEAAXXZ@
+1800198b8	40	.?AVfilesystem_error@filesystem@std@@
+1800198f0	56	.?AV<lambda_1>@?1??PostLoad@scrThread@rage@@UEAAXXZ@
+180019938	24	.?AV_System_error@std@@
+180019960	56	.?AV<lambda_7>@?1??PostLoad@scrThread@rage@@UEAAXXZ@
+1800199b0	56	.?AV<lambda_4>@?1??PostLoad@scrThread@rage@@UEAAXXZ@
+180019a00	64	.?AV<lambda_1>@?1??PostLoad@sagActorManager@rage@@UEAAXXZ@
+180019a50	56	.?AV<lambda_1>@?1??PreLoad@UIInput@rage@@UEAAXXZ@
+180019aa0	56	.?AV<lambda_1>@?1??PostLoad@sagPlayerMgr@rage@@UEAAXXZ@
+180019af0	64	.?AV<lambda_1>@?1??PostLoad@UIStringTable@rage@@UEAAXXZ@
+180019b40	64	.?AV<lambda_2>@?1??PostLoad@UIStringTable@rage@@UEAAXXZ@
+180019b90	16	.?AVtype_info@@
+180019bb0	72	.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+180019c08	24	.?AVios_base@std@@
+180019c30	24	.?AV?$_Iosb@H@std@@
+180019c60	56	.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+180019cb0	80	.?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+180019d10	56	.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+180019d60	104	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PostLoad@globalBase@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+180019dd8	48	.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+180019e18	40	.?AV?$_Func_base@XAEBVPattern@@@std@@
+180019e50	16	.?AVILoadable@@
+180019e70	104	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PostLoad@gohObjectManager@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+180019ee8	32	.?AVgohObjectManager@rage@@
+180019f20	88	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PreLoad@Patches@@UEAAXXZ@XAEBVPattern@@@std@@
+180019f90	96	.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??PreLoad@ioMouse@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a000	96	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PreLoad@ioMouse@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a070	104	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PreLoad@game@rdr2scripting@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a0f0	96	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PreLoad@grcDevice@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a160	56	.?AV?$StaticCallbacksHandler@VscrThread@rage@@@@
+18001a1b0	104	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PostLoad@ioKeyboard@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a230	104	.?AV?$_Func_impl_no_alloc@V<lambda_3>@?1??PostLoad@ioKeyboard@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a2a8	24	.?AVscrThread@rage@@
+18001a2d0	104	.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??PostLoad@ioKeyboard@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a348	32	.?AVerror_category@std@@
+18001a378	40	.?AV_System_error_category@std@@
+18001a3b0	40	.?AV_Generic_error_category@std@@
+18001a3f0	96	.?AV?$_Func_impl_no_alloc@V<lambda_4>@?1??PostLoad@scrThread@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a460	96	.?AV?$_Func_impl_no_alloc@V<lambda_7>@?1??PostLoad@scrThread@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a4d0	96	.?AV?$_Func_impl_no_alloc@V<lambda_5>@?1??PostLoad@scrThread@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a540	96	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PostLoad@scrThread@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a5b0	96	.?AV?$_Func_impl_no_alloc@V<lambda_6>@?1??PostLoad@scrThread@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a620	96	.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??PostLoad@scrThread@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a690	96	.?AV?$_Func_impl_no_alloc@V<lambda_3>@?1??PostLoad@scrThread@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a700	104	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PostLoad@sagActorManager@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a778	32	.?AVsagActorManager@rage@@
+18001a7a8	24	.?AUsagActor@rage@@
+18001a7d0	96	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PreLoad@UIInput@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a840	24	.?AVsagPlayerMgr@rage@@
+18001a870	104	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PostLoad@sagPlayerMgr@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a8f0	104	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PostLoad@UIStringTable@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a970	104	.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??PostLoad@UIStringTable@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001d060	382	<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\r\n<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>\r\n  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">\r\n    <security>\r\n      <requestedPrivileges>\r\n        <requestedExecutionLevel level='asInvoker' uiAccess='false' />\r\n      </requestedPrivileges>\r\n    </security>\r\n  </trustInfo>\r\n</assembly>\r\n
+ff000002d0	24	
+ff000002ee	2	
+ff00001268	522	

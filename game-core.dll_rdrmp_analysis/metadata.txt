@@ -1,0 +1,10 @@
+program_name=game-core.dll
+executable_path=/C:/Users/Alex/Desktop/RDRMP Latest Build (Offline)/data/game-core.dll
+image_base=180000000
+language=x86/little/64/default
+compiler_spec=visualstudio:unknown
+pointer_size=8
+max_address=ff0000184f
+function_count=535
+
+NOTE: RVA is computed from image base when both addresses are compatible.

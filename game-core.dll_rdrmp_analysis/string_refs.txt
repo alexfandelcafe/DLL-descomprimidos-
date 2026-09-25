@@ -1,0 +1,85 @@
+============================================================
+KEYWORD=content/
+STRING_ADDRESS=180012158
+STRING=content/ui/boot.sc.xml
+REF_FROM=180001242 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_1800011f0
+FUNCTION_ENTRY=1800011f0
+FUNCTION_RVA=0x11F0
+============================================================
+KEYWORD=content/
+STRING_ADDRESS=180012170
+STRING=content/ui/boot.sc
+REF_FROM=180001219 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_1800011f0
+FUNCTION_ENTRY=1800011f0
+FUNCTION_RVA=0x11F0
+============================================================
+KEYWORD=content/
+STRING_ADDRESS=180012188
+STRING=content/ui/pausemenu/pausemenuscene.sc.xml
+REF_FROM=180001292 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_1800011f0
+FUNCTION_ENTRY=1800011f0
+FUNCTION_RVA=0x11F0
+============================================================
+KEYWORD=content/
+STRING_ADDRESS=1800121b8
+STRING=content/ui/pausemenu/pausemenuscene.sc
+REF_FROM=18000126b TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_1800011f0
+FUNCTION_ENTRY=1800011f0
+FUNCTION_RVA=0x11F0
+============================================================
+KEYWORD=content/
+STRING_ADDRESS=1800121e0
+STRING=content/ui/pausemenu/savegame.sc.xml
+REF_FROM=1800012de TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_1800011f0
+FUNCTION_ENTRY=1800011f0
+FUNCTION_RVA=0x11F0
+============================================================
+KEYWORD=content/
+STRING_ADDRESS=180012208
+STRING=content/ui/pausemenu/savegame.sc
+REF_FROM=1800012b8 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_1800011f0
+FUNCTION_ENTRY=1800011f0
+FUNCTION_RVA=0x11F0
+============================================================
+KEYWORD=content/
+STRING_ADDRESS=180012230
+STRING=content/ui/net/profileeditor/main.sc.xml
+REF_FROM=18000132a TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_1800011f0
+FUNCTION_ENTRY=1800011f0
+FUNCTION_RVA=0x11F0
+============================================================
+KEYWORD=content/
+STRING_ADDRESS=180012260
+STRING=content/ui/net/profileeditor/main.sc
+REF_FROM=180001304 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=FUN_1800011f0
+FUNCTION_ENTRY=1800011f0
+FUNCTION_RVA=0x11F0
+============================================================
+KEYWORD=fiAssetManager
+STRING_ADDRESS=180012508
+STRING=rage::fiAssetManager::fullReadPath
+REF_FROM=1800081d0 TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=PostLoad
+FUNCTION_ENTRY=180008070
+FUNCTION_RVA=0x8070
+REF_FROM=1800081de TYPE=DATA SOURCE=ANALYSIS
+FUNCTION=PostLoad
+FUNCTION_ENTRY=180008070
+FUNCTION_RVA=0x8070
+REF_FROM=1800082cf TYPE=PARAM SOURCE=ANALYSIS
+FUNCTION=PostLoad
+FUNCTION_ENTRY=180008070
+FUNCTION_RVA=0x8070
+============================================================
+KEYWORD=FullReadPath
+STRING_ADDRESS=18001736d
+STRING=?s_FullReadPath@scrThread@rage@@0PEAXEA
+REF_FROM=1800161c4 TYPE=DATA SOURCE=DEFAULT
