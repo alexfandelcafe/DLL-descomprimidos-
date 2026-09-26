@@ -1,0 +1,506 @@
+============================================================
+RDRMP CEF TRACE HUNTER REPORT
+============================================================
+Program: game-core.dll
+Image base: 180000000
+Executable: /C:/Users/Alex/Desktop/RDRMP Latest Build (Offline)/data/game-core.dll
+
+============================================================
+MEMORY BLOCKS
+============================================================
+Headers                        start=180000000 end=1800003ff size=0x400 r=true w=false x=false
+.text                          start=180001000 end=180010bff size=0xfc00 r=true w=false x=true
+.rdata                         start=180011000 end=1800189ff size=0x7a00 r=true w=false x=false
+.data                          start=180019000 end=18001b2e7 size=0x22e8 r=true w=true x=false
+.pdata                         start=18001c000 end=18001cfff size=0x1000 r=true w=false x=false
+.rsrc                          start=18001d000 end=18001d1ff size=0x200 r=true w=false x=false
+.reloc                         start=18001e000 end=18001e3ff size=0x400 r=true w=false x=false
+tdb                            start=ff00000000 end=ff0000184f size=0x1850 r=true w=true x=false
+
+============================================================
+FUNCTION SUMMARY
+============================================================
+Defined functions: 415
+
+============================================================
+INTERESTING FUNCTIONS
+============================================================
+
+FUNCTION: IsInitialized
+  entry: 180008630
+  body : [[180008630, 18000869b]]
+  signature: bool __cdecl IsInitialized(void)
+  external: false
+
+FUNCTION: IsDrunk
+  entry: 18000bf90
+  body : [[18000bf90, 18000bfa7]]
+  signature: bool __thiscall IsDrunk(void)
+  external: false
+
+FUNCTION: __scrt_dllmain_after_initialize_c
+  entry: 18000ef28
+  body : [[18000ef28, 18000ef5b]]
+  signature: undefined8 __fastcall __scrt_dllmain_after_initialize_c(void)
+  external: false
+
+FUNCTION: __scrt_dllmain_uninitialize_c
+  entry: 18000f014
+  body : [[18000f014, 18000f043]]
+  signature: undefined __fastcall __scrt_dllmain_uninitialize_c(void)
+  external: false
+
+FUNCTION: __scrt_uninitialize_crt
+  entry: 18000f1dc
+  body : [[18000f1dc, 18000f204]]
+  signature: undefined1 __fastcall __scrt_uninitialize_crt(undefined8 param_1, char param_2)
+  external: false
+
+FUNCTION: _initialize_narrow_environment
+  entry: 180010034
+  body : [[180010034, 180010039]]
+  signature: undefined _initialize_narrow_environment()
+  external: false
+
+FUNCTION: _initialize_onexit_table
+  entry: 18001003a
+  body : [[18001003a, 18001003f]]
+  signature: undefined _initialize_onexit_table()
+  external: false
+
+============================================================
+CALLERS OF INTERESTING FUNCTIONS
+============================================================
+
+TARGET: IsInitialized @ 180008630
+  REF FROM 180015fa8 -> 180008630
+    type: DATA
+    external: false
+  REF FROM Entry Point -> 180008630
+    type: EXTERNAL
+    external: false
+  total caller references: 2
+
+TARGET: IsDrunk @ 18000bf90
+  REF FROM 180015fa4 -> 18000bf90
+    type: DATA
+    external: false
+  REF FROM Entry Point -> 18000bf90
+    type: EXTERNAL
+    external: false
+  total caller references: 2
+
+TARGET: __scrt_dllmain_after_initialize_c @ 18000ef28
+  REF FROM 18001cb4c -> 18000ef28
+    type: DATA
+    external: false
+  REF FROM 18000f556 -> 18000ef28
+    caller: FUN_18000f4d8 @ 18000f4d8
+    type: UNCONDITIONAL_CALL
+    external: false
+  total caller references: 2
+
+TARGET: __scrt_dllmain_uninitialize_c @ 18000f014
+  REF FROM 18001cb88 -> 18000f014
+    type: DATA
+    external: false
+  REF FROM 18000f630 -> 18000f014
+    caller: FUN_18000f5f0 @ 18000f5f0
+    type: UNCONDITIONAL_CALL
+    external: false
+  total caller references: 2
+
+TARGET: __scrt_uninitialize_crt @ 18000f1dc
+  REF FROM 18001cbd0 -> 18000f1dc
+    type: DATA
+    external: false
+  REF FROM 18000f652 -> 18000f1dc
+    caller: FUN_18000f5f0 @ 18000f5f0
+    type: UNCONDITIONAL_CALL
+    external: false
+  total caller references: 2
+
+TARGET: _initialize_narrow_environment @ 180010034
+  REF FROM 18000ef50 -> 180010034
+    caller: __scrt_dllmain_after_initialize_c @ 18000ef28
+    type: UNCONDITIONAL_CALL
+    external: false
+  total caller references: 1
+
+TARGET: _initialize_onexit_table @ 18001003a
+  REF FROM 18000f0be -> 18001003a
+    caller: FUN_18000f094 @ 18000f094
+    type: UNCONDITIONAL_CALL
+    external: false
+  REF FROM 18000f0ce -> 18001003a
+    caller: FUN_18000f094 @ 18000f094
+    type: UNCONDITIONAL_CALL
+    external: false
+  total caller references: 2
+
+============================================================
+CALLEE REFERENCES OF INTERESTING FUNCTIONS
+============================================================
+
+FUNCTION: IsInitialized @ 180008630
+  18000863a -> IsInitialized @ 180008630
+
+FUNCTION: IsDrunk @ 18000bf90
+  18000bf97 -> IsDrunk @ 18000bf90
+
+FUNCTION: __scrt_dllmain_after_initialize_c @ 18000ef28
+  18000ef2c -> __scrt_is_ucrt_dll_in_use @ 18000fce4
+  18000ef33 -> __scrt_dllmain_after_initialize_c @ 18000ef28
+  18000ef35 -> FUN_18000fa10 @ 18000fa10
+  18000ef3c -> FUN_18000fcdc @ 18000fcdc
+  18000ef43 -> _configure_narrow_argv @ 18001002e
+  18000ef50 -> _initialize_narrow_environment @ 180010034
+
+FUNCTION: __scrt_dllmain_uninitialize_c @ 18000f014
+  18000f018 -> __scrt_is_ucrt_dll_in_use @ 18000fce4
+  18000f01f -> __scrt_dllmain_uninitialize_c @ 18000f014
+  18000f02c -> _execute_onexit_table @ 180010046
+  18000f031 -> FUN_180010070 @ 180010070
+  18000f03a -> _cexit @ 180010052
+
+FUNCTION: __scrt_uninitialize_crt @ 18000f1dc
+  18000f1eb -> __scrt_uninitialize_crt @ 18000f1dc
+  18000f1f1 -> FUN_18001006c @ 18001006c
+
+FUNCTION: _initialize_narrow_environment @ 180010034
+  180010034 -> _initialize_narrow_environment @ EXTERNAL:00000079
+
+FUNCTION: _initialize_onexit_table @ 18001003a
+  18001003a -> _initialize_onexit_table @ EXTERNAL:0000006f
+
+============================================================
+DECOMPILATION OF HIGH-VALUE FUNCTIONS
+============================================================
+
+------------------------------------------------------------
+FUNCTION IsInitialized @ 180008630
+------------------------------------------------------------
+
+/* private: static bool __cdecl rage::scrThread::IsInitialized(void) */
+
+bool __cdecl rage::scrThread::IsInitialized(void)
+
+{
+  int iVar1;
+  __uint64 _Var2;
+  ulonglong uVar3;
+  uint uVar4;
+  ulonglong uVar5;
+  
+                    /* 0x8630  65  ?IsInitialized@scrThread@rage@@CA_NXZ */
+  if ((s_CommandsRegistration != (__uint64 *)0x0) && (_Var2 = *s_CommandsRegistration, _Var2 != 0))
+  {
+    uVar5 = 0xa0ae0c98;
+    uVar3 = 0xa0ae0c98 % (ulonglong)(uint)s_CommandsRegistration[1];
+    iVar1 = *(int *)(_Var2 + (ulonglong)(uint)((int)uVar3 * 4) * 4);
+    do {
+      if (iVar1 == -0x5f51f368) {
+        return true;
+      }
+      uVar4 = (int)(uVar5 >> 1) + 1;
+      uVar5 = (ulonglong)uVar4;
+      uVar3 = (ulonglong)(uVar4 + (int)uVar3) % (ulonglong)(uint)s_CommandsRegistration[1];
+      iVar1 = *(int *)(_Var2 + (ulonglong)(uint)((int)uVar3 * 4) * 4);
+    } while (iVar1 != 0);
+  }
+  return false;
+}
+
+
+------------------------------------------------------------
+FUNCTION __scrt_dllmain_after_initialize_c @ 18000ef28
+------------------------------------------------------------
+
+/* Library Function - Single Match
+    __scrt_dllmain_after_initialize_c
+   
+   Libraries: Visual Studio 2015 Release, Visual Studio 2017 Release, Visual Studio 2019 Release */
+
+undefined8 __scrt_dllmain_after_initialize_c(void)
+
+{
+  bool bVar1;
+  undefined7 extraout_var;
+  undefined8 uVar2;
+  ulonglong uVar3;
+  
+  bVar1 = __scrt_is_ucrt_dll_in_use();
+  if ((int)CONCAT71(extraout_var,bVar1) == 0) {
+    uVar3 = FUN_18000fcdc();
+    uVar3 = _configure_narrow_argv(uVar3 & 0xffffffff);
+    if ((int)uVar3 != 0) {
+      return uVar3 & 0xffffffffffffff00;
+    }
+    uVar2 = _initialize_narrow_environment();
+  }
+  else {
+    uVar2 = FUN_18000fa10();
+  }
+  return CONCAT71((int7)((ulonglong)uVar2 >> 8),1);
+}
+
+
+------------------------------------------------------------
+FUNCTION __scrt_dllmain_uninitialize_c @ 18000f014
+------------------------------------------------------------
+
+/* Library Function - Single Match
+    __scrt_dllmain_uninitialize_c
+   
+   Libraries: Visual Studio 2015 Release, Visual Studio 2017 Release, Visual Studio 2019 Release */
+
+void __scrt_dllmain_uninitialize_c(void)
+
+{
+  bool bVar1;
+  undefined7 extraout_var;
+  undefined8 uVar2;
+  
+  bVar1 = __scrt_is_ucrt_dll_in_use();
+  if ((int)CONCAT71(extraout_var,bVar1) != 0) {
+    _execute_onexit_table(&DAT_18001aa18);
+    return;
+  }
+  uVar2 = FUN_180010070();
+  if ((int)uVar2 == 0) {
+    _cexit();
+  }
+  return;
+}
+
+
+------------------------------------------------------------
+FUNCTION __scrt_uninitialize_crt @ 18000f1dc
+------------------------------------------------------------
+
+/* Library Function - Single Match
+    __scrt_uninitialize_crt
+   
+   Library: Visual Studio 2019 Release */
+
+undefined1 __scrt_uninitialize_crt(undefined8 param_1,char param_2)
+
+{
+  if ((DAT_18001aa10 == '\0') || (param_2 == '\0')) {
+    FUN_18001006c();
+    FUN_18001006c();
+  }
+  return 1;
+}
+
+
+------------------------------------------------------------
+FUNCTION _initialize_narrow_environment @ 180010034
+------------------------------------------------------------
+
+void _initialize_narrow_environment(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x000180010034. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  _initialize_narrow_environment();
+  return;
+}
+
+
+------------------------------------------------------------
+FUNCTION _initialize_onexit_table @ 18001003a
+------------------------------------------------------------
+
+void _initialize_onexit_table(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x00018001003a. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  _initialize_onexit_table();
+  return;
+}
+
+
+============================================================
+CEF / D3D11 / DXGI REFERENCES
+============================================================
+
+FUNCTION: FUN_18000cef0 @ 18000cef0
+  external: false
+    18000cef0 -> 180019b30 [DATA]
+  signature: TypeDescriptor * __fastcall FUN_18000cef0(void)
+
+External functions seen: 0
+
+============================================================
+INTERESTING STRINGS / DATA
+============================================================
+180011d20  string  unordered_map/set too long
+1800183aa  TerminatedCString  ?_Winerror_map@std@@YAHH@Z
+1800183c8  TerminatedCString  ?_Syserror_map@std@@YAPEBDH@Z
+1800188c6  TerminatedCString  IsProcessorFeaturePresent
+1800188e2  TerminatedCString  IsDebuggerPresent
+
+Interesting data entries: 5
+
+============================================================
+VTABLE / SYMBOL CANDIDATES
+============================================================
+180011640  vftable_meta_ptr
+180011648  vftable
+180011668  vftable_meta_ptr
+180011670  vftable
+180011680  vftable_meta_ptr
+180011688  vftable
+1800116a8  vftable_meta_ptr
+1800116b0  vftable
+1800117d8  vftable_meta_ptr
+1800117e0  vftable
+180011810  vftable_meta_ptr
+180011818  vftable
+180011828  vftable_meta_ptr
+180011830  vftable
+1800118b0  vftable_meta_ptr
+1800118b8  vftable
+180011948  vftable_meta_ptr
+180011950  vftable
+180011968  vftable_meta_ptr
+180011970  vftable
+1800119f8  vftable_meta_ptr
+180011a00  vftable
+180011a30  vftable_meta_ptr
+180011a38  vftable
+180011a68  vftable_meta_ptr
+180011a70  vftable
+180011b78  vftable_meta_ptr
+180011b80  vftable
+180011bf8  vftable_meta_ptr
+180011c00  vftable
+180011d60  vftable_meta_ptr
+180011d68  vftable
+180011d98  vftable_meta_ptr
+180011da0  vftable
+180011db8  vftable_meta_ptr
+180011dc0  vftable
+180011df0  vftable_meta_ptr
+180011df8  vftable
+180011e28  vftable_meta_ptr
+180011e30  vftable
+180011e60  vftable_meta_ptr
+180011e68  vftable
+180011e78  vftable_meta_ptr
+180011e80  vftable
+180011eb0  vftable_meta_ptr
+180011eb8  vftable
+180011ef8  vftable_meta_ptr
+180011f00  vftable
+180011f30  vftable_meta_ptr
+180011f38  vftable
+180011f68  vftable_meta_ptr
+180011f70  vftable
+180011fa0  vftable_meta_ptr
+180011fa8  vftable
+180011fb8  vftable_meta_ptr
+180011fc0  vftable
+180011fd0  vftable_meta_ptr
+180011fd8  vftable
+180012008  vftable_meta_ptr
+180012010  vftable
+180012040  vftable_meta_ptr
+180012048  vftable
+180012078  vftable_meta_ptr
+180012080  vftable
+180012650  vftable_meta_ptr
+180012658  vftable
+180012688  vftable_meta_ptr
+180012690  vftable
+180012698  vftable_meta_ptr
+1800126a0  vftable
+180012700  vftable_meta_ptr
+180012708  vftable
+180012778  vftable_meta_ptr
+180012780  vftable
+180012798  vftable_meta_ptr
+1800127a0  vftable
+180012868  vftable_meta_ptr
+180012870  vftable
+1800128a0  vftable_meta_ptr
+1800128a8  vftable
+1800192b8  PTR_vftable_1800192b8
+1800192c8  PTR_vftable_1800192c8
+
+Candidate symbols: 82
+
+============================================================
+SEMANTIC CANDIDATES: CEF -> D3D11 / DXGI
+============================================================
+
+Semantic candidates: 0
+
+============================================================
+POTENTIAL RENDER / PRESENT / TEXTURE FUNCTIONS
+============================================================
+1800040a0  GetFrameCount  uint __cdecl GetFrameCount(void)
+18000ffe0  __CxxFrameHandler4  undefined __CxxFrameHandler4()
+
+Potential render functions: 2
+
+============================================================
+HISTORICAL RDRMP TARGETS
+============================================================
+
+TARGET: CEFManager::Draw
+  NOT FOUND
+
+TARGET: ClientHandler::Draw
+  NOT FOUND
+
+TARGET: ClientHandler::OnPaint
+  NOT FOUND
+
+TARGET: CEFManager::Initialize
+  NOT FOUND
+
+TARGET: CEFManager::Run
+  NOT FOUND
+
+TARGET: CEFManager::Shutdown
+  NOT FOUND
+
+TARGET: CEFManager::DoFrame
+  NOT FOUND
+
+TARGET: CEFManager::WasResized
+  NOT FOUND
+
+TARGET: CEFManager::Invalidate
+  NOT FOUND
+
+TARGET: CEFManager::WindowProcedureHandler
+  NOT FOUND
+
+TARGET: ClientHandler::GetViewRect
+  NOT FOUND
+
+TARGET: ClientHandler::OnAfterCreated
+  NOT FOUND
+
+============================================================
+END OF REPORT
+============================================================
+Program: game-core.dll
+
+IMPORTANT TARGETS FOR FRONTIER-MP:
+1. CEFManager::Draw
+2. ClientHandler::Draw
+3. External callers of CEFManager::Draw
+4. What the second void* / pointer parameter represents
+5. Whether Draw receives an ID3D11Device, render target,
+   command context, texture, or another renderer object
+6. Whether OnPaint only uploads CPU pixels or directly feeds
+   a D3D11 texture used by Draw
+7. The exact renderer call sequence around Draw / DoFrame
+8. Any CreateDXGIFactory / D3D11CreateDevice / swapchain code
+9. Any Present hook or equivalent renderer callback
+10. Cross-module references to the CEF render path

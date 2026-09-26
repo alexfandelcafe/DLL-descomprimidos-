@@ -1,0 +1,661 @@
+============================================================
+RDRMP CEF TRACE HUNTER REPORT
+============================================================
+Program: client-luascripting.dll
+Image base: 180000000
+Executable: /C:/Users/Alex/Desktop/RDRMP Latest Build (Offline)/data/client-luascripting.dll
+
+============================================================
+MEMORY BLOCKS
+============================================================
+Headers                        start=180000000 end=1800003ff size=0x400 r=true w=false x=false
+.text                          start=180001000 end=1802553ff size=0x254400 r=true w=false x=true
+.rdata                         start=180256000 end=1802bd1ff size=0x67200 r=true w=false x=false
+.data                          start=1802be000 end=1802c9fa7 size=0xbfa8 r=true w=true x=false
+.pdata                         start=1802ca000 end=1802ddfff size=0x14000 r=true w=false x=false
+.rsrc                          start=1802de000 end=1802de1ff size=0x200 r=true w=false x=false
+.reloc                         start=1802df000 end=1802df9ff size=0xa00 r=true w=false x=false
+tdb                            start=ff00000000 end=ff0000184f size=0x1850 r=true w=true x=false
+
+============================================================
+FUNCTION SUMMARY
+============================================================
+Defined functions: 5254
+
+============================================================
+INTERESTING FUNCTIONS
+============================================================
+
+FUNCTION: __scrt_dllmain_after_initialize_c
+  entry: 18023f978
+  body : [[18023f978, 18023f9ab]]
+  signature: undefined8 __fastcall __scrt_dllmain_after_initialize_c(void)
+  external: false
+
+FUNCTION: __scrt_dllmain_uninitialize_c
+  entry: 18023fa64
+  body : [[18023fa64, 18023fa93]]
+  signature: undefined __fastcall __scrt_dllmain_uninitialize_c(void)
+  external: false
+
+FUNCTION: __scrt_uninitialize_crt
+  entry: 18023fc2c
+  body : [[18023fc2c, 18023fc54]]
+  signature: undefined1 __fastcall __scrt_uninitialize_crt(undefined8 param_1, char param_2)
+  external: false
+
+FUNCTION: _initialize_narrow_environment
+  entry: 180240c44
+  body : [[180240c44, 180240c49]]
+  signature: undefined _initialize_narrow_environment()
+  external: false
+
+FUNCTION: _initialize_onexit_table
+  entry: 180240c4a
+  body : [[180240c4a, 180240c4f]]
+  signature: undefined _initialize_onexit_table()
+  external: false
+
+============================================================
+CALLERS OF INTERESTING FUNCTIONS
+============================================================
+
+TARGET: __scrt_dllmain_after_initialize_c @ 18023f978
+  REF FROM 1802dd2a8 -> 18023f978
+    type: DATA
+    external: false
+  REF FROM 18023ffa6 -> 18023f978
+    caller: FUN_18023ff28 @ 18023ff28
+    type: UNCONDITIONAL_CALL
+    external: false
+  total caller references: 2
+
+TARGET: __scrt_dllmain_uninitialize_c @ 18023fa64
+  REF FROM 1802dd2e4 -> 18023fa64
+    type: DATA
+    external: false
+  REF FROM 180240080 -> 18023fa64
+    caller: FUN_180240040 @ 180240040
+    type: UNCONDITIONAL_CALL
+    external: false
+  total caller references: 2
+
+TARGET: __scrt_uninitialize_crt @ 18023fc2c
+  REF FROM 1802dd32c -> 18023fc2c
+    type: DATA
+    external: false
+  REF FROM 1802400a2 -> 18023fc2c
+    caller: FUN_180240040 @ 180240040
+    type: UNCONDITIONAL_CALL
+    external: false
+  total caller references: 2
+
+TARGET: _initialize_narrow_environment @ 180240c44
+  REF FROM 18023f9a0 -> 180240c44
+    caller: __scrt_dllmain_after_initialize_c @ 18023f978
+    type: UNCONDITIONAL_CALL
+    external: false
+  total caller references: 1
+
+TARGET: _initialize_onexit_table @ 180240c4a
+  REF FROM 18023fb0e -> 180240c4a
+    caller: FUN_18023fae4 @ 18023fae4
+    type: UNCONDITIONAL_CALL
+    external: false
+  REF FROM 18023fb1e -> 180240c4a
+    caller: FUN_18023fae4 @ 18023fae4
+    type: UNCONDITIONAL_CALL
+    external: false
+  total caller references: 2
+
+============================================================
+CALLEE REFERENCES OF INTERESTING FUNCTIONS
+============================================================
+
+FUNCTION: __scrt_dllmain_after_initialize_c @ 18023f978
+  18023f97c -> __scrt_is_ucrt_dll_in_use @ 1802408d8
+  18023f983 -> __scrt_dllmain_after_initialize_c @ 18023f978
+  18023f985 -> FUN_1802405c4 @ 1802405c4
+  18023f98c -> FUN_18000d100 @ 18000d100
+  18023f993 -> _configure_narrow_argv @ 180240c3e
+  18023f9a0 -> _initialize_narrow_environment @ 180240c44
+
+FUNCTION: __scrt_dllmain_uninitialize_c @ 18023fa64
+  18023fa68 -> __scrt_is_ucrt_dll_in_use @ 1802408d8
+  18023fa6f -> __scrt_dllmain_uninitialize_c @ 18023fa64
+  18023fa7c -> _execute_onexit_table @ 180240c56
+  18023fa81 -> FUN_18000a430 @ 18000a430
+  18023fa8a -> _cexit @ 180240c62
+
+FUNCTION: __scrt_uninitialize_crt @ 18023fc2c
+  18023fc3b -> __scrt_uninitialize_crt @ 18023fc2c
+  18023fc41 -> FUN_180240cb8 @ 180240cb8
+
+FUNCTION: _initialize_narrow_environment @ 180240c44
+  180240c44 -> _initialize_narrow_environment @ EXTERNAL:000000b5
+
+FUNCTION: _initialize_onexit_table @ 180240c4a
+  180240c4a -> _initialize_onexit_table @ EXTERNAL:000000b6
+
+============================================================
+DECOMPILATION OF HIGH-VALUE FUNCTIONS
+============================================================
+
+------------------------------------------------------------
+FUNCTION __scrt_dllmain_after_initialize_c @ 18023f978
+------------------------------------------------------------
+
+/* Library Function - Single Match
+    __scrt_dllmain_after_initialize_c
+   
+   Libraries: Visual Studio 2015 Release, Visual Studio 2017 Release, Visual Studio 2019 Release */
+
+undefined8 __scrt_dllmain_after_initialize_c(void)
+
+{
+  bool bVar1;
+  undefined7 extraout_var;
+  undefined8 uVar2;
+  ulonglong uVar3;
+  
+  bVar1 = __scrt_is_ucrt_dll_in_use();
+  if ((int)CONCAT71(extraout_var,bVar1) == 0) {
+    uVar3 = FUN_18000d100();
+    uVar3 = _configure_narrow_argv(uVar3 & 0xffffffff);
+    if ((int)uVar3 != 0) {
+      return uVar3 & 0xffffffffffffff00;
+    }
+    uVar2 = _initialize_narrow_environment();
+  }
+  else {
+    uVar2 = FUN_1802405c4();
+  }
+  return CONCAT71((int7)((ulonglong)uVar2 >> 8),1);
+}
+
+
+------------------------------------------------------------
+FUNCTION __scrt_dllmain_uninitialize_c @ 18023fa64
+------------------------------------------------------------
+
+/* Library Function - Single Match
+    __scrt_dllmain_uninitialize_c
+   
+   Libraries: Visual Studio 2015 Release, Visual Studio 2017 Release, Visual Studio 2019 Release */
+
+void __scrt_dllmain_uninitialize_c(void)
+
+{
+  bool bVar1;
+  undefined7 extraout_var;
+  undefined8 uVar2;
+  
+  bVar1 = __scrt_is_ucrt_dll_in_use();
+  if ((int)CONCAT71(extraout_var,bVar1) != 0) {
+    _execute_onexit_table(&DAT_1802bf3c8);
+    return;
+  }
+  uVar2 = FUN_18000a430();
+  if ((int)uVar2 == 0) {
+    _cexit();
+  }
+  return;
+}
+
+
+------------------------------------------------------------
+FUNCTION __scrt_uninitialize_crt @ 18023fc2c
+------------------------------------------------------------
+
+/* Library Function - Single Match
+    __scrt_uninitialize_crt
+   
+   Library: Visual Studio 2019 Release */
+
+undefined1 __scrt_uninitialize_crt(undefined8 param_1,char param_2)
+
+{
+  if ((DAT_1802bf3c0 == '\0') || (param_2 == '\0')) {
+    FUN_180240cb8();
+    FUN_180240cb8();
+  }
+  return 1;
+}
+
+
+------------------------------------------------------------
+FUNCTION _initialize_narrow_environment @ 180240c44
+------------------------------------------------------------
+
+void _initialize_narrow_environment(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x000180240c44. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  _initialize_narrow_environment();
+  return;
+}
+
+
+------------------------------------------------------------
+FUNCTION _initialize_onexit_table @ 180240c4a
+------------------------------------------------------------
+
+void _initialize_onexit_table(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x000180240c4a. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  _initialize_onexit_table();
+  return;
+}
+
+
+============================================================
+CEF / D3D11 / DXGI REFERENCES
+============================================================
+
+FUNCTION: FUN_1800cefd0 @ 1800cefd0
+  external: false
+    1800cefd0 -> Stack[0x10] [WRITE]
+    1800cefd5 -> Stack[0x18] [WRITE]
+    1800cefdb -> Stack[-0x128] [DATA]
+    1800cefea -> 1802be040 [READ]
+    1800ceff4 -> Stack[-0x18] [WRITE]
+    1800ceffe -> Stack[-0x208] [DATA]
+    1800cf008 -> 1802034d0 [UNCONDITIONAL_CALL]
+    1800cf010 -> Stack[-0x208] [READ]
+    1800cf015 -> 1800cf180 [CONDITIONAL_JUMP]
+    1800cf01d -> Stack[-0x1ec] [WRITE]
+    1800cf029 -> Stack[-0x1dc] [DATA]
+    1800cf02e -> 180240be4 [UNCONDITIONAL_CALL]
+    1800cf033 -> Stack[-0x118] [DATA]
+    1800cf037 -> Stack[-0x1e8] [WRITE]
+    1800cf03c -> Stack[-0x118] [DATA]
+    1800cf040 -> Stack[-0x1f8] [WRITE]
+    1800cf045 -> Stack[-0x1f0] [WRITE]
+    1800cf04d -> Stack[-0x1e0] [WRITE]
+    1800cf05d -> Stack[-0x118] [DATA]
+    1800cf061 -> 180240be4 [UNCONDITIONAL_CALL]
+    1800cf066 -> Stack[-0x1f0] [READ]
+    1800cf073 -> Stack[-0x1f0] [READ]
+    1800cf07b -> Stack[-0x1f0] [READ_WRITE]
+    1800cf07f -> 1802bf98c [READ]
+    1800cf085 -> ff00000058 [READ]
+    1800cf09a -> 1802c26a0 [READ]
+    1800cf0a0 -> 1800cf0d5 [CONDITIONAL_JUMP]
+    1800cf0a2 -> 1802c26a0 [DATA]
+    1800cf0a9 -> 18023fd90 [UNCONDITIONAL_CALL]
+    1800cf0ae -> 1802c26a0 [READ]
+    1800cf0b5 -> 1800cf0d5 [CONDITIONAL_JUMP]
+    1800cf0bc -> 1802567b0 [READ]
+    1800cf0bc -> EXTERNAL:00000014 [COMPUTED_CALL]
+    1800cf0c2 -> 1802c8b78 [WRITE]
+    1800cf0c9 -> 1802c26a0 [DATA]
+    1800cf0d0 -> 18023fd24 [UNCONDITIONAL_CALL]
+    1800cf0d5 -> 1802c8b78 [READ]
+    1800cf0df -> 1800cf0e8 [CONDITIONAL_JUMP]
+    1800cf0e1 -> Stack[-0x1f8] [DATA]
+    1800cf0e8 -> Stack[-0x1e0] [READ]
+    1800cf0ee -> 1800cf13a [CONDITIONAL_JUMP]
+    1800cf0f3 -> Stack[-0x1e0] [WRITE]
+    1800cf108 -> Stack[-0x1e0] [READ]
+    1800cf11d -> Stack[-0x1e0] [READ]
+    1800cf132 -> Stack[-0x1e0] [READ]
+    1800cf138 -> 1800cf0f0 [CONDITIONAL_JUMP]
+    1800cf148 -> Stack[-0x118] [READ]
+    1800cf15c -> Stack[-0x18] [READ]
+    1800cf166 -> 18023f8e0 [UNCONDITIONAL_CALL]
+    1800cf16b -> Stack[-0x10] [DATA]
+    1800cf173 -> Stack[0x8] [READ]
+    1800cf177 -> Stack[0x10] [READ]
+    1800cf188 -> 180204fe0 [UNCONDITIONAL_CALL]
+  signature: undefined8 __fastcall FUN_1800cefd0(longlong param_1, undefined8 param_2, undefined8 param_3, undefined8 param_4)
+
+FUNCTION: cef_string_utf16_clear @ 180238d23
+  external: false
+    180238d23 -> 180256810 [INDIRECTION]
+    180238d23 -> EXTERNAL:0000000e [COMPUTED_JUMP]
+  signature: undefined cef_string_utf16_clear()
+
+FUNCTION: cef_string_utf16_set @ 180240c7a
+  external: false
+    180240c7a -> 1802567e0 [INDIRECTION]
+    180240c7a -> EXTERNAL:00000008 [COMPUTED_JUMP]
+  signature: undefined cef_string_utf16_set()
+
+FUNCTION: cef_string_userfree_utf16_free @ 180240c80
+  external: false
+    180240c80 -> 180256818 [INDIRECTION]
+    180240c80 -> EXTERNAL:0000000f [COMPUTED_JUMP]
+  signature: undefined cef_string_userfree_utf16_free()
+
+FUNCTION: cef_list_value_create @ 180240c86
+  external: false
+    180240c86 -> 1802567d0 [INDIRECTION]
+    180240c86 -> EXTERNAL:00000006 [COMPUTED_JUMP]
+  signature: undefined cef_list_value_create()
+
+FUNCTION: cef_get_min_log_level @ 180240c8c
+  external: false
+    180240c8c -> 1802567c8 [INDIRECTION]
+    180240c8c -> EXTERNAL:00000005 [COMPUTED_JUMP]
+  signature: undefined cef_get_min_log_level()
+
+FUNCTION: cef_log @ 180240c92
+  external: false
+    180240c92 -> 1802567c0 [INDIRECTION]
+    180240c92 -> EXTERNAL:00000004 [COMPUTED_JUMP]
+  signature: undefined cef_log()
+
+FUNCTION: cef_string_list_alloc @ 180240c98
+  external: false
+    180240c98 -> 1802567d8 [INDIRECTION]
+    180240c98 -> EXTERNAL:00000007 [COMPUTED_JUMP]
+  signature: undefined cef_string_list_alloc()
+
+FUNCTION: cef_string_list_free @ 180240c9e
+  external: false
+    180240c9e -> 1802567e8 [INDIRECTION]
+    180240c9e -> EXTERNAL:00000009 [COMPUTED_JUMP]
+  signature: undefined cef_string_list_free()
+
+FUNCTION: cef_string_list_size @ 180240ca4
+  external: false
+    180240ca4 -> 1802567f0 [INDIRECTION]
+    180240ca4 -> EXTERNAL:0000000a [COMPUTED_JUMP]
+  signature: undefined cef_string_list_size()
+
+FUNCTION: cef_string_list_value @ 180240caa
+  external: false
+    180240caa -> 1802567f8 [INDIRECTION]
+    180240caa -> EXTERNAL:0000000b [COMPUTED_JUMP]
+  signature: undefined cef_string_list_value()
+
+FUNCTION: cef_string_list_append @ 180240cb0
+  external: false
+    180240cb0 -> 180256800 [INDIRECTION]
+    180240cb0 -> EXTERNAL:0000000c [COMPUTED_JUMP]
+  signature: undefined cef_string_list_append()
+
+External functions seen: 0
+
+============================================================
+INTERESTING STRINGS / DATA
+============================================================
+18022d110  uint  0x22cefa
+180256110  pointer  002bcef4
+180256b50  string  C:\Users\K3rhos\Desktop\cef_binary_135.0.20+ge7de5c3+chromium-135.0.7049.85_windows64\libcef_dll\ctocpp\list_value_ctocpp.cc
+180256c90  string  C:\Users\K3rhos\Desktop\cef_binary_135.0.20+ge7de5c3+chromium-135.0.7049.85_windows64\libcef_dll/ctocpp/ctocpp_ref_counted.h
+180256e20  string  C:\Users\K3rhos\Desktop\cef_binary_135.0.20+ge7de5c3+chromium-135.0.7049.85_windows64\libcef_dll\ctocpp\binary_value_ctocpp.cc
+1802570d0  string  C:\Users\K3rhos\Desktop\cef_binary_135.0.20+ge7de5c3+chromium-135.0.7049.85_windows64\libcef_dll\ctocpp\dictionary_value_ctocpp.cc
+180257310  string  C:\Users\K3rhos\Desktop\cef_binary_135.0.20+ge7de5c3+chromium-135.0.7049.85_windows64\libcef_dll\ctocpp\value_ctocpp.cc
+18026cb78  string  addshader
+18026e1c0  string  gringo_prop_reset_gracefully
+18026f048  string  set_current_map
+18026f088  string  set_hud_map_scale_walk
+18026f0a0  string  set_hud_map_scale_drive
+18026f0b8  string  set_hud_map_scale_override
+18026f0f0  string  abort_hud_map_scale_override
+18026f130  string  set_blip_hudmap_only
+18026f148  string  set_blip_pausemap_only
+18026f238  string  is_hud_map_draw_enabled
+18026f250  string  set_hud_map_draw_enabled
+18026f270  string  set_hud_map_draw_enabled_timed
+18026f290  string  is_hud_map_visible
+18026fc10  string  actor_disable_weapon_render
+18026fc30  string  actor_force_weapon_render
+180271430  string  net_posse_is_invite_present
+180271450  string  net_posse_is_request_present
+180274f20  string  net_gamer_blips_show_on_full_map
+1802756a0  string  texturefx_set_opacity
+1802756b8  string  texturefx_set_position
+1802756d0  string  texturefx_enabled
+1802756e8  string  texturefx_set_name
+180275700  string  texturefx_set_scale
+1802759a0  string  set_prop_remap
+1802759b0  string  clear_prop_remap
+1802759c4  string  render
+1802759d0  string  rendering_enable_character_clipping
+180275e58  string  satchel_set_outfit_texture
+180275f00  string  ui_challenge_set_title_texture
+180278048  string  ui_register_streaming_texture
+180278150  string  ui_texture_set_name
+180278168  string  ui_texture_set_hash
+1802797b8  string  invalid unordered_map<K, T> key
+180279928  string  unordered_map/set too long
+18027a7f0  string  number has no integer representation
+18027b8c8  string  number%s has no integer representation
+1802ba157  TerminatedCString  ?Items@ResourcesManager@@QEBA?AV?$unordered_map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VResource@@@2@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VResource@@@2@@std@@@2@@std@@XZ
+1802ba898  qword  0x2bcef4
+1802bafd2  TerminatedCString  ?SendProcessMessage@CEFManager@@QEBAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEBV?$scoped_refptr@VCefListValue@@@@W4cef_process_id_t@@@Z
+1802bb078  TerminatedCString  ?Get@?$Singleton@VCEFManager@@@@SA?BV?$shared_ptr@VCEFManager@@@std@@XZ
+1802bb0c0  TerminatedCString  client-webrenderer.dll
+1802bb0da  TerminatedCString  cef_string_utf16_clear
+1802bb0f4  TerminatedCString  cef_string_utf8_to_utf16
+1802bb10e  TerminatedCString  libcef.dll
+1802bbe52  TerminatedCString  ?_Winerror_map@std@@YAHH@Z
+1802bbeba  TerminatedCString  ?_Syserror_map@std@@YAPEBDH@Z
+1802bcd2e  TerminatedCString  cef_string_utf16_set
+1802bcd46  TerminatedCString  cef_string_userfree_utf16_free
+1802bcd68  TerminatedCString  cef_list_value_create
+1802bcd80  TerminatedCString  cef_get_min_log_level
+1802bcd98  TerminatedCString  cef_log
+1802bcda2  TerminatedCString  cef_string_list_alloc
+1802bcdba  TerminatedCString  cef_string_list_free
+1802bcdd2  TerminatedCString  cef_string_list_size
+1802bcdea  TerminatedCString  cef_string_list_value
+1802bce02  TerminatedCString  cef_string_list_append
+1802bcf86  TerminatedCString  IsProcessorFeaturePresent
+1802bcfa2  TerminatedCString  IsDebuggerPresent
+
+Interesting data entries: 65
+
+============================================================
+VTABLE / SYMBOL CANDIDATES
+============================================================
+18025c588  vftable_meta_ptr
+18025c590  vftable
+18025c5b0  vftable_meta_ptr
+18025c5b8  vftable
+18025c5c8  vftable_meta_ptr
+18025c5d0  vftable
+18025c5f0  vftable_meta_ptr
+18025c5f8  vftable
+18025c890  vftable_meta_ptr
+18025c898  vftable
+18025c8b8  vftable[4]
+18025c8c8  vftable_meta_ptr
+18025c8d0  vftable
+18025c8d8  vftable_meta_ptr
+18025c8e0  vftable
+18025c8e8  vftable_meta_ptr
+18025c8f0  vftable
+18025c900  vftable_meta_ptr
+18025c908  vftable
+18025c918  vftable_meta_ptr
+18025c920  vftable
+18025c928  vftable_meta_ptr
+18025c930  vftable
+18025c9b8  vftable_meta_ptr
+18025c9c0  vftable
+18025c9c8  vftable_meta_ptr
+18025c9d0  vftable
+18025c9d8  vftable_meta_ptr
+18025c9e0  vftable
+18025c9e8  vftable_meta_ptr
+18025c9f0  vftable
+18025ca20  vftable_meta_ptr
+18025ca28  vftable
+18025ca40  vftable_meta_ptr
+18025ca48  vftable
+18025ca50  vftable_meta_ptr
+18025ca58  vftable
+18025ca68  vftable_meta_ptr
+18025ca70  vftable
+18025cc20  vftable_meta_ptr
+18025cc28  vftable
+18025cc30  vftable[1]
+18025cc48  vftable_meta_ptr
+18025cc50  vftable
+18025cc58  vftable_meta_ptr
+18025cc60  vftable
+18025cc68  vftable_meta_ptr
+18025cc70  vftable
+18025cc88  vftable_meta_ptr
+18025cc90  vftable
+18025cc98  vftable_meta_ptr
+18025cca0  vftable
+18025cca8  vftable_meta_ptr
+18025ccb0  vftable
+18025ccb8  vftable_meta_ptr
+18025ccc0  vftable
+18025ccd8  vftable_meta_ptr
+18025cce0  vftable
+18025cce8  vftable_meta_ptr
+18025ccf0  vftable
+18025cd08  vftable_meta_ptr
+18025cd10  vftable
+18025cd18  vftable_meta_ptr
+18025cd20  vftable
+18025cd40  vftable_meta_ptr
+18025cd48  vftable
+18025cda0  vftable_meta_ptr
+18025cda8  vftable
+18025cdb0  vftable_meta_ptr
+18025cdb8  vftable
+18025cde0  vftable_meta_ptr
+18025cde8  vftable
+18025cdf0  vftable_meta_ptr
+18025cdf8  vftable
+18025ce00  vftable_meta_ptr
+18025ce08  vftable
+18025ce28  vftable[4]
+18025cf40  vftable_meta_ptr
+18025cf48  vftable
+18025cf58  vftable_meta_ptr
+18025cf60  vftable
+18025cf68  vftable_meta_ptr
+18025cf70  vftable
+18025cf78  vftable_meta_ptr
+18025cf80  vftable
+18025cf90  vftable_meta_ptr
+18025cf98  vftable
+18025cfa0  vftable_meta_ptr
+18025cfa8  vftable
+180260eb0  vftable_meta_ptr
+180260eb8  vftable
+180260ed8  vftable_meta_ptr
+180260ee0  vftable
+180260ee8  vftable_meta_ptr
+180260ef0  vftable
+180260ef8  vftable_meta_ptr
+180260f00  vftable
+180260f08  vftable_meta_ptr
+180260f10  vftable
+180260f40  vftable_meta_ptr
+180260f48  vftable
+180260fa8  vftable_meta_ptr
+180260fb0  vftable
+180260fb8  vftable_meta_ptr
+180260fc0  vftable
+180260fd8  vftable_meta_ptr
+180260fe0  vftable
+180261038  vftable_meta_ptr
+180261040  vftable
+180261050  vftable_meta_ptr
+180261058  vftable
+18027a6b8  vftable_meta_ptr
+18027a6c0  vftable
+18027a6e0  vftable_meta_ptr
+18027a6e8  vftable
+18027a6f0  vftable[1]
+18027c228  vftable_meta_ptr
+18027c230  vftable
+18027c480  vftable_meta_ptr
+18027c488  vftable
+18027c490  vftable[1]
+1802be0b8  PTR_vftable_1802be0b8
+1802be0c0  PTR_vftable_1802be0c0
+1802be0c8  PTR_vftable_1802be0c8
+1802be0d0  PTR_vftable_1802be0d0
+1802be0e0  PTR_vftable_1802be0e0
+1802be0e8  PTR_vftable_1802be0e8
+1802be0f8  PTR_vftable_1802be0f8
+1802be100  PTR_vftable_1802be100
+1802be188  PTR_vftable_1802be188
+1802be1f0  PTR_vftable_1802be1f0
+
+Candidate symbols: 131
+
+============================================================
+SEMANTIC CANDIDATES: CEF -> D3D11 / DXGI
+============================================================
+
+Semantic candidates: 0
+
+============================================================
+POTENTIAL RENDER / PRESENT / TEXTURE FUNCTIONS
+============================================================
+180240bc0  __CxxFrameHandler4  undefined __CxxFrameHandler4()
+
+Potential render functions: 1
+
+============================================================
+HISTORICAL RDRMP TARGETS
+============================================================
+
+TARGET: CEFManager::Draw
+  NOT FOUND
+
+TARGET: ClientHandler::Draw
+  NOT FOUND
+
+TARGET: ClientHandler::OnPaint
+  NOT FOUND
+
+TARGET: CEFManager::Initialize
+  NOT FOUND
+
+TARGET: CEFManager::Run
+  NOT FOUND
+
+TARGET: CEFManager::Shutdown
+  NOT FOUND
+
+TARGET: CEFManager::DoFrame
+  NOT FOUND
+
+TARGET: CEFManager::WasResized
+  NOT FOUND
+
+TARGET: CEFManager::Invalidate
+  NOT FOUND
+
+TARGET: CEFManager::WindowProcedureHandler
+  NOT FOUND
+
+TARGET: ClientHandler::GetViewRect
+  NOT FOUND
+
+TARGET: ClientHandler::OnAfterCreated
+  NOT FOUND
+
+============================================================
+END OF REPORT
+============================================================
+Program: client-luascripting.dll
+
+IMPORTANT TARGETS FOR FRONTIER-MP:
+1. CEFManager::Draw
+2. ClientHandler::Draw
+3. External callers of CEFManager::Draw
+4. What the second void* / pointer parameter represents
+5. Whether Draw receives an ID3D11Device, render target,
+   command context, texture, or another renderer object
+6. Whether OnPaint only uploads CPU pixels or directly feeds
+   a D3D11 texture used by Draw
+7. The exact renderer call sequence around Draw / DoFrame
+8. Any CreateDXGIFactory / D3D11CreateDevice / swapchain code
+9. Any Present hook or equivalent renderer callback
+10. Cross-module references to the CEF render path
