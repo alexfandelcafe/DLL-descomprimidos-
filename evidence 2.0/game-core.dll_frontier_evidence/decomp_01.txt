@@ -1,0 +1,862 @@
+Frontier Evidence Decompilation
+================================
+Program: game-core.dll
+
+##################################################
+FUNCTION 1
+NAME: PostLoad
+ADDRESS: 180008070 (RVA 0x8070)
+SIGNATURE: void __thiscall PostLoad(scrThread * this)
+SCORE: 700
+##################################################
+
+
+/* public: virtual void __cdecl rage::scrThread::PostLoad(void) __ptr64 */
+
+void __thiscall rage::scrThread::PostLoad(scrThread *this)
+
+{
+  __uint64 _Var1;
+  ulonglong uVar2;
+  _func_void *p_Var3;
+  void *pvVar4;
+  uint uVar5;
+  int iVar6;
+  uint uVar7;
+  ulonglong uVar8;
+  int iVar9;
+  undefined8 *puVar10;
+  char *pcVar11;
+  char *local_78;
+  char *local_70;
+  undefined8 local_68;
+  undefined **local_60 [7];
+  undefined ***local_28;
+  
+                    /* 0x8070  77  ?PostLoad@scrThread@rage@@UEAAXXZ */
+  puVar10 = (undefined8 *)0x0;
+  local_78 = "rage::scrThread::RegisterCommand";
+  local_68 = 0;
+  local_70 = "48 89 5C 24 ? 57 48 83 EC 20 44 8B 0D ? ? ? ?";
+  local_60[0] = std::
+                _Func_impl_no_alloc<`public:_virtual_void___cdecl_rage::scrThread::PostLoad(void)___ptr64'::`2'::<lambda_1>,void,Pattern_const&___ptr64>
+                ::vftable;
+  local_28 = local_60;
+  FUN_180001820(&local_78,(longlong *)local_60,0);
+  local_68 = 0;
+  local_78 = "rage::scrThread::sm_CommandsRegistration";
+  local_70 = "4C 8B 1D ? ? ? ? 41 8B C1";
+  local_60[0] = std::
+                _Func_impl_no_alloc<`public:_virtual_void___cdecl_rage::scrThread::PostLoad(void)___ptr64'::`2'::<lambda_2>,void,Pattern_const&___ptr64>
+                ::vftable;
+  local_28 = local_60;
+  FUN_180001820(&local_78,(longlong *)local_60,0);
+  local_68 = 0;
+  local_70 = "E8 ? ? ? ? 8D 56 10";
+  local_78 = "rage::scrThread::Wait";
+  local_60[0] = std::
+                _Func_impl_no_alloc<`public:_virtual_void___cdecl_rage::scrThread::PostLoad(void)___ptr64'::`2'::<lambda_3>,void,Pattern_const&___ptr64>
+                ::vftable;
+  local_28 = local_60;
+  FUN_180001820(&local_78,(longlong *)local_60,0);
+  local_68 = 0;
+  local_78 = "sagCoreScript::RDRStartNewScript";
+  local_70 = "E8 ? ? ? ? 48 8B 0B 8B 44 24 40 89 01 48 83 C4 30 5B C3 CC 40 53";
+  local_60[0] = std::
+                _Func_impl_no_alloc<`public:_virtual_void___cdecl_rage::scrThread::PostLoad(void)___ptr64'::`2'::<lambda_4>,void,Pattern_const&___ptr64>
+                ::vftable;
+  local_28 = local_60;
+  FUN_180001820(&local_78,(longlong *)local_60,0);
+  local_68 = 0;
+  local_78 = "rage::scrThread::StartNewThreadOverride";
+  local_70 = "E8 ? ? ? ? 48 8B D8 85 FF 74 16";
+  local_60[0] = std::
+                _Func_impl_no_alloc<`public:_virtual_void___cdecl_rage::scrThread::PostLoad(void)___ptr64'::`2'::<lambda_5>,void,Pattern_const&___ptr64>
+                ::vftable;
+  local_28 = local_60;
+  FUN_180001820(&local_78,(longlong *)local_60,0);
+  local_68 = 0;
+  local_70 = 
+  "48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 41 54 41 55 41 56 41 57 48 83 EC 30 48 8B 05 ? ? ? ? 33 ED"
+  ;
+  local_78 = "rage::fiAssetManager::fullReadPath";
+  local_60[0] = std::
+                _Func_impl_no_alloc<`public:_virtual_void___cdecl_rage::scrThread::PostLoad(void)___ptr64'::`2'::<lambda_6>,void,Pattern_const&___ptr64>
+                ::vftable;
+  local_28 = local_60;
+  FUN_180001820(&local_78,(longlong *)local_60,0);
+  local_78 = "QuitGame";
+  local_68 = 0;
+  local_70 = "48 83 EC 28 E8 ? ? ? ? C6 80 ? ? ? ? ?";
+  local_60[0] = std::
+                _Func_impl_no_alloc<`public:_virtual_void___cdecl_rage::scrThread::PostLoad(void)___ptr64'::`2'::<lambda_7>,void,Pattern_const&___ptr64>
+                ::vftable;
+  local_28 = local_60;
+  FUN_180001820(&local_78,(longlong *)local_60,0);
+  pvVar4 = s_Wait;
+  FUN_18000d8f4();
+  uVar5 = FUN_18000d740(pvVar4,n_Wait,&o_Wait);
+  if (uVar5 == 0) {
+    iVar6 = FUN_18000d8e8((longlong)pvVar4);
+    if (iVar6 != 0) {
+      pcVar11 = "Failed to enable hook \'%s\'";
+      goto LAB_18000827d;
+    }
+  }
+  else {
+    pcVar11 = "Failed to create hook \'%s\'";
+LAB_18000827d:
+    Log::Print(3,(char *)0x0,pcVar11);
+  }
+  pvVar4 = s_FullReadPath;
+  FUN_18000d8f4();
+  uVar5 = FUN_18000d740(pvVar4,FUN_180007910,&DAT_18001b288);
+  if (uVar5 == 0) {
+    iVar6 = FUN_18000d8e8((longlong)pvVar4);
+    if (iVar6 != 0) {
+      pcVar11 = "Failed to enable hook \'%s\'";
+      goto LAB_1800082cf;
+    }
+  }
+  else {
+    pcVar11 = "Failed to create hook \'%s\'";
+LAB_1800082cf:
+    Log::Print(3,(char *)0x0,pcVar11);
+  }
+  p_Var3 = s_QuitGame;
+  FUN_18000d8f4();
+  uVar5 = FUN_18000d740((undefined8 *)p_Var3,n_QuitGame,&o_QuitGame);
+  if (uVar5 == 0) {
+    iVar6 = FUN_18000d8e8((longlong)p_Var3);
+    if (iVar6 == 0) goto LAB_180008331;
+    pcVar11 = "Failed to enable hook \'%s\'";
+  }
+  else {
+    pcVar11 = "Failed to create hook \'%s\'";
+  }
+  Log::Print(3,(char *)0x0,pcVar11);
+LAB_180008331:
+  Log::Print(1,(char *)0x0,"Waiting for native invoker...");
+  do {
+    if ((s_CommandsRegistration != (__uint64 *)0x0) && (_Var1 = *s_CommandsRegistration, _Var1 != 0)
+       ) {
+      uVar5 = (uint)s_CommandsRegistration[1];
+      uVar8 = 0xa0ae0c98;
+      uVar2 = 0xa0ae0c98 % (ulonglong)uVar5;
+      iVar6 = *(int *)(_Var1 + (ulonglong)(uint)((int)uVar2 * 4) * 4);
+      do {
+        if (iVar6 == -0x5f51f368) {
+          uVar2 = 0x676167c3 % (ulonglong)uVar5;
+          uVar8 = 0x676167c3;
+          iVar9 = (int)uVar2;
+          iVar6 = *(int *)(_Var1 + (ulonglong)(uint)(iVar9 * 4) * 4);
+          goto joined_r0x0001800083d5;
+        }
+        uVar7 = (int)(uVar8 >> 1) + 1;
+        uVar8 = (ulonglong)uVar7;
+        uVar2 = (ulonglong)(uVar7 + (int)uVar2) % (ulonglong)uVar5;
+        iVar6 = *(int *)(_Var1 + (ulonglong)(uint)((int)uVar2 * 4) * 4);
+      } while (iVar6 != 0);
+    }
+    Sleep(1);
+  } while( true );
+  while( true ) {
+    uVar7 = (int)(uVar8 >> 1) + 1;
+    uVar8 = (ulonglong)uVar7;
+    uVar2 = (ulonglong)(uVar7 + (int)uVar2) % (ulonglong)uVar5;
+    iVar9 = (int)uVar2;
+    iVar6 = *(int *)(_Var1 + (ulonglong)(uint)(iVar9 * 4) * 4);
+    if (iVar6 == 0) break;
+joined_r0x0001800083d5:
+    if (iVar6 == 0x676167c3) {
+      *(code **)(_Var1 + 8 + (ulonglong)(uint)(iVar9 * 2) * 8) = FUN_180007ef0;
+      break;
+    }
+  }
+  _Var1 = *s_CommandsRegistration;
+  uVar2 = 0xfd25473e % (ulonglong)(uint)s_CommandsRegistration[1];
+  uVar8 = 0xfd25473e;
+  iVar9 = (int)uVar2;
+  iVar6 = *(int *)(_Var1 + (ulonglong)(uint)(iVar9 * 4) * 4);
+  do {
+    if (iVar6 == -0x2dab8c2) {
+      *(code **)(_Var1 + 8 + (ulonglong)(uint)(iVar9 * 2) * 8) = FUN_180007ef0;
+      break;
+    }
+    uVar5 = (int)(uVar8 >> 1) + 1;
+    uVar8 = (ulonglong)uVar5;
+    uVar2 = (ulonglong)(uVar5 + (int)uVar2) % (ulonglong)(uint)s_CommandsRegistration[1];
+    iVar9 = (int)uVar2;
+    iVar6 = *(int *)(_Var1 + (ulonglong)(uint)(iVar9 * 4) * 4);
+  } while (iVar6 != 0);
+  _Var1 = *s_CommandsRegistration;
+  uVar2 = 0x906c42fd % (ulonglong)(uint)s_CommandsRegistration[1];
+  uVar8 = 0x906c42fd;
+  iVar9 = (int)uVar2;
+  iVar6 = *(int *)(_Var1 + (ulonglong)(uint)(iVar9 * 4) * 4);
+  do {
+    if (iVar6 == -0x6f93bd03) {
+      *(code **)(_Var1 + 8 + (ulonglong)(uint)(iVar9 * 2) * 8) = FUN_180007ef0;
+      break;
+    }
+    uVar5 = (int)(uVar8 >> 1) + 1;
+    uVar8 = (ulonglong)uVar5;
+    uVar2 = (ulonglong)(uVar5 + (int)uVar2) % (ulonglong)(uint)s_CommandsRegistration[1];
+    iVar9 = (int)uVar2;
+    iVar6 = *(int *)(_Var1 + (ulonglong)(uint)(iVar9 * 4) * 4);
+  } while (iVar6 != 0);
+  _Var1 = *s_CommandsRegistration;
+  uVar2 = 0xecf8eb5f % (ulonglong)(uint)s_CommandsRegistration[1];
+  uVar8 = 0xecf8eb5f;
+  iVar9 = (int)uVar2;
+  iVar6 = *(int *)(_Var1 + (ulonglong)(uint)(iVar9 * 4) * 4);
+  do {
+    if (iVar6 == -0x130714a1) {
+      puVar10 = *(undefined8 **)(_Var1 + 8 + (ulonglong)(uint)(iVar9 * 2) * 8);
+      goto LAB_18000852d;
+    }
+    uVar5 = (int)(uVar8 >> 1) + 1;
+    uVar8 = (ulonglong)uVar5;
+    uVar2 = (ulonglong)(uVar5 + (int)uVar2) % (ulonglong)(uint)s_CommandsRegistration[1];
+    iVar9 = (int)uVar2;
+    iVar6 = *(int *)(_Var1 + (ulonglong)(uint)(iVar9 * 4) * 4);
+  } while (iVar6 != 0);
+  Log::Print(3,(char *)0x0,"Failed to find native with hash 0x%08X");
+LAB_18000852d:
+  FUN_18000d8f4();
+  uVar5 = FUN_18000d740(puVar10,FUN_180007fa0,(undefined8 *)&DAT_18001b290);
+  if (uVar5 == 0) {
+    iVar6 = FUN_18000d8e8((longlong)puVar10);
+    if (iVar6 == 0) {
+      return;
+    }
+    pcVar11 = "Failed to enable hook \'%s\'";
+  }
+  else {
+    pcVar11 = "Failed to create hook \'%s\'";
+  }
+  Log::Print(3,(char *)0x0,pcVar11);
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 2
+NAME: GetLocalPlayer
+ADDRESS: 18000bef0 (RVA 0xBEF0)
+SIGNATURE: sagPlayer * __cdecl GetLocalPlayer(void)
+SCORE: 200
+##################################################
+
+
+/* public: static struct rage::sagPlayer * __ptr64 __cdecl rage::sagPlayerMgr::GetLocalPlayer(void)
+    */
+
+sagPlayer * __cdecl rage::sagPlayerMgr::GetLocalPlayer(void)
+
+{
+                    /* 0xbef0  57  ?GetLocalPlayer@sagPlayerMgr@rage@@SAPEAUsagPlayer@2@XZ */
+  if (s_LocalPlayer == (sagPlayer **)0x0) {
+    return (sagPlayer *)0x0;
+  }
+  return *s_LocalPlayer;
+}
+
+
+
+
+##################################################
+FUNCTION 3
+NAME: n_StartNewThreadOverride
+ADDRESS: 1800078f0 (RVA 0x78F0)
+SIGNATURE: uint __cdecl n_StartNewThreadOverride(uint param_1, uint * param_2, uint param_3, int param_4)
+SCORE: 180
+##################################################
+
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+/* private: static unsigned int __cdecl rage::scrThread::n_StartNewThreadOverride(unsigned
+   int,unsigned int * __ptr64,unsigned int,int) */
+
+uint __cdecl
+rage::scrThread::n_StartNewThreadOverride(uint param_1,uint *param_2,uint param_3,int param_4)
+
+{
+  uint uVar1;
+  
+                    /* 0x78f0  90  ?n_StartNewThreadOverride@scrThread@rage@@CAIIPEAIIH@Z */
+  _DAT_18001b178 = _DAT_18001b178 + 1;
+                    /* WARNING: Could not recover jumptable at 0x0001800078fe. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  uVar1 = (*o_StartNewThreadOverride)(param_1,param_2,param_3,param_4);
+  return uVar1;
+}
+
+
+
+
+##################################################
+FUNCTION 4
+NAME: n_Wait
+ADDRESS: 1800071e0 (RVA 0x71E0)
+SIGNATURE: void __cdecl n_Wait(InfoBase * param_1)
+SCORE: 160
+##################################################
+
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* private: static void __cdecl rage::scrThread::n_Wait(class rage::scrThread::InfoBase * __ptr64)
+    */
+
+void __cdecl rage::scrThread::n_Wait(InfoBase *param_1)
+
+{
+  void *pvVar1;
+  undefined8 *puVar2;
+  longlong *plVar3;
+  undefined8 ****ppppuVar4;
+  undefined8 ****ppppuVar5;
+  longlong lVar6;
+  ulonglong uVar7;
+  int iVar8;
+  ulonglong uVar9;
+  ulonglong uVar10;
+  size_t sVar11;
+  ulonglong uVar12;
+  int iVar13;
+  ulonglong uVar14;
+  undefined1 auStack_e8 [32];
+  undefined8 ***local_c8;
+  undefined8 uStack_c0;
+  ulonglong local_b8;
+  ulonglong local_b0;
+  undefined8 ***local_a8;
+  undefined8 uStack_a0;
+  ulonglong local_98;
+  ulonglong local_90;
+  longlong local_88 [2];
+  longlong local_78 [2];
+  undefined8 local_68 [2];
+  undefined8 ***local_58;
+  undefined8 uStack_50;
+  ulonglong local_48;
+  ulonglong local_40;
+  ulonglong local_38;
+  
+                    /* 0x71e0  91  ?n_Wait@scrThread@rage@@CAXPEAVInfoBase@12@@Z */
+  local_38 = DAT_180019240 ^ (ulonglong)auStack_e8;
+  pvVar1 = (void *)FUN_180008a40();
+  local_58 = (undefined8 ****)0x0;
+  uStack_50 = 0;
+  uVar9 = 0;
+  local_48 = 0;
+  local_40 = 0;
+  sVar11 = 0xffffffffffffffff;
+  do {
+    sVar11 = sVar11 + 1;
+  } while (*(char *)((longlong)pvVar1 + sVar11) != '\0');
+  FUN_180002e30(&local_58,pvVar1,sVar11);
+  ppppuVar4 = &local_58;
+  if (0xf < local_40) {
+    ppppuVar4 = (undefined8 ****)local_58;
+  }
+  uVar10 = 0xcbf29ce484222325;
+  iVar8 = 0;
+  if (0x10 < local_48) {
+    lVar6 = *(longlong *)((local_48 - 0x11) + (longlong)ppppuVar4) + -0x6c6c6168635f6373;
+    if ((lVar6 == 0) &&
+       (lVar6 = *(longlong *)((local_48 - 9) + (longlong)ppppuVar4) + -0x696e695f65676e65,
+       lVar6 == 0)) {
+      lVar6 = (ulonglong)*(byte *)((local_48 - 1) + (longlong)ppppuVar4) - 0x74;
+    }
+    if (lVar6 == 0) {
+      local_a8 = (undefined8 ****)0x0;
+      uStack_a0 = 0;
+      local_98 = 0;
+      local_90 = 0;
+      FUN_180002e30(&local_a8,"OnUpdatePerTick",0xf);
+      uVar14 = local_90;
+      ppppuVar4 = (undefined8 ****)local_a8;
+      ppppuVar5 = &local_a8;
+      if (0xf < local_90) {
+        ppppuVar5 = (undefined8 ****)local_a8;
+      }
+      uVar12 = 0xcbf29ce484222325;
+      uVar7 = uVar9;
+      if (local_98 != 0) {
+        do {
+          uVar12 = (uVar12 ^ *(byte *)((longlong)ppppuVar5 + uVar7)) * 0x100000001b3;
+          uVar7 = uVar7 + 1;
+        } while (uVar7 < local_98);
+      }
+      puVar2 = FUN_180005360(uVar7,local_68,&local_a8,uVar12);
+      if (puVar2[1] != 0) {
+        plVar3 = FUN_180004c90(uVar7,local_78,(longlong *)&local_a8);
+        if (*(longlong **)(*plVar3 + 0x68) == (longlong *)0x0) {
+                    /* WARNING: Subroutine does not return */
+          std::_Xbad_function_call();
+        }
+        (**(code **)(**(longlong **)(*plVar3 + 0x68) + 0x10))();
+        ppppuVar4 = (undefined8 ****)local_a8;
+        uVar14 = local_90;
+      }
+      if (0xf < uVar14) {
+        ppppuVar5 = ppppuVar4;
+        if ((0xfff < uVar14 + 1) &&
+           (ppppuVar5 = (undefined8 ****)ppppuVar4[-1],
+           0x1f < (ulonglong)((longlong)ppppuVar4 + (-8 - (longlong)ppppuVar5)))) {
+                    /* WARNING: Subroutine does not return */
+          _invalid_parameter_noinfo_noreturn();
+        }
+        FUN_18000f264(ppppuVar5);
+      }
+      local_98 = 0;
+      local_90 = 0xf;
+      local_a8 = (undefined8 ***)((ulonglong)local_a8 & 0xffffffffffffff00);
+      iVar13 = iVar8;
+      if (DAT_18001b208 != (int *)0x0) {
+        iVar13 = *DAT_18001b208;
+      }
+      if (DAT_18001b180 != iVar13) {
+        local_c8 = (undefined8 ****)0x0;
+        uStack_c0 = 0;
+        local_b8 = 0;
+        local_b0 = 0;
+        FUN_180002e30(&local_c8,"OnUpdatePerFrame",0x10);
+        uVar14 = local_b0;
+        ppppuVar4 = (undefined8 ****)local_c8;
+        ppppuVar5 = &local_c8;
+        if (0xf < local_b0) {
+          ppppuVar5 = (undefined8 ****)local_c8;
+        }
+        uVar12 = 0xcbf29ce484222325;
+        uVar7 = uVar9;
+        if (local_b8 != 0) {
+          do {
+            uVar12 = (uVar12 ^ *(byte *)(uVar7 + (longlong)ppppuVar5)) * 0x100000001b3;
+            uVar7 = uVar7 + 1;
+          } while (uVar7 < local_b8);
+        }
+        puVar2 = FUN_180005360(uVar7,local_78,&local_c8,uVar12);
+        if (puVar2[1] != 0) {
+          plVar3 = FUN_180004c90(uVar7,local_88,(longlong *)&local_c8);
+          if (*(longlong **)(*plVar3 + 0x68) == (longlong *)0x0) {
+                    /* WARNING: Subroutine does not return */
+            std::_Xbad_function_call();
+          }
+          (**(code **)(**(longlong **)(*plVar3 + 0x68) + 0x10))();
+          ppppuVar4 = (undefined8 ****)local_c8;
+          uVar14 = local_b0;
+        }
+        if (0xf < uVar14) {
+          ppppuVar5 = ppppuVar4;
+          if ((0xfff < uVar14 + 1) &&
+             (ppppuVar5 = (undefined8 ****)ppppuVar4[-1],
+             0x1f < (ulonglong)((longlong)ppppuVar4 + (-8 - (longlong)ppppuVar5)))) {
+                    /* WARNING: Subroutine does not return */
+            _invalid_parameter_noinfo_noreturn();
+          }
+          FUN_18000f264(ppppuVar5);
+        }
+        local_b8 = 0;
+        local_b0 = 0xf;
+        local_c8 = (undefined8 ***)((ulonglong)local_c8 & 0xffffffffffffff00);
+        DAT_18001b180 = iVar13;
+      }
+    }
+  }
+  if (DAT_18001b208 != (int *)0x0) {
+    iVar8 = *DAT_18001b208;
+  }
+  iVar13 = DAT_18001b164;
+  if (DAT_18001b164 != iVar8) {
+    ppppuVar4 = &local_58;
+    if (0xf < local_40) {
+      ppppuVar4 = (undefined8 ****)local_58;
+    }
+    if (9 < local_48) {
+      lVar6 = *(longlong *)((local_48 - 10) + (longlong)ppppuVar4) + -0x6174737373657270;
+      if (lVar6 == 0) {
+        lVar6 = (ulonglong)*(ushort *)((local_48 - 2) + (longlong)ppppuVar4) - 0x7472;
+      }
+      if (lVar6 == 0) {
+        local_c8 = (undefined8 ****)0x0;
+        uStack_c0 = 0;
+        local_b8 = 0;
+        local_b0 = 0;
+        FUN_180002e30(&local_c8,"OnPressStartScriptRunning",0x19);
+        uVar14 = local_b0;
+        ppppuVar4 = (undefined8 ****)local_c8;
+        ppppuVar5 = &local_c8;
+        if (0xf < local_b0) {
+          ppppuVar5 = (undefined8 ****)local_c8;
+        }
+        uVar12 = 0xcbf29ce484222325;
+        uVar7 = uVar9;
+        if (local_b8 != 0) {
+          do {
+            uVar12 = (uVar12 ^ *(byte *)(uVar7 + (longlong)ppppuVar5)) * 0x100000001b3;
+            uVar7 = uVar7 + 1;
+          } while (uVar7 < local_b8);
+        }
+        puVar2 = FUN_180005360(uVar7,local_88,&local_c8,uVar12);
+        if (puVar2[1] != 0) {
+          plVar3 = FUN_180004c90(uVar7,local_88,(longlong *)&local_c8);
+          if (*(longlong **)(*plVar3 + 0x68) == (longlong *)0x0) {
+                    /* WARNING: Subroutine does not return */
+            std::_Xbad_function_call();
+          }
+          (**(code **)(**(longlong **)(*plVar3 + 0x68) + 0x10))();
+          ppppuVar4 = (undefined8 ****)local_c8;
+          uVar14 = local_b0;
+        }
+        if (0xf < uVar14) {
+          ppppuVar5 = ppppuVar4;
+          if ((0xfff < uVar14 + 1) &&
+             (ppppuVar5 = (undefined8 ****)ppppuVar4[-1],
+             0x1f < (ulonglong)((longlong)ppppuVar4 + (-8 - (longlong)ppppuVar5)))) {
+                    /* WARNING: Subroutine does not return */
+            _invalid_parameter_noinfo_noreturn();
+          }
+          FUN_18000f264(ppppuVar5);
+        }
+      }
+    }
+    uVar14 = local_48;
+    ppppuVar4 = &local_58;
+    if (0xf < local_40) {
+      ppppuVar4 = (undefined8 ****)local_58;
+    }
+    iVar13 = iVar8;
+    if (0xb < local_48) {
+      sVar11 = local_48 - 0xb;
+      ppppuVar5 = ppppuVar4;
+      while (plVar3 = memchr(ppppuVar5,99,sVar11), plVar3 != (longlong *)0x0) {
+        if ((*plVar3 == 0x2f746e65746e6f63) && ((int)plVar3[1] == 0x6e69616d)) {
+          if ((longlong)plVar3 - (longlong)ppppuVar4 != -1) {
+            local_c8 = (undefined8 ****)0x0;
+            uStack_c0 = 0;
+            local_b8 = 0;
+            local_b0 = 0;
+            FUN_180002e30(&local_c8,"OnMainScriptRunning",0x13);
+            uVar14 = local_b0;
+            ppppuVar4 = (undefined8 ****)local_c8;
+            ppppuVar5 = &local_c8;
+            if (0xf < local_b0) {
+              ppppuVar5 = (undefined8 ****)local_c8;
+            }
+            if (local_b8 != 0) {
+              do {
+                uVar10 = (uVar10 ^ *(byte *)(uVar9 + (longlong)ppppuVar5)) * 0x100000001b3;
+                uVar9 = uVar9 + 1;
+              } while (uVar9 < local_b8);
+            }
+            puVar2 = FUN_180005360(ppppuVar5,local_88,&local_c8,uVar10);
+            if (puVar2[1] != 0) {
+              plVar3 = FUN_180004c90(ppppuVar5,local_88,(longlong *)&local_c8);
+              if (*(longlong **)(*plVar3 + 0x68) == (longlong *)0x0) {
+                    /* WARNING: Subroutine does not return */
+                std::_Xbad_function_call();
+              }
+              (**(code **)(**(longlong **)(*plVar3 + 0x68) + 0x10))();
+              ppppuVar4 = (undefined8 ****)local_c8;
+              uVar14 = local_b0;
+            }
+            if (0xf < uVar14) {
+              ppppuVar5 = ppppuVar4;
+              if ((0xfff < uVar14 + 1) &&
+                 (ppppuVar5 = (undefined8 ****)ppppuVar4[-1],
+                 0x1f < (ulonglong)((longlong)ppppuVar4 + (-8 - (longlong)ppppuVar5)))) {
+                    /* WARNING: Subroutine does not return */
+                _invalid_parameter_noinfo_noreturn();
+              }
+              FUN_18000f264(ppppuVar5);
+            }
+          }
+          break;
+        }
+        ppppuVar5 = (undefined8 ****)((longlong)plVar3 + 1);
+        sVar11 = (longlong)ppppuVar4 + ((uVar14 - 0xb) - (longlong)ppppuVar5);
+      }
+    }
+  }
+  DAT_18001b164 = iVar13;
+  (*o_Wait)(param_1);
+  if (0xf < local_40) {
+    ppppuVar4 = (undefined8 ****)local_58;
+    if ((0xfff < local_40 + 1) &&
+       (ppppuVar4 = (undefined8 ****)local_58[-1],
+       0x1f < (ulonglong)((longlong)local_58 + (-8 - (longlong)ppppuVar4)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    FUN_18000f264(ppppuVar4);
+  }
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 5
+NAME: ClearCallbacks
+ADDRESS: 1800043f0 (RVA 0x43F0)
+SIGNATURE: void __cdecl ClearCallbacks(void)
+SCORE: 140
+##################################################
+
+
+/* public: static void __cdecl StaticCallbacksHandler<class rage::scrThread>::ClearCallbacks(void)
+    */
+
+void __cdecl StaticCallbacksHandler<rage::scrThread>::ClearCallbacks(void)
+
+{
+                    /* 0x43f0  44  ?ClearCallbacks@?$StaticCallbacksHandler@VscrThread@rage@@@@SAXXZ
+                        */
+  FUN_1800045d0(0x1800192e0);
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 6
+NAME: ExecuteCallback
+ADDRESS: 180004400 (RVA 0x4400)
+SIGNATURE: void __cdecl ExecuteCallback(basic_string<char,std::char_traits<char>,std::allocator<char>_> * param_1)
+SCORE: 140
+##################################################
+
+
+/* public: static void __cdecl StaticCallbacksHandler<class rage::scrThread>::ExecuteCallback(class
+   std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &
+   __ptr64) */
+
+void __cdecl
+StaticCallbacksHandler<rage::scrThread>::ExecuteCallback
+          (basic_string<char,std::char_traits<char>,std::allocator<char>_> *param_1)
+
+{
+  basic_string<char,std::char_traits<char>,std::allocator<char>_> *pbVar1;
+  undefined8 *puVar2;
+  longlong *plVar3;
+  basic_string<char,std::char_traits<char>,std::allocator<char>_> *pbVar4;
+  ulonglong uVar5;
+  ulonglong uVar6;
+  longlong local_18 [2];
+  
+                    /* 0x4400  49
+                       ?ExecuteCallback@?$StaticCallbacksHandler@VscrThread@rage@@@@SAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+                        */
+  pbVar4 = param_1;
+  if (0xf < *(ulonglong *)(param_1 + 0x18)) {
+    pbVar4 = *(basic_string<char,std::char_traits<char>,std::allocator<char>_> **)param_1;
+  }
+  uVar5 = 0;
+  uVar6 = 0xcbf29ce484222325;
+  if (*(ulonglong *)(param_1 + 0x10) != 0) {
+    do {
+      pbVar1 = pbVar4 + uVar5;
+      uVar5 = uVar5 + 1;
+      uVar6 = (uVar6 ^ (byte)*pbVar1) * 0x100000001b3;
+    } while (uVar5 < *(ulonglong *)(param_1 + 0x10));
+  }
+  puVar2 = FUN_180005360(pbVar4,local_18,(undefined8 *)param_1,uVar6);
+  if (puVar2[1] == 0) {
+    return;
+  }
+  plVar3 = FUN_180004c90(pbVar4,local_18,(longlong *)param_1);
+  if (*(longlong **)(*plVar3 + 0x68) != (longlong *)0x0) {
+                    /* WARNING: Could not recover jumptable at 0x000180004481. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+    (**(code **)(**(longlong **)(*plVar3 + 0x68) + 0x10))();
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  std::_Xbad_function_call();
+}
+
+
+
+
+##################################################
+FUNCTION 7
+NAME: RegisterCallback
+ADDRESS: 180004490 (RVA 0x4490)
+SIGNATURE: void __cdecl RegisterCallback(basic_string<char,std::char_traits<char>,std::allocator<char>_> * param_1, function<void___cdecl(void)> * param_2)
+SCORE: 140
+##################################################
+
+
+/* public: static void __cdecl StaticCallbacksHandler<class rage::scrThread>::RegisterCallback(class
+   std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &
+   __ptr64,class std::function<void __cdecl(void)> const & __ptr64) */
+
+void __cdecl
+StaticCallbacksHandler<rage::scrThread>::RegisterCallback
+          (basic_string<char,std::char_traits<char>,std::allocator<char>_> *param_1,
+          function<void___cdecl(void)> *param_2)
+
+{
+  longlong local_18 [3];
+  
+                    /* 0x4490  84
+                       ?RegisterCallback@?$StaticCallbacksHandler@VscrThread@rage@@@@SAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$function@$$A6AXXZ@3@@Z
+                        */
+  FUN_1800049e0(param_1,local_18,(longlong *)param_1,(longlong)param_2);
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 8
+NAME: n_QuitGame
+ADDRESS: 1800077d0 (RVA 0x77D0)
+SIGNATURE: void __cdecl n_QuitGame(void)
+SCORE: 115
+##################################################
+
+
+/* private: static void __cdecl rage::scrThread::n_QuitGame(void) */
+
+void __cdecl rage::scrThread::n_QuitGame(void)
+
+{
+  undefined8 *puVar1;
+  longlong *plVar2;
+  undefined8 ****ppppuVar3;
+  ulonglong uVar4;
+  ulonglong uVar5;
+  undefined8 ****ppppuVar6;
+  ulonglong uVar7;
+  longlong local_38 [2];
+  undefined8 ***local_28;
+  undefined8 uStack_20;
+  ulonglong local_18;
+  ulonglong local_10;
+  
+                    /* 0x77d0  89  ?n_QuitGame@scrThread@rage@@CAXXZ */
+  local_28 = (undefined8 ****)0x0;
+  uStack_20 = 0;
+  uVar4 = 0;
+  local_18 = 0;
+  local_10 = 0;
+  FUN_180002e30(&local_28,"OnQuitGame",10);
+  uVar5 = local_10;
+  ppppuVar6 = (undefined8 ****)local_28;
+  ppppuVar3 = &local_28;
+  if (0xf < local_10) {
+    ppppuVar3 = (undefined8 ****)local_28;
+  }
+  uVar7 = 0xcbf29ce484222325;
+  if (local_18 != 0) {
+    do {
+      uVar7 = (uVar7 ^ *(byte *)((longlong)ppppuVar3 + uVar4)) * 0x100000001b3;
+      uVar4 = uVar4 + 1;
+    } while (uVar4 < local_18);
+  }
+  puVar1 = FUN_180005360(ppppuVar3,local_38,&local_28,uVar7);
+  if (puVar1[1] != 0) {
+    plVar2 = FUN_180004c90(ppppuVar3,local_38,(longlong *)&local_28);
+    if (*(longlong **)(*plVar2 + 0x68) == (longlong *)0x0) {
+                    /* WARNING: Subroutine does not return */
+      std::_Xbad_function_call();
+    }
+    (**(code **)(**(longlong **)(*plVar2 + 0x68) + 0x10))();
+    uVar5 = local_10;
+    ppppuVar6 = (undefined8 ****)local_28;
+  }
+  if (0xf < uVar5) {
+    ppppuVar3 = ppppuVar6;
+    if ((0xfff < uVar5 + 1) &&
+       (ppppuVar3 = (undefined8 ****)ppppuVar6[-1],
+       0x1f < (ulonglong)((longlong)ppppuVar6 + (-8 - (longlong)ppppuVar3)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    FUN_18000f264(ppppuVar3);
+  }
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 9
+NAME: PostLoad
+ADDRESS: 180001fe0 (RVA 0x1FE0)
+SIGNATURE: void __thiscall PostLoad(globalBase * this)
+SCORE: 100
+##################################################
+
+
+/* public: virtual void __cdecl rage::globalBase::PostLoad(void) __ptr64 */
+
+void __thiscall rage::globalBase::PostLoad(globalBase *this)
+
+{
+  char *local_68;
+  char *local_60;
+  undefined8 local_58;
+  undefined **local_50 [7];
+  undefined ***local_18;
+  
+                    /* 0x1fe0  72  ?PostLoad@globalBase@rage@@UEAAXXZ */
+  local_58 = 0;
+  local_68 = "globalBase";
+  local_60 = "E8 ? ? ? ? EB 0D BA ? ? ? ? 48 8B CB E8 ? ? ? ? 48 83 3D ? ? ? ? ? 74 21";
+  local_50[0] = std::
+                _Func_impl_no_alloc<`public:_virtual_void___cdecl_rage::globalBase::PostLoad(void)___ptr64'::`2'::<lambda_1>,void,Pattern_const&___ptr64>
+                ::vftable;
+  local_18 = local_50;
+  FUN_180001820(&local_68,(longlong *)local_50,0);
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 10
+NAME: PostLoad
+ADDRESS: 180003ce0 (RVA 0x3CE0)
+SIGNATURE: void __thiscall PostLoad(gohObjectManager * this)
+SCORE: 100
+##################################################
+
+
+/* public: virtual void __cdecl rage::gohObjectManager::PostLoad(void) __ptr64 */
+
+void __thiscall rage::gohObjectManager::PostLoad(gohObjectManager *this)
+
+{
+  char *local_68;
+  char *local_60;
+  undefined8 local_58;
+  undefined **local_50 [7];
+  undefined ***local_18;
+  
+                    /* 0x3ce0  73  ?PostLoad@gohObjectManager@rage@@UEAAXXZ */
+  local_58 = 0;
+  local_68 = "rage::aGuidGohBase::sm_ManagerSlots";
+  local_60 = 
+  "4C 8B 05 ? ? ? ? 0F B7 D1 8B C2 C1 E9 10 48 03 C0 66 41 39 4C C0 ? 75 50 48 03 D2 49 8B 14 D0";
+  local_50[0] = std::
+                _Func_impl_no_alloc<`public:_virtual_void___cdecl_rage::gohObjectManager::PostLoad(void)___ptr64'::`2'::<lambda_1>,void,Pattern_const&___ptr64>
+                ::vftable;
+  local_18 = local_50;
+  FUN_180001820(&local_68,(longlong *)local_50,0);
+  return;
+}
+
+
+
+

@@ -1,0 +1,694 @@
+Frontier Evidence Decompilation
+================================
+Program: game-core.dll
+
+##################################################
+FUNCTION 1
+NAME: FUN_180002890
+ADDRESS: 180002890 (RVA 0x2890)
+SIGNATURE: undefined __fastcall FUN_180002890(longlong param_1, void * param_2, ulonglong param_3, uint param_4)
+SCORE: 0
+##################################################
+
+
+void FUN_180002890(longlong param_1,void *param_2,ulonglong param_3,uint param_4)
+
+{
+  void *pvVar1;
+  longlong lVar2;
+  void *pvVar3;
+  uint uVar4;
+  void *_Dst;
+  
+  uVar4 = param_4 & 0xffffffdf;
+  if (0x7fffffff < param_3) {
+                    /* WARNING: Subroutine does not return */
+    std::_Xbad_alloc();
+  }
+  if ((param_3 == 0) || (((byte)uVar4 & 6) == 6)) {
+    *(undefined8 *)(param_1 + 0x68) = 0;
+  }
+  else {
+    if (param_3 < 0x1000) {
+      _Dst = (void *)FUN_18000eeb0(param_3);
+    }
+    else {
+      if (param_3 + 0x27 <= param_3) {
+                    /* WARNING: Subroutine does not return */
+        FUN_1800015b0();
+      }
+      lVar2 = FUN_18000eeb0(param_3 + 0x27);
+      if (lVar2 == 0) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      _Dst = (void *)(lVar2 + 0x27U & 0xffffffffffffffe0);
+      *(longlong *)((longlong)_Dst - 8) = lVar2;
+    }
+    memcpy(_Dst,param_2,param_3);
+    *(ulonglong *)(param_1 + 0x68) = (longlong)_Dst + param_3;
+    if ((param_4 & 4) == 0) {
+      **(undefined8 **)(param_1 + 0x18) = _Dst;
+      **(undefined8 **)(param_1 + 0x38) = _Dst;
+      **(int **)(param_1 + 0x50) = (int)((longlong)_Dst + param_3) - (int)_Dst;
+    }
+    if ((param_4 & 2) == 0) {
+      pvVar1 = *(void **)(param_1 + 0x68);
+      pvVar3 = pvVar1;
+      if ((param_4 & 0x18) == 0) {
+        pvVar3 = _Dst;
+      }
+      **(undefined8 **)(param_1 + 0x20) = _Dst;
+      **(undefined8 **)(param_1 + 0x40) = pvVar3;
+      **(int **)(param_1 + 0x58) = (int)pvVar1 - (int)pvVar3;
+      if ((param_4 & 4) != 0) {
+        **(undefined8 **)(param_1 + 0x18) = _Dst;
+        **(undefined8 **)(param_1 + 0x38) = _Dst;
+        **(undefined4 **)(param_1 + 0x50) = 0;
+      }
+    }
+    uVar4 = uVar4 | 1;
+  }
+  *(uint *)(param_1 + 0x70) = uVar4;
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 2
+NAME: FUN_1800029d0
+ADDRESS: 1800029d0 (RVA 0x29D0)
+SIGNATURE: facet * __fastcall FUN_1800029d0(locale * param_1)
+SCORE: 0
+##################################################
+
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+facet * FUN_1800029d0(locale *param_1)
+
+{
+  longlong lVar1;
+  __uint64 _Var2;
+  _Locimp *p_Var3;
+  facet *pfVar4;
+  undefined1 auStack_48 [32];
+  facet *local_28;
+  _Lockit local_20 [8];
+  facet *local_18;
+  ulonglong local_10;
+  
+  local_10 = DAT_180019240 ^ (ulonglong)auStack_48;
+  std::_Lockit::_Lockit(local_20,0);
+  local_28 = DAT_18001b000;
+  _Var2 = std::locale::id::operator_unsigned___int64((id *)id_exref);
+  lVar1 = *(longlong *)(param_1 + 8);
+  if (_Var2 < *(ulonglong *)(lVar1 + 0x18)) {
+    pfVar4 = *(facet **)(_Var2 * 8 + *(longlong *)(lVar1 + 0x10));
+    if (pfVar4 != (facet *)0x0) goto LAB_180002aa7;
+  }
+  else {
+    pfVar4 = (facet *)0x0;
+  }
+  if (*(char *)(lVar1 + 0x24) == '\0') {
+LAB_180002a5d:
+    if (pfVar4 != (facet *)0x0) goto LAB_180002aa7;
+  }
+  else {
+    p_Var3 = std::locale::_Getgloballocale();
+    if (_Var2 < *(ulonglong *)(p_Var3 + 0x18)) {
+      pfVar4 = *(facet **)(_Var2 * 8 + *(longlong *)(p_Var3 + 0x10));
+      goto LAB_180002a5d;
+    }
+  }
+  pfVar4 = local_28;
+  if (local_28 == (facet *)0x0) {
+    _Var2 = std::ctype<char>::_Getcat(&local_28,param_1);
+    pfVar4 = local_28;
+    if (_Var2 == 0xffffffffffffffff) {
+                    /* WARNING: Subroutine does not return */
+      FUN_1800016a0();
+    }
+    local_18 = local_28;
+    FUN_18000e780(local_28);
+    (**(code **)(*(longlong *)pfVar4 + 8))(pfVar4);
+    DAT_18001b000 = local_28;
+    pfVar4 = local_28;
+  }
+LAB_180002aa7:
+  std::_Lockit::~_Lockit(local_20);
+  return pfVar4;
+}
+
+
+
+
+##################################################
+FUNCTION 3
+NAME: FUN_180002ae0
+ADDRESS: 180002ae0 (RVA 0x2AE0)
+SIGNATURE: basic_istream<char,std::char_traits<char>_> * __fastcall FUN_180002ae0(basic_istream<char,std::char_traits<char>_> * param_1, longlong * param_2, undefined8 param_3)
+SCORE: 0
+##################################################
+
+
+basic_istream<char,std::char_traits<char>_> *
+FUN_180002ae0(basic_istream<char,std::char_traits<char>_> *param_1,longlong *param_2,
+             undefined8 param_3)
+
+{
+  ulonglong uVar1;
+  ulonglong uVar2;
+  bool bVar3;
+  bool bVar4;
+  uint uVar5;
+  locale *plVar6;
+  facet *pfVar7;
+  undefined8 *puVar8;
+  longlong *plVar9;
+  uint uVar10;
+  ulonglong uVar11;
+  longlong *local_30;
+  
+  bVar3 = false;
+  if (*(longlong **)(param_1 + (longlong)*(int *)(*(longlong *)param_1 + 4) + 0x48) !=
+      (longlong *)0x0) {
+    (**(code **)(**(longlong **)(param_1 + (longlong)*(int *)(*(longlong *)param_1 + 4) + 0x48) + 8)
+    )();
+  }
+  bVar4 = std::basic_istream<char,std::char_traits<char>_>::_Ipfx(param_1,false);
+  uVar10 = 0;
+  if (bVar4) {
+    plVar6 = (locale *)
+             std::ios_base::getloc((ios_base *)(param_1 + *(int *)(*(longlong *)param_1 + 4)));
+    pfVar7 = FUN_1800029d0(plVar6);
+    if ((local_30 != (longlong *)0x0) &&
+       (puVar8 = (undefined8 *)(**(code **)(*local_30 + 0x10))(), puVar8 != (undefined8 *)0x0)) {
+      (**(code **)*puVar8)(puVar8,1);
+    }
+    param_2[2] = 0;
+    plVar9 = param_2;
+    if (0xf < (ulonglong)param_2[3]) {
+      plVar9 = (longlong *)*param_2;
+    }
+    *(undefined1 *)plVar9 = 0;
+    uVar11 = *(ulonglong *)(param_1 + (longlong)*(int *)(*(longlong *)param_1 + 4) + 0x28);
+    if (((longlong)uVar11 < 1) || (0x7ffffffffffffffe < uVar11)) {
+      uVar11 = 0x7fffffffffffffff;
+    }
+    uVar5 = std::basic_streambuf<char,std::char_traits<char>_>::sgetc
+                      (*(basic_streambuf<char,std::char_traits<char>_> **)
+                        (param_1 + (longlong)*(int *)(*(longlong *)param_1 + 4) + 0x48));
+    for (; uVar10 = 0, uVar11 != 0; uVar11 = uVar11 - 1) {
+      if (uVar5 == 0xffffffff) {
+        uVar10 = 1;
+        break;
+      }
+      uVar10 = 0;
+      if ((*(byte *)(*(longlong *)(pfVar7 + 0x18) + (ulonglong)(uVar5 & 0xff) * 2) & 0x48) != 0)
+      break;
+      uVar1 = param_2[2];
+      uVar2 = param_2[3];
+      if (uVar1 < uVar2) {
+        param_2[2] = uVar1 + 1;
+        plVar9 = param_2;
+        if (0xf < uVar2) {
+          plVar9 = (longlong *)*param_2;
+        }
+        *(char *)((longlong)plVar9 + uVar1) = (char)uVar5;
+        *(undefined1 *)((longlong)plVar9 + uVar1 + 1) = 0;
+      }
+      else {
+        FUN_180002cc0(param_2,uVar2,param_3,(char)uVar5);
+      }
+      bVar3 = true;
+      uVar5 = std::basic_streambuf<char,std::char_traits<char>_>::snextc
+                        (*(basic_streambuf<char,std::char_traits<char>_> **)
+                          (param_1 + (longlong)*(int *)(*(longlong *)param_1 + 4) + 0x48));
+    }
+  }
+  *(undefined8 *)(param_1 + (longlong)*(int *)(*(longlong *)param_1 + 4) + 0x28) = 0;
+  if (!bVar3) {
+    uVar10 = uVar10 | 2;
+  }
+  std::basic_ios<char,std::char_traits<char>_>::setstate
+            ((basic_ios<char,std::char_traits<char>_> *)
+             (param_1 + *(int *)(*(longlong *)param_1 + 4)),uVar10,false);
+  if (*(longlong **)(param_1 + (longlong)*(int *)(*(longlong *)param_1 + 4) + 0x48) !=
+      (longlong *)0x0) {
+    (**(code **)(**(longlong **)(param_1 + (longlong)*(int *)(*(longlong *)param_1 + 4) + 0x48) +
+                0x10))();
+  }
+  return param_1;
+}
+
+
+
+
+##################################################
+FUNCTION 4
+NAME: FUN_180002cc0
+ADDRESS: 180002cc0 (RVA 0x2CC0)
+SIGNATURE: undefined8 * __fastcall FUN_180002cc0(undefined8 * param_1, undefined8 param_2, undefined8 param_3, undefined1 param_4)
+SCORE: 0
+##################################################
+
+
+undefined8 *
+FUN_180002cc0(undefined8 *param_1,undefined8 param_2,undefined8 param_3,undefined1 param_4)
+
+{
+  ulonglong uVar1;
+  size_t _Size;
+  ulonglong uVar2;
+  void *_Src;
+  longlong lVar3;
+  ulonglong uVar4;
+  ulonglong uVar5;
+  void *pvVar6;
+  void *_Dst;
+  
+  _Size = param_1[2];
+  uVar5 = 0x7fffffffffffffff;
+  if (_Size == 0x7fffffffffffffff) {
+                    /* WARNING: Subroutine does not return */
+    FUN_180001650();
+  }
+  uVar2 = param_1[3];
+  uVar4 = _Size + 1 | 0xf;
+  if ((uVar4 < 0x8000000000000000) && (uVar2 <= 0x7fffffffffffffff - (uVar2 >> 1))) {
+    uVar1 = (uVar2 >> 1) + uVar2;
+    uVar5 = uVar4;
+    if (uVar4 < uVar1) {
+      uVar5 = uVar1;
+    }
+    uVar1 = uVar5 + 1;
+    if (uVar1 == 0) {
+      _Dst = (void *)0x0;
+    }
+    else {
+      if (0xfff < uVar1) {
+        uVar4 = uVar5 + 0x28;
+        if (uVar4 <= uVar1) {
+                    /* WARNING: Subroutine does not return */
+          FUN_1800015b0();
+        }
+        goto LAB_180002d65;
+      }
+      _Dst = (void *)FUN_18000eeb0(uVar1);
+    }
+  }
+  else {
+    uVar4 = 0x8000000000000027;
+LAB_180002d65:
+    lVar3 = FUN_18000eeb0(uVar4);
+    if (lVar3 == 0) goto LAB_180002de0;
+    _Dst = (void *)(lVar3 + 0x27U & 0xffffffffffffffe0);
+    *(longlong *)((longlong)_Dst - 8) = lVar3;
+  }
+  param_1[2] = _Size + 1;
+  param_1[3] = uVar5;
+  if (uVar2 < 0x10) {
+    memcpy(_Dst,param_1,_Size);
+    *(undefined1 *)(_Size + (longlong)_Dst) = param_4;
+    *(undefined1 *)(_Size + 1 + (longlong)_Dst) = 0;
+  }
+  else {
+    _Src = (void *)*param_1;
+    memcpy(_Dst,_Src,_Size);
+    *(undefined1 *)(_Size + (longlong)_Dst) = param_4;
+    *(undefined1 *)(_Size + 1 + (longlong)_Dst) = 0;
+    pvVar6 = _Src;
+    if ((0xfff < uVar2 + 1) &&
+       (pvVar6 = *(void **)((longlong)_Src + -8),
+       0x1f < (ulonglong)((longlong)_Src + (-8 - (longlong)pvVar6)))) {
+LAB_180002de0:
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    FUN_18000f264(pvVar6);
+  }
+  *param_1 = _Dst;
+  return param_1;
+}
+
+
+
+
+##################################################
+FUNCTION 5
+NAME: FUN_180002e30
+ADDRESS: 180002e30 (RVA 0x2E30)
+SIGNATURE: undefined __fastcall FUN_180002e30(undefined8 * param_1, void * param_2, size_t param_3)
+SCORE: 0
+##################################################
+
+
+void FUN_180002e30(undefined8 *param_1,void *param_2,size_t param_3)
+
+{
+  ulonglong uVar1;
+  ulonglong uVar2;
+  ulonglong uVar3;
+  longlong lVar4;
+  void *_Dst;
+  
+  if (0x7fffffffffffffff < param_3) {
+                    /* WARNING: Subroutine does not return */
+    FUN_180001650();
+  }
+  if (param_3 < 0x10) {
+    param_1[2] = param_3;
+    param_1[3] = 0xf;
+    memcpy(param_1,param_2,param_3);
+    *(undefined1 *)(param_3 + (longlong)param_1) = 0;
+    return;
+  }
+  uVar2 = param_3 | 0xf;
+  if (uVar2 < 0x8000000000000000) {
+    if (uVar2 < 0x16) {
+      uVar2 = 0x16;
+    }
+    uVar1 = uVar2 + 1;
+    if (uVar1 == 0) {
+      _Dst = (void *)0x0;
+      goto LAB_180002ef5;
+    }
+    if (uVar1 < 0x1000) {
+      _Dst = (void *)FUN_18000eeb0(uVar1);
+      goto LAB_180002ef5;
+    }
+    uVar3 = uVar2 + 0x28;
+    if (uVar3 <= uVar1) {
+                    /* WARNING: Subroutine does not return */
+      FUN_1800015b0();
+    }
+  }
+  else {
+    uVar3 = 0x8000000000000027;
+    uVar2 = 0x7fffffffffffffff;
+  }
+  lVar4 = FUN_18000eeb0(uVar3);
+  if (lVar4 == 0) {
+                    /* WARNING: Subroutine does not return */
+    _invalid_parameter_noinfo_noreturn();
+  }
+  _Dst = (void *)(lVar4 + 0x27U & 0xffffffffffffffe0);
+  *(longlong *)((longlong)_Dst - 8) = lVar4;
+LAB_180002ef5:
+  *param_1 = _Dst;
+  param_1[2] = param_3;
+  param_1[3] = uVar2;
+  memcpy(_Dst,param_2,param_3);
+  *(undefined1 *)(param_3 + (longlong)_Dst) = 0;
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 6
+NAME: FUN_180002fb0
+ADDRESS: 180002fb0 (RVA 0x2FB0)
+SIGNATURE: undefined1 * __fastcall FUN_180002fb0(longlong * param_1, void * param_2, undefined1 * param_3)
+SCORE: 0
+##################################################
+
+
+undefined1 * FUN_180002fb0(longlong *param_1,void *param_2,undefined1 *param_3)
+
+{
+  ulonglong uVar1;
+  longlong lVar2;
+  void *pvVar3;
+  code *pcVar4;
+  longlong lVar5;
+  ulonglong uVar6;
+  undefined1 *_Dst;
+  void *pvVar7;
+  undefined1 *puVar8;
+  ulonglong uVar9;
+  size_t _Size;
+  undefined1 *puVar10;
+  
+  lVar2 = *param_1;
+  uVar9 = 0x7fffffffffffffff;
+  if (param_1[1] - lVar2 == 0x7fffffffffffffff) {
+    FUN_180003190();
+    pcVar4 = (code *)swi(3);
+    puVar8 = (undefined1 *)(*pcVar4)();
+    return puVar8;
+  }
+  uVar6 = param_1[2] - lVar2;
+  uVar1 = (param_1[1] - lVar2) + 1;
+  if (0x7fffffffffffffff - (uVar6 >> 1) < uVar6) {
+    uVar6 = 0x8000000000000026;
+LAB_18000301e:
+    lVar5 = FUN_18000eeb0(uVar6);
+    if (lVar5 == 0) goto LAB_180003118;
+    puVar8 = (undefined1 *)(lVar5 + 0x27U & 0xffffffffffffffe0);
+    *(longlong *)(puVar8 + -8) = lVar5;
+  }
+  else {
+    uVar6 = (uVar6 >> 1) + uVar6;
+    uVar9 = uVar1;
+    if (uVar1 <= uVar6) {
+      uVar9 = uVar6;
+    }
+    if (uVar9 == 0) {
+      puVar8 = (undefined1 *)0x0;
+    }
+    else {
+      if (0xfff < uVar9) {
+        uVar6 = uVar9 + 0x27;
+        if (uVar6 <= uVar9) {
+                    /* WARNING: Subroutine does not return */
+          FUN_1800015b0();
+        }
+        goto LAB_18000301e;
+      }
+      puVar8 = (undefined1 *)FUN_18000eeb0(uVar9);
+    }
+  }
+  puVar10 = puVar8 + ((longlong)param_2 - lVar2);
+  *puVar10 = *param_3;
+  pvVar3 = (void *)*param_1;
+  if (param_2 == (void *)param_1[1]) {
+    _Size = param_1[1] - (longlong)pvVar3;
+    _Dst = puVar8;
+    param_2 = pvVar3;
+  }
+  else {
+    memmove(puVar8,pvVar3,(longlong)param_2 - (longlong)pvVar3);
+    _Dst = puVar10 + 1;
+    _Size = param_1[1] - (longlong)param_2;
+  }
+  memmove(_Dst,param_2,_Size);
+  pvVar3 = (void *)*param_1;
+  if (pvVar3 != (void *)0x0) {
+    pvVar7 = pvVar3;
+    if ((0xfff < (ulonglong)(param_1[2] - (longlong)pvVar3)) &&
+       (pvVar7 = *(void **)((longlong)pvVar3 + -8),
+       0x1f < (ulonglong)((longlong)pvVar3 + (-8 - (longlong)pvVar7)))) {
+LAB_180003118:
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    FUN_18000f264(pvVar7);
+  }
+  *param_1 = (longlong)puVar8;
+  param_1[1] = (longlong)(puVar8 + uVar1);
+  param_1[2] = (longlong)(puVar8 + uVar9);
+  return puVar10;
+}
+
+
+
+
+##################################################
+FUNCTION 7
+NAME: FUN_180003130
+ADDRESS: 180003130 (RVA 0x3130)
+SIGNATURE: undefined __fastcall FUN_180003130(void * param_1, char param_2)
+SCORE: 0
+##################################################
+
+
+void FUN_180003130(void *param_1,char param_2)
+
+{
+  if (param_2 != '\0') {
+    FUN_18000f264(param_1);
+    return;
+  }
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 8
+NAME: FID_conflict:~vector<CHN*___ptr64,std::allocator<CHN*___ptr64>_>
+ADDRESS: 180004320 (RVA 0x4320)
+SIGNATURE: undefined __fastcall FID_conflict:~vector<CHN*___ptr64,std::allocator<CHN*___ptr64>_>(longlong * param_1)
+SCORE: 0
+##################################################
+
+
+/* Library Function - Multiple Matches With Different Base Names
+    public: __cdecl std::priority_queue<unsigned __int64,class std::vector<unsigned __int64,struct
+   std::_Parallelism_allocator<unsigned __int64> >,struct std::greater<void>
+   >::~priority_queue<unsigned __int64,class std::vector<unsigned __int64,struct
+   std::_Parallelism_allocator<unsigned __int64> >,struct std::greater<void> >(void) __ptr64
+    public: __cdecl std::vector<struct CHN * __ptr64,class std::allocator<struct CHN * __ptr64>
+   >::~vector<struct CHN * __ptr64,class std::allocator<struct CHN * __ptr64> >(void) __ptr64
+    public: __cdecl std::vector<unsigned __int64,struct std::_Parallelism_allocator<unsigned
+   __int64> >::~vector<unsigned __int64,struct std::_Parallelism_allocator<unsigned __int64> >(void)
+   __ptr64
+    public: __cdecl std::vector<unsigned __int64,class std::allocator<unsigned __int64>
+   >::~vector<unsigned __int64,class std::allocator<unsigned __int64> >(void) __ptr64
+     7 names - too many to list
+   
+   Library: Visual Studio 2019 Release */
+
+void FID_conflict__vector<CHN*___ptr64,std::allocator<CHN*___ptr64>_>(longlong *param_1)
+
+{
+  void *pvVar1;
+  void *pvVar2;
+  
+  pvVar1 = (void *)*param_1;
+  if (pvVar1 != (void *)0x0) {
+    pvVar2 = pvVar1;
+    if ((0xfff < (param_1[2] - (longlong)pvVar1 & 0xfffffffffffffff8U)) &&
+       (pvVar2 = *(void **)((longlong)pvVar1 + -8),
+       0x1f < (ulonglong)((longlong)pvVar1 + (-8 - (longlong)pvVar2)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    FUN_18000f264(pvVar2);
+    *param_1 = 0;
+    param_1[1] = 0;
+    param_1[2] = 0;
+  }
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 9
+NAME: FUN_180004380
+ADDRESS: 180004380 (RVA 0x4380)
+SIGNATURE: undefined __fastcall FUN_180004380(longlong * param_1)
+SCORE: 0
+##################################################
+
+
+void FUN_180004380(longlong *param_1)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  
+  puVar1 = (undefined8 *)*param_1;
+  *(undefined8 *)puVar1[1] = 0;
+  puVar1 = (undefined8 *)*puVar1;
+  while (puVar1 != (undefined8 *)0x0) {
+    puVar2 = (undefined8 *)*puVar1;
+    FUN_180005510(puVar1 + 2);
+    FUN_18000f264(puVar1);
+    puVar1 = puVar2;
+  }
+  FUN_18000f264((void *)*param_1);
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 10
+NAME: FUN_1800044b0
+ADDRESS: 1800044b0 (RVA 0x44B0)
+SIGNATURE: undefined8 * __fastcall FUN_1800044b0(undefined8 * param_1, undefined8 * param_2)
+SCORE: 0
+##################################################
+
+
+undefined8 * FUN_1800044b0(undefined8 *param_1,undefined8 *param_2)
+
+{
+  ulonglong uVar1;
+  ulonglong uVar2;
+  undefined8 uVar3;
+  ulonglong uVar4;
+  longlong lVar5;
+  void *_Dst;
+  ulonglong uVar6;
+  
+  _Dst = (void *)0x0;
+  *param_1 = 0;
+  param_1[1] = 0;
+  param_1[2] = 0;
+  param_1[3] = 0;
+  uVar2 = param_2[2];
+  if (0xf < (ulonglong)param_2[3]) {
+    param_2 = (undefined8 *)*param_2;
+  }
+  if (0x7fffffffffffffff < uVar2) {
+                    /* WARNING: Subroutine does not return */
+    FUN_180001650();
+  }
+  if (uVar2 < 0x10) {
+    param_1[2] = uVar2;
+    param_1[3] = 0xf;
+    uVar3 = param_2[1];
+    *param_1 = *param_2;
+    param_1[1] = uVar3;
+    return param_1;
+  }
+  uVar6 = uVar2 | 0xf;
+  if (uVar6 < 0x8000000000000000) {
+    if (uVar6 < 0x16) {
+      uVar6 = 0x16;
+    }
+    uVar1 = uVar6 + 1;
+    if (uVar1 == 0) goto LAB_18000458e;
+    if (uVar1 < 0x1000) {
+      _Dst = (void *)FUN_18000eeb0(uVar1);
+      goto LAB_18000458e;
+    }
+    uVar4 = uVar6 + 0x28;
+    if (uVar4 <= uVar1) {
+                    /* WARNING: Subroutine does not return */
+      FUN_1800015b0();
+    }
+  }
+  else {
+    uVar4 = 0x8000000000000027;
+    uVar6 = 0x7fffffffffffffff;
+  }
+  lVar5 = FUN_18000eeb0(uVar4);
+  if (lVar5 == 0) {
+                    /* WARNING: Subroutine does not return */
+    _invalid_parameter_noinfo_noreturn();
+  }
+  _Dst = (void *)(lVar5 + 0x27U & 0xffffffffffffffe0);
+  *(longlong *)((longlong)_Dst - 8) = lVar5;
+LAB_18000458e:
+  *param_1 = _Dst;
+  param_1[2] = uVar2;
+  param_1[3] = uVar6;
+  memcpy(_Dst,param_2,uVar2 + 1);
+  return param_1;
+}
+
+
+
+

@@ -1,0 +1,363 @@
+Frontier Evidence Decompilation
+================================
+Program: client-main.dll
+
+##################################################
+FUNCTION 1
+NAME: FUN_180010100
+ADDRESS: 180010100 (RVA 0x10100)
+SIGNATURE: undefined __fastcall FUN_180010100(void * param_1, char param_2)
+SCORE: 0
+##################################################
+
+
+void FUN_180010100(void *param_1,char param_2)
+
+{
+  if (param_2 != '\0') {
+    free(param_1);
+    return;
+  }
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 2
+NAME: FUN_180010410
+ADDRESS: 180010410 (RVA 0x10410)
+SIGNATURE: undefined8 * __fastcall FUN_180010410(undefined8 param_1, undefined8 * param_2)
+SCORE: 0
+##################################################
+
+
+undefined8 * FUN_180010410(undefined8 param_1,undefined8 *param_2)
+
+{
+  *param_2 = std::
+             _Func_impl_no_alloc<`private:_static_void___cdecl_Application::__MainThread(Application*___ptr64)'::`2'::<lambda_5>,void>
+             ::vftable;
+  return param_2;
+}
+
+
+
+
+##################################################
+FUNCTION 3
+NAME: FUN_180010510
+ADDRESS: 180010510 (RVA 0x10510)
+SIGNATURE: undefined8 * __fastcall FUN_180010510(undefined8 param_1, undefined8 * param_2)
+SCORE: 0
+##################################################
+
+
+undefined8 * FUN_180010510(undefined8 param_1,undefined8 *param_2)
+
+{
+  *param_2 = std::
+             _Func_impl_no_alloc<`private:_static_void___cdecl_Application::__MainThread(Application*___ptr64)'::`2'::<lambda_4>,void>
+             ::vftable;
+  return param_2;
+}
+
+
+
+
+##################################################
+FUNCTION 4
+NAME: FUN_180010520
+ADDRESS: 180010520 (RVA 0x10520)
+SIGNATURE: undefined __fastcall FUN_180010520(void * param_1, char param_2)
+SCORE: 0
+##################################################
+
+
+void FUN_180010520(void *param_1,char param_2)
+
+{
+  longlong *plVar1;
+  int *piVar2;
+  int iVar3;
+  longlong *plVar4;
+  longlong lVar5;
+  
+  plVar4 = *(longlong **)((longlong)param_1 + 0x10);
+  if (plVar4 != (longlong *)0x0) {
+    LOCK();
+    plVar1 = plVar4 + 1;
+    lVar5 = *plVar1;
+    *(int *)plVar1 = (int)*plVar1 + -1;
+    UNLOCK();
+    if ((int)lVar5 == 1) {
+      (**(code **)*plVar4)(plVar4);
+      LOCK();
+      piVar2 = (int *)((longlong)plVar4 + 0xc);
+      iVar3 = *piVar2;
+      *piVar2 = *piVar2 + -1;
+      UNLOCK();
+      if (iVar3 == 1) {
+        (**(code **)(*plVar4 + 8))(plVar4);
+      }
+    }
+  }
+  if (param_2 == '\0') {
+    return;
+  }
+  free(param_1);
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 5
+NAME: FUN_1800105c0
+ADDRESS: 1800105c0 (RVA 0x105C0)
+SIGNATURE: undefined8 * __fastcall FUN_1800105c0(longlong param_1, undefined8 * param_2)
+SCORE: 0
+##################################################
+
+
+undefined8 * FUN_1800105c0(longlong param_1,undefined8 *param_2)
+
+{
+  int *piVar1;
+  
+  *param_2 = std::
+             _Func_impl_no_alloc<`private:_static_void___cdecl_Application::__MainThread(Application*___ptr64)'::`2'::<lambda_3>,void>
+             ::vftable;
+  param_2[1] = 0;
+  param_2[2] = 0;
+  if (*(longlong *)(param_1 + 0x10) != 0) {
+    LOCK();
+    piVar1 = (int *)(*(longlong *)(param_1 + 0x10) + 8);
+    *piVar1 = *piVar1 + 1;
+    UNLOCK();
+  }
+  param_2[1] = *(undefined8 *)(param_1 + 8);
+  param_2[2] = *(undefined8 *)(param_1 + 0x10);
+  return param_2;
+}
+
+
+
+
+##################################################
+FUNCTION 6
+NAME: FUN_180010600
+ADDRESS: 180010600 (RVA 0x10600)
+SIGNATURE: undefined __fastcall FUN_180010600(void * param_1, char param_2)
+SCORE: 0
+##################################################
+
+
+void FUN_180010600(void *param_1,char param_2)
+
+{
+  longlong *plVar1;
+  int *piVar2;
+  int iVar3;
+  longlong *plVar4;
+  longlong lVar5;
+  
+  plVar4 = *(longlong **)((longlong)param_1 + 0x18);
+  if (plVar4 != (longlong *)0x0) {
+    LOCK();
+    plVar1 = plVar4 + 1;
+    lVar5 = *plVar1;
+    *(int *)plVar1 = (int)*plVar1 + -1;
+    UNLOCK();
+    if ((int)lVar5 == 1) {
+      (**(code **)*plVar4)(plVar4);
+      LOCK();
+      piVar2 = (int *)((longlong)plVar4 + 0xc);
+      iVar3 = *piVar2;
+      *piVar2 = *piVar2 + -1;
+      UNLOCK();
+      if (iVar3 == 1) {
+        (**(code **)(*plVar4 + 8))(plVar4);
+      }
+    }
+  }
+  if (param_2 == '\0') {
+    return;
+  }
+  free(param_1);
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 7
+NAME: FUN_1800106a0
+ADDRESS: 1800106a0 (RVA 0x106A0)
+SIGNATURE: undefined8 * __fastcall FUN_1800106a0(longlong param_1, undefined8 * param_2)
+SCORE: 0
+##################################################
+
+
+undefined8 * FUN_1800106a0(longlong param_1,undefined8 *param_2)
+
+{
+  int *piVar1;
+  
+  *param_2 = std::
+             _Func_impl_no_alloc<`private:_static_void___cdecl_Application::__MainThread(Application*___ptr64)'::`2'::<lambda_2>,void>
+             ::vftable;
+  param_2[1] = *(undefined8 *)(param_1 + 8);
+  param_2[2] = 0;
+  param_2[3] = 0;
+  if (*(longlong *)(param_1 + 0x18) != 0) {
+    LOCK();
+    piVar1 = (int *)(*(longlong *)(param_1 + 0x18) + 8);
+    *piVar1 = *piVar1 + 1;
+    UNLOCK();
+  }
+  param_2[2] = *(undefined8 *)(param_1 + 0x10);
+  param_2[3] = *(undefined8 *)(param_1 + 0x18);
+  return param_2;
+}
+
+
+
+
+##################################################
+FUNCTION 8
+NAME: FUN_1800109a0
+ADDRESS: 1800109a0 (RVA 0x109A0)
+SIGNATURE: undefined8 * __fastcall FUN_1800109a0(undefined8 param_1, undefined8 * param_2)
+SCORE: 0
+##################################################
+
+
+undefined8 * FUN_1800109a0(undefined8 param_1,undefined8 *param_2)
+
+{
+  *param_2 = std::_Func_impl_no_alloc<`void___cdecl_InitSpawn(void)'::`20'::<lambda_2>,void>::
+             vftable;
+  return param_2;
+}
+
+
+
+
+##################################################
+FUNCTION 9
+NAME: FUN_180010a70
+ADDRESS: 180010a70 (RVA 0x10A70)
+SIGNATURE: undefined8 * __fastcall FUN_180010a70(undefined8 param_1, undefined8 * param_2)
+SCORE: 0
+##################################################
+
+
+undefined8 * FUN_180010a70(undefined8 param_1,undefined8 *param_2)
+
+{
+  *param_2 = std::_Func_impl_no_alloc<`void___cdecl_InitSpawn(void)'::`5'::<lambda_1>,void>::vftable
+  ;
+  return param_2;
+}
+
+
+
+
+##################################################
+FUNCTION 10
+NAME: FUN_1800114b0
+ADDRESS: 1800114b0 (RVA 0x114B0)
+SIGNATURE: undefined1 * __fastcall FUN_1800114b0(undefined1 * param_1, basic_istream<char,std::char_traits<char>_> * param_2, longlong * param_3, undefined1[32] * param_4)
+SCORE: 0
+##################################################
+
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+undefined1 *
+FUN_1800114b0(undefined1 *param_1,basic_istream<char,std::char_traits<char>_> *param_2,
+             longlong *param_3,undefined1 (*param_4) [32])
+
+{
+  void *pvVar1;
+  char *pcVar2;
+  void *_Memory;
+  ulonglong _Size;
+  undefined1 auStack_e8 [48];
+  undefined4 local_b8;
+  undefined4 uStack_b4;
+  undefined4 uStack_b0;
+  undefined4 uStack_ac;
+  undefined8 local_a8;
+  longlong *local_98;
+  char *local_90;
+  char *pcStack_88;
+  longlong local_80;
+  undefined4 local_78;
+  undefined4 uStack_74;
+  undefined4 uStack_70;
+  undefined4 uStack_6c;
+  undefined8 local_68;
+  longlong local_60;
+  longlong local_58;
+  ulonglong local_48;
+  
+  local_48 = DAT_18012f440 ^ (ulonglong)auStack_e8;
+  local_98 = param_3;
+  std::basic_istream<char,std::char_traits<char>_>::tellg(param_2);
+  std::basic_istream<char,std::char_traits<char>_>::seekg(param_2,0,2);
+  std::basic_istream<char,std::char_traits<char>_>::tellg(param_2);
+  _Size = ((local_58 - CONCAT44(uStack_6c,uStack_70)) - CONCAT44(uStack_74,local_78)) + local_60;
+  local_b8 = local_78;
+  uStack_b4 = uStack_74;
+  uStack_b0 = uStack_70;
+  uStack_ac = uStack_6c;
+  local_a8 = local_68;
+  std::basic_istream<char,std::char_traits<char>_>::seekg(param_2,&local_b8);
+  local_90 = (char *)0x0;
+  pcStack_88 = (char *)0x0;
+  local_80 = 0;
+  if (_Size != 0) {
+    FUN_18004d2b0((ulonglong *)&local_90,_Size);
+    pcVar2 = local_90 + _Size;
+    memset(local_90,0,_Size);
+    pcStack_88 = pcVar2;
+  }
+  std::basic_istream<char,std::char_traits<char>_>::read(param_2,local_90,_Size);
+  FUN_180011ed0(param_1,(longlong *)&local_90,param_3,param_4);
+  if (local_90 != (char *)0x0) {
+    pcVar2 = local_90;
+    if ((0xfff < (ulonglong)(local_80 - (longlong)local_90)) &&
+       (pcVar2 = *(char **)(local_90 + -8), (char *)0x1f < local_90 + (-8 - (longlong)pcVar2))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(pcVar2);
+    local_90 = (char *)0x0;
+    pcStack_88 = (char *)0x0;
+    local_80 = 0;
+  }
+  if (0xf < (ulonglong)param_3[3]) {
+    pvVar1 = (void *)*param_3;
+    _Memory = pvVar1;
+    if ((0xfff < param_3[3] + 1U) &&
+       (_Memory = *(void **)((longlong)pvVar1 + -8),
+       0x1f < (ulonglong)((longlong)pvVar1 + (-8 - (longlong)_Memory)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(_Memory);
+  }
+  param_3[2] = 0;
+  param_3[3] = 0xf;
+  *(undefined1 *)param_3 = 0;
+  return param_1;
+}
+
+
+
+

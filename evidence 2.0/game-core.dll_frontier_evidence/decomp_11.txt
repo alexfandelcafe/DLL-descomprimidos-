@@ -1,0 +1,621 @@
+Frontier Evidence Decompilation
+================================
+Program: game-core.dll
+
+##################################################
+FUNCTION 1
+NAME: FUN_18000c230
+ADDRESS: 18000c230 (RVA 0xC230)
+SIGNATURE: undefined __fastcall FUN_18000c230(undefined8 * param_1)
+SCORE: 0
+##################################################
+
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void FUN_18000c230(undefined8 *param_1)
+
+{
+  undefined8 uVar1;
+  undefined8 *puVar2;
+  undefined1 auStack_58 [32];
+  undefined8 local_38;
+  undefined8 local_30 [2];
+  undefined8 local_20;
+  ulonglong local_18;
+  
+  local_18 = DAT_180019240 ^ (ulonglong)auStack_58;
+  local_20 = *(undefined8 *)param_1[2];
+  local_38 = ((undefined8 *)param_1[2])[1];
+  puVar2 = param_1;
+  uVar1 = FUN_18000c680(param_1,(byte *)&local_20);
+  if ((char)uVar1 == '\0') {
+    FUN_18000c740(puVar2,local_30,(byte *)&local_20,&local_38);
+    if ((undefined1 *)*param_1 != (undefined1 *)0x0) {
+      *(undefined1 *)*param_1 = 1;
+    }
+  }
+  else if ((undefined1 *)*param_1 != (undefined1 *)0x0) {
+    *(undefined1 *)*param_1 = 0;
+    return;
+  }
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 2
+NAME: FUN_18000c2c0
+ADDRESS: 18000c2c0 (RVA 0xC2C0)
+SIGNATURE: undefined __fastcall FUN_18000c2c0(undefined8 * param_1)
+SCORE: 0
+##################################################
+
+
+void FUN_18000c2c0(undefined8 *param_1)
+
+{
+  longlong *plVar1;
+  ulonglong uVar2;
+  longlong lVar3;
+  longlong *plVar4;
+  undefined8 uVar5;
+  longlong *plVar6;
+  longlong *plVar7;
+  ulonglong uVar8;
+  ulonglong local_18 [2];
+  
+  uVar8 = *(ulonglong *)param_1[2];
+  local_18[0] = uVar8;
+  uVar5 = FUN_18000c680(param_1,(byte *)local_18);
+  plVar4 = DAT_180019328;
+  if ((char)uVar5 == '\0') {
+    if ((undefined1 *)*param_1 != (undefined1 *)0x0) {
+      *(undefined1 *)*param_1 = 0;
+    }
+  }
+  else {
+    plVar7 = (longlong *)
+             (((((((((uVar8 >> 8 & 0xff ^ (uVar8 & 0xff ^ 0xcbf29ce484222325) * 0x100000001b3) *
+                     0x100000001b3 ^ uVar8 >> 0x10 & 0xff) * 0x100000001b3 ^ uVar8 >> 0x18 & 0xff) *
+                   0x100000001b3 ^ uVar8 >> 0x20 & 0xff) * 0x100000001b3 ^ uVar8 >> 0x28 & 0xff) *
+                 0x100000001b3 ^ uVar8 >> 0x30 & 0xff) * 0x100000001b3 ^ uVar8 >> 0x38) *
+               0x100000001b3 & DAT_180019350) * 0x10 + DAT_180019338);
+    plVar1 = (longlong *)plVar7[1];
+    if (plVar1 == DAT_180019328) {
+LAB_18000c3b9:
+      plVar6 = (longlong *)0x0;
+    }
+    else {
+      uVar2 = plVar1[2];
+      plVar6 = plVar1;
+      while (uVar8 != uVar2) {
+        if (plVar6 == (longlong *)*plVar7) goto LAB_18000c3b9;
+        plVar6 = (longlong *)plVar6[1];
+        uVar2 = plVar6[2];
+      }
+    }
+    if (plVar6 != (longlong *)0x0) {
+      if (plVar1 == plVar6) {
+        if ((longlong *)*plVar7 == plVar6) {
+          *plVar7 = (longlong)DAT_180019328;
+          plVar7[1] = (longlong)plVar4;
+        }
+        else {
+          plVar7[1] = plVar6[1];
+        }
+      }
+      else if ((longlong *)*plVar7 == plVar6) {
+        *plVar7 = *plVar6;
+      }
+      lVar3 = *plVar6;
+      DAT_180019330 = DAT_180019330 + -1;
+      *(longlong *)plVar6[1] = lVar3;
+      *(longlong *)(lVar3 + 8) = plVar6[1];
+      FUN_18000f264(plVar6);
+    }
+    if ((undefined1 *)*param_1 != (undefined1 *)0x0) {
+      *(undefined1 *)*param_1 = 1;
+      return;
+    }
+  }
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 3
+NAME: FUN_18000c430
+ADDRESS: 18000c430 (RVA 0xC430)
+SIGNATURE: undefined __fastcall FUN_18000c430(longlong * param_1)
+SCORE: 0
+##################################################
+
+
+void FUN_18000c430(longlong *param_1)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  
+  puVar1 = (undefined8 *)*param_1;
+  *(undefined8 *)puVar1[1] = 0;
+  puVar1 = (undefined8 *)*puVar1;
+  while (puVar1 != (undefined8 *)0x0) {
+    puVar2 = (undefined8 *)*puVar1;
+    FUN_18000f264(puVar1);
+    puVar1 = puVar2;
+  }
+  FUN_18000f264((void *)*param_1);
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 4
+NAME: FUN_18000c490
+ADDRESS: 18000c490 (RVA 0xC490)
+SIGNATURE: undefined4 __fastcall FUN_18000c490(undefined8 param_1)
+SCORE: 0
+##################################################
+
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+undefined4 FUN_18000c490(undefined8 param_1)
+
+{
+  int iVar1;
+  __uint64 _Var2;
+  ulonglong uVar3;
+  int iVar4;
+  code *pcVar5;
+  uint uVar6;
+  ulonglong uVar7;
+  undefined1 auStack_218 [32];
+  undefined8 *local_1f8;
+  uint local_1f0;
+  undefined4 local_1ec;
+  undefined8 *local_1e8;
+  uint local_1e0;
+  undefined1 local_1dc [4];
+  longlong alStack_1d8 [4];
+  undefined4 auStack_1b4 [39];
+  undefined4 local_118 [64];
+  ulonglong local_18;
+  
+  local_18 = DAT_180019240 ^ (ulonglong)auStack_218;
+  local_1ec = 0;
+  memset(local_1dc,0,0x1c4);
+  pcVar5 = (code *)0x0;
+  local_1f0 = 0;
+  local_1e0 = 0;
+  local_1f8 = (undefined8 *)local_118;
+  local_1e8 = (undefined8 *)local_118;
+  memset(local_118,0,0x100);
+  *(undefined8 *)((longlong)local_118 + (ulonglong)local_1f0 * 8) = param_1;
+  local_1f0 = local_1f0 + 1;
+  if ((*(int *)(*(longlong *)((longlong)ThreadLocalStoragePointer + (ulonglong)_tls_index * 8) + 4)
+       < DAT_18001b2b0) && (FUN_18000f340(&DAT_18001b2b0), DAT_18001b2b0 == -1)) {
+    uVar3 = 0x84415e28 % (ulonglong)(uint)rage::scrThread::s_CommandsRegistration[1];
+    uVar7 = 0x84415e28;
+    _Var2 = *rage::scrThread::s_CommandsRegistration;
+    iVar4 = (int)uVar3;
+    iVar1 = *(int *)(_Var2 + (ulonglong)(uint)(iVar4 * 4) * 4);
+    do {
+      if (iVar1 == -0x7bbea1d8) {
+        pcVar5 = *(code **)(_Var2 + 8 + (ulonglong)(uint)(iVar4 * 2) * 8);
+        goto LAB_18000c5b1;
+      }
+      uVar6 = (int)(uVar7 >> 1) + 1;
+      uVar7 = (ulonglong)uVar6;
+      uVar3 = (ulonglong)(uVar6 + (int)uVar3) %
+              (ulonglong)(uint)rage::scrThread::s_CommandsRegistration[1];
+      iVar4 = (int)uVar3;
+      iVar1 = *(int *)(_Var2 + (ulonglong)(uint)(iVar4 * 4) * 4);
+    } while (iVar1 != 0);
+    Log::Print(3,(char *)0x0,"Failed to find native with hash 0x%08X");
+LAB_18000c5b1:
+    DAT_18001b2b8 = pcVar5;
+    _Init_thread_footer(&DAT_18001b2b0);
+  }
+  uVar6 = local_1e0;
+  if (DAT_18001b2b8 != (code *)0x0) {
+    (*DAT_18001b2b8)(&local_1f8);
+    uVar6 = local_1e0;
+  }
+  while (uVar6 != 0) {
+    local_1e0 = uVar6 - 1;
+    *(undefined4 *)alStack_1d8[local_1e0] =
+         *(undefined4 *)((longlong)&local_1f8 + (ulonglong)((uVar6 + 3) * 0x10));
+    *(undefined4 *)(alStack_1d8[local_1e0] + 4) = auStack_1b4[(ulonglong)local_1e0 * 4];
+    *(undefined4 *)(alStack_1d8[local_1e0] + 8) = auStack_1b4[(ulonglong)local_1e0 * 4 + 1];
+    uVar6 = local_1e0;
+  }
+  return local_118[0];
+}
+
+
+
+
+##################################################
+FUNCTION 5
+NAME: FUN_18000c740
+ADDRESS: 18000c740 (RVA 0xC740)
+SIGNATURE: undefined8 * __fastcall FUN_18000c740(undefined8 param_1, undefined8 * param_2, byte * param_3, undefined8 * param_4)
+SCORE: 0
+##################################################
+
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+undefined8 * FUN_18000c740(undefined8 param_1,undefined8 *param_2,byte *param_3,undefined8 *param_4)
+
+{
+  longlong lVar1;
+  undefined8 *puVar2;
+  undefined8 *puVar3;
+  code *pcVar4;
+  undefined8 *puVar5;
+  ulonglong uVar6;
+  undefined8 *puVar7;
+  
+  uVar6 = (((((((((ulonglong)*param_3 ^ 0xcbf29ce484222325) * 0x100000001b3 ^ (ulonglong)param_3[1])
+                * 0x100000001b3 ^ (ulonglong)param_3[2]) * 0x100000001b3 ^ (ulonglong)param_3[3]) *
+              0x100000001b3 ^ (ulonglong)param_3[4]) * 0x100000001b3 ^ (ulonglong)param_3[5]) *
+            0x100000001b3 ^ (ulonglong)param_3[6]) * 0x100000001b3 ^ (ulonglong)param_3[7]) *
+          0x100000001b3;
+  puVar5 = *(undefined8 **)(DAT_180019338 + 8 + (DAT_180019350 & uVar6) * 0x10);
+  puVar7 = DAT_180019328;
+  if (puVar5 != DAT_180019328) {
+    lVar1 = puVar5[2];
+    puVar7 = puVar5;
+    while( true ) {
+      if (*(longlong *)param_3 == lVar1) {
+        *param_2 = puVar7;
+        *(undefined1 *)(param_2 + 1) = 0;
+        return param_2;
+      }
+      if (puVar7 == *(undefined8 **)(DAT_180019338 + (DAT_180019350 & uVar6) * 0x10)) break;
+      puVar7 = (undefined8 *)puVar7[1];
+      lVar1 = puVar7[2];
+    }
+  }
+  if (DAT_180019330 == 0x7ffffffffffffff) {
+    std::_Xlength_error("unordered_map/set too long");
+    pcVar4 = (code *)swi(3);
+    puVar5 = (undefined8 *)(*pcVar4)();
+    return puVar5;
+  }
+  puVar5 = (undefined8 *)FUN_18000eeb0(0x20);
+  puVar5[2] = *(undefined8 *)param_3;
+  puVar5[3] = *param_4;
+  if (_DAT_180019320 < (float)(DAT_180019330 + 1) / (float)DAT_180019358) {
+    FUN_18000cc60();
+    puVar2 = *(undefined8 **)(DAT_180019338 + 8 + (DAT_180019350 & uVar6) * 0x10);
+    puVar7 = DAT_180019328;
+    if (puVar2 != DAT_180019328) {
+      lVar1 = puVar2[2];
+      puVar7 = puVar2;
+      while (puVar5[2] != lVar1) {
+        if (puVar7 == *(undefined8 **)(DAT_180019338 + (DAT_180019350 & uVar6) * 0x10))
+        goto LAB_18000c93b;
+        puVar7 = (undefined8 *)puVar7[1];
+        lVar1 = puVar7[2];
+      }
+      puVar7 = (undefined8 *)*puVar7;
+    }
+  }
+LAB_18000c93b:
+  puVar2 = (undefined8 *)puVar7[1];
+  DAT_180019330 = DAT_180019330 + 1;
+  *puVar5 = puVar7;
+  puVar5[1] = puVar2;
+  *puVar2 = puVar5;
+  puVar7[1] = puVar5;
+  lVar1 = DAT_180019338;
+  uVar6 = DAT_180019350 & uVar6;
+  puVar3 = *(undefined8 **)(DAT_180019338 + uVar6 * 0x10);
+  if (puVar3 == DAT_180019328) {
+    *(undefined8 **)(DAT_180019338 + uVar6 * 0x10) = puVar5;
+  }
+  else {
+    if (puVar3 == puVar7) {
+      *(undefined8 **)(DAT_180019338 + uVar6 * 0x10) = puVar5;
+      goto LAB_18000c99a;
+    }
+    if (*(undefined8 **)(DAT_180019338 + 8 + uVar6 * 0x10) != puVar2) goto LAB_18000c99a;
+  }
+  *(undefined8 **)(lVar1 + 8 + uVar6 * 0x10) = puVar5;
+LAB_18000c99a:
+  *param_2 = puVar5;
+  *(undefined1 *)(param_2 + 1) = 1;
+  return param_2;
+}
+
+
+
+
+##################################################
+FUNCTION 6
+NAME: FUN_18000c9b0
+ADDRESS: 18000c9b0 (RVA 0xC9B0)
+SIGNATURE: undefined8 * __fastcall FUN_18000c9b0(undefined8 param_1, undefined8 * param_2, byte * param_3)
+SCORE: 0
+##################################################
+
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+undefined8 * FUN_18000c9b0(undefined8 param_1,undefined8 *param_2,byte *param_3)
+
+{
+  undefined8 *puVar1;
+  longlong lVar2;
+  undefined8 *puVar3;
+  code *pcVar4;
+  undefined8 *puVar5;
+  undefined8 *puVar6;
+  ulonglong uVar7;
+  
+  uVar7 = (((((((((ulonglong)*param_3 ^ 0xcbf29ce484222325) * 0x100000001b3 ^ (ulonglong)param_3[1])
+                * 0x100000001b3 ^ (ulonglong)param_3[2]) * 0x100000001b3 ^ (ulonglong)param_3[3]) *
+              0x100000001b3 ^ (ulonglong)param_3[4]) * 0x100000001b3 ^ (ulonglong)param_3[5]) *
+            0x100000001b3 ^ (ulonglong)param_3[6]) * 0x100000001b3 ^ (ulonglong)param_3[7]) *
+          0x100000001b3;
+  puVar5 = *(undefined8 **)(DAT_180019338 + 8 + (DAT_180019350 & uVar7) * 0x10);
+  puVar6 = DAT_180019328;
+  if (puVar5 != DAT_180019328) {
+    lVar2 = puVar5[2];
+    while( true ) {
+      if (*(longlong *)param_3 == lVar2) {
+        *param_2 = puVar5;
+        *(undefined1 *)(param_2 + 1) = 0;
+        return param_2;
+      }
+      puVar6 = puVar5;
+      if (puVar5 == *(undefined8 **)(DAT_180019338 + (DAT_180019350 & uVar7) * 0x10)) break;
+      puVar5 = (undefined8 *)puVar5[1];
+      lVar2 = puVar5[2];
+    }
+  }
+  if (DAT_180019330 == 0x7ffffffffffffff) {
+    std::_Xlength_error("unordered_map/set too long");
+    pcVar4 = (code *)swi(3);
+    puVar5 = (undefined8 *)(*pcVar4)();
+    return puVar5;
+  }
+  puVar5 = (undefined8 *)FUN_18000eeb0(0x20);
+  puVar5[2] = *(undefined8 *)param_3;
+  puVar5[3] = 0;
+  if (_DAT_180019320 < (float)(DAT_180019330 + 1) / (float)DAT_180019358) {
+    FUN_18000cc60();
+    puVar1 = *(undefined8 **)(DAT_180019338 + 8 + (DAT_180019350 & uVar7) * 0x10);
+    puVar6 = DAT_180019328;
+    if (puVar1 != DAT_180019328) {
+      lVar2 = puVar1[2];
+      while (puVar5[2] != lVar2) {
+        puVar6 = puVar1;
+        if (puVar1 == *(undefined8 **)(DAT_180019338 + (DAT_180019350 & uVar7) * 0x10))
+        goto LAB_18000cbc9;
+        puVar1 = (undefined8 *)puVar1[1];
+        lVar2 = puVar1[2];
+      }
+      puVar6 = (undefined8 *)*puVar1;
+    }
+  }
+LAB_18000cbc9:
+  puVar1 = (undefined8 *)puVar6[1];
+  DAT_180019330 = DAT_180019330 + 1;
+  *puVar5 = puVar6;
+  puVar5[1] = puVar1;
+  *puVar1 = puVar5;
+  puVar6[1] = puVar5;
+  lVar2 = DAT_180019338;
+  uVar7 = DAT_180019350 & uVar7;
+  puVar3 = *(undefined8 **)(DAT_180019338 + uVar7 * 0x10);
+  if (puVar3 == DAT_180019328) {
+    *(undefined8 **)(DAT_180019338 + uVar7 * 0x10) = puVar5;
+  }
+  else {
+    if (puVar3 == puVar6) {
+      *(undefined8 **)(DAT_180019338 + uVar7 * 0x10) = puVar5;
+      goto LAB_18000cc2a;
+    }
+    if (*(undefined8 **)(DAT_180019338 + 8 + uVar7 * 0x10) != puVar1) goto LAB_18000cc2a;
+  }
+  *(undefined8 **)(lVar2 + 8 + uVar7 * 0x10) = puVar5;
+LAB_18000cc2a:
+  *param_2 = puVar5;
+  *(undefined1 *)(param_2 + 1) = 1;
+  return param_2;
+}
+
+
+
+
+##################################################
+FUNCTION 7
+NAME: FUN_18000cf00
+ADDRESS: 18000cf00 (RVA 0xCF00)
+SIGNATURE: undefined __fastcall FUN_18000cf00(undefined8 param_1, longlong param_2)
+SCORE: 0
+##################################################
+
+
+void FUN_18000cf00(undefined8 param_1,longlong param_2)
+
+{
+  uint uVar1;
+  int iVar2;
+  int *piVar3;
+  char *pcVar4;
+  
+  piVar3 = (int *)(*(longlong *)(param_2 + 0x10) + 1);
+  iVar2 = *piVar3;
+  FUN_18000d8f4();
+  uVar1 = FUN_18000d740((undefined8 *)((longlong)piVar3 + (longlong)iVar2 + 4),FUN_18000c1b0,
+                        &DAT_18001b2a8);
+  if (uVar1 == 0) {
+    iVar2 = FUN_18000d8e8((longlong)piVar3 + (longlong)iVar2 + 4);
+    if (iVar2 == 0) {
+      return;
+    }
+    pcVar4 = "Failed to enable hook \'%s\'";
+  }
+  else {
+    pcVar4 = "Failed to create hook \'%s\'";
+  }
+                    /* WARNING: Could not recover jumptable at 0x00018000cf63. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Log::Print(3,(char *)0x0,pcVar4);
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 8
+NAME: FUN_18000cf90
+ADDRESS: 18000cf90 (RVA 0xCF90)
+SIGNATURE: undefined __fastcall FUN_18000cf90(undefined8 param_1, longlong param_2)
+SCORE: 0
+##################################################
+
+
+void FUN_18000cf90(undefined8 param_1,longlong param_2)
+
+{
+  uint uVar1;
+  int iVar2;
+  int *piVar3;
+  char *pcVar4;
+  
+  piVar3 = (int *)(*(longlong *)(param_2 + 0x10) + 1);
+  iVar2 = *piVar3;
+  FUN_18000d8f4();
+  uVar1 = FUN_18000d740((undefined8 *)((longlong)piVar3 + (longlong)iVar2 + 4),FUN_18000c140,
+                        &DAT_18001b2a0);
+  if (uVar1 == 0) {
+    iVar2 = FUN_18000d8e8((longlong)piVar3 + (longlong)iVar2 + 4);
+    if (iVar2 == 0) {
+      return;
+    }
+    pcVar4 = "Failed to enable hook \'%s\'";
+  }
+  else {
+    pcVar4 = "Failed to create hook \'%s\'";
+  }
+                    /* WARNING: Could not recover jumptable at 0x00018000cff3. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Log::Print(3,(char *)0x0,pcVar4);
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 9
+NAME: FUN_18000d010
+ADDRESS: 18000d010 (RVA 0xD010)
+SIGNATURE: LPVOID __fastcall FUN_18000d010(void)
+SCORE: 0
+##################################################
+
+
+LPVOID FUN_18000d010(void)
+
+{
+  LPVOID pvVar1;
+  ulonglong uVar2;
+  
+  if (DAT_18001b2d0 == (LPVOID)0x0) {
+    DAT_18001b2d8 = 0x20;
+    DAT_18001b2d0 = HeapAlloc(DAT_18001a9e8,0,0x700);
+    if (DAT_18001b2d0 == (LPVOID)0x0) {
+      return (LPVOID)0x0;
+    }
+  }
+  else if (DAT_18001b2d8 <= DAT_18001b2dc) {
+    pvVar1 = HeapReAlloc(DAT_18001a9e8,0,DAT_18001b2d0,(ulonglong)(DAT_18001b2d8 * 2) * 0x38);
+    if (pvVar1 == (LPVOID)0x0) {
+      return (LPVOID)0x0;
+    }
+    DAT_18001b2d8 = DAT_18001b2d8 * 2;
+    DAT_18001b2d0 = pvVar1;
+  }
+  uVar2 = (ulonglong)DAT_18001b2dc;
+  DAT_18001b2dc = DAT_18001b2dc + 1;
+  return (LPVOID)(uVar2 * 0x38 + (longlong)DAT_18001b2d0);
+}
+
+
+
+
+##################################################
+FUNCTION 10
+NAME: FUN_18000d218
+ADDRESS: 18000d218 (RVA 0xD218)
+SIGNATURE: ulonglong __fastcall FUN_18000d218(longlong param_1, uint param_2)
+SCORE: 0
+##################################################
+
+
+ulonglong FUN_18000d218(longlong param_1,uint param_2)
+
+{
+  ulonglong uVar1;
+  longlong *plVar2;
+  uint uVar3;
+  longlong local_18 [2];
+  
+  FUN_18000d40c();
+  uVar3 = 0;
+  if (DAT_18001a9e8 == 0) {
+    uVar1 = 2;
+  }
+  else if (param_1 == 0) {
+    uVar1 = FUN_18000d158(param_2);
+    uVar1 = uVar1 & 0xffffffff;
+  }
+  else {
+    plVar2 = DAT_18001b2d0;
+    if (DAT_18001b2dc != 0) {
+      do {
+        if (param_1 == *plVar2) goto LAB_18000d282;
+        uVar3 = uVar3 + 1;
+        plVar2 = plVar2 + 7;
+      } while (uVar3 < DAT_18001b2dc);
+    }
+    uVar3 = 0xffffffff;
+LAB_18000d282:
+    if (uVar3 == 0xffffffff) {
+      uVar1 = 4;
+    }
+    else if ((*(byte *)(DAT_18001b2d0 + (ulonglong)uVar3 * 7 + 4) >> 1 & 1) == param_2) {
+      uVar1 = (ulonglong)(6 - (param_2 != 0));
+    }
+    else {
+      FUN_18000d44c(local_18,uVar3,1);
+      uVar1 = FUN_18000d2f8((ulonglong)uVar3,param_2);
+      uVar1 = uVar1 & 0xffffffff;
+      FUN_18000da28(local_18);
+    }
+  }
+  LOCK();
+  DAT_18001a9e0 = 0;
+  UNLOCK();
+  return uVar1;
+}
+
+
+
+

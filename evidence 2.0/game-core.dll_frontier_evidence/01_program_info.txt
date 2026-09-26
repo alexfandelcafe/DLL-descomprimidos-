@@ -1,0 +1,11 @@
+Program information
+===================
+
+Name: game-core.dll
+Executable path: /C:/Users/Alex/Desktop/RDRMP Latest Build (Offline)/data/game-core.dll
+Language: x86/little/64/default
+Compiler specification: ghidra.program.database.ProgramCompilerSpec@28d6d376
+Image base: 180000000
+Min address: 180000000
+Max address: ff0000184f
+Function count: 535

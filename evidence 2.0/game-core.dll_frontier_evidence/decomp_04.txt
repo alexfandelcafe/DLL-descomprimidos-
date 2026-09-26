@@ -1,0 +1,727 @@
+Frontier Evidence Decompilation
+================================
+Program: game-core.dll
+
+##################################################
+FUNCTION 1
+NAME: FUN_180001650
+ADDRESS: 180001650 (RVA 0x1650)
+SIGNATURE: noreturn undefined __fastcall FUN_180001650(void)
+SCORE: 0
+##################################################
+
+
+void FUN_180001650(void)
+
+{
+  code *pcVar1;
+  
+  std::_Xlength_error("string too long");
+  pcVar1 = (code *)swi(3);
+  (*pcVar1)();
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 2
+NAME: FUN_180001750
+ADDRESS: 180001750 (RVA 0x1750)
+SIGNATURE: undefined __fastcall FUN_180001750(longlong * param_1)
+SCORE: 0
+##################################################
+
+
+void FUN_180001750(longlong *param_1)
+
+{
+  void *pvVar1;
+  void *pvVar2;
+  
+  if (7 < (ulonglong)param_1[3]) {
+    pvVar1 = (void *)*param_1;
+    pvVar2 = pvVar1;
+    if ((0xfff < param_1[3] * 2 + 2U) &&
+       (pvVar2 = *(void **)((longlong)pvVar1 + -8),
+       0x1f < (ulonglong)((longlong)pvVar1 + (-8 - (longlong)pvVar2)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    FUN_18000f264(pvVar2);
+  }
+  param_1[3] = 7;
+  param_1[2] = 0;
+  *(undefined2 *)param_1 = 0;
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 3
+NAME: FUN_180001820
+ADDRESS: 180001820 (RVA 0x1820)
+SIGNATURE: undefined __fastcall FUN_180001820(undefined8 * param_1, longlong * param_2, longlong param_3)
+SCORE: 0
+##################################################
+
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void FUN_180001820(undefined8 *param_1,longlong *param_2,longlong param_3)
+
+{
+  longlong *plVar1;
+  undefined1 uVar2;
+  char ******ppppppcVar3;
+  bool bVar4;
+  undefined8 *puVar5;
+  basic_istream<char,std::char_traits<char>_> *pbVar6;
+  basic_istream<char,struct_std::char_traits<char>_> *this;
+  HMODULE pHVar7;
+  HANDLE pvVar8;
+  char *pcVar9;
+  char *******pppppppcVar10;
+  undefined1 *puVar11;
+  char *pcVar12;
+  int iVar13;
+  ulonglong uVar14;
+  size_t sVar15;
+  uint uVar16;
+  undefined1 auStack_2d8 [32];
+  undefined1 local_2b8 [4];
+  uint local_2b4;
+  undefined8 *local_2b0;
+  undefined8 uStack_2a8;
+  longlong local_2a0;
+  ulonglong uStack_298;
+  longlong *local_290;
+  undefined ***local_288;
+  longlong local_280;
+  uint local_278;
+  undefined1 *local_268;
+  undefined1 *puStack_260;
+  undefined1 *local_258;
+  undefined ***local_250;
+  char ******local_248;
+  undefined8 uStack_240;
+  longlong local_238;
+  undefined8 local_230;
+  undefined *local_228 [2];
+  undefined **local_218;
+  basic_istream<char,std::char_traits<char>_> local_210 [16];
+  undefined8 *local_200;
+  undefined8 *local_1f8;
+  undefined8 *local_1e0;
+  undefined8 *local_1d8;
+  int *local_1c8;
+  int *local_1c0;
+  undefined1 *local_1b0;
+  undefined4 local_1a8;
+  basic_ios<char,std::char_traits<char>_> local_198 [92];
+  int iStack_13c;
+  undefined *local_138 [2];
+  undefined **local_128;
+  basic_istream<char,std::char_traits<char>_> local_120 [120];
+  basic_ios<char,std::char_traits<char>_> local_a8 [96];
+  ulonglong local_48;
+  
+  local_48 = DAT_180019240 ^ (ulonglong)auStack_2d8;
+  local_2b4 = 0;
+  local_268 = (undefined1 *)0x0;
+  puStack_260 = (undefined1 *)0x0;
+  local_258 = (undefined1 *)0x0;
+  local_290 = param_2;
+  memset(local_228,0,0xf0);
+  local_2b0 = (undefined8 *)0x0;
+  uStack_2a8 = 0;
+  local_2a0 = 0;
+  uStack_298 = 0;
+  sVar15 = 0xffffffffffffffff;
+  do {
+    sVar15 = sVar15 + 1;
+  } while (*(char *)((longlong)param_1[1] + sVar15) != '\0');
+  FUN_180002e30(&local_2b0,(void *)param_1[1],sVar15);
+  local_228[0] = &DAT_1800118a8;
+  std::basic_ios<char,std::char_traits<char>_>::basic_ios<char,std::char_traits<char>_>(local_198);
+  uVar16 = 2;
+  local_2b4 = 2;
+  std::basic_istream<char,std::char_traits<char>_>::basic_istream<char,std::char_traits<char>_>
+            ((basic_istream<char,std::char_traits<char>_> *)local_228,
+             (basic_streambuf<char,std::char_traits<char>_> *)&local_218,false);
+  *(undefined ***)((longlong)local_228 + (longlong)*(int *)(local_228[0] + 4)) =
+       std::basic_istringstream<char,std::char_traits<char>,std::allocator<char>_>::vftable;
+  *(int *)((longlong)local_228 + (longlong)*(int *)(local_228[0] + 4) + -4) =
+       *(int *)(local_228[0] + 4) + -0x90;
+  local_250 = &local_218;
+  std::basic_streambuf<char,std::char_traits<char>_>::basic_streambuf<char,std::char_traits<char>_>
+            ((basic_streambuf<char,std::char_traits<char>_> *)&local_218);
+  local_218 = std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char>_>::vftable;
+  if (uStack_298 < 0x10) {
+    iVar13 = 0x11;
+    puVar5 = (undefined8 *)FUN_18000eeb0(0x11);
+    *puVar5 = local_2b0;
+    puVar5[1] = uStack_2a8;
+  }
+  else {
+    iVar13 = (int)uStack_298 + 1;
+    puVar5 = local_2b0;
+  }
+  local_1b0 = (undefined1 *)(local_2a0 + (longlong)puVar5);
+  *local_1f8 = puVar5;
+  *local_1d8 = puVar5;
+  *local_1c0 = iVar13;
+  *local_200 = puVar5;
+  *local_1e0 = puVar5;
+  *local_1c8 = (int)local_1b0 - (int)puVar5;
+  local_1a8 = 0x23;
+  uStack_240 = 0;
+  local_238 = 0;
+  local_230 = 0xf;
+  local_248 = (char ******)0x0;
+  pbVar6 = FUN_180002ae0((basic_istream<char,std::char_traits<char>_> *)local_228,
+                         (longlong *)&local_248,puVar5);
+  bVar4 = std::ios_base::operator_bool((ios_base *)(pbVar6 + *(int *)(*(longlong *)pbVar6 + 4)));
+  if (bVar4) {
+    do {
+      uVar14 = local_230;
+      ppppppcVar3 = local_248;
+      pppppppcVar10 = &local_248;
+      if (0xf < local_230) {
+        pppppppcVar10 = (char *******)local_248;
+      }
+      if (*(char *)pppppppcVar10 == '?') {
+        local_2b8[0] = 0;
+        if (puStack_260 == local_258) {
+          puVar5 = (undefined8 *)local_2b8;
+          FUN_180002fb0((longlong *)&local_268,puStack_260,(undefined1 *)puVar5);
+        }
+        else {
+          *puStack_260 = 0;
+          puStack_260 = puStack_260 + 1;
+        }
+      }
+      else {
+        if (((local_238 != 2) || (iVar13 = isxdigit((int)*(char *)pppppppcVar10), iVar13 == 0)) ||
+           (iVar13 = isxdigit((int)*(char *)((longlong)pppppppcVar10 + 1)), iVar13 == 0)) {
+          Log::Print(3,(char *)0x0,"Invalid pattern format \'%s\'",*param_1);
+          if (0xf < uVar14) {
+            pppppppcVar10 = (char *******)ppppppcVar3;
+            if ((0xfff < uVar14 + 1) &&
+               (pppppppcVar10 = (char *******)ppppppcVar3[-1],
+               (char *)0x1f < (char *)((longlong)ppppppcVar3 + (-8 - (longlong)pppppppcVar10))))
+            goto LAB_180001cec;
+            FUN_18000f264(pppppppcVar10);
+          }
+          *(undefined ***)((longlong)local_228 + (longlong)*(int *)(local_228[0] + 4)) =
+               std::basic_istringstream<char,std::char_traits<char>,std::allocator<char>_>::vftable;
+          *(int *)((longlong)local_228 + (longlong)*(int *)(local_228[0] + 4) + -4) =
+               *(int *)(local_228[0] + 4) + -0x90;
+          FUN_180002650((basic_streambuf<char,std::char_traits<char>_> *)&local_218);
+          std::basic_istream<char,std::char_traits<char>_>::
+          ~basic_istream<char,std::char_traits<char>_>(local_210);
+          std::basic_ios<char,std::char_traits<char>_>::~basic_ios<char,std::char_traits<char>_>
+                    (local_198);
+          if (local_268 != (undefined1 *)0x0) {
+            puVar11 = local_268;
+            if ((0xfff < (ulonglong)((longlong)local_258 - (longlong)local_268)) &&
+               (puVar11 = *(undefined1 **)(local_268 + -8),
+               (undefined1 *)0x1f < local_268 + (-8 - (longlong)puVar11))) goto LAB_180001fa7;
+            FUN_18000f264(puVar11);
+            local_268 = (undefined1 *)0x0;
+            puStack_260 = (undefined1 *)0x0;
+            local_258 = (undefined1 *)0x0;
+          }
+          plVar1 = (longlong *)param_2[7];
+          if (plVar1 == (longlong *)0x0) {
+            return;
+          }
+          (**(code **)(*plVar1 + 0x20))(plVar1,plVar1 != param_2);
+          param_2[7] = 0;
+          return;
+        }
+        memset(local_138,0,0xf0);
+        local_138[0] = &DAT_1800118a8;
+        std::basic_ios<char,std::char_traits<char>_>::basic_ios<char,std::char_traits<char>_>
+                  (local_a8);
+        uVar16 = uVar16 | 1;
+        local_2b4 = uVar16;
+        std::basic_istream<char,std::char_traits<char>_>::
+        basic_istream<char,std::char_traits<char>_>
+                  ((basic_istream<char,std::char_traits<char>_> *)local_138,
+                   (basic_streambuf<char,std::char_traits<char>_> *)&local_128,false);
+        *(undefined ***)((longlong)local_138 + (longlong)*(int *)(local_138[0] + 4)) =
+             std::basic_istringstream<char,std::char_traits<char>,std::allocator<char>_>::vftable;
+        *(int *)((longlong)&iStack_13c + (longlong)*(int *)(local_138[0] + 4)) =
+             *(int *)(local_138[0] + 4) + -0x90;
+        local_288 = &local_128;
+        std::basic_streambuf<char,std::char_traits<char>_>::
+        basic_streambuf<char,std::char_traits<char>_>
+                  ((basic_streambuf<char,std::char_traits<char>_> *)&local_128);
+        local_128 = std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char>_>::vftable
+        ;
+        pppppppcVar10 = &local_248;
+        if (0xf < uVar14) {
+          pppppppcVar10 = (char *******)ppppppcVar3;
+        }
+        puVar5 = (undefined8 *)0x2;
+        FUN_180002890((longlong)&local_128,pppppppcVar10,2,2);
+        local_250 = (undefined ***)((ulonglong)local_250 & 0xffffffff00000000);
+        this = std::basic_istream<char,std::char_traits<char>_>::operator>>
+                         ((basic_istream<char,std::char_traits<char>_> *)local_138,FUN_180001730);
+        std::basic_istream<char,std::char_traits<char>_>::operator>>
+                  ((basic_istream<char,std::char_traits<char>_> *)this,(uint *)&local_250);
+        uVar2 = local_250._0_1_;
+        *(undefined ***)((longlong)local_138 + (longlong)*(int *)(local_138[0] + 4)) =
+             std::basic_istringstream<char,std::char_traits<char>,std::allocator<char>_>::vftable;
+        *(int *)((longlong)&iStack_13c + (longlong)*(int *)(local_138[0] + 4)) =
+             *(int *)(local_138[0] + 4) + -0x90;
+        FUN_180002650((basic_streambuf<char,std::char_traits<char>_> *)&local_128);
+        std::basic_istream<char,std::char_traits<char>_>::
+        ~basic_istream<char,std::char_traits<char>_>(local_120);
+        std::basic_ios<char,std::char_traits<char>_>::~basic_ios<char,std::char_traits<char>_>
+                  (local_a8);
+        local_2b8[0] = uVar2;
+        if (puStack_260 == local_258) {
+          puVar5 = (undefined8 *)local_2b8;
+          FUN_180002fb0((longlong *)&local_268,puStack_260,(undefined1 *)puVar5);
+        }
+        else {
+          *puStack_260 = uVar2;
+          puStack_260 = puStack_260 + 1;
+        }
+      }
+      pbVar6 = FUN_180002ae0((basic_istream<char,std::char_traits<char>_> *)local_228,
+                             (longlong *)&local_248,puVar5);
+      bVar4 = std::ios_base::operator_bool((ios_base *)(pbVar6 + *(int *)(*(longlong *)pbVar6 + 4)))
+      ;
+    } while (bVar4);
+  }
+  uVar14 = 0;
+  pHVar7 = GetModuleHandleW((LPCWSTR)0x0);
+  pvVar8 = GetCurrentProcess();
+  K32GetModuleInformation(pvVar8,pHVar7,&local_280,0x18);
+  if (local_278 != 0) {
+    do {
+      pcVar12 = (char *)(uVar14 + local_280);
+      if (puStack_260 != local_268) {
+        pcVar9 = pcVar12;
+        do {
+          if ((pcVar9[(longlong)local_268 - (longlong)pcVar12] != '\0') &&
+             (*pcVar9 != pcVar9[(longlong)local_268 - (longlong)pcVar12])) goto LAB_180001c8d;
+          pcVar9 = pcVar9 + 1;
+        } while ((ulonglong)((longlong)pcVar9 - (longlong)pcVar12) <
+                 (ulonglong)((longlong)puStack_260 - (longlong)local_268));
+      }
+      if (param_3 == 0) {
+        param_1[2] = pcVar12;
+        plVar1 = (longlong *)param_2[7];
+        if (plVar1 == (longlong *)0x0) {
+                    /* WARNING: Subroutine does not return */
+          std::_Xbad_function_call();
+        }
+        (**(code **)(*plVar1 + 0x10))(plVar1,param_1);
+        if (0xf < local_230) {
+          pppppppcVar10 = (char *******)local_248;
+          if ((0xfff < local_230 + 1) &&
+             (pppppppcVar10 = (char *******)local_248[-1],
+             (char *)0x1f < (char *)((longlong)local_248 + (-8 - (longlong)pppppppcVar10))))
+          goto LAB_180001cec;
+          FUN_18000f264(pppppppcVar10);
+        }
+        *(undefined ***)((longlong)local_228 + (longlong)*(int *)(local_228[0] + 4)) =
+             std::basic_istringstream<char,std::char_traits<char>,std::allocator<char>_>::vftable;
+        *(int *)((longlong)local_228 + (longlong)*(int *)(local_228[0] + 4) + -4) =
+             *(int *)(local_228[0] + 4) + -0x90;
+        FUN_180002650((basic_streambuf<char,std::char_traits<char>_> *)&local_218);
+        std::basic_istream<char,std::char_traits<char>_>::
+        ~basic_istream<char,std::char_traits<char>_>(local_210);
+        std::basic_ios<char,std::char_traits<char>_>::~basic_ios<char,std::char_traits<char>_>
+                  (local_198);
+        if (local_268 == (undefined1 *)0x0) goto LAB_180001edc;
+        puVar11 = local_268;
+        if (((ulonglong)((longlong)local_258 - (longlong)local_268) < 0x1000) ||
+           (puVar11 = *(undefined1 **)(local_268 + -8),
+           local_268 + (-8 - (longlong)puVar11) < (undefined1 *)0x20)) goto LAB_180001ec9;
+        goto LAB_180001fa7;
+      }
+      param_3 = param_3 + -1;
+LAB_180001c8d:
+      uVar16 = (int)uVar14 + 1;
+      uVar14 = (ulonglong)uVar16;
+    } while (uVar16 < local_278);
+  }
+  Log::Print(3,(char *)0x0,"Failed to find \'%s\'",*param_1);
+  if (0xf < local_230) {
+    pppppppcVar10 = (char *******)local_248;
+    if ((0xfff < local_230 + 1) &&
+       (pppppppcVar10 = (char *******)local_248[-1],
+       (char *)0x1f < (char *)((longlong)local_248 + (-8 - (longlong)pppppppcVar10)))) {
+LAB_180001cec:
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    FUN_18000f264(pppppppcVar10);
+  }
+  *(undefined ***)((longlong)local_228 + (longlong)*(int *)(local_228[0] + 4)) =
+       std::basic_istringstream<char,std::char_traits<char>,std::allocator<char>_>::vftable;
+  *(int *)((longlong)local_228 + (longlong)*(int *)(local_228[0] + 4) + -4) =
+       *(int *)(local_228[0] + 4) + -0x90;
+  FUN_180002650((basic_streambuf<char,std::char_traits<char>_> *)&local_218);
+  std::basic_istream<char,std::char_traits<char>_>::~basic_istream<char,std::char_traits<char>_>
+            (local_210);
+  std::basic_ios<char,std::char_traits<char>_>::~basic_ios<char,std::char_traits<char>_>(local_198);
+  if (local_268 != (undefined1 *)0x0) {
+    puVar11 = local_268;
+    if ((0xfff < (ulonglong)((longlong)local_258 - (longlong)local_268)) &&
+       (puVar11 = *(undefined1 **)(local_268 + -8),
+       (undefined1 *)0x1f < local_268 + (-8 - (longlong)*(undefined1 **)(local_268 + -8)))) {
+LAB_180001fa7:
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+LAB_180001ec9:
+    FUN_18000f264(puVar11);
+    local_268 = (undefined1 *)0x0;
+    local_258 = (undefined1 *)0x0;
+    puStack_260 = (undefined1 *)0x0;
+  }
+LAB_180001edc:
+  plVar1 = (longlong *)param_2[7];
+  if (plVar1 != (longlong *)0x0) {
+    (**(code **)(*plVar1 + 0x20))(plVar1,plVar1 != param_2);
+    param_2[7] = 0;
+  }
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 4
+NAME: FUN_180002050
+ADDRESS: 180002050 (RVA 0x2050)
+SIGNATURE: undefined __fastcall FUN_180002050(longlong * param_1)
+SCORE: 0
+##################################################
+
+
+void FUN_180002050(longlong *param_1)
+
+{
+  void *pvVar1;
+  void *pvVar2;
+  
+  pvVar1 = (void *)*param_1;
+  if (pvVar1 != (void *)0x0) {
+    pvVar2 = pvVar1;
+    if ((0xfff < (ulonglong)(param_1[2] - (longlong)pvVar1)) &&
+       (pvVar2 = *(void **)((longlong)pvVar1 + -8),
+       0x1f < (ulonglong)((longlong)pvVar1 + (-8 - (longlong)pvVar2)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    FUN_18000f264(pvVar2);
+    *param_1 = 0;
+    param_1[1] = 0;
+    param_1[2] = 0;
+  }
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 5
+NAME: FUN_180002450
+ADDRESS: 180002450 (RVA 0x2450)
+SIGNATURE: int __fastcall FUN_180002450(longlong param_1, int param_2)
+SCORE: 0
+##################################################
+
+
+int FUN_180002450(longlong param_1,int param_2)
+
+{
+  int iVar1;
+  undefined1 *puVar2;
+  undefined8 uVar3;
+  ulonglong uVar4;
+  longlong lVar5;
+  ulonglong uVar6;
+  ulonglong uVar7;
+  void *_Src;
+  void *pvVar8;
+  
+  if ((*(byte *)(param_1 + 0x70) & 2) != 0) {
+    return -1;
+  }
+  if (param_2 == -1) {
+    return 0;
+  }
+  uVar7 = **(ulonglong **)(param_1 + 0x40);
+  iVar1 = **(int **)(param_1 + 0x58);
+  uVar6 = uVar7 + (longlong)iVar1;
+  if (uVar7 == 0) {
+    uVar6 = 0;
+    _Src = (void *)**(longlong **)(param_1 + 0x18);
+LAB_180002540:
+    uVar7 = 0x20;
+LAB_180002545:
+    pvVar8 = (void *)FUN_18000eeb0(uVar7);
+  }
+  else {
+    if (uVar7 < uVar6) {
+      **(int **)(param_1 + 0x58) = iVar1 + -1;
+      puVar2 = (undefined1 *)**(longlong **)(param_1 + 0x40);
+      **(longlong **)(param_1 + 0x40) = (longlong)(puVar2 + 1);
+      *puVar2 = (char)param_2;
+      *(ulonglong *)(param_1 + 0x68) = uVar7 + 1;
+      return param_2;
+    }
+    _Src = (void *)**(longlong **)(param_1 + 0x18);
+    uVar6 = uVar6 - (longlong)_Src;
+    if (uVar6 < 0x20) goto LAB_180002540;
+    if (uVar6 < 0x3fffffff) {
+      uVar7 = uVar6 * 2;
+      if (uVar7 == 0) {
+        pvVar8 = (void *)0x0;
+        goto LAB_180002550;
+      }
+      if (0xfff < uVar7) {
+        uVar4 = uVar7 + 0x27;
+        if (uVar4 <= uVar7) {
+                    /* WARNING: Subroutine does not return */
+          FUN_1800015b0();
+        }
+        goto LAB_18000251b;
+      }
+      goto LAB_180002545;
+    }
+    uVar7 = 0x7fffffff;
+    if (0x7ffffffe < uVar6) {
+      return -1;
+    }
+    uVar4 = 0x80000026;
+LAB_18000251b:
+    lVar5 = FUN_18000eeb0(uVar4);
+    if (lVar5 == 0) goto LAB_18000261e;
+    pvVar8 = (void *)(lVar5 + 0x27U & 0xffffffffffffffe0);
+    *(longlong *)((longlong)pvVar8 - 8) = lVar5;
+  }
+LAB_180002550:
+  memcpy(pvVar8,_Src,uVar6);
+  lVar5 = (longlong)pvVar8 + uVar6;
+  *(longlong *)(param_1 + 0x68) = lVar5 + 1;
+  **(undefined8 **)(param_1 + 0x20) = pvVar8;
+  **(longlong **)(param_1 + 0x40) = lVar5;
+  **(int **)(param_1 + 0x58) = ((int)pvVar8 - (int)lVar5) + (int)uVar7;
+  if ((*(byte *)(param_1 + 0x70) & 4) == 0) {
+    uVar3 = *(undefined8 *)(param_1 + 0x68);
+    lVar5 = (**(longlong **)(param_1 + 0x38) - (longlong)_Src) + (longlong)pvVar8;
+    **(undefined8 **)(param_1 + 0x18) = pvVar8;
+    **(longlong **)(param_1 + 0x38) = lVar5;
+    **(int **)(param_1 + 0x50) = (int)uVar3 - (int)lVar5;
+  }
+  else {
+    **(undefined8 **)(param_1 + 0x18) = pvVar8;
+    **(undefined8 **)(param_1 + 0x38) = pvVar8;
+    **(undefined4 **)(param_1 + 0x50) = 0;
+  }
+  if ((*(byte *)(param_1 + 0x70) & 1) != 0) {
+    pvVar8 = _Src;
+    if ((0xfff < uVar6) &&
+       (pvVar8 = *(void **)((longlong)_Src + -8),
+       0x1f < (ulonglong)((longlong)_Src + (-8 - (longlong)pvVar8)))) {
+LAB_18000261e:
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    FUN_18000f264(pvVar8);
+  }
+  *(uint *)(param_1 + 0x70) = *(uint *)(param_1 + 0x70) | 1;
+  **(int **)(param_1 + 0x58) = **(int **)(param_1 + 0x58) + -1;
+  puVar2 = (undefined1 *)**(longlong **)(param_1 + 0x40);
+  **(longlong **)(param_1 + 0x40) = (longlong)(puVar2 + 1);
+  *puVar2 = (char)param_2;
+  return param_2;
+}
+
+
+
+
+##################################################
+FUNCTION 6
+NAME: FUN_180002650
+ADDRESS: 180002650 (RVA 0x2650)
+SIGNATURE: undefined __fastcall FUN_180002650(basic_streambuf<char,std::char_traits<char>_> * param_1)
+SCORE: 0
+##################################################
+
+
+void FUN_180002650(basic_streambuf<char,std::char_traits<char>_> *param_1)
+
+{
+  void *pvVar1;
+  void *pvVar2;
+  longlong lVar3;
+  
+  *(undefined ***)param_1 =
+       std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char>_>::vftable;
+  if (((byte)param_1[0x70] & 1) != 0) {
+    if (**(longlong **)(param_1 + 0x40) == 0) {
+      lVar3 = (longlong)**(int **)(param_1 + 0x50) + **(longlong **)(param_1 + 0x38);
+    }
+    else {
+      lVar3 = (longlong)**(int **)(param_1 + 0x58) + **(longlong **)(param_1 + 0x40);
+    }
+    pvVar1 = (void *)**(longlong **)(param_1 + 0x18);
+    pvVar2 = pvVar1;
+    if ((0xfff < (ulonglong)(lVar3 - (longlong)pvVar1)) &&
+       (pvVar2 = *(void **)((longlong)pvVar1 + -8),
+       0x1f < (ulonglong)((longlong)pvVar1 + (-8 - (longlong)pvVar2)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    FUN_18000f264(pvVar2);
+  }
+  **(undefined8 **)(param_1 + 0x18) = 0;
+  **(undefined8 **)(param_1 + 0x38) = 0;
+  **(undefined4 **)(param_1 + 0x50) = 0;
+  **(undefined8 **)(param_1 + 0x20) = 0;
+  **(undefined8 **)(param_1 + 0x40) = 0;
+  **(undefined4 **)(param_1 + 0x58) = 0;
+  *(uint *)(param_1 + 0x70) = *(uint *)(param_1 + 0x70) & 0xfffffffe;
+  *(undefined8 *)(param_1 + 0x68) = 0;
+                    /* WARNING: Could not recover jumptable at 0x0001800026f9. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  std::basic_streambuf<char,std::char_traits<char>_>::~basic_streambuf<char,std::char_traits<char>_>
+            (param_1);
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 7
+NAME: FUN_180002710
+ADDRESS: 180002710 (RVA 0x2710)
+SIGNATURE: undefined __fastcall FUN_180002710(longlong * param_1)
+SCORE: 0
+##################################################
+
+
+void FUN_180002710(longlong *param_1)
+
+{
+  void *pvVar1;
+  void *pvVar2;
+  
+  if (0xf < (ulonglong)param_1[3]) {
+    pvVar1 = (void *)*param_1;
+    pvVar2 = pvVar1;
+    if ((0xfff < param_1[3] + 1U) &&
+       (pvVar2 = *(void **)((longlong)pvVar1 + -8),
+       0x1f < (ulonglong)((longlong)pvVar1 + (-8 - (longlong)pvVar2)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    FUN_18000f264(pvVar2);
+  }
+  param_1[2] = 0;
+  param_1[3] = 0xf;
+  *(undefined1 *)param_1 = 0;
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 8
+NAME: FUN_180002770
+ADDRESS: 180002770 (RVA 0x2770)
+SIGNATURE: undefined8 * __fastcall FUN_180002770(undefined8 * param_1, void * param_2)
+SCORE: 0
+##################################################
+
+
+undefined8 * FUN_180002770(undefined8 *param_1,void *param_2)
+
+{
+  size_t sVar1;
+  
+  *param_1 = 0;
+  param_1[1] = 0;
+  param_1[2] = 0;
+  param_1[3] = 0;
+  sVar1 = 0xffffffffffffffff;
+  do {
+    sVar1 = sVar1 + 1;
+  } while (*(char *)((longlong)param_2 + sVar1) != '\0');
+  FUN_180002e30(param_1,param_2,sVar1);
+  return param_1;
+}
+
+
+
+
+##################################################
+FUNCTION 9
+NAME: FUN_1800027b0
+ADDRESS: 1800027b0 (RVA 0x27B0)
+SIGNATURE: basic_ios<char,std::char_traits<char>_> * __fastcall FUN_1800027b0(basic_ios<char,std::char_traits<char>_> * param_1, uint param_2)
+SCORE: 0
+##################################################
+
+
+basic_ios<char,std::char_traits<char>_> *
+FUN_1800027b0(basic_ios<char,std::char_traits<char>_> *param_1,uint param_2)
+
+{
+  *(undefined ***)(param_1 + (longlong)*(int *)(*(longlong *)(param_1 + -0x90) + 4) + -0x90) =
+       std::basic_istringstream<char,std::char_traits<char>,std::allocator<char>_>::vftable;
+  *(int *)(param_1 + (longlong)*(int *)(*(longlong *)(param_1 + -0x90) + 4) + -0x94) =
+       *(int *)(*(longlong *)(param_1 + -0x90) + 4) + -0x90;
+  FUN_180002650((basic_streambuf<char,std::char_traits<char>_> *)(param_1 + -0x80));
+  std::basic_istream<char,std::char_traits<char>_>::~basic_istream<char,std::char_traits<char>_>
+            ((basic_istream<char,std::char_traits<char>_> *)(param_1 + -0x78));
+  std::basic_ios<char,std::char_traits<char>_>::~basic_ios<char,std::char_traits<char>_>(param_1);
+  if ((param_2 & 1) != 0) {
+    FUN_18000f264(param_1 + -0x90);
+  }
+  return param_1 + -0x90;
+}
+
+
+
+
+##################################################
+FUNCTION 10
+NAME: FUN_180002850
+ADDRESS: 180002850 (RVA 0x2850)
+SIGNATURE: basic_streambuf<char,std::char_traits<char>_> * __fastcall FUN_180002850(basic_streambuf<char,std::char_traits<char>_> * param_1, uint param_2)
+SCORE: 0
+##################################################
+
+
+basic_streambuf<char,std::char_traits<char>_> *
+FUN_180002850(basic_streambuf<char,std::char_traits<char>_> *param_1,uint param_2)
+
+{
+  FUN_180002650(param_1);
+  if ((param_2 & 1) != 0) {
+    FUN_18000f264(param_1);
+  }
+  return param_1;
+}
+
+
+
+

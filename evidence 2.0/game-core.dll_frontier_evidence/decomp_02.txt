@@ -1,0 +1,379 @@
+Frontier Evidence Decompilation
+================================
+Program: game-core.dll
+
+##################################################
+FUNCTION 1
+NAME: PreLoad
+ADDRESS: 180003da0 (RVA 0x3DA0)
+SIGNATURE: void __thiscall PreLoad(Patches * this)
+SCORE: 100
+##################################################
+
+
+/* public: virtual void __cdecl Patches::PreLoad(void) __ptr64 */
+
+void __thiscall Patches::PreLoad(Patches *this)
+
+{
+  char *local_68;
+  char *local_60;
+  undefined8 local_58;
+  undefined **local_50 [7];
+  undefined ***local_18;
+  
+                    /* 0x3da0  78  ?PreLoad@Patches@@UEAAXXZ */
+  local_58 = 0;
+  local_68 = "patch_SkipLogos";
+  local_60 = "E8 ? ? ? ? 48 39 3D ? ? ? ? 0F 85 ? ? ? ? E8 ? ? ? ? 8B 0D ? ? ? ?";
+  local_50[0] = std::
+                _Func_impl_no_alloc<`public:_virtual_void___cdecl_Patches::PreLoad(void)___ptr64'::`2'::<lambda_1>,void,Pattern_const&___ptr64>
+                ::vftable;
+  local_18 = local_50;
+  FUN_180001820(&local_68,(longlong *)local_50,0);
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 2
+NAME: PreLoad
+ADDRESS: 180003e50 (RVA 0x3E50)
+SIGNATURE: void __thiscall PreLoad(ioMouse * this)
+SCORE: 100
+##################################################
+
+
+/* public: virtual void __cdecl rage::ioMouse::PreLoad(void) __ptr64 */
+
+void __thiscall rage::ioMouse::PreLoad(ioMouse *this)
+
+{
+  char *local_68;
+  char *local_60;
+  undefined8 local_58;
+  undefined **local_50 [7];
+  undefined ***local_18;
+  
+                    /* 0x3e50  82  ?PreLoad@ioMouse@rage@@UEAAXXZ */
+  local_58 = 0;
+  local_68 = "rage::ioMouse::sm_DisableCursorAlteration";
+  local_60 = "0F B6 0D ? ? ? ? 84 C9";
+  local_50[0] = std::
+                _Func_impl_no_alloc<`public:_virtual_void___cdecl_rage::ioMouse::PreLoad(void)___ptr64'::`2'::<lambda_1>,void,Pattern_const&___ptr64>
+                ::vftable;
+  local_18 = local_50;
+  FUN_180001820(&local_68,(longlong *)local_50,0);
+  local_58 = 0;
+  local_68 = "rage::ioMouse::UnlockAndShowCursor";
+  local_60 = "40 53 48 83 EC 20 0F B6 D9 0F B6 0D ? ? ? ?";
+  local_50[0] = std::
+                _Func_impl_no_alloc<`public:_virtual_void___cdecl_rage::ioMouse::PreLoad(void)___ptr64'::`2'::<lambda_2>,void,Pattern_const&___ptr64>
+                ::vftable;
+  local_18 = local_50;
+  FUN_180001820(&local_68,(longlong *)local_50,0);
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 3
+NAME: PreLoad
+ADDRESS: 180003f80 (RVA 0x3F80)
+SIGNATURE: void __thiscall PreLoad(game * this)
+SCORE: 100
+##################################################
+
+
+/* public: virtual void __cdecl rdr2scripting::game::PreLoad(void) __ptr64 */
+
+void __thiscall rdr2scripting::game::PreLoad(game *this)
+
+{
+  char *local_68;
+  char *local_60;
+  undefined8 local_58;
+  undefined **local_50 [7];
+  undefined ***local_18;
+  
+                    /* 0x3f80  80  ?PreLoad@game@rdr2scripting@@UEAAXXZ */
+  local_58 = 0;
+  local_68 = "rdr2scripting::game::_GameState";
+  local_60 = "8B 05 ? ? ? ? 8D 48 FD";
+  local_50[0] = std::
+                _Func_impl_no_alloc<`public:_virtual_void___cdecl_rdr2scripting::game::PreLoad(void)___ptr64'::`2'::<lambda_1>,void,Pattern_const&___ptr64>
+                ::vftable;
+  local_18 = local_50;
+  FUN_180001820(&local_68,(longlong *)local_50,0);
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 4
+NAME: PreLoad
+ADDRESS: 180004040 (RVA 0x4040)
+SIGNATURE: void __thiscall PreLoad(grcDevice * this)
+SCORE: 100
+##################################################
+
+
+/* public: virtual void __cdecl rage::grcDevice::PreLoad(void) __ptr64 */
+
+void __thiscall rage::grcDevice::PreLoad(grcDevice *this)
+
+{
+  char *local_68;
+  char *local_60;
+  undefined8 local_58;
+  undefined **local_50 [7];
+  undefined ***local_18;
+  
+                    /* 0x4040  81  ?PreLoad@grcDevice@rage@@UEAAXXZ */
+  local_58 = 0;
+  local_68 = "rage::grcDevice::sm_FrameCounter";
+  local_60 = "FF 05 ? ? ? ? 48 8D 15 ? ? ? ?";
+  local_50[0] = std::
+                _Func_impl_no_alloc<`public:_virtual_void___cdecl_rage::grcDevice::PreLoad(void)___ptr64'::`2'::<lambda_1>,void,Pattern_const&___ptr64>
+                ::vftable;
+  local_18 = local_50;
+  FUN_180001820(&local_68,(longlong *)local_50,0);
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 5
+NAME: PostLoad
+ADDRESS: 180004100 (RVA 0x4100)
+SIGNATURE: void __thiscall PostLoad(ioKeyboard * this)
+SCORE: 100
+##################################################
+
+
+/* public: virtual void __cdecl rage::ioKeyboard::PostLoad(void) __ptr64 */
+
+void __thiscall rage::ioKeyboard::PostLoad(ioKeyboard *this)
+
+{
+  char *local_68;
+  char *local_60;
+  undefined8 local_58;
+  undefined **local_50 [7];
+  undefined ***local_18;
+  
+                    /* 0x4100  74  ?PostLoad@ioKeyboard@rage@@UEAAXXZ */
+  local_58 = 0;
+  local_68 = "rage::ioKeyboard::KeyDown";
+  local_60 = "48 8D 05 ? ? ? ? 48 89 74 24 ? 48 8D 4C 24 ? 48 89 44 24 ? 48 89 4C 24 ?";
+  local_50[0] = std::
+                _Func_impl_no_alloc<`public:_virtual_void___cdecl_rage::ioKeyboard::PostLoad(void)___ptr64'::`2'::<lambda_1>,void,Pattern_const&___ptr64>
+                ::vftable;
+  local_18 = local_50;
+  FUN_180001820(&local_68,(longlong *)local_50,0);
+  local_58 = 0;
+  local_68 = "rage::ioKeyboard::KeyPressed";
+  local_60 = "48 8D 05 ? ? ? ? 48 89 75 80";
+  local_50[0] = std::
+                _Func_impl_no_alloc<`public:_virtual_void___cdecl_rage::ioKeyboard::PostLoad(void)___ptr64'::`2'::<lambda_2>,void,Pattern_const&___ptr64>
+                ::vftable;
+  local_18 = local_50;
+  FUN_180001820(&local_68,(longlong *)local_50,0);
+  local_58 = 0;
+  local_68 = "rage::ioKeyboard::KeyReleased";
+  local_60 = "48 8D 05 ? ? ? ? 48 89 4D F8";
+  local_50[0] = std::
+                _Func_impl_no_alloc<`public:_virtual_void___cdecl_rage::ioKeyboard::PostLoad(void)___ptr64'::`2'::<lambda_3>,void,Pattern_const&___ptr64>
+                ::vftable;
+  local_18 = local_50;
+  FUN_180001820(&local_68,(longlong *)local_50,0);
+  if (scrThread::s_RegisterCommand != (_func_bool_void_ptr_uint__func_void_InfoBase_ptr_ptr *)0x0) {
+    (*scrThread::s_RegisterCommand)((void *)0x0,0xac93d58a,FUN_180004260);
+    if (scrThread::s_RegisterCommand != (_func_bool_void_ptr_uint__func_void_InfoBase_ptr_ptr *)0x0)
+    {
+      (*scrThread::s_RegisterCommand)((void *)0x0,0x6afb8eb9,FUN_1800042a0);
+      if (scrThread::s_RegisterCommand !=
+          (_func_bool_void_ptr_uint__func_void_InfoBase_ptr_ptr *)0x0) {
+        (*scrThread::s_RegisterCommand)((void *)0x0,0x21b6eb31,FUN_1800042e0);
+      }
+    }
+  }
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 6
+NAME: GetCommand
+ADDRESS: 180008740 (RVA 0x8740)
+SIGNATURE: _func_void_InfoBase_ptr * __cdecl GetCommand(uint param_1)
+SCORE: 100
+##################################################
+
+
+/* public: static void (__cdecl*__cdecl rage::scrThread::GetCommand(unsigned int))(class
+   rage::scrThread::InfoBase * __ptr64) */
+
+_func_void_InfoBase_ptr * __cdecl rage::scrThread::GetCommand(uint param_1)
+
+{
+  uint uVar1;
+  __uint64 _Var2;
+  uint uVar3;
+  uint uVar4;
+  
+                    /* 0x8740  51  ?GetCommand@scrThread@rage@@SAP6AXPEAVInfoBase@12@@ZI@Z */
+  _Var2 = *s_CommandsRegistration;
+  uVar3 = param_1 % (uint)s_CommandsRegistration[1];
+  uVar1 = *(uint *)(_Var2 + (ulonglong)(uVar3 * 4) * 4);
+  uVar4 = param_1;
+  do {
+    if (uVar1 == param_1) {
+      return *(_func_void_InfoBase_ptr **)(_Var2 + 8 + (ulonglong)(uVar3 * 2) * 8);
+    }
+    uVar4 = (uVar4 >> 1) + 1;
+    uVar3 = (uVar4 + uVar3) % (uint)s_CommandsRegistration[1];
+    uVar1 = *(uint *)(_Var2 + (ulonglong)(uVar3 * 4) * 4);
+  } while (uVar1 != 0);
+  Log::Print(3,(char *)0x0,"Failed to find native with hash 0x%08X");
+  return (_func_void_InfoBase_ptr *)0x0;
+}
+
+
+
+
+##################################################
+FUNCTION 7
+NAME: QuitGame
+ADDRESS: 1800087c0 (RVA 0x87C0)
+SIGNATURE: void __cdecl QuitGame(void)
+SCORE: 100
+##################################################
+
+
+/* public: static void __cdecl rage::scrThread::QuitGame(void) */
+
+void __cdecl rage::scrThread::QuitGame(void)
+
+{
+                    /* 0x87c0  83  ?QuitGame@scrThread@rage@@SAXXZ */
+  if (s_QuitGame != (_func_void *)0x0) {
+                    /* WARNING: Could not recover jumptable at 0x0001800087cc. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+    (*s_QuitGame)();
+    return;
+  }
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 8
+NAME: sagActorManager
+ADDRESS: 18000b620 (RVA 0xB620)
+SIGNATURE: undefined __thiscall sagActorManager(sagActorManager * this, sagActorManager * param_1)
+SCORE: 100
+##################################################
+
+
+/* public: __cdecl rage::sagActorManager::sagActorManager(class rage::sagActorManager && __ptr64)
+   __ptr64 */
+
+sagActorManager * __thiscall
+rage::sagActorManager::sagActorManager(sagActorManager *this,sagActorManager *param_1)
+
+{
+                    /* 0xb620  10  ??0sagActorManager@rage@@QEAA@$$QEAV01@@Z
+                       0xb620  11  ??0sagActorManager@rage@@QEAA@AEBV01@@Z
+                       0xb620  12  ??0sagActorManager@rage@@QEAA@XZ */
+  *(undefined ***)this = vftable;
+  return this;
+}
+
+
+
+
+##################################################
+FUNCTION 9
+NAME: PostLoad
+ADDRESS: 18000b630 (RVA 0xB630)
+SIGNATURE: void __thiscall PostLoad(sagActorManager * this)
+SCORE: 100
+##################################################
+
+
+/* public: virtual void __cdecl rage::sagActorManager::PostLoad(void) __ptr64 */
+
+void __thiscall rage::sagActorManager::PostLoad(sagActorManager *this)
+
+{
+  char *local_68;
+  char *local_60;
+  undefined8 local_58;
+  undefined **local_50 [7];
+  undefined ***local_18;
+  
+                    /* 0xb630  75  ?PostLoad@sagActorManager@rage@@UEAAXXZ */
+  local_58 = 0;
+  local_68 = "rage::aGuidGeneral::sm_ManagerSlots";
+  local_60 = 
+  "48 8B 05 ? ? ? ? 0F B7 CA 48 03 C9 C1 EA 10 66 39 54 C8 ? 75 03 B0 01 C3 32 C0 C3 CC 48 89 5C 24 ?"
+  ;
+  local_50[0] = std::
+                _Func_impl_no_alloc<`public:_virtual_void___cdecl_rage::sagActorManager::PostLoad(void)___ptr64'::`2'::<lambda_1>,void,Pattern_const&___ptr64>
+                ::vftable;
+  local_18 = local_50;
+  FUN_180001820(&local_68,(longlong *)local_50,0);
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 10
+NAME: PreLoad
+ADDRESS: 18000b6f0 (RVA 0xB6F0)
+SIGNATURE: void __thiscall PreLoad(UIInput * this)
+SCORE: 100
+##################################################
+
+
+/* public: virtual void __cdecl rage::UIInput::PreLoad(void) __ptr64 */
+
+void __thiscall rage::UIInput::PreLoad(UIInput *this)
+
+{
+  char *local_68;
+  char *local_60;
+  undefined8 local_58;
+  undefined **local_50 [7];
+  undefined ***local_18;
+  
+                    /* 0xb6f0  79  ?PreLoad@UIInput@rage@@UEAAXXZ */
+  local_58 = 0;
+  local_68 = "rage::UIInput::sm_DisableAllInputs";
+  local_60 = "48 83 BB ? ? ? ? ? 74 5A";
+  local_50[0] = std::
+                _Func_impl_no_alloc<`public:_virtual_void___cdecl_rage::UIInput::PreLoad(void)___ptr64'::`2'::<lambda_1>,void,Pattern_const&___ptr64>
+                ::vftable;
+  local_18 = local_50;
+  FUN_180001820(&local_68,(longlong *)local_50,0);
+  return;
+}
+
+
+
+

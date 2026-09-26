@@ -1,0 +1,983 @@
+Selected / interesting functions
+===============================
+
+Score: 700
+Name: PostLoad
+Address: 180008070 (RVA 0x8070)
+Signature: void __thiscall PostLoad(scrThread * this)
+Thunk: false
+External: false
+----------------------------------------
+Score: 200
+Name: GetLocalPlayer
+Address: 18000bef0 (RVA 0xBEF0)
+Signature: sagPlayer * __cdecl GetLocalPlayer(void)
+Thunk: false
+External: false
+----------------------------------------
+Score: 180
+Name: n_StartNewThreadOverride
+Address: 1800078f0 (RVA 0x78F0)
+Signature: uint __cdecl n_StartNewThreadOverride(uint param_1, uint * param_2, uint param_3, int param_4)
+Thunk: false
+External: false
+----------------------------------------
+Score: 160
+Name: n_Wait
+Address: 1800071e0 (RVA 0x71E0)
+Signature: void __cdecl n_Wait(InfoBase * param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 140
+Name: ClearCallbacks
+Address: 1800043f0 (RVA 0x43F0)
+Signature: void __cdecl ClearCallbacks(void)
+Thunk: false
+External: false
+----------------------------------------
+Score: 140
+Name: ExecuteCallback
+Address: 180004400 (RVA 0x4400)
+Signature: void __cdecl ExecuteCallback(basic_string<char,std::char_traits<char>,std::allocator<char>_> * param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 140
+Name: RegisterCallback
+Address: 180004490 (RVA 0x4490)
+Signature: void __cdecl RegisterCallback(basic_string<char,std::char_traits<char>,std::allocator<char>_> * param_1, function<void___cdecl(void)> * param_2)
+Thunk: false
+External: false
+----------------------------------------
+Score: 115
+Name: n_QuitGame
+Address: 1800077d0 (RVA 0x77D0)
+Signature: void __cdecl n_QuitGame(void)
+Thunk: false
+External: false
+----------------------------------------
+Score: 100
+Name: PostLoad
+Address: 180001fe0 (RVA 0x1FE0)
+Signature: void __thiscall PostLoad(globalBase * this)
+Thunk: false
+External: false
+----------------------------------------
+Score: 100
+Name: PostLoad
+Address: 180003ce0 (RVA 0x3CE0)
+Signature: void __thiscall PostLoad(gohObjectManager * this)
+Thunk: false
+External: false
+----------------------------------------
+Score: 100
+Name: PreLoad
+Address: 180003da0 (RVA 0x3DA0)
+Signature: void __thiscall PreLoad(Patches * this)
+Thunk: false
+External: false
+----------------------------------------
+Score: 100
+Name: PreLoad
+Address: 180003e50 (RVA 0x3E50)
+Signature: void __thiscall PreLoad(ioMouse * this)
+Thunk: false
+External: false
+----------------------------------------
+Score: 100
+Name: PreLoad
+Address: 180003f80 (RVA 0x3F80)
+Signature: void __thiscall PreLoad(game * this)
+Thunk: false
+External: false
+----------------------------------------
+Score: 100
+Name: PreLoad
+Address: 180004040 (RVA 0x4040)
+Signature: void __thiscall PreLoad(grcDevice * this)
+Thunk: false
+External: false
+----------------------------------------
+Score: 100
+Name: PostLoad
+Address: 180004100 (RVA 0x4100)
+Signature: void __thiscall PostLoad(ioKeyboard * this)
+Thunk: false
+External: false
+----------------------------------------
+Score: 100
+Name: GetCommand
+Address: 180008740 (RVA 0x8740)
+Signature: _func_void_InfoBase_ptr * __cdecl GetCommand(uint param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 100
+Name: QuitGame
+Address: 1800087c0 (RVA 0x87C0)
+Signature: void __cdecl QuitGame(void)
+Thunk: false
+External: false
+----------------------------------------
+Score: 100
+Name: sagActorManager
+Address: 18000b620 (RVA 0xB620)
+Signature: undefined __thiscall sagActorManager(sagActorManager * this, sagActorManager * param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 100
+Name: PostLoad
+Address: 18000b630 (RVA 0xB630)
+Signature: void __thiscall PostLoad(sagActorManager * this)
+Thunk: false
+External: false
+----------------------------------------
+Score: 100
+Name: PreLoad
+Address: 18000b6f0 (RVA 0xB6F0)
+Signature: void __thiscall PreLoad(UIInput * this)
+Thunk: false
+External: false
+----------------------------------------
+Score: 100
+Name: sagPlayerMgr
+Address: 18000be80 (RVA 0xBE80)
+Signature: undefined __thiscall sagPlayerMgr(sagPlayerMgr * this, sagPlayerMgr * param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 100
+Name: PostLoad
+Address: 18000be90 (RVA 0xBE90)
+Signature: void __thiscall PostLoad(sagPlayerMgr * this)
+Thunk: false
+External: false
+----------------------------------------
+Score: 100
+Name: PostLoad
+Address: 18000c060 (RVA 0xC060)
+Signature: void __thiscall PostLoad(UIStringTable * this)
+Thunk: false
+External: false
+----------------------------------------
+Score: 90
+Name: IsInitialized
+Address: 180008630 (RVA 0x8630)
+Signature: bool __cdecl IsInitialized(void)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180001010
+Address: 180001010 (RVA 0x1010)
+Signature: undefined __fastcall FUN_180001010(void)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180001090
+Address: 180001090 (RVA 0x1090)
+Signature: undefined __fastcall FUN_180001090(void)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_1800011f0
+Address: 1800011f0 (RVA 0x11F0)
+Signature: undefined __fastcall FUN_1800011f0(void)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180001420
+Address: 180001420 (RVA 0x1420)
+Signature: undefined __fastcall FUN_180001420(void)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180001510
+Address: 180001510 (RVA 0x1510)
+Signature: undefined8 * __fastcall FUN_180001510(undefined8 * param_1, ulonglong param_2)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_1800015b0
+Address: 1800015b0 (RVA 0x15B0)
+Signature: noreturn undefined __fastcall FUN_1800015b0(void)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180001650
+Address: 180001650 (RVA 0x1650)
+Signature: noreturn undefined __fastcall FUN_180001650(void)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180001750
+Address: 180001750 (RVA 0x1750)
+Signature: undefined __fastcall FUN_180001750(longlong * param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180001820
+Address: 180001820 (RVA 0x1820)
+Signature: undefined __fastcall FUN_180001820(undefined8 * param_1, longlong * param_2, longlong param_3)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180002050
+Address: 180002050 (RVA 0x2050)
+Signature: undefined __fastcall FUN_180002050(longlong * param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180002450
+Address: 180002450 (RVA 0x2450)
+Signature: int __fastcall FUN_180002450(longlong param_1, int param_2)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180002650
+Address: 180002650 (RVA 0x2650)
+Signature: undefined __fastcall FUN_180002650(basic_streambuf<char,std::char_traits<char>_> * param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180002710
+Address: 180002710 (RVA 0x2710)
+Signature: undefined __fastcall FUN_180002710(longlong * param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180002770
+Address: 180002770 (RVA 0x2770)
+Signature: undefined8 * __fastcall FUN_180002770(undefined8 * param_1, void * param_2)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_1800027b0
+Address: 1800027b0 (RVA 0x27B0)
+Signature: basic_ios<char,std::char_traits<char>_> * __fastcall FUN_1800027b0(basic_ios<char,std::char_traits<char>_> * param_1, uint param_2)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180002850
+Address: 180002850 (RVA 0x2850)
+Signature: basic_streambuf<char,std::char_traits<char>_> * __fastcall FUN_180002850(basic_streambuf<char,std::char_traits<char>_> * param_1, uint param_2)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180002890
+Address: 180002890 (RVA 0x2890)
+Signature: undefined __fastcall FUN_180002890(longlong param_1, void * param_2, ulonglong param_3, uint param_4)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_1800029d0
+Address: 1800029d0 (RVA 0x29D0)
+Signature: facet * __fastcall FUN_1800029d0(locale * param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180002ae0
+Address: 180002ae0 (RVA 0x2AE0)
+Signature: basic_istream<char,std::char_traits<char>_> * __fastcall FUN_180002ae0(basic_istream<char,std::char_traits<char>_> * param_1, longlong * param_2, undefined8 param_3)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180002cc0
+Address: 180002cc0 (RVA 0x2CC0)
+Signature: undefined8 * __fastcall FUN_180002cc0(undefined8 * param_1, undefined8 param_2, undefined8 param_3, undefined1 param_4)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180002e30
+Address: 180002e30 (RVA 0x2E30)
+Signature: undefined __fastcall FUN_180002e30(undefined8 * param_1, void * param_2, size_t param_3)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180002fb0
+Address: 180002fb0 (RVA 0x2FB0)
+Signature: undefined1 * __fastcall FUN_180002fb0(longlong * param_1, void * param_2, undefined1 * param_3)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180003130
+Address: 180003130 (RVA 0x3130)
+Signature: undefined __fastcall FUN_180003130(void * param_1, char param_2)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FID_conflict:~vector<CHN*___ptr64,std::allocator<CHN*___ptr64>_>
+Address: 180004320 (RVA 0x4320)
+Signature: undefined __fastcall FID_conflict:~vector<CHN*___ptr64,std::allocator<CHN*___ptr64>_>(longlong * param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180004380
+Address: 180004380 (RVA 0x4380)
+Signature: undefined __fastcall FUN_180004380(longlong * param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_1800044b0
+Address: 1800044b0 (RVA 0x44B0)
+Signature: undefined8 * __fastcall FUN_1800044b0(undefined8 * param_1, undefined8 * param_2)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_1800045d0
+Address: 1800045d0 (RVA 0x45D0)
+Signature: undefined __fastcall FUN_1800045d0(longlong param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_1800046a0
+Address: 1800046a0 (RVA 0x46A0)
+Signature: undefined __fastcall FUN_1800046a0(ulonglong * param_1, ulonglong param_2, undefined8 param_3)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_1800047e0
+Address: 1800047e0 (RVA 0x47E0)
+Signature: longlong * __fastcall FUN_1800047e0(longlong param_1, longlong * param_2, longlong * param_3)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_1800049e0
+Address: 1800049e0 (RVA 0x49E0)
+Signature: longlong * __fastcall FUN_1800049e0(undefined8 param_1, longlong * param_2, longlong * param_3, longlong param_4)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180004c90
+Address: 180004c90 (RVA 0x4C90)
+Signature: longlong * __fastcall FUN_180004c90(undefined8 param_1, longlong * param_2, longlong * param_3)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180004f10
+Address: 180004f10 (RVA 0x4F10)
+Signature: undefined __fastcall FUN_180004f10(undefined8 * param_1, undefined8 * param_2, undefined8 * param_3)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180004fa0
+Address: 180004fa0 (RVA 0x4FA0)
+Signature: undefined __fastcall FUN_180004fa0(longlong param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180004fe0
+Address: 180004fe0 (RVA 0x4FE0)
+Signature: undefined __fastcall FUN_180004fe0(void)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180005360
+Address: 180005360 (RVA 0x5360)
+Signature: undefined8 * __fastcall FUN_180005360(undefined8 param_1, undefined8 * param_2, undefined8 * param_3, ulonglong param_4)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180005510
+Address: 180005510 (RVA 0x5510)
+Signature: undefined __fastcall FUN_180005510(longlong * param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180005670
+Address: 180005670 (RVA 0x5670)
+Signature: longlong * __fastcall FUN_180005670(longlong * param_1, undefined4 * param_2, longlong * param_3)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_1800057d0
+Address: 1800057d0 (RVA 0x57D0)
+Signature: undefined8 * __fastcall FUN_1800057d0(undefined8 * param_1, ulonglong param_2)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180005820
+Address: 180005820 (RVA 0x5820)
+Signature: undefined8 * * * __fastcall FUN_180005820(undefined8 * * * param_1, undefined8 * param_2)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180005a20
+Address: 180005a20 (RVA 0x5A20)
+Signature: undefined8 * __fastcall FUN_180005a20(undefined8 param_1, undefined8 * param_2, int param_3)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180005a70
+Address: 180005a70 (RVA 0x5A70)
+Signature: void * __fastcall FUN_180005a70(void * param_1, ulonglong param_2)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180005ab0
+Address: 180005ab0 (RVA 0x5AB0)
+Signature: undefined8 * __fastcall FUN_180005ab0(undefined8 param_1, undefined8 * param_2, DWORD param_3)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180006320
+Address: 180006320 (RVA 0x6320)
+Signature: undefined8 * __fastcall FUN_180006320(undefined8 * param_1, undefined8 * param_2)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180006450
+Address: 180006450 (RVA 0x6450)
+Signature: undefined8 * __fastcall FUN_180006450(undefined8 * param_1, undefined8 * param_2, undefined8 * param_3, undefined8 * param_4)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180006640
+Address: 180006640 (RVA 0x6640)
+Signature: longlong * __fastcall FUN_180006640(longlong * param_1, undefined8 * param_2, undefined8 * param_3, undefined8 * param_4)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_1800068b0
+Address: 1800068b0 (RVA 0x68B0)
+Signature: undefined8 * __fastcall FUN_1800068b0(undefined8 * param_1, uint param_2)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180006a00
+Address: 180006a00 (RVA 0x6A00)
+Signature: undefined __fastcall FUN_180006a00(undefined8 * param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180006ca0
+Address: 180006ca0 (RVA 0x6CA0)
+Signature: undefined __fastcall FUN_180006ca0(void * * param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180006db0
+Address: 180006db0 (RVA 0x6DB0)
+Signature: uint * __fastcall FUN_180006db0(uint * param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180006fc0
+Address: 180006fc0 (RVA 0x6FC0)
+Signature: undefined __fastcall FUN_180006fc0(longlong * param_1, longlong * param_2)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180007050
+Address: 180007050 (RVA 0x7050)
+Signature: undefined __fastcall FUN_180007050(undefined8 * param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_1800070c0
+Address: 1800070c0 (RVA 0x70C0)
+Signature: undefined __fastcall FUN_1800070c0(longlong * param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180007170
+Address: 180007170 (RVA 0x7170)
+Signature: undefined __fastcall FUN_180007170(longlong param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180007910
+Address: 180007910 (RVA 0x7910)
+Signature: char __fastcall FUN_180007910(undefined8 param_1, void * param_2)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180007ef0
+Address: 180007ef0 (RVA 0x7EF0)
+Signature: undefined __fastcall FUN_180007ef0(longlong param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180007fa0
+Address: 180007fa0 (RVA 0x7FA0)
+Signature: undefined __fastcall FUN_180007fa0(longlong param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: Unload
+Address: 1800085d0 (RVA 0x85D0)
+Signature: void __thiscall Unload(scrThread * this)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_1800087d0
+Address: 1800087d0 (RVA 0x87D0)
+Signature: undefined __fastcall FUN_1800087d0(longlong * param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_1800088e0
+Address: 1800088e0 (RVA 0x88E0)
+Signature: longlong * __fastcall FUN_1800088e0(longlong * param_1, UINT param_2, undefined8 * param_3)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180008a40
+Address: 180008a40 (RVA 0x8A40)
+Signature: undefined8 __fastcall FUN_180008a40(void)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180008c10
+Address: 180008c10 (RVA 0x8C10)
+Signature: undefined8 __fastcall FUN_180008c10(void)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180008de0
+Address: 180008de0 (RVA 0x8DE0)
+Signature: undefined8 * __fastcall FUN_180008de0(undefined8 * param_1, undefined8 param_2, undefined8 param_3, undefined2 param_4)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180008f70
+Address: 180008f70 (RVA 0x8F70)
+Signature: longlong * __fastcall FUN_180008f70(longlong * param_1, ulonglong param_2, undefined8 param_3, void * param_4)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_1800090d0
+Address: 1800090d0 (RVA 0x90D0)
+Signature: undefined8 * __fastcall FUN_1800090d0(undefined8 * param_1, ulonglong param_2, undefined8 param_3, void * param_4, longlong param_5)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_1800092a0
+Address: 1800092a0 (RVA 0x92A0)
+Signature: longlong __fastcall FUN_1800092a0(void * param_1, ulonglong param_2, undefined8 param_3, char * param_4, ulonglong param_5)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180009360
+Address: 180009360 (RVA 0x9360)
+Signature: undefined8 * __fastcall FUN_180009360(undefined8 * param_1, ulonglong param_2)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_1800094b0
+Address: 1800094b0 (RVA 0x94B0)
+Signature: undefined8 * __fastcall FUN_1800094b0(undefined8 * param_1, ulonglong param_2, undefined8 param_3, longlong param_4)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180009670
+Address: 180009670 (RVA 0x9670)
+Signature: undefined8 * __fastcall FUN_180009670(undefined8 * param_1, ulonglong param_2, undefined8 param_3, size_t param_4)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180009800
+Address: 180009800 (RVA 0x9800)
+Signature: undefined8 * __fastcall FUN_180009800(undefined8 * param_1, ulonglong param_2, undefined8 param_3, void * param_4, size_t param_5)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180009990
+Address: 180009990 (RVA 0x9990)
+Signature: longlong * __fastcall FUN_180009990(undefined8 param_1, longlong * param_2, longlong * param_3)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180009ca0
+Address: 180009ca0 (RVA 0x9CA0)
+Signature: undefined __fastcall FUN_180009ca0(longlong param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000a140
+Address: 18000a140 (RVA 0xA140)
+Signature: longlong * __fastcall FUN_18000a140(longlong * param_1, UINT param_2, undefined8 * param_3)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000a2a0
+Address: 18000a2a0 (RVA 0xA2A0)
+Signature: undefined8 * __fastcall FUN_18000a2a0(undefined8 * param_1, ulonglong param_2)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: DisableAllInputs
+Address: 18000b750 (RVA 0xB750)
+Signature: void __cdecl DisableAllInputs(bool param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000bfb0
+Address: 18000bfb0 (RVA 0xBFB0)
+Signature: undefined __fastcall FUN_18000bfb0(longlong param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000c1b0
+Address: 18000c1b0 (RVA 0xC1B0)
+Signature: undefined __fastcall FUN_18000c1b0(undefined8 param_1, undefined8 param_2, undefined8 param_3)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000c230
+Address: 18000c230 (RVA 0xC230)
+Signature: undefined __fastcall FUN_18000c230(undefined8 * param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000c2c0
+Address: 18000c2c0 (RVA 0xC2C0)
+Signature: undefined __fastcall FUN_18000c2c0(undefined8 * param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000c430
+Address: 18000c430 (RVA 0xC430)
+Signature: undefined __fastcall FUN_18000c430(longlong * param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000c490
+Address: 18000c490 (RVA 0xC490)
+Signature: undefined4 __fastcall FUN_18000c490(undefined8 param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000c740
+Address: 18000c740 (RVA 0xC740)
+Signature: undefined8 * __fastcall FUN_18000c740(undefined8 param_1, undefined8 * param_2, byte * param_3, undefined8 * param_4)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000c9b0
+Address: 18000c9b0 (RVA 0xC9B0)
+Signature: undefined8 * __fastcall FUN_18000c9b0(undefined8 param_1, undefined8 * param_2, byte * param_3)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000cf00
+Address: 18000cf00 (RVA 0xCF00)
+Signature: undefined __fastcall FUN_18000cf00(undefined8 param_1, longlong param_2)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000cf90
+Address: 18000cf90 (RVA 0xCF90)
+Signature: undefined __fastcall FUN_18000cf90(undefined8 param_1, longlong param_2)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000d010
+Address: 18000d010 (RVA 0xD010)
+Signature: LPVOID __fastcall FUN_18000d010(void)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000d218
+Address: 18000d218 (RVA 0xD218)
+Signature: ulonglong __fastcall FUN_18000d218(longlong param_1, uint param_2)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000d40c
+Address: 18000d40c (RVA 0xD40C)
+Signature: int __fastcall FUN_18000d40c(void)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000d44c
+Address: 18000d44c (RVA 0xD44C)
+Signature: undefined __fastcall FUN_18000d44c(longlong * param_1, uint param_2, int param_3)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000d740
+Address: 18000d740 (RVA 0xD740)
+Signature: uint __fastcall FUN_18000d740(undefined8 * param_1, LPCVOID param_2, undefined8 * param_3)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000d8e8
+Address: 18000d8e8 (RVA 0xD8E8)
+Signature: undefined __fastcall FUN_18000d8e8(longlong param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000d8f4
+Address: 18000d8f4 (RVA 0xD8F4)
+Signature: undefined8 __fastcall FUN_18000d8f4(void)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000daa0
+Address: 18000daa0 (RVA 0xDAA0)
+Signature: undefined __fastcall FUN_18000daa0(undefined8 * param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000dac4
+Address: 18000dac4 (RVA 0xDAC4)
+Signature: undefined __fastcall FUN_18000dac4(undefined8 * param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000dd2c
+Address: 18000dd2c (RVA 0xDD2C)
+Signature: undefined __fastcall FUN_18000dd2c(void)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000dd30
+Address: 18000dd30 (RVA 0xDD30)
+Signature: undefined8 __fastcall FUN_18000dd30(LPCVOID param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000dd64
+Address: 18000dd64 (RVA 0xDD64)
+Signature: undefined8 __fastcall FUN_18000dd64(ulonglong * param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000eafc
+Address: 18000eafc (RVA 0xEAFC)
+Signature: DWORD __fastcall FUN_18000eafc(LPCWSTR param_1, ulonglong * param_2, uint param_3, uint param_4)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: __security_check_cookie
+Address: 18000ee90 (RVA 0xEE90)
+Signature: void __cdecl __security_check_cookie(uintptr_t _StackCookie)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000eeb0
+Address: 18000eeb0 (RVA 0xEEB0)
+Signature: undefined __fastcall FUN_18000eeb0(size_t param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000f264
+Address: 18000f264 (RVA 0xF264)
+Signature: undefined __fastcall FUN_18000f264(void * param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000f26c
+Address: 18000f26c (RVA 0xF26C)
+Signature: undefined8 * __fastcall FUN_18000f26c(undefined8 * param_1, ulonglong param_2)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: _Init_thread_footer
+Address: 18000f2d4 (RVA 0xF2D4)
+Signature: undefined __fastcall _Init_thread_footer(int * param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000f340
+Address: 18000f340 (RVA 0xF340)
+Signature: undefined __fastcall FUN_18000f340(int * param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: __GSHandlerCheckCommon
+Address: 18000f7f8 (RVA 0xF7F8)
+Signature: ulonglong __fastcall __GSHandlerCheckCommon(undefined8 param_1, longlong param_2)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000f888
+Address: 18000f888 (RVA 0xF888)
+Signature: undefined __fastcall FUN_18000f888(void)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000f9f0
+Address: 18000f9f0 (RVA 0xF9F0)
+Signature: noreturn undefined __fastcall FUN_18000f9f0(void)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_18000fcf8
+Address: 18000fcf8 (RVA 0xFCF8)
+Signature: noreturn undefined __fastcall FUN_18000fcf8(undefined4 param_1)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: memset
+Address: 18001000a (RVA 0x1000A)
+Signature: void * __cdecl memset(void * _Dst, int _Val, size_t _Size)
+Thunk: true
+External: false
+----------------------------------------
+Score: 0
+Name: malloc
+Address: 18001001c (RVA 0x1001C)
+Signature: void * __cdecl malloc(size_t _Size)
+Thunk: true
+External: false
+----------------------------------------
+Score: 0
+Name: _callnewh
+Address: 180010022 (RVA 0x10022)
+Signature: int __cdecl _callnewh(size_t _Size)
+Thunk: true
+External: false
+----------------------------------------
+Score: 0
+Name: memchr
+Address: 1800100f3 (RVA 0x100F3)
+Signature: void * __cdecl memchr(void * _Buf, int _Val, size_t _MaxCount)
+Thunk: true
+External: false
+----------------------------------------
+Score: 0
+Name: memcmp
+Address: 1800100f9 (RVA 0x100F9)
+Signature: int __cdecl memcmp(void * _Buf1, void * _Buf2, size_t _Size)
+Thunk: true
+External: false
+----------------------------------------
+Score: 0
+Name: memcpy
+Address: 1800100ff (RVA 0x100FF)
+Signature: void * __cdecl memcpy(void * _Dst, void * _Src, size_t _Size)
+Thunk: true
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_1800108d0
+Address: 1800108d0 (RVA 0x108D0)
+Signature: undefined __fastcall FUN_1800108d0(void)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_180010950
+Address: 180010950 (RVA 0x10950)
+Signature: undefined __fastcall FUN_180010950(void)
+Thunk: false
+External: false
+----------------------------------------
+Score: 0
+Name: FUN_1800109d0
+Address: 1800109d0 (RVA 0x109D0)
+Signature: undefined __fastcall FUN_1800109d0(void)
+Thunk: false
+External: false
+----------------------------------------

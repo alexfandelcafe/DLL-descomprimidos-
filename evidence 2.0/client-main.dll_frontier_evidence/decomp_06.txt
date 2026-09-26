@@ -1,0 +1,1489 @@
+Frontier Evidence Decompilation
+================================
+Program: client-main.dll
+
+##################################################
+FUNCTION 1
+NAME: FUN_18000d9c0
+ADDRESS: 18000d9c0 (RVA 0xD9C0)
+SIGNATURE: undefined __fastcall FUN_18000d9c0(FibersPool * param_1)
+SCORE: 0
+##################################################
+
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* WARNING: Type propagation algorithm not settling */
+
+void FUN_18000d9c0(FibersPool *param_1)
+
+{
+  Fiber *pFVar1;
+  size_t *psVar2;
+  longlong *plVar3;
+  int *piVar4;
+  char cVar5;
+  void *pvVar6;
+  longlong *plVar7;
+  int iVar8;
+  longlong *plVar9;
+  void *pvVar10;
+  undefined8 *******pppppppuVar11;
+  undefined1 *puVar12;
+  ulonglong uVar13;
+  char *******_Memory;
+  char *******pppppppcVar14;
+  size_t sVar15;
+  undefined1 *puVar16;
+  longlong lVar17;
+  ulonglong uVar18;
+  undefined1 auStackY_118 [32];
+  char *******local_e0;
+  undefined8 uStack_d8;
+  size_t local_d0;
+  ulonglong local_c8;
+  longlong local_c0 [2];
+  ulonglong local_b0;
+  ulonglong local_a8;
+  Fiber *local_a0;
+  longlong *plStack_98;
+  undefined8 *******local_90;
+  undefined8 uStack_88;
+  size_t local_80;
+  ulonglong local_78;
+  longlong *local_70;
+  FibersPool *local_68;
+  void *local_60;
+  undefined8 uStack_58;
+  undefined8 local_50;
+  ulonglong local_48;
+  Fiber *local_40;
+  longlong *plStack_38;
+  ulonglong local_30;
+  
+  local_30 = DAT_18012f440 ^ (ulonglong)auStackY_118;
+  local_68 = param_1;
+  plVar9 = (longlong *)FUN_1800f3b0c(0xa0);
+  *plVar9 = 0;
+  plVar9[1] = 0;
+  *(undefined4 *)(plVar9 + 1) = 1;
+  *(undefined4 *)((longlong)plVar9 + 0xc) = 1;
+  *plVar9 = (longlong)std::_Ref_count_obj2<MainUpdate>::vftable;
+  pFVar1 = (Fiber *)(plVar9 + 2);
+  *(undefined8 *)pFVar1 = 0;
+  plVar9[3] = 0;
+  plVar9[4] = 0;
+  plVar9[5] = 0;
+  plVar9[6] = 0;
+  plVar9[7] = 0;
+  plVar9[8] = 0;
+  plVar9[9] = 0;
+  plVar9[10] = 0;
+  plVar9[0xb] = 0;
+  plVar9[0xc] = 0;
+  plVar9[0xd] = 0;
+  plVar9[0xe] = 0;
+  plVar9[0xf] = 0;
+  plVar9[0x10] = 0;
+  plVar9[0x11] = 0;
+  plVar9[0x12] = 0;
+  plVar9[0x13] = 0;
+  local_a0 = pFVar1;
+  local_70 = plVar9;
+  Fiber::Fiber(pFVar1);
+  *(undefined ***)pFVar1 = MainUpdate::vftable;
+  local_40 = pFVar1;
+  plStack_38 = plVar9;
+  pvVar10 = (void *)__std_type_info_name(0x18012fcd8,&DAT_1801332e0);
+  local_60 = (void *)0x0;
+  uStack_58 = 0;
+  local_50 = 0;
+  local_48 = 0;
+  sVar15 = 0xffffffffffffffff;
+  do {
+    sVar15 = sVar15 + 1;
+  } while (*(char *)((longlong)pvVar10 + sVar15) != '\0');
+  FUN_180050430(&local_60,pvVar10,sVar15);
+  local_90 = (undefined8 *******)0x0;
+  uStack_88 = 0;
+  local_80 = 0;
+  local_78 = 0;
+  FUN_180050430(&local_90,&DAT_180110645,0);
+  local_e0 = (char *******)0x0;
+  uStack_d8 = 0;
+  local_d0 = 0;
+  local_c8 = 0;
+  FUN_180050430(&local_e0,"class ",6);
+  FUN_1800563e0(local_c0,&local_60);
+  sVar15 = local_d0;
+  uVar18 = local_c8;
+  do {
+    uVar13 = local_b0;
+    pppppppcVar14 = (char *******)&local_e0;
+    if (0xf < uVar18) {
+      pppppppcVar14 = local_e0;
+    }
+    puVar12 = (undefined1 *)CONCAT71(local_c0[0]._1_7_,(undefined1)local_c0[0]);
+    puVar16 = (undefined1 *)local_c0;
+    if (0xf < local_a8) {
+      puVar16 = puVar12;
+    }
+    if (local_b0 < sVar15) goto LAB_18000dbe6;
+    if (sVar15 != 0) {
+      lVar17 = local_b0 - sVar15;
+      cVar5 = *(char *)pppppppcVar14;
+      pvVar10 = memchr(puVar16,(int)cVar5,lVar17 + 1);
+      uVar18 = local_c8;
+      while( true ) {
+        local_c8 = uVar18;
+        if (pvVar10 == (void *)0x0) goto LAB_18000dbe6;
+        iVar8 = memcmp(pvVar10,pppppppcVar14,sVar15);
+        if (iVar8 == 0) break;
+        pvVar10 = memchr((void *)((longlong)pvVar10 + 1),(int)cVar5,
+                         (size_t)(puVar16 + ((lVar17 + 1) - ((longlong)pvVar10 + 1))));
+        uVar18 = local_c8;
+      }
+      uVar18 = local_c8;
+      if ((longlong)pvVar10 - (longlong)puVar16 == -1) {
+LAB_18000dbe6:
+        pppppppcVar14 = local_e0;
+        puVar12 = (undefined1 *)local_c0;
+        if (0xf < local_a8) {
+          puVar12 = (undefined1 *)CONCAT71(local_c0[0]._1_7_,(undefined1)local_c0[0]);
+        }
+        FUN_180054510((longlong *)&local_60,puVar12,uVar13);
+        if (0xf < local_a8) {
+          pvVar6 = (void *)CONCAT71(local_c0[0]._1_7_,(undefined1)local_c0[0]);
+          pvVar10 = pvVar6;
+          if ((0xfff < local_a8 + 1) &&
+             (pvVar10 = *(void **)((longlong)pvVar6 + -8),
+             0x1f < (ulonglong)((longlong)pvVar6 + (-8 - (longlong)pvVar10)))) {
+                    /* WARNING: Subroutine does not return */
+            _invalid_parameter_noinfo_noreturn();
+          }
+          free(pvVar10);
+        }
+        local_b0 = 0;
+        local_a8 = 0xf;
+        local_c0[0]._0_1_ = 0;
+        if (0xf < uVar18) {
+          _Memory = pppppppcVar14;
+          if ((0xfff < uVar18 + 1) &&
+             (_Memory = (char *******)pppppppcVar14[-1],
+             (char *)0x1f < (char *)((longlong)pppppppcVar14 + (-8 - (longlong)_Memory)))) {
+                    /* WARNING: Subroutine does not return */
+            _invalid_parameter_noinfo_noreturn();
+          }
+          free(_Memory);
+        }
+        if (0xf < local_78) {
+          pppppppuVar11 = local_90;
+          if ((0xfff < local_78 + 1) &&
+             (pppppppuVar11 = (undefined8 *******)local_90[-1],
+             0x1f < (ulonglong)((longlong)local_90 + (-8 - (longlong)pppppppuVar11)))) {
+                    /* WARNING: Subroutine does not return */
+            _invalid_parameter_noinfo_noreturn();
+          }
+          free(pppppppuVar11);
+        }
+        pFVar1 = local_a0;
+        IFiber::SetName((IFiber *)local_a0,
+                        (basic_string<char,std::char_traits<char>,std::allocator<char>_> *)&local_60
+                       );
+        plVar7 = local_70;
+        LOCK();
+        *(int *)(local_70 + 1) = (int)local_70[1] + 1;
+        UNLOCK();
+        plStack_98 = local_70;
+        local_a0 = pFVar1;
+        FibersPool::Add(local_68,1,(shared_ptr<IFiber> *)&local_a0);
+        plVar9 = plStack_98;
+        if (plStack_98 != (longlong *)0x0) {
+          LOCK();
+          plVar3 = plStack_98 + 1;
+          lVar17 = *plVar3;
+          *(int *)plVar3 = (int)*plVar3 + -1;
+          UNLOCK();
+          if ((int)lVar17 == 1) {
+            (**(code **)*plStack_98)(plStack_98);
+            LOCK();
+            piVar4 = (int *)((longlong)plVar9 + 0xc);
+            iVar8 = *piVar4;
+            *piVar4 = *piVar4 + -1;
+            UNLOCK();
+            if (iVar8 == 1) {
+              (**(code **)(*plVar9 + 8))(plVar9);
+            }
+          }
+        }
+        if (0xf < local_48) {
+          pvVar10 = local_60;
+          if ((0xfff < local_48 + 1) &&
+             (pvVar10 = *(void **)((longlong)local_60 + -8),
+             0x1f < (ulonglong)((longlong)local_60 + (-8 - (longlong)pvVar10)))) {
+                    /* WARNING: Subroutine does not return */
+            _invalid_parameter_noinfo_noreturn();
+          }
+          free(pvVar10);
+        }
+        local_50 = 0;
+        local_48 = 0xf;
+        local_60 = (void *)((ulonglong)local_60 & 0xffffffffffffff00);
+        LOCK();
+        plVar9 = plVar7 + 1;
+        lVar17 = *plVar9;
+        *(int *)plVar9 = (int)*plVar9 + -1;
+        UNLOCK();
+        if ((int)lVar17 == 1) {
+          (**(code **)*plVar7)(plVar7);
+          LOCK();
+          piVar4 = (int *)((longlong)plVar7 + 0xc);
+          iVar8 = *piVar4;
+          *piVar4 = *piVar4 + -1;
+          UNLOCK();
+          if (iVar8 == 1) {
+            (**(code **)(*plVar7 + 8))(plVar7);
+          }
+        }
+        return;
+      }
+      puVar12 = (undefined1 *)CONCAT71(local_c0[0]._1_7_,(undefined1)local_c0[0]);
+    }
+    pppppppcVar14 = (char *******)&local_e0;
+    if (0xf < uVar18) {
+      pppppppcVar14 = local_e0;
+    }
+    puVar16 = (undefined1 *)local_c0;
+    if (0xf < local_a8) {
+      puVar16 = puVar12;
+    }
+    if (sVar15 == 0) {
+      uVar13 = 0;
+    }
+    else {
+      lVar17 = uVar13 - sVar15;
+      cVar5 = *(char *)pppppppcVar14;
+      for (pvVar10 = memchr(puVar16,(int)cVar5,lVar17 + 1); pvVar10 != (void *)0x0;
+          pvVar10 = memchr((void *)((longlong)pvVar10 + 1),(int)cVar5,
+                           (size_t)(puVar16 + ((lVar17 + 1) - ((longlong)pvVar10 + 1))))) {
+        iVar8 = memcmp(pvVar10,pppppppcVar14,sVar15);
+        if (iVar8 == 0) {
+          uVar13 = (longlong)pvVar10 - (longlong)puVar16;
+          uVar18 = local_c8;
+          goto LAB_18000dcf1;
+        }
+      }
+      uVar13 = 0xffffffffffffffff;
+      uVar18 = local_c8;
+    }
+LAB_18000dcf1:
+    pppppppuVar11 = &local_90;
+    if (0xf < local_78) {
+      pppppppuVar11 = local_90;
+    }
+    plVar9 = FUN_180050290(local_c0,uVar13,sVar15,pppppppuVar11,local_80);
+    if (local_c0 != plVar9) {
+      psVar2 = (size_t *)(plVar9 + 2);
+      if (0xf < (ulonglong)plVar9[3]) {
+        plVar9 = (longlong *)*plVar9;
+      }
+      FUN_180054510(local_c0,plVar9,*psVar2);
+    }
+  } while( true );
+}
+
+
+
+
+##################################################
+FUNCTION 2
+NAME: FUN_18000df00
+ADDRESS: 18000df00 (RVA 0xDF00)
+SIGNATURE: undefined __fastcall FUN_18000df00(FibersPool * param_1)
+SCORE: 0
+##################################################
+
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* WARNING: Type propagation algorithm not settling */
+
+void FUN_18000df00(FibersPool *param_1)
+
+{
+  Fiber *pFVar1;
+  size_t *psVar2;
+  longlong *plVar3;
+  int *piVar4;
+  char cVar5;
+  void *pvVar6;
+  longlong *plVar7;
+  int iVar8;
+  longlong *plVar9;
+  void *pvVar10;
+  undefined8 *******pppppppuVar11;
+  undefined1 *puVar12;
+  ulonglong uVar13;
+  char *******_Memory;
+  char *******pppppppcVar14;
+  size_t sVar15;
+  undefined1 *puVar16;
+  longlong lVar17;
+  ulonglong uVar18;
+  undefined1 auStackY_118 [32];
+  char *******local_e0;
+  undefined8 uStack_d8;
+  size_t local_d0;
+  ulonglong local_c8;
+  longlong local_c0 [2];
+  ulonglong local_b0;
+  ulonglong local_a8;
+  Fiber *local_a0;
+  longlong *plStack_98;
+  undefined8 *******local_90;
+  undefined8 uStack_88;
+  size_t local_80;
+  ulonglong local_78;
+  longlong *local_70;
+  FibersPool *local_68;
+  void *local_60;
+  undefined8 uStack_58;
+  undefined8 local_50;
+  ulonglong local_48;
+  Fiber *local_40;
+  longlong *plStack_38;
+  ulonglong local_30;
+  
+  local_30 = DAT_18012f440 ^ (ulonglong)auStackY_118;
+  local_68 = param_1;
+  plVar9 = (longlong *)FUN_1800f3b0c(0xa0);
+  *plVar9 = 0;
+  plVar9[1] = 0;
+  *(undefined4 *)(plVar9 + 1) = 1;
+  *(undefined4 *)((longlong)plVar9 + 0xc) = 1;
+  *plVar9 = (longlong)std::_Ref_count_obj2<NetworkPrimaryThread>::vftable;
+  pFVar1 = (Fiber *)(plVar9 + 2);
+  *(undefined8 *)pFVar1 = 0;
+  plVar9[3] = 0;
+  plVar9[4] = 0;
+  plVar9[5] = 0;
+  plVar9[6] = 0;
+  plVar9[7] = 0;
+  plVar9[8] = 0;
+  plVar9[9] = 0;
+  plVar9[10] = 0;
+  plVar9[0xb] = 0;
+  plVar9[0xc] = 0;
+  plVar9[0xd] = 0;
+  plVar9[0xe] = 0;
+  plVar9[0xf] = 0;
+  plVar9[0x10] = 0;
+  plVar9[0x11] = 0;
+  plVar9[0x12] = 0;
+  plVar9[0x13] = 0;
+  local_a0 = pFVar1;
+  local_70 = plVar9;
+  Fiber::Fiber(pFVar1);
+  *(undefined ***)pFVar1 = NetworkPrimaryThread::vftable;
+  local_40 = pFVar1;
+  plStack_38 = plVar9;
+  pvVar10 = (void *)__std_type_info_name(0x18012fca8,&DAT_1801332e0);
+  local_60 = (void *)0x0;
+  uStack_58 = 0;
+  local_50 = 0;
+  local_48 = 0;
+  sVar15 = 0xffffffffffffffff;
+  do {
+    sVar15 = sVar15 + 1;
+  } while (*(char *)((longlong)pvVar10 + sVar15) != '\0');
+  FUN_180050430(&local_60,pvVar10,sVar15);
+  local_90 = (undefined8 *******)0x0;
+  uStack_88 = 0;
+  local_80 = 0;
+  local_78 = 0;
+  FUN_180050430(&local_90,&DAT_180110645,0);
+  local_e0 = (char *******)0x0;
+  uStack_d8 = 0;
+  local_d0 = 0;
+  local_c8 = 0;
+  FUN_180050430(&local_e0,"class ",6);
+  FUN_1800563e0(local_c0,&local_60);
+  sVar15 = local_d0;
+  uVar18 = local_c8;
+  do {
+    uVar13 = local_b0;
+    pppppppcVar14 = (char *******)&local_e0;
+    if (0xf < uVar18) {
+      pppppppcVar14 = local_e0;
+    }
+    puVar12 = (undefined1 *)CONCAT71(local_c0[0]._1_7_,(undefined1)local_c0[0]);
+    puVar16 = (undefined1 *)local_c0;
+    if (0xf < local_a8) {
+      puVar16 = puVar12;
+    }
+    if (local_b0 < sVar15) goto LAB_18000e126;
+    if (sVar15 != 0) {
+      lVar17 = local_b0 - sVar15;
+      cVar5 = *(char *)pppppppcVar14;
+      pvVar10 = memchr(puVar16,(int)cVar5,lVar17 + 1);
+      uVar18 = local_c8;
+      while( true ) {
+        local_c8 = uVar18;
+        if (pvVar10 == (void *)0x0) goto LAB_18000e126;
+        iVar8 = memcmp(pvVar10,pppppppcVar14,sVar15);
+        if (iVar8 == 0) break;
+        pvVar10 = memchr((void *)((longlong)pvVar10 + 1),(int)cVar5,
+                         (size_t)(puVar16 + ((lVar17 + 1) - ((longlong)pvVar10 + 1))));
+        uVar18 = local_c8;
+      }
+      uVar18 = local_c8;
+      if ((longlong)pvVar10 - (longlong)puVar16 == -1) {
+LAB_18000e126:
+        pppppppcVar14 = local_e0;
+        puVar12 = (undefined1 *)local_c0;
+        if (0xf < local_a8) {
+          puVar12 = (undefined1 *)CONCAT71(local_c0[0]._1_7_,(undefined1)local_c0[0]);
+        }
+        FUN_180054510((longlong *)&local_60,puVar12,uVar13);
+        if (0xf < local_a8) {
+          pvVar6 = (void *)CONCAT71(local_c0[0]._1_7_,(undefined1)local_c0[0]);
+          pvVar10 = pvVar6;
+          if ((0xfff < local_a8 + 1) &&
+             (pvVar10 = *(void **)((longlong)pvVar6 + -8),
+             0x1f < (ulonglong)((longlong)pvVar6 + (-8 - (longlong)pvVar10)))) {
+                    /* WARNING: Subroutine does not return */
+            _invalid_parameter_noinfo_noreturn();
+          }
+          free(pvVar10);
+        }
+        local_b0 = 0;
+        local_a8 = 0xf;
+        local_c0[0]._0_1_ = 0;
+        if (0xf < uVar18) {
+          _Memory = pppppppcVar14;
+          if ((0xfff < uVar18 + 1) &&
+             (_Memory = (char *******)pppppppcVar14[-1],
+             (char *)0x1f < (char *)((longlong)pppppppcVar14 + (-8 - (longlong)_Memory)))) {
+                    /* WARNING: Subroutine does not return */
+            _invalid_parameter_noinfo_noreturn();
+          }
+          free(_Memory);
+        }
+        if (0xf < local_78) {
+          pppppppuVar11 = local_90;
+          if ((0xfff < local_78 + 1) &&
+             (pppppppuVar11 = (undefined8 *******)local_90[-1],
+             0x1f < (ulonglong)((longlong)local_90 + (-8 - (longlong)pppppppuVar11)))) {
+                    /* WARNING: Subroutine does not return */
+            _invalid_parameter_noinfo_noreturn();
+          }
+          free(pppppppuVar11);
+        }
+        pFVar1 = local_a0;
+        IFiber::SetName((IFiber *)local_a0,
+                        (basic_string<char,std::char_traits<char>,std::allocator<char>_> *)&local_60
+                       );
+        plVar7 = local_70;
+        LOCK();
+        *(int *)(local_70 + 1) = (int)local_70[1] + 1;
+        UNLOCK();
+        plStack_98 = local_70;
+        local_a0 = pFVar1;
+        FibersPool::Add(local_68,2,(shared_ptr<IFiber> *)&local_a0);
+        plVar9 = plStack_98;
+        if (plStack_98 != (longlong *)0x0) {
+          LOCK();
+          plVar3 = plStack_98 + 1;
+          lVar17 = *plVar3;
+          *(int *)plVar3 = (int)*plVar3 + -1;
+          UNLOCK();
+          if ((int)lVar17 == 1) {
+            (**(code **)*plStack_98)(plStack_98);
+            LOCK();
+            piVar4 = (int *)((longlong)plVar9 + 0xc);
+            iVar8 = *piVar4;
+            *piVar4 = *piVar4 + -1;
+            UNLOCK();
+            if (iVar8 == 1) {
+              (**(code **)(*plVar9 + 8))(plVar9);
+            }
+          }
+        }
+        if (0xf < local_48) {
+          pvVar10 = local_60;
+          if ((0xfff < local_48 + 1) &&
+             (pvVar10 = *(void **)((longlong)local_60 + -8),
+             0x1f < (ulonglong)((longlong)local_60 + (-8 - (longlong)pvVar10)))) {
+                    /* WARNING: Subroutine does not return */
+            _invalid_parameter_noinfo_noreturn();
+          }
+          free(pvVar10);
+        }
+        local_50 = 0;
+        local_48 = 0xf;
+        local_60 = (void *)((ulonglong)local_60 & 0xffffffffffffff00);
+        LOCK();
+        plVar9 = plVar7 + 1;
+        lVar17 = *plVar9;
+        *(int *)plVar9 = (int)*plVar9 + -1;
+        UNLOCK();
+        if ((int)lVar17 == 1) {
+          (**(code **)*plVar7)(plVar7);
+          LOCK();
+          piVar4 = (int *)((longlong)plVar7 + 0xc);
+          iVar8 = *piVar4;
+          *piVar4 = *piVar4 + -1;
+          UNLOCK();
+          if (iVar8 == 1) {
+            (**(code **)(*plVar7 + 8))(plVar7);
+          }
+        }
+        return;
+      }
+      puVar12 = (undefined1 *)CONCAT71(local_c0[0]._1_7_,(undefined1)local_c0[0]);
+    }
+    pppppppcVar14 = (char *******)&local_e0;
+    if (0xf < uVar18) {
+      pppppppcVar14 = local_e0;
+    }
+    puVar16 = (undefined1 *)local_c0;
+    if (0xf < local_a8) {
+      puVar16 = puVar12;
+    }
+    if (sVar15 == 0) {
+      uVar13 = 0;
+    }
+    else {
+      lVar17 = uVar13 - sVar15;
+      cVar5 = *(char *)pppppppcVar14;
+      for (pvVar10 = memchr(puVar16,(int)cVar5,lVar17 + 1); pvVar10 != (void *)0x0;
+          pvVar10 = memchr((void *)((longlong)pvVar10 + 1),(int)cVar5,
+                           (size_t)(puVar16 + ((lVar17 + 1) - ((longlong)pvVar10 + 1))))) {
+        iVar8 = memcmp(pvVar10,pppppppcVar14,sVar15);
+        if (iVar8 == 0) {
+          uVar13 = (longlong)pvVar10 - (longlong)puVar16;
+          uVar18 = local_c8;
+          goto LAB_18000e231;
+        }
+      }
+      uVar13 = 0xffffffffffffffff;
+      uVar18 = local_c8;
+    }
+LAB_18000e231:
+    pppppppuVar11 = &local_90;
+    if (0xf < local_78) {
+      pppppppuVar11 = local_90;
+    }
+    plVar9 = FUN_180050290(local_c0,uVar13,sVar15,pppppppuVar11,local_80);
+    if (local_c0 != plVar9) {
+      psVar2 = (size_t *)(plVar9 + 2);
+      if (0xf < (ulonglong)plVar9[3]) {
+        plVar9 = (longlong *)*plVar9;
+      }
+      FUN_180054510(local_c0,plVar9,*psVar2);
+    }
+  } while( true );
+}
+
+
+
+
+##################################################
+FUNCTION 3
+NAME: FUN_18000e440
+ADDRESS: 18000e440 (RVA 0xE440)
+SIGNATURE: undefined __fastcall FUN_18000e440(FibersPool * param_1)
+SCORE: 0
+##################################################
+
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* WARNING: Type propagation algorithm not settling */
+
+void FUN_18000e440(FibersPool *param_1)
+
+{
+  Fiber *pFVar1;
+  size_t *psVar2;
+  longlong *plVar3;
+  int *piVar4;
+  char cVar5;
+  void *pvVar6;
+  longlong *plVar7;
+  int iVar8;
+  longlong *plVar9;
+  void *pvVar10;
+  undefined8 *******pppppppuVar11;
+  undefined1 *puVar12;
+  ulonglong uVar13;
+  char *******_Memory;
+  char *******pppppppcVar14;
+  size_t sVar15;
+  undefined1 *puVar16;
+  longlong lVar17;
+  ulonglong uVar18;
+  undefined1 auStackY_118 [32];
+  char *******local_e0;
+  undefined8 uStack_d8;
+  size_t local_d0;
+  ulonglong local_c8;
+  longlong local_c0 [2];
+  ulonglong local_b0;
+  ulonglong local_a8;
+  Fiber *local_a0;
+  longlong *plStack_98;
+  undefined8 *******local_90;
+  undefined8 uStack_88;
+  size_t local_80;
+  ulonglong local_78;
+  longlong *local_70;
+  FibersPool *local_68;
+  void *local_60;
+  undefined8 uStack_58;
+  undefined8 local_50;
+  ulonglong local_48;
+  Fiber *local_40;
+  longlong *plStack_38;
+  ulonglong local_30;
+  
+  local_30 = DAT_18012f440 ^ (ulonglong)auStackY_118;
+  local_68 = param_1;
+  plVar9 = (longlong *)FUN_1800f3b0c(0xa0);
+  *plVar9 = 0;
+  plVar9[1] = 0;
+  *(undefined4 *)(plVar9 + 1) = 1;
+  *(undefined4 *)((longlong)plVar9 + 0xc) = 1;
+  *plVar9 = (longlong)std::_Ref_count_obj2<NetworkSecondaryThread>::vftable;
+  pFVar1 = (Fiber *)(plVar9 + 2);
+  *(undefined8 *)pFVar1 = 0;
+  plVar9[3] = 0;
+  plVar9[4] = 0;
+  plVar9[5] = 0;
+  plVar9[6] = 0;
+  plVar9[7] = 0;
+  plVar9[8] = 0;
+  plVar9[9] = 0;
+  plVar9[10] = 0;
+  plVar9[0xb] = 0;
+  plVar9[0xc] = 0;
+  plVar9[0xd] = 0;
+  plVar9[0xe] = 0;
+  plVar9[0xf] = 0;
+  plVar9[0x10] = 0;
+  plVar9[0x11] = 0;
+  plVar9[0x12] = 0;
+  plVar9[0x13] = 0;
+  local_a0 = pFVar1;
+  local_70 = plVar9;
+  Fiber::Fiber(pFVar1);
+  *(undefined ***)pFVar1 = NetworkSecondaryThread::vftable;
+  local_40 = pFVar1;
+  plStack_38 = plVar9;
+  pvVar10 = (void *)__std_type_info_name(0x18012fc78,&DAT_1801332e0);
+  local_60 = (void *)0x0;
+  uStack_58 = 0;
+  local_50 = 0;
+  local_48 = 0;
+  sVar15 = 0xffffffffffffffff;
+  do {
+    sVar15 = sVar15 + 1;
+  } while (*(char *)((longlong)pvVar10 + sVar15) != '\0');
+  FUN_180050430(&local_60,pvVar10,sVar15);
+  local_90 = (undefined8 *******)0x0;
+  uStack_88 = 0;
+  local_80 = 0;
+  local_78 = 0;
+  FUN_180050430(&local_90,&DAT_180110645,0);
+  local_e0 = (char *******)0x0;
+  uStack_d8 = 0;
+  local_d0 = 0;
+  local_c8 = 0;
+  FUN_180050430(&local_e0,"class ",6);
+  FUN_1800563e0(local_c0,&local_60);
+  sVar15 = local_d0;
+  uVar18 = local_c8;
+  do {
+    uVar13 = local_b0;
+    pppppppcVar14 = (char *******)&local_e0;
+    if (0xf < uVar18) {
+      pppppppcVar14 = local_e0;
+    }
+    puVar12 = (undefined1 *)CONCAT71(local_c0[0]._1_7_,(undefined1)local_c0[0]);
+    puVar16 = (undefined1 *)local_c0;
+    if (0xf < local_a8) {
+      puVar16 = puVar12;
+    }
+    if (local_b0 < sVar15) goto LAB_18000e666;
+    if (sVar15 != 0) {
+      lVar17 = local_b0 - sVar15;
+      cVar5 = *(char *)pppppppcVar14;
+      pvVar10 = memchr(puVar16,(int)cVar5,lVar17 + 1);
+      uVar18 = local_c8;
+      while( true ) {
+        local_c8 = uVar18;
+        if (pvVar10 == (void *)0x0) goto LAB_18000e666;
+        iVar8 = memcmp(pvVar10,pppppppcVar14,sVar15);
+        if (iVar8 == 0) break;
+        pvVar10 = memchr((void *)((longlong)pvVar10 + 1),(int)cVar5,
+                         (size_t)(puVar16 + ((lVar17 + 1) - ((longlong)pvVar10 + 1))));
+        uVar18 = local_c8;
+      }
+      uVar18 = local_c8;
+      if ((longlong)pvVar10 - (longlong)puVar16 == -1) {
+LAB_18000e666:
+        pppppppcVar14 = local_e0;
+        puVar12 = (undefined1 *)local_c0;
+        if (0xf < local_a8) {
+          puVar12 = (undefined1 *)CONCAT71(local_c0[0]._1_7_,(undefined1)local_c0[0]);
+        }
+        FUN_180054510((longlong *)&local_60,puVar12,uVar13);
+        if (0xf < local_a8) {
+          pvVar6 = (void *)CONCAT71(local_c0[0]._1_7_,(undefined1)local_c0[0]);
+          pvVar10 = pvVar6;
+          if ((0xfff < local_a8 + 1) &&
+             (pvVar10 = *(void **)((longlong)pvVar6 + -8),
+             0x1f < (ulonglong)((longlong)pvVar6 + (-8 - (longlong)pvVar10)))) {
+                    /* WARNING: Subroutine does not return */
+            _invalid_parameter_noinfo_noreturn();
+          }
+          free(pvVar10);
+        }
+        local_b0 = 0;
+        local_a8 = 0xf;
+        local_c0[0]._0_1_ = 0;
+        if (0xf < uVar18) {
+          _Memory = pppppppcVar14;
+          if ((0xfff < uVar18 + 1) &&
+             (_Memory = (char *******)pppppppcVar14[-1],
+             (char *)0x1f < (char *)((longlong)pppppppcVar14 + (-8 - (longlong)_Memory)))) {
+                    /* WARNING: Subroutine does not return */
+            _invalid_parameter_noinfo_noreturn();
+          }
+          free(_Memory);
+        }
+        if (0xf < local_78) {
+          pppppppuVar11 = local_90;
+          if ((0xfff < local_78 + 1) &&
+             (pppppppuVar11 = (undefined8 *******)local_90[-1],
+             0x1f < (ulonglong)((longlong)local_90 + (-8 - (longlong)pppppppuVar11)))) {
+                    /* WARNING: Subroutine does not return */
+            _invalid_parameter_noinfo_noreturn();
+          }
+          free(pppppppuVar11);
+        }
+        pFVar1 = local_a0;
+        IFiber::SetName((IFiber *)local_a0,
+                        (basic_string<char,std::char_traits<char>,std::allocator<char>_> *)&local_60
+                       );
+        plVar7 = local_70;
+        LOCK();
+        *(int *)(local_70 + 1) = (int)local_70[1] + 1;
+        UNLOCK();
+        plStack_98 = local_70;
+        local_a0 = pFVar1;
+        FibersPool::Add(local_68,3,(shared_ptr<IFiber> *)&local_a0);
+        plVar9 = plStack_98;
+        if (plStack_98 != (longlong *)0x0) {
+          LOCK();
+          plVar3 = plStack_98 + 1;
+          lVar17 = *plVar3;
+          *(int *)plVar3 = (int)*plVar3 + -1;
+          UNLOCK();
+          if ((int)lVar17 == 1) {
+            (**(code **)*plStack_98)(plStack_98);
+            LOCK();
+            piVar4 = (int *)((longlong)plVar9 + 0xc);
+            iVar8 = *piVar4;
+            *piVar4 = *piVar4 + -1;
+            UNLOCK();
+            if (iVar8 == 1) {
+              (**(code **)(*plVar9 + 8))(plVar9);
+            }
+          }
+        }
+        if (0xf < local_48) {
+          pvVar10 = local_60;
+          if ((0xfff < local_48 + 1) &&
+             (pvVar10 = *(void **)((longlong)local_60 + -8),
+             0x1f < (ulonglong)((longlong)local_60 + (-8 - (longlong)pvVar10)))) {
+                    /* WARNING: Subroutine does not return */
+            _invalid_parameter_noinfo_noreturn();
+          }
+          free(pvVar10);
+        }
+        local_50 = 0;
+        local_48 = 0xf;
+        local_60 = (void *)((ulonglong)local_60 & 0xffffffffffffff00);
+        LOCK();
+        plVar9 = plVar7 + 1;
+        lVar17 = *plVar9;
+        *(int *)plVar9 = (int)*plVar9 + -1;
+        UNLOCK();
+        if ((int)lVar17 == 1) {
+          (**(code **)*plVar7)(plVar7);
+          LOCK();
+          piVar4 = (int *)((longlong)plVar7 + 0xc);
+          iVar8 = *piVar4;
+          *piVar4 = *piVar4 + -1;
+          UNLOCK();
+          if (iVar8 == 1) {
+            (**(code **)(*plVar7 + 8))(plVar7);
+          }
+        }
+        return;
+      }
+      puVar12 = (undefined1 *)CONCAT71(local_c0[0]._1_7_,(undefined1)local_c0[0]);
+    }
+    pppppppcVar14 = (char *******)&local_e0;
+    if (0xf < uVar18) {
+      pppppppcVar14 = local_e0;
+    }
+    puVar16 = (undefined1 *)local_c0;
+    if (0xf < local_a8) {
+      puVar16 = puVar12;
+    }
+    if (sVar15 == 0) {
+      uVar13 = 0;
+    }
+    else {
+      lVar17 = uVar13 - sVar15;
+      cVar5 = *(char *)pppppppcVar14;
+      for (pvVar10 = memchr(puVar16,(int)cVar5,lVar17 + 1); pvVar10 != (void *)0x0;
+          pvVar10 = memchr((void *)((longlong)pvVar10 + 1),(int)cVar5,
+                           (size_t)(puVar16 + ((lVar17 + 1) - ((longlong)pvVar10 + 1))))) {
+        iVar8 = memcmp(pvVar10,pppppppcVar14,sVar15);
+        if (iVar8 == 0) {
+          uVar13 = (longlong)pvVar10 - (longlong)puVar16;
+          uVar18 = local_c8;
+          goto LAB_18000e771;
+        }
+      }
+      uVar13 = 0xffffffffffffffff;
+      uVar18 = local_c8;
+    }
+LAB_18000e771:
+    pppppppuVar11 = &local_90;
+    if (0xf < local_78) {
+      pppppppuVar11 = local_90;
+    }
+    plVar9 = FUN_180050290(local_c0,uVar13,sVar15,pppppppuVar11,local_80);
+    if (local_c0 != plVar9) {
+      psVar2 = (size_t *)(plVar9 + 2);
+      if (0xf < (ulonglong)plVar9[3]) {
+        plVar9 = (longlong *)*plVar9;
+      }
+      FUN_180054510(local_c0,plVar9,*psVar2);
+    }
+  } while( true );
+}
+
+
+
+
+##################################################
+FUNCTION 4
+NAME: FUN_18000eb00
+ADDRESS: 18000eb00 (RVA 0xEB00)
+SIGNATURE: undefined __fastcall FUN_18000eb00(char * param_1)
+SCORE: 0
+##################################################
+
+
+void FUN_18000eb00(char *param_1)
+
+{
+  char cVar1;
+  void *pvVar2;
+  longlong *_Memory;
+  void *_Memory_00;
+  
+  cVar1 = *param_1;
+  if (cVar1 == '\x04') {
+    if (0xf < *(ulonglong *)(param_1 + 0x28)) {
+      pvVar2 = *(void **)(param_1 + 0x10);
+      _Memory_00 = pvVar2;
+      if ((0xfff < *(ulonglong *)(param_1 + 0x28) + 1) &&
+         (_Memory_00 = *(void **)((longlong)pvVar2 + -8),
+         0x1f < (ulonglong)((longlong)pvVar2 + (-8 - (longlong)_Memory_00)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(_Memory_00);
+    }
+    param_1[0x20] = '\0';
+    param_1[0x21] = '\0';
+    param_1[0x22] = '\0';
+    param_1[0x23] = '\0';
+    param_1[0x24] = '\0';
+    param_1[0x25] = '\0';
+    param_1[0x26] = '\0';
+    param_1[0x27] = '\0';
+    param_1[0x28] = '\x0f';
+    param_1[0x29] = '\0';
+    param_1[0x2a] = '\0';
+    param_1[0x2b] = '\0';
+    param_1[0x2c] = '\0';
+    param_1[0x2d] = '\0';
+    param_1[0x2e] = '\0';
+    param_1[0x2f] = '\0';
+    param_1[0x10] = '\0';
+  }
+  else if (cVar1 == '\t') {
+    _Memory = *(longlong **)(param_1 + 8);
+    if (_Memory != (longlong *)0x0) {
+      FUN_18000ed30(_Memory);
+      free(_Memory);
+      return;
+    }
+  }
+  else if ((cVar1 == '\n') && (pvVar2 = *(void **)(param_1 + 8), pvVar2 != (void *)0x0)) {
+    FUN_18000ebe0((longlong)pvVar2);
+    free(pvVar2);
+    return;
+  }
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 5
+NAME: FUN_18000ebe0
+ADDRESS: 18000ebe0 (RVA 0xEBE0)
+SIGNATURE: undefined __fastcall FUN_18000ebe0(longlong param_1)
+SCORE: 0
+##################################################
+
+
+void FUN_18000ebe0(longlong param_1)
+
+{
+  void *pvVar1;
+  void *_Memory;
+  
+  pvVar1 = *(void **)(param_1 + 0x18);
+  if (pvVar1 != (void *)0x0) {
+    _Memory = pvVar1;
+    if ((0xfff < (*(longlong *)(param_1 + 0x28) - (longlong)pvVar1 & 0xfffffffffffffff8U)) &&
+       (_Memory = *(void **)((longlong)pvVar1 + -8),
+       0x1f < (ulonglong)((longlong)pvVar1 + (-8 - (longlong)_Memory)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(_Memory);
+    *(undefined8 *)(param_1 + 0x18) = 0;
+    *(undefined8 *)(param_1 + 0x20) = 0;
+    *(undefined8 *)(param_1 + 0x28) = 0;
+  }
+  FUN_18000ecc0((longlong *)(param_1 + 8));
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 6
+NAME: FUN_18000ecc0
+ADDRESS: 18000ecc0 (RVA 0xECC0)
+SIGNATURE: undefined __fastcall FUN_18000ecc0(longlong * param_1)
+SCORE: 0
+##################################################
+
+
+void FUN_18000ecc0(longlong *param_1)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  
+  puVar1 = (undefined8 *)*param_1;
+  *(undefined8 *)puVar1[1] = 0;
+  puVar1 = (undefined8 *)*puVar1;
+  while (puVar1 != (undefined8 *)0x0) {
+    puVar2 = (undefined8 *)*puVar1;
+    FUN_180013ab0(puVar1 + 2);
+    free(puVar1);
+    puVar1 = puVar2;
+  }
+  free((void *)*param_1);
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 7
+NAME: FUN_18000ed30
+ADDRESS: 18000ed30 (RVA 0xED30)
+SIGNATURE: undefined __fastcall FUN_18000ed30(longlong * param_1)
+SCORE: 0
+##################################################
+
+
+void FUN_18000ed30(longlong *param_1)
+
+{
+  char *pcVar1;
+  void *pvVar2;
+  char *pcVar3;
+  void *_Memory;
+  
+  pcVar3 = (char *)*param_1;
+  if (pcVar3 != (char *)0x0) {
+    pcVar1 = (char *)param_1[1];
+    for (; pcVar3 != pcVar1; pcVar3 = pcVar3 + 0x58) {
+      FUN_18000ea00(pcVar3);
+    }
+    pvVar2 = (void *)*param_1;
+    _Memory = pvVar2;
+    if ((0xfff < (ulonglong)(((param_1[2] - (longlong)pvVar2) / 0x58) * 0x58)) &&
+       (_Memory = *(void **)((longlong)pvVar2 + -8),
+       0x1f < (ulonglong)((longlong)pvVar2 + (-8 - (longlong)_Memory)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(_Memory);
+    *param_1 = 0;
+    param_1[1] = 0;
+    param_1[2] = 0;
+  }
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 8
+NAME: FUN_18000ee20
+ADDRESS: 18000ee20 (RVA 0xEE20)
+SIGNATURE: ulonglong __fastcall FUN_18000ee20(undefined8 * param_1, longlong * param_2, undefined8 * param_3)
+SCORE: 0
+##################################################
+
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+ulonglong FUN_18000ee20(undefined8 *param_1,longlong *param_2,undefined8 *param_3)
+
+{
+  undefined8 *puVar1;
+  code *pcVar2;
+  bool bVar3;
+  int iVar4;
+  ulonglong uVar5;
+  MainMenuClient *this;
+  ClientHandler *this_00;
+  undefined8 ****ppppuVar6;
+  undefined1 auStackY_278 [32];
+  undefined8 *local_248;
+  char local_240;
+  longlong local_238;
+  ClientHandler *local_230;
+  longlong local_228 [2];
+  undefined8 *local_218;
+  undefined8 uStack_210;
+  undefined8 ***local_208 [2];
+  longlong local_1f8;
+  ulonglong local_1f0;
+  undefined8 *local_1e8;
+  longlong *local_1e0;
+  longlong *local_1d8;
+  MainMenuClient *local_1d0;
+  undefined8 local_1c8;
+  undefined8 uStack_1c0;
+  undefined8 local_1b8;
+  undefined8 uStack_1b0;
+  undefined8 local_1a8;
+  undefined8 uStack_1a0;
+  undefined8 local_198;
+  undefined8 uStack_190;
+  undefined8 local_188;
+  undefined8 uStack_180;
+  undefined8 local_178;
+  undefined8 uStack_170;
+  undefined8 local_168;
+  undefined8 uStack_160;
+  longlong local_158;
+  undefined8 local_148 [2];
+  undefined1 local_138 [24];
+  undefined1 local_120 [24];
+  undefined1 local_108 [24];
+  undefined1 local_f0 [24];
+  undefined1 local_d8 [24];
+  undefined1 local_c0 [40];
+  undefined1 local_98 [88];
+  longlong local_40;
+  ulonglong local_38;
+  
+  local_38 = DAT_18012f440 ^ (ulonglong)auStackY_278;
+  puVar1 = param_1 + 2;
+  local_1e8 = puVar1;
+  iVar4 = _Mtx_lock(puVar1);
+  if (iVar4 != 0) {
+    std::_Throw_Cpp_error(5);
+    pcVar2 = (code *)swi(3);
+    uVar5 = (*pcVar2)();
+    return uVar5;
+  }
+  if (*(int *)((longlong)param_1 + 0x5c) == 0x7fffffff) {
+    *(undefined4 *)((longlong)param_1 + 0x5c) = 0x7ffffffe;
+    std::_Throw_Cpp_error(6);
+  }
+  uStack_1c0 = 0;
+  local_1b8 = 0;
+  uStack_1b0 = 0;
+  local_1a8 = 0;
+  uStack_1a0 = 0;
+  local_198 = 0;
+  uStack_190 = 0;
+  local_188 = 0;
+  uStack_180 = 0;
+  local_178 = 0;
+  uStack_170 = 0;
+  local_168 = 0;
+  uStack_160 = 0;
+  local_158 = 0;
+  local_1c8 = 0x70;
+  memset(local_148,0,0x108);
+  local_40 = 0;
+  local_148[0] = 0x108;
+  local_188 = *param_1;
+  uStack_160 = CONCAT44(uStack_160._4_4_,2);
+  local_178 = 0x100000001;
+  uStack_170 = CONCAT44(uStack_170._4_4_,1);
+  this = (MainMenuClient *)FUN_1800f3b0c(0x1a8);
+  local_1d0 = this;
+  memset(this,0,0x1a8);
+  this_00 = (ClientHandler *)MainMenuClient::MainMenuClient(this);
+  local_1d0 = (MainMenuClient *)this_00;
+  if (this_00 != (ClientHandler *)0x0) {
+    (*(code *)**(undefined8 **)(this_00 + (longlong)*(int *)(*(longlong *)(this_00 + 8) + 4) + 8))()
+    ;
+  }
+  local_1e0 = &local_238;
+  local_238 = 0;
+  local_1d8 = local_228;
+  local_228[0] = 0;
+  local_218 = param_3;
+  if (7 < (ulonglong)param_3[3]) {
+    local_218 = (undefined8 *)*param_3;
+  }
+  uStack_210 = param_3[2];
+  uVar5 = FUN_1800f3098();
+  FUN_18004fdb0((longlong *)local_208,(UINT)uVar5,&local_218);
+  local_248 = (undefined8 *)0x0;
+  local_240 = '\0';
+  if (local_1f8 != 0) {
+    local_248 = (undefined8 *)FUN_1800f3b0c(0x18);
+    *local_248 = 0;
+    local_248[1] = 0;
+    local_248[2] = 0;
+    local_240 = '\x01';
+    ppppuVar6 = local_208;
+    if (0xf < local_1f0) {
+      ppppuVar6 = (undefined8 ****)local_208[0];
+    }
+    cef_string_utf8_to_utf16(ppppuVar6,local_1f8,local_248);
+  }
+  local_230 = this_00;
+  if (this_00 != (ClientHandler *)0x0) {
+    (*(code *)**(undefined8 **)(this_00 + (longlong)*(int *)(*(longlong *)(this_00 + 8) + 4) + 8))()
+    ;
+  }
+  bVar3 = FUN_180067bc0(&local_1c8,(longlong *)&local_230,&local_248,local_148,local_228,&local_238)
+  ;
+  if (local_248 != (undefined8 *)0x0) {
+    if (local_240 != '\0') {
+      cef_string_utf16_clear();
+      free(local_248);
+    }
+    local_248 = (undefined8 *)0x0;
+    local_240 = '\0';
+  }
+  if (0xf < local_1f0) {
+    ppppuVar6 = (undefined8 ****)local_208[0];
+    if ((0xfff < local_1f0 + 1) &&
+       (ppppuVar6 = (undefined8 ****)local_208[0][-1],
+       0x1f < (ulonglong)((longlong)local_208[0] + (-8 - (longlong)ppppuVar6)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(ppppuVar6);
+  }
+  if (!bVar3) {
+    Log::Print(3,(char *)0x0,"Failed to create CEF browser, unknown error !");
+  }
+  else {
+    FUN_1800111b0((float *)(param_1 + 0xc),(longlong *)&local_218,param_2,(longlong *)&local_1d0);
+    ClientHandler::SetFocus(this_00,true);
+  }
+  if (this_00 != (ClientHandler *)0x0) {
+    (**(code **)(*(longlong *)(this_00 + (longlong)*(int *)(*(longlong *)(this_00 + 8) + 4) + 8) + 8
+                ))();
+  }
+  if (local_40 == 0) {
+    cef_string_utf16_clear(local_138);
+    cef_string_utf16_clear(local_120);
+    cef_string_utf16_clear(local_108);
+    cef_string_utf16_clear(local_f0);
+    cef_string_utf16_clear(local_d8);
+    cef_string_utf16_clear(local_c0);
+    cef_string_utf16_clear(local_98);
+  }
+  if (local_158 == 0) {
+    cef_string_utf16_clear(&local_1b8);
+  }
+  _Mtx_unlock(puVar1);
+  return (ulonglong)bVar3;
+}
+
+
+
+
+##################################################
+FUNCTION 9
+NAME: FUN_18000f9e0
+ADDRESS: 18000f9e0 (RVA 0xF9E0)
+SIGNATURE: ulonglong __fastcall FUN_18000f9e0(undefined8 * param_1, longlong * param_2, undefined8 * param_3)
+SCORE: 0
+##################################################
+
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+ulonglong FUN_18000f9e0(undefined8 *param_1,longlong *param_2,undefined8 *param_3)
+
+{
+  undefined8 *puVar1;
+  code *pcVar2;
+  bool bVar3;
+  int iVar4;
+  ulonglong uVar5;
+  ChatClient *this;
+  ClientHandler *this_00;
+  undefined8 ****ppppuVar6;
+  undefined1 auStackY_278 [32];
+  undefined8 *local_248;
+  char local_240;
+  longlong local_238;
+  ClientHandler *local_230;
+  longlong local_228 [2];
+  undefined8 *local_218;
+  undefined8 uStack_210;
+  undefined8 ***local_208 [2];
+  longlong local_1f8;
+  ulonglong local_1f0;
+  undefined8 *local_1e8;
+  longlong *local_1e0;
+  longlong *local_1d8;
+  ChatClient *local_1d0;
+  undefined8 local_1c8;
+  undefined8 uStack_1c0;
+  undefined8 local_1b8;
+  undefined8 uStack_1b0;
+  undefined8 local_1a8;
+  undefined8 uStack_1a0;
+  undefined8 local_198;
+  undefined8 uStack_190;
+  undefined8 local_188;
+  undefined8 uStack_180;
+  undefined8 local_178;
+  undefined8 uStack_170;
+  undefined8 local_168;
+  undefined8 uStack_160;
+  longlong local_158;
+  undefined8 local_148 [2];
+  undefined1 local_138 [24];
+  undefined1 local_120 [24];
+  undefined1 local_108 [24];
+  undefined1 local_f0 [24];
+  undefined1 local_d8 [24];
+  undefined1 local_c0 [40];
+  undefined1 local_98 [88];
+  longlong local_40;
+  ulonglong local_38;
+  
+  local_38 = DAT_18012f440 ^ (ulonglong)auStackY_278;
+  puVar1 = param_1 + 2;
+  local_1e8 = puVar1;
+  iVar4 = _Mtx_lock(puVar1);
+  if (iVar4 != 0) {
+    std::_Throw_Cpp_error(5);
+    pcVar2 = (code *)swi(3);
+    uVar5 = (*pcVar2)();
+    return uVar5;
+  }
+  if (*(int *)((longlong)param_1 + 0x5c) == 0x7fffffff) {
+    *(undefined4 *)((longlong)param_1 + 0x5c) = 0x7ffffffe;
+    std::_Throw_Cpp_error(6);
+  }
+  uStack_1c0 = 0;
+  local_1b8 = 0;
+  uStack_1b0 = 0;
+  local_1a8 = 0;
+  uStack_1a0 = 0;
+  local_198 = 0;
+  uStack_190 = 0;
+  local_188 = 0;
+  uStack_180 = 0;
+  local_178 = 0;
+  uStack_170 = 0;
+  local_168 = 0;
+  uStack_160 = 0;
+  local_158 = 0;
+  local_1c8 = 0x70;
+  memset(local_148,0,0x108);
+  local_40 = 0;
+  local_148[0] = 0x108;
+  local_188 = *param_1;
+  uStack_160 = CONCAT44(uStack_160._4_4_,2);
+  local_178 = 0x100000001;
+  uStack_170 = CONCAT44(uStack_170._4_4_,1);
+  this = (ChatClient *)FUN_1800f3b0c(0x1c0);
+  local_1d0 = this;
+  memset(this,0,0x1c0);
+  this_00 = (ClientHandler *)ChatClient::ChatClient(this);
+  local_1d0 = (ChatClient *)this_00;
+  if (this_00 != (ClientHandler *)0x0) {
+    (*(code *)**(undefined8 **)(this_00 + (longlong)*(int *)(*(longlong *)(this_00 + 8) + 4) + 8))()
+    ;
+  }
+  local_1e0 = &local_238;
+  local_238 = 0;
+  local_1d8 = local_228;
+  local_228[0] = 0;
+  local_218 = param_3;
+  if (7 < (ulonglong)param_3[3]) {
+    local_218 = (undefined8 *)*param_3;
+  }
+  uStack_210 = param_3[2];
+  uVar5 = FUN_1800f3098();
+  FUN_18004fdb0((longlong *)local_208,(UINT)uVar5,&local_218);
+  local_248 = (undefined8 *)0x0;
+  local_240 = '\0';
+  if (local_1f8 != 0) {
+    local_248 = (undefined8 *)FUN_1800f3b0c(0x18);
+    *local_248 = 0;
+    local_248[1] = 0;
+    local_248[2] = 0;
+    local_240 = '\x01';
+    ppppuVar6 = local_208;
+    if (0xf < local_1f0) {
+      ppppuVar6 = (undefined8 ****)local_208[0];
+    }
+    cef_string_utf8_to_utf16(ppppuVar6,local_1f8,local_248);
+  }
+  local_230 = this_00;
+  if (this_00 != (ClientHandler *)0x0) {
+    (*(code *)**(undefined8 **)(this_00 + (longlong)*(int *)(*(longlong *)(this_00 + 8) + 4) + 8))()
+    ;
+  }
+  bVar3 = FUN_180067bc0(&local_1c8,(longlong *)&local_230,&local_248,local_148,local_228,&local_238)
+  ;
+  if (local_248 != (undefined8 *)0x0) {
+    if (local_240 != '\0') {
+      cef_string_utf16_clear();
+      free(local_248);
+    }
+    local_248 = (undefined8 *)0x0;
+    local_240 = '\0';
+  }
+  if (0xf < local_1f0) {
+    ppppuVar6 = (undefined8 ****)local_208[0];
+    if ((0xfff < local_1f0 + 1) &&
+       (ppppuVar6 = (undefined8 ****)local_208[0][-1],
+       0x1f < (ulonglong)((longlong)local_208[0] + (-8 - (longlong)ppppuVar6)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(ppppuVar6);
+  }
+  if (!bVar3) {
+    Log::Print(3,(char *)0x0,"Failed to create CEF browser, unknown error !");
+  }
+  else {
+    FUN_1800111b0((float *)(param_1 + 0xc),(longlong *)&local_218,param_2,(longlong *)&local_1d0);
+    ClientHandler::SetFocus(this_00,true);
+  }
+  if (this_00 != (ClientHandler *)0x0) {
+    (**(code **)(*(longlong *)(this_00 + (longlong)*(int *)(*(longlong *)(this_00 + 8) + 4) + 8) + 8
+                ))();
+  }
+  if (local_40 == 0) {
+    cef_string_utf16_clear(local_138);
+    cef_string_utf16_clear(local_120);
+    cef_string_utf16_clear(local_108);
+    cef_string_utf16_clear(local_f0);
+    cef_string_utf16_clear(local_d8);
+    cef_string_utf16_clear(local_c0);
+    cef_string_utf16_clear(local_98);
+  }
+  if (local_158 == 0) {
+    cef_string_utf16_clear(&local_1b8);
+  }
+  _Mtx_unlock(puVar1);
+  return (ulonglong)bVar3;
+}
+
+
+
+
+##################################################
+FUNCTION 10
+NAME: FUN_18000ffc0
+ADDRESS: 18000ffc0 (RVA 0xFFC0)
+SIGNATURE: longlong * __fastcall FUN_18000ffc0(longlong param_1, longlong * param_2, undefined8 * param_3, ulonglong param_4)
+SCORE: 0
+##################################################
+
+
+longlong * FUN_18000ffc0(longlong param_1,longlong *param_2,undefined8 *param_3,ulonglong param_4)
+
+{
+  size_t _Size;
+  ulonglong uVar1;
+  int iVar2;
+  undefined8 *_Buf1;
+  longlong *_Buf2;
+  longlong *plVar3;
+  longlong *plVar4;
+  
+  plVar4 = (longlong *)
+           ((*(ulonglong *)(param_1 + 0x30) & param_4) * 0x10 + *(longlong *)(param_1 + 0x18));
+  plVar3 = (longlong *)plVar4[1];
+  if (plVar3 == *(longlong **)(param_1 + 8)) {
+    *param_2 = (longlong)*(longlong **)(param_1 + 8);
+    param_2[1] = 0;
+    return param_2;
+  }
+  plVar4 = (longlong *)*plVar4;
+  _Size = param_3[2];
+  uVar1 = param_3[3];
+  while( true ) {
+    _Buf2 = plVar3 + 2;
+    if (0xf < (ulonglong)plVar3[5]) {
+      _Buf2 = (longlong *)*_Buf2;
+    }
+    _Buf1 = param_3;
+    if (0xf < uVar1) {
+      _Buf1 = (undefined8 *)*param_3;
+    }
+    if ((_Size == plVar3[4]) && ((_Size == 0 || (iVar2 = memcmp(_Buf1,_Buf2,_Size), iVar2 == 0))))
+    break;
+    if (plVar3 == plVar4) {
+      *param_2 = (longlong)plVar3;
+      param_2[1] = 0;
+      return param_2;
+    }
+    plVar3 = (longlong *)plVar3[1];
+  }
+  *param_2 = *plVar3;
+  param_2[1] = (longlong)plVar3;
+  return param_2;
+}
+
+
+
+

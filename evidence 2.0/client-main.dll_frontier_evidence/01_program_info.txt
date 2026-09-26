@@ -1,0 +1,11 @@
+Program information
+===================
+
+Name: client-main.dll
+Executable path: /C:/Users/Alex/Desktop/RDRMP Latest Build (Offline)/data/client-main.dll
+Language: x86/little/64/default
+Compiler specification: ghidra.program.database.ProgramCompilerSpec@74b060a
+Image base: 180000000
+Min address: 180000000
+Max address: ff0000184f
+Function count: 4063

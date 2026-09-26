@@ -1,0 +1,417 @@
+Frontier Evidence Decompilation
+================================
+Program: game-core.dll
+
+##################################################
+FUNCTION 1
+NAME: sagPlayerMgr
+ADDRESS: 18000be80 (RVA 0xBE80)
+SIGNATURE: undefined __thiscall sagPlayerMgr(sagPlayerMgr * this, sagPlayerMgr * param_1)
+SCORE: 100
+##################################################
+
+
+/* public: __cdecl rage::sagPlayerMgr::sagPlayerMgr(class rage::sagPlayerMgr && __ptr64) __ptr64 */
+
+sagPlayerMgr * __thiscall rage::sagPlayerMgr::sagPlayerMgr(sagPlayerMgr *this,sagPlayerMgr *param_1)
+
+{
+                    /* 0xbe80  13  ??0sagPlayerMgr@rage@@QEAA@$$QEAV01@@Z
+                       0xbe80  14  ??0sagPlayerMgr@rage@@QEAA@AEBV01@@Z
+                       0xbe80  15  ??0sagPlayerMgr@rage@@QEAA@XZ */
+  *(undefined ***)this = vftable;
+  return this;
+}
+
+
+
+
+##################################################
+FUNCTION 2
+NAME: PostLoad
+ADDRESS: 18000be90 (RVA 0xBE90)
+SIGNATURE: void __thiscall PostLoad(sagPlayerMgr * this)
+SCORE: 100
+##################################################
+
+
+/* public: virtual void __cdecl rage::sagPlayerMgr::PostLoad(void) __ptr64 */
+
+void __thiscall rage::sagPlayerMgr::PostLoad(sagPlayerMgr *this)
+
+{
+  char *local_68;
+  char *local_60;
+  undefined8 local_58;
+  undefined **local_50 [7];
+  undefined ***local_18;
+  
+                    /* 0xbe90  76  ?PostLoad@sagPlayerMgr@rage@@UEAAXXZ */
+  local_58 = 0;
+  local_68 = "rage::sagPlayer::sm_LocalPlayer";
+  local_60 = "48 89 15 ? ? ? ? E9 ? ? ? ?";
+  local_50[0] = std::
+                _Func_impl_no_alloc<`public:_virtual_void___cdecl_rage::sagPlayerMgr::PostLoad(void)___ptr64'::`2'::<lambda_1>,void,Pattern_const&___ptr64>
+                ::vftable;
+  local_18 = local_50;
+  FUN_180001820(&local_68,(longlong *)local_50,0);
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 3
+NAME: PostLoad
+ADDRESS: 18000c060 (RVA 0xC060)
+SIGNATURE: void __thiscall PostLoad(UIStringTable * this)
+SCORE: 100
+##################################################
+
+
+/* public: virtual void __cdecl rage::UIStringTable::PostLoad(void) __ptr64 */
+
+void __thiscall rage::UIStringTable::PostLoad(UIStringTable *this)
+
+{
+  char *local_68;
+  char *local_60;
+  undefined8 local_58;
+  undefined **local_50 [7];
+  undefined ***local_18;
+  
+                    /* 0xc060  71  ?PostLoad@UIStringTable@rage@@UEAAXXZ */
+  local_58 = 0;
+  local_68 = "rage::UIStringTable::GetStringByHash";
+  local_60 = "E8 ? ? ? ? 48 8B 0B 48 89 01 48 83 C4 20 5B C3";
+  local_50[0] = std::
+                _Func_impl_no_alloc<`public:_virtual_void___cdecl_rage::UIStringTable::PostLoad(void)___ptr64'::`2'::<lambda_1>,void,Pattern_const&___ptr64>
+                ::vftable;
+  local_18 = local_50;
+  FUN_180001820(&local_68,(longlong *)local_50,1);
+  local_58 = 0;
+  local_68 = "rage::UIStringTable::SetString";
+  local_60 = "E8 ? ? ? ? 48 85 F6 74 25";
+  local_50[0] = std::
+                _Func_impl_no_alloc<`public:_virtual_void___cdecl_rage::UIStringTable::PostLoad(void)___ptr64'::`2'::<lambda_2>,void,Pattern_const&___ptr64>
+                ::vftable;
+  local_18 = local_50;
+  FUN_180001820(&local_68,(longlong *)local_50,0);
+  if (scrThread::s_RegisterCommand != (_func_bool_void_ptr_uint__func_void_InfoBase_ptr_ptr *)0x0) {
+    (*scrThread::s_RegisterCommand)((void *)0x0,0x5d425448,FUN_18000c230);
+    if (scrThread::s_RegisterCommand != (_func_bool_void_ptr_uint__func_void_InfoBase_ptr_ptr *)0x0)
+    {
+      (*scrThread::s_RegisterCommand)((void *)0x0,0x9173f8fe,FUN_18000c2c0);
+    }
+  }
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 4
+NAME: IsInitialized
+ADDRESS: 180008630 (RVA 0x8630)
+SIGNATURE: bool __cdecl IsInitialized(void)
+SCORE: 90
+##################################################
+
+
+/* private: static bool __cdecl rage::scrThread::IsInitialized(void) */
+
+bool __cdecl rage::scrThread::IsInitialized(void)
+
+{
+  int iVar1;
+  __uint64 _Var2;
+  ulonglong uVar3;
+  uint uVar4;
+  ulonglong uVar5;
+  
+                    /* 0x8630  65  ?IsInitialized@scrThread@rage@@CA_NXZ */
+  if ((s_CommandsRegistration != (__uint64 *)0x0) && (_Var2 = *s_CommandsRegistration, _Var2 != 0))
+  {
+    uVar5 = 0xa0ae0c98;
+    uVar3 = 0xa0ae0c98 % (ulonglong)(uint)s_CommandsRegistration[1];
+    iVar1 = *(int *)(_Var2 + (ulonglong)(uint)((int)uVar3 * 4) * 4);
+    do {
+      if (iVar1 == -0x5f51f368) {
+        return true;
+      }
+      uVar4 = (int)(uVar5 >> 1) + 1;
+      uVar5 = (ulonglong)uVar4;
+      uVar3 = (ulonglong)(uVar4 + (int)uVar3) % (ulonglong)(uint)s_CommandsRegistration[1];
+      iVar1 = *(int *)(_Var2 + (ulonglong)(uint)((int)uVar3 * 4) * 4);
+    } while (iVar1 != 0);
+  }
+  return false;
+}
+
+
+
+
+##################################################
+FUNCTION 5
+NAME: FUN_180001010
+ADDRESS: 180001010 (RVA 0x1010)
+SIGNATURE: undefined __fastcall FUN_180001010(void)
+SCORE: 0
+##################################################
+
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_180001010(void)
+
+{
+  DAT_1800192e8 = FUN_18000eeb0(0x70);
+  *(longlong *)DAT_1800192e8 = DAT_1800192e8;
+  *(longlong *)(DAT_1800192e8 + 8) = DAT_1800192e8;
+  DAT_1800192f8 = 0;
+  _DAT_180019300 = 0;
+  DAT_180019308 = 0;
+  DAT_180019310 = 7;
+  DAT_180019318 = 8;
+  _DAT_1800192e0 = 0x3f800000;
+  FUN_1800046a0(&DAT_1800192f8,0x10,DAT_1800192e8);
+  atexit(FUN_1800108d0);
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 6
+NAME: FUN_180001090
+ADDRESS: 180001090 (RVA 0x1090)
+SIGNATURE: undefined __fastcall FUN_180001090(void)
+SCORE: 0
+##################################################
+
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void FUN_180001090(void)
+
+{
+  longlong *plVar1;
+  undefined8 **ppuVar2;
+  undefined1 auStack_98 [32];
+  undefined8 *local_78;
+  undefined8 uStack_70;
+  undefined8 local_68;
+  undefined8 uStack_60;
+  undefined8 local_58;
+  undefined8 uStack_50;
+  undefined8 local_48;
+  undefined8 uStack_40;
+  undefined8 *local_38;
+  longlong *local_30;
+  longlong *plStack_28;
+  undefined8 *local_20;
+  ulonglong local_18;
+  
+  local_18 = DAT_180019240 ^ (ulonglong)auStack_98;
+  local_78 = (undefined8 *)0x0;
+  uStack_70 = 0;
+  local_68 = 0;
+  uStack_60 = 0;
+  FUN_180002e30(&local_78,"scripting/DesignerDefined/Player",0x20);
+  local_58 = 0;
+  uStack_50 = 0;
+  local_48 = 0;
+  uStack_40 = 0;
+  FUN_180002e30(&local_58,"scripting/DesignerDefined/long_update_thread",0x2c);
+  DAT_18001b270 = (longlong *)0x0;
+  DAT_18001b278 = (longlong *)0x0;
+  DAT_18001b280 = (longlong *)0x0;
+  plVar1 = (longlong *)FUN_18000eeb0(0x40);
+  DAT_18001b280 = plVar1 + 8;
+  local_38 = &DAT_18001b270;
+  ppuVar2 = &local_78;
+  local_20 = &DAT_18001b270;
+  DAT_18001b270 = plVar1;
+  DAT_18001b278 = plVar1;
+  local_30 = plVar1;
+  do {
+    plStack_28 = plVar1;
+    FUN_1800044b0(plVar1,ppuVar2);
+    plVar1 = plVar1 + 4;
+    ppuVar2 = ppuVar2 + 4;
+  } while (ppuVar2 != &local_38);
+  plStack_28 = plVar1;
+  FUN_180006fc0(plVar1,plVar1);
+  DAT_18001b278 = plVar1;
+  _eh_vector_destructor_iterator_(&local_78,0x20,2,FUN_180002710);
+  atexit(FUN_180010950);
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 7
+NAME: FUN_1800011f0
+ADDRESS: 1800011f0 (RVA 0x11F0)
+SIGNATURE: undefined __fastcall FUN_1800011f0(void)
+SCORE: 0
+##################################################
+
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_1800011f0(void)
+
+{
+  undefined8 *puVar1;
+  longlong *plVar2;
+  longlong local_118 [34];
+  
+  local_118[0] = 0;
+  local_118[1] = 0;
+  local_118[2] = 0;
+  local_118[3] = 0;
+  FUN_180002e30(local_118,"content/ui/boot.sc",0x12);
+  local_118[4] = 0;
+  local_118[5] = 0;
+  local_118[6] = 0;
+  local_118[7] = 0;
+  FUN_180002e30(local_118 + 4,"content/ui/boot.sc.xml",0x16);
+  local_118[8] = 0;
+  local_118[9] = 0;
+  local_118[10] = 0;
+  local_118[0xb] = 0;
+  FUN_180002e30(local_118 + 8,"content/ui/pausemenu/pausemenuscene.sc",0x26);
+  local_118[0xc] = 0;
+  local_118[0xd] = 0;
+  local_118[0xe] = 0;
+  local_118[0xf] = 0;
+  FUN_180002e30(local_118 + 0xc,"content/ui/pausemenu/pausemenuscene.sc.xml",0x2a);
+  local_118[0x10] = 0;
+  local_118[0x11] = 0;
+  local_118[0x12] = 0;
+  local_118[0x13] = 0;
+  FUN_180002e30(local_118 + 0x10,"content/ui/pausemenu/savegame.sc",0x20);
+  local_118[0x14] = 0;
+  local_118[0x15] = 0;
+  local_118[0x16] = 0;
+  local_118[0x17] = 0;
+  FUN_180002e30(local_118 + 0x14,"content/ui/pausemenu/savegame.sc.xml",0x24);
+  local_118[0x18] = 0;
+  local_118[0x19] = 0;
+  local_118[0x1a] = 0;
+  local_118[0x1b] = 0;
+  FUN_180002e30(local_118 + 0x18,"content/ui/net/profileeditor/main.sc",0x24);
+  local_118[0x1c] = 0;
+  local_118[0x1d] = 0;
+  local_118[0x1e] = 0;
+  local_118[0x1f] = 0;
+  FUN_180002e30(local_118 + 0x1c,"content/ui/net/profileeditor/main.sc.xml",0x28);
+  DAT_18001b230 = 0;
+  DAT_18001b238 = 0;
+  DAT_18001b240 = 0;
+  DAT_18001b238 = FUN_18000eeb0(0x50);
+  *(longlong *)DAT_18001b238 = DAT_18001b238;
+  *(longlong *)(DAT_18001b238 + 8) = DAT_18001b238;
+  DAT_18001b248 = 0;
+  _DAT_18001b250 = 0;
+  DAT_18001b258 = 0;
+  DAT_18001b260 = 7;
+  DAT_18001b268 = 8;
+  DAT_18001b230 = 0x3f800000;
+  puVar1 = &DAT_18001b248;
+  FUN_1800046a0(&DAT_18001b248,0x10,DAT_18001b238);
+  plVar2 = local_118;
+  do {
+    FUN_180009990(puVar1,local_118 + 0x20,plVar2);
+    plVar2 = plVar2 + 8;
+  } while (plVar2 != local_118 + 0x20);
+  _eh_vector_destructor_iterator_(local_118,0x40,4,FUN_1800070c0);
+  atexit(FUN_1800109d0);
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 8
+NAME: FUN_180001420
+ADDRESS: 180001420 (RVA 0x1420)
+SIGNATURE: undefined __fastcall FUN_180001420(void)
+SCORE: 0
+##################################################
+
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_180001420(void)
+
+{
+  DAT_180019328 = FUN_18000eeb0(0x20);
+  *(longlong *)DAT_180019328 = DAT_180019328;
+  *(longlong *)(DAT_180019328 + 8) = DAT_180019328;
+  DAT_180019338 = 0;
+  _DAT_180019340 = 0;
+  uRam0000000180019348 = 0;
+  DAT_180019350 = 7;
+  DAT_180019358 = 8;
+  _DAT_180019320 = 0x3f800000;
+  FUN_1800046a0(&DAT_180019338,0x10,DAT_180019328);
+  atexit((_func_5014 *)&LAB_180010a50);
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 9
+NAME: FUN_180001510
+ADDRESS: 180001510 (RVA 0x1510)
+SIGNATURE: undefined8 * __fastcall FUN_180001510(undefined8 * param_1, ulonglong param_2)
+SCORE: 0
+##################################################
+
+
+undefined8 * FUN_180001510(undefined8 *param_1,ulonglong param_2)
+
+{
+  *param_1 = std::exception::vftable;
+  __std_exception_destroy(param_1 + 1);
+  if ((param_2 & 1) != 0) {
+    FUN_18000f264(param_1);
+  }
+  return param_1;
+}
+
+
+
+
+##################################################
+FUNCTION 10
+NAME: FUN_1800015b0
+ADDRESS: 1800015b0 (RVA 0x15B0)
+SIGNATURE: noreturn undefined __fastcall FUN_1800015b0(void)
+SCORE: 0
+##################################################
+
+
+void FUN_1800015b0(void)
+
+{
+  undefined8 local_28 [5];
+  
+  FUN_180001580(local_28);
+                    /* WARNING: Subroutine does not return */
+  _CxxThrowException(local_28,(ThrowInfo *)&DAT_180015d28);
+}
+
+
+
+

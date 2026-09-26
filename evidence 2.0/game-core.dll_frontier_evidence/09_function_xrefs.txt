@@ -1,0 +1,2065 @@
+Function XREF report
+====================
+
+FUNCTION: PostLoad
+ENTRY: 180008070 (RVA 0x8070)
+SIGNATURE: void __thiscall PostLoad(scrThread * this)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  180008372 (RVA 0x8372) : MOV EAX,0xa0ae0c98
+  180008377 (RVA 0x8377) : MOV ECX,0xa0ae0c98
+  1800083b3 (RVA 0x83B3) : CMP EAX,0xa0ae0c98
+  180008424 (RVA 0x8424) : MOV EAX,0xfd25473e
+  18000842c (RVA 0x842C) : MOV R8D,0xfd25473e
+  18000845e (RVA 0x845E) : CMP EAX,0xfd25473e
+  180008484 (RVA 0x8484) : MOV EAX,0x906c42fd
+  18000848c (RVA 0x848C) : MOV R8D,0x906c42fd
+  1800084be (RVA 0x84BE) : CMP EAX,0x906c42fd
+  1800084e4 (RVA 0x84E4) : MOV EAX,0xecf8eb5f
+  1800084ec (RVA 0x84EC) : MOV R8D,0xecf8eb5f
+  18000851e (RVA 0x851E) : CMP EAX,0xecf8eb5f
+  180008565 (RVA 0x8565) : MOV R9D,0xecf8eb5f
+
+----------------------------------------
+
+FUNCTION: GetLocalPlayer
+ENTRY: 18000bef0 (RVA 0xBEF0)
+SIGNATURE: sagPlayer * __cdecl GetLocalPlayer(void)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: n_StartNewThreadOverride
+ENTRY: 1800078f0 (RVA 0x78F0)
+SIGNATURE: uint __cdecl n_StartNewThreadOverride(uint param_1, uint * param_2, uint param_3, int param_4)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: n_Wait
+ENTRY: 1800071e0 (RVA 0x71E0)
+SIGNATURE: void __cdecl n_Wait(InfoBase * param_1)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: ClearCallbacks
+ENTRY: 1800043f0 (RVA 0x43F0)
+SIGNATURE: void __cdecl ClearCallbacks(void)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: ExecuteCallback
+ENTRY: 180004400 (RVA 0x4400)
+SIGNATURE: void __cdecl ExecuteCallback(basic_string<char,std::char_traits<char>,std::allocator<char>_> * param_1)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: RegisterCallback
+ENTRY: 180004490 (RVA 0x4490)
+SIGNATURE: void __cdecl RegisterCallback(basic_string<char,std::char_traits<char>,std::allocator<char>_> * param_1, function<void___cdecl(void)> * param_2)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: n_QuitGame
+ENTRY: 1800077d0 (RVA 0x77D0)
+SIGNATURE: void __cdecl n_QuitGame(void)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: PostLoad
+ENTRY: 180001fe0 (RVA 0x1FE0)
+SIGNATURE: void __thiscall PostLoad(globalBase * this)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: PostLoad
+ENTRY: 180003ce0 (RVA 0x3CE0)
+SIGNATURE: void __thiscall PostLoad(gohObjectManager * this)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: PreLoad
+ENTRY: 180003da0 (RVA 0x3DA0)
+SIGNATURE: void __thiscall PreLoad(Patches * this)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: PreLoad
+ENTRY: 180003e50 (RVA 0x3E50)
+SIGNATURE: void __thiscall PreLoad(ioMouse * this)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: PreLoad
+ENTRY: 180003f80 (RVA 0x3F80)
+SIGNATURE: void __thiscall PreLoad(game * this)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: PreLoad
+ENTRY: 180004040 (RVA 0x4040)
+SIGNATURE: void __thiscall PreLoad(grcDevice * this)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: PostLoad
+ENTRY: 180004100 (RVA 0x4100)
+SIGNATURE: void __thiscall PostLoad(ioKeyboard * this)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: GetCommand
+ENTRY: 180008740 (RVA 0x8740)
+SIGNATURE: _func_void_InfoBase_ptr * __cdecl GetCommand(uint param_1)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: QuitGame
+ENTRY: 1800087c0 (RVA 0x87C0)
+SIGNATURE: void __cdecl QuitGame(void)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: sagActorManager
+ENTRY: 18000b620 (RVA 0xB620)
+SIGNATURE: undefined __thiscall sagActorManager(sagActorManager * this, sagActorManager * param_1)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: PostLoad
+ENTRY: 18000b630 (RVA 0xB630)
+SIGNATURE: void __thiscall PostLoad(sagActorManager * this)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: PreLoad
+ENTRY: 18000b6f0 (RVA 0xB6F0)
+SIGNATURE: void __thiscall PreLoad(UIInput * this)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: sagPlayerMgr
+ENTRY: 18000be80 (RVA 0xBE80)
+SIGNATURE: undefined __thiscall sagPlayerMgr(sagPlayerMgr * this, sagPlayerMgr * param_1)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: PostLoad
+ENTRY: 18000be90 (RVA 0xBE90)
+SIGNATURE: void __thiscall PostLoad(sagPlayerMgr * this)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: PostLoad
+ENTRY: 18000c060 (RVA 0xC060)
+SIGNATURE: void __thiscall PostLoad(UIStringTable * this)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: IsInitialized
+ENTRY: 180008630 (RVA 0x8630)
+SIGNATURE: bool __cdecl IsInitialized(void)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  18000864a (RVA 0x864A) : MOV EAX,0xa0ae0c98
+  18000864f (RVA 0x864F) : MOV ECX,0xa0ae0c98
+  18000868f (RVA 0x868F) : CMP EAX,0xa0ae0c98
+
+----------------------------------------
+
+FUNCTION: FUN_180001820
+ENTRY: 180001820 (RVA 0x1820)
+SIGNATURE: undefined __fastcall FUN_180001820(undefined8 * param_1, longlong * param_2, longlong param_3)
+
+CALLERS:
+  180002026 (RVA 0x2026) -> PostLoad
+  180003d26 (RVA 0x3D26) -> PostLoad
+  180003de6 (RVA 0x3DE6) -> PreLoad
+  180003e96 (RVA 0x3E96) -> PreLoad
+  180003edf (RVA 0x3EDF) -> PreLoad
+  180003fc6 (RVA 0x3FC6) -> PreLoad
+  180004086 (RVA 0x4086) -> PreLoad
+  180004148 (RVA 0x4148) -> PostLoad
+  180004189 (RVA 0x4189) -> PostLoad
+  1800041ca (RVA 0x41CA) -> PostLoad
+  1800080c8 (RVA 0x80C8) -> PostLoad
+  180008105 (RVA 0x8105) -> PostLoad
+  180008142 (RVA 0x8142) -> PostLoad
+  18000817f (RVA 0x817F) -> PostLoad
+  1800081bc (RVA 0x81BC) -> PostLoad
+  1800081f9 (RVA 0x81F9) -> PostLoad
+  180008236 (RVA 0x8236) -> PostLoad
+  18000b676 (RVA 0xB676) -> PostLoad
+  18000b736 (RVA 0xB736) -> PreLoad
+  18000bed6 (RVA 0xBED6) -> PostLoad
+  18000c0a9 (RVA 0xC0A9) -> PostLoad
+  18000c0f2 (RVA 0xC0F2) -> PostLoad
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000d8f4
+ENTRY: 18000d8f4 (RVA 0xD8F4)
+SIGNATURE: undefined8 __fastcall FUN_18000d8f4(void)
+
+CALLERS:
+  180008242 (RVA 0x8242) -> PostLoad
+  180008294 (RVA 0x8294) -> PostLoad
+  1800082e6 (RVA 0x82E6) -> PostLoad
+  18000852d (RVA 0x852D) -> PostLoad
+  18000cf13 (RVA 0xCF13) -> FUN_18000cf00
+  18000cfa3 (RVA 0xCFA3) -> FUN_18000cf90
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000d740
+ENTRY: 18000d740 (RVA 0xD740)
+SIGNATURE: uint __fastcall FUN_18000d740(undefined8 * param_1, LPCVOID param_2, undefined8 * param_3)
+
+CALLERS:
+  180008258 (RVA 0x8258) -> PostLoad
+  1800082aa (RVA 0x82AA) -> PostLoad
+  1800082fc (RVA 0x82FC) -> PostLoad
+  180008543 (RVA 0x8543) -> PostLoad
+  18000cf2a (RVA 0xCF2A) -> FUN_18000cf00
+  18000cfba (RVA 0xCFBA) -> FUN_18000cf90
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000d8e8
+ENTRY: 18000d8e8 (RVA 0xD8E8)
+SIGNATURE: undefined __fastcall FUN_18000d8e8(longlong param_1)
+
+CALLERS:
+  18000826d (RVA 0x826D) -> PostLoad
+  1800082bf (RVA 0x82BF) -> PostLoad
+  180008311 (RVA 0x8311) -> PostLoad
+  180008584 (RVA 0x8584) -> PostLoad
+  18000cf40 (RVA 0xCF40) -> FUN_18000cf00
+  18000cfd0 (RVA 0xCFD0) -> FUN_18000cf90
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180008a40
+ENTRY: 180008a40 (RVA 0x8A40)
+SIGNATURE: undefined8 __fastcall FUN_180008a40(void)
+
+CALLERS:
+  180007215 (RVA 0x7215) -> n_Wait
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180002e30
+ENTRY: 180002e30 (RVA 0x2E30)
+SIGNATURE: undefined __fastcall FUN_180002e30(undefined8 * param_1, void * param_2, size_t param_3)
+
+CALLERS:
+  1800010d2 (RVA 0x10D2) -> FUN_180001090
+  1800010fb (RVA 0x10FB) -> FUN_180001090
+  180001225 (RVA 0x1225) -> FUN_1800011f0
+  18000124e (RVA 0x124E) -> FUN_1800011f0
+  180001277 (RVA 0x1277) -> FUN_1800011f0
+  18000129d (RVA 0x129D) -> FUN_1800011f0
+  1800012c3 (RVA 0x12C3) -> FUN_1800011f0
+  1800012e9 (RVA 0x12E9) -> FUN_1800011f0
+  18000130f (RVA 0x130F) -> FUN_1800011f0
+  180001335 (RVA 0x1335) -> FUN_1800011f0
+  1800018bf (RVA 0x18BF) -> FUN_180001820
+  180002799 (RVA 0x2799) -> FUN_180002770
+  180005a60 (RVA 0x5A60) -> FUN_180005a20
+  180005b1c (RVA 0x5B1C) -> FUN_180005ab0
+  180006ce0 (RVA 0x6CE0) -> FUN_180006ca0
+  180007242 (RVA 0x7242) -> n_Wait
+  1800072d9 (RVA 0x72D9) -> n_Wait
+  1800073e0 (RVA 0x73E0) -> n_Wait
+  18000753e (RVA 0x753E) -> n_Wait
+  180007699 (RVA 0x7699) -> n_Wait
+  180007805 (RVA 0x7805) -> n_QuitGame
+  1800079a2 (RVA 0x79A2) -> FUN_180007910
+  180007f33 (RVA 0x7F33) -> FUN_180007ef0
+  180007ffe (RVA 0x7FFE) -> FUN_180007fa0
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180005360
+ENTRY: 180005360 (RVA 0x5360)
+SIGNATURE: undefined8 * __fastcall FUN_180005360(undefined8 param_1, undefined8 * param_2, undefined8 * param_3, ulonglong param_4)
+
+CALLERS:
+  18000444d (RVA 0x444D) -> ExecuteCallback
+  180004cfe (RVA 0x4CFE) -> FUN_180004c90
+  180004a4e (RVA 0x4A4E) -> FUN_1800049e0
+  18000731d (RVA 0x731D) -> n_Wait
+  18000742b (RVA 0x742B) -> n_Wait
+  18000758b (RVA 0x758B) -> n_Wait
+  1800076de (RVA 0x76DE) -> n_Wait
+  18000785d (RVA 0x785D) -> n_QuitGame
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180004c90
+ENTRY: 180004c90 (RVA 0x4C90)
+SIGNATURE: longlong * __fastcall FUN_180004c90(undefined8 param_1, longlong * param_2, longlong * param_3)
+
+CALLERS:
+  180004461 (RVA 0x4461) -> ExecuteCallback
+  180007331 (RVA 0x7331) -> n_Wait
+  18000743f (RVA 0x743F) -> n_Wait
+  18000759f (RVA 0x759F) -> n_Wait
+  1800076f2 (RVA 0x76F2) -> n_Wait
+  180007873 (RVA 0x7873) -> n_QuitGame
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000f264
+ENTRY: 18000f264 (RVA 0xF264)
+SIGNATURE: undefined __fastcall FUN_18000f264(void * param_1)
+
+CALLERS:
+  18000476e (RVA 0x476E) -> FUN_1800046a0
+  180007011 (RVA 0x7011) -> FUN_180006fc0
+  180001540 (RVA 0x1540) -> FUN_180001510
+  18000178f (RVA 0x178F) -> FUN_180001750
+  1800026ba (RVA 0x26BA) -> FUN_180002650
+  180001d3a (RVA 0x1D3A) -> FUN_180001820
+  180001dba (RVA 0x1DBA) -> FUN_180001820
+  180001e49 (RVA 0x1E49) -> FUN_180001820
+  180001ec9 (RVA 0x1EC9) -> FUN_180001820
+  180001f1f (RVA 0x1F1F) -> FUN_180001820
+  180002dd9 (RVA 0x2DD9) -> FUN_180002cc0
+  1800030e1 (RVA 0x30E1) -> FUN_180002fb0
+  180002089 (RVA 0x2089) -> FUN_180002050
+  1800025f9 (RVA 0x25F9) -> FUN_180002450
+  18000274a (RVA 0x274A) -> FUN_180002710
+  180002826 (RVA 0x2826) -> FUN_1800027b0
+  180002871 (RVA 0x2871) -> FUN_180002850
+  18000435d (RVA 0x435D) -> FID_conflict:~vector<CHN*___ptr64,std::allocator<CHN*___ptr64>_>
+  1800043c4 (RVA 0x43C4) -> FUN_180004380
+  18000556f (RVA 0x556F) -> FUN_180005510
+  180004644 (RVA 0x4644) -> FUN_1800045d0
+  1800048aa (RVA 0x48AA) -> FUN_1800047e0
+  18000497a (RVA 0x497A) -> FUN_1800047e0
+  180005728 (RVA 0x5728) -> FUN_180005670
+  180005789 (RVA 0x5789) -> FUN_180005670
+  18000992e (RVA 0x992E) -> FUN_180009800
+  180005800 (RVA 0x5800) -> FUN_1800057d0
+  1800058d5 (RVA 0x58D5) -> FUN_180005820
+  180005a83 (RVA 0x5A83) -> FUN_180005a70
+  1800095ff (RVA 0x95FF) -> FUN_1800094b0
+  180008f1b (RVA 0x8F1B) -> FUN_180008de0
+  180009092 (RVA 0x9092) -> FUN_180008f70
+  180009232 (RVA 0x9232) -> FUN_1800090d0
+  18000a3c2 (RVA 0xA3C2) -> FUN_18000a2a0
+  18000651a (RVA 0x651A) -> FUN_180006450
+  180006601 (RVA 0x6601) -> FUN_180006450
+  180006824 (RVA 0x6824) -> FUN_180006640
+  180006872 (RVA 0x6872) -> FUN_180006640
+  180009469 (RVA 0x9469) -> FUN_180009360
+  18000979c (RVA 0x979C) -> FUN_180009670
+  1800068fd (RVA 0x68FD) -> FUN_1800068b0
+  180006952 (RVA 0x6952) -> FUN_1800068b0
+  18000699e (RVA 0x699E) -> FUN_1800068b0
+  1800069d5 (RVA 0x69D5) -> FUN_1800068b0
+  180006a46 (RVA 0x6A46) -> FUN_180006a00
+  180006a9b (RVA 0x6A9B) -> FUN_180006a00
+  180006ae7 (RVA 0x6AE7) -> FUN_180006a00
+  180006d20 (RVA 0x6D20) -> FUN_180006ca0
+  180006d7e (RVA 0x6D7E) -> FUN_180006ca0
+  180006f23 (RVA 0x6F23) -> FUN_180006db0
+  180006f78 (RVA 0x6F78) -> FUN_180006db0
+  18000709e (RVA 0x709E) -> FUN_180007050
+  1800070fb (RVA 0x70FB) -> FUN_1800070c0
+  180007145 (RVA 0x7145) -> FUN_1800070c0
+  1800071ae (RVA 0x71AE) -> FUN_180007170
+  180008814 (RVA 0x8814) -> FUN_1800087d0
+  18000738c (RVA 0x738C) -> n_Wait
+  18000749a (RVA 0x749A) -> n_Wait
+  180007603 (RVA 0x7603) -> n_Wait
+  18000774d (RVA 0x774D) -> n_Wait
+  18000779c (RVA 0x779C) -> n_Wait
+  1800078d0 (RVA 0x78D0) -> n_QuitGame
+  1800079f2 (RVA 0x79F2) -> FUN_180007910
+  180007acc (RVA 0x7ACC) -> FUN_180007910
+  180007cd1 (RVA 0x7CD1) -> FUN_180007910
+  180007d31 (RVA 0x7D31) -> FUN_180007910
+  180007d82 (RVA 0x7D82) -> FUN_180007910
+  180007dc3 (RVA 0x7DC3) -> FUN_180007910
+  180007e12 (RVA 0x7E12) -> FUN_180007910
+  180007e65 (RVA 0x7E65) -> FUN_180007910
+  180007e75 (RVA 0x7E75) -> FUN_180007910
+  180007eb9 (RVA 0x7EB9) -> FUN_180007910
+  180007f87 (RVA 0x7F87) -> FUN_180007ef0
+  180008052 (RVA 0x8052) -> FUN_180007fa0
+  18000bff4 (RVA 0xBFF4) -> FUN_18000bfb0
+  18000c028 (RVA 0xC028) -> FUN_18000bfb0
+  18000c409 (RVA 0xC409) -> FUN_18000c2c0
+  18000c468 (RVA 0xC468) -> FUN_18000c430
+  18000f289 (RVA 0xF289) -> FUN_18000f26c
+  18001090f (RVA 0x1090F) -> FUN_1800108d0
+  1800109a9 (RVA 0x109A9) -> FUN_180010950
+  180010a16 (RVA 0x10A16) -> FUN_1800109d0
+  1800043e8 (RVA 0x43E8) -> FUN_180004380
+  180004fce (RVA 0x4FCE) -> FUN_180004fa0
+  180008838 (RVA 0x8838) -> FUN_1800087d0
+  180009cce (RVA 0x9CCE) -> FUN_180009ca0
+  18000c048 (RVA 0xC048) -> FUN_18000bfb0
+  18000c487 (RVA 0xC487) -> FUN_18000c430
+  180003139 (RVA 0x3139) -> FUN_180003130
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: memchr
+ENTRY: 1800100f3 (RVA 0x100F3)
+SIGNATURE: void * __cdecl memchr(void * _Buf, int _Val, size_t _MaxCount)
+
+CALLERS:
+  180007637 (RVA 0x7637) -> n_Wait
+  1800092e8 (RVA 0x92E8) -> FUN_1800092a0
+  180009322 (RVA 0x9322) -> FUN_1800092a0
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: __security_check_cookie
+ENTRY: 18000ee90 (RVA 0xEE90)
+SIGNATURE: void __cdecl __security_check_cookie(uintptr_t _StackCookie)
+
+CALLERS:
+  1800011cc (RVA 0x11CC) -> FUN_180001090
+  180001eff (RVA 0x1EFF) -> FUN_180001820
+  180002abd (RVA 0x2ABD) -> FUN_1800029d0
+  1800057a8 (RVA 0x57A8) -> FUN_180005670
+  1800058f6 (RVA 0x58F6) -> FUN_180005820
+  180005b37 (RVA 0x5B37) -> FUN_180005ab0
+  180006615 (RVA 0x6615) -> FUN_180006450
+  180006881 (RVA 0x6881) -> FUN_180006640
+  180006f87 (RVA 0x6F87) -> FUN_180006db0
+  1800077a8 (RVA 0x77A8) -> n_Wait
+  180008bdd (RVA 0x8BDD) -> FUN_180008a40
+  180007ec9 (RVA 0x7EC9) -> FUN_180007910
+  18000ede4 (RVA 0xEDE4) -> FUN_18000eafc
+  180007f94 (RVA 0x7F94) -> FUN_180007ef0
+  18000805f (RVA 0x805F) -> FUN_180007fa0
+  180008dad (RVA 0x8DAD) -> FUN_180008c10
+  18000d8cc (RVA 0xD8CC) -> FUN_18000d740
+  18000d6b9 (RVA 0xD6B9) -> FUN_18000d44c
+  18000e0a0 (RVA 0xE0A0) -> FUN_18000dd64
+  18000b7b4 (RVA 0xB7B4) -> DisableAllInputs
+  18000c637 (RVA 0xC637) -> FUN_18000c490
+  18000c1ff (RVA 0xC1FF) -> FUN_18000c1b0
+  18000c221 (RVA 0xC221) -> FUN_18000c1b0
+  18000c27e (RVA 0xC27E) -> FUN_18000c230
+  18000c2b0 (RVA 0xC2B0) -> FUN_18000c230
+  18000f84e (RVA 0xF84E) -> __GSHandlerCheckCommon
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_1800045d0
+ENTRY: 1800045d0 (RVA 0x45D0)
+SIGNATURE: undefined __fastcall FUN_1800045d0(longlong param_1)
+
+CALLERS:
+  180008627 (RVA 0x8627) -> Unload
+  1800043f7 (RVA 0x43F7) -> ClearCallbacks
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_1800049e0
+ENTRY: 1800049e0 (RVA 0x49E0)
+SIGNATURE: longlong * __fastcall FUN_1800049e0(undefined8 param_1, longlong * param_2, longlong * param_3, longlong param_4)
+
+CALLERS:
+  18000449f (RVA 0x449F) -> RegisterCallback
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: memset
+ENTRY: 18001000a (RVA 0x1000A)
+SIGNATURE: void * __cdecl memset(void * _Dst, int _Val, size_t _Size)
+
+CALLERS:
+  18000fd38 (RVA 0xFD38) -> FUN_18000fcf8
+  18000fdcf (RVA 0xFDCF) -> FUN_18000fcf8
+  180001886 (RVA 0x1886) -> FUN_180001820
+  180001a7c (RVA 0x1A7C) -> FUN_180001820
+  1800089b7 (RVA 0x89B7) -> FUN_1800088e0
+  18000976a (RVA 0x976A) -> FUN_180009670
+  1800097ba (RVA 0x97BA) -> FUN_180009670
+  180008a6e (RVA 0x8A6E) -> FUN_180008a40
+  180008aa7 (RVA 0x8AA7) -> FUN_180008a40
+  18000a217 (RVA 0xA217) -> FUN_18000a140
+  180008c3e (RVA 0x8C3E) -> FUN_180008c10
+  180008c77 (RVA 0x8C77) -> FUN_180008c10
+  18000c4d1 (RVA 0xC4D1) -> FUN_18000c490
+  18000c4fe (RVA 0xC4FE) -> FUN_18000c490
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000eeb0
+ENTRY: 18000eeb0 (RVA 0xEEB0)
+SIGNATURE: undefined __fastcall FUN_18000eeb0(size_t param_1)
+
+CALLERS:
+  180001019 (RVA 0x1019) -> FUN_180001010
+  18000470b (RVA 0x470B) -> FUN_1800046a0
+  18000472a (RVA 0x472A) -> FUN_1800046a0
+  18000111c (RVA 0x111C) -> FUN_180001090
+  180002e9e (RVA 0x2E9E) -> FUN_180002e30
+  180002eed (RVA 0x2EED) -> FUN_180002e30
+  18000453b (RVA 0x453B) -> FUN_1800044b0
+  180004589 (RVA 0x4589) -> FUN_1800044b0
+  18000135a (RVA 0x135A) -> FUN_1800011f0
+  180009a51 (RVA 0x9A51) -> FUN_180009990
+  180001429 (RVA 0x1429) -> FUN_180001420
+  18000195b (RVA 0x195B) -> FUN_180001820
+  1800028f5 (RVA 0x28F5) -> FUN_180002890
+  180002917 (RVA 0x2917) -> FUN_180002890
+  180002d68 (RVA 0x2D68) -> FUN_180002cc0
+  180002d80 (RVA 0x2D80) -> FUN_180002cc0
+  18000301e (RVA 0x301E) -> FUN_180002fb0
+  18000306c (RVA 0x306C) -> FUN_180002fb0
+  18000251b (RVA 0x251B) -> FUN_180002450
+  180002548 (RVA 0x2548) -> FUN_180002450
+  180004d51 (RVA 0x4D51) -> FUN_180004c90
+  180004aa1 (RVA 0x4AA1) -> FUN_1800049e0
+  1800098b0 (RVA 0x98B0) -> FUN_180009800
+  1800098c8 (RVA 0x98C8) -> FUN_180009800
+  180009571 (RVA 0x9571) -> FUN_1800094b0
+  18000958d (RVA 0x958D) -> FUN_1800094b0
+  180008ea2 (RVA 0x8EA2) -> FUN_180008de0
+  180008eba (RVA 0x8EBA) -> FUN_180008de0
+  18000901d (RVA 0x901D) -> FUN_180008f70
+  180009039 (RVA 0x9039) -> FUN_180008f70
+  180009198 (RVA 0x9198) -> FUN_1800090d0
+  1800091b4 (RVA 0x91B4) -> FUN_1800090d0
+  1800063ee (RVA 0x63EE) -> FUN_180006320
+  180006410 (RVA 0x6410) -> FUN_180006320
+  18000a352 (RVA 0xA352) -> FUN_18000a2a0
+  18000a36a (RVA 0xA36A) -> FUN_18000a2a0
+  180009401 (RVA 0x9401) -> FUN_180009360
+  180009419 (RVA 0x9419) -> FUN_180009360
+  18000971b (RVA 0x971B) -> FUN_180009670
+  180009733 (RVA 0x9733) -> FUN_180009670
+  18000cae5 (RVA 0xCAE5) -> FUN_18000c9b0
+  18000c868 (RVA 0xC868) -> FUN_18000c740
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180002ae0
+ENTRY: 180002ae0 (RVA 0x2AE0)
+SIGNATURE: basic_istream<char,std::char_traits<char>_> * __fastcall FUN_180002ae0(basic_istream<char,std::char_traits<char>_> * param_1, longlong * param_2, undefined8 param_3)
+
+CALLERS:
+  1800019d3 (RVA 0x19D3) -> FUN_180001820
+  180001bee (RVA 0x1BEE) -> FUN_180001820
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180002fb0
+ENTRY: 180002fb0 (RVA 0x2FB0)
+SIGNATURE: undefined1 * __fastcall FUN_180002fb0(longlong * param_1, void * param_2, undefined1 * param_3)
+
+CALLERS:
+  180001a34 (RVA 0x1A34) -> FUN_180001820
+  180001be1 (RVA 0x1BE1) -> FUN_180001820
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180002890
+ENTRY: 180002890 (RVA 0x2890)
+SIGNATURE: undefined __fastcall FUN_180002890(longlong param_1, void * param_2, ulonglong param_3, uint param_4)
+
+CALLERS:
+  180001b37 (RVA 0x1B37) -> FUN_180001820
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180002650
+ENTRY: 180002650 (RVA 0x2650)
+SIGNATURE: undefined __fastcall FUN_180002650(basic_streambuf<char,std::char_traits<char>_> * param_1)
+
+CALLERS:
+  1800017fd (RVA 0x17FD) -> FUN_1800017c0
+  180001ba0 (RVA 0x1BA0) -> FUN_180001820
+  180001d6a (RVA 0x1D6A) -> FUN_180001820
+  180001e79 (RVA 0x1E79) -> FUN_180001820
+  180001f4f (RVA 0x1F4F) -> FUN_180001820
+  1800027fc (RVA 0x27FC) -> FUN_1800027b0
+  18000285f (RVA 0x285F) -> FUN_180002850
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000cf00
+ENTRY: 18000cf00 (RVA 0xCF00)
+SIGNATURE: undefined __fastcall FUN_18000cf00(undefined8 param_1, longlong param_2)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000cf90
+ENTRY: 18000cf90 (RVA 0xCF90)
+SIGNATURE: undefined __fastcall FUN_18000cf90(undefined8 param_1, longlong param_2)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000d40c
+ENTRY: 18000d40c (RVA 0xD40C)
+SIGNATURE: int __fastcall FUN_18000d40c(void)
+
+CALLERS:
+  18000d76d (RVA 0xD76D) -> FUN_18000d740
+  18000d231 (RVA 0xD231) -> FUN_18000d218
+  18000d902 (RVA 0xD902) -> FUN_18000d8f4
+  18000d96b (RVA 0xD96B) -> FUN_18000d950
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000dd2c
+ENTRY: 18000dd2c (RVA 0xDD2C)
+SIGNATURE: undefined __fastcall FUN_18000dd2c(void)
+
+CALLERS:
+  18000d929 (RVA 0xD929) -> FUN_18000d8f4
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000dd30
+ENTRY: 18000dd30 (RVA 0xDD30)
+SIGNATURE: undefined8 __fastcall FUN_18000dd30(LPCVOID param_1)
+
+CALLERS:
+  18000d782 (RVA 0xD782) -> FUN_18000d740
+  18000d792 (RVA 0xD792) -> FUN_18000d740
+  18000e032 (RVA 0xE032) -> FUN_18000dd64
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000daa0
+ENTRY: 18000daa0 (RVA 0xDAA0)
+SIGNATURE: undefined __fastcall FUN_18000daa0(undefined8 * param_1)
+
+CALLERS:
+  18000d7d4 (RVA 0xD7D4) -> FUN_18000d740
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000dd64
+ENTRY: 18000dd64 (RVA 0xDD64)
+SIGNATURE: undefined8 __fastcall FUN_18000dd64(ulonglong * param_1)
+
+CALLERS:
+  18000d7f5 (RVA 0xD7F5) -> FUN_18000d740
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000d010
+ENTRY: 18000d010 (RVA 0xD010)
+SIGNATURE: LPVOID __fastcall FUN_18000d010(void)
+
+CALLERS:
+  18000d802 (RVA 0xD802) -> FUN_18000d740
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000dac4
+ENTRY: 18000dac4 (RVA 0xDAC4)
+SIGNATURE: undefined __fastcall FUN_18000dac4(undefined8 * param_1)
+
+CALLERS:
+  18000d89c (RVA 0xD89C) -> FUN_18000d740
+  18000d9ef (RVA 0xD9EF) -> FUN_18000d950
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000d218
+ENTRY: 18000d218 (RVA 0xD218)
+SIGNATURE: ulonglong __fastcall FUN_18000d218(longlong param_1, uint param_2)
+
+CALLERS:
+  18000d8ed (RVA 0xD8ED) -> FUN_18000d8e8
+  18000d8e2 (RVA 0xD8E2) -> FUN_18000d8e0
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000f340
+ENTRY: 18000f340 (RVA 0xF340)
+SIGNATURE: undefined __fastcall FUN_18000f340(int * param_1)
+
+CALLERS:
+  180008ada (RVA 0x8ADA) -> FUN_180008a40
+  180008caa (RVA 0x8CAA) -> FUN_180008c10
+  18000c53e (RVA 0xC53E) -> FUN_18000c490
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: _Init_thread_footer
+ENTRY: 18000f2d4 (RVA 0xF2D4)
+SIGNATURE: undefined __fastcall _Init_thread_footer(int * param_1)
+
+CALLERS:
+  180008b5f (RVA 0x8B5F) -> FUN_180008a40
+  180008d2f (RVA 0x8D2F) -> FUN_180008c10
+  18000c5bf (RVA 0xC5BF) -> FUN_18000c490
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180001090
+ENTRY: 180001090 (RVA 0x1090)
+SIGNATURE: undefined __fastcall FUN_180001090(void)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_1800011f0
+ENTRY: 1800011f0 (RVA 0x11F0)
+SIGNATURE: undefined __fastcall FUN_1800011f0(void)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180002770
+ENTRY: 180002770 (RVA 0x2770)
+SIGNATURE: undefined8 * __fastcall FUN_180002770(undefined8 * param_1, void * param_2)
+
+CALLERS:
+  180006be0 (RVA 0x6BE0) -> FUN_180006bc0
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180005a20
+ENTRY: 180005a20 (RVA 0x5A20)
+SIGNATURE: undefined8 * __fastcall FUN_180005a20(undefined8 param_1, undefined8 * param_2, int param_3)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180005ab0
+ENTRY: 180005ab0 (RVA 0x5AB0)
+SIGNATURE: undefined8 * __fastcall FUN_180005ab0(undefined8 param_1, undefined8 * param_2, DWORD param_3)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180006ca0
+ENTRY: 180006ca0 (RVA 0x6CA0)
+SIGNATURE: undefined __fastcall FUN_180006ca0(void * * param_1)
+
+CALLERS:
+  180007f46 (RVA 0x7F46) -> FUN_180007ef0
+  180008011 (RVA 0x8011) -> FUN_180007fa0
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180007910
+ENTRY: 180007910 (RVA 0x7910)
+SIGNATURE: char __fastcall FUN_180007910(undefined8 param_1, void * param_2)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180007ef0
+ENTRY: 180007ef0 (RVA 0x7EF0)
+SIGNATURE: undefined __fastcall FUN_180007ef0(longlong param_1)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180007fa0
+ENTRY: 180007fa0 (RVA 0x7FA0)
+SIGNATURE: undefined __fastcall FUN_180007fa0(longlong param_1)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: memcpy
+ENTRY: 1800100ff (RVA 0x100FF)
+SIGNATURE: void * __cdecl memcpy(void * _Dst, void * _Src, size_t _Size)
+
+CALLERS:
+  180002e68 (RVA 0x2E68) -> FUN_180002e30
+  180002f09 (RVA 0x2F09) -> FUN_180002e30
+  1800045a3 (RVA 0x45A3) -> FUN_1800044b0
+  180002928 (RVA 0x2928) -> FUN_180002890
+  180002da2 (RVA 0x2DA2) -> FUN_180002cc0
+  180002dea (RVA 0x2DEA) -> FUN_180002cc0
+  180002559 (RVA 0x2559) -> FUN_180002450
+  1800031bf (RVA 0x31BF) -> operator=
+  1800035de (RVA 0x35DE) -> mvrMoverComponent
+  18000366f (RVA 0x366F) -> operator=
+  1800098ee (RVA 0x98EE) -> FUN_180009800
+  1800098fc (RVA 0x98FC) -> FUN_180009800
+  18000993f (RVA 0x993F) -> FUN_180009800
+  18000994d (RVA 0x994D) -> FUN_180009800
+  1800095b3 (RVA 0x95B3) -> FUN_1800094b0
+  180009610 (RVA 0x9610) -> FUN_1800094b0
+  180008edf (RVA 0x8EDF) -> FUN_180008de0
+  180008f2c (RVA 0x8F2C) -> FUN_180008de0
+  180009056 (RVA 0x9056) -> FUN_180008f70
+  1800091eb (RVA 0x91EB) -> FUN_1800090d0
+  1800091fb (RVA 0x91FB) -> FUN_1800090d0
+  180009243 (RVA 0x9243) -> FUN_1800090d0
+  180009253 (RVA 0x9253) -> FUN_1800090d0
+  1800062a9 (RVA 0x62A9) -> FUN_180006190
+  1800062cb (RVA 0x62CB) -> FUN_180006190
+  18000642e (RVA 0x642E) -> FUN_180006320
+  18000a391 (RVA 0xA391) -> FUN_18000a2a0
+  18000a3d3 (RVA 0xA3D3) -> FUN_18000a2a0
+  18000943c (RVA 0x943C) -> FUN_180009360
+  18000947a (RVA 0x947A) -> FUN_180009360
+  18000975d (RVA 0x975D) -> FUN_180009670
+  1800097ad (RVA 0x97AD) -> FUN_180009670
+  180007c4a (RVA 0x7C4A) -> FUN_180007910
+  18000b80f (RVA 0xB80F) -> operator=
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180001650
+ENTRY: 180001650 (RVA 0x1650)
+SIGNATURE: noreturn undefined __fastcall FUN_180001650(void)
+
+CALLERS:
+  180002f21 (RVA 0x2F21) -> FUN_180002e30
+  1800045b9 (RVA 0x45B9) -> FUN_1800044b0
+  180002e19 (RVA 0x2E19) -> FUN_180002cc0
+  180009979 (RVA 0x9979) -> FUN_180009800
+  180009656 (RVA 0x9656) -> FUN_1800094b0
+  180008f61 (RVA 0x8F61) -> FUN_180008de0
+  1800090be (RVA 0x90BE) -> FUN_180008f70
+  180009286 (RVA 0x9286) -> FUN_1800090d0
+  180006444 (RVA 0x6444) -> FUN_180006320
+  18000a3f6 (RVA 0xA3F6) -> FUN_18000a2a0
+  18000949d (RVA 0x949D) -> FUN_180009360
+  1800097e9 (RVA 0x97E9) -> FUN_180009670
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_1800015b0
+ENTRY: 1800015b0 (RVA 0x15B0)
+SIGNATURE: noreturn undefined __fastcall FUN_1800015b0(void)
+
+CALLERS:
+  1800047d9 (RVA 0x47D9) -> FUN_1800046a0
+  18000eee6 (RVA 0xEEE6) -> FUN_18000eeb0
+  180002f27 (RVA 0x2F27) -> FUN_180002e30
+  1800045bf (RVA 0x45BF) -> FUN_1800044b0
+  1800029c5 (RVA 0x29C5) -> FUN_180002890
+  180002e1f (RVA 0x2E1F) -> FUN_180002cc0
+  180003125 (RVA 0x3125) -> FUN_180002fb0
+  180002643 (RVA 0x2643) -> FUN_180002450
+  18000997f (RVA 0x997F) -> FUN_180009800
+  18000965c (RVA 0x965C) -> FUN_1800094b0
+  180008f67 (RVA 0x8F67) -> FUN_180008de0
+  1800090c4 (RVA 0x90C4) -> FUN_180008f70
+  18000928c (RVA 0x928C) -> FUN_1800090d0
+  18000644a (RVA 0x644A) -> FUN_180006320
+  18000a3fc (RVA 0xA3FC) -> FUN_18000a2a0
+  1800094a3 (RVA 0x94A3) -> FUN_180009360
+  1800097ef (RVA 0x97EF) -> FUN_180009670
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: memcmp
+ENTRY: 1800100f9 (RVA 0x100F9)
+SIGNATURE: int __cdecl memcmp(void * _Buf1, void * _Buf2, size_t _Size)
+
+CALLERS:
+  180009bcd (RVA 0x9BCD) -> FUN_180009990
+  180009ff9 (RVA 0x9FF9) -> FUN_180009e90
+  18000a051 (RVA 0xA051) -> FUN_180009e90
+  18000a4ab (RVA 0xA4AB) -> FUN_18000a410
+  180004e4d (RVA 0x4E4D) -> FUN_180004c90
+  180005219 (RVA 0x5219) -> FUN_1800050b0
+  180005271 (RVA 0x5271) -> FUN_1800050b0
+  1800053fb (RVA 0x53FB) -> FUN_180005360
+  180004bcb (RVA 0x4BCB) -> FUN_1800049e0
+  180009309 (RVA 0x9309) -> FUN_1800092a0
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_1800044b0
+ENTRY: 1800044b0 (RVA 0x44B0)
+SIGNATURE: undefined8 * __fastcall FUN_1800044b0(undefined8 * param_1, undefined8 * param_2)
+
+CALLERS:
+  18000116b (RVA 0x116B) -> FUN_180001090
+  180009a6d (RVA 0x9A6D) -> FUN_180009990
+  180009a7b (RVA 0x9A7B) -> FUN_180009990
+  180004d65 (RVA 0x4D65) -> FUN_180004c90
+  180004abd (RVA 0x4ABD) -> FUN_1800049e0
+  180006481 (RVA 0x6481) -> FUN_180006450
+  180006ba3 (RVA 0x6BA3) -> FUN_180006b30
+  180006c3c (RVA 0x6C3C) -> FUN_180006c20
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180004fe0
+ENTRY: 180004fe0 (RVA 0x4FE0)
+SIGNATURE: undefined __fastcall FUN_180004fe0(void)
+
+CALLERS:
+  180004dd9 (RVA 0x4DD9) -> FUN_180004c90
+  180004b50 (RVA 0x4B50) -> FUN_1800049e0
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_1800046a0
+ENTRY: 1800046a0 (RVA 0x46A0)
+SIGNATURE: undefined __fastcall FUN_1800046a0(ulonglong * param_1, ulonglong param_2, undefined8 param_3)
+
+CALLERS:
+  180001071 (RVA 0x1071) -> FUN_180001010
+  1800013ae (RVA 0x13AE) -> FUN_1800011f0
+  180009ef5 (RVA 0x9EF5) -> FUN_180009e90
+  180001481 (RVA 0x1481) -> FUN_180001420
+  180005115 (RVA 0x5115) -> FUN_1800050b0
+  18000cd6b (RVA 0xCD6B) -> FUN_18000cd10
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180006fc0
+ENTRY: 180006fc0 (RVA 0x6FC0)
+SIGNATURE: undefined __fastcall FUN_180006fc0(longlong * param_1, longlong * param_2)
+
+CALLERS:
+  18000118d (RVA 0x118D) -> FUN_180001090
+  18000706a (RVA 0x706A) -> FUN_180007050
+  180010967 (RVA 0x10967) -> FUN_180010950
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180001510
+ENTRY: 180001510 (RVA 0x1510)
+SIGNATURE: undefined8 * __fastcall FUN_180001510(undefined8 * param_1, ulonglong param_2)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180001750
+ENTRY: 180001750 (RVA 0x1750)
+SIGNATURE: undefined __fastcall FUN_180001750(longlong * param_1)
+
+CALLERS:
+  18001038b (RVA 0x1038B) -> FUN_180010370
+  1800103bb (RVA 0x103BB) -> FUN_1800103a0
+  1800103e1 (RVA 0x103E1) -> FUN_1800103c6
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180002cc0
+ENTRY: 180002cc0 (RVA 0x2CC0)
+SIGNATURE: undefined8 * __fastcall FUN_180002cc0(undefined8 * param_1, undefined8 param_2, undefined8 param_3, undefined1 param_4)
+
+CALLERS:
+  180002c23 (RVA 0x2C23) -> FUN_180002ae0
+  1800067e5 (RVA 0x67E5) -> FUN_180006640
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180002050
+ENTRY: 180002050 (RVA 0x2050)
+SIGNATURE: undefined __fastcall FUN_180002050(longlong * param_1)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180002450
+ENTRY: 180002450 (RVA 0x2450)
+SIGNATURE: int __fastcall FUN_180002450(longlong param_1, int param_2)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180002710
+ENTRY: 180002710 (RVA 0x2710)
+SIGNATURE: undefined __fastcall FUN_180002710(longlong * param_1)
+
+CALLERS:
+  18001044b (RVA 0x1044B) -> FUN_180010430
+  1800104cb (RVA 0x104CB) -> FUN_1800104b0
+  1800106bb (RVA 0x106BB) -> FUN_1800106a0
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_1800027b0
+ENTRY: 1800027b0 (RVA 0x27B0)
+SIGNATURE: basic_ios<char,std::char_traits<char>_> * __fastcall FUN_1800027b0(basic_ios<char,std::char_traits<char>_> * param_1, uint param_2)
+
+CALLERS:
+  1800031ab (RVA 0x31AB) -> FUN_1800031a4
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180002850
+ENTRY: 180002850 (RVA 0x2850)
+SIGNATURE: basic_streambuf<char,std::char_traits<char>_> * __fastcall FUN_180002850(basic_streambuf<char,std::char_traits<char>_> * param_1, uint param_2)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FID_conflict:~vector<CHN*___ptr64,std::allocator<CHN*___ptr64>_>
+ENTRY: 180004320 (RVA 0x4320)
+SIGNATURE: undefined __fastcall FID_conflict:~vector<CHN*___ptr64,std::allocator<CHN*___ptr64>_>(longlong * param_1)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180004380
+ENTRY: 180004380 (RVA 0x4380)
+SIGNATURE: undefined __fastcall FUN_180004380(longlong * param_1)
+
+CALLERS:
+  180010935 (RVA 0x10935) -> FUN_1800108d0
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180005510
+ENTRY: 180005510 (RVA 0x5510)
+SIGNATURE: undefined __fastcall FUN_180005510(longlong * param_1)
+
+CALLERS:
+  1800043b7 (RVA 0x43B7) -> FUN_180004380
+  180004637 (RVA 0x4637) -> FUN_1800045d0
+  18000489d (RVA 0x489D) -> FUN_1800047e0
+  18000496d (RVA 0x496D) -> FUN_1800047e0
+  180004fb6 (RVA 0x4FB6) -> FUN_180004fa0
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_1800047e0
+ENTRY: 1800047e0 (RVA 0x47E0)
+SIGNATURE: longlong * __fastcall FUN_1800047e0(longlong param_1, longlong * param_2, longlong * param_3)
+
+CALLERS:
+  180004605 (RVA 0x4605) -> FUN_1800045d0
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180005670
+ENTRY: 180005670 (RVA 0x5670)
+SIGNATURE: longlong * __fastcall FUN_180005670(longlong * param_1, undefined4 * param_2, longlong * param_3)
+
+CALLERS:
+  18000649c (RVA 0x649C) -> FUN_180006450
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180009800
+ENTRY: 180009800 (RVA 0x9800)
+SIGNATURE: undefined8 * __fastcall FUN_180009800(undefined8 * param_1, ulonglong param_2, undefined8 param_3, void * param_4, size_t param_5)
+
+CALLERS:
+  1800088b0 (RVA 0x88B0) -> FUN_180008840
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_1800057d0
+ENTRY: 1800057d0 (RVA 0x57D0)
+SIGNATURE: undefined8 * __fastcall FUN_1800057d0(undefined8 * param_1, ulonglong param_2)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180005820
+ENTRY: 180005820 (RVA 0x5820)
+SIGNATURE: undefined8 * * * __fastcall FUN_180005820(undefined8 * * * param_1, undefined8 * param_2)
+
+CALLERS:
+  180005930 (RVA 0x5930) -> FUN_180005910
+  180005c12 (RVA 0x5C12) -> FUN_180005bf0
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180005a70
+ENTRY: 180005a70 (RVA 0x5A70)
+SIGNATURE: void * __fastcall FUN_180005a70(void * param_1, ulonglong param_2)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_1800094b0
+ENTRY: 1800094b0 (RVA 0x94B0)
+SIGNATURE: undefined8 * __fastcall FUN_1800094b0(undefined8 * param_1, ulonglong param_2, undefined8 param_3, longlong param_4)
+
+CALLERS:
+  180005d2b (RVA 0x5D2B) -> FUN_180005c30
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180008de0
+ENTRY: 180008de0 (RVA 0x8DE0)
+SIGNATURE: undefined8 * __fastcall FUN_180008de0(undefined8 * param_1, undefined8 param_2, undefined8 param_3, undefined2 param_4)
+
+CALLERS:
+  180006108 (RVA 0x6108) -> FUN_180005eb0
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180008f70
+ENTRY: 180008f70 (RVA 0x8F70)
+SIGNATURE: longlong * __fastcall FUN_180008f70(longlong * param_1, ulonglong param_2, undefined8 param_3, void * param_4)
+
+CALLERS:
+  180006063 (RVA 0x6063) -> FUN_180005eb0
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_1800090d0
+ENTRY: 1800090d0 (RVA 0x90D0)
+SIGNATURE: undefined8 * __fastcall FUN_1800090d0(undefined8 * param_1, ulonglong param_2, undefined8 param_3, void * param_4, longlong param_5)
+
+CALLERS:
+  18000615e (RVA 0x615E) -> FUN_180005eb0
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000a2a0
+ENTRY: 18000a2a0 (RVA 0xA2A0)
+SIGNATURE: undefined8 * __fastcall FUN_18000a2a0(undefined8 * param_1, ulonglong param_2)
+
+CALLERS:
+  18000626a (RVA 0x626A) -> FUN_180006190
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180006450
+ENTRY: 180006450 (RVA 0x6450)
+SIGNATURE: undefined8 * __fastcall FUN_180006450(undefined8 * param_1, undefined8 * param_2, undefined8 * param_3, undefined8 * param_4)
+
+CALLERS:
+  180006c02 (RVA 0x6C02) -> FUN_180006bc0
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180006640
+ENTRY: 180006640 (RVA 0x6640)
+SIGNATURE: longlong * __fastcall FUN_180006640(longlong * param_1, undefined8 * param_2, undefined8 * param_3, undefined8 * param_4)
+
+CALLERS:
+  1800065bb (RVA 0x65BB) -> FUN_180006450
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180009360
+ENTRY: 180009360 (RVA 0x9360)
+SIGNATURE: undefined8 * __fastcall FUN_180009360(undefined8 * param_1, ulonglong param_2)
+
+CALLERS:
+  18000673c (RVA 0x673C) -> FUN_180006640
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180009670
+ENTRY: 180009670 (RVA 0x9670)
+SIGNATURE: undefined8 * __fastcall FUN_180009670(undefined8 * param_1, ulonglong param_2, undefined8 param_3, size_t param_4)
+
+CALLERS:
+  1800089cb (RVA 0x89CB) -> FUN_1800088e0
+  18000a22b (RVA 0xA22B) -> FUN_18000a140
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_1800068b0
+ENTRY: 1800068b0 (RVA 0x68B0)
+SIGNATURE: undefined8 * __fastcall FUN_1800068b0(undefined8 * param_1, uint param_2)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180006a00
+ENTRY: 180006a00 (RVA 0x6A00)
+SIGNATURE: undefined __fastcall FUN_180006a00(undefined8 * param_1)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180006db0
+ENTRY: 180006db0 (RVA 0x6DB0)
+SIGNATURE: uint * __fastcall FUN_180006db0(uint * param_1)
+
+CALLERS:
+  180007963 (RVA 0x7963) -> FUN_180007910
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180007050
+ENTRY: 180007050 (RVA 0x7050)
+SIGNATURE: undefined __fastcall FUN_180007050(undefined8 * param_1)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_1800070c0
+ENTRY: 1800070c0 (RVA 0x70C0)
+SIGNATURE: undefined __fastcall FUN_1800070c0(longlong * param_1)
+
+CALLERS:
+  180008807 (RVA 0x8807) -> FUN_1800087d0
+  180009cb6 (RVA 0x9CB6) -> FUN_180009ca0
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180007170
+ENTRY: 180007170 (RVA 0x7170)
+SIGNATURE: undefined __fastcall FUN_180007170(longlong param_1)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_1800087d0
+ENTRY: 1800087d0 (RVA 0x87D0)
+SIGNATURE: undefined __fastcall FUN_1800087d0(longlong * param_1)
+
+CALLERS:
+  1800071ca (RVA 0x71CA) -> FUN_180007170
+  180010a3c (RVA 0x10A3C) -> FUN_1800109d0
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000bfb0
+ENTRY: 18000bfb0 (RVA 0xBFB0)
+SIGNATURE: undefined __fastcall FUN_18000bfb0(longlong param_1)
+
+CALLERS:
+  180010a57 (RVA 0x10A57) -> <no function>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000c2c0
+ENTRY: 18000c2c0 (RVA 0xC2C0)
+SIGNATURE: undefined __fastcall FUN_18000c2c0(undefined8 * param_1)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000c430
+ENTRY: 18000c430 (RVA 0xC430)
+SIGNATURE: undefined __fastcall FUN_18000c430(longlong * param_1)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000f26c
+ENTRY: 18000f26c (RVA 0xF26C)
+SIGNATURE: undefined8 * __fastcall FUN_18000f26c(undefined8 * param_1, ulonglong param_2)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_1800108d0
+ENTRY: 1800108d0 (RVA 0x108D0)
+SIGNATURE: undefined __fastcall FUN_1800108d0(void)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180010950
+ENTRY: 180010950 (RVA 0x10950)
+SIGNATURE: undefined __fastcall FUN_180010950(void)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_1800109d0
+ENTRY: 1800109d0 (RVA 0x109D0)
+SIGNATURE: undefined __fastcall FUN_1800109d0(void)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180004fa0
+ENTRY: 180004fa0 (RVA 0x4FA0)
+SIGNATURE: undefined __fastcall FUN_180004fa0(longlong param_1)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180009ca0
+ENTRY: 180009ca0 (RVA 0x9CA0)
+SIGNATURE: undefined __fastcall FUN_180009ca0(longlong param_1)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180003130
+ENTRY: 180003130 (RVA 0x3130)
+SIGNATURE: undefined __fastcall FUN_180003130(void * param_1, char param_2)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_1800092a0
+ENTRY: 1800092a0 (RVA 0x92A0)
+SIGNATURE: longlong __fastcall FUN_1800092a0(void * param_1, ulonglong param_2, undefined8 param_3, char * param_4, ulonglong param_5)
+
+CALLERS:
+  180007a3e (RVA 0x7A3E) -> FUN_180007910
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_1800029d0
+ENTRY: 1800029d0 (RVA 0x29D0)
+SIGNATURE: facet * __fastcall FUN_1800029d0(locale * param_1)
+
+CALLERS:
+  180002b60 (RVA 0x2B60) -> FUN_180002ae0
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000eafc
+ENTRY: 18000eafc (RVA 0xEAFC)
+SIGNATURE: DWORD __fastcall FUN_18000eafc(LPCWSTR param_1, ulonglong * param_2, uint param_3, uint param_4)
+
+CALLERS:
+  180007b03 (RVA 0x7B03) -> FUN_180007910
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180008c10
+ENTRY: 180008c10 (RVA 0x8C10)
+SIGNATURE: undefined8 __fastcall FUN_180008c10(void)
+
+CALLERS:
+  180007fb8 (RVA 0x7FB8) -> FUN_180007fa0
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000d44c
+ENTRY: 18000d44c (RVA 0xD44C)
+SIGNATURE: undefined __fastcall FUN_18000d44c(longlong * param_1, uint param_2, int param_3)
+
+CALLERS:
+  18000d2a8 (RVA 0xD2A8) -> FUN_18000d218
+  18000d1b3 (RVA 0xD1B3) -> FUN_18000d158
+  18000d9c5 (RVA 0xD9C5) -> FUN_18000d950
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: DisableAllInputs
+ENTRY: 18000b750 (RVA 0xB750)
+SIGNATURE: void __cdecl DisableAllInputs(bool param_1)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000c490
+ENTRY: 18000c490 (RVA 0xC490)
+SIGNATURE: undefined4 __fastcall FUN_18000c490(undefined8 param_1)
+
+CALLERS:
+  18000c164 (RVA 0xC164) -> FUN_18000c140
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000c1b0
+ENTRY: 18000c1b0 (RVA 0xC1B0)
+SIGNATURE: undefined __fastcall FUN_18000c1b0(undefined8 param_1, undefined8 param_2, undefined8 param_3)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000c230
+ENTRY: 18000c230 (RVA 0xC230)
+SIGNATURE: undefined __fastcall FUN_18000c230(undefined8 * param_1)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: __GSHandlerCheckCommon
+ENTRY: 18000f7f8 (RVA 0xF7F8)
+SIGNATURE: ulonglong __fastcall __GSHandlerCheckCommon(undefined8 param_1, longlong param_2)
+
+CALLERS:
+  18000f7e6 (RVA 0xF7E6) -> __GSHandlerCheck
+  1800100a7 (RVA 0x100A7) -> FID_conflict:__GSHandlerCheck_EH
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000f888
+ENTRY: 18000f888 (RVA 0xF888)
+SIGNATURE: undefined __fastcall FUN_18000f888(void)
+
+CALLERS:
+  18000eea9 (RVA 0xEEA9) -> __security_check_cookie
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: Unload
+ENTRY: 1800085d0 (RVA 0x85D0)
+SIGNATURE: void __thiscall Unload(scrThread * this)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180004f10
+ENTRY: 180004f10 (RVA 0x4F10)
+SIGNATURE: undefined __fastcall FUN_180004f10(undefined8 * param_1, undefined8 * param_2, undefined8 * param_3)
+
+CALLERS:
+  180004683 (RVA 0x4683) -> FUN_1800045d0
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000fcf8
+ENTRY: 18000fcf8 (RVA 0xFCF8)
+SIGNATURE: noreturn undefined __fastcall FUN_18000fcf8(undefined4 param_1)
+
+CALLERS:
+  18000f5e7 (RVA 0xF5E7) -> FUN_18000f4d8
+  18000f668 (RVA 0xF668) -> FUN_18000f5f0
+  18000f119 (RVA 0xF119) -> FUN_18000f094
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_1800088e0
+ENTRY: 1800088e0 (RVA 0x88E0)
+SIGNATURE: longlong * __fastcall FUN_1800088e0(longlong * param_1, UINT param_2, undefined8 * param_3)
+
+CALLERS:
+  1800066d4 (RVA 0x66D4) -> FUN_180006640
+  180006707 (RVA 0x6707) -> FUN_180006640
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000a140
+ENTRY: 18000a140 (RVA 0xA140)
+SIGNATURE: longlong * __fastcall FUN_18000a140(longlong * param_1, UINT param_2, undefined8 * param_3)
+
+CALLERS:
+  180007be6 (RVA 0x7BE6) -> FUN_180007910
+  180007c24 (RVA 0x7C24) -> FUN_180007910
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180001010
+ENTRY: 180001010 (RVA 0x1010)
+SIGNATURE: undefined __fastcall FUN_180001010(void)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180009990
+ENTRY: 180009990 (RVA 0x9990)
+SIGNATURE: longlong * __fastcall FUN_180009990(undefined8 param_1, longlong * param_2, longlong * param_3)
+
+CALLERS:
+  1800013c7 (RVA 0x13C7) -> FUN_1800011f0
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180001420
+ENTRY: 180001420 (RVA 0x1420)
+SIGNATURE: undefined __fastcall FUN_180001420(void)
+
+CALLERS:
+  <none>
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_180006320
+ENTRY: 180006320 (RVA 0x6320)
+SIGNATURE: undefined8 * __fastcall FUN_180006320(undefined8 * param_1, undefined8 * param_2)
+
+CALLERS:
+  1800062e9 (RVA 0x62E9) -> FUN_180006190
+  180006538 (RVA 0x6538) -> FUN_180006450
+  180006b87 (RVA 0x6B87) -> FUN_180006b30
+  180006b95 (RVA 0x6B95) -> FUN_180006b30
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000c9b0
+ENTRY: 18000c9b0 (RVA 0xC9B0)
+SIGNATURE: undefined8 * __fastcall FUN_18000c9b0(undefined8 param_1, undefined8 * param_2, byte * param_3)
+
+CALLERS:
+  18000c1eb (RVA 0xC1EB) -> FUN_18000c1b0
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000c740
+ENTRY: 18000c740 (RVA 0xC740)
+SIGNATURE: undefined8 * __fastcall FUN_18000c740(undefined8 param_1, undefined8 * param_2, byte * param_3, undefined8 * param_4)
+
+CALLERS:
+  18000c298 (RVA 0xC298) -> FUN_18000c230
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: _callnewh
+ENTRY: 180010022 (RVA 0x10022)
+SIGNATURE: int __cdecl _callnewh(size_t _Size)
+
+CALLERS:
+  18000eebe (RVA 0xEEBE) -> FUN_18000eeb0
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: malloc
+ENTRY: 18001001c (RVA 0x1001C)
+SIGNATURE: void * __cdecl malloc(size_t _Size)
+
+CALLERS:
+  18000eeca (RVA 0xEECA) -> FUN_18000eeb0
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+
+FUNCTION: FUN_18000f9f0
+ENTRY: 18000f9f0 (RVA 0xF9F0)
+SIGNATURE: noreturn undefined __fastcall FUN_18000f9f0(void)
+
+CALLERS:
+  18000eee0 (RVA 0xEEE0) -> FUN_18000eeb0
+
+RELEVANT INSTRUCTIONS:
+  <none>
+
+----------------------------------------
+

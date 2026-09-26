@@ -1,0 +1,75 @@
+Memory blocks / sections
+========================
+
+Name: Headers
+Start: 180000000 (RVA 0x0)
+End:   1800003ff (RVA 0x3FF)
+Size:  1024
+Read:  true
+Write: false
+Exec:  false
+Initialized: true
+----------------------------------------
+Name: .text
+Start: 180001000 (RVA 0x1000)
+End:   1800fe5ff (RVA 0xFE5FF)
+Size:  1037824
+Read:  true
+Write: false
+Exec:  true
+Initialized: true
+----------------------------------------
+Name: .rdata
+Start: 1800ff000 (RVA 0xFF000)
+End:   18012e1ff (RVA 0x12E1FF)
+Size:  193024
+Read:  true
+Write: false
+Exec:  false
+Initialized: true
+----------------------------------------
+Name: .data
+Start: 18012f000 (RVA 0x12F000)
+End:   180133d27 (RVA 0x133D27)
+Size:  19752
+Read:  true
+Write: true
+Exec:  false
+Initialized: true
+----------------------------------------
+Name: .pdata
+Start: 180134000 (RVA 0x134000)
+End:   1801409ff (RVA 0x1409FF)
+Size:  51712
+Read:  true
+Write: false
+Exec:  false
+Initialized: true
+----------------------------------------
+Name: .rsrc
+Start: 180141000 (RVA 0x141000)
+End:   180173bff (RVA 0x173BFF)
+Size:  207872
+Read:  true
+Write: false
+Exec:  false
+Initialized: true
+----------------------------------------
+Name: .reloc
+Start: 180174000 (RVA 0x174000)
+End:   1801757ff (RVA 0x1757FF)
+Size:  6144
+Read:  true
+Write: false
+Exec:  false
+Initialized: true
+----------------------------------------
+Name: tdb
+Start: ff00000000 (RVA 0xFD80000000)
+End:   ff0000184f (RVA 0xFD8000184F)
+Size:  6224
+Read:  true
+Write: true
+Exec:  false
+Initialized: true
+----------------------------------------

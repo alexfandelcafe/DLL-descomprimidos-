@@ -1,0 +1,707 @@
+Frontier Evidence Decompilation
+================================
+Program: game-core.dll
+
+##################################################
+FUNCTION 1
+NAME: Unload
+ADDRESS: 1800085d0 (RVA 0x85D0)
+SIGNATURE: void __thiscall Unload(scrThread * this)
+SCORE: 0
+##################################################
+
+
+/* public: virtual void __cdecl rage::scrThread::Unload(void) __ptr64 */
+
+void __thiscall rage::scrThread::Unload(scrThread *this)
+
+{
+  _func_void *p_Var1;
+  void *pvVar2;
+  
+                    /* 0x85d0  87  ?Unload@scrThread@rage@@UEAAXXZ */
+  pvVar2 = s_Wait;
+  FUN_18000d8e0((longlong)s_Wait);
+  FUN_18000d950((longlong)pvVar2);
+  pvVar2 = s_FullReadPath;
+  FUN_18000d8e0((longlong)s_FullReadPath);
+  FUN_18000d950((longlong)pvVar2);
+  p_Var1 = s_QuitGame;
+  FUN_18000d8e0((longlong)s_QuitGame);
+  FUN_18000d950((longlong)p_Var1);
+  FUN_1800045d0(0x1800192e0);
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 2
+NAME: FUN_1800087d0
+ADDRESS: 1800087d0 (RVA 0x87D0)
+SIGNATURE: undefined __fastcall FUN_1800087d0(longlong * param_1)
+SCORE: 0
+##################################################
+
+
+void FUN_1800087d0(longlong *param_1)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  
+  puVar1 = (undefined8 *)*param_1;
+  *(undefined8 *)puVar1[1] = 0;
+  puVar1 = (undefined8 *)*puVar1;
+  while (puVar1 != (undefined8 *)0x0) {
+    puVar2 = (undefined8 *)*puVar1;
+    FUN_1800070c0(puVar1 + 2);
+    FUN_18000f264(puVar1);
+    puVar1 = puVar2;
+  }
+  FUN_18000f264((void *)*param_1);
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 3
+NAME: FUN_1800088e0
+ADDRESS: 1800088e0 (RVA 0x88E0)
+SIGNATURE: longlong * __fastcall FUN_1800088e0(longlong * param_1, UINT param_2, undefined8 * param_3)
+SCORE: 0
+##################################################
+
+
+longlong * FUN_1800088e0(longlong *param_1,UINT param_2,undefined8 *param_3)
+
+{
+  ulonglong uVar1;
+  ulonglong uVar2;
+  int iVar3;
+  undefined8 uVar4;
+  longlong *plVar5;
+  ulonglong uVar6;
+  ulonglong _Size;
+  
+  *param_1 = 0;
+  param_1[1] = 0;
+  param_1[2] = 0;
+  param_1[3] = 0xf;
+  *(undefined1 *)param_1 = 0;
+  uVar1 = param_3[1];
+  if (uVar1 != 0) {
+    if (0x7fffffff < uVar1) {
+                    /* WARNING: Subroutine does not return */
+      FUN_180005910();
+    }
+    uVar4 = FUN_18000ea30(param_2,(LPCWSTR)*param_3,(int)uVar1,(LPSTR)0x0,0);
+    iVar3 = (int)((ulonglong)uVar4 >> 0x20);
+    if (iVar3 != 0) {
+                    /* WARNING: Subroutine does not return */
+      FUN_180005bf0(iVar3);
+    }
+    uVar6 = (ulonglong)(int)uVar4;
+    uVar1 = param_1[2];
+    if (uVar1 < uVar6) {
+      _Size = uVar6 - uVar1;
+      uVar2 = param_1[3];
+      if (uVar2 - uVar1 < _Size) {
+        FUN_180009670(param_1,_Size,uVar2,_Size);
+      }
+      else {
+        param_1[2] = uVar6;
+        plVar5 = param_1;
+        if (0xf < uVar2) {
+          plVar5 = (longlong *)*param_1;
+        }
+        memset((void *)((longlong)plVar5 + uVar1),0,_Size);
+        *(undefined1 *)((longlong)((longlong)plVar5 + uVar1) + _Size) = 0;
+      }
+    }
+    else {
+      param_1[2] = uVar6;
+      plVar5 = param_1;
+      if (0xf < (ulonglong)param_1[3]) {
+        plVar5 = (longlong *)*param_1;
+      }
+      *(undefined1 *)((longlong)plVar5 + uVar6) = 0;
+    }
+    plVar5 = param_1;
+    if (0xf < (ulonglong)param_1[3]) {
+      plVar5 = (longlong *)*param_1;
+    }
+    uVar4 = FUN_18000ea30(param_2,(LPCWSTR)*param_3,*(int *)(param_3 + 1),(LPSTR)plVar5,(int)uVar4);
+    iVar3 = (int)((ulonglong)uVar4 >> 0x20);
+    if (iVar3 != 0) {
+                    /* WARNING: Subroutine does not return */
+      FUN_180005bf0(iVar3);
+    }
+  }
+  return param_1;
+}
+
+
+
+
+##################################################
+FUNCTION 4
+NAME: FUN_180008a40
+ADDRESS: 180008a40 (RVA 0x8A40)
+SIGNATURE: undefined8 __fastcall FUN_180008a40(void)
+SCORE: 0
+##################################################
+
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+undefined8 FUN_180008a40(void)
+
+{
+  int iVar1;
+  __uint64 _Var2;
+  ulonglong uVar3;
+  int iVar4;
+  code *pcVar5;
+  uint uVar6;
+  ulonglong uVar7;
+  undefined1 auStack_218 [32];
+  undefined8 *local_1f8;
+  undefined4 local_1f0;
+  undefined4 local_1ec;
+  undefined8 *local_1e8;
+  uint local_1e0;
+  undefined1 local_1dc [4];
+  longlong alStack_1d8 [4];
+  undefined4 auStack_1b4 [39];
+  undefined8 local_118 [32];
+  ulonglong local_18;
+  
+  local_18 = DAT_180019240 ^ (ulonglong)auStack_218;
+  local_1ec = 0;
+  memset(local_1dc,0,0x1c4);
+  local_1e8 = local_118;
+  local_1f8 = local_118;
+  pcVar5 = (code *)0x0;
+  local_1f0 = 0;
+  local_1e0 = 0;
+  memset(local_118,0,0x100);
+  if ((*(int *)(*(longlong *)((longlong)ThreadLocalStoragePointer + (ulonglong)_tls_index * 8) + 4)
+       < DAT_18001b168) && (FUN_18000f340(&DAT_18001b168), DAT_18001b168 == -1)) {
+    uVar3 = 0xbc52445 % (ulonglong)(uint)rage::scrThread::s_CommandsRegistration[1];
+    uVar7 = 0xbc52445;
+    _Var2 = *rage::scrThread::s_CommandsRegistration;
+    iVar4 = (int)uVar3;
+    iVar1 = *(int *)(_Var2 + (ulonglong)(uint)(iVar4 * 4) * 4);
+    do {
+      if (iVar1 == 0xbc52445) {
+        pcVar5 = *(code **)(_Var2 + 8 + (ulonglong)(uint)(iVar4 * 2) * 8);
+        goto LAB_180008b51;
+      }
+      uVar6 = (int)(uVar7 >> 1) + 1;
+      uVar7 = (ulonglong)uVar6;
+      uVar3 = (ulonglong)(uVar6 + (int)uVar3) %
+              (ulonglong)(uint)rage::scrThread::s_CommandsRegistration[1];
+      iVar4 = (int)uVar3;
+      iVar1 = *(int *)(_Var2 + (ulonglong)(uint)(iVar4 * 4) * 4);
+    } while (iVar1 != 0);
+    Log::Print(3,(char *)0x0,"Failed to find native with hash 0x%08X");
+LAB_180008b51:
+    DAT_18001b188 = pcVar5;
+    _Init_thread_footer(&DAT_18001b168);
+  }
+  uVar6 = local_1e0;
+  if (DAT_18001b188 != (code *)0x0) {
+    (*DAT_18001b188)(&local_1f8);
+    uVar6 = local_1e0;
+  }
+  while (uVar6 != 0) {
+    local_1e0 = uVar6 - 1;
+    *(undefined4 *)alStack_1d8[local_1e0] =
+         *(undefined4 *)((longlong)&local_1f8 + (ulonglong)((uVar6 + 3) * 0x10));
+    *(undefined4 *)(alStack_1d8[local_1e0] + 4) = auStack_1b4[(ulonglong)local_1e0 * 4];
+    *(undefined4 *)(alStack_1d8[local_1e0] + 8) = auStack_1b4[(ulonglong)local_1e0 * 4 + 1];
+    uVar6 = local_1e0;
+  }
+  return local_118[0];
+}
+
+
+
+
+##################################################
+FUNCTION 5
+NAME: FUN_180008c10
+ADDRESS: 180008c10 (RVA 0x8C10)
+SIGNATURE: undefined8 __fastcall FUN_180008c10(void)
+SCORE: 0
+##################################################
+
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+undefined8 FUN_180008c10(void)
+
+{
+  int iVar1;
+  __uint64 _Var2;
+  ulonglong uVar3;
+  int iVar4;
+  code *pcVar5;
+  uint uVar6;
+  ulonglong uVar7;
+  undefined1 auStack_218 [32];
+  undefined8 *local_1f8;
+  undefined4 local_1f0;
+  undefined4 local_1ec;
+  undefined8 *local_1e8;
+  uint local_1e0;
+  undefined1 local_1dc [4];
+  longlong alStack_1d8 [4];
+  undefined4 auStack_1b4 [39];
+  undefined8 local_118 [32];
+  ulonglong local_18;
+  
+  local_18 = DAT_180019240 ^ (ulonglong)auStack_218;
+  local_1ec = 0;
+  memset(local_1dc,0,0x1c4);
+  local_1e8 = local_118;
+  local_1f8 = local_118;
+  pcVar5 = (code *)0x0;
+  local_1f0 = 0;
+  local_1e0 = 0;
+  memset(local_118,0,0x100);
+  if ((*(int *)(*(longlong *)((longlong)ThreadLocalStoragePointer + (ulonglong)_tls_index * 8) + 4)
+       < DAT_18001b16c) && (FUN_18000f340(&DAT_18001b16c), DAT_18001b16c == -1)) {
+    uVar3 = 0x960db7a5 % (ulonglong)(uint)rage::scrThread::s_CommandsRegistration[1];
+    uVar7 = 0x960db7a5;
+    _Var2 = *rage::scrThread::s_CommandsRegistration;
+    iVar4 = (int)uVar3;
+    iVar1 = *(int *)(_Var2 + (ulonglong)(uint)(iVar4 * 4) * 4);
+    do {
+      if (iVar1 == -0x69f2485b) {
+        pcVar5 = *(code **)(_Var2 + 8 + (ulonglong)(uint)(iVar4 * 2) * 8);
+        goto LAB_180008d21;
+      }
+      uVar6 = (int)(uVar7 >> 1) + 1;
+      uVar7 = (ulonglong)uVar6;
+      uVar3 = (ulonglong)(uVar6 + (int)uVar3) %
+              (ulonglong)(uint)rage::scrThread::s_CommandsRegistration[1];
+      iVar4 = (int)uVar3;
+      iVar1 = *(int *)(_Var2 + (ulonglong)(uint)(iVar4 * 4) * 4);
+    } while (iVar1 != 0);
+    Log::Print(3,(char *)0x0,"Failed to find native with hash 0x%08X");
+LAB_180008d21:
+    DAT_18001b170 = pcVar5;
+    _Init_thread_footer(&DAT_18001b16c);
+  }
+  uVar6 = local_1e0;
+  if (DAT_18001b170 != (code *)0x0) {
+    (*DAT_18001b170)(&local_1f8);
+    uVar6 = local_1e0;
+  }
+  while (uVar6 != 0) {
+    local_1e0 = uVar6 - 1;
+    *(undefined4 *)alStack_1d8[local_1e0] =
+         *(undefined4 *)((longlong)&local_1f8 + (ulonglong)((uVar6 + 3) * 0x10));
+    *(undefined4 *)(alStack_1d8[local_1e0] + 4) = auStack_1b4[(ulonglong)local_1e0 * 4];
+    *(undefined4 *)(alStack_1d8[local_1e0] + 8) = auStack_1b4[(ulonglong)local_1e0 * 4 + 1];
+    uVar6 = local_1e0;
+  }
+  return local_118[0];
+}
+
+
+
+
+##################################################
+FUNCTION 6
+NAME: FUN_180008de0
+ADDRESS: 180008de0 (RVA 0x8DE0)
+SIGNATURE: undefined8 * __fastcall FUN_180008de0(undefined8 * param_1, undefined8 param_2, undefined8 param_3, undefined2 param_4)
+SCORE: 0
+##################################################
+
+
+undefined8 *
+FUN_180008de0(undefined8 *param_1,undefined8 param_2,undefined8 param_3,undefined2 param_4)
+
+{
+  ulonglong uVar1;
+  longlong lVar2;
+  ulonglong uVar3;
+  void *_Src;
+  longlong lVar4;
+  size_t sVar5;
+  ulonglong uVar6;
+  ulonglong uVar7;
+  void *pvVar8;
+  void *_Dst;
+  
+  lVar2 = param_1[2];
+  uVar7 = 0x7ffffffffffffffe;
+  if (lVar2 == 0x7ffffffffffffffe) {
+                    /* WARNING: Subroutine does not return */
+    FUN_180001650();
+  }
+  uVar3 = param_1[3];
+  uVar6 = lVar2 + 1U | 7;
+  _Dst = (void *)0x0;
+  if ((uVar6 < 0x7fffffffffffffff) && (uVar3 <= 0x7ffffffffffffffe - (uVar3 >> 1))) {
+    uVar1 = (uVar3 >> 1) + uVar3;
+    uVar7 = uVar6;
+    if (uVar6 < uVar1) {
+      uVar7 = uVar1;
+    }
+    if (0x7fffffffffffffff < uVar7 + 1) goto LAB_180008f67;
+    sVar5 = (uVar7 + 1) * 2;
+    if (sVar5 != 0) goto LAB_180008e89;
+  }
+  else {
+    sVar5 = 0xfffffffffffffffe;
+LAB_180008e89:
+    if (sVar5 < 0x1000) {
+      _Dst = (void *)FUN_18000eeb0(sVar5);
+    }
+    else {
+      if (sVar5 + 0x27 <= sVar5) {
+LAB_180008f67:
+                    /* WARNING: Subroutine does not return */
+        FUN_1800015b0();
+      }
+      lVar4 = FUN_18000eeb0(sVar5 + 0x27);
+      if (lVar4 == 0) goto LAB_180008f22;
+      _Dst = (void *)(lVar4 + 0x27U & 0xffffffffffffffe0);
+      *(longlong *)((longlong)_Dst - 8) = lVar4;
+    }
+  }
+  sVar5 = lVar2 * 2;
+  param_1[2] = lVar2 + 1U;
+  param_1[3] = uVar7;
+  if (uVar3 < 8) {
+    memcpy(_Dst,param_1,sVar5);
+    *(undefined2 *)(sVar5 + (longlong)_Dst) = param_4;
+    *(undefined2 *)(sVar5 + 2 + (longlong)_Dst) = 0;
+  }
+  else {
+    _Src = (void *)*param_1;
+    memcpy(_Dst,_Src,sVar5);
+    *(undefined2 *)(sVar5 + (longlong)_Dst) = param_4;
+    *(undefined2 *)(sVar5 + 2 + (longlong)_Dst) = 0;
+    pvVar8 = _Src;
+    if ((0xfff < uVar3 * 2 + 2) &&
+       (pvVar8 = *(void **)((longlong)_Src + -8),
+       0x1f < (ulonglong)((longlong)_Src + (-8 - (longlong)pvVar8)))) {
+LAB_180008f22:
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    FUN_18000f264(pvVar8);
+  }
+  *param_1 = _Dst;
+  return param_1;
+}
+
+
+
+
+##################################################
+FUNCTION 7
+NAME: FUN_180008f70
+ADDRESS: 180008f70 (RVA 0x8F70)
+SIGNATURE: longlong * __fastcall FUN_180008f70(longlong * param_1, ulonglong param_2, undefined8 param_3, void * param_4)
+SCORE: 0
+##################################################
+
+
+longlong * FUN_180008f70(longlong *param_1,ulonglong param_2,undefined8 param_3,void *param_4)
+
+{
+  ulonglong uVar1;
+  ulonglong uVar2;
+  void *pvVar3;
+  longlong lVar4;
+  size_t sVar5;
+  void *pvVar6;
+  ulonglong uVar7;
+  ulonglong uVar8;
+  void *_Dst;
+  
+  uVar8 = 0x7ffffffffffffffe;
+  if (0x7ffffffffffffffe < param_2) {
+                    /* WARNING: Subroutine does not return */
+    FUN_180001650();
+  }
+  uVar7 = param_2 | 7;
+  uVar2 = param_1[3];
+  _Dst = (void *)0x0;
+  if ((uVar7 < 0x7fffffffffffffff) && (uVar2 <= 0x7ffffffffffffffe - (uVar2 >> 1))) {
+    uVar1 = (uVar2 >> 1) + uVar2;
+    uVar8 = uVar7;
+    if (uVar7 < uVar1) {
+      uVar8 = uVar1;
+    }
+    if (0x7fffffffffffffff < uVar8 + 1) goto LAB_1800090c4;
+    sVar5 = (uVar8 + 1) * 2;
+    if (sVar5 != 0) goto LAB_180009004;
+  }
+  else {
+    sVar5 = 0xfffffffffffffffe;
+LAB_180009004:
+    if (sVar5 < 0x1000) {
+      _Dst = (void *)FUN_18000eeb0(sVar5);
+    }
+    else {
+      if (sVar5 + 0x27 <= sVar5) {
+LAB_1800090c4:
+                    /* WARNING: Subroutine does not return */
+        FUN_1800015b0();
+      }
+      lVar4 = FUN_18000eeb0(sVar5 + 0x27);
+      if (lVar4 == 0) goto LAB_1800090b7;
+      _Dst = (void *)(lVar4 + 0x27U & 0xffffffffffffffe0);
+      *(longlong *)((longlong)_Dst - 8) = lVar4;
+    }
+  }
+  param_1[3] = uVar8;
+  param_1[2] = param_2;
+  memcpy(_Dst,param_4,param_2 * 2);
+  *(undefined2 *)(param_2 * 2 + (longlong)_Dst) = 0;
+  if (7 < uVar2) {
+    pvVar3 = (void *)*param_1;
+    pvVar6 = pvVar3;
+    if ((0xfff < uVar2 * 2 + 2) &&
+       (pvVar6 = *(void **)((longlong)pvVar3 + -8),
+       0x1f < (ulonglong)((longlong)pvVar3 + (-8 - (longlong)pvVar6)))) {
+LAB_1800090b7:
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    FUN_18000f264(pvVar6);
+  }
+  *param_1 = (longlong)_Dst;
+  return param_1;
+}
+
+
+
+
+##################################################
+FUNCTION 8
+NAME: FUN_1800090d0
+ADDRESS: 1800090d0 (RVA 0x90D0)
+SIGNATURE: undefined8 * __fastcall FUN_1800090d0(undefined8 * param_1, ulonglong param_2, undefined8 param_3, void * param_4, longlong param_5)
+SCORE: 0
+##################################################
+
+
+undefined8 *
+FUN_1800090d0(undefined8 *param_1,ulonglong param_2,undefined8 param_3,void *param_4,
+             longlong param_5)
+
+{
+  ulonglong uVar1;
+  undefined2 *puVar2;
+  longlong lVar3;
+  ulonglong uVar4;
+  void *_Src;
+  longlong lVar5;
+  size_t sVar6;
+  ulonglong uVar7;
+  ulonglong uVar8;
+  void *pvVar9;
+  void *_Dst;
+  
+  lVar3 = param_1[2];
+  uVar8 = 0x7ffffffffffffffe;
+  if (0x7ffffffffffffffeU - lVar3 < param_2) {
+                    /* WARNING: Subroutine does not return */
+    FUN_180001650();
+  }
+  _Dst = (void *)0x0;
+  uVar4 = param_1[3];
+  uVar7 = param_2 + lVar3 | 7;
+  if ((uVar7 < 0x7fffffffffffffff) && (uVar4 <= 0x7ffffffffffffffe - (uVar4 >> 1))) {
+    uVar1 = (uVar4 >> 1) + uVar4;
+    uVar8 = uVar7;
+    if (uVar7 < uVar1) {
+      uVar8 = uVar1;
+    }
+    if (0x7fffffffffffffff < uVar8 + 1) goto LAB_18000928c;
+    sVar6 = (uVar8 + 1) * 2;
+    if (sVar6 != 0) goto LAB_18000917f;
+  }
+  else {
+    sVar6 = 0xfffffffffffffffe;
+LAB_18000917f:
+    if (sVar6 < 0x1000) {
+      _Dst = (void *)FUN_18000eeb0(sVar6);
+    }
+    else {
+      if (sVar6 + 0x27 <= sVar6) {
+LAB_18000928c:
+                    /* WARNING: Subroutine does not return */
+        FUN_1800015b0();
+      }
+      lVar5 = FUN_18000eeb0(sVar6 + 0x27);
+      if (lVar5 == 0) goto LAB_180009239;
+      _Dst = (void *)(lVar5 + 0x27U & 0xffffffffffffffe0);
+      *(longlong *)((longlong)_Dst - 8) = lVar5;
+    }
+  }
+  param_1[2] = param_2 + lVar3;
+  sVar6 = lVar3 * 2;
+  param_1[3] = uVar8;
+  puVar2 = (undefined2 *)((longlong)_Dst + (lVar3 + param_5) * 2);
+  if (uVar4 < 8) {
+    memcpy(_Dst,param_1,sVar6);
+    memcpy((void *)((longlong)_Dst + sVar6),param_4,param_5 * 2);
+    *puVar2 = 0;
+  }
+  else {
+    _Src = (void *)*param_1;
+    memcpy(_Dst,_Src,sVar6);
+    memcpy((void *)((longlong)_Dst + sVar6),param_4,param_5 * 2);
+    *puVar2 = 0;
+    pvVar9 = _Src;
+    if ((0xfff < uVar4 * 2 + 2) &&
+       (pvVar9 = *(void **)((longlong)_Src + -8),
+       0x1f < (ulonglong)((longlong)_Src + (-8 - (longlong)pvVar9)))) {
+LAB_180009239:
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    FUN_18000f264(pvVar9);
+  }
+  *param_1 = _Dst;
+  return param_1;
+}
+
+
+
+
+##################################################
+FUNCTION 9
+NAME: FUN_1800092a0
+ADDRESS: 1800092a0 (RVA 0x92A0)
+SIGNATURE: longlong __fastcall FUN_1800092a0(void * param_1, ulonglong param_2, undefined8 param_3, char * param_4, ulonglong param_5)
+SCORE: 0
+##################################################
+
+
+longlong FUN_1800092a0(void *param_1,ulonglong param_2,undefined8 param_3,char *param_4,
+                      ulonglong param_5)
+
+{
+  char cVar1;
+  int iVar2;
+  void *_Buf1;
+  
+  if (param_5 <= param_2) {
+    if (param_5 == 0) {
+      return 0;
+    }
+    cVar1 = *param_4;
+    for (_Buf1 = memchr(param_1,(int)cVar1,(param_2 - param_5) + 1); _Buf1 != (void *)0x0;
+        _Buf1 = memchr((void *)((longlong)_Buf1 + 1),(int)cVar1,
+                       (longlong)param_1 + (((param_2 - param_5) + 1) - ((longlong)_Buf1 + 1)))) {
+      iVar2 = memcmp(_Buf1,param_4,param_5);
+      if (iVar2 == 0) {
+        return (longlong)_Buf1 - (longlong)param_1;
+      }
+    }
+  }
+  return -1;
+}
+
+
+
+
+##################################################
+FUNCTION 10
+NAME: FUN_180009360
+ADDRESS: 180009360 (RVA 0x9360)
+SIGNATURE: undefined8 * __fastcall FUN_180009360(undefined8 * param_1, ulonglong param_2)
+SCORE: 0
+##################################################
+
+
+undefined8 * FUN_180009360(undefined8 *param_1,ulonglong param_2)
+
+{
+  ulonglong uVar1;
+  longlong lVar2;
+  ulonglong uVar3;
+  void *_Src;
+  longlong lVar4;
+  ulonglong uVar5;
+  ulonglong uVar6;
+  void *pvVar7;
+  void *_Dst;
+  
+  lVar2 = param_1[2];
+  uVar6 = 0x7fffffffffffffff;
+  if (0x7fffffffffffffffU - lVar2 < param_2) {
+                    /* WARNING: Subroutine does not return */
+    FUN_180001650();
+  }
+  uVar3 = param_1[3];
+  uVar5 = param_2 + lVar2 | 0xf;
+  if ((uVar5 < 0x8000000000000000) && (uVar3 <= 0x7fffffffffffffff - (uVar3 >> 1))) {
+    uVar1 = (uVar3 >> 1) + uVar3;
+    uVar6 = uVar5;
+    if (uVar5 < uVar1) {
+      uVar6 = uVar1;
+    }
+    uVar1 = uVar6 + 1;
+    if (uVar1 == 0) {
+      _Dst = (void *)0x0;
+    }
+    else {
+      if (0xfff < uVar1) {
+        uVar5 = uVar6 + 0x28;
+        if (uVar5 <= uVar1) {
+                    /* WARNING: Subroutine does not return */
+          FUN_1800015b0();
+        }
+        goto LAB_1800093fe;
+      }
+      _Dst = (void *)FUN_18000eeb0(uVar1);
+    }
+  }
+  else {
+    uVar5 = 0x8000000000000027;
+LAB_1800093fe:
+    lVar4 = FUN_18000eeb0(uVar5);
+    if (lVar4 == 0) goto LAB_180009470;
+    _Dst = (void *)(lVar4 + 0x27U & 0xffffffffffffffe0);
+    *(longlong *)((longlong)_Dst - 8) = lVar4;
+  }
+  param_1[2] = param_2 + lVar2;
+  param_1[3] = uVar6;
+  if (uVar3 < 0x10) {
+    memcpy(_Dst,param_1,lVar2 + 1U);
+  }
+  else {
+    _Src = (void *)*param_1;
+    memcpy(_Dst,_Src,lVar2 + 1U);
+    pvVar7 = _Src;
+    if ((0xfff < uVar3 + 1) &&
+       (pvVar7 = *(void **)((longlong)_Src + -8),
+       0x1f < (ulonglong)((longlong)_Src + (-8 - (longlong)pvVar7)))) {
+LAB_180009470:
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    FUN_18000f264(pvVar7);
+  }
+  *param_1 = _Dst;
+  return param_1;
+}
+
+
+
+

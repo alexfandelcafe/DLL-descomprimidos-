@@ -1,0 +1,519 @@
+Relevant strings and XREF context
+=================================
+
+180012288 (RVA 0x12288)	refs=1	value=OnUpdatePerTick
+180012298 (RVA 0x12298)	refs=1	value=OnUpdatePerFrame
+1800122b0 (RVA 0x122B0)	refs=1	value=OnPressStartScriptRunning
+1800122d0 (RVA 0x122D0)	refs=1	value=OnMainScriptRunning
+1800122e8 (RVA 0x122E8)	refs=1	value=OnQuitGame
+1800123c0 (RVA 0x123C0)	refs=3	value=rage::scrThread::Wait
+180012428 (RVA 0x12428)	refs=2	value=sagCoreScript::RDRStartNewScript
+180012470 (RVA 0x12470)	refs=2	value=rage::scrThread::StartNewThreadOverride
+180012508 (RVA 0x12508)	refs=3	value=rage::fiAssetManager::fullReadPath
+180012558 (RVA 0x12558)	refs=3	value=QuitGame
+180012568 (RVA 0x12568)	refs=1	value=Waiting for native invoker...
+180016413 (RVA 0x16413)	refs=1	value=??0sagActorManager@rage@@QEAA@$$QEAV01@@Z
+18001643d (RVA 0x1643D)	refs=1	value=??0sagActorManager@rage@@QEAA@AEBV01@@Z
+180016465 (RVA 0x16465)	refs=1	value=??0sagActorManager@rage@@QEAA@XZ
+180016486 (RVA 0x16486)	refs=1	value=??0sagPlayerMgr@rage@@QEAA@$$QEAV01@@Z
+1800164ad (RVA 0x164AD)	refs=1	value=??0sagPlayerMgr@rage@@QEAA@AEBV01@@Z
+1800164d2 (RVA 0x164D2)	refs=1	value=??0sagPlayerMgr@rage@@QEAA@XZ
+1800167b9 (RVA 0x167B9)	refs=1	value=??4sagActorManager@rage@@QEAAAEAV01@$$QEAV01@@Z
+1800167e9 (RVA 0x167E9)	refs=1	value=??4sagActorManager@rage@@QEAAAEAV01@AEBV01@@Z
+180016869 (RVA 0x16869)	refs=1	value=??4sagPlayerMgr@rage@@QEAAAEAV01@$$QEAV01@@Z
+180016896 (RVA 0x16896)	refs=1	value=??4sagPlayerMgr@rage@@QEAAAEAV01@AEBV01@@Z
+180016949 (RVA 0x16949)	refs=1	value=??_7sagActorManager@rage@@6B@
+180016967 (RVA 0x16967)	refs=1	value=??_7sagPlayerMgr@rage@@6B@
+18001699a (RVA 0x1699A)	refs=1	value=?ClearCallbacks@?$StaticCallbacksHandler@VscrThread@rage@@@@SAXXZ
+180016a9b (RVA 0x16A9B)	refs=1	value=?ExecuteCallback@?$StaticCallbacksHandler@VscrThread@rage@@@@SAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+180016b1f (RVA 0x16B1F)	refs=1	value=?GetActor@sagActorManager@rage@@SAPEAUsagActor@2@I@Z
+180016b54 (RVA 0x16B54)	refs=1	value=?GetCommand@scrThread@rage@@SAP6AXPEAVInfoBase@12@@ZI@Z
+180016c6d (RVA 0x16C6D)	refs=1	value=?GetLocalPlayer@sagPlayerMgr@rage@@SAPEAUsagPlayer@2@XZ
+180016f03 (RVA 0x16F03)	refs=1	value=?PostLoad@UIStringTable@rage@@UEAAXXZ
+180016f29 (RVA 0x16F29)	refs=1	value=?PostLoad@globalBase@rage@@UEAAXXZ
+180016f4c (RVA 0x16F4C)	refs=1	value=?PostLoad@gohObjectManager@rage@@UEAAXXZ
+180016f75 (RVA 0x16F75)	refs=1	value=?PostLoad@ioKeyboard@rage@@UEAAXXZ
+180016f98 (RVA 0x16F98)	refs=1	value=?PostLoad@sagActorManager@rage@@UEAAXXZ
+180016fc0 (RVA 0x16FC0)	refs=1	value=?PostLoad@sagPlayerMgr@rage@@UEAAXXZ
+180016fe5 (RVA 0x16FE5)	refs=1	value=?PostLoad@scrThread@rage@@UEAAXXZ
+180017007 (RVA 0x17007)	refs=1	value=?PreLoad@Patches@@UEAAXXZ
+180017021 (RVA 0x17021)	refs=1	value=?PreLoad@UIInput@rage@@UEAAXXZ
+180017040 (RVA 0x17040)	refs=1	value=?PreLoad@game@rdr2scripting@@UEAAXXZ
+180017065 (RVA 0x17065)	refs=1	value=?PreLoad@grcDevice@rage@@UEAAXXZ
+180017086 (RVA 0x17086)	refs=1	value=?PreLoad@ioMouse@rage@@UEAAXXZ
+1800170a5 (RVA 0x170A5)	refs=1	value=?QuitGame@scrThread@rage@@SAXXZ
+1800170c5 (RVA 0x170C5)	refs=1	value=?RegisterCallback@?$StaticCallbacksHandler@VscrThread@rage@@@@SAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$function@$$A6AXXZ@3@@Z
+180017222 (RVA 0x17222)	refs=1	value=?n_QuitGame@scrThread@rage@@CAXXZ
+180017244 (RVA 0x17244)	refs=1	value=?n_StartNewThreadOverride@scrThread@rage@@CAIIPEAIIH@Z
+18001727b (RVA 0x1727B)	refs=1	value=?n_Wait@scrThread@rage@@CAXPEAVInfoBase@12@@Z
+1800172a9 (RVA 0x172A9)	refs=1	value=?o_QuitGame@scrThread@rage@@0P6AXXZEA
+1800172cf (RVA 0x172CF)	refs=1	value=?o_StartNewThreadOverride@scrThread@rage@@0P6AIIPEAIIH@ZEA
+18001730a (RVA 0x1730A)	refs=1	value=?o_Wait@scrThread@rage@@0P6AXPEAVInfoBase@12@@ZEA
+18001736d (RVA 0x1736D)	refs=1	value=?s_FullReadPath@scrThread@rage@@0PEAXEA
+180017395 (RVA 0x17395)	refs=1	value=?s_GeneralManagerSlots@sagActorManager@rage@@0PEA_KEA
+180017402 (RVA 0x17402)	refs=1	value=?s_LocalPlayer@sagPlayerMgr@rage@@0PEAPEAUsagPlayer@2@EA
+18001743b (RVA 0x1743B)	refs=1	value=?s_QuitGame@scrThread@rage@@0P6AXXZEA
+1800174aa (RVA 0x174AA)	refs=1	value=?s_StartNewScript@scrThread@rage@@0PEAXEA
+1800174d4 (RVA 0x174D4)	refs=1	value=?s_StartNewThreadOverride@scrThread@rage@@0PEAXEA
+180017506 (RVA 0x17506)	refs=1	value=?s_Wait@scrThread@rage@@0PEAXEA
+180019380 (RVA 0x19380)	refs=0	value=.?AV<lambda_1>@?1??PostLoad@globalBase@rage@@UEAAXXZ@
+180019470 (RVA 0x19470)	refs=0	value=.?AV<lambda_1>@?1??PostLoad@gohObjectManager@rage@@UEAAXXZ@
+1800194c0 (RVA 0x194C0)	refs=0	value=.?AV<lambda_1>@?1??PreLoad@Patches@@UEAAXXZ@
+180019500 (RVA 0x19500)	refs=0	value=.?AV<lambda_1>@?1??PreLoad@ioMouse@rage@@UEAAXXZ@
+180019550 (RVA 0x19550)	refs=0	value=.?AV<lambda_2>@?1??PreLoad@ioMouse@rage@@UEAAXXZ@
+1800195a0 (RVA 0x195A0)	refs=0	value=.?AV<lambda_1>@?1??PreLoad@game@rdr2scripting@@UEAAXXZ@
+1800195f0 (RVA 0x195F0)	refs=0	value=.?AV<lambda_1>@?1??PreLoad@grcDevice@rage@@UEAAXXZ@
+180019640 (RVA 0x19640)	refs=0	value=.?AV<lambda_3>@?1??PostLoad@ioKeyboard@rage@@UEAAXXZ@
+180019690 (RVA 0x19690)	refs=0	value=.?AV<lambda_2>@?1??PostLoad@ioKeyboard@rage@@UEAAXXZ@
+1800196e0 (RVA 0x196E0)	refs=0	value=.?AV<lambda_1>@?1??PostLoad@ioKeyboard@rage@@UEAAXXZ@
+180019780 (RVA 0x19780)	refs=0	value=.?AV<lambda_2>@?1??PostLoad@scrThread@rage@@UEAAXXZ@
+1800197d0 (RVA 0x197D0)	refs=0	value=.?AV<lambda_5>@?1??PostLoad@scrThread@rage@@UEAAXXZ@
+180019820 (RVA 0x19820)	refs=0	value=.?AV<lambda_6>@?1??PostLoad@scrThread@rage@@UEAAXXZ@
+180019870 (RVA 0x19870)	refs=0	value=.?AV<lambda_3>@?1??PostLoad@scrThread@rage@@UEAAXXZ@
+1800198f0 (RVA 0x198F0)	refs=0	value=.?AV<lambda_1>@?1??PostLoad@scrThread@rage@@UEAAXXZ@
+180019960 (RVA 0x19960)	refs=0	value=.?AV<lambda_7>@?1??PostLoad@scrThread@rage@@UEAAXXZ@
+1800199b0 (RVA 0x199B0)	refs=0	value=.?AV<lambda_4>@?1??PostLoad@scrThread@rage@@UEAAXXZ@
+180019a00 (RVA 0x19A00)	refs=0	value=.?AV<lambda_1>@?1??PostLoad@sagActorManager@rage@@UEAAXXZ@
+180019a50 (RVA 0x19A50)	refs=0	value=.?AV<lambda_1>@?1??PreLoad@UIInput@rage@@UEAAXXZ@
+180019aa0 (RVA 0x19AA0)	refs=0	value=.?AV<lambda_1>@?1??PostLoad@sagPlayerMgr@rage@@UEAAXXZ@
+180019af0 (RVA 0x19AF0)	refs=0	value=.?AV<lambda_1>@?1??PostLoad@UIStringTable@rage@@UEAAXXZ@
+180019b40 (RVA 0x19B40)	refs=0	value=.?AV<lambda_2>@?1??PostLoad@UIStringTable@rage@@UEAAXXZ@
+180019d60 (RVA 0x19D60)	refs=0	value=.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PostLoad@globalBase@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+180019e70 (RVA 0x19E70)	refs=0	value=.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PostLoad@gohObjectManager@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+180019f20 (RVA 0x19F20)	refs=0	value=.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PreLoad@Patches@@UEAAXXZ@XAEBVPattern@@@std@@
+180019f90 (RVA 0x19F90)	refs=0	value=.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??PreLoad@ioMouse@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a000 (RVA 0x1A000)	refs=0	value=.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PreLoad@ioMouse@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a070 (RVA 0x1A070)	refs=0	value=.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PreLoad@game@rdr2scripting@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a0f0 (RVA 0x1A0F0)	refs=0	value=.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PreLoad@grcDevice@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a1b0 (RVA 0x1A1B0)	refs=0	value=.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PostLoad@ioKeyboard@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a230 (RVA 0x1A230)	refs=0	value=.?AV?$_Func_impl_no_alloc@V<lambda_3>@?1??PostLoad@ioKeyboard@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a2d0 (RVA 0x1A2D0)	refs=0	value=.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??PostLoad@ioKeyboard@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a3f0 (RVA 0x1A3F0)	refs=0	value=.?AV?$_Func_impl_no_alloc@V<lambda_4>@?1??PostLoad@scrThread@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a460 (RVA 0x1A460)	refs=0	value=.?AV?$_Func_impl_no_alloc@V<lambda_7>@?1??PostLoad@scrThread@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a4d0 (RVA 0x1A4D0)	refs=0	value=.?AV?$_Func_impl_no_alloc@V<lambda_5>@?1??PostLoad@scrThread@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a540 (RVA 0x1A540)	refs=0	value=.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PostLoad@scrThread@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a5b0 (RVA 0x1A5B0)	refs=0	value=.?AV?$_Func_impl_no_alloc@V<lambda_6>@?1??PostLoad@scrThread@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a620 (RVA 0x1A620)	refs=0	value=.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??PostLoad@scrThread@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a690 (RVA 0x1A690)	refs=0	value=.?AV?$_Func_impl_no_alloc@V<lambda_3>@?1??PostLoad@scrThread@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a700 (RVA 0x1A700)	refs=0	value=.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PostLoad@sagActorManager@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a778 (RVA 0x1A778)	refs=0	value=.?AVsagActorManager@rage@@
+18001a7d0 (RVA 0x1A7D0)	refs=0	value=.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PreLoad@UIInput@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a840 (RVA 0x1A840)	refs=0	value=.?AVsagPlayerMgr@rage@@
+18001a870 (RVA 0x1A870)	refs=0	value=.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PostLoad@sagPlayerMgr@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a8f0 (RVA 0x1A8F0)	refs=0	value=.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PostLoad@UIStringTable@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+18001a970 (RVA 0x1A970)	refs=0	value=.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??PostLoad@UIStringTable@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+
+Detailed XREFs:
+
+STRING @ 180012288 (RVA 0x12288)
+VALUE: OnUpdatePerTick
+  XREF 1800072ce (RVA 0x72CE) -> n_Wait
+
+STRING @ 180012298 (RVA 0x12298)
+VALUE: OnUpdatePerFrame
+  XREF 1800073d5 (RVA 0x73D5) -> n_Wait
+
+STRING @ 1800122b0 (RVA 0x122B0)
+VALUE: OnPressStartScriptRunning
+  XREF 180007533 (RVA 0x7533) -> n_Wait
+
+STRING @ 1800122d0 (RVA 0x122D0)
+VALUE: OnMainScriptRunning
+  XREF 18000768e (RVA 0x768E) -> n_Wait
+
+STRING @ 1800122e8 (RVA 0x122E8)
+VALUE: OnQuitGame
+  XREF 1800077f9 (RVA 0x77F9) -> n_QuitGame
+
+STRING @ 1800123c0 (RVA 0x123C0)
+VALUE: rage::scrThread::Wait
+  XREF 180008119 (RVA 0x8119) -> PostLoad
+  XREF 180008127 (RVA 0x8127) -> PostLoad
+  XREF 18000827d (RVA 0x827D) -> PostLoad
+
+STRING @ 180012428 (RVA 0x12428)
+VALUE: sagCoreScript::RDRStartNewScript
+  XREF 180008147 (RVA 0x8147) -> PostLoad
+  XREF 180008152 (RVA 0x8152) -> PostLoad
+
+STRING @ 180012470 (RVA 0x12470)
+VALUE: rage::scrThread::StartNewThreadOverride
+  XREF 180008184 (RVA 0x8184) -> PostLoad
+  XREF 18000818f (RVA 0x818F) -> PostLoad
+
+STRING @ 180012508 (RVA 0x12508)
+VALUE: rage::fiAssetManager::fullReadPath
+  XREF 1800081d0 (RVA 0x81D0) -> PostLoad
+  XREF 1800081de (RVA 0x81DE) -> PostLoad
+  XREF 1800082cf (RVA 0x82CF) -> PostLoad
+
+STRING @ 180012558 (RVA 0x12558)
+VALUE: QuitGame
+  XREF 1800081fe (RVA 0x81FE) -> PostLoad
+  XREF 180008205 (RVA 0x8205) -> PostLoad
+  XREF 180008321 (RVA 0x8321) -> PostLoad
+
+STRING @ 180012568 (RVA 0x12568)
+VALUE: Waiting for native invoker...
+  XREF 180008331 (RVA 0x8331) -> PostLoad
+
+STRING @ 180016413 (RVA 0x16413)
+VALUE: ??0sagActorManager@rage@@QEAA@$$QEAV01@@Z
+  XREF 18001606c (RVA 0x1606C) -> <no function>
+
+STRING @ 18001643d (RVA 0x1643D)
+VALUE: ??0sagActorManager@rage@@QEAA@AEBV01@@Z
+  XREF 180016070 (RVA 0x16070) -> <no function>
+
+STRING @ 180016465 (RVA 0x16465)
+VALUE: ??0sagActorManager@rage@@QEAA@XZ
+  XREF 180016074 (RVA 0x16074) -> <no function>
+
+STRING @ 180016486 (RVA 0x16486)
+VALUE: ??0sagPlayerMgr@rage@@QEAA@$$QEAV01@@Z
+  XREF 180016078 (RVA 0x16078) -> <no function>
+
+STRING @ 1800164ad (RVA 0x164AD)
+VALUE: ??0sagPlayerMgr@rage@@QEAA@AEBV01@@Z
+  XREF 18001607c (RVA 0x1607C) -> <no function>
+
+STRING @ 1800164d2 (RVA 0x164D2)
+VALUE: ??0sagPlayerMgr@rage@@QEAA@XZ
+  XREF 180016080 (RVA 0x16080) -> <no function>
+
+STRING @ 1800167b9 (RVA 0x167B9)
+VALUE: ??4sagActorManager@rage@@QEAAAEAV01@$$QEAV01@@Z
+  XREF 1800160c0 (RVA 0x160C0) -> <no function>
+
+STRING @ 1800167e9 (RVA 0x167E9)
+VALUE: ??4sagActorManager@rage@@QEAAAEAV01@AEBV01@@Z
+  XREF 1800160c4 (RVA 0x160C4) -> <no function>
+
+STRING @ 180016869 (RVA 0x16869)
+VALUE: ??4sagPlayerMgr@rage@@QEAAAEAV01@$$QEAV01@@Z
+  XREF 1800160d0 (RVA 0x160D0) -> <no function>
+
+STRING @ 180016896 (RVA 0x16896)
+VALUE: ??4sagPlayerMgr@rage@@QEAAAEAV01@AEBV01@@Z
+  XREF 1800160d4 (RVA 0x160D4) -> <no function>
+
+STRING @ 180016949 (RVA 0x16949)
+VALUE: ??_7sagActorManager@rage@@6B@
+  XREF 1800160e8 (RVA 0x160E8) -> <no function>
+
+STRING @ 180016967 (RVA 0x16967)
+VALUE: ??_7sagPlayerMgr@rage@@6B@
+  XREF 1800160ec (RVA 0x160EC) -> <no function>
+
+STRING @ 18001699a (RVA 0x1699A)
+VALUE: ?ClearCallbacks@?$StaticCallbacksHandler@VscrThread@rage@@@@SAXXZ
+  XREF 1800160f4 (RVA 0x160F4) -> <no function>
+
+STRING @ 180016a9b (RVA 0x16A9B)
+VALUE: ?ExecuteCallback@?$StaticCallbacksHandler@VscrThread@rage@@@@SAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  XREF 180016108 (RVA 0x16108) -> <no function>
+
+STRING @ 180016b1f (RVA 0x16B1F)
+VALUE: ?GetActor@sagActorManager@rage@@SAPEAUsagActor@2@I@Z
+  XREF 18001610c (RVA 0x1610C) -> <no function>
+
+STRING @ 180016b54 (RVA 0x16B54)
+VALUE: ?GetCommand@scrThread@rage@@SAP6AXPEAVInfoBase@12@@ZI@Z
+  XREF 180016110 (RVA 0x16110) -> <no function>
+
+STRING @ 180016c6d (RVA 0x16C6D)
+VALUE: ?GetLocalPlayer@sagPlayerMgr@rage@@SAPEAUsagPlayer@2@XZ
+  XREF 180016128 (RVA 0x16128) -> <no function>
+
+STRING @ 180016f03 (RVA 0x16F03)
+VALUE: ?PostLoad@UIStringTable@rage@@UEAAXXZ
+  XREF 180016160 (RVA 0x16160) -> <no function>
+
+STRING @ 180016f29 (RVA 0x16F29)
+VALUE: ?PostLoad@globalBase@rage@@UEAAXXZ
+  XREF 180016164 (RVA 0x16164) -> <no function>
+
+STRING @ 180016f4c (RVA 0x16F4C)
+VALUE: ?PostLoad@gohObjectManager@rage@@UEAAXXZ
+  XREF 180016168 (RVA 0x16168) -> <no function>
+
+STRING @ 180016f75 (RVA 0x16F75)
+VALUE: ?PostLoad@ioKeyboard@rage@@UEAAXXZ
+  XREF 18001616c (RVA 0x1616C) -> <no function>
+
+STRING @ 180016f98 (RVA 0x16F98)
+VALUE: ?PostLoad@sagActorManager@rage@@UEAAXXZ
+  XREF 180016170 (RVA 0x16170) -> <no function>
+
+STRING @ 180016fc0 (RVA 0x16FC0)
+VALUE: ?PostLoad@sagPlayerMgr@rage@@UEAAXXZ
+  XREF 180016174 (RVA 0x16174) -> <no function>
+
+STRING @ 180016fe5 (RVA 0x16FE5)
+VALUE: ?PostLoad@scrThread@rage@@UEAAXXZ
+  XREF 180016178 (RVA 0x16178) -> <no function>
+
+STRING @ 180017007 (RVA 0x17007)
+VALUE: ?PreLoad@Patches@@UEAAXXZ
+  XREF 18001617c (RVA 0x1617C) -> <no function>
+
+STRING @ 180017021 (RVA 0x17021)
+VALUE: ?PreLoad@UIInput@rage@@UEAAXXZ
+  XREF 180016180 (RVA 0x16180) -> <no function>
+
+STRING @ 180017040 (RVA 0x17040)
+VALUE: ?PreLoad@game@rdr2scripting@@UEAAXXZ
+  XREF 180016184 (RVA 0x16184) -> <no function>
+
+STRING @ 180017065 (RVA 0x17065)
+VALUE: ?PreLoad@grcDevice@rage@@UEAAXXZ
+  XREF 180016188 (RVA 0x16188) -> <no function>
+
+STRING @ 180017086 (RVA 0x17086)
+VALUE: ?PreLoad@ioMouse@rage@@UEAAXXZ
+  XREF 18001618c (RVA 0x1618C) -> <no function>
+
+STRING @ 1800170a5 (RVA 0x170A5)
+VALUE: ?QuitGame@scrThread@rage@@SAXXZ
+  XREF 180016190 (RVA 0x16190) -> <no function>
+
+STRING @ 1800170c5 (RVA 0x170C5)
+VALUE: ?RegisterCallback@?$StaticCallbacksHandler@VscrThread@rage@@@@SAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$function@$$A6AXXZ@3@@Z
+  XREF 180016194 (RVA 0x16194) -> <no function>
+
+STRING @ 180017222 (RVA 0x17222)
+VALUE: ?n_QuitGame@scrThread@rage@@CAXXZ
+  XREF 1800161a8 (RVA 0x161A8) -> <no function>
+
+STRING @ 180017244 (RVA 0x17244)
+VALUE: ?n_StartNewThreadOverride@scrThread@rage@@CAIIPEAIIH@Z
+  XREF 1800161ac (RVA 0x161AC) -> <no function>
+
+STRING @ 18001727b (RVA 0x1727B)
+VALUE: ?n_Wait@scrThread@rage@@CAXPEAVInfoBase@12@@Z
+  XREF 1800161b0 (RVA 0x161B0) -> <no function>
+
+STRING @ 1800172a9 (RVA 0x172A9)
+VALUE: ?o_QuitGame@scrThread@rage@@0P6AXXZEA
+  XREF 1800161b4 (RVA 0x161B4) -> <no function>
+
+STRING @ 1800172cf (RVA 0x172CF)
+VALUE: ?o_StartNewThreadOverride@scrThread@rage@@0P6AIIPEAIIH@ZEA
+  XREF 1800161b8 (RVA 0x161B8) -> <no function>
+
+STRING @ 18001730a (RVA 0x1730A)
+VALUE: ?o_Wait@scrThread@rage@@0P6AXPEAVInfoBase@12@@ZEA
+  XREF 1800161bc (RVA 0x161BC) -> <no function>
+
+STRING @ 18001736d (RVA 0x1736D)
+VALUE: ?s_FullReadPath@scrThread@rage@@0PEAXEA
+  XREF 1800161c4 (RVA 0x161C4) -> <no function>
+
+STRING @ 180017395 (RVA 0x17395)
+VALUE: ?s_GeneralManagerSlots@sagActorManager@rage@@0PEA_KEA
+  XREF 1800161c8 (RVA 0x161C8) -> <no function>
+
+STRING @ 180017402 (RVA 0x17402)
+VALUE: ?s_LocalPlayer@sagPlayerMgr@rage@@0PEAPEAUsagPlayer@2@EA
+  XREF 1800161d0 (RVA 0x161D0) -> <no function>
+
+STRING @ 18001743b (RVA 0x1743B)
+VALUE: ?s_QuitGame@scrThread@rage@@0P6AXXZEA
+  XREF 1800161d4 (RVA 0x161D4) -> <no function>
+
+STRING @ 1800174aa (RVA 0x174AA)
+VALUE: ?s_StartNewScript@scrThread@rage@@0PEAXEA
+  XREF 1800161dc (RVA 0x161DC) -> <no function>
+
+STRING @ 1800174d4 (RVA 0x174D4)
+VALUE: ?s_StartNewThreadOverride@scrThread@rage@@0PEAXEA
+  XREF 1800161e0 (RVA 0x161E0) -> <no function>
+
+STRING @ 180017506 (RVA 0x17506)
+VALUE: ?s_Wait@scrThread@rage@@0PEAXEA
+  XREF 1800161e4 (RVA 0x161E4) -> <no function>
+
+STRING @ 180019380 (RVA 0x19380)
+VALUE: .?AV<lambda_1>@?1??PostLoad@globalBase@rage@@UEAAXXZ@
+  <no XREFs>
+
+STRING @ 180019470 (RVA 0x19470)
+VALUE: .?AV<lambda_1>@?1??PostLoad@gohObjectManager@rage@@UEAAXXZ@
+  <no XREFs>
+
+STRING @ 1800194c0 (RVA 0x194C0)
+VALUE: .?AV<lambda_1>@?1??PreLoad@Patches@@UEAAXXZ@
+  <no XREFs>
+
+STRING @ 180019500 (RVA 0x19500)
+VALUE: .?AV<lambda_1>@?1??PreLoad@ioMouse@rage@@UEAAXXZ@
+  <no XREFs>
+
+STRING @ 180019550 (RVA 0x19550)
+VALUE: .?AV<lambda_2>@?1??PreLoad@ioMouse@rage@@UEAAXXZ@
+  <no XREFs>
+
+STRING @ 1800195a0 (RVA 0x195A0)
+VALUE: .?AV<lambda_1>@?1??PreLoad@game@rdr2scripting@@UEAAXXZ@
+  <no XREFs>
+
+STRING @ 1800195f0 (RVA 0x195F0)
+VALUE: .?AV<lambda_1>@?1??PreLoad@grcDevice@rage@@UEAAXXZ@
+  <no XREFs>
+
+STRING @ 180019640 (RVA 0x19640)
+VALUE: .?AV<lambda_3>@?1??PostLoad@ioKeyboard@rage@@UEAAXXZ@
+  <no XREFs>
+
+STRING @ 180019690 (RVA 0x19690)
+VALUE: .?AV<lambda_2>@?1??PostLoad@ioKeyboard@rage@@UEAAXXZ@
+  <no XREFs>
+
+STRING @ 1800196e0 (RVA 0x196E0)
+VALUE: .?AV<lambda_1>@?1??PostLoad@ioKeyboard@rage@@UEAAXXZ@
+  <no XREFs>
+
+STRING @ 180019780 (RVA 0x19780)
+VALUE: .?AV<lambda_2>@?1??PostLoad@scrThread@rage@@UEAAXXZ@
+  <no XREFs>
+
+STRING @ 1800197d0 (RVA 0x197D0)
+VALUE: .?AV<lambda_5>@?1??PostLoad@scrThread@rage@@UEAAXXZ@
+  <no XREFs>
+
+STRING @ 180019820 (RVA 0x19820)
+VALUE: .?AV<lambda_6>@?1??PostLoad@scrThread@rage@@UEAAXXZ@
+  <no XREFs>
+
+STRING @ 180019870 (RVA 0x19870)
+VALUE: .?AV<lambda_3>@?1??PostLoad@scrThread@rage@@UEAAXXZ@
+  <no XREFs>
+
+STRING @ 1800198f0 (RVA 0x198F0)
+VALUE: .?AV<lambda_1>@?1??PostLoad@scrThread@rage@@UEAAXXZ@
+  <no XREFs>
+
+STRING @ 180019960 (RVA 0x19960)
+VALUE: .?AV<lambda_7>@?1??PostLoad@scrThread@rage@@UEAAXXZ@
+  <no XREFs>
+
+STRING @ 1800199b0 (RVA 0x199B0)
+VALUE: .?AV<lambda_4>@?1??PostLoad@scrThread@rage@@UEAAXXZ@
+  <no XREFs>
+
+STRING @ 180019a00 (RVA 0x19A00)
+VALUE: .?AV<lambda_1>@?1??PostLoad@sagActorManager@rage@@UEAAXXZ@
+  <no XREFs>
+
+STRING @ 180019a50 (RVA 0x19A50)
+VALUE: .?AV<lambda_1>@?1??PreLoad@UIInput@rage@@UEAAXXZ@
+  <no XREFs>
+
+STRING @ 180019aa0 (RVA 0x19AA0)
+VALUE: .?AV<lambda_1>@?1??PostLoad@sagPlayerMgr@rage@@UEAAXXZ@
+  <no XREFs>
+
+STRING @ 180019af0 (RVA 0x19AF0)
+VALUE: .?AV<lambda_1>@?1??PostLoad@UIStringTable@rage@@UEAAXXZ@
+  <no XREFs>
+
+STRING @ 180019b40 (RVA 0x19B40)
+VALUE: .?AV<lambda_2>@?1??PostLoad@UIStringTable@rage@@UEAAXXZ@
+  <no XREFs>
+
+STRING @ 180019d60 (RVA 0x19D60)
+VALUE: .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PostLoad@globalBase@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+  <no XREFs>
+
+STRING @ 180019e70 (RVA 0x19E70)
+VALUE: .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PostLoad@gohObjectManager@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+  <no XREFs>
+
+STRING @ 180019f20 (RVA 0x19F20)
+VALUE: .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PreLoad@Patches@@UEAAXXZ@XAEBVPattern@@@std@@
+  <no XREFs>
+
+STRING @ 180019f90 (RVA 0x19F90)
+VALUE: .?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??PreLoad@ioMouse@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+  <no XREFs>
+
+STRING @ 18001a000 (RVA 0x1A000)
+VALUE: .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PreLoad@ioMouse@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+  <no XREFs>
+
+STRING @ 18001a070 (RVA 0x1A070)
+VALUE: .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PreLoad@game@rdr2scripting@@UEAAXXZ@XAEBVPattern@@@std@@
+  <no XREFs>
+
+STRING @ 18001a0f0 (RVA 0x1A0F0)
+VALUE: .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PreLoad@grcDevice@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+  <no XREFs>
+
+STRING @ 18001a1b0 (RVA 0x1A1B0)
+VALUE: .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PostLoad@ioKeyboard@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+  <no XREFs>
+
+STRING @ 18001a230 (RVA 0x1A230)
+VALUE: .?AV?$_Func_impl_no_alloc@V<lambda_3>@?1??PostLoad@ioKeyboard@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+  <no XREFs>
+
+STRING @ 18001a2d0 (RVA 0x1A2D0)
+VALUE: .?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??PostLoad@ioKeyboard@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+  <no XREFs>
+
+STRING @ 18001a3f0 (RVA 0x1A3F0)
+VALUE: .?AV?$_Func_impl_no_alloc@V<lambda_4>@?1??PostLoad@scrThread@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+  <no XREFs>
+
+STRING @ 18001a460 (RVA 0x1A460)
+VALUE: .?AV?$_Func_impl_no_alloc@V<lambda_7>@?1??PostLoad@scrThread@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+  <no XREFs>
+
+STRING @ 18001a4d0 (RVA 0x1A4D0)
+VALUE: .?AV?$_Func_impl_no_alloc@V<lambda_5>@?1??PostLoad@scrThread@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+  <no XREFs>
+
+STRING @ 18001a540 (RVA 0x1A540)
+VALUE: .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PostLoad@scrThread@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+  <no XREFs>
+
+STRING @ 18001a5b0 (RVA 0x1A5B0)
+VALUE: .?AV?$_Func_impl_no_alloc@V<lambda_6>@?1??PostLoad@scrThread@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+  <no XREFs>
+
+STRING @ 18001a620 (RVA 0x1A620)
+VALUE: .?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??PostLoad@scrThread@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+  <no XREFs>
+
+STRING @ 18001a690 (RVA 0x1A690)
+VALUE: .?AV?$_Func_impl_no_alloc@V<lambda_3>@?1??PostLoad@scrThread@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+  <no XREFs>
+
+STRING @ 18001a700 (RVA 0x1A700)
+VALUE: .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PostLoad@sagActorManager@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+  <no XREFs>
+
+STRING @ 18001a778 (RVA 0x1A778)
+VALUE: .?AVsagActorManager@rage@@
+  <no XREFs>
+
+STRING @ 18001a7d0 (RVA 0x1A7D0)
+VALUE: .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PreLoad@UIInput@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+  <no XREFs>
+
+STRING @ 18001a840 (RVA 0x1A840)
+VALUE: .?AVsagPlayerMgr@rage@@
+  <no XREFs>
+
+STRING @ 18001a870 (RVA 0x1A870)
+VALUE: .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PostLoad@sagPlayerMgr@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+  <no XREFs>
+
+STRING @ 18001a8f0 (RVA 0x1A8F0)
+VALUE: .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PostLoad@UIStringTable@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+  <no XREFs>
+
+STRING @ 18001a970 (RVA 0x1A970)
+VALUE: .?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??PostLoad@UIStringTable@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+  <no XREFs>
+

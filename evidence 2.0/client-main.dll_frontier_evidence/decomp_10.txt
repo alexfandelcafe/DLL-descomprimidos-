@@ -1,0 +1,696 @@
+Frontier Evidence Decompilation
+================================
+Program: client-main.dll
+
+##################################################
+FUNCTION 1
+NAME: FUN_1800535c0
+ADDRESS: 1800535c0 (RVA 0x535C0)
+SIGNATURE: undefined4 __fastcall FUN_1800535c0(undefined8 param_1)
+SCORE: 0
+##################################################
+
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+undefined4 FUN_1800535c0(undefined8 param_1)
+
+{
+  uint uVar1;
+  undefined1 auStack_218 [32];
+  undefined8 *local_1f8;
+  uint local_1f0;
+  undefined4 local_1ec;
+  undefined8 *local_1e8;
+  uint local_1e0;
+  undefined1 local_1dc [4];
+  longlong alStack_1d8 [4];
+  undefined4 auStack_1b4 [39];
+  undefined4 local_118 [64];
+  ulonglong local_18;
+  
+  local_18 = DAT_18012f440 ^ (ulonglong)auStack_218;
+  local_1ec = 0;
+  memset(local_1dc,0,0x1c4);
+  local_1f0 = 0;
+  local_1e0 = 0;
+  local_1f8 = (undefined8 *)local_118;
+  local_1e8 = (undefined8 *)local_118;
+  memset(local_118,0,0x100);
+  *(undefined8 *)((longlong)local_118 + (ulonglong)local_1f0 * 8) = param_1;
+  local_1f0 = local_1f0 + 1;
+  if ((*(int *)(*(longlong *)((longlong)ThreadLocalStoragePointer + (ulonglong)_tls_index * 8) + 4)
+       < DAT_180133958) && (FUN_1800f3bf0(&DAT_180133958), DAT_180133958 == -1)) {
+    DAT_180133960 = rage::scrThread::GetCommand(0x6ca53214);
+    _Init_thread_footer(&DAT_180133958);
+  }
+  uVar1 = local_1e0;
+  if (DAT_180133960 != (_func_void_InfoBase_ptr *)0x0) {
+    (*DAT_180133960)((InfoBase *)&local_1f8);
+    uVar1 = local_1e0;
+  }
+  while (uVar1 != 0) {
+    local_1e0 = uVar1 - 1;
+    *(undefined4 *)alStack_1d8[local_1e0] =
+         *(undefined4 *)((longlong)&local_1f8 + (ulonglong)((uVar1 + 3) * 0x10));
+    *(undefined4 *)(alStack_1d8[local_1e0] + 4) = auStack_1b4[(ulonglong)local_1e0 * 4];
+    *(undefined4 *)(alStack_1d8[local_1e0] + 8) = auStack_1b4[(ulonglong)local_1e0 * 4 + 1];
+    uVar1 = local_1e0;
+  }
+  return local_118[0];
+}
+
+
+
+
+##################################################
+FUNCTION 2
+NAME: FUN_180053720
+ADDRESS: 180053720 (RVA 0x53720)
+SIGNATURE: undefined __fastcall FUN_180053720(undefined8 param_1)
+SCORE: 0
+##################################################
+
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void FUN_180053720(undefined8 param_1)
+
+{
+  uint uVar1;
+  undefined1 auStack_218 [32];
+  undefined8 *local_1f8;
+  uint local_1f0;
+  undefined4 local_1ec;
+  undefined8 *local_1e8;
+  uint local_1e0;
+  undefined1 local_1dc [4];
+  longlong alStack_1d8 [4];
+  undefined4 auStack_1b4 [39];
+  undefined8 local_118 [32];
+  ulonglong local_18;
+  
+  local_18 = DAT_18012f440 ^ (ulonglong)auStack_218;
+  local_1ec = 0;
+  memset(local_1dc,0,0x1c4);
+  local_1f0 = 0;
+  local_1e0 = 0;
+  local_1f8 = local_118;
+  local_1e8 = local_118;
+  memset(local_118,0,0x100);
+  local_118[local_1f0] = param_1;
+  local_1f0 = local_1f0 + 1;
+  if ((*(int *)(*(longlong *)((longlong)ThreadLocalStoragePointer + (ulonglong)_tls_index * 8) + 4)
+       < DAT_1801339a8) && (FUN_1800f3bf0(&DAT_1801339a8), DAT_1801339a8 == -1)) {
+    DAT_1801339b0 = rage::scrThread::GetCommand(0x48123591);
+    _Init_thread_footer(&DAT_1801339a8);
+  }
+  uVar1 = local_1e0;
+  if (DAT_1801339b0 != (_func_void_InfoBase_ptr *)0x0) {
+    (*DAT_1801339b0)((InfoBase *)&local_1f8);
+    uVar1 = local_1e0;
+  }
+  while (uVar1 != 0) {
+    local_1e0 = uVar1 - 1;
+    *(undefined4 *)alStack_1d8[local_1e0] =
+         *(undefined4 *)((longlong)&local_1f8 + (ulonglong)((uVar1 + 3) * 0x10));
+    *(undefined4 *)(alStack_1d8[local_1e0] + 4) = auStack_1b4[(ulonglong)local_1e0 * 4];
+    *(undefined4 *)(alStack_1d8[local_1e0] + 8) = auStack_1b4[(ulonglong)local_1e0 * 4 + 1];
+    uVar1 = local_1e0;
+  }
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 3
+NAME: FUN_180053940
+ADDRESS: 180053940 (RVA 0x53940)
+SIGNATURE: undefined __fastcall FUN_180053940(void * param_1, char param_2)
+SCORE: 0
+##################################################
+
+
+void FUN_180053940(void *param_1,char param_2)
+
+{
+  longlong *plVar1;
+  undefined7 in_register_00000011;
+  
+  plVar1 = *(longlong **)((longlong)param_1 + 0x40);
+  if (plVar1 != (longlong *)0x0) {
+    (**(code **)(*plVar1 + 0x20))
+              (plVar1,CONCAT71(in_register_00000011,plVar1 != (longlong *)((longlong)param_1 + 8)));
+    *(undefined8 *)((longlong)param_1 + 0x40) = 0;
+  }
+  if (param_2 != '\0') {
+    free(param_1);
+  }
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 4
+NAME: FUN_1800539a0
+ADDRESS: 1800539a0 (RVA 0x539A0)
+SIGNATURE: longlong * __fastcall FUN_1800539a0(float * param_1, longlong * param_2, longlong * param_3, longlong param_4)
+SCORE: 0
+##################################################
+
+
+longlong * FUN_1800539a0(float *param_1,longlong *param_2,longlong *param_3,longlong param_4)
+
+{
+  undefined8 *puVar1;
+  size_t _Size;
+  longlong lVar2;
+  longlong *plVar3;
+  code *pcVar4;
+  int iVar5;
+  longlong *plVar6;
+  undefined8 *puVar7;
+  undefined8 uVar8;
+  ulonglong uVar9;
+  undefined8 *puVar10;
+  longlong *_Buf2;
+  ulonglong uVar11;
+  float fVar12;
+  longlong *local_88;
+  longlong *local_78;
+  longlong lStack_70;
+  float *local_68;
+  undefined8 *local_60;
+  undefined8 *local_58;
+  
+  plVar6 = param_3;
+  if (0xf < (ulonglong)param_3[3]) {
+    plVar6 = (longlong *)*param_3;
+  }
+  uVar11 = 0xcbf29ce484222325;
+  uVar9 = 0;
+  if (param_3[2] != 0) {
+    do {
+      uVar11 = (uVar11 ^ *(byte *)((longlong)plVar6 + uVar9)) * 0x100000001b3;
+      uVar9 = uVar9 + 1;
+    } while (uVar9 < (ulonglong)param_3[2]);
+  }
+  FUN_18000ffc0((longlong)param_1,(longlong *)&local_78,param_3,uVar11);
+  if (lStack_70 != 0) {
+    *param_2 = lStack_70;
+    *(undefined1 *)(param_2 + 1) = 0;
+    return param_2;
+  }
+  if (*(longlong *)(param_1 + 4) == 0x249249249249249) {
+    std::_Xlength_error("unordered_map/set too long");
+    pcVar4 = (code *)swi(3);
+    plVar6 = (longlong *)(*pcVar4)();
+    return plVar6;
+  }
+  local_60 = (undefined8 *)0x0;
+  local_68 = param_1 + 2;
+  puVar7 = (undefined8 *)FUN_1800f3b0c(0x70);
+  puVar1 = puVar7 + 2;
+  local_60 = puVar7;
+  local_58 = puVar1;
+  FUN_1800563e0(puVar1,param_3);
+  puVar7[0xd] = 0;
+  puVar10 = *(undefined8 **)(param_4 + 0x38);
+  if (puVar10 != (undefined8 *)0x0) {
+    uVar8 = (**(code **)*puVar10)(puVar10,puVar7 + 6);
+    puVar7[0xd] = uVar8;
+  }
+  fVar12 = (float)(*(longlong *)(param_1 + 4) + 1) / (float)*(ulonglong *)(param_1 + 0xe);
+  if (*param_1 <= fVar12 && fVar12 != *param_1) {
+    FUN_180056b70(param_1);
+    plVar6 = *(longlong **)
+              (*(longlong *)(param_1 + 6) + 8 + (*(ulonglong *)(param_1 + 0xc) & uVar11) * 0x10);
+    local_88 = *(longlong **)(param_1 + 2);
+    if (plVar6 != local_88) {
+      plVar3 = *(longlong **)
+                (*(longlong *)(param_1 + 6) + (*(ulonglong *)(param_1 + 0xc) & uVar11) * 0x10);
+      _Size = puVar7[4];
+      while( true ) {
+        _Buf2 = plVar6 + 2;
+        if (0xf < (ulonglong)plVar6[5]) {
+          _Buf2 = (longlong *)*_Buf2;
+        }
+        puVar10 = puVar1;
+        if (0xf < (ulonglong)puVar7[5]) {
+          puVar10 = (undefined8 *)*puVar1;
+        }
+        if ((_Size == plVar6[4]) &&
+           ((_Size == 0 || (iVar5 = memcmp(puVar10,_Buf2,_Size), iVar5 == 0)))) break;
+        local_88 = plVar6;
+        if (plVar6 == plVar3) goto LAB_180053ba5;
+        plVar6 = (longlong *)plVar6[1];
+      }
+      local_88 = (longlong *)*plVar6;
+    }
+LAB_180053ba5:
+    local_78 = local_88;
+  }
+  plVar6 = (longlong *)local_78[1];
+  *(longlong *)(param_1 + 4) = *(longlong *)(param_1 + 4) + 1;
+  *puVar7 = local_78;
+  puVar7[1] = plVar6;
+  *plVar6 = (longlong)puVar7;
+  local_78[1] = (longlong)puVar7;
+  lVar2 = *(longlong *)(param_1 + 6);
+  uVar11 = *(ulonglong *)(param_1 + 0xc) & uVar11;
+  plVar3 = *(longlong **)(lVar2 + uVar11 * 0x10);
+  if (plVar3 == *(longlong **)(param_1 + 2)) {
+    *(undefined8 **)(lVar2 + uVar11 * 0x10) = puVar7;
+  }
+  else {
+    if (plVar3 == local_78) {
+      *(undefined8 **)(lVar2 + uVar11 * 0x10) = puVar7;
+      goto LAB_180053c00;
+    }
+    if (*(longlong **)(lVar2 + 8 + uVar11 * 0x10) != plVar6) goto LAB_180053c00;
+  }
+  *(undefined8 **)(lVar2 + 8 + uVar11 * 0x10) = puVar7;
+LAB_180053c00:
+  *param_2 = (longlong)puVar7;
+  *(undefined1 *)(param_2 + 1) = 1;
+  return param_2;
+}
+
+
+
+
+##################################################
+FUNCTION 5
+NAME: FUN_180054300
+ADDRESS: 180054300 (RVA 0x54300)
+SIGNATURE: undefined __fastcall FUN_180054300(undefined8 param_1, undefined8 param_2)
+SCORE: 0
+##################################################
+
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void FUN_180054300(undefined8 param_1,undefined8 param_2)
+
+{
+  uint uVar1;
+  undefined1 auStack_218 [32];
+  undefined8 *local_1f8;
+  uint local_1f0;
+  undefined4 local_1ec;
+  undefined8 *local_1e8;
+  uint local_1e0;
+  undefined1 local_1dc [4];
+  longlong alStack_1d8 [4];
+  undefined4 auStack_1b4 [39];
+  undefined8 local_118 [32];
+  ulonglong local_18;
+  
+  local_18 = DAT_18012f440 ^ (ulonglong)auStack_218;
+  local_1ec = 0;
+  memset(local_1dc,0,0x1c4);
+  local_1f0 = 0;
+  local_1e0 = 0;
+  local_1f8 = local_118;
+  local_1e8 = local_118;
+  memset(local_118,0,0x100);
+  local_118[local_1f0] = param_1;
+  local_118[local_1f0 + 1] = param_2;
+  local_1f0 = local_1f0 + 2;
+  if ((*(int *)(*(longlong *)((longlong)ThreadLocalStoragePointer + (ulonglong)_tls_index * 8) + 4)
+       < DAT_180133a38) && (FUN_1800f3bf0(&DAT_180133a38), DAT_180133a38 == -1)) {
+    DAT_180133a40 = rage::scrThread::GetCommand(0xe457546c);
+    _Init_thread_footer(&DAT_180133a38);
+  }
+  uVar1 = local_1e0;
+  if (DAT_180133a40 != (_func_void_InfoBase_ptr *)0x0) {
+    (*DAT_180133a40)((InfoBase *)&local_1f8);
+    uVar1 = local_1e0;
+  }
+  while (uVar1 != 0) {
+    local_1e0 = uVar1 - 1;
+    *(undefined4 *)alStack_1d8[local_1e0] =
+         *(undefined4 *)((longlong)&local_1f8 + (ulonglong)((uVar1 + 3) * 0x10));
+    *(undefined4 *)(alStack_1d8[local_1e0] + 4) = auStack_1b4[(ulonglong)local_1e0 * 4];
+    *(undefined4 *)(alStack_1d8[local_1e0] + 8) = auStack_1b4[(ulonglong)local_1e0 * 4 + 1];
+    uVar1 = local_1e0;
+  }
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 6
+NAME: FUN_180054510
+ADDRESS: 180054510 (RVA 0x54510)
+SIGNATURE: longlong * __fastcall FUN_180054510(longlong * param_1, void * param_2, size_t param_3)
+SCORE: 0
+##################################################
+
+
+longlong * FUN_180054510(longlong *param_1,void *param_2,size_t param_3)
+
+{
+  ulonglong uVar1;
+  ulonglong uVar2;
+  void *pvVar3;
+  longlong lVar4;
+  ulonglong uVar5;
+  void *_Memory;
+  longlong *_Dst;
+  ulonglong uVar6;
+  void *_Dst_00;
+  
+  uVar2 = param_1[3];
+  if (param_3 <= uVar2) {
+    _Dst = param_1;
+    if (0xf < uVar2) {
+      _Dst = (longlong *)*param_1;
+    }
+    param_1[2] = param_3;
+    memmove(_Dst,param_2,param_3);
+    *(undefined1 *)(param_3 + (longlong)_Dst) = 0;
+    return param_1;
+  }
+  uVar6 = 0x7fffffffffffffff;
+  if (0x7fffffffffffffff < param_3) {
+                    /* WARNING: Subroutine does not return */
+    FUN_180057c40();
+  }
+  uVar5 = param_3 | 0xf;
+  if ((uVar5 < 0x8000000000000000) && (uVar2 <= 0x7fffffffffffffff - (uVar2 >> 1))) {
+    uVar1 = (uVar2 >> 1) + uVar2;
+    uVar6 = uVar5;
+    if (uVar5 < uVar1) {
+      uVar6 = uVar1;
+    }
+    uVar1 = uVar6 + 1;
+    if (uVar1 == 0) {
+      _Dst_00 = (void *)0x0;
+    }
+    else {
+      if (0xfff < uVar1) {
+        uVar5 = uVar6 + 0x28;
+        if (uVar5 <= uVar1) {
+                    /* WARNING: Subroutine does not return */
+          FUN_180057d10();
+        }
+        goto LAB_1800545ce;
+      }
+      _Dst_00 = (void *)FUN_1800f3b0c(uVar1);
+    }
+  }
+  else {
+    uVar5 = 0x8000000000000027;
+LAB_1800545ce:
+    lVar4 = FUN_1800f3b0c(uVar5);
+    if (lVar4 == 0) goto LAB_180054655;
+    _Dst_00 = (void *)(lVar4 + 0x27U & 0xffffffffffffffe0);
+    *(longlong *)((longlong)_Dst_00 - 8) = lVar4;
+  }
+  param_1[2] = param_3;
+  param_1[3] = uVar6;
+  memcpy(_Dst_00,param_2,param_3);
+  *(undefined1 *)((longlong)_Dst_00 + param_3) = 0;
+  if (0xf < uVar2) {
+    pvVar3 = (void *)*param_1;
+    _Memory = pvVar3;
+    if ((0xfff < uVar2 + 1) &&
+       (_Memory = *(void **)((longlong)pvVar3 + -8),
+       0x1f < (ulonglong)((longlong)pvVar3 + (-8 - (longlong)_Memory)))) {
+LAB_180054655:
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(_Memory);
+  }
+  *param_1 = (longlong)_Dst_00;
+  return param_1;
+}
+
+
+
+
+##################################################
+FUNCTION 7
+NAME: FUN_180054670
+ADDRESS: 180054670 (RVA 0x54670)
+SIGNATURE: noreturn undefined __fastcall FUN_180054670(void)
+SCORE: 0
+##################################################
+
+
+void FUN_180054670(void)
+
+{
+  code *pcVar1;
+  
+  std::_Xout_of_range("invalid string position");
+  pcVar1 = (code *)swi(3);
+  (*pcVar1)();
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 8
+NAME: FUN_1800550f0
+ADDRESS: 1800550f0 (RVA 0x550F0)
+SIGNATURE: undefined __fastcall FUN_1800550f0(basic_streambuf<char,std::char_traits<char>_> * param_1)
+SCORE: 0
+##################################################
+
+
+void FUN_1800550f0(basic_streambuf<char,std::char_traits<char>_> *param_1)
+
+{
+  void *pvVar1;
+  void *_Memory;
+  longlong lVar2;
+  
+  *(undefined ***)param_1 =
+       std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char>_>::vftable;
+  if (((byte)param_1[0x70] & 1) != 0) {
+    if (**(longlong **)(param_1 + 0x40) == 0) {
+      lVar2 = (longlong)**(int **)(param_1 + 0x50) + **(longlong **)(param_1 + 0x38);
+    }
+    else {
+      lVar2 = (longlong)**(int **)(param_1 + 0x58) + **(longlong **)(param_1 + 0x40);
+    }
+    pvVar1 = (void *)**(longlong **)(param_1 + 0x18);
+    _Memory = pvVar1;
+    if ((0xfff < (ulonglong)(lVar2 - (longlong)pvVar1)) &&
+       (_Memory = *(void **)((longlong)pvVar1 + -8),
+       0x1f < (ulonglong)((longlong)pvVar1 + (-8 - (longlong)_Memory)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(_Memory);
+  }
+  **(undefined8 **)(param_1 + 0x18) = 0;
+  **(undefined8 **)(param_1 + 0x38) = 0;
+  **(undefined4 **)(param_1 + 0x50) = 0;
+  **(undefined8 **)(param_1 + 0x20) = 0;
+  **(undefined8 **)(param_1 + 0x40) = 0;
+  **(undefined4 **)(param_1 + 0x58) = 0;
+  *(uint *)(param_1 + 0x70) = *(uint *)(param_1 + 0x70) & 0xfffffffe;
+  *(undefined8 *)(param_1 + 0x68) = 0;
+                    /* WARNING: Could not recover jumptable at 0x000180055199. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  std::basic_streambuf<char,std::char_traits<char>_>::~basic_streambuf<char,std::char_traits<char>_>
+            (param_1);
+  return;
+}
+
+
+
+
+##################################################
+FUNCTION 9
+NAME: FUN_1800554d0
+ADDRESS: 1800554d0 (RVA 0x554D0)
+SIGNATURE: undefined8 * __fastcall FUN_1800554d0(undefined8 * param_1, undefined8 param_2, undefined8 param_3, undefined1 param_4)
+SCORE: 0
+##################################################
+
+
+undefined8 *
+FUN_1800554d0(undefined8 *param_1,undefined8 param_2,undefined8 param_3,undefined1 param_4)
+
+{
+  ulonglong uVar1;
+  size_t _Size;
+  ulonglong uVar2;
+  void *_Src;
+  longlong lVar3;
+  ulonglong uVar4;
+  ulonglong uVar5;
+  void *_Memory;
+  void *_Dst;
+  
+  _Size = param_1[2];
+  uVar5 = 0x7fffffffffffffff;
+  if (_Size == 0x7fffffffffffffff) {
+                    /* WARNING: Subroutine does not return */
+    FUN_180057c40();
+  }
+  uVar2 = param_1[3];
+  uVar4 = _Size + 1 | 0xf;
+  if ((uVar4 < 0x8000000000000000) && (uVar2 <= 0x7fffffffffffffff - (uVar2 >> 1))) {
+    uVar1 = (uVar2 >> 1) + uVar2;
+    uVar5 = uVar4;
+    if (uVar4 < uVar1) {
+      uVar5 = uVar1;
+    }
+    uVar1 = uVar5 + 1;
+    if (uVar1 == 0) {
+      _Dst = (void *)0x0;
+    }
+    else {
+      if (0xfff < uVar1) {
+        uVar4 = uVar5 + 0x28;
+        if (uVar4 <= uVar1) {
+                    /* WARNING: Subroutine does not return */
+          FUN_180057d10();
+        }
+        goto LAB_180055575;
+      }
+      _Dst = (void *)FUN_1800f3b0c(uVar1);
+    }
+  }
+  else {
+    uVar4 = 0x8000000000000027;
+LAB_180055575:
+    lVar3 = FUN_1800f3b0c(uVar4);
+    if (lVar3 == 0) goto LAB_1800555f0;
+    _Dst = (void *)(lVar3 + 0x27U & 0xffffffffffffffe0);
+    *(longlong *)((longlong)_Dst - 8) = lVar3;
+  }
+  param_1[2] = _Size + 1;
+  param_1[3] = uVar5;
+  if (uVar2 < 0x10) {
+    memcpy(_Dst,param_1,_Size);
+    *(undefined1 *)(_Size + (longlong)_Dst) = param_4;
+    *(undefined1 *)(_Size + 1 + (longlong)_Dst) = 0;
+  }
+  else {
+    _Src = (void *)*param_1;
+    memcpy(_Dst,_Src,_Size);
+    *(undefined1 *)(_Size + (longlong)_Dst) = param_4;
+    *(undefined1 *)(_Size + 1 + (longlong)_Dst) = 0;
+    _Memory = _Src;
+    if ((0xfff < uVar2 + 1) &&
+       (_Memory = *(void **)((longlong)_Src + -8),
+       0x1f < (ulonglong)((longlong)_Src + (-8 - (longlong)_Memory)))) {
+LAB_1800555f0:
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(_Memory);
+  }
+  *param_1 = _Dst;
+  return param_1;
+}
+
+
+
+
+##################################################
+FUNCTION 10
+NAME: FUN_1800557b0
+ADDRESS: 1800557b0 (RVA 0x557B0)
+SIGNATURE: undefined8 * __fastcall FUN_1800557b0(undefined8 * param_1, ulonglong param_2, undefined8 param_3, void * param_4, size_t param_5)
+SCORE: 0
+##################################################
+
+
+undefined8 *
+FUN_1800557b0(undefined8 *param_1,ulonglong param_2,undefined8 param_3,void *param_4,size_t param_5)
+
+{
+  ulonglong uVar1;
+  size_t _Size;
+  ulonglong uVar2;
+  void *_Src;
+  longlong lVar3;
+  ulonglong uVar4;
+  ulonglong uVar5;
+  void *pvVar6;
+  void *_Dst;
+  
+  _Size = param_1[2];
+  uVar5 = 0x7fffffffffffffff;
+  if (0x7fffffffffffffff - _Size < param_2) {
+                    /* WARNING: Subroutine does not return */
+    FUN_180057c40();
+  }
+  uVar2 = param_1[3];
+  uVar4 = param_2 + _Size | 0xf;
+  if ((uVar4 < 0x8000000000000000) && (uVar2 <= 0x7fffffffffffffff - (uVar2 >> 1))) {
+    uVar1 = (uVar2 >> 1) + uVar2;
+    uVar5 = uVar4;
+    if (uVar4 < uVar1) {
+      uVar5 = uVar1;
+    }
+    uVar1 = uVar5 + 1;
+    if (uVar1 == 0) {
+      _Dst = (void *)0x0;
+    }
+    else {
+      if (0xfff < uVar1) {
+        uVar4 = uVar5 + 0x28;
+        if (uVar4 <= uVar1) {
+                    /* WARNING: Subroutine does not return */
+          FUN_180057d10();
+        }
+        goto LAB_18005585d;
+      }
+      _Dst = (void *)FUN_1800f3b0c(uVar1);
+    }
+  }
+  else {
+    uVar4 = 0x8000000000000027;
+LAB_18005585d:
+    lVar3 = FUN_1800f3b0c(uVar4);
+    if (lVar3 == 0) goto LAB_1800558e5;
+    _Dst = (void *)(lVar3 + 0x27U & 0xffffffffffffffe0);
+    *(longlong *)((longlong)_Dst - 8) = lVar3;
+  }
+  param_1[2] = param_2 + _Size;
+  pvVar6 = (void *)(_Size + (longlong)_Dst);
+  param_1[3] = uVar5;
+  if (uVar2 < 0x10) {
+    memcpy(_Dst,param_1,_Size);
+    memcpy(pvVar6,param_4,param_5);
+    *(undefined1 *)((longlong)pvVar6 + param_5) = 0;
+  }
+  else {
+    _Src = (void *)*param_1;
+    memcpy(_Dst,_Src,_Size);
+    memcpy(pvVar6,param_4,param_5);
+    *(undefined1 *)((longlong)pvVar6 + param_5) = 0;
+    pvVar6 = _Src;
+    if ((0xfff < uVar2 + 1) &&
+       (pvVar6 = *(void **)((longlong)_Src + -8),
+       0x1f < (ulonglong)((longlong)_Src + (-8 - (longlong)pvVar6)))) {
+LAB_1800558e5:
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(pvVar6);
+  }
+  *param_1 = _Dst;
+  return param_1;
+}
+
+
+
+
