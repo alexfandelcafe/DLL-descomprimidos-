@@ -1,0 +1,34 @@
+FUNCTION EVIDENCE
+=================
+
+Name: PostLoad
+Entry: 180064d35
+Score: 4
+Namespace: GAME-CORE.DLL::rage::ioKeyboard
+Body addresses: 6
+
+Reasons
+=======
+- name
+
+Entry bytes
+===========
+
+180064d35: FF 25 DD AE 09 00 FF 25 DF AE 09 00 FF 25 E1 AE 
+180064d45: 09 00 FF 25 E3 AE 09 00 FF 25 E5 AE 09 00 FF 25 
+180064d55: E7 AE 09 00 FF 25 E9 AE 09 00 FF 25 5B AD 09 00 
+180064d65: FF 25 5D AD 09 00 FF 25 D7 AF 09 00 CC CC CC CC 
+180064d75: CC CC CC CC CC CC CC CC CC CC CC 48 89 5C 24 10 
+180064d85: 48 89 74 24 18 48 89 7C 24 20 55 41 56 41 57 48 
+
+Incoming references
+===================
+18010f8e0 type=DATA caller=<none>
+
+Outgoing calls
+==============
+
+DECOMPILATION
+=============
+
+<decompilation failed: 

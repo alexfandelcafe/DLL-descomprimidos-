@@ -1,0 +1,25 @@
+Ranked candidates before export
+===============================
+
+001 score=111 entry=1800071e0 name=n_Wait reasons=string:OnUpdatePerTick | string:OnUpdatePerFrame | string:OnPressStartScriptRunning | string:OnMainScriptRunning | xref-string:OnUpdatePerTick | xref-string:OnUpdatePerFrame | xref-string:OnPressStartScriptRunning | xref-string:OnMainScriptRunning | calls:FUN_180008a40
+002 score=80 entry=180008a40 name=FUN_180008a40 reasons=hash:GET_SCRIPT_NAME
+003 score=58 entry=18000be90 name=PostLoad reasons=string:rage::sagPlayer::sm_LocalPlayer | xref-string:rage::sagPlayer::sm_LocalPlayer | name
+004 score=27 entry=1800077d0 name=n_QuitGame reasons=string:OnQuitGame | xref-string:OnQuitGame
+005 score=10 entry=180008070 name=PostLoad reasons=name | calls:n_Wait | calls:n_QuitGame
+006 score=4 entry=180001fe0 name=PostLoad reasons=name
+007 score=4 entry=180003ce0 name=PostLoad reasons=name
+008 score=4 entry=180004100 name=PostLoad reasons=name
+009 score=4 entry=1800043f0 name=ClearCallbacks reasons=name
+010 score=4 entry=180004400 name=ExecuteCallback reasons=name
+011 score=4 entry=180004490 name=RegisterCallback reasons=name
+012 score=4 entry=18000a500 name=sagActor reasons=name
+013 score=4 entry=18000a510 name=sagActor reasons=name
+014 score=4 entry=18000b620 name=sagActorManager reasons=name
+015 score=4 entry=18000b630 name=PostLoad reasons=name
+016 score=4 entry=18000b690 name=GetActor reasons=name
+017 score=4 entry=18000be20 name=GetPlayerGuid reasons=name
+018 score=4 entry=18000be30 name=GetPlayerActor reasons=name
+019 score=4 entry=18000be60 name=DisablePlayerControl reasons=name
+020 score=4 entry=18000be80 name=sagPlayerMgr reasons=name
+021 score=4 entry=18000bef0 name=GetLocalPlayer reasons=name
+022 score=4 entry=18000c060 name=PostLoad reasons=name

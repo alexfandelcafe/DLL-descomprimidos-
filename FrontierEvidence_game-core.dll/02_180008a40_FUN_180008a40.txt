@@ -1,0 +1,41 @@
+FUNCTION EVIDENCE
+=================
+
+Name: FUN_180008a40
+Entry: 180008a40
+Score: 80
+Namespace: Global
+Body addresses: 458
+
+Reasons
+=======
+- hash:GET_SCRIPT_NAME
+
+Entry bytes
+===========
+
+180008a40: 40 53 48 81 EC 10 02 00 00 48 8B 05 F0 07 01 00 
+180008a50: 48 33 C4 48 89 84 24 00 02 00 00 33 C0 89 44 24 
+180008a60: 2C 33 D2 41 B8 C4 01 00 00 48 8D 4C 24 3C E8 97 
+180008a70: 75 00 00 48 8D 84 24 00 01 00 00 48 89 44 24 30 
+180008a80: 48 8D 84 24 00 01 00 00 48 89 44 24 20 33 DB 89 
+180008a90: 5C 24 28 89 5C 24 38 33 D2 41 B8 00 01 00 00 48 
+
+Incoming references
+===================
+18001c6e4 type=DATA caller=<none>
+180007215 type=UNCONDITIONAL_CALL caller=n_Wait
+
+Outgoing calls
+==============
+180008a6e -> 18001000a (memset)
+180008aa7 -> 18001000a (memset)
+180008ada -> 18000f340 (FUN_18000f340)
+180008b5f -> 18000f2d4 (_Init_thread_footer)
+180008bdd -> 18000ee90 (__security_check_cookie)
+180008bff -> EXTERNAL:00000001 (Print)
+
+DECOMPILATION
+=============
+
+<decompilation failed: 

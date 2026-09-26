@@ -1,0 +1,43 @@
+FUNCTION EVIDENCE
+=================
+
+Name: FUN_180053290
+Entry: 180053290
+Score: 20
+Namespace: Global
+Body addresses: 357
+
+Reasons
+=======
+- hash:GET_PLAYER_ACTOR
+
+Entry bytes
+===========
+
+180053290: 40 55 48 8D AC 24 F0 FE FF FF 48 81 EC 10 02 00 
+1800532a0: 00 48 8B 05 98 C1 0D 00 48 33 C4 48 89 85 00 01 
+1800532b0: 00 00 33 C0 89 44 24 2C 33 D2 41 B8 C4 01 00 00 
+1800532c0: 48 8D 4C 24 3C E8 08 1A 0A 00 48 8D 45 00 48 89 
+1800532d0: 44 24 30 48 8D 45 00 48 89 44 24 20 C7 44 24 28 
+1800532e0: 00 00 00 00 C7 44 24 38 00 00 00 00 33 D2 41 B8 
+
+Incoming references
+===================
+1801362a4 type=DATA caller=<none>
+180004284 type=UNCONDITIONAL_CALL caller=FUN_180002f50
+180004298 type=UNCONDITIONAL_CALL caller=FUN_180002f50
+180004b0e type=UNCONDITIONAL_CALL caller=FUN_180004ae0
+
+Outgoing calls
+==============
+1800532c5 -> 1800f4cd2 (memset)
+1800532f8 -> 1800f4cd2 (memset)
+180053344 -> 1800f3bf0 (FUN_1800f3bf0)
+180053357 -> EXTERNAL:00000020 (GetCommand)
+18005336b -> 1800f3b84 (_Init_thread_footer)
+1800533e7 -> 1800f3ab0 (__security_check_cookie)
+
+DECOMPILATION
+=============
+
+<decompilation failed: 

@@ -1,0 +1,36 @@
+FUNCTION EVIDENCE
+=================
+
+Name: ClearCallbacks
+Entry: 1800043f0
+Score: 4
+Namespace: StaticCallbacksHandler<rage::scrThread>
+Body addresses: 12
+
+Reasons
+=======
+- name
+
+Entry bytes
+===========
+
+1800043f0: 48 8D 0D E9 4E 01 00 E9 D4 01 00 00 CC CC CC CC 
+180004400: 40 53 48 83 EC 30 48 83 79 18 0F 48 8B D9 4C 8B 
+180004410: 41 10 76 03 48 8B 09 33 D2 49 B9 25 23 22 84 E4 
+180004420: 9C F2 CB 4D 85 C0 74 1D 49 BA B3 01 00 00 00 01 
+180004430: 00 00 0F B6 04 11 48 FF C2 4C 33 C8 4D 0F AF CA 
+180004440: 49 3B D0 72 ED 4C 8B C3 48 8D 54 24 20 E8 0E 0F 
+
+Incoming references
+===================
+180015f54 type=DATA caller=<none>
+Entry Point type=EXTERNAL caller=<none>
+
+Outgoing calls
+==============
+1800043f7 -> 1800045d0 (FUN_1800045d0)
+
+DECOMPILATION
+=============
+
+<decompilation failed: 

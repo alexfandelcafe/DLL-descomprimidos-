@@ -1,0 +1,41 @@
+FUNCTION EVIDENCE
+=================
+
+Name: FUN_1800596e0
+Entry: 1800596e0
+Score: 27
+Namespace: Global
+Body addresses: 298
+
+Reasons
+=======
+- string:OnReset
+- xref-string:OnReset
+
+Entry bytes
+===========
+
+1800596e0: 48 89 5C 24 10 48 89 6C 24 18 56 57 41 56 48 83 
+1800596f0: EC 40 48 8B D9 80 79 42 00 0F 85 F9 00 00 00 C6 
+180059700: 41 40 00 0F 57 C0 0F 11 44 24 20 0F 57 C9 F3 0F 
+180059710: 7F 4C 24 30 41 B8 07 00 00 00 48 8D 15 2F 3B 0B 
+180059720: 00 48 8D 4C 24 20 E8 05 6D FF FF 90 48 8D 54 24 
+180059730: 20 48 8B CB E8 C7 07 00 00 90 48 8B 54 24 38 48 
+
+Incoming references
+===================
+180136928 type=DATA caller=<none>
+180059af2 type=UNCONDITIONAL_CALL caller=FUN_180059ac0
+180059c32 type=UNCONDITIONAL_CALL caller=FUN_180059c00
+
+Outgoing calls
+==============
+180059726 -> 180050430 (FUN_180050430)
+180059734 -> 180059f00 (FUN_180059f00)
+18005976e -> EXTERNAL:00000161 (_invalid_parameter_noinfo_noreturn)
+180059775 -> 1800f3ad0 (free)
+
+DECOMPILATION
+=============
+
+<decompilation failed: 

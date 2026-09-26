@@ -1,0 +1,48 @@
+Native hash occurrences
+=======================
+
+TARGET GET_SCRIPT_NAME = 0x0BC52445
+  HIT 180008af6 function=FUN_180008a40
+  HIT 180008aff function=FUN_180008a40
+  HIT 180008b43 function=FUN_180008a40
+  HIT 180008bed function=FUN_180008a40
+
+TARGET GET_PLAYER_ACTOR = 0xE8CFDD53
+  no direct scalar hit found
+
+TARGET CREATE_PLAYER_ACTOR_IN_LAYOUT = 0x6A307D5F
+  no direct scalar hit found
+
+TARGET CREATE_ACTOR_IN_LAYOUT = 0x8D67F397
+  no direct scalar hit found
+
+TARGET STREAMING_REQUEST_ACTOR = 0xB0A79FEE
+  no direct scalar hit found
+
+TARGET STREAMING_IS_ACTOR_LOADED = 0x7DF72579
+  no direct scalar hit found
+
+TARGET IS_ACTOR_VALID = 0xBA6C3E92
+  no direct scalar hit found
+
+TARGET GET_ACTOR_ENUM = 0x0B28E9EC
+  no direct scalar hit found
+
+TARGET IS_ACTOR_LOCAL_PLAYER = 0x6542CF26
+  no direct scalar hit found
+
+TARGET NET_ENABLE_MULTIPLAYER = 0x9180FF1C
+  no direct scalar hit found
+
+TARGET NET_IS_IN_SESSION = 0x8CA54980
+  no direct scalar hit found
+
+TARGET NET_SESSION_QUICK_JOIN_NATIVE = 0x8DF05A4F
+  no direct scalar hit found
+
+TARGET NET_SESSION_START_GAMEPLAY = 0x86FF3A9B
+  no direct scalar hit found
+
+TARGET NET_SESSION_IS_GAMEPLAY_STARTED = 0xDC88B308
+  no direct scalar hit found
+

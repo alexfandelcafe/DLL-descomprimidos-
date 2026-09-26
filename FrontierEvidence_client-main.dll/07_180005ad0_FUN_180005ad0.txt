@@ -1,0 +1,74 @@
+FUNCTION EVIDENCE
+=================
+
+Name: FUN_180005ad0
+Entry: 180005ad0
+Score: 6
+Namespace: Global
+Body addresses: 1722
+
+Reasons
+=======
+- calls:FUN_180002f50
+
+Entry bytes
+===========
+
+180005ad0: 48 89 5C 24 10 48 89 74 24 18 48 89 7C 24 20 55 
+180005ae0: 41 54 41 55 41 56 41 57 48 8D 6C 24 E0 48 81 EC 
+180005af0: 20 01 00 00 48 8B 05 45 99 12 00 48 33 C4 48 89 
+180005b00: 45 18 4C 8B F1 45 33 E4 48 8D 4C 24 40 FF 15 5D 
+180005b10: 9E 0F 00 90 48 8B 18 48 8D 15 12 72 10 00 48 8D 
+180005b20: 4C 24 50 E8 28 28 05 00 90 48 8B D0 48 8B CB FF 
+
+Incoming references
+===================
+180134114 type=DATA caller=<none>
+180011719 type=UNCONDITIONAL_CALL caller=FUN_180011710
+
+Outgoing calls
+==============
+180005b0d -> EXTERNAL:00000002 (Get)
+180005b23 -> 180058350 (FUN_180058350)
+180005b2f -> EXTERNAL:00000004 (DownloadResources)
+180005b71 -> EXTERNAL:00000161 (_invalid_parameter_noinfo_noreturn)
+180005b78 -> 1800f3ad0 (free)
+180005be8 -> 1800531b0 (FUN_1800531b0)
+180005c38 -> 1800530e0 (FUN_1800530e0)
+180005c45 -> 180065140 (FUN_180065140)
+180005c97 -> 180052ef0 (FUN_180052ef0)
+180005cde -> 1800f4ccc (memmove)
+180005d08 -> 1800557b0 (FUN_1800557b0)
+180005d52 -> 1800f3b0c (FUN_1800f3b0c)
+180005d86 -> EXTERNAL:00000073 (cef_string_utf8_to_utf16)
+180005dac -> EXTERNAL:00000074 (cef_string_utf16_clear)
+180005dbc -> 1800f3ad0 (free)
+180005dfe -> EXTERNAL:00000161 (_invalid_parameter_noinfo_noreturn)
+180005e05 -> 1800f3ad0 (free)
+180005e4f -> EXTERNAL:00000161 (_invalid_parameter_noinfo_noreturn)
+180005e56 -> 1800f3ad0 (free)
+180005e60 -> EXTERNAL:0000003e (Get)
+180005e8c -> 180050430 (FUN_180050430)
+180005eb6 -> 180050430 (FUN_180050430)
+180005ed2 -> EXTERNAL:00000035 (SendProcessMessage)
+180005f0d -> EXTERNAL:00000161 (_invalid_parameter_noinfo_noreturn)
+180005f14 -> 1800f3ad0 (free)
+180005f5f -> EXTERNAL:00000161 (_invalid_parameter_noinfo_noreturn)
+180005f66 -> 1800f3ad0 (free)
+180005fb4 -> EXTERNAL:00000052 (Get)
+180005fde -> 180009030 (FUN_180009030)
+180005ffa -> 180010100 (FUN_180010100)
+180006059 -> EXTERNAL:00000052 (Get)
+180006083 -> 180009030 (FUN_180009030)
+18000609f -> 180010100 (FUN_180010100)
+180006109 -> 180050430 (FUN_180050430)
+180006118 -> 180005820 (FUN_180005820)
+180006152 -> EXTERNAL:00000161 (_invalid_parameter_noinfo_noreturn)
+180006159 -> 1800f3ad0 (free)
+180006165 -> 1800f3ab0 (__security_check_cookie)
+18000618b -> 180057c40 (FUN_180057c40)
+
+DECOMPILATION
+=============
+
+<decompilation failed: 

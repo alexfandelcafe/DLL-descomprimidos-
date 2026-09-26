@@ -1,0 +1,37 @@
+FUNCTION EVIDENCE
+=================
+
+Name: RegisterCallback
+Entry: 180004490
+Score: 4
+Namespace: StaticCallbacksHandler<rage::scrThread>
+Body addresses: 25
+
+Reasons
+=======
+- name
+
+Entry bytes
+===========
+
+180004490: 48 83 EC 38 4C 8B CA 4C 8B C1 48 8D 54 24 20 E8 
+1800044a0: 3C 05 00 00 48 83 C4 38 C3 CC CC CC CC CC CC CC 
+1800044b0: 48 89 5C 24 18 56 57 41 56 48 83 EC 20 33 C0 0F 
+1800044c0: 57 C0 0F 11 01 48 89 41 10 4C 8B F2 48 89 41 18 
+1800044d0: 48 8B F9 48 83 7A 18 0F 48 8B 72 10 76 03 4C 8B 
+1800044e0: 32 48 BB FF FF FF FF FF FF FF 7F 48 3B F3 0F 87 
+
+Incoming references
+===================
+180015ff4 type=DATA caller=<none>
+18001c330 type=DATA caller=<none>
+Entry Point type=EXTERNAL caller=<none>
+
+Outgoing calls
+==============
+18000449f -> 1800049e0 (FUN_1800049e0)
+
+DECOMPILATION
+=============
+
+<decompilation failed: 

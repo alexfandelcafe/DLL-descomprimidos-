@@ -1,0 +1,84 @@
+Relevant strings and their references
+=====================================
+
+STRING @ 18010d020
+VALUE: In Multiplayer
+  XREF 180004585 type=DATA from=FUN_180002f50
+
+STRING @ 18010d230
+VALUE: OnInitialize
+  XREF 1800594df type=DATA from=FUN_180059490
+  XREF 180006d6c type=DATA from=FUN_1800069f0
+
+STRING @ 18010d240
+VALUE: OnRender
+  XREF 180059629 type=DATA from=FUN_180059490
+  XREF 180006f41 type=DATA from=FUN_1800069f0
+
+STRING @ 18010d250
+VALUE: OnReset
+  XREF 18005971a type=DATA from=FUN_1800596e0
+  XREF 1800070f2 type=DATA from=FUN_1800069f0
+
+STRING @ 18010d258
+VALUE: OnShutdown
+  XREF 180059991 type=DATA from=FUN_180059810
+  XREF 18000727a type=DATA from=FUN_1800069f0
+
+STRING @ 18010d268
+VALUE: OnPressStartScriptRunning
+  XREF 1800075f3 type=DATA from=FUN_1800069f0
+
+STRING @ 18010d288
+VALUE: OnMainScriptRunning
+  XREF 1800076bd type=DATA from=FUN_1800069f0
+
+STRING @ 18010d2a0
+VALUE: OnUpdatePerTick
+  XREF 180007787 type=DATA from=FUN_1800069f0
+
+STRING @ 18010d2b0
+VALUE: OnUpdatePerFrame
+  XREF 180007851 type=DATA from=FUN_1800069f0
+
+STRING @ 18010d2c8
+VALUE: OnQuitGame
+  XREF 180007922 type=DATA from=FUN_1800069f0
+
+STRING @ 18012b144
+VALUE: ??0sagPlayerMgr@rage@@QEAA@XZ
+
+STRING @ 18012b164
+VALUE: ??0sagActorManager@rage@@QEAA@XZ
+
+STRING @ 18012b26c
+VALUE: ?GetLocalPlayer@sagPlayerMgr@rage@@SAPEAUsagPlayer@2@XZ
+
+STRING @ 18012b2a6
+VALUE: ?DisablePlayerControl@sagPlayer@rage@@QEAAX_N@Z
+
+STRING @ 18012f710
+VALUE: .?AV<lambda_1>@?1??SetLocalPlayerName@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z@
+
+STRING @ 18012f790
+VALUE: .?AV<lambda_2>@?1??SetLocalPlayerName@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z@
+
+STRING @ 18012fd08
+VALUE: .?AVsagPlayerMgr@rage@@
+
+STRING @ 18012fd30
+VALUE: .?AVsagActorManager@rage@@
+
+STRING @ 1801310d0
+VALUE: .?AV?$_Ref_count_obj2@VsagPlayerMgr@rage@@@std@@
+
+STRING @ 180131120
+VALUE: .?AV?$_Ref_count_obj2@VsagActorManager@rage@@@std@@
+
+STRING @ 1801316d0
+VALUE: .?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??SetLocalPlayerName@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z@XAEBVPattern@@@std@@
+
+STRING @ 180131780
+VALUE: .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??SetLocalPlayerName@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z@XAEBVPattern@@@std@@
+
+Interesting string records: 22

@@ -1,0 +1,182 @@
+Relevant strings and their references
+=====================================
+
+STRING @ 180012288
+VALUE: OnUpdatePerTick
+  XREF 1800072ce type=DATA from=n_Wait
+
+STRING @ 180012298
+VALUE: OnUpdatePerFrame
+  XREF 1800073d5 type=DATA from=n_Wait
+
+STRING @ 1800122b0
+VALUE: OnPressStartScriptRunning
+  XREF 180007533 type=DATA from=n_Wait
+
+STRING @ 1800122d0
+VALUE: OnMainScriptRunning
+  XREF 18000768e type=DATA from=n_Wait
+
+STRING @ 1800122e8
+VALUE: OnQuitGame
+  XREF 1800077f9 type=DATA from=n_QuitGame
+
+STRING @ 180012738
+VALUE: rage::sagPlayer::sm_LocalPlayer
+  XREF 18000be9a type=DATA from=PostLoad
+  XREF 18000bea9 type=DATA from=PostLoad
+
+STRING @ 1800163b5
+VALUE: ??0sagActor@rage@@QEAA@$$QEAU01@@Z
+  XREF 180016060 type=DATA from=<no function>
+
+STRING @ 1800163d8
+VALUE: ??0sagActor@rage@@QEAA@AEBU01@@Z
+  XREF 180016064 type=DATA from=<no function>
+
+STRING @ 1800163f9
+VALUE: ??0sagActor@rage@@QEAA@XZ
+  XREF 180016068 type=DATA from=<no function>
+
+STRING @ 180016413
+VALUE: ??0sagActorManager@rage@@QEAA@$$QEAV01@@Z
+  XREF 18001606c type=DATA from=<no function>
+
+STRING @ 18001643d
+VALUE: ??0sagActorManager@rage@@QEAA@AEBV01@@Z
+  XREF 180016070 type=DATA from=<no function>
+
+STRING @ 180016465
+VALUE: ??0sagActorManager@rage@@QEAA@XZ
+  XREF 180016074 type=DATA from=<no function>
+
+STRING @ 180016486
+VALUE: ??0sagPlayerMgr@rage@@QEAA@$$QEAV01@@Z
+  XREF 180016078 type=DATA from=<no function>
+
+STRING @ 1800164ad
+VALUE: ??0sagPlayerMgr@rage@@QEAA@AEBV01@@Z
+  XREF 18001607c type=DATA from=<no function>
+
+STRING @ 1800164d2
+VALUE: ??0sagPlayerMgr@rage@@QEAA@XZ
+  XREF 180016080 type=DATA from=<no function>
+
+STRING @ 180016769
+VALUE: ??4sagActor@rage@@QEAAAEAU01@$$QEAU01@@Z
+  XREF 1800160b8 type=DATA from=<no function>
+
+STRING @ 180016792
+VALUE: ??4sagActor@rage@@QEAAAEAU01@AEBU01@@Z
+  XREF 1800160bc type=DATA from=<no function>
+
+STRING @ 1800167b9
+VALUE: ??4sagActorManager@rage@@QEAAAEAV01@$$QEAV01@@Z
+  XREF 1800160c0 type=DATA from=<no function>
+
+STRING @ 1800167e9
+VALUE: ??4sagActorManager@rage@@QEAAAEAV01@AEBV01@@Z
+  XREF 1800160c4 type=DATA from=<no function>
+
+STRING @ 180016817
+VALUE: ??4sagPlayer@rage@@QEAAAEAU01@$$QEAU01@@Z
+  XREF 1800160c8 type=DATA from=<no function>
+
+STRING @ 180016841
+VALUE: ??4sagPlayer@rage@@QEAAAEAU01@AEBU01@@Z
+  XREF 1800160cc type=DATA from=<no function>
+
+STRING @ 180016869
+VALUE: ??4sagPlayerMgr@rage@@QEAAAEAV01@$$QEAV01@@Z
+  XREF 1800160d0 type=DATA from=<no function>
+
+STRING @ 180016896
+VALUE: ??4sagPlayerMgr@rage@@QEAAAEAV01@AEBV01@@Z
+  XREF 1800160d4 type=DATA from=<no function>
+
+STRING @ 180016932
+VALUE: ??_7sagActor@rage@@6B@
+  XREF 1800160e4 type=DATA from=<no function>
+
+STRING @ 180016949
+VALUE: ??_7sagActorManager@rage@@6B@
+  XREF 1800160e8 type=DATA from=<no function>
+
+STRING @ 180016967
+VALUE: ??_7sagPlayerMgr@rage@@6B@
+  XREF 1800160ec type=DATA from=<no function>
+
+STRING @ 180016a33
+VALUE: ?DisablePlayerControl@sagPlayer@rage@@QEAAX_N@Z
+  XREF 180016100 type=DATA from=<no function>
+
+STRING @ 180016b1f
+VALUE: ?GetActor@sagActorManager@rage@@SAPEAUsagActor@2@I@Z
+  XREF 18001610c type=DATA from=<no function>
+
+STRING @ 180016c3b
+VALUE: ?GetGohObject@sagActor@rage@@QEBAPEAUgohBase@2@XZ
+  XREF 180016124 type=DATA from=<no function>
+
+STRING @ 180016c6d
+VALUE: ?GetLocalPlayer@sagPlayerMgr@rage@@SAPEAUsagPlayer@2@XZ
+  XREF 180016128 type=DATA from=<no function>
+
+STRING @ 180016ce3
+VALUE: ?GetPlayerActor@sagPlayer@rage@@QEBAPEAUsagActor@2@XZ
+  XREF 180016130 type=DATA from=<no function>
+
+STRING @ 180016d19
+VALUE: ?GetPlayerGuid@sagPlayer@rage@@QEBAIXZ
+  XREF 180016134 type=DATA from=<no function>
+
+STRING @ 180016db0
+VALUE: ?IsAlive@sagActor@rage@@QEBA_NXZ
+  XREF 180016140 type=DATA from=<no function>
+
+STRING @ 180016dd1
+VALUE: ?IsDrunk@sagActor@rage@@QEBA_NXZ
+  XREF 180016144 type=DATA from=<no function>
+
+STRING @ 180016e85
+VALUE: ?MaybeGetCurrentWeapon@sagPlayer@rage@@QEBAPEAUunkStruct4@2@XZ
+  XREF 180016158 type=DATA from=<no function>
+
+STRING @ 180016f98
+VALUE: ?PostLoad@sagActorManager@rage@@UEAAXXZ
+  XREF 180016170 type=DATA from=<no function>
+
+STRING @ 180016fc0
+VALUE: ?PostLoad@sagPlayerMgr@rage@@UEAAXXZ
+  XREF 180016174 type=DATA from=<no function>
+
+STRING @ 180017395
+VALUE: ?s_GeneralManagerSlots@sagActorManager@rage@@0PEA_KEA
+  XREF 1800161c8 type=DATA from=<no function>
+
+STRING @ 180017402
+VALUE: ?s_LocalPlayer@sagPlayerMgr@rage@@0PEAPEAUsagPlayer@2@EA
+  XREF 1800161d0 type=DATA from=<no function>
+
+STRING @ 180019a00
+VALUE: .?AV<lambda_1>@?1??PostLoad@sagActorManager@rage@@UEAAXXZ@
+
+STRING @ 180019aa0
+VALUE: .?AV<lambda_1>@?1??PostLoad@sagPlayerMgr@rage@@UEAAXXZ@
+
+STRING @ 18001a700
+VALUE: .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PostLoad@sagActorManager@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+
+STRING @ 18001a778
+VALUE: .?AVsagActorManager@rage@@
+
+STRING @ 18001a7a8
+VALUE: .?AUsagActor@rage@@
+
+STRING @ 18001a840
+VALUE: .?AVsagPlayerMgr@rage@@
+
+STRING @ 18001a870
+VALUE: .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PostLoad@sagPlayerMgr@rage@@UEAAXXZ@XAEBVPattern@@@std@@
+
+Interesting string records: 46

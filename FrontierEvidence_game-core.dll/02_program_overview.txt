@@ -1,0 +1,18 @@
+Program: game-core.dll
+Executable format: Portable Executable (PE)
+Language: x86:LE:64:default
+Compiler/spec: windows
+Image base: 180000000
+
+Memory blocks
+=============
+Headers                        start=180000000 end=1800003ff size=0x400 execute=false read=true write=false initialized=true
+.text                          start=180001000 end=180010bff size=0xFC00 execute=true read=true write=false initialized=true
+.rdata                         start=180011000 end=1800189ff size=0x7A00 execute=false read=true write=false initialized=true
+.data                          start=180019000 end=18001b2e7 size=0x22E8 execute=false read=true write=true initialized=true
+.pdata                         start=18001c000 end=18001cfff size=0x1000 execute=false read=true write=false initialized=true
+.rsrc                          start=18001d000 end=18001d1ff size=0x200 execute=false read=true write=false initialized=true
+.reloc                         start=18001e000 end=18001e3ff size=0x400 execute=false read=true write=false initialized=true
+tdb                            start=ff00000000 end=ff0000184f size=0x1850 execute=false read=true write=true initialized=true
+
+Functions: 535

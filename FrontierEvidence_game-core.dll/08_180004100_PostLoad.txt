@@ -1,0 +1,39 @@
+FUNCTION EVIDENCE
+=================
+
+Name: PostLoad
+Entry: 180004100
+Score: 4
+Namespace: rage::ioKeyboard
+Body addresses: 300
+
+Reasons
+=======
+- name
+
+Entry bytes
+===========
+
+180004100: 40 55 48 8B EC 48 81 EC 80 00 00 00 48 8D 05 6D 
+180004110: DB 00 00 48 C7 45 B0 00 00 00 00 48 89 45 A0 48 
+180004120: 8D 55 B8 48 8D 05 06 DB 00 00 45 33 C0 48 89 45 
+180004130: A8 48 8D 4D A0 48 8D 05 BC DC 00 00 48 89 45 B8 
+180004140: 48 8D 45 B8 48 89 45 F0 E8 D3 D6 FF FF 48 8D 05 
+180004150: 6C DB 00 00 48 C7 45 B0 00 00 00 00 48 89 45 A0 
+
+Incoming references
+===================
+180015fcc type=DATA caller=<none>
+18001c2c4 type=DATA caller=<none>
+Entry Point type=EXTERNAL caller=<none>
+
+Outgoing calls
+==============
+180004148 -> 180001820 (FUN_180001820)
+180004189 -> 180001820 (FUN_180001820)
+1800041ca -> 180001820 (FUN_180001820)
+
+DECOMPILATION
+=============
+
+<decompilation failed: 

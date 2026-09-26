@@ -1,0 +1,49 @@
+FUNCTION EVIDENCE
+=================
+
+Name: FUN_180059490
+Entry: 180059490
+Score: 54
+Namespace: Global
+Body addresses: 582
+
+Reasons
+=======
+- string:OnInitialize
+- string:OnRender
+- xref-string:OnInitialize
+- xref-string:OnRender
+
+Entry bytes
+===========
+
+180059490: 48 89 5C 24 18 57 48 81 EC 90 00 00 00 48 8B D9 
+1800594a0: 80 79 42 00 0F 85 1D 02 00 00 48 8B 41 48 48 83 
+1800594b0: 3C C2 00 0F 84 0E 02 00 00 80 79 40 00 0F 85 91 
+1800594c0: 00 00 00 E8 E8 F8 FF FF 0F 57 C0 0F 11 44 24 40 
+1800594d0: 0F 57 C9 F3 0F 7F 4C 24 50 41 B8 0C 00 00 00 48 
+1800594e0: 8D 15 4A 3D 0B 00 48 8D 4C 24 40 E8 40 6F FF FF 
+
+Incoming references
+===================
+18013691c type=DATA caller=<none>
+180059b94 type=UNCONDITIONAL_CALL caller=FUN_180059b60
+
+Outgoing calls
+==============
+1800594c3 -> 180058db0 (FUN_180058db0)
+1800594eb -> 180050430 (FUN_180050430)
+1800594f9 -> 180059f00 (FUN_180059f00)
+180059533 -> EXTERNAL:00000161 (_invalid_parameter_noinfo_noreturn)
+18005953a -> 1800f3ad0 (free)
+18005960d -> 180061f60 (FUN_180061f60)
+180059635 -> 180050430 (FUN_180050430)
+180059643 -> 180059f00 (FUN_180059f00)
+18005967d -> EXTERNAL:00000161 (_invalid_parameter_noinfo_noreturn)
+180059684 -> 1800f3ad0 (free)
+180059690 -> 180062720 (FUN_180062720)
+
+DECOMPILATION
+=============
+
+<decompilation failed: 

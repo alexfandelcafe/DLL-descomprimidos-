@@ -1,0 +1,38 @@
+Frontier lifecycle investigation summary
+=======================================
+
+This report is evidence collection only.
+Scores are triage values used to decide which functions to inspect first.
+
+Top candidates
+==============
+#01 score=246 FUN_1800069f0 @ 1800069f0
+    string:OnInitialize | string:OnRender | string:OnReset | string:OnShutdown | string:OnPressStartScriptRunning | string:OnMainScriptRunning | string:OnUpdatePerTick | string:OnUpdatePerFrame | string:OnQuitGame | xref-string:OnInitialize | xref-string:OnRender | xref-string:OnReset | xref-string:OnShutdown | xref-string:OnPressStartScriptRunning | xref-string:OnMainScriptRunning | xref-string:OnUpdatePerTick | xref-string:OnUpdatePerFrame | xref-string:OnQuitGame | calls:FUN_180059810
+#02 score=54 FUN_180059490 @ 180059490
+    string:OnInitialize | string:OnRender | xref-string:OnInitialize | xref-string:OnRender
+#03 score=33 FUN_180002f50 @ 180002f50
+    string:In Multiplayer | xref-string:In Multiplayer | calls:FUN_180053290
+#04 score=27 FUN_1800596e0 @ 1800596e0
+    string:OnReset | xref-string:OnReset
+#05 score=27 FUN_180059810 @ 180059810
+    string:OnShutdown | xref-string:OnShutdown
+#06 score=20 FUN_180053290 @ 180053290
+    hash:GET_PLAYER_ACTOR
+#07 score=6 FUN_180005ad0 @ 180005ad0
+    calls:FUN_180002f50
+#08 score=4 PostLoad @ 180064d35
+    name
+#09 score=4 PostLoad @ 180064d47
+    name
+#10 score=4 PostLoad @ 180064d4d
+    name
+#11 score=3 FUN_180004ae0 @ 180004ae0
+    calls:FUN_180053290
+#12 score=3 FUN_180058560 @ 180058560
+    calls:FUN_1800069f0
+#13 score=3 FUN_180059ac0 @ 180059ac0
+    calls:FUN_1800596e0
+#14 score=3 FUN_180059b60 @ 180059b60
+    calls:FUN_180059490
+#15 score=3 FUN_180059c00 @ 180059c00
+    calls:FUN_1800596e0

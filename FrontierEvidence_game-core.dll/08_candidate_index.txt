@@ -1,0 +1,71 @@
+Top lifecycle/player candidates
+================================
+
+The candidate score is triage score, not a conclusion.
+
+#01 score=111 entry=1800071e0 name=n_Wait
+  reasons: string:OnUpdatePerTick | string:OnUpdatePerFrame | string:OnPressStartScriptRunning | string:OnMainScriptRunning | xref-string:OnUpdatePerTick | xref-string:OnUpdatePerFrame | xref-string:OnPressStartScriptRunning | xref-string:OnMainScriptRunning | calls:FUN_180008a40
+
+#02 score=80 entry=180008a40 name=FUN_180008a40
+  reasons: hash:GET_SCRIPT_NAME
+
+#03 score=58 entry=18000be90 name=PostLoad
+  reasons: string:rage::sagPlayer::sm_LocalPlayer | xref-string:rage::sagPlayer::sm_LocalPlayer | name
+
+#04 score=27 entry=1800077d0 name=n_QuitGame
+  reasons: string:OnQuitGame | xref-string:OnQuitGame
+
+#05 score=10 entry=180008070 name=PostLoad
+  reasons: name | calls:n_Wait | calls:n_QuitGame
+
+#06 score=4 entry=180001fe0 name=PostLoad
+  reasons: name
+
+#07 score=4 entry=180003ce0 name=PostLoad
+  reasons: name
+
+#08 score=4 entry=180004100 name=PostLoad
+  reasons: name
+
+#09 score=4 entry=1800043f0 name=ClearCallbacks
+  reasons: name
+
+#10 score=4 entry=180004400 name=ExecuteCallback
+  reasons: name
+
+#11 score=4 entry=180004490 name=RegisterCallback
+  reasons: name
+
+#12 score=4 entry=18000a500 name=sagActor
+  reasons: name
+
+#13 score=4 entry=18000a510 name=sagActor
+  reasons: name
+
+#14 score=4 entry=18000b620 name=sagActorManager
+  reasons: name
+
+#15 score=4 entry=18000b630 name=PostLoad
+  reasons: name
+
+#16 score=4 entry=18000b690 name=GetActor
+  reasons: name
+
+#17 score=4 entry=18000be20 name=GetPlayerGuid
+  reasons: name
+
+#18 score=4 entry=18000be30 name=GetPlayerActor
+  reasons: name
+
+#19 score=4 entry=18000be60 name=DisablePlayerControl
+  reasons: name
+
+#20 score=4 entry=18000be80 name=sagPlayerMgr
+  reasons: name
+
+#21 score=4 entry=18000bef0 name=GetLocalPlayer
+  reasons: name
+
+#22 score=4 entry=18000c060 name=PostLoad
+  reasons: name
+

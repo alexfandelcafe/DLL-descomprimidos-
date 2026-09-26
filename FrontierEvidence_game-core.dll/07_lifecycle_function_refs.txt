@@ -1,0 +1,17 @@
+Functions associated with lifecycle strings
+===========================================
+
+1800071e0  n_Wait
+  string @ 180012288: OnUpdatePerTick
+1800071e0  n_Wait
+  string @ 180012298: OnUpdatePerFrame
+1800071e0  n_Wait
+  string @ 1800122b0: OnPressStartScriptRunning
+1800071e0  n_Wait
+  string @ 1800122d0: OnMainScriptRunning
+1800077d0  n_QuitGame
+  string @ 1800122e8: OnQuitGame
+18000be90  PostLoad
+  string @ 180012738: rage::sagPlayer::sm_LocalPlayer
+18000be90  PostLoad
+  string @ 180012738: rage::sagPlayer::sm_LocalPlayer

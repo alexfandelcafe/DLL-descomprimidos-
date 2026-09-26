@@ -1,0 +1,38 @@
+FUNCTION EVIDENCE
+=================
+
+Name: PostLoad
+Entry: 180003ce0
+Score: 4
+Namespace: rage::gohObjectManager
+Body addresses: 83
+
+Reasons
+=======
+- name
+
+Entry bytes
+===========
+
+180003ce0: 4C 8B DC 48 81 EC 88 00 00 00 48 8D 05 2F DC 00 
+180003cf0: 00 49 C7 43 A8 00 00 00 00 49 89 43 98 49 8D 53 
+180003d00: B0 48 8D 05 B8 DB 00 00 45 33 C0 49 89 43 A0 49 
+180003d10: 8D 4B 98 48 8D 05 56 DC 00 00 49 89 43 B0 49 8D 
+180003d20: 43 B0 49 89 43 E8 E8 F5 DA FF FF 48 81 C4 88 00 
+180003d30: 00 00 C3 CC CC CC CC CC CC CC CC CC CC CC CC CC 
+
+Incoming references
+===================
+180015fc8 type=DATA caller=<none>
+18001c27c type=DATA caller=<none>
+Entry Point type=EXTERNAL caller=<none>
+180011958 type=DATA caller=<none>
+
+Outgoing calls
+==============
+180003d26 -> 180001820 (FUN_180001820)
+
+DECOMPILATION
+=============
+
+<decompilation failed: 

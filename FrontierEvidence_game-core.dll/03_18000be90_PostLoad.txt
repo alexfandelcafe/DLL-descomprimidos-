@@ -1,0 +1,40 @@
+FUNCTION EVIDENCE
+=================
+
+Name: PostLoad
+Entry: 18000be90
+Score: 58
+Namespace: rage::sagPlayerMgr
+Body addresses: 83
+
+Reasons
+=======
+- string:rage::sagPlayer::sm_LocalPlayer
+- xref-string:rage::sagPlayer::sm_LocalPlayer
+- name
+
+Entry bytes
+===========
+
+18000be90: 4C 8B DC 48 81 EC 88 00 00 00 48 8D 05 97 68 00 
+18000bea0: 00 49 C7 43 A8 00 00 00 00 49 89 43 98 49 8D 53 
+18000beb0: B0 48 8D 05 A0 68 00 00 45 33 C0 49 89 43 A0 49 
+18000bec0: 8D 4B 98 48 8D 05 D6 68 00 00 49 89 43 B0 49 8D 
+18000bed0: 43 B0 49 89 43 E8 E8 45 59 FF FF 48 81 C4 88 00 
+18000bee0: 00 00 C3 CC CC CC CC CC CC CC CC CC CC CC CC CC 
+
+Incoming references
+===================
+180015fd4 type=DATA caller=<none>
+18001c918 type=DATA caller=<none>
+Entry Point type=EXTERNAL caller=<none>
+180012788 type=DATA caller=<none>
+
+Outgoing calls
+==============
+18000bed6 -> 180001820 (FUN_180001820)
+
+DECOMPILATION
+=============
+
+<decompilation failed: 

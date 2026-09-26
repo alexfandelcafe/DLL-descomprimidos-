@@ -1,0 +1,75 @@
+FUNCTION EVIDENCE
+=================
+
+Name: n_Wait
+Entry: 1800071e0
+Score: 111
+Namespace: rage::scrThread
+Body addresses: 1509
+
+Reasons
+=======
+- string:OnUpdatePerTick
+- string:OnUpdatePerFrame
+- string:OnPressStartScriptRunning
+- string:OnMainScriptRunning
+- xref-string:OnUpdatePerTick
+- xref-string:OnUpdatePerFrame
+- xref-string:OnPressStartScriptRunning
+- xref-string:OnMainScriptRunning
+- calls:FUN_180008a40
+
+Entry bytes
+===========
+
+1800071e0: 48 89 5C 24 10 48 89 74 24 18 48 89 7C 24 20 55 
+1800071f0: 41 54 41 55 41 56 41 57 48 8D 6C 24 C9 48 81 EC 
+180007200: C0 00 00 00 48 8B 05 35 20 01 00 48 33 C4 48 89 
+180007210: 45 27 4C 8B E1 E8 26 18 00 00 0F 57 C0 0F 11 45 
+180007220: 07 33 DB 48 89 5D 17 48 89 5D 1F 49 C7 C0 FF FF 
+180007230: FF FF 49 FF C0 42 38 1C 00 75 F7 48 8B D0 48 8D 
+
+Incoming references
+===================
+180016010 type=DATA caller=<none>
+18001c618 type=DATA caller=<none>
+Entry Point type=EXTERNAL caller=<none>
+180008251 type=DATA caller=PostLoad
+
+Outgoing calls
+==============
+180007215 -> 180008a40 (FUN_180008a40)
+180007242 -> 180002e30 (FUN_180002e30)
+1800072d9 -> 180002e30 (FUN_180002e30)
+18000731d -> 180005360 (FUN_180005360)
+180007331 -> 180004c90 (FUN_180004c90)
+180007342 -> EXTERNAL:00000053 (_Xbad_function_call)
+180007382 -> EXTERNAL:00000070 (_invalid_parameter_noinfo_noreturn)
+18000738c -> 18000f264 (FUN_18000f264)
+1800073e0 -> 180002e30 (FUN_180002e30)
+18000742b -> 180005360 (FUN_180005360)
+18000743f -> 180004c90 (FUN_180004c90)
+180007450 -> EXTERNAL:00000053 (_Xbad_function_call)
+180007490 -> EXTERNAL:00000070 (_invalid_parameter_noinfo_noreturn)
+18000749a -> 18000f264 (FUN_18000f264)
+18000753e -> 180002e30 (FUN_180002e30)
+18000758b -> 180005360 (FUN_180005360)
+18000759f -> 180004c90 (FUN_180004c90)
+1800075b0 -> EXTERNAL:00000053 (_Xbad_function_call)
+1800075f9 -> EXTERNAL:00000070 (_invalid_parameter_noinfo_noreturn)
+180007603 -> 18000f264 (FUN_18000f264)
+180007637 -> 1800100f3 (memchr)
+180007699 -> 180002e30 (FUN_180002e30)
+1800076de -> 180005360 (FUN_180005360)
+1800076f2 -> 180004c90 (FUN_180004c90)
+180007703 -> EXTERNAL:00000053 (_Xbad_function_call)
+180007743 -> EXTERNAL:00000070 (_invalid_parameter_noinfo_noreturn)
+18000774d -> 18000f264 (FUN_18000f264)
+180007795 -> EXTERNAL:00000070 (_invalid_parameter_noinfo_noreturn)
+18000779c -> 18000f264 (FUN_18000f264)
+1800077a8 -> 18000ee90 (__security_check_cookie)
+
+DECOMPILATION
+=============
+
+<decompilation failed: 

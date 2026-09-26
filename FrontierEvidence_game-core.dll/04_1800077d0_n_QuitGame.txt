@@ -1,0 +1,44 @@
+FUNCTION EVIDENCE
+=================
+
+Name: n_QuitGame
+Entry: 1800077d0
+Score: 27
+Namespace: rage::scrThread
+Body addresses: 275
+
+Reasons
+=======
+- string:OnQuitGame
+- xref-string:OnQuitGame
+
+Entry bytes
+===========
+
+1800077d0: 48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 50 0F 
+1800077e0: 57 C0 0F 11 44 24 30 33 DB 48 89 5C 24 40 48 89 
+1800077f0: 5C 24 48 41 B8 0A 00 00 00 48 8D 15 E8 AA 00 00 
+180007800: 48 8D 4C 24 30 E8 26 B6 FF FF 90 48 8D 4C 24 30 
+180007810: 48 8B 7C 24 30 48 8B 74 24 48 48 83 FE 0F 48 0F 
+180007820: 47 CF 49 B9 25 23 22 84 E4 9C F2 CB 48 8B 54 24 
+
+Incoming references
+===================
+180016008 type=DATA caller=<none>
+18001c624 type=DATA caller=<none>
+Entry Point type=EXTERNAL caller=<none>
+1800082f5 type=DATA caller=PostLoad
+
+Outgoing calls
+==============
+180007805 -> 180002e30 (FUN_180002e30)
+18000785d -> 180005360 (FUN_180005360)
+180007873 -> 180004c90 (FUN_180004c90)
+180007884 -> EXTERNAL:00000053 (_Xbad_function_call)
+1800078c6 -> EXTERNAL:00000070 (_invalid_parameter_noinfo_noreturn)
+1800078d0 -> 18000f264 (FUN_18000f264)
+
+DECOMPILATION
+=============
+
+<decompilation failed: 

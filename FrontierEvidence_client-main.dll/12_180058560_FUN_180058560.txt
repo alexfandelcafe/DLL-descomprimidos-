@@ -1,0 +1,39 @@
+FUNCTION EVIDENCE
+=================
+
+Name: FUN_180058560
+Entry: 180058560
+Score: 3
+Namespace: Global
+Body addresses: 164
+
+Reasons
+=======
+- calls:FUN_1800069f0
+
+Entry bytes
+===========
+
+180058560: 48 89 5C 24 08 57 48 83 EC 40 48 8B D9 85 D2 74 
+180058570: 3A 83 FA 01 75 7E 48 8D 4C 24 30 E8 50 FE FA FF 
+180058580: 4C 8D 05 69 E4 FA FF 33 D2 33 C9 4C 8B 08 33 C0 
+180058590: 48 89 44 24 28 89 44 24 20 49 89 19 66 41 C7 41 
+1800585a0: 08 01 00 FF 15 C7 6C 0A 00 EB 13 48 8D 4C 24 30 
+1800585b0: E8 1B FE FA FF 48 8B 08 66 C7 41 08 00 01 48 8B 
+
+Incoming references
+===================
+180136880 type=DATA caller=<none>
+1800f4331 type=UNCONDITIONAL_CALL caller=FUN_1800f42ac
+1800f434d type=UNCONDITIONAL_CALL caller=FUN_1800f42ac
+
+Outgoing calls
+==============
+18005857b -> 1800083d0 (FUN_1800083d0)
+1800585a3 -> EXTERNAL:000000be (CreateThread)
+1800585b0 -> 1800083d0 (FUN_1800083d0)
+
+DECOMPILATION
+=============
+
+<decompilation failed: 

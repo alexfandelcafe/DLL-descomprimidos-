@@ -1,0 +1,56 @@
+Frontier Lifecycle Evidence Package
+===================================
+
+Program: client-main.dll
+Output folder: C:\Users\Alex\Desktop\evidence2.0\FrontierEvidence_client-main.dll
+Maximum files: 100
+
+Primary investigation question:
+What runtime/script function actually creates or activates the local player actor after the frontend -> online transition?
+
+Target hashes:
+  GET_SCRIPT_NAME = 0x0BC52445
+  GET_PLAYER_ACTOR = 0xE8CFDD53
+  CREATE_PLAYER_ACTOR_IN_LAYOUT = 0x6A307D5F
+  CREATE_ACTOR_IN_LAYOUT = 0x8D67F397
+  STREAMING_REQUEST_ACTOR = 0xB0A79FEE
+  STREAMING_IS_ACTOR_LOADED = 0x7DF72579
+  IS_ACTOR_VALID = 0xBA6C3E92
+  GET_ACTOR_ENUM = 0x0B28E9EC
+  IS_ACTOR_LOCAL_PLAYER = 0x6542CF26
+  RESPAWN_PLAYER_ACTOR_IN_LAYOUT = name-only
+  SWITCH_PLAYER_TO_ENUM = name-only
+  INIT_NATIVE_ACTORENUM_PLAYER = name-only
+  NET_ENABLE_MULTIPLAYER = 0x9180FF1C
+  NET_IS_IN_SESSION = 0x8CA54980
+  NET_SESSION_QUICK_JOIN_NATIVE = 0x8DF05A4F
+  NET_SESSION_START_GAMEPLAY = 0x86FF3A9B
+  NET_SESSION_IS_GAMEPLAY_STARTED = 0xDC88B308
+
+Lifecycle strings:
+  OnPressStartScriptRunning
+  OnMainScriptRunning
+  OnUpdatePerTick
+  OnUpdatePerFrame
+  OnInitialize
+  OnRender
+  OnReset
+  OnShutdown
+  OnQuitGame
+  pressstart
+  content/main
+  GET_SCRIPT_NAME
+  CreatePlayer
+  CreateActor
+  PlayerActor
+  RespawnPlayer
+  ActorEnum
+  LocalPlayer
+  sagPlayer
+  sagActor
+  PlayerMgr
+  ActorManager
+  START_MULTIPLAYER
+  MULTIPLAYER
+  SESSION
+  GAMEPLAY

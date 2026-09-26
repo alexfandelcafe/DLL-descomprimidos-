@@ -1,0 +1,18 @@
+Program: client-main.dll
+Executable format: Portable Executable (PE)
+Language: x86:LE:64:default
+Compiler/spec: windows
+Image base: 180000000
+
+Memory blocks
+=============
+Headers                        start=180000000 end=1800003ff size=0x400 execute=false read=true write=false initialized=true
+.text                          start=180001000 end=1800fe5ff size=0xFD600 execute=true read=true write=false initialized=true
+.rdata                         start=1800ff000 end=18012e1ff size=0x2F200 execute=false read=true write=false initialized=true
+.data                          start=18012f000 end=180133d27 size=0x4D28 execute=false read=true write=true initialized=true
+.pdata                         start=180134000 end=1801409ff size=0xCA00 execute=false read=true write=false initialized=true
+.rsrc                          start=180141000 end=180173bff size=0x32C00 execute=false read=true write=false initialized=true
+.reloc                         start=180174000 end=1801757ff size=0x1800 execute=false read=true write=false initialized=true
+tdb                            start=ff00000000 end=ff0000184f size=0x1850 execute=false read=true write=true initialized=true
+
+Functions: 4063

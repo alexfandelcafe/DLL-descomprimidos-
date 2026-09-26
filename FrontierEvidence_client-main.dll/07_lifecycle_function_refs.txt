@@ -1,0 +1,31 @@
+Functions associated with lifecycle strings
+===========================================
+
+180002f50  FUN_180002f50
+  string @ 18010d020: In Multiplayer
+180059490  FUN_180059490
+  string @ 18010d230: OnInitialize
+1800069f0  FUN_1800069f0
+  string @ 18010d230: OnInitialize
+180059490  FUN_180059490
+  string @ 18010d240: OnRender
+1800069f0  FUN_1800069f0
+  string @ 18010d240: OnRender
+1800596e0  FUN_1800596e0
+  string @ 18010d250: OnReset
+1800069f0  FUN_1800069f0
+  string @ 18010d250: OnReset
+180059810  FUN_180059810
+  string @ 18010d258: OnShutdown
+1800069f0  FUN_1800069f0
+  string @ 18010d258: OnShutdown
+1800069f0  FUN_1800069f0
+  string @ 18010d268: OnPressStartScriptRunning
+1800069f0  FUN_1800069f0
+  string @ 18010d288: OnMainScriptRunning
+1800069f0  FUN_1800069f0
+  string @ 18010d2a0: OnUpdatePerTick
+1800069f0  FUN_1800069f0
+  string @ 18010d2b0: OnUpdatePerFrame
+1800069f0  FUN_1800069f0
+  string @ 18010d2c8: OnQuitGame

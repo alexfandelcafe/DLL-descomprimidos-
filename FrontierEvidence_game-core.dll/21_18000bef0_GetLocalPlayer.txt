@@ -1,0 +1,35 @@
+FUNCTION EVIDENCE
+=================
+
+Name: GetLocalPlayer
+Entry: 18000bef0
+Score: 4
+Namespace: rage::sagPlayerMgr
+Body addresses: 17
+
+Reasons
+=======
+- name
+
+Entry bytes
+===========
+
+18000bef0: 48 8B 05 A1 F2 00 00 48 85 C0 75 01 C3 48 8B 00 
+18000bf00: C3 CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC 
+18000bf10: 48 8D 05 79 DB 00 00 C3 CC CC CC CC CC CC CC CC 
+18000bf20: 48 8B 4A 10 48 63 41 03 48 83 C1 07 48 03 C8 48 
+18000bf30: 89 0D 62 F2 00 00 C3 CC CC CC CC CC CC CC CC CC 
+18000bf40: 48 8D 05 59 68 00 00 48 89 02 48 8B C2 C3 CC CC 
+
+Incoming references
+===================
+180015f88 type=DATA caller=<none>
+Entry Point type=EXTERNAL caller=<none>
+
+Outgoing calls
+==============
+
+DECOMPILATION
+=============
+
+<decompilation failed: 

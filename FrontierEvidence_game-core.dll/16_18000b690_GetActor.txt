@@ -1,0 +1,35 @@
+FUNCTION EVIDENCE
+=================
+
+Name: GetActor
+Entry: 18000b690
+Score: 4
+Namespace: rage::sagActorManager
+Body addresses: 27
+
+Reasons
+=======
+- name
+
+Entry bytes
+===========
+
+18000b690: 48 8B 05 F9 FA 00 00 48 85 C0 75 01 C3 48 8B 00 
+18000b6a0: 0F B7 C9 48 03 C9 48 8B 04 C8 C3 CC CC CC CC CC 
+18000b6b0: 48 8D 05 39 E3 00 00 C3 CC CC CC CC CC CC CC CC 
+18000b6c0: 48 8B 4A 10 48 63 41 03 48 83 C1 07 48 03 C8 48 
+18000b6d0: 89 0D BA FA 00 00 C3 CC CC CC CC CC CC CC CC CC 
+18000b6e0: 48 8D 05 71 6F 00 00 48 89 02 48 8B C2 C3 CC CC 
+
+Incoming references
+===================
+180015f6c type=DATA caller=<none>
+Entry Point type=EXTERNAL caller=<none>
+
+Outgoing calls
+==============
+
+DECOMPILATION
+=============
+
+<decompilation failed: 

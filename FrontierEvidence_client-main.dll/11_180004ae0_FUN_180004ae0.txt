@@ -1,0 +1,43 @@
+FUNCTION EVIDENCE
+=================
+
+Name: FUN_180004ae0
+Entry: 180004ae0
+Score: 3
+Namespace: Global
+Body addresses: 449
+
+Reasons
+=======
+- calls:FUN_180053290
+
+Entry bytes
+===========
+
+180004ae0: 48 89 5C 24 08 55 48 8D AC 24 D0 FE FF FF 48 81 
+180004af0: EC 30 02 00 00 0F 29 B4 24 20 02 00 00 48 8B 05 
+180004b00: 3C A9 12 00 48 33 C4 48 89 85 10 01 00 00 E8 7D 
+180004b10: E7 04 00 8B D8 48 C7 44 24 20 00 00 00 00 C7 44 
+180004b20: 24 28 00 00 00 00 33 C0 89 44 24 3C 33 D2 41 B8 
+180004b30: C4 01 00 00 48 8D 4C 24 4C E8 94 01 0F 00 48 8D 
+
+Incoming references
+===================
+1801340c0 type=DATA caller=<none>
+18010f848 type=DATA caller=<none>
+
+Outgoing calls
+==============
+180004b0e -> 180053290 (FUN_180053290)
+180004b39 -> 1800f4cd2 (memset)
+180004b6c -> 1800f4cd2 (memset)
+180004bca -> 1800f3bf0 (FUN_1800f3bf0)
+180004bdd -> EXTERNAL:00000020 (GetCommand)
+180004bf1 -> 1800f3b84 (_Init_thread_footer)
+180004c65 -> EXTERNAL:00000021 (GetGlobalPtr)
+180004c83 -> 1800f3ab0 (__security_check_cookie)
+
+DECOMPILATION
+=============
+
+<decompilation failed: 

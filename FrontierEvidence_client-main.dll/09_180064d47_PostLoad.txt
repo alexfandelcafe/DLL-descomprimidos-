@@ -1,0 +1,34 @@
+FUNCTION EVIDENCE
+=================
+
+Name: PostLoad
+Entry: 180064d47
+Score: 4
+Namespace: GAME-CORE.DLL::rage::UIStringTable
+Body addresses: 6
+
+Reasons
+=======
+- name
+
+Entry bytes
+===========
+
+180064d47: FF 25 E3 AE 09 00 FF 25 E5 AE 09 00 FF 25 E7 AE 
+180064d57: 09 00 FF 25 E9 AE 09 00 FF 25 5B AD 09 00 FF 25 
+180064d67: 5D AD 09 00 FF 25 D7 AF 09 00 CC CC CC CC CC CC 
+180064d77: CC CC CC CC CC CC CC CC CC 48 89 5C 24 10 48 89 
+180064d87: 74 24 18 48 89 7C 24 20 55 41 56 41 57 48 8D 6C 
+180064d97: 24 F0 48 81 EC 10 01 00 00 4D 8B F0 48 8B FA 48 
+
+Incoming references
+===================
+18010f880 type=DATA caller=<none>
+
+Outgoing calls
+==============
+
+DECOMPILATION
+=============
+
+<decompilation failed: 

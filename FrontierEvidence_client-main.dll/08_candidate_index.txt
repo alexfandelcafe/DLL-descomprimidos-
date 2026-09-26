@@ -1,0 +1,50 @@
+Top lifecycle/player candidates
+================================
+
+The candidate score is triage score, not a conclusion.
+
+#01 score=246 entry=1800069f0 name=FUN_1800069f0
+  reasons: string:OnInitialize | string:OnRender | string:OnReset | string:OnShutdown | string:OnPressStartScriptRunning | string:OnMainScriptRunning | string:OnUpdatePerTick | string:OnUpdatePerFrame | string:OnQuitGame | xref-string:OnInitialize | xref-string:OnRender | xref-string:OnReset | xref-string:OnShutdown | xref-string:OnPressStartScriptRunning | xref-string:OnMainScriptRunning | xref-string:OnUpdatePerTick | xref-string:OnUpdatePerFrame | xref-string:OnQuitGame | calls:FUN_180059810
+
+#02 score=54 entry=180059490 name=FUN_180059490
+  reasons: string:OnInitialize | string:OnRender | xref-string:OnInitialize | xref-string:OnRender
+
+#03 score=33 entry=180002f50 name=FUN_180002f50
+  reasons: string:In Multiplayer | xref-string:In Multiplayer | calls:FUN_180053290
+
+#04 score=27 entry=1800596e0 name=FUN_1800596e0
+  reasons: string:OnReset | xref-string:OnReset
+
+#05 score=27 entry=180059810 name=FUN_180059810
+  reasons: string:OnShutdown | xref-string:OnShutdown
+
+#06 score=20 entry=180053290 name=FUN_180053290
+  reasons: hash:GET_PLAYER_ACTOR
+
+#07 score=6 entry=180005ad0 name=FUN_180005ad0
+  reasons: calls:FUN_180002f50
+
+#08 score=4 entry=180064d35 name=PostLoad
+  reasons: name
+
+#09 score=4 entry=180064d47 name=PostLoad
+  reasons: name
+
+#10 score=4 entry=180064d4d name=PostLoad
+  reasons: name
+
+#11 score=3 entry=180004ae0 name=FUN_180004ae0
+  reasons: calls:FUN_180053290
+
+#12 score=3 entry=180058560 name=FUN_180058560
+  reasons: calls:FUN_1800069f0
+
+#13 score=3 entry=180059ac0 name=FUN_180059ac0
+  reasons: calls:FUN_1800596e0
+
+#14 score=3 entry=180059b60 name=FUN_180059b60
+  reasons: calls:FUN_180059490
+
+#15 score=3 entry=180059c00 name=FUN_180059c00
+  reasons: calls:FUN_1800596e0
+
