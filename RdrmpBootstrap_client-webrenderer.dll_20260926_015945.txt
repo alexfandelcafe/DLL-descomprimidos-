@@ -1,0 +1,2089 @@
+
+================================================================================
+RDRMP / FRONTIER STATIC BOOTSTRAP INVESTIGATOR
+================================================================================
+Program: client-webrenderer.dll
+Executable format: Portable Executable (PE)
+Language: x86:LE:64:default
+Image base: 180000000
+Timestamp: Sat Sep 26 01:59:45 ART 2026
+Mode: static only; no execution/emulation
+
+================================================================================
+1. SYMBOL / FUNCTION HITS
+================================================================================
+KEYWORD: LoadMainMenu
+  <no function-name match>
+KEYWORD: CEFManager
+  180002a20  Singleton<CEFManager>  [INTERNAL]
+  180002a30  ~Singleton<CEFManager>  [INTERNAL]
+  180002a40  CEFManager  [INTERNAL]
+  180002b90  ~CEFManager  [INTERNAL]
+KEYWORD: mainmenu
+  18002d560  MainMenuClient  [INTERNAL]
+KEYWORD: cef/cef_ui/mainmenu/index.html
+  <no function-name match>
+KEYWORD: OnConnect
+  180030b00  OnConnectionFailed  [INTERNAL]
+KEYWORD: RegisterFunction
+  18000a4c0  RegisterFunction  [INTERNAL]
+KEYWORD: ClientHandler
+  1800088e0  ClientHandler  [INTERNAL]
+  180008bd0  ~ClientHandler  [INTERNAL]
+KEYWORD: LoadOnline
+  <no function-name match>
+KEYWORD: UI_Unstreammovie
+  <no function-name match>
+KEYWORD: fileSetForMPLoad
+  <no function-name match>
+KEYWORD: fileStartupChecksComplete
+  <no function-name match>
+KEYWORD: StartScreen1
+  <no function-name match>
+KEYWORD: startscreen
+  <no function-name match>
+KEYWORD: player_name
+  <no function-name match>
+KEYWORD: Guest
+  <no function-name match>
+KEYWORD: ENetClient::Connect
+  <no function-name match>
+KEYWORD: ENetClient::GetHostAddress
+  <no function-name match>
+KEYWORD: ENetClient::GetHostPort
+  <no function-name match>
+KEYWORD: ClientWelcome
+  <no function-name match>
+KEYWORD: GameClient::Get
+  <no function-name match>
+KEYWORD: GameClient
+  <no function-name match>
+KEYWORD: init_native_actorenum_player
+  <no function-name match>
+KEYWORD: create_player_actor_in_layout
+  <no function-name match>
+KEYWORD: respawn_player_actor_in_layout
+  <no function-name match>
+KEYWORD: switch_player_to_enum
+  <no function-name match>
+KEYWORD: get_player_actor
+  <no function-name match>
+KEYWORD: is_local_player
+  <no function-name match>
+KEYWORD: is_local_player_valid
+  <no function-name match>
+KEYWORD: get_local_slot
+  <no function-name match>
+KEYWORD: get_slot_actor
+  <no function-name match>
+KEYWORD: get_actor_slot
+  <no function-name match>
+KEYWORD: is_slot_valid
+  <no function-name match>
+KEYWORD: is_actor_player
+  <no function-name match>
+KEYWORD: is_actor_local_player
+  <no function-name match>
+KEYWORD: create_actor_in_layout
+  <no function-name match>
+KEYWORD: get_actor_enum
+  <no function-name match>
+KEYWORD: is_actor_inited
+  <no function-name match>
+KEYWORD: is_actor_valid
+  <no function-name match>
+KEYWORD: ResourcesManager::LoadAllResources
+  <no function-name match>
+KEYWORD: ResourcesManager::DoesAllResourcesAreLoaded
+  <no function-name match>
+KEYWORD: LoadAllResources
+  <no function-name match>
+KEYWORD: DoesAllResourcesAreLoaded
+  <no function-name match>
+KEYWORD: HTTPClient::Connect
+  <no function-name match>
+KEYWORD: HTTPClient::DownloadResources
+  <no function-name match>
+KEYWORD: connect
+  180030b00  OnConnectionFailed  [INTERNAL]
+KEYWORD: disconnect
+  <no function-name match>
+KEYWORD: retry
+  <no function-name match>
+KEYWORD: set_loading_screen
+  <no function-name match>
+KEYWORD: on_connection_succeeded
+  <no function-name match>
+KEYWORD: on_disconnect
+  <no function-name match>
+KEYWORD: failed_server_retrieving_resources
+  <no function-name match>
+KEYWORD: failed_server_invalid_version
+  <no function-name match>
+
+================================================================================
+2. SYMBOL TABLE HITS
+================================================================================
+KEYWORD: LoadMainMenu
+  <no symbol match>
+KEYWORD: CEFManager
+  180002880  ?__autoclassinit2@CEFManager@@QEAAX_K@Z  [src=IMPORTED, primary=false]
+  180002a20  ??4?$Singleton@VCEFManager@@@@QEAAAEAV0@AEBV0@@Z  [src=IMPORTED, primary=false]
+  180002a20  Singleton<CEFManager>  [src=ANALYSIS, primary=true]
+  180002a20  ??0?$Singleton@VCEFManager@@@@QEAA@XZ  [src=IMPORTED, primary=false]
+  180002a30  ~Singleton<CEFManager>  [src=ANALYSIS, primary=true]
+  180002a30  ??1?$Singleton@VCEFManager@@@@QEAA@XZ  [src=IMPORTED, primary=false]
+  180002a40  CEFManager  [src=ANALYSIS, primary=true]
+  180002a40  ??0CEFManager@@QEAA@XZ  [src=IMPORTED, primary=false]
+  180002b90  ~CEFManager  [src=ANALYSIS, primary=true]
+  180002b90  ??1CEFManager@@QEAA@XZ  [src=IMPORTED, primary=false]
+  180002e10  ?Initialize@CEFManager@@QEAAXPEAUHWND__@@@Z  [src=IMPORTED, primary=false]
+  1800038a0  ?Run@CEFManager@@QEAAXXZ  [src=IMPORTED, primary=false]
+  1800038b0  ?Shutdown@CEFManager@@QEAAXXZ  [src=IMPORTED, primary=false]
+  180003900  ?GetMainWindow@CEFManager@@QEBAPEAUHWND__@@XZ  [src=IMPORTED, primary=false]
+  180003910  ?IsAnyBrowserFocused@CEFManager@@QEBA_NXZ  [src=IMPORTED, primary=false]
+  180003e10  ?WindowProcedureHandler@CEFManager@@QEAAXPEAUHWND__@@I_K_J@Z  [src=IMPORTED, primary=false]
+  180004080  ?Draw@CEFManager@@QEAAXPEAUID3D11Device@@PEAX@Z  [src=IMPORTED, primary=false]
+  180004140  ?DoFrame@CEFManager@@QEAAXXZ  [src=IMPORTED, primary=false]
+  180004280  ?WasResized@CEFManager@@QEAAXXZ  [src=IMPORTED, primary=false]
+  1800043b0  ?Invalidate@CEFManager@@QEAAXXZ  [src=IMPORTED, primary=false]
+  1800044e0  ?SendProcessMessage@CEFManager@@QEBAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEBV?$scoped_refptr@VCefListValue@@@@W4cef_process_id_t@@@Z  [src=IMPORTED, primary=false]
+  1800045b0  ?SendProcessMessage@CEFManager@@QEBAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEBV?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@json_abi_v3_11_3@nlohmann@@V?$vector@EV?$allocator@E@std@@@2@X@json_abi_v3_11_3@nlohmann@@W4cef_process_id_t@@@Z  [src=IMPORTED, primary=false]
+  180004680  ?SetBrowserFocus@CEFManager@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z  [src=IMPORTED, primary=false]
+  1800047d0  ?SetBrowserVisible@CEFManager@@QEBAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z  [src=IMPORTED, primary=false]
+  180004840  ?ReloadAllBrowsers@CEFManager@@QEAAXXZ  [src=IMPORTED, primary=false]
+  180004990  ?CloseAllBrowsers@CEFManager@@QEAAXXZ  [src=IMPORTED, primary=false]
+  180004b30  ?ReloadBrowser@CEFManager@@QEBAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z  [src=IMPORTED, primary=false]
+  180004c00  ?CloseBrowser@CEFManager@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z  [src=IMPORTED, primary=false]
+  180004d10  ?PostTask@CEFManager@@QEAAXW4cef_thread_id_t@@AEBV?$function@$$A6AXXZ@std@@@Z  [src=IMPORTED, primary=false]
+  1800050d0  ?Get@?$Singleton@VCEFManager@@@@SA?BV?$shared_ptr@VCEFManager@@@std@@XZ  [src=IMPORTED, primary=false]
+  1800d4910  PTR_~Singleton<CEFManager>_1800d4910  [src=DEFAULT, primary=true]
+  1800d4918  PTR_~Singleton<CEFManager>_1800d4918  [src=DEFAULT, primary=true]
+  1800f8ae9  s_??0?$Singleton@VCEFManager@@@@QE_1800f8ae9  [src=DEFAULT, primary=true]
+  1800f8b0f  s_??0CEFManager@@QEAA@XZ_1800f8b0f  [src=DEFAULT, primary=true]
+  1800f8b72  s_??1?$Singleton@VCEFManager@@@@QE_1800f8b72  [src=DEFAULT, primary=true]
+  1800f8b98  s_??1CEFManager@@QEAA@XZ_1800f8b98  [src=DEFAULT, primary=true]
+  1800f8bc9  s_??4?$Singleton@VCEFManager@@@@QE_1800f8bc9  [src=DEFAULT, primary=true]
+  1800f8e50  s_?CloseAllBrowsers@CEFManager@@QE_1800f8e50  [src=DEFAULT, primary=true]
+  1800f8e76  s_?CloseBrowser@CEFManager@@QEAAXA_1800f8e76  [src=DEFAULT, primary=true]
+  1800f8f1a  s_?DoFrame@CEFManager@@QEAAXXZ_1800f8f1a  [src=DEFAULT, primary=true]
+  1800f8f57  s_?Draw@CEFManager@@QEAAXPEAUID3D1_1800f8f57  [src=DEFAULT, primary=true]
+  1800f8fba  s_?Get@?$Singleton@VCEFManager@@@@_1800f8fba  [src=DEFAULT, primary=true]
+  1800f9148  s_?GetMainWindow@CEFManager@@QEBAP_1800f9148  [src=DEFAULT, primary=true]
+  1800f92d8  s_?Initialize@CEFManager@@QEAAXPEA_1800f92d8  [src=DEFAULT, primary=true]
+  1800f9304  s_?Invalidate@CEFManager@@QEAAXXZ_1800f9304  [src=DEFAULT, primary=true]
+  1800f9347  s_?IsAnyBrowserFocused@CEFManager@_1800f9347  [src=DEFAULT, primary=true]
+  1800f99b2  s_?PostTask@CEFManager@@QEAAXW4cef_1800f99b2  [src=DEFAULT, primary=true]
+  1800f9acf  s_?ReloadAllBrowsers@CEFManager@@Q_1800f9acf  [src=DEFAULT, primary=true]
+  1800f9af6  s_?ReloadBrowser@CEFManager@@QEBAX_1800f9af6  [src=DEFAULT, primary=true]
+  1800f9b5a  s_?Run@CEFManager@@QEAAXXZ_1800f9b5a  [src=DEFAULT, primary=true]
+  1800f9b73  s_?SendProcessMessage@CEFManager@@_1800f9b73  [src=DEFAULT, primary=true]
+  1800f9ccf  s_?SendProcessMessage@CEFManager@@_1800f9ccf  [src=DEFAULT, primary=true]
+  1800f9fb9  s_?SetBrowserFocus@CEFManager@@QEA_1800f9fb9  [src=DEFAULT, primary=true]
+  1800fa021  s_?SetBrowserVisible@CEFManager@@Q_1800fa021  [src=DEFAULT, primary=true]
+  1800fa0f9  s_?Shutdown@CEFManager@@QEAAXXZ_1800fa0f9  [src=DEFAULT, primary=true]
+  1800fa117  s_?WasResized@CEFManager@@QEAAXXZ_1800fa117  [src=DEFAULT, primary=true]
+  1800fa197  s_?__autoclassinit2@CEFManager@@QE_1800fa197  [src=DEFAULT, primary=true]
+  1801026f8  ?singleton@?1??Get@?$Singleton@VCEFManager@@@@SA?BV?$shared_ptr@VCEFManager@@@std@@XZ@4V34@A  [src=IMPORTED, primary=false]
+  180102814  ?$TSS0@?1??Get@?$Singleton@VCEFManager@@@@SA?BV?$shared_ptr@VCEFManager@@@std@@XZ@4HA  [src=IMPORTED, primary=false]
+KEYWORD: mainmenu
+  18002d560  MainMenuClient  [src=ANALYSIS, primary=true]
+  18002d560  ??0MainMenuClient@@QEAA@XZ  [src=IMPORTED, primary=false]
+  180030b00  ?OnConnectionFailed@MainMenuClient@@QEAAXXZ  [src=IMPORTED, primary=false]
+  1800f8b57  s_??0MainMenuClient@@QEAA@XZ_1800f8b57  [src=DEFAULT, primary=true]
+  1800f96db  s_?OnConnectionFailed@MainMenuClie_1800f96db  [src=DEFAULT, primary=true]
+KEYWORD: cef/cef_ui/mainmenu/index.html
+  <no symbol match>
+KEYWORD: OnConnect
+  180030b00  OnConnectionFailed  [src=ANALYSIS, primary=true]
+  180030b00  ?OnConnectionFailed@MainMenuClient@@QEAAXXZ  [src=IMPORTED, primary=false]
+  1800e0298  s_OnConnect_1800e0298  [src=DEFAULT, primary=true]
+  1800f96db  s_?OnConnectionFailed@MainMenuClie_1800f96db  [src=DEFAULT, primary=true]
+KEYWORD: RegisterFunction
+  18000a4c0  RegisterFunction  [src=ANALYSIS, primary=true]
+  18000a4c0  ?RegisterFunction@ClientHandler@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$function@$$A6AXAEBV?$scoped_refptr@VCefProcessMessage@@@@@Z@3@@Z  [src=IMPORTED, primary=false]
+  1800f9a00  s_?RegisterFunction@ClientHandler@_1800f9a00  [src=DEFAULT, primary=true]
+KEYWORD: ClientHandler
+  180002680  ?GetBrowser@ClientHandler@@QEAA?AV?$scoped_refptr@VCefBrowser@@@@XZ  [src=IMPORTED, primary=false]
+  1800026c0  ?GetRenderHandler@ClientHandler@@UEAA?AV?$scoped_refptr@VCefRenderHandler@@@@XZ  [src=IMPORTED, primary=false]
+  180002700  ?GetRequestHandler@ClientHandler@@UEAA?AV?$scoped_refptr@VCefRequestHandler@@@@XZ  [src=IMPORTED, primary=false]
+  180002740  ?GetJSDialogHandler@ClientHandler@@UEAA?AV?$scoped_refptr@VCefJSDialogHandler@@@@XZ  [src=IMPORTED, primary=false]
+  180002780  ?GetLifeSpanHandler@ClientHandler@@UEAA?AV?$scoped_refptr@VCefLifeSpanHandler@@@@XZ  [src=IMPORTED, primary=false]
+  1800027c0  ?GetContextMenuHandler@ClientHandler@@UEAA?AV?$scoped_refptr@VCefContextMenuHandler@@@@XZ  [src=IMPORTED, primary=false]
+  180002800  ?AddRef@ClientHandler@@UEBAXXZ  [src=IMPORTED, primary=false]
+  180002810  ?Release@ClientHandler@@UEBA_NXZ  [src=IMPORTED, primary=false]
+  180002860  ?HasOneRef@ClientHandler@@UEBA_NXZ  [src=IMPORTED, primary=false]
+  180002870  ?HasAtLeastOneRef@ClientHandler@@UEBA_NXZ  [src=IMPORTED, primary=false]
+  180002880  ?__autoclassinit2@ClientHandler@@QEAAX_K@Z  [src=IMPORTED, primary=false]
+  180002890  ??_DClientHandler@@QEAAXXZ  [src=IMPORTED, primary=false]
+  1800071c0  ?DoClose@ClientHandler@@UEAA_NV?$scoped_refptr@VCefBrowser@@@@@Z  [src=IMPORTED, primary=false]
+  180008440  ?OnContextMenuCommand@ClientHandler@@UEAA_NV?$scoped_refptr@VCefBrowser@@@@V?$scoped_refptr@VCefFrame@@@@V?$scoped_refptr@VCefContextMenuParams@@@@HW4cef_event_flags_t@@@Z  [src=IMPORTED, primary=false]
+  1800088e0  ClientHandler  [src=ANALYSIS, primary=true]
+  1800088e0  ??0ClientHandler@@QEAA@XZ  [src=IMPORTED, primary=false]
+  180008bd0  ~ClientHandler  [src=ANALYSIS, primary=true]
+  180008bd0  ??1ClientHandler@@UEAA@XZ  [src=IMPORTED, primary=false]
+  180008d10  ?OnBeforeContextMenu@ClientHandler@@UEAAXV?$scoped_refptr@VCefBrowser@@@@V?$scoped_refptr@VCefFrame@@@@V?$scoped_refptr@VCefContextMenuParams@@@@V?$scoped_refptr@VCefMenuModel@@@@@Z  [src=IMPORTED, primary=false]
+  180008dd0  ?OnProcessMessageReceived@ClientHandler@@UEAA_NV?$scoped_refptr@VCefBrowser@@@@V?$scoped_refptr@VCefFrame@@@@W4cef_process_id_t@@V?$scoped_refptr@VCefProcessMessage@@@@@Z  [src=IMPORTED, primary=false]
+  180009250  ?OnPaint@ClientHandler@@UEAAXV?$scoped_refptr@VCefBrowser@@@@W4cef_paint_element_type_t@@AEBV?$vector@VCefRect@@V?$allocator@VCefRect@@@std@@@std@@PEBXHH@Z  [src=IMPORTED, primary=false]
+  180009340  ?GetViewRect@ClientHandler@@UEAAXV?$scoped_refptr@VCefBrowser@@@@AEAVCefRect@@@Z  [src=IMPORTED, primary=false]
+  180009440  ?OnJSDialog@ClientHandler@@UEAA_NV?$scoped_refptr@VCefBrowser@@@@AEBV?$CefStringBase@UCefStringTraitsUTF16@@@@W4cef_jsdialog_type_t@@11V?$scoped_refptr@VCefJSDialogCallback@@@@AEA_N@Z  [src=IMPORTED, primary=false]
+  180009520  ?OnBeforeBrowse@ClientHandler@@UEAA_NV?$scoped_refptr@VCefBrowser@@@@V?$scoped_refptr@VCefFrame@@@@V?$scoped_refptr@VCefRequest@@@@_N3@Z  [src=IMPORTED, primary=false]
+  1800096f0  ?OnBeforePopup@ClientHandler@@UEAA_NV?$scoped_refptr@VCefBrowser@@@@V?$scoped_refptr@VCefFrame@@@@HAEBV?$CefStringBase@UCefStringTraitsUTF16@@@@2W4cef_window_open_disposition_t@@_NAEBV?$CefStructBaseSimple@U_cef_popup_features_t@@@@AEAVCefWindowInfo@@AEAV?$scoped_refptr@VCefClient@@@@AEAV?$CefStructBase@UCefBrowserSettingsTraits@@@@AEAV?$scoped_refptr@VCefDictionaryValue@@@@PEA_N@Z  [src=IMPORTED, primary=false]
+  180009830  ?OnAfterCreated@ClientHandler@@UEAAXV?$scoped_refptr@VCefBrowser@@@@@Z  [src=IMPORTED, primary=false]
+  180009910  ?OnBeforeClose@ClientHandler@@UEAAXV?$scoped_refptr@VCefBrowser@@@@@Z  [src=IMPORTED, primary=false]
+  1800099d0  ?SetFocus@ClientHandler@@QEAAX_N@Z  [src=IMPORTED, primary=false]
+  1800099e0  ?HasFocus@ClientHandler@@QEBA_NXZ  [src=IMPORTED, primary=false]
+  1800099f0  ?SetVisible@ClientHandler@@QEAAX_N@Z  [src=IMPORTED, primary=false]
+  180009a00  ?Draw@ClientHandler@@QEAAXPEAUID3D11Device@@PEAX@Z  [src=IMPORTED, primary=false]
+  180009ca0  ?DoFrame@ClientHandler@@QEBAXXZ  [src=IMPORTED, primary=false]
+  180009d00  ?WasResized@ClientHandler@@QEBAXXZ  [src=IMPORTED, primary=false]
+  180009d50  ?Invalidate@ClientHandler@@QEBAXXZ  [src=IMPORTED, primary=false]
+  180009da0  ?SendProcessMessage@ClientHandler@@QEAAXAEBV?$CefStringBase@UCefStringTraitsUTF16@@@@AEBV?$scoped_refptr@VCefListValue@@@@W4cef_process_id_t@@@Z  [src=IMPORTED, primary=false]
+  18000a220  ?SendProcessMessage@ClientHandler@@QEAAXAEBV?$CefStringBase@UCefStringTraitsUTF16@@@@AEBV?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@json_abi_v3_11_3@nlohmann@@V?$vector@EV?$allocator@E@std@@@2@X@json_abi_v3_11_3@nlohmann@@W4cef_process_id_t@@@Z  [src=IMPORTED, primary=false]
+  18000a3e0  ?SendProcessMessage@ClientHandler@@QEAAXAEBV?$CefStringBase@UCefStringTraitsUTF16@@@@W4cef_process_id_t@@@Z  [src=IMPORTED, primary=false]
+  18000a4c0  ?RegisterFunction@ClientHandler@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$function@$$A6AXAEBV?$scoped_refptr@VCefProcessMessage@@@@@Z@3@@Z  [src=IMPORTED, primary=false]
+  1800db054  ??_8ClientHandler@@7BCefRenderHandler@@@  [src=IMPORTED, primary=false]
+  1800db05c  ??_8ClientHandler@@7BCefContextMenuHandler@@@  [src=IMPORTED, primary=false]
+  1800db330  ??_8ClientHandler@@7BCefClient@@@  [src=IMPORTED, primary=false]
+  1800db450  ??_8ClientHandler@@7BCefLifeSpanHandler@@@  [src=IMPORTED, primary=false]
+  1800db460  ??_7ClientHandler@@6BCefContextMenuHandler@@@  [src=IMPORTED, primary=false]
+  1800db4a0  ??_7ClientHandler@@6BCefLifeSpanHandler@@@  [src=IMPORTED, primary=false]
+  1800db4d0  ??_8ClientHandler@@7BCefRequestHandler@@@  [src=IMPORTED, primary=false]
+  1800dbbb0  ??_7ClientHandler@@6BCefJSDialogHandler@@@  [src=IMPORTED, primary=false]
+  1800dbc60  ??_7ClientHandler@@6BCefRenderHandler@@@  [src=IMPORTED, primary=false]
+  1800dbcf0  ??_7ClientHandler@@6BCefRequestHandler@@@  [src=IMPORTED, primary=false]
+  1800dbd98  ??_8ClientHandler@@7BCefJSDialogHandler@@@  [src=IMPORTED, primary=false]
+  1800dbda8  ??_7ClientHandler@@6BCefBaseRefCounted@@@  [src=IMPORTED, primary=false]
+  1800dbe78  ??_7ClientHandler@@6BCefClient@@@  [src=IMPORTED, primary=false]
+  1800f8b3d  s_??0ClientHandler@@QEAA@XZ_1800f8b3d  [src=DEFAULT, primary=true]
+  1800f8baf  s_??1ClientHandler@@UEAA@XZ_1800f8baf  [src=DEFAULT, primary=true]
+  1800f8bfa  s_??_7ClientHandler@@6BCefBaseRefC_1800f8bfa  [src=DEFAULT, primary=true]
+  1800f8c24  s_??_7ClientHandler@@6BCefClient@@_1800f8c24  [src=DEFAULT, primary=true]
+  1800f8c46  s_??_7ClientHandler@@6BCefContextM_1800f8c46  [src=DEFAULT, primary=true]
+  1800f8c74  s_??_7ClientHandler@@6BCefJSDialog_1800f8c74  [src=DEFAULT, primary=true]
+  1800f8c9f  s_??_7ClientHandler@@6BCefLifeSpan_1800f8c9f  [src=DEFAULT, primary=true]
+  1800f8cca  s_??_7ClientHandler@@6BCefRenderHa_1800f8cca  [src=DEFAULT, primary=true]
+  1800f8cf3  s_??_7ClientHandler@@6BCefRequestH_1800f8cf3  [src=DEFAULT, primary=true]
+  1800f8d1d  s_??_8ClientHandler@@7BCefClient@@_1800f8d1d  [src=DEFAULT, primary=true]
+  1800f8d3f  s_??_8ClientHandler@@7BCefContextM_1800f8d3f  [src=DEFAULT, primary=true]
+  1800f8d6d  s_??_8ClientHandler@@7BCefJSDialog_1800f8d6d  [src=DEFAULT, primary=true]
+  1800f8d98  s_??_8ClientHandler@@7BCefLifeSpan_1800f8d98  [src=DEFAULT, primary=true]
+  1800f8dc3  s_??_8ClientHandler@@7BCefRenderHa_1800f8dc3  [src=DEFAULT, primary=true]
+  1800f8dec  s_??_8ClientHandler@@7BCefRequestH_1800f8dec  [src=DEFAULT, primary=true]
+  1800f8e16  s_??_DClientHandler@@QEAAXXZ_1800f8e16  [src=DEFAULT, primary=true]
+  1800f8e31  s_?AddRef@ClientHandler@@UEBAXXZ_1800f8e31  [src=DEFAULT, primary=true]
+  1800f8ed9  s_?DoClose@ClientHandler@@UEAA_NV?_1800f8ed9  [src=DEFAULT, primary=true]
+  1800f8f37  s_?DoFrame@ClientHandler@@QEBAXXZ_1800f8f37  [src=DEFAULT, primary=true]
+  1800f8f87  s_?Draw@ClientHandler@@QEAAXPEAUID_1800f8f87  [src=DEFAULT, primary=true]
+  1800f9002  s_?GetBrowser@ClientHandler@@QEAA?_1800f9002  [src=DEFAULT, primary=true]
+  1800f9176  s_?GetRenderHandler@ClientHandler@_1800f9176  [src=DEFAULT, primary=true]
+  1800f91c6  s_?GetRequestHandler@ClientHandler_1800f91c6  [src=DEFAULT, primary=true]
+  1800f9218  s_?GetViewRect@ClientHandler@@UEAA_1800f9218  [src=DEFAULT, primary=true]
+  1800f9269  s_?HasAtLeastOneRef@ClientHandler@_1800f9269  [src=DEFAULT, primary=true]
+  1800f9293  s_?HasFocus@ClientHandler@@QEBA_NX_1800f9293  [src=DEFAULT, primary=true]
+  1800f92b5  s_?HasOneRef@ClientHandler@@UEBA_N_1800f92b5  [src=DEFAULT, primary=true]
+  1800f9324  s_?Invalidate@ClientHandler@@QEBAX_1800f9324  [src=DEFAULT, primary=true]
+  1800f938e  s_?OnAfterCreated@ClientHandler@@U_1800f938e  [src=DEFAULT, primary=true]
+  1800f93d5  s_?OnBeforeBrowse@ClientHandler@@U_1800f93d5  [src=DEFAULT, primary=true]
+  1800f945e  s_?OnBeforeClose@ClientHandler@@UE_1800f945e  [src=DEFAULT, primary=true]
+  1800f955a  s_?OnBeforePopup@ClientHandler@@UE_1800f955a  [src=DEFAULT, primary=true]
+  1800f97b3  s_?OnJSDialog@ClientHandler@@UEAA__1800f97b3  [src=DEFAULT, primary=true]
+  1800f986b  s_?OnPaint@ClientHandler@@UEAAXV?$_1800f986b  [src=DEFAULT, primary=true]
+  1800f9a00  s_?RegisterFunction@ClientHandler@_1800f9a00  [src=DEFAULT, primary=true]
+  1800f9aae  s_?Release@ClientHandler@@UEBA_NXZ_1800f9aae  [src=DEFAULT, primary=true]
+  1800fa08b  s_?SetFocus@ClientHandler@@QEAAX_N_1800fa08b  [src=DEFAULT, primary=true]
+  1800fa0d4  s_?SetVisible@ClientHandler@@QEAAX_1800fa0d4  [src=DEFAULT, primary=true]
+  1800fa137  s_?WasResized@ClientHandler@@QEBAX_1800fa137  [src=DEFAULT, primary=true]
+  1800fa1bf  s_?__autoclassinit2@ClientHandler@_1800fa1bf  [src=DEFAULT, primary=true]
+KEYWORD: LoadOnline
+  <no symbol match>
+KEYWORD: UI_Unstreammovie
+  <no symbol match>
+KEYWORD: fileSetForMPLoad
+  <no symbol match>
+KEYWORD: fileStartupChecksComplete
+  <no symbol match>
+KEYWORD: StartScreen1
+  <no symbol match>
+KEYWORD: startscreen
+  <no symbol match>
+KEYWORD: player_name
+  1800e0300  s_player_name_1800e0300  [src=DEFAULT, primary=true]
+KEYWORD: Guest
+  1800e030c  s_Guest_1800e030c  [src=DEFAULT, primary=true]
+KEYWORD: ENetClient::Connect
+  <no symbol match>
+KEYWORD: ENetClient::GetHostAddress
+  <no symbol match>
+KEYWORD: ENetClient::GetHostPort
+  <no symbol match>
+KEYWORD: ClientWelcome
+  <no symbol match>
+KEYWORD: GameClient::Get
+  <no symbol match>
+KEYWORD: GameClient
+  <no symbol match>
+KEYWORD: init_native_actorenum_player
+  <no symbol match>
+KEYWORD: create_player_actor_in_layout
+  <no symbol match>
+KEYWORD: respawn_player_actor_in_layout
+  <no symbol match>
+KEYWORD: switch_player_to_enum
+  <no symbol match>
+KEYWORD: get_player_actor
+  <no symbol match>
+KEYWORD: is_local_player
+  <no symbol match>
+KEYWORD: is_local_player_valid
+  <no symbol match>
+KEYWORD: get_local_slot
+  <no symbol match>
+KEYWORD: get_slot_actor
+  <no symbol match>
+KEYWORD: get_actor_slot
+  <no symbol match>
+KEYWORD: is_slot_valid
+  <no symbol match>
+KEYWORD: is_actor_player
+  <no symbol match>
+KEYWORD: is_actor_local_player
+  <no symbol match>
+KEYWORD: create_actor_in_layout
+  <no symbol match>
+KEYWORD: get_actor_enum
+  <no symbol match>
+KEYWORD: is_actor_inited
+  <no symbol match>
+KEYWORD: is_actor_valid
+  <no symbol match>
+KEYWORD: ResourcesManager::LoadAllResources
+  <no symbol match>
+KEYWORD: ResourcesManager::DoesAllResourcesAreLoaded
+  <no symbol match>
+KEYWORD: LoadAllResources
+  <no symbol match>
+KEYWORD: DoesAllResourcesAreLoaded
+  <no symbol match>
+KEYWORD: HTTPClient::Connect
+  <no symbol match>
+KEYWORD: HTTPClient::DownloadResources
+  <no symbol match>
+KEYWORD: connect
+  EXTERNAL:000000ce  connect  [src=IMPORTED, primary=true]
+  180030b00  OnConnectionFailed  [src=ANALYSIS, primary=true]
+  180030b00  ?OnConnectionFailed@MainMenuClient@@QEAAXXZ  [src=IMPORTED, primary=false]
+  1800d45c8  PTR_connect_1800d45c8  [src=DEFAULT, primary=true]
+  1800dfed0  s_Connection_1800dfed0  [src=DEFAULT, primary=true]
+  1800e0028  s_CONNECT_1800e0028  [src=DEFAULT, primary=true]
+  1800e0188  s_Connection_established_1800e0188  [src=DEFAULT, primary=true]
+  1800e0298  s_OnConnect_1800e0298  [src=DEFAULT, primary=true]
+  1800e02a8  s_connect_1800e02a8  [src=DEFAULT, primary=true]
+  1800f96db  s_?OnConnectionFailed@MainMenuClie_1800f96db  [src=DEFAULT, primary=true]
+KEYWORD: disconnect
+  <no symbol match>
+KEYWORD: retry
+  <no symbol match>
+KEYWORD: set_loading_screen
+  <no symbol match>
+KEYWORD: on_connection_succeeded
+  <no symbol match>
+KEYWORD: on_disconnect
+  <no symbol match>
+KEYWORD: failed_server_retrieving_resources
+  <no symbol match>
+KEYWORD: failed_server_invalid_version
+  <no symbol match>
+
+================================================================================
+3. STRING XREFS (DEFINED DATA ONLY)
+================================================================================
+STRING: LoadMainMenu
+  <not found among defined data strings>
+STRING: CEFManager
+  @ 1800f8a93
+    <- 1800f8890  type=DATA
+  @ 1800f8ae9
+    <- 1800f8894  type=DATA
+  @ 1800f8b0f
+    <- 1800f8898  type=DATA
+  @ 1800f8b72
+    <- 1800f88a8  type=DATA
+  @ 1800f8b98
+    <- 1800f88ac  type=DATA
+  @ 1800f8bc9
+    <- 1800f88b4  type=DATA
+  @ 1800f8e50
+    <- 1800f88f4  type=DATA
+  @ 1800f8e76
+    <- 1800f88f8  type=DATA
+  @ 1800f8f1a
+    <- 1800f8900  type=DATA
+  @ 1800f8f57
+    <- 1800f8908  type=DATA
+  @ 1800f8fba
+    <- 1800f8910  type=DATA
+  @ 1800f9148
+    <- 1800f8924  type=DATA
+  @ 1800f92d8
+    <- 1800f8940  type=DATA
+  @ 1800f9304
+    <- 1800f8944  type=DATA
+  @ 1800f9347
+    <- 1800f894c  type=DATA
+  @ 1800f99b2
+    <- 1800f897c  type=DATA
+  @ 1800f9acf
+    <- 1800f8988  type=DATA
+  @ 1800f9af6
+    <- 1800f898c  type=DATA
+  @ 1800f9b5a
+    <- 1800f8990  type=DATA
+  @ 1800f9b73
+    <- 1800f8994  type=DATA
+  @ 1800f9ccf
+    <- 1800f8998  type=DATA
+  @ 1800f9fb9
+    <- 1800f89a8  type=DATA
+  @ 1800fa021
+    <- 1800f89ac  type=DATA
+  @ 1800fa0f9
+    <- 1800f89bc  type=DATA
+  @ 1800fa117
+    <- 1800f89c0  type=DATA
+  @ 1800fa15a
+    <- 1800f89c8  type=DATA
+  @ 1800fa197
+    <- 1800f89cc  type=DATA
+  @ 1800fa1ea
+    <- 1800f89d4  type=DATA
+  @ 1800ffbb8
+STRING: mainmenu
+  @ 1800f8b57
+    <- 1800f88a4  type=DATA
+  @ 1800f96db
+    <- 1800f8968  type=DATA
+  @ 1800fe560
+  @ 1800febc0
+  @ 1800fef40
+  @ 1800ff168
+  @ 1800ff1b0
+  @ 1800ff200
+  @ 1800ff480
+  @ 180100350
+  @ 1801003e0
+  @ 180100690
+  @ 180100b10
+  @ 180101220
+  @ 180101768
+  @ 180101cc0
+  @ 180101d50
+STRING: cef/cef_ui/mainmenu/index.html
+  <not found among defined data strings>
+STRING: OnConnect
+  @ 1800e0298
+    <- 1800568cc  type=DATA  in 180056870  FUN_180056870  [INTERNAL]
+  @ 1800f96db
+    <- 1800f8968  type=DATA
+STRING: RegisterFunction
+  @ 1800f9a00
+    <- 1800f8980  type=DATA
+STRING: ClientHandler
+  @ 1800f8b3d
+    <- 1800f88a0  type=DATA
+  @ 1800f8baf
+    <- 1800f88b0  type=DATA
+  @ 1800f8bfa
+    <- 1800f88b8  type=DATA
+  @ 1800f8c24
+    <- 1800f88bc  type=DATA
+  @ 1800f8c46
+    <- 1800f88c0  type=DATA
+  @ 1800f8c74
+    <- 1800f88c4  type=DATA
+  @ 1800f8c9f
+    <- 1800f88c8  type=DATA
+  @ 1800f8cca
+    <- 1800f88cc  type=DATA
+  @ 1800f8cf3
+    <- 1800f88d0  type=DATA
+  @ 1800f8d1d
+    <- 1800f88d4  type=DATA
+  @ 1800f8d3f
+    <- 1800f88d8  type=DATA
+  @ 1800f8d6d
+    <- 1800f88dc  type=DATA
+  @ 1800f8d98
+    <- 1800f88e0  type=DATA
+  @ 1800f8dc3
+    <- 1800f88e4  type=DATA
+  @ 1800f8dec
+    <- 1800f88e8  type=DATA
+  @ 1800f8e16
+    <- 1800f88ec  type=DATA
+  @ 1800f8e31
+    <- 1800f88f0  type=DATA
+  @ 1800f8ed9
+    <- 1800f88fc  type=DATA
+  @ 1800f8f37
+    <- 1800f8904  type=DATA
+  @ 1800f8f87
+    <- 1800f890c  type=DATA
+  @ 1800f9002
+    <- 1800f8914  type=DATA
+  @ 1800f9046
+    <- 1800f8918  type=DATA
+  @ 1800f90a0
+    <- 1800f891c  type=DATA
+  @ 1800f90f4
+    <- 1800f8920  type=DATA
+  @ 1800f9176
+    <- 1800f8928  type=DATA
+  @ 1800f91c6
+    <- 1800f892c  type=DATA
+  @ 1800f9218
+    <- 1800f8930  type=DATA
+  @ 1800f9269
+    <- 1800f8934  type=DATA
+  @ 1800f9293
+    <- 1800f8938  type=DATA
+  @ 1800f92b5
+    <- 1800f893c  type=DATA
+  @ 1800f9324
+    <- 1800f8948  type=DATA
+  @ 1800f938e
+    <- 1800f8954  type=DATA
+  @ 1800f93d5
+    <- 1800f8958  type=DATA
+  @ 1800f945e
+    <- 1800f895c  type=DATA
+  @ 1800f94a4
+    <- 1800f8960  type=DATA
+  @ 1800f955a
+    <- 1800f8964  type=DATA
+  @ 1800f9707
+    <- 1800f896c  type=DATA
+  @ 1800f97b3
+    <- 1800f8970  type=DATA
+  @ 1800f986b
+    <- 1800f8974  type=DATA
+  @ 1800f9907
+    <- 1800f8978  type=DATA
+  @ 1800f9a00
+    <- 1800f8980  type=DATA
+  @ 1800f9aae
+    <- 1800f8984  type=DATA
+  @ 1800f9d72
+    <- 1800f899c  type=DATA
+  @ 1800f9ebc
+    <- 1800f89a0  type=DATA
+  @ 1800f9f4d
+    <- 1800f89a4  type=DATA
+  @ 1800fa08b
+    <- 1800f89b0  type=DATA
+  @ 1800fa0d4
+    <- 1800f89b8  type=DATA
+  @ 1800fa137
+    <- 1800f89c4  type=DATA
+  @ 1800fa1bf
+    <- 1800f89d0  type=DATA
+  @ 1800fff48
+STRING: LoadOnline
+  <not found among defined data strings>
+STRING: UI_Unstreammovie
+  <not found among defined data strings>
+STRING: fileSetForMPLoad
+  <not found among defined data strings>
+STRING: fileStartupChecksComplete
+  <not found among defined data strings>
+STRING: StartScreen1
+  <not found among defined data strings>
+STRING: startscreen
+  <not found among defined data strings>
+STRING: player_name
+  @ 1800e0300
+    <- 18002f73f  type=DATA  in 18002f130  FUN_18002f130  [INTERNAL]
+    <- 18002f7e6  type=DATA  in 18002f130  FUN_18002f130  [INTERNAL]
+STRING: Guest
+  @ 1800e030c
+    <- 18002f70f  type=DATA  in 18002f130  FUN_18002f130  [INTERNAL]
+STRING: ENetClient::Connect
+  <not found among defined data strings>
+STRING: ENetClient::GetHostAddress
+  <not found among defined data strings>
+STRING: ENetClient::GetHostPort
+  <not found among defined data strings>
+STRING: ClientWelcome
+  <not found among defined data strings>
+STRING: GameClient::Get
+  <not found among defined data strings>
+STRING: GameClient
+  <not found among defined data strings>
+STRING: init_native_actorenum_player
+  <not found among defined data strings>
+STRING: create_player_actor_in_layout
+  <not found among defined data strings>
+STRING: respawn_player_actor_in_layout
+  <not found among defined data strings>
+STRING: switch_player_to_enum
+  <not found among defined data strings>
+STRING: get_player_actor
+  <not found among defined data strings>
+STRING: is_local_player
+  <not found among defined data strings>
+STRING: is_local_player_valid
+  <not found among defined data strings>
+STRING: get_local_slot
+  <not found among defined data strings>
+STRING: get_slot_actor
+  <not found among defined data strings>
+STRING: get_actor_slot
+  <not found among defined data strings>
+STRING: is_slot_valid
+  <not found among defined data strings>
+STRING: is_actor_player
+  <not found among defined data strings>
+STRING: is_actor_local_player
+  <not found among defined data strings>
+STRING: create_actor_in_layout
+  <not found among defined data strings>
+STRING: get_actor_enum
+  <not found among defined data strings>
+STRING: is_actor_inited
+  <not found among defined data strings>
+STRING: is_actor_valid
+  <not found among defined data strings>
+STRING: ResourcesManager::LoadAllResources
+  <not found among defined data strings>
+STRING: ResourcesManager::DoesAllResourcesAreLoaded
+  <not found among defined data strings>
+STRING: LoadAllResources
+  <not found among defined data strings>
+STRING: DoesAllResourcesAreLoaded
+  <not found among defined data strings>
+STRING: HTTPClient::Connect
+  <not found among defined data strings>
+STRING: HTTPClient::DownloadResources
+  <not found among defined data strings>
+STRING: connect
+  @ 1800dfed0
+    <- 18002b19c  type=DATA  in 18002b120  FUN_18002b120  [INTERNAL]
+    <- 18002c803  type=DATA  in 18002c360  FUN_18002c360  [INTERNAL]
+    <- 18004057a  type=DATA  in 180040520  FUN_180040520  [INTERNAL]
+  @ 1800e0028
+    <- 180028cf7  type=DATA  in 180028b40  FUN_180028b40  [INTERNAL]
+    <- 18002c446  type=DATA  in 18002c360  FUN_18002c360  [INTERNAL]
+  @ 1800e0188
+    <- 18002c8d9  type=DATA  in 18002c360  FUN_18002c360  [INTERNAL]
+  @ 1800e0298
+    <- 1800568cc  type=DATA  in 180056870  FUN_180056870  [INTERNAL]
+  @ 1800e02a8
+    <- 180041719  type=DATA  in 1800416c0  FUN_1800416c0  [INTERNAL]
+  @ 1800e0398
+    <- 18002ffb4  type=DATA  in 18002fce0  FUN_18002fce0  [INTERNAL]
+  @ 1800f96db
+    <- 1800f8968  type=DATA
+STRING: disconnect
+  <not found among defined data strings>
+STRING: retry
+  <not found among defined data strings>
+STRING: set_loading_screen
+  <not found among defined data strings>
+STRING: on_connection_succeeded
+  <not found among defined data strings>
+STRING: on_disconnect
+  <not found among defined data strings>
+STRING: failed_server_retrieving_resources
+  <not found among defined data strings>
+STRING: failed_server_invalid_version
+  <not found among defined data strings>
+
+================================================================================
+4. CANDIDATE FUNCTION CALLERS / CALLEES
+================================================================================
+EXTERNAL:000000ce  connect  [EXTERNAL]
+  CALLERS (direct refs): 1
+    <- 180025a30  FUN_180025a30  [INTERNAL]
+  CALLEES (direct calls): 0
+
+180002680  GetBrowser  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 0
+
+1800026c0  GetRenderHandler  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 0
+
+180002700  GetRequestHandler  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 0
+
+180002740  GetJSDialogHandler  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 0
+
+180002780  GetLifeSpanHandler  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 0
+
+1800027c0  GetContextMenuHandler  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 0
+
+180002800  AddRef  [INTERNAL]
+  CALLERS (direct refs): 1
+    <- 18000d730  FUN_18000d730  [INTERNAL]
+  CALLEES (direct calls): 0
+
+180002810  Release  [INTERNAL]
+  CALLERS (direct refs): 1
+    <- 18000d70c  FUN_18000d70c  [INTERNAL]
+  CALLEES (direct calls): 0
+
+180002860  HasOneRef  [INTERNAL]
+  CALLERS (direct refs): 1
+    <- 18000d724  FUN_18000d724  [INTERNAL]
+  CALLEES (direct calls): 0
+
+180002870  HasAtLeastOneRef  [INTERNAL]
+  CALLERS (direct refs): 1
+    <- 18000d718  FUN_18000d718  [INTERNAL]
+  CALLEES (direct calls): 0
+
+180002880  __autoclassinit2  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 1
+    -> 1800c951a  memset  [INTERNAL]
+
+180002890  `vbase_destructor'  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 1
+    -> 180008bd0  ~ClientHandler  [INTERNAL]
+
+180002a20  Singleton<CEFManager>  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 0
+
+180002a30  ~Singleton<CEFManager>  [INTERNAL]
+  CALLERS (direct refs): 747
+    <- 180079f80  FUN_180079f80  [INTERNAL]
+    <- 18007a010  FUN_18007a010  [INTERNAL]
+    <- 18007a0a0  FUN_18007a0a0  [INTERNAL]
+    <- 18007a100  FUN_18007a100  [INTERNAL]
+    <- 18007a190  FUN_18007a190  [INTERNAL]
+    <- 18007a310  FUN_18007a310  [INTERNAL]
+    <- 18007a500  FUN_18007a500  [INTERNAL]
+    <- 18007a580  FUN_18007a580  [INTERNAL]
+    <- 18007a600  FUN_18007a600  [INTERNAL]
+    <- 18007ade0  FUN_18007ade0  [INTERNAL]
+    <- 18007ae70  FUN_18007ae70  [INTERNAL]
+    <- 18007aef0  FUN_18007aef0  [INTERNAL]
+    <- 18007af80  FUN_18007af80  [INTERNAL]
+    <- 18007afb0  FUN_18007afb0  [INTERNAL]
+    <- 18007b050  FUN_18007b050  [INTERNAL]
+    <- 18007b0f0  FUN_18007b0f0  [INTERNAL]
+    <- 18007b190  FUN_18007b190  [INTERNAL]
+    <- 18007b230  FUN_18007b230  [INTERNAL]
+    <- 18007b2c0  FUN_18007b2c0  [INTERNAL]
+    <- 18007b360  FUN_18007b360  [INTERNAL]
+    <- 18007b3e0  FUN_18007b3e0  [INTERNAL]
+    <- 18007b560  FUN_18007b560  [INTERNAL]
+    <- 18007b5f0  FUN_18007b5f0  [INTERNAL]
+    <- 18007b790  FUN_18007b790  [INTERNAL]
+    <- 18007b8a0  FUN_18007b8a0  [INTERNAL]
+    <- 18007b920  FUN_18007b920  [INTERNAL]
+    <- 18007b9a0  FUN_18007b9a0  [INTERNAL]
+    <- 18007bab0  FUN_18007bab0  [INTERNAL]
+    <- 18007bb30  FUN_18007bb30  [INTERNAL]
+    <- 18007bc00  FUN_18007bc00  [INTERNAL]
+    <- 18007bca0  FUN_18007bca0  [INTERNAL]
+    <- 18007bdb0  FUN_18007bdb0  [INTERNAL]
+    <- 18007be50  FUN_18007be50  [INTERNAL]
+    <- 18007bf60  FUN_18007bf60  [INTERNAL]
+    <- 18007c000  FUN_18007c000  [INTERNAL]
+    <- 18007c0a0  FUN_18007c0a0  [INTERNAL]
+    <- 18007c1b0  FUN_18007c1b0  [INTERNAL]
+    <- 18007c250  FUN_18007c250  [INTERNAL]
+    <- 18007c2f0  FUN_18007c2f0  [INTERNAL]
+    <- 18007c390  FUN_18007c390  [INTERNAL]
+    <- 18007d8d0  FUN_18007d8d0  [INTERNAL]
+    <- 18007db60  FUN_18007db60  [INTERNAL]
+    <- 18007edf0  FUN_18007edf0  [INTERNAL]
+    <- 18007ee90  FUN_18007ee90  [INTERNAL]
+    <- 18007eef0  FUN_18007eef0  [INTERNAL]
+    <- 18007ef60  FUN_18007ef60  [INTERNAL]
+    <- 18007efa0  FUN_18007efa0  [INTERNAL]
+    <- 18007f040  FUN_18007f040  [INTERNAL]
+    <- 18007f130  FUN_18007f130  [INTERNAL]
+    <- 18007f170  FUN_18007f170  [INTERNAL]
+    <- 18007f260  FUN_18007f260  [INTERNAL]
+    <- 18007f2a0  FUN_18007f2a0  [INTERNAL]
+    <- 1800800d0  FUN_1800800d0  [INTERNAL]
+    <- 180080160  FUN_180080160  [INTERNAL]
+    <- 1800801d0  FUN_1800801d0  [INTERNAL]
+    <- 1800803a0  FUN_1800803a0  [INTERNAL]
+    <- 180080410  FUN_180080410  [INTERNAL]
+    <- 180080480  FUN_180080480  [INTERNAL]
+    <- 180080530  FUN_180080530  [INTERNAL]
+    <- 1800805c0  FUN_1800805c0  [INTERNAL]
+  CALLEES (direct calls): 0
+
+180002a40  CEFManager  [INTERNAL]
+  CALLERS (direct refs): 1
+    <- 1800050d0  Get  [INTERNAL]
+  CALLEES (direct calls): 3
+    -> 180004f90  FUN_180004f90  [INTERNAL]
+    -> 180005760  FUN_180005760  [INTERNAL]
+    -> 1800c8480  FUN_1800c8480  [INTERNAL]
+
+180002b90  ~CEFManager  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 2
+    -> 180002b20  FUN_180002b20  [INTERNAL]
+    -> 180004f90  FUN_180004f90  [INTERNAL]
+
+180002e10  Initialize  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 21
+    -> EXTERNAL:00000022  cef_string_utf8_to_utf16  [EXTERNAL]
+    -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+    -> EXTERNAL:00000035  GetModuleHandleW  [EXTERNAL]
+    -> EXTERNAL:00000054  Print  [EXTERNAL]
+    -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+    -> 180001a70  FUN_180001a70  [INTERNAL]
+    -> 180002410  FUN_180002410  [INTERNAL]
+    -> 180002bb0  FUN_180002bb0  [INTERNAL]
+    -> 1800056e0  FUN_1800056e0  [INTERNAL]
+    -> 1800065b0  FUN_1800065b0  [INTERNAL]
+    -> 180006d10  FUN_180006d10  [INTERNAL]
+    -> 180006e90  FUN_180006e90  [INTERNAL]
+    -> 1800791f0  FUN_1800791f0  [INTERNAL]
+    -> 1800c7ddc  FUN_1800c7ddc  [INTERNAL]
+    -> 1800c8340  __security_check_cookie  [INTERNAL]
+    -> 1800c8480  FUN_1800c8480  [INTERNAL]
+    -> 1800c8834  free  [INTERNAL]
+    -> 1800c9502  _purecall  [INTERNAL]
+    -> 1800c9514  memmove  [INTERNAL]
+    -> 1800c951a  memset  [INTERNAL]
+    -> 1800c9520  memcpy  [INTERNAL]
+
+1800038a0  Run  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 0
+
+1800038b0  Shutdown  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 3
+    -> EXTERNAL:00000032  Sleep  [EXTERNAL]
+    -> 180004990  CloseAllBrowsers  [INTERNAL]
+    -> 1800793a0  cef_shutdown  [INTERNAL]
+
+180003900  GetMainWindow  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 0
+
+180003910  IsAnyBrowserFocused  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 4
+    -> EXTERNAL:000000b0  _Mtx_unlock  [EXTERNAL]
+    -> EXTERNAL:000000b1  _Mtx_lock  [EXTERNAL]
+    -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+    -> 180079d40  FUN_180079d40  [INTERNAL]
+
+180003e10  WindowProcedureHandler  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 7
+    -> EXTERNAL:000000b0  _Mtx_unlock  [EXTERNAL]
+    -> EXTERNAL:000000b1  _Mtx_lock  [EXTERNAL]
+    -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+    -> 1800039e0  FUN_1800039e0  [INTERNAL]
+    -> 180003bf0  FUN_180003bf0  [INTERNAL]
+    -> 1800c8340  __security_check_cookie  [INTERNAL]
+    -> 1800c96ae  memcmp  [INTERNAL]
+
+180004080  Draw  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 4
+    -> EXTERNAL:000000b1  _Mtx_lock  [EXTERNAL]
+    -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+    -> 180009a00  Draw  [INTERNAL]
+    -> 180079d40  FUN_180079d40  [INTERNAL]
+
+180004140  DoFrame  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 3
+    -> EXTERNAL:000000b1  _Mtx_lock  [EXTERNAL]
+    -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+    -> 180079d40  FUN_180079d40  [INTERNAL]
+
+180004280  WasResized  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 3
+    -> EXTERNAL:000000b1  _Mtx_lock  [EXTERNAL]
+    -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+    -> 180079d40  FUN_180079d40  [INTERNAL]
+
+1800043b0  Invalidate  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 3
+    -> EXTERNAL:000000b1  _Mtx_lock  [EXTERNAL]
+    -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+    -> 180079d40  FUN_180079d40  [INTERNAL]
+
+1800044e0  SendProcessMessage  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 6
+    -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+    -> 1800051f0  FUN_1800051f0  [INTERNAL]
+    -> 180005c90  FUN_180005c90  [INTERNAL]
+    -> 180009da0  SendProcessMessage  [INTERNAL]
+    -> 1800c8340  __security_check_cookie  [INTERNAL]
+    -> 1800c8834  free  [INTERNAL]
+
+1800045b0  SendProcessMessage  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 6
+    -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+    -> 1800051f0  FUN_1800051f0  [INTERNAL]
+    -> 180005c90  FUN_180005c90  [INTERNAL]
+    -> 18000a220  SendProcessMessage  [INTERNAL]
+    -> 1800c8340  __security_check_cookie  [INTERNAL]
+    -> 1800c8834  free  [INTERNAL]
+
+180004680  SetBrowserFocus  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 6
+    -> EXTERNAL:000000b0  _Mtx_unlock  [EXTERNAL]
+    -> EXTERNAL:000000b1  _Mtx_lock  [EXTERNAL]
+    -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+    -> 180005c90  FUN_180005c90  [INTERNAL]
+    -> 180079d40  FUN_180079d40  [INTERNAL]
+    -> 1800c8340  __security_check_cookie  [INTERNAL]
+
+1800047d0  SetBrowserVisible  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 2
+    -> 180005c90  FUN_180005c90  [INTERNAL]
+    -> 1800c8340  __security_check_cookie  [INTERNAL]
+
+180004840  ReloadAllBrowsers  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 5
+    -> EXTERNAL:000000b0  _Mtx_unlock  [EXTERNAL]
+    -> EXTERNAL:000000b1  _Mtx_lock  [EXTERNAL]
+    -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+    -> 180079d40  FUN_180079d40  [INTERNAL]
+    -> 1800c8340  __security_check_cookie  [INTERNAL]
+
+180004990  CloseAllBrowsers  [INTERNAL]
+  CALLERS (direct refs): 1
+    <- 1800038b0  Shutdown  [INTERNAL]
+  CALLEES (direct calls): 6
+    -> EXTERNAL:000000b0  _Mtx_unlock  [EXTERNAL]
+    -> EXTERNAL:000000b1  _Mtx_lock  [EXTERNAL]
+    -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+    -> 180004f90  FUN_180004f90  [INTERNAL]
+    -> 180079d40  FUN_180079d40  [INTERNAL]
+    -> 1800c8340  __security_check_cookie  [INTERNAL]
+
+180004b30  ReloadBrowser  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 2
+    -> 180005c90  FUN_180005c90  [INTERNAL]
+    -> 1800c8340  __security_check_cookie  [INTERNAL]
+
+180004c00  CloseBrowser  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 3
+    -> 180005c90  FUN_180005c90  [INTERNAL]
+    -> 180005ee0  FUN_180005ee0  [INTERNAL]
+    -> 1800c8340  __security_check_cookie  [INTERNAL]
+
+180004d10  PostTask  [INTERNAL]
+  CALLERS (direct refs): 3
+    <- 18002ede0  FUN_18002ede0  [INTERNAL]
+    <- 18002fbb0  FUN_18002fbb0  [INTERNAL]
+    <- 1800569c0  FUN_1800569c0  [INTERNAL]
+  CALLEES (direct calls): 3
+    -> 180079310  FUN_180079310  [INTERNAL]
+    -> 1800c8480  FUN_1800c8480  [INTERNAL]
+    -> 1800c9502  _purecall  [INTERNAL]
+
+1800050d0  Get  [INTERNAL]
+  CALLERS (direct refs): 4
+    <- 180009340  GetViewRect  [INTERNAL]
+    <- 18002ede0  FUN_18002ede0  [INTERNAL]
+    <- 18002fbb0  FUN_18002fbb0  [INTERNAL]
+    <- 1800569c0  FUN_1800569c0  [INTERNAL]
+  CALLEES (direct calls): 5
+    -> 180002a40  CEFManager  [INTERNAL]
+    -> 1800c839c  _Init_thread_footer  [INTERNAL]
+    -> 1800c8408  FUN_1800c8408  [INTERNAL]
+    -> 1800c8480  FUN_1800c8480  [INTERNAL]
+    -> 1800c8814  atexit  [INTERNAL]
+
+1800071c0  DoClose  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 0
+
+180008440  OnContextMenuCommand  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 0
+
+1800088e0  ClientHandler  [INTERNAL]
+  CALLERS (direct refs): 2
+    <- 18000db80  ChatClient  [INTERNAL]
+    <- 18002d560  MainMenuClient  [INTERNAL]
+  CALLEES (direct calls): 3
+    -> 180005760  FUN_180005760  [INTERNAL]
+    -> 18000a700  FUN_18000a700  [INTERNAL]
+    -> 1800c8480  FUN_1800c8480  [INTERNAL]
+
+180008bd0  ~ClientHandler  [INTERNAL]
+  CALLERS (direct refs): 4
+    <- 180002890  `vbase_destructor'  [INTERNAL]
+    <- 180008830  FUN_180008830  [INTERNAL]
+    <- 18000df30  FUN_18000df30  [INTERNAL]
+    <- 18002f020  FUN_18002f020  [INTERNAL]
+  CALLEES (direct calls): 4
+    -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+    -> 180008b60  FUN_180008b60  [INTERNAL]
+    -> 18000a700  FUN_18000a700  [INTERNAL]
+    -> 1800c8834  free  [INTERNAL]
+
+180008d10  OnBeforeContextMenu  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 0
+
+180008dd0  OnProcessMessageReceived  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 11
+    -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+    -> EXTERNAL:00000054  Print  [EXTERNAL]
+    -> EXTERNAL:000000b6  _Xout_of_range  [EXTERNAL]
+    -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+    -> 18000a570  FUN_18000a570  [INTERNAL]
+    -> 18000a840  FUN_18000a840  [INTERNAL]
+    -> 1800c7f84  AcquireSRWLockShared  [INTERNAL]
+    -> 1800c7f94  ReleaseSRWLockShared  [INTERNAL]
+    -> 1800c8340  __security_check_cookie  [INTERNAL]
+    -> 1800c8834  free  [INTERNAL]
+    -> 1800c96ae  memcmp  [INTERNAL]
+
+180009250  OnPaint  [INTERNAL]
+  CALLERS (direct refs): 1
+    <- 18000e160  FUN_18000e160  [INTERNAL]
+  CALLEES (direct calls): 3
+    -> 18000d2d0  FUN_18000d2d0  [INTERNAL]
+    -> 1800c951a  memset  [INTERNAL]
+    -> 1800c9520  memcpy  [INTERNAL]
+
+180009340  GetViewRect  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 3
+    -> EXTERNAL:0000004d  GetClientRect  [EXTERNAL]
+    -> 1800050d0  Get  [INTERNAL]
+    -> 1800c8340  __security_check_cookie  [INTERNAL]
+
+180009440  OnJSDialog  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 4
+    -> EXTERNAL:00000054  Print  [EXTERNAL]
+    -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+    -> 18000a840  FUN_18000a840  [INTERNAL]
+    -> 1800c8834  free  [INTERNAL]
+
+180009520  OnBeforeBrowse  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 5
+    -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+    -> EXTERNAL:00000050  ShellExecuteA  [EXTERNAL]
+    -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+    -> 18000a840  FUN_18000a840  [INTERNAL]
+    -> 1800c8834  free  [INTERNAL]
+
+1800096f0  OnBeforePopup  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 4
+    -> EXTERNAL:00000050  ShellExecuteA  [EXTERNAL]
+    -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+    -> 18000a840  FUN_18000a840  [INTERNAL]
+    -> 1800c8834  free  [INTERNAL]
+
+180009830  OnAfterCreated  [INTERNAL]
+  CALLERS (direct refs): 1
+    <- 18002f130  FUN_18002f130  [INTERNAL]
+  CALLEES (direct calls): 0
+
+180009910  OnBeforeClose  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 0
+
+1800099d0  SetFocus  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 0
+
+1800099e0  HasFocus  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 0
+
+1800099f0  SetVisible  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 0
+
+180009a00  Draw  [INTERNAL]
+  CALLERS (direct refs): 1
+    <- 180004080  Draw  [INTERNAL]
+  CALLEES (direct calls): 3
+    -> 180078960  FUN_180078960  [INTERNAL]
+    -> 1800c8340  __security_check_cookie  [INTERNAL]
+    -> 1800c9520  memcpy  [INTERNAL]
+
+180009ca0  DoFrame  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 0
+
+180009d00  WasResized  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 0
+
+180009d50  Invalidate  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 0
+
+180009da0  SendProcessMessage  [INTERNAL]
+  CALLERS (direct refs): 5
+    <- 1800044e0  SendProcessMessage  [INTERNAL]
+    <- 18000e220  FUN_18000e220  [INTERNAL]
+    <- 18002d790  FUN_18002d790  [INTERNAL]
+    <- 18002fce0  FUN_18002fce0  [INTERNAL]
+    <- 180030b00  OnConnectionFailed  [INTERNAL]
+  CALLEES (direct calls): 5
+    -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+    -> 180079d40  FUN_180079d40  [INTERNAL]
+    -> 18007a0a0  FUN_18007a0a0  [INTERNAL]
+    -> 1800c8340  __security_check_cookie  [INTERNAL]
+    -> 1800c8834  free  [INTERNAL]
+
+18000a220  SendProcessMessage  [INTERNAL]
+  CALLERS (direct refs): 2
+    <- 1800045b0  SendProcessMessage  [INTERNAL]
+    <- 18002f130  FUN_18002f130  [INTERNAL]
+  CALLEES (direct calls): 7
+    -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+    -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+    -> 1800051f0  FUN_1800051f0  [INTERNAL]
+    -> 18000a970  FUN_18000a970  [INTERNAL]
+    -> 18007a0a0  FUN_18007a0a0  [INTERNAL]
+    -> 1800c8340  __security_check_cookie  [INTERNAL]
+    -> 1800c8834  free  [INTERNAL]
+
+18000a3e0  SendProcessMessage  [INTERNAL]
+  CALLERS (direct refs): 1
+    <- 18002d790  FUN_18002d790  [INTERNAL]
+  CALLEES (direct calls): 2
+    -> 18007a0a0  FUN_18007a0a0  [INTERNAL]
+    -> 1800c8340  __security_check_cookie  [INTERNAL]
+
+18000a4c0  RegisterFunction  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 5
+    -> 18000a570  FUN_18000a570  [INTERNAL]
+    -> 18000c180  FUN_18000c180  [INTERNAL]
+    -> 1800c7f7c  AcquireSRWLockExclusive  [INTERNAL]
+    -> 1800c7f8c  ReleaseSRWLockExclusive  [INTERNAL]
+    -> 1800c8340  __security_check_cookie  [INTERNAL]
+
+180028b40  FUN_180028b40  [INTERNAL]
+  CALLERS (direct refs): 1
+    <- 18002c360  FUN_18002c360  [INTERNAL]
+  CALLEES (direct calls): 18
+    -> EXTERNAL:00000057  _Xinvalid_argument  [EXTERNAL]
+    -> EXTERNAL:000000b6  _Xout_of_range  [EXTERNAL]
+    -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+    -> EXTERNAL:000000ef  _errno  [EXTERNAL]
+    -> EXTERNAL:0000010b  strtol  [EXTERNAL]
+    -> 1800065b0  FUN_1800065b0  [INTERNAL]
+    -> 18000ac70  FUN_18000ac70  [INTERNAL]
+    -> 180025610  FUN_180025610  [INTERNAL]
+    -> 180030c80  FID_conflict:~vector<GSISymbolEntry,std::allocator<GSISymbolEntry>_>  [INTERNAL]
+    -> 180030d00  FUN_180030d00  [INTERNAL]
+    -> 18004fb10  FUN_18004fb10  [INTERNAL]
+    -> 1800c8340  __security_check_cookie  [INTERNAL]
+    -> 1800c839c  _Init_thread_footer  [INTERNAL]
+    -> 1800c8408  FUN_1800c8408  [INTERNAL]
+    -> 1800c8814  atexit  [INTERNAL]
+    -> 1800c8834  free  [INTERNAL]
+    -> 1800c951a  memset  [INTERNAL]
+    -> 1800c96ae  memcmp  [INTERNAL]
+
+18002b120  FUN_18002b120  [INTERNAL]
+  CALLERS (direct refs): 1
+    <- 18002c360  FUN_18002c360  [INTERNAL]
+  CALLEES (direct calls): 31
+    -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+    -> EXTERNAL:00000107  tolower  [EXTERNAL]
+    -> 1800052c0  FUN_1800052c0  [INTERNAL]
+    -> 1800052d0  FUN_1800052d0  [INTERNAL]
+    -> 180005330  FUN_180005330  [INTERNAL]
+    -> 180005370  FUN_180005370  [INTERNAL]
+    -> 1800056e0  FUN_1800056e0  [INTERNAL]
+    -> 180005b10  FUN_180005b10  [INTERNAL]
+    -> 1800065b0  FUN_1800065b0  [INTERNAL]
+    -> 180007960  FUN_180007960  [INTERNAL]
+    -> 18000f4e0  FUN_18000f4e0  [INTERNAL]
+    -> 180024770  FUN_180024770  [INTERNAL]
+    -> 180024e50  FUN_180024e50  [INTERNAL]
+    -> 1800266b0  FUN_1800266b0  [INTERNAL]
+    -> 180026720  FUN_180026720  [INTERNAL]
+    -> 1800267d0  FUN_1800267d0  [INTERNAL]
+    -> 180026bb0  FUN_180026bb0  [INTERNAL]
+    -> 180026cb0  FUN_180026cb0  [INTERNAL]
+    -> 180027400  FUN_180027400  [INTERNAL]
+    -> 18002b070  FUN_18002b070  [INTERNAL]
+    -> 18003f360  FUN_18003f360  [INTERNAL]
+    -> 180040520  FUN_180040520  [INTERNAL]
+    -> 180040670  FUN_180040670  [INTERNAL]
+    -> 180040790  FUN_180040790  [INTERNAL]
+    -> 1800408b0  FUN_1800408b0  [INTERNAL]
+    -> 180040a00  FUN_180040a00  [INTERNAL]
+    -> 180040b50  FUN_180040b50  [INTERNAL]
+    -> 180049880  FUN_180049880  [INTERNAL]
+    -> 1800c8340  __security_check_cookie  [INTERNAL]
+    -> 1800c8480  FUN_1800c8480  [INTERNAL]
+    -> 1800c8834  free  [INTERNAL]
+
+18002c360  FUN_18002c360  [INTERNAL]
+  CALLERS (direct refs): 1
+    <- 180029e20  FUN_180029e20  [INTERNAL]
+  CALLEES (direct calls): 18
+    -> EXTERNAL:000000b0  _Mtx_unlock  [EXTERNAL]
+    -> EXTERNAL:000000b1  _Mtx_lock  [EXTERNAL]
+    -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+    -> EXTERNAL:000000c2  closesocket  [EXTERNAL]
+    -> EXTERNAL:000000c4  shutdown  [EXTERNAL]
+    -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+    -> 1800065b0  FUN_1800065b0  [INTERNAL]
+    -> 180025e30  FUN_180025e30  [INTERNAL]
+    -> 180025f30  FUN_180025f30  [INTERNAL]
+    -> 180028b40  FUN_180028b40  [INTERNAL]
+    -> 18002b120  FUN_18002b120  [INTERNAL]
+    -> 18004fc90  FUN_18004fc90  [INTERNAL]
+    -> 180056ae0  FUN_180056ae0  [INTERNAL]
+    -> 180056c00  FUN_180056c00  [INTERNAL]
+    -> 180056cf0  FUN_180056cf0  [INTERNAL]
+    -> 1800c8340  __security_check_cookie  [INTERNAL]
+    -> 1800c8834  free  [INTERNAL]
+    -> 1800c96ae  memcmp  [INTERNAL]
+
+18002d560  MainMenuClient  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 8
+    -> 1800088e0  ClientHandler  [INTERNAL]
+    -> 18000d750  FUN_18000d750  [INTERNAL]
+    -> 18000d830  FUN_18000d830  [INTERNAL]
+    -> 18000dfd0  FUN_18000dfd0  [INTERNAL]
+    -> 1800416c0  FUN_1800416c0  [INTERNAL]
+    -> 1800419a0  FUN_1800419a0  [INTERNAL]
+    -> 180041c80  FUN_180041c80  [INTERNAL]
+    -> 1800c8340  __security_check_cookie  [INTERNAL]
+
+18002f130  FUN_18002f130  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 21
+    -> EXTERNAL:00000022  cef_string_utf8_to_utf16  [EXTERNAL]
+    -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+    -> EXTERNAL:00000051  Get  [EXTERNAL]
+    -> EXTERNAL:00000054  Print  [EXTERNAL]
+    -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+    -> 1800065b0  FUN_1800065b0  [INTERNAL]
+    -> 180009830  OnAfterCreated  [INTERNAL]
+    -> 18000a220  SendProcessMessage  [INTERNAL]
+    -> 180039f50  FUN_180039f50  [INTERNAL]
+    -> 18003b3a0  FUN_18003b3a0  [INTERNAL]
+    -> 180041f50  FUN_180041f50  [INTERNAL]
+    -> 1800422d0  FUN_1800422d0  [INTERNAL]
+    -> 180045c80  FUN_180045c80  [INTERNAL]
+    -> 18004bfc0  FUN_18004bfc0  [INTERNAL]
+    -> 180054a00  FUN_180054a00  [INTERNAL]
+    -> 180054ac0  FUN_180054ac0  [INTERNAL]
+    -> 18005d4e0  FUN_18005d4e0  [INTERNAL]
+    -> 1800c8340  __security_check_cookie  [INTERNAL]
+    -> 1800c8480  FUN_1800c8480  [INTERNAL]
+    -> 1800c8834  free  [INTERNAL]
+    -> 1800c950e  _CxxThrowException  [INTERNAL]
+
+18002fce0  FUN_18002fce0  [INTERNAL]
+  CALLERS (direct refs): 1
+    <- 1800567b0  FUN_1800567b0  [INTERNAL]
+  CALLEES (direct calls): 33
+    -> EXTERNAL:00000022  cef_string_utf8_to_utf16  [EXTERNAL]
+    -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+    -> EXTERNAL:00000032  Sleep  [EXTERNAL]
+    -> EXTERNAL:00000054  Print  [EXTERNAL]
+    -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+    -> 1800051f0  FUN_1800051f0  [INTERNAL]
+    -> 180005330  FUN_180005330  [INTERNAL]
+    -> 1800065b0  FUN_1800065b0  [INTERNAL]
+    -> 180009da0  SendProcessMessage  [INTERNAL]
+    -> 1800248e0  FUN_1800248e0  [INTERNAL]
+    -> 18002cc40  FUN_18002cc40  [INTERNAL]
+    -> 18002ce20  FUN_18002ce20  [INTERNAL]
+    -> 1800372b0  FUN_1800372b0  [INTERNAL]
+    -> 180037d00  FUN_180037d00  [INTERNAL]
+    -> 180039f50  FUN_180039f50  [INTERNAL]
+    -> 18003b3a0  FUN_18003b3a0  [INTERNAL]
+    -> 180042530  FUN_180042530  [INTERNAL]
+    -> 180044b80  FUN_180044b80  [INTERNAL]
+    -> 180046ba0  FUN_180046ba0  [INTERNAL]
+    -> 1800492c0  FUN_1800492c0  [INTERNAL]
+    -> 18004bfc0  FUN_18004bfc0  [INTERNAL]
+    -> 18004ffe0  FUN_18004ffe0  [INTERNAL]
+    -> 180054a00  FUN_180054a00  [INTERNAL]
+    -> 180054ac0  FUN_180054ac0  [INTERNAL]
+    -> 18005d810  FUN_18005d810  [INTERNAL]
+    -> 180062bf0  FUN_180062bf0  [INTERNAL]
+    -> 18006a2c0  FUN_18006a2c0  [INTERNAL]
+    -> 180079d40  FUN_180079d40  [INTERNAL]
+    -> 18007af80  FUN_18007af80  [INTERNAL]
+    -> 1800c8340  __security_check_cookie  [INTERNAL]
+    -> 1800c8480  FUN_1800c8480  [INTERNAL]
+    -> 1800c8834  free  [INTERNAL]
+    -> 1800c950e  _CxxThrowException  [INTERNAL]
+
+180030b00  OnConnectionFailed  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 7
+    -> EXTERNAL:00000022  cef_string_utf8_to_utf16  [EXTERNAL]
+    -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+    -> 180009da0  SendProcessMessage  [INTERNAL]
+    -> 18007af80  FUN_18007af80  [INTERNAL]
+    -> 1800c8340  __security_check_cookie  [INTERNAL]
+    -> 1800c8480  FUN_1800c8480  [INTERNAL]
+    -> 1800c8834  free  [INTERNAL]
+
+180040520  FUN_180040520  [INTERNAL]
+  CALLERS (direct refs): 1
+    <- 18002b120  FUN_18002b120  [INTERNAL]
+  CALLEES (direct calls): 5
+    -> 1800065b0  FUN_1800065b0  [INTERNAL]
+    -> 18000f4e0  FUN_18000f4e0  [INTERNAL]
+    -> 180024770  FUN_180024770  [INTERNAL]
+    -> 180049880  FUN_180049880  [INTERNAL]
+    -> 1800c8480  FUN_1800c8480  [INTERNAL]
+
+1800416c0  FUN_1800416c0  [INTERNAL]
+  CALLERS (direct refs): 1
+    <- 18002d560  MainMenuClient  [INTERNAL]
+  CALLEES (direct calls): 7
+    -> EXTERNAL:000000b3  _Xlength_error  [EXTERNAL]
+    -> 1800065b0  FUN_1800065b0  [INTERNAL]
+    -> 18000cf20  FUN_18000cf20  [INTERNAL]
+    -> 18000d560  FUN_18000d560  [INTERNAL]
+    -> 1800c8480  FUN_1800c8480  [INTERNAL]
+    -> 1800c8834  free  [INTERNAL]
+    -> 1800c96ae  memcmp  [INTERNAL]
+
+180056870  FUN_180056870  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 6
+    -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+    -> 180005370  FUN_180005370  [INTERNAL]
+    -> 1800065b0  FUN_1800065b0  [INTERNAL]
+    -> 18000d980  FUN_18000d980  [INTERNAL]
+    -> 1800c8480  FUN_1800c8480  [INTERNAL]
+    -> 1800c8834  free  [INTERNAL]
+
+
+================================================================================
+5. IMPORTANT PATH SEARCHES
+================================================================================
+PATH GROUP: CEF/main menu -> ENet Connect
+  TARGET: <no candidate functions>
+PATH GROUP: ENet Connect -> LoadOnline
+  START: <no candidate functions>
+PATH GROUP: LoadOnline -> ClientWelcome
+  START: <no candidate functions>
+PATH GROUP: ClientWelcome -> player actor lifecycle
+  START: <no candidate functions>
+PATH GROUP: StartScreen / UI unstream -> LoadOnline
+  START: <no candidate functions>
+
+================================================================================
+6. INDIRECT / UNRESOLVED CALL SITES IN CANDIDATES
+================================================================================
+FUNCTION: 180002680  GetBrowser  [INTERNAL]
+  unresolved/indirect calls: 1
+    1800026a7  CALL qword ptr [RAX]
+
+FUNCTION: 1800026c0  GetRenderHandler  [INTERNAL]
+  unresolved/indirect calls: 1
+    1800026f0  CALL qword ptr [RAX]
+
+FUNCTION: 180002700  GetRequestHandler  [INTERNAL]
+  unresolved/indirect calls: 1
+    180002730  CALL qword ptr [RAX]
+
+FUNCTION: 180002740  GetJSDialogHandler  [INTERNAL]
+  unresolved/indirect calls: 1
+    180002770  CALL qword ptr [RAX]
+
+FUNCTION: 180002780  GetLifeSpanHandler  [INTERNAL]
+  unresolved/indirect calls: 1
+    1800027b0  CALL qword ptr [RAX]
+
+FUNCTION: 1800027c0  GetContextMenuHandler  [INTERNAL]
+  unresolved/indirect calls: 1
+    1800027f0  CALL qword ptr [RAX]
+
+FUNCTION: 180002810  Release  [INTERNAL]
+  unresolved/indirect calls: 1
+    180002846  CALL qword ptr [RAX + 0x20]
+
+FUNCTION: 180003910  IsAnyBrowserFocused  [INTERNAL]
+  unresolved/indirect calls: 1
+    18000394f  INT3
+
+FUNCTION: 180003e10  WindowProcedureHandler  [INTERNAL]
+  unresolved/indirect calls: 9
+    180003e68  INT3
+    180003ef3  CALL qword ptr [RAX]
+    180003f15  CALL qword ptr [RAX]
+    180003fb2  CALL qword ptr [RAX + 0x8]
+    180003fc0  CALL qword ptr [RAX + 0x130]
+    180003fe2  CALL qword ptr [RAX + 0x8]
+    180004001  CALL qword ptr [RAX + 0x8]
+    18000401b  CALL qword ptr [RAX]
+    18000404c  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180004080  Draw  [INTERNAL]
+  unresolved/indirect calls: 1
+    1800040c3  INT3
+
+FUNCTION: 180004140  DoFrame  [INTERNAL]
+  unresolved/indirect calls: 4
+    180004185  INT3
+    1800041fb  CALL qword ptr [RAX + 0x8]
+    18000421a  CALL qword ptr [RAX + 0x128]
+    180004240  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180004280  WasResized  [INTERNAL]
+  unresolved/indirect calls: 4
+    1800042c5  INT3
+    180004331  CALL qword ptr [RAX + 0x8]
+    180004350  CALL qword ptr [RAX + 0x108]
+    180004376  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 1800043b0  Invalidate  [INTERNAL]
+  unresolved/indirect calls: 4
+    1800043f5  INT3
+    180004461  CALL qword ptr [RAX + 0x8]
+    180004482  CALL qword ptr [RAX + 0x120]
+    1800044a8  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 1800044e0  SendProcessMessage  [INTERNAL]
+  unresolved/indirect calls: 1
+    180004591  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 1800045b0  SendProcessMessage  [INTERNAL]
+  unresolved/indirect calls: 1
+    180004661  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180004680  SetBrowserFocus  [INTERNAL]
+  unresolved/indirect calls: 2
+    1800046df  INT3
+    180004788  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 1800047d0  SetBrowserVisible  [INTERNAL]
+  unresolved/indirect calls: 1
+    180004825  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180004840  ReloadAllBrowsers  [INTERNAL]
+  unresolved/indirect calls: 4
+    180004899  INT3
+    180004900  CALL qword ptr [RAX]
+    180004925  CALL qword ptr [RAX + 0x38]
+    180004940  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180004990  CloseAllBrowsers  [INTERNAL]
+  unresolved/indirect calls: 6
+    1800049e7  INT3
+    180004a52  CALL qword ptr [RAX]
+    180004a7c  CALL qword ptr [RAX + 0x8]
+    180004a9c  CALL qword ptr [RAX + 0x10]
+    180004abc  CALL qword ptr [RAX + 0x8]
+    180004ad7  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180004b30  ReloadBrowser  [INTERNAL]
+  unresolved/indirect calls: 4
+    180004b8d  CALL qword ptr [RAX]
+    180004b9b  CALL qword ptr [RAX + 0x38]
+    180004bb6  CALL qword ptr [RAX + 0x8]
+    180004bd1  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180004c00  CloseBrowser  [INTERNAL]
+  unresolved/indirect calls: 6
+    180004c6a  CALL qword ptr [RAX]
+    180004c7d  CALL qword ptr [RAX + 0x8]
+    180004c87  CALL qword ptr [RAX + 0x10]
+    180004ca7  CALL qword ptr [RAX + 0x8]
+    180004ccf  CALL qword ptr [RAX + 0x8]
+    180004cea  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180004d10  PostTask  [INTERNAL]
+  unresolved/indirect calls: 1
+    180004dcc  CALL qword ptr [RAX]
+
+FUNCTION: 1800071c0  DoClose  [INTERNAL]
+  unresolved/indirect calls: 1
+    1800071de  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180008440  OnContextMenuCommand  [INTERNAL]
+  unresolved/indirect calls: 3
+    18000846a  CALL qword ptr [RAX + 0x8]
+    180008488  CALL qword ptr [RAX + 0x8]
+    1800084a6  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 1800088e0  ClientHandler  [INTERNAL]
+  unresolved/indirect calls: 1
+    180008b0f  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180008bd0  ~ClientHandler  [INTERNAL]
+  unresolved/indirect calls: 1
+    180008cee  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180008d10  OnBeforeContextMenu  [INTERNAL]
+  unresolved/indirect calls: 5
+    180008d40  CALL qword ptr [RAX + 0x8]
+    180008d5e  CALL qword ptr [RAX + 0x8]
+    180008d7c  CALL qword ptr [RAX + 0x8]
+    180008d9a  CALL qword ptr [RAX + 0x8]
+    180008db8  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180008dd0  OnProcessMessageReceived  [INTERNAL]
+  unresolved/indirect calls: 10
+    180008e2d  CALL qword ptr [RAX + 0x18]
+    18000903b  CALL qword ptr [RAX + 0x10]
+    180009055  CALL qword ptr [RAX + 0x20]
+    1800090ce  CALL qword ptr [RAX + 0x8]
+    1800090f1  CALL qword ptr [RAX + 0x8]
+    18000910f  CALL qword ptr [RAX + 0x8]
+    180009161  CALL qword ptr [RAX + 0x20]
+    1800091dd  CALL qword ptr [RAX + 0x8]
+    180009200  CALL qword ptr [RAX + 0x8]
+    180009223  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180009250  OnPaint  [INTERNAL]
+  unresolved/indirect calls: 1
+    18000931e  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180009340  GetViewRect  [INTERNAL]
+  unresolved/indirect calls: 3
+    18000939d  CALL qword ptr [RAX]
+    1800093af  CALL qword ptr [RAX + 0x8]
+    180009412  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180009440  OnJSDialog  [INTERNAL]
+  unresolved/indirect calls: 2
+    1800094ef  CALL qword ptr [RAX + 0x8]
+    18000950d  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180009520  OnBeforeBrowse  [INTERNAL]
+  unresolved/indirect calls: 7
+    18000955c  CALL qword ptr [RAX + 0x8]
+    180009631  CALL qword ptr [RAX + 0x8]
+    18000964f  CALL qword ptr [RAX + 0x8]
+    18000966d  CALL qword ptr [RAX + 0x8]
+    180009698  CALL qword ptr [RAX + 0x8]
+    1800096b6  CALL qword ptr [RAX + 0x8]
+    1800096d4  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 1800096f0  OnBeforePopup  [INTERNAL]
+  unresolved/indirect calls: 4
+    1800097b5  CALL qword ptr [RAX + 0x8]
+    1800097d3  CALL qword ptr [RAX + 0x8]
+    1800097fe  CALL qword ptr [RAX + 0x8]
+    18000981c  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180009830  OnAfterCreated  [INTERNAL]
+  unresolved/indirect calls: 6
+    18000986f  CALL qword ptr [RAX]
+    180009890  CALL qword ptr [RAX + 0x8]
+    18000989f  CALL qword ptr [RAX + 0x8]
+    1800098a9  CALL qword ptr [RAX + 0x28]
+    1800098cc  CALL qword ptr [RAX + 0x8]
+    1800098f1  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180009910  OnBeforeClose  [INTERNAL]
+  unresolved/indirect calls: 5
+    180009932  CALL qword ptr [RAX + 0x8]
+    18000993c  CALL qword ptr [RAX + 0x28]
+    180009962  CALL qword ptr [RDX + 0x8]
+    18000998e  CALL qword ptr [RAX + 0x8]
+    1800099b3  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180009a00  Draw  [INTERNAL]
+  unresolved/indirect calls: 8
+    180009aed  CALL qword ptr [RAX + 0x28]
+    180009b05  CALL qword ptr [RAX + 0x140]
+    180009b2f  CALL qword ptr [RAX + 0x70]
+    180009b87  CALL qword ptr [RAX + 0x78]
+    180009bbd  CALL qword ptr [RAX + 0x38]
+    180009bde  CALL qword ptr [RAX + 0x2f8]
+    180009c55  CALL qword ptr [RAX + 0x10]
+    180009c68  CALL qword ptr [RAX + 0x10]
+
+FUNCTION: 180009ca0  DoFrame  [INTERNAL]
+  unresolved/indirect calls: 3
+    180009cbe  CALL qword ptr [RAX + 0x8]
+    180009cc8  CALL qword ptr [RAX + 0x128]
+    180009ceb  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180009d00  WasResized  [INTERNAL]
+  unresolved/indirect calls: 3
+    180009d15  CALL qword ptr [RAX + 0x8]
+    180009d1f  CALL qword ptr [RAX + 0x108]
+    180009d42  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180009d50  Invalidate  [INTERNAL]
+  unresolved/indirect calls: 3
+    180009d65  CALL qword ptr [RAX + 0x8]
+    180009d71  CALL qword ptr [RAX + 0x120]
+    180009d94  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180009da0  SendProcessMessage  [INTERNAL]
+  unresolved/indirect calls: 21
+    180009df4  CALL qword ptr [RAX + 0x20]
+    180009e1a  CALL qword ptr [RAX + 0x38]
+    180009e42  CALL qword ptr [RAX + 0x50]
+    180009e9c  CALL qword ptr [RAX + 0x60]
+    180009ea9  CALL R14
+    180009ef9  CALL qword ptr [RAX + 0x68]
+    180009f05  CALL R14
+    180009f56  CALL qword ptr [RAX + 0x70]
+    180009f62  CALL R14
+    180009fb8  CALL qword ptr [RAX + 0x78]
+    180009fc5  CALL R14
+    18000a054  CALL qword ptr [RAX + 0x80]
+    18000a0a3  CALL qword ptr [RAX + 0x88]
+    18000a0ef  CALL qword ptr [RAX + 0x90]
+    18000a0fe  CALL R14
+    18000a12f  CALL qword ptr [RAX + 0x78]
+    18000a172  CALL qword ptr [RAX]
+    18000a17f  CALL RDI
+    18000a19e  CALL qword ptr [RAX + 0x8]
+    18000a1bd  CALL qword ptr [RAX + 0x8]
+    18000a1dc  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 18000a220  SendProcessMessage  [INTERNAL]
+  unresolved/indirect calls: 8
+    18000a26c  CALL qword ptr [RAX + 0x20]
+    18000a2a9  CALL RDI
+    18000a320  CALL qword ptr [RAX + 0x78]
+    18000a350  CALL qword ptr [RAX]
+    18000a35c  CALL RDI
+    18000a37a  CALL qword ptr [RAX + 0x8]
+    18000a399  CALL qword ptr [RAX + 0x8]
+    18000a3b8  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 18000a3e0  SendProcessMessage  [INTERNAL]
+  unresolved/indirect calls: 5
+    18000a41b  CALL qword ptr [RAX + 0x78]
+    18000a44d  CALL qword ptr [RAX]
+    18000a459  CALL RSI
+    18000a478  CALL qword ptr [RAX + 0x8]
+    18000a498  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180028b40  FUN_180028b40  [INTERNAL]
+  unresolved/indirect calls: 3
+    180028eb8  INT3
+    180028ecb  INT3
+    18002934f  INT3
+
+FUNCTION: 18002b120  FUN_18002b120  [INTERNAL]
+  unresolved/indirect calls: 1
+    18002b3d6  CALL qword ptr [RAX + 0x28]
+
+FUNCTION: 18002c360  FUN_18002c360  [INTERNAL]
+  unresolved/indirect calls: 13
+    18002c49a  CALL qword ptr [RAX + 0x10]
+    18002c5a5  CALL qword ptr [RAX + 0x20]
+    18002c5d8  CALL qword ptr [RAX + 0x20]
+    18002c60c  CALL qword ptr [RAX + 0x8]
+    18002c635  CALL qword ptr [RAX + 0x20]
+    18002c6da  CALL qword ptr [RAX + 0x8]
+    18002c6fa  CALL qword ptr [RAX + 0x20]
+    18002c787  CALL qword ptr [RAX + 0x20]
+    18002c7bc  CALL qword ptr [RAX + 0x20]
+    18002c7e0  CALL qword ptr [RAX + 0x20]
+    18002c9a3  INT3
+    18002c9ce  CALL qword ptr [RAX + 0x18]
+    18002ca20  CALL qword ptr [RAX + 0x10]
+
+FUNCTION: 18002f130  FUN_18002f130  [INTERNAL]
+  unresolved/indirect calls: 8
+    18002f185  CALL qword ptr [RAX]
+    18002f494  CALL qword ptr [RAX]
+    18002f4a8  CALL qword ptr [RAX + 0x8]
+    18002f6ab  CALL qword ptr [RAX]
+    18002f6bf  CALL qword ptr [RAX + 0x8]
+    18002f9a3  CALL qword ptr [RAX]
+    18002f9b5  CALL qword ptr [RAX + 0x8]
+    18002fa89  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 18002fce0  FUN_18002fce0  [INTERNAL]
+  unresolved/indirect calls: 7
+    180030031  CALL qword ptr [RAX]
+    1800300b0  CALL qword ptr [RAX + 0x20]
+    1800300ca  CALL qword ptr [RAX + 0x20]
+    1800303f8  CALL qword ptr [RSP + 0x48]
+    18003060f  CALL qword ptr [RSP + 0x78]
+    180030747  CALL qword ptr [RAX + 0x8]
+    180030885  CALL qword ptr [RAX]
+
+FUNCTION: 180030b00  OnConnectionFailed  [INTERNAL]
+  unresolved/indirect calls: 2
+    180030b93  CALL RDI
+    180030c57  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 1800416c0  FUN_1800416c0  [INTERNAL]
+  unresolved/indirect calls: 1
+    180041855  INT3
+
+
+================================================================================
+7. DECOMPILATION OF KEY CANDIDATES
+================================================================================
+
+================================================================================
+DECOMPILATION: 180056870  FUN_180056870  [INTERNAL]
+================================================================================
+
+void FUN_180056870(longlong param_1)
+
+{
+  longlong lVar1;
+  undefined8 *puVar2;
+  void *_Memory;
+  void *local_30;
+  undefined8 uStack_28;
+  undefined8 local_20;
+  ulonglong local_18;
+  
+  lVar1 = *(longlong *)(param_1 + 8);
+  puVar2 = (undefined8 *)FUN_1800c8480(0x28);
+  FUN_180005370(puVar2,(undefined8 *)(param_1 + 0x10));
+  *(undefined2 *)(puVar2 + 4) = *(undefined2 *)(param_1 + 0x30);
+  local_30 = (void *)0x0;
+  uStack_28 = 0;
+  local_20 = 0;
+  local_18 = 0;
+  FUN_1800065b0(&local_30,"OnConnect",9);
+  FUN_18000d980((float *)(lVar1 + 0x100),(longlong *)&local_30,(longlong)puVar2);
+  if (0xf < local_18) {
+    _Memory = local_30;
+    if ((0xfff < local_18 + 1) &&
+       (_Memory = *(void **)((longlong)local_30 + -8),
+       0x1f < (ulonglong)((longlong)local_30 + (-8 - (longlong)_Memory)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(_Memory);
+  }
+  return;
+}
+
+
+DIRECT CALL REFERENCES:
+  18005688b -> 1800c8480  FUN_1800c8480  [INTERNAL]
+  18005689f -> 180005370  FUN_180005370  [INTERNAL]
+  1800568d8 -> 1800065b0  FUN_1800065b0  [INTERNAL]
+  1800568ed -> 18000d980  FUN_18000d980  [INTERNAL]
+  180056927 -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18005692e -> 1800c8834  free  [INTERNAL]
+
+================================================================================
+8. DIRECT CALLS THAT POINT OUTSIDE A FUNCTION BODY
+================================================================================
+FUNCTION: 180002e10  Initialize  [INTERNAL]
+  180002e4c -> EXTERNAL:00000035  GetModuleHandleW  [EXTERNAL]
+  180002ffa -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18000303b -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  1800030e5 -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+  180003102 -> EXTERNAL:00000022  cef_string_utf8_to_utf16  [EXTERNAL]
+  18000313d -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  180003190 -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  180003240 -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+  18000325d -> EXTERNAL:00000022  cef_string_utf8_to_utf16  [EXTERNAL]
+  180003298 -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  1800032eb -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18000339c -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+  1800033bc -> EXTERNAL:00000022  cef_string_utf8_to_utf16  [EXTERNAL]
+  1800033f7 -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18000344a -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18000346a -> EXTERNAL:00000022  cef_string_utf8_to_utf16  [EXTERNAL]
+  180003515 -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+  180003535 -> EXTERNAL:00000022  cef_string_utf8_to_utf16  [EXTERNAL]
+  180003570 -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  1800035c3 -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  1800036ed -> EXTERNAL:00000054  Print  [EXTERNAL]
+  18000373c -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18000378f -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  1800037be -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+  1800037c8 -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+  1800037d2 -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+  1800037dc -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+  1800037e6 -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+  1800037f3 -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+  180003800 -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+  18000380d -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+  18000381a -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+  180003827 -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+  180003834 -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+  180003841 -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+  18000384e -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+  18000385b -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+  180003868 -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+FUNCTION: 1800038b0  Shutdown  [INTERNAL]
+  1800038c2 -> EXTERNAL:00000032  Sleep  [EXTERNAL]
+FUNCTION: 180003910  IsAnyBrowserFocused  [INTERNAL]
+  18000393a -> EXTERNAL:000000b1  _Mtx_lock  [EXTERNAL]
+  180003949 -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+  180003964 -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+  1800039ad -> EXTERNAL:000000b0  _Mtx_unlock  [EXTERNAL]
+FUNCTION: 180003e10  WindowProcedureHandler  [INTERNAL]
+  180003e53 -> EXTERNAL:000000b1  _Mtx_lock  [EXTERNAL]
+  180003e62 -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+  180003e7d -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+  180004053 -> EXTERNAL:000000b0  _Mtx_unlock  [EXTERNAL]
+FUNCTION: 180004080  Draw  [INTERNAL]
+  1800040ae -> EXTERNAL:000000b1  _Mtx_lock  [EXTERNAL]
+  1800040bd -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+  1800040d8 -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+FUNCTION: 180004140  DoFrame  [INTERNAL]
+  180004170 -> EXTERNAL:000000b1  _Mtx_lock  [EXTERNAL]
+  18000417f -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+  18000419a -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+FUNCTION: 180004280  WasResized  [INTERNAL]
+  1800042b0 -> EXTERNAL:000000b1  _Mtx_lock  [EXTERNAL]
+  1800042bf -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+  1800042da -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+FUNCTION: 1800043b0  Invalidate  [INTERNAL]
+  1800043e0 -> EXTERNAL:000000b1  _Mtx_lock  [EXTERNAL]
+  1800043ef -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+  18000440a -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+FUNCTION: 1800044e0  SendProcessMessage  [INTERNAL]
+  180004564 -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+FUNCTION: 1800045b0  SendProcessMessage  [INTERNAL]
+  180004634 -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+FUNCTION: 180004680  SetBrowserFocus  [INTERNAL]
+  1800046ca -> EXTERNAL:000000b1  _Mtx_lock  [EXTERNAL]
+  1800046d9 -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+  1800046f4 -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+  18000478f -> EXTERNAL:000000b0  _Mtx_unlock  [EXTERNAL]
+FUNCTION: 180004840  ReloadAllBrowsers  [INTERNAL]
+  180004884 -> EXTERNAL:000000b1  _Mtx_lock  [EXTERNAL]
+  180004893 -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+  1800048ae -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+  180004953 -> EXTERNAL:000000b0  _Mtx_unlock  [EXTERNAL]
+FUNCTION: 180004990  CloseAllBrowsers  [INTERNAL]
+  1800049d2 -> EXTERNAL:000000b1  _Mtx_lock  [EXTERNAL]
+  1800049e1 -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+  1800049fc -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+  180004af3 -> EXTERNAL:000000b0  _Mtx_unlock  [EXTERNAL]
+FUNCTION: 180008bd0  ~ClientHandler  [INTERNAL]
+  180008cfd -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+FUNCTION: 180008dd0  OnProcessMessageReceived  [INTERNAL]
+  180008e4e -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+  180009121 -> EXTERNAL:000000b6  _Xout_of_range  [EXTERNAL]
+  180009144 -> EXTERNAL:00000054  Print  [EXTERNAL]
+  18000919e -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+FUNCTION: 180009340  GetViewRect  [INTERNAL]
+  1800093ba -> EXTERNAL:0000004d  GetClientRect  [EXTERNAL]
+FUNCTION: 180009440  OnJSDialog  [INTERNAL]
+  18000948d -> EXTERNAL:00000054  Print  [EXTERNAL]
+  1800094c8 -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+FUNCTION: 180009520  OnBeforeBrowse  [INTERNAL]
+  180009597 -> EXTERNAL:00000050  ShellExecuteA  [EXTERNAL]
+  1800095d1 -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  180009601 -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+FUNCTION: 1800096f0  OnBeforePopup  [INTERNAL]
+  180009754 -> EXTERNAL:00000050  ShellExecuteA  [EXTERNAL]
+  18000978e -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+FUNCTION: 180009da0  SendProcessMessage  [INTERNAL]
+  180009fde -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+FUNCTION: 18000a220  SendProcessMessage  [INTERNAL]
+  18000a2bb -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+  18000a309 -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+FUNCTION: 180028b40  FUN_180028b40  [INTERNAL]
+  180028e76 -> EXTERNAL:000000ef  _errno  [EXTERNAL]
+  180028e9f -> EXTERNAL:0000010b  strtol  [EXTERNAL]
+  180028eb2 -> EXTERNAL:00000057  _Xinvalid_argument  [EXTERNAL]
+  180028ec5 -> EXTERNAL:000000b6  _Xout_of_range  [EXTERNAL]
+  180028f02 -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18002919d -> EXTERNAL:000000ef  _errno  [EXTERNAL]
+  1800291c7 -> EXTERNAL:0000010b  strtol  [EXTERNAL]
+  18002932d -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  180029334 -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18002933b -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  180029349 -> EXTERNAL:000000b6  _Xout_of_range  [EXTERNAL]
+  180029357 -> EXTERNAL:00000057  _Xinvalid_argument  [EXTERNAL]
+FUNCTION: 18002b120  FUN_18002b120  [INTERNAL]
+  18002b236 -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18002b2fc -> EXTERNAL:00000107  tolower  [EXTERNAL]
+  18002b306 -> EXTERNAL:00000107  tolower  [EXTERNAL]
+  18002b317 -> EXTERNAL:00000107  tolower  [EXTERNAL]
+  18002b321 -> EXTERNAL:00000107  tolower  [EXTERNAL]
+  18002b3bf -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18002b4a2 -> EXTERNAL:00000107  tolower  [EXTERNAL]
+  18002b4ac -> EXTERNAL:00000107  tolower  [EXTERNAL]
+  18002b4bd -> EXTERNAL:00000107  tolower  [EXTERNAL]
+  18002b4c7 -> EXTERNAL:00000107  tolower  [EXTERNAL]
+  18002b55b -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18002b71c -> EXTERNAL:00000107  tolower  [EXTERNAL]
+  18002b726 -> EXTERNAL:00000107  tolower  [EXTERNAL]
+  18002b737 -> EXTERNAL:00000107  tolower  [EXTERNAL]
+  18002b741 -> EXTERNAL:00000107  tolower  [EXTERNAL]
+  18002b7df -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18002b891 -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18002b9a8 -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18002bb2c -> EXTERNAL:00000107  tolower  [EXTERNAL]
+  18002bb36 -> EXTERNAL:00000107  tolower  [EXTERNAL]
+  18002bb47 -> EXTERNAL:00000107  tolower  [EXTERNAL]
+  18002bb51 -> EXTERNAL:00000107  tolower  [EXTERNAL]
+  18002bc7c -> EXTERNAL:00000107  tolower  [EXTERNAL]
+  18002bc86 -> EXTERNAL:00000107  tolower  [EXTERNAL]
+  18002bc97 -> EXTERNAL:00000107  tolower  [EXTERNAL]
+  18002bca1 -> EXTERNAL:00000107  tolower  [EXTERNAL]
+  18002be06 -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18002c04d -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18002c278 -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18002c2ca -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+FUNCTION: 18002c360  FUN_18002c360  [INTERNAL]
+  18002c924 -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18002c96d -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18002c98e -> EXTERNAL:000000b1  _Mtx_lock  [EXTERNAL]
+  18002c99d -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+  18002c9b8 -> EXTERNAL:000000b9  _Throw_Cpp_error  [EXTERNAL]
+  18002c9e1 -> EXTERNAL:000000c4  shutdown  [EXTERNAL]
+  18002c9f2 -> EXTERNAL:000000c2  closesocket  [EXTERNAL]
+  18002ca04 -> EXTERNAL:000000b0  _Mtx_unlock  [EXTERNAL]
+FUNCTION: 18002f130  FUN_18002f130  [INTERNAL]
+  18002f1b7 -> EXTERNAL:00000051  Get  [EXTERNAL]
+  18002f373 -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18002f407 -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18002f463 -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18002f4c0 -> EXTERNAL:00000051  Get  [EXTERNAL]
+  18002f5f7 -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18002f67f -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18002f6d7 -> EXTERNAL:00000051  Get  [EXTERNAL]
+  18002f88d -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18002f918 -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18002f977 -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18002f9f3 -> EXTERNAL:00000022  cef_string_utf8_to_utf16  [EXTERNAL]
+  18002fa25 -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+  18002fa48 -> EXTERNAL:00000054  Print  [EXTERNAL]
+FUNCTION: 18002fce0  FUN_18002fce0  [INTERNAL]
+  18002fdec -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18002fe2b -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18002fe70 -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18002ff9c -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18002ffc2 -> EXTERNAL:00000054  Print  [EXTERNAL]
+  18003040c -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+  180030625 -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+  1800306ca -> EXTERNAL:00000022  cef_string_utf8_to_utf16  [EXTERNAL]
+  1800306fa -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+  180030722 -> EXTERNAL:00000032  Sleep  [EXTERNAL]
+  180030803 -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18003080a -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  180030835 -> EXTERNAL:00000054  Print  [EXTERNAL]
+FUNCTION: 180030b00  OnConnectionFailed  [INTERNAL]
+  180030b82 -> EXTERNAL:00000022  cef_string_utf8_to_utf16  [EXTERNAL]
+  180030ba7 -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+  180030bf7 -> EXTERNAL:00000022  cef_string_utf8_to_utf16  [EXTERNAL]
+  180030c25 -> EXTERNAL:00000023  cef_string_utf16_clear  [EXTERNAL]
+FUNCTION: 1800416c0  FUN_1800416c0  [INTERNAL]
+  18004184f -> EXTERNAL:000000b3  _Xlength_error  [EXTERNAL]
+FUNCTION: 180056870  FUN_180056870  [INTERNAL]
+  180056927 -> EXTERNAL:000000eb  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+
+================================================================================
+9. LIKELY BOOTSTRAP TRANSITION POINTS
+================================================================================
+TRANSITION CANDIDATE score=5  180030b00  OnConnectionFailed  [INTERNAL]
+  markers: CEFManager, mainmenu, OnConnect, ClientHandler, connect
+  direct callers: 0
+  direct callees: 7
+TRANSITION CANDIDATE score=3  18002f130  FUN_18002f130  [INTERNAL]
+  markers: ClientHandler, player_name, Guest
+  direct callers: 0
+  direct callees: 21
+TRANSITION CANDIDATE score=3  18002fce0  FUN_18002fce0  [INTERNAL]
+  markers: CEFManager, ClientHandler, connect
+  direct callers: 1
+  direct callees: 33
+TRANSITION CANDIDATE score=2  180002880  __autoclassinit2  [INTERNAL]
+  markers: CEFManager, ClientHandler
+  direct callers: 0
+  direct callees: 1
+TRANSITION CANDIDATE score=2  180004080  Draw  [INTERNAL]
+  markers: CEFManager, ClientHandler
+  direct callers: 0
+  direct callees: 4
+TRANSITION CANDIDATE score=2  1800044e0  SendProcessMessage  [INTERNAL]
+  markers: CEFManager, ClientHandler
+  direct callers: 0
+  direct callees: 6
+TRANSITION CANDIDATE score=2  1800045b0  SendProcessMessage  [INTERNAL]
+  markers: CEFManager, ClientHandler
+  direct callers: 0
+  direct callees: 6
+TRANSITION CANDIDATE score=2  180009340  GetViewRect  [INTERNAL]
+  markers: CEFManager, ClientHandler
+  direct callers: 0
+  direct callees: 3
+TRANSITION CANDIDATE score=2  180009da0  SendProcessMessage  [INTERNAL]
+  markers: CEFManager, ClientHandler
+  direct callers: 5
+  direct callees: 5
+TRANSITION CANDIDATE score=2  18000a220  SendProcessMessage  [INTERNAL]
+  markers: CEFManager, ClientHandler
+  direct callers: 2
+  direct callees: 7
+TRANSITION CANDIDATE score=2  18000a3e0  SendProcessMessage  [INTERNAL]
+  markers: CEFManager, ClientHandler
+  direct callers: 1
+  direct callees: 2
+TRANSITION CANDIDATE score=2  18000a4c0  RegisterFunction  [INTERNAL]
+  markers: RegisterFunction, ClientHandler
+  direct callers: 0
+  direct callees: 5
+TRANSITION CANDIDATE score=2  18002d560  MainMenuClient  [INTERNAL]
+  markers: mainmenu, ClientHandler
+  direct callers: 0
+  direct callees: 8
+TRANSITION CANDIDATE score=2  1800416c0  FUN_1800416c0  [INTERNAL]
+  markers: mainmenu, connect
+  direct callers: 1
+  direct callees: 7
+TRANSITION CANDIDATE score=2  180056870  FUN_180056870  [INTERNAL]
+  markers: OnConnect, connect
+  direct callers: 0
+  direct callees: 6
+
+================================================================================
+10. WHAT THIS REPORT CAN / CANNOT PROVE
+================================================================================
+CAN:
+  - identify functions/symbols/strings related to CEF, ENet, ClientWelcome and player actor lifecycle
+  - show direct callers/callees recovered from static call/reference edges
+  - show short direct-call paths between important regions
+  - expose indirect-call sites where a native invoker / virtual dispatch may hide the true target
+
+CANNOT by itself:
+  - prove an indirect callback target when the binary uses function pointers without recoverable references
+  - prove runtime order when scripts/fibers/event dispatch change the order dynamically
+  - prove network success or actor creation at runtime
+  - replace dynamic tracing when a native invoker obscures the called native
+
+The most useful next evidence, when a path stops, is the decompilation and xref neighborhood printed for the last resolved function.

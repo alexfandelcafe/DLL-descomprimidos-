@@ -1,0 +1,1663 @@
+
+================================================================================
+RDRMP / FRONTIER STATIC BOOTSTRAP INVESTIGATOR
+================================================================================
+Program: client-main.dll
+Executable format: Portable Executable (PE)
+Language: x86:LE:64:default
+Image base: 180000000
+Timestamp: Sat Sep 26 01:52:12 ART 2026
+Mode: static only; no execution/emulation
+
+================================================================================
+1. SYMBOL / FUNCTION HITS
+================================================================================
+KEYWORD: LoadMainMenu
+  <no function-name match>
+KEYWORD: CEFManager
+  <no function-name match>
+KEYWORD: mainmenu
+  <no function-name match>
+KEYWORD: cef/cef_ui/mainmenu/index.html
+  <no function-name match>
+KEYWORD: OnConnect
+  <no function-name match>
+KEYWORD: RegisterFunction
+  <no function-name match>
+KEYWORD: ClientHandler
+  <no function-name match>
+KEYWORD: LoadOnline
+  <no function-name match>
+KEYWORD: UI_Unstreammovie
+  <no function-name match>
+KEYWORD: fileSetForMPLoad
+  <no function-name match>
+KEYWORD: fileStartupChecksComplete
+  <no function-name match>
+KEYWORD: StartScreen1
+  <no function-name match>
+KEYWORD: startscreen
+  <no function-name match>
+KEYWORD: player_name
+  <no function-name match>
+KEYWORD: Guest
+  <no function-name match>
+KEYWORD: ENetClient::Connect
+  <no function-name match>
+KEYWORD: ENetClient::GetHostAddress
+  <no function-name match>
+KEYWORD: ENetClient::GetHostPort
+  <no function-name match>
+KEYWORD: ClientWelcome
+  <no function-name match>
+KEYWORD: GameClient::Get
+  <no function-name match>
+KEYWORD: GameClient
+  <no function-name match>
+KEYWORD: init_native_actorenum_player
+  <no function-name match>
+KEYWORD: create_player_actor_in_layout
+  <no function-name match>
+KEYWORD: respawn_player_actor_in_layout
+  <no function-name match>
+KEYWORD: switch_player_to_enum
+  <no function-name match>
+KEYWORD: get_player_actor
+  <no function-name match>
+KEYWORD: is_local_player
+  <no function-name match>
+KEYWORD: is_local_player_valid
+  <no function-name match>
+KEYWORD: get_local_slot
+  <no function-name match>
+KEYWORD: get_slot_actor
+  <no function-name match>
+KEYWORD: get_actor_slot
+  <no function-name match>
+KEYWORD: is_slot_valid
+  <no function-name match>
+KEYWORD: is_actor_player
+  <no function-name match>
+KEYWORD: is_actor_local_player
+  <no function-name match>
+KEYWORD: create_actor_in_layout
+  <no function-name match>
+KEYWORD: get_actor_enum
+  <no function-name match>
+KEYWORD: is_actor_inited
+  <no function-name match>
+KEYWORD: is_actor_valid
+  <no function-name match>
+KEYWORD: ResourcesManager::LoadAllResources
+  <no function-name match>
+KEYWORD: ResourcesManager::DoesAllResourcesAreLoaded
+  <no function-name match>
+KEYWORD: LoadAllResources
+  <no function-name match>
+KEYWORD: DoesAllResourcesAreLoaded
+  <no function-name match>
+KEYWORD: HTTPClient::Connect
+  <no function-name match>
+KEYWORD: HTTPClient::DownloadResources
+  <no function-name match>
+KEYWORD: connect
+  <no function-name match>
+KEYWORD: disconnect
+  <no function-name match>
+KEYWORD: retry
+  <no function-name match>
+KEYWORD: set_loading_screen
+  <no function-name match>
+KEYWORD: on_connection_succeeded
+  <no function-name match>
+KEYWORD: on_disconnect
+  <no function-name match>
+KEYWORD: failed_server_retrieving_resources
+  <no function-name match>
+KEYWORD: failed_server_invalid_version
+  <no function-name match>
+
+================================================================================
+2. SYMBOL TABLE HITS
+================================================================================
+KEYWORD: LoadMainMenu
+  <no symbol match>
+KEYWORD: CEFManager
+  <no symbol match>
+KEYWORD: mainmenu
+  EXTERNAL:00000041  MainMenuClient  [src=IMPORTED, primary=true]
+  1800ffb88  PTR_MainMenuClient_1800ffb88  [src=DEFAULT, primary=true]
+  180107ce0  s_##MainMenuBar_180107ce0  [src=DEFAULT, primary=true]
+  18010cd58  s_cef/cef_ui/mainmenu/index.html_18010cd58  [src=DEFAULT, primary=true]
+  18010cd78  s_mainmenu_18010cd78  [src=DEFAULT, primary=true]
+KEYWORD: cef/cef_ui/mainmenu/index.html
+  18010cd58  s_cef/cef_ui/mainmenu/index.html_18010cd58  [src=DEFAULT, primary=true]
+KEYWORD: OnConnect
+  18010cd88  s_OnConnect_18010cd88  [src=DEFAULT, primary=true]
+KEYWORD: RegisterFunction
+  EXTERNAL:00000032  RegisterFunction  [src=IMPORTED, primary=true]
+  1800ffb10  PTR_RegisterFunction_1800ffb10  [src=DEFAULT, primary=true]
+KEYWORD: ClientHandler
+  <no symbol match>
+KEYWORD: LoadOnline
+  <no symbol match>
+KEYWORD: UI_Unstreammovie
+  18010ced0  s_UI_Unstreammovie_18010ced0  [src=DEFAULT, primary=true]
+KEYWORD: fileSetForMPLoad
+  18010ce58  s_fileSetForMPLoad_18010ce58  [src=DEFAULT, primary=true]
+KEYWORD: fileStartupChecksComplete
+  18010ce70  s_fileStartupChecksComplete_18010ce70  [src=DEFAULT, primary=true]
+KEYWORD: StartScreen1
+  18010ce48  s_StartScreen1_18010ce48  [src=DEFAULT, primary=true]
+KEYWORD: startscreen
+  18010ce48  s_StartScreen1_18010ce48  [src=DEFAULT, primary=true]
+  18010cee8  s_startscreen_18010cee8  [src=DEFAULT, primary=true]
+KEYWORD: player_name
+  18010cf00  s_player_name_18010cf00  [src=DEFAULT, primary=true]
+KEYWORD: Guest
+  18010ce24  s_Guest_18010ce24  [src=DEFAULT, primary=true]
+KEYWORD: ENetClient::Connect
+  <no symbol match>
+KEYWORD: ENetClient::GetHostAddress
+  <no symbol match>
+KEYWORD: ENetClient::GetHostPort
+  <no symbol match>
+KEYWORD: ClientWelcome
+  EXTERNAL:0000001c  ClientWelcome  [src=IMPORTED, primary=true]
+  1800ffa50  PTR_ClientWelcome_1800ffa50  [src=DEFAULT, primary=true]
+KEYWORD: GameClient::Get
+  <no symbol match>
+KEYWORD: GameClient
+  <no symbol match>
+KEYWORD: init_native_actorenum_player
+  <no symbol match>
+KEYWORD: create_player_actor_in_layout
+  <no symbol match>
+KEYWORD: respawn_player_actor_in_layout
+  <no symbol match>
+KEYWORD: switch_player_to_enum
+  <no symbol match>
+KEYWORD: get_player_actor
+  <no symbol match>
+KEYWORD: is_local_player
+  <no symbol match>
+KEYWORD: is_local_player_valid
+  <no symbol match>
+KEYWORD: get_local_slot
+  <no symbol match>
+KEYWORD: get_slot_actor
+  <no symbol match>
+KEYWORD: get_actor_slot
+  <no symbol match>
+KEYWORD: is_slot_valid
+  <no symbol match>
+KEYWORD: is_actor_player
+  <no symbol match>
+KEYWORD: is_actor_local_player
+  <no symbol match>
+KEYWORD: create_actor_in_layout
+  <no symbol match>
+KEYWORD: get_actor_enum
+  <no symbol match>
+KEYWORD: is_actor_inited
+  <no symbol match>
+KEYWORD: is_actor_valid
+  <no symbol match>
+KEYWORD: ResourcesManager::LoadAllResources
+  <no symbol match>
+KEYWORD: ResourcesManager::DoesAllResourcesAreLoaded
+  <no symbol match>
+KEYWORD: LoadAllResources
+  EXTERNAL:00000007  LoadAllResources  [src=IMPORTED, primary=true]
+  EXTERNAL:00000009  UnloadAllResources  [src=IMPORTED, primary=true]
+  1800ff9a0  PTR_LoadAllResources_1800ff9a0  [src=DEFAULT, primary=true]
+  1800ff9b0  PTR_UnloadAllResources_1800ff9b0  [src=DEFAULT, primary=true]
+KEYWORD: DoesAllResourcesAreLoaded
+  EXTERNAL:00000008  DoesAllResourcesAreLoaded  [src=IMPORTED, primary=true]
+  1800ff9a8  PTR_DoesAllResourcesAreLoaded_1800ff9a8  [src=DEFAULT, primary=true]
+KEYWORD: HTTPClient::Connect
+  <no symbol match>
+KEYWORD: HTTPClient::DownloadResources
+  <no symbol match>
+KEYWORD: connect
+  EXTERNAL:00000003  Connect  [src=IMPORTED, primary=true]
+  EXTERNAL:0000000d  Disconnect  [src=IMPORTED, primary=true]
+  EXTERNAL:00000015  Connect  [src=IMPORTED, primary=true]
+  1800ff978  PTR_Connect_1800ff978  [src=DEFAULT, primary=true]
+  1800ff9d8  PTR_Disconnect_1800ff9d8  [src=DEFAULT, primary=true]
+  1800ffa18  PTR_Connect_1800ffa18  [src=DEFAULT, primary=true]
+  18010cd88  s_OnConnect_18010cd88  [src=DEFAULT, primary=true]
+  18010d188  s_on_connection_succeeded_18010d188  [src=DEFAULT, primary=true]
+  18010d1a0  s_on_disconnect_18010d1a0  [src=DEFAULT, primary=true]
+  180110d70  s_Connect_to_a_server_using_IP:Por_180110d70  [src=DEFAULT, primary=true]
+  180110d98  s_connect_180110d98  [src=DEFAULT, primary=true]
+  180110da0  s_Disconnect_from_the_current_serv_180110da0  [src=DEFAULT, primary=true]
+  180110dc8  s_disconnect_180110dc8  [src=DEFAULT, primary=true]
+  180110dd8  s_Try_to_reconnect_to_the_previous_180110dd8  [src=DEFAULT, primary=true]
+KEYWORD: disconnect
+  EXTERNAL:0000000d  Disconnect  [src=IMPORTED, primary=true]
+  1800ff9d8  PTR_Disconnect_1800ff9d8  [src=DEFAULT, primary=true]
+  18010d1a0  s_on_disconnect_18010d1a0  [src=DEFAULT, primary=true]
+  180110da0  s_Disconnect_from_the_current_serv_180110da0  [src=DEFAULT, primary=true]
+  180110dc8  s_disconnect_180110dc8  [src=DEFAULT, primary=true]
+KEYWORD: retry
+  180110e10  s_retry_180110e10  [src=DEFAULT, primary=true]
+KEYWORD: set_loading_screen
+  18010d110  s_set_loading_screen_18010d110  [src=DEFAULT, primary=true]
+KEYWORD: on_connection_succeeded
+  18010d188  s_on_connection_succeeded_18010d188  [src=DEFAULT, primary=true]
+KEYWORD: on_disconnect
+  18010d1a0  s_on_disconnect_18010d1a0  [src=DEFAULT, primary=true]
+KEYWORD: failed_server_retrieving_resources
+  <no symbol match>
+KEYWORD: failed_server_invalid_version
+  18010d168  s_failed_server_invalid_version_18010d168  [src=DEFAULT, primary=true]
+
+================================================================================
+3. STRING XREFS (DEFINED DATA ONLY)
+================================================================================
+STRING: LoadMainMenu
+  @ 18012f6a0
+  @ 18012f6d8
+  @ 180131830
+  @ 1801318b0
+STRING: CEFManager
+  @ 18012b420
+  @ 18012b448
+  @ 18012b4ae
+  @ 18012b554
+  @ 18012b576
+  @ 18012b596
+  @ 18012b5c8
+  @ 18012b5ea
+  @ 18012b618
+  @ 18012b634
+  @ 18012b6b2
+  @ 18012b6fc
+STRING: mainmenu
+  @ 180107ce0
+    <- 1800c246f  type=DATA  in 1800c2210  FUN_1800c2210  [INTERNAL]
+  @ 18010cd58
+    <- 18000244a  type=DATA  in 1800022d0  FUN_1800022d0  [INTERNAL]
+  @ 18010cd78
+    <- 18000598b  type=DATA  in 180005820  FUN_180005820  [INTERNAL]
+    <- 180005eaa  type=DATA  in 180005ad0  FUN_180005ad0  [INTERNAL]
+    <- 18000547c  type=DATA  in 1800050d0  FUN_1800050d0  [INTERNAL]
+    <- 180002474  type=DATA  in 1800022d0  FUN_1800022d0  [INTERNAL]
+    <- 180002698  type=DATA  in 1800022d0  FUN_1800022d0  [INTERNAL]
+  @ 18012b654
+  @ 18012f6a0
+  @ 18012f6d8
+  @ 18012ff50
+  @ 180131830
+  @ 1801318b0
+STRING: cef/cef_ui/mainmenu/index.html
+  @ 18010cd58
+    <- 18000244a  type=DATA  in 1800022d0  FUN_1800022d0  [INTERNAL]
+STRING: OnConnect
+  @ 18010cd88
+    <- 18000277a  type=DATA  in 1800022d0  FUN_1800022d0  [INTERNAL]
+STRING: RegisterFunction
+  @ 18012b370
+STRING: ClientHandler
+  @ 18012b370
+  @ 18012b672
+  @ 18012ff28
+STRING: LoadOnline
+  @ 18012f810
+  @ 180131660
+STRING: UI_Unstreammovie
+  @ 18010ced0
+    <- 18005cb76  type=DATA  in 18005cb20  FUN_18005cb20  [INTERNAL]
+    <- 18005cb7f  type=DATA  in 18005cb20  FUN_18005cb20  [INTERNAL]
+    <- 180002d14  type=DATA  in 180002ca0  FUN_180002ca0  [INTERNAL]
+    <- 180002d1b  type=DATA  in 180002ca0  FUN_180002ca0  [INTERNAL]
+STRING: fileSetForMPLoad
+  @ 18010ce58
+    <- 180002cf6  type=DATA  in 180002ca0  FUN_180002ca0  [INTERNAL]
+STRING: fileStartupChecksComplete
+  @ 18010ce70
+    <- 18005cb6a  type=DATA  in 18005cb20  FUN_18005cb20  [INTERNAL]
+    <- 180002d02  type=DATA  in 180002ca0  FUN_180002ca0  [INTERNAL]
+STRING: StartScreen1
+  @ 18010ce48
+    <- 180053f6b  type=DATA  in 180053f00  FUN_180053f00  [INTERNAL]
+    <- 180053f72  type=DATA  in 180053f00  FUN_180053f00  [INTERNAL]
+STRING: startscreen
+  @ 18010ce48
+    <- 180053f6b  type=DATA  in 180053f00  FUN_180053f00  [INTERNAL]
+    <- 180053f72  type=DATA  in 180053f00  FUN_180053f00  [INTERNAL]
+  @ 18010cee8
+    <- 18005cc1d  type=DATA  in 18005cb20  FUN_18005cb20  [INTERNAL]
+    <- 18005cc24  type=DATA  in 18005cb20  FUN_18005cb20  [INTERNAL]
+    <- 180002dbf  type=DATA  in 180002ca0  FUN_180002ca0  [INTERNAL]
+    <- 180002dc6  type=DATA  in 180002ca0  FUN_180002ca0  [INTERNAL]
+STRING: player_name
+  @ 18010cf00
+    <- 180002e37  type=DATA  in 180002ca0  FUN_180002ca0  [INTERNAL]
+STRING: Guest
+  @ 18010ce24
+    <- 180002b64  type=DATA  in 180002a70  FUN_180002a70  [INTERNAL]
+    <- 180002e0e  type=DATA  in 180002ca0  FUN_180002ca0  [INTERNAL]
+STRING: ENetClient::Connect
+  <not found among defined data strings>
+STRING: ENetClient::GetHostAddress
+  <not found among defined data strings>
+STRING: ENetClient::GetHostPort
+  <not found among defined data strings>
+STRING: ClientWelcome
+  @ 18012acc2
+STRING: GameClient::Get
+  <not found among defined data strings>
+STRING: GameClient
+  @ 18012ac0a
+  @ 18012adf2
+  @ 18012af40
+STRING: init_native_actorenum_player
+  <not found among defined data strings>
+STRING: create_player_actor_in_layout
+  <not found among defined data strings>
+STRING: respawn_player_actor_in_layout
+  <not found among defined data strings>
+STRING: switch_player_to_enum
+  <not found among defined data strings>
+STRING: get_player_actor
+  <not found among defined data strings>
+STRING: is_local_player
+  <not found among defined data strings>
+STRING: is_local_player_valid
+  <not found among defined data strings>
+STRING: get_local_slot
+  <not found among defined data strings>
+STRING: get_slot_actor
+  <not found among defined data strings>
+STRING: get_actor_slot
+  <not found among defined data strings>
+STRING: is_slot_valid
+  <not found among defined data strings>
+STRING: is_actor_player
+  <not found among defined data strings>
+STRING: is_actor_local_player
+  <not found among defined data strings>
+STRING: create_actor_in_layout
+  <not found among defined data strings>
+STRING: get_actor_enum
+  <not found among defined data strings>
+STRING: is_actor_inited
+  <not found among defined data strings>
+STRING: is_actor_valid
+  <not found among defined data strings>
+STRING: ResourcesManager::LoadAllResources
+  <not found among defined data strings>
+STRING: ResourcesManager::DoesAllResourcesAreLoaded
+  <not found among defined data strings>
+STRING: LoadAllResources
+  @ 18012aa82
+  @ 18012aae8
+STRING: DoesAllResourcesAreLoaded
+  @ 18012aab0
+STRING: HTTPClient::Connect
+  <not found among defined data strings>
+STRING: HTTPClient::DownloadResources
+  <not found among defined data strings>
+STRING: connect
+  @ 18010cd88
+    <- 18000277a  type=DATA  in 1800022d0  FUN_1800022d0  [INTERNAL]
+  @ 18010d188
+    <- 180006343  type=DATA  in 1800062e0  FUN_1800062e0  [INTERNAL]
+  @ 18010d1a0
+    <- 1800064f0  type=DATA  in 1800062e0  FUN_1800062e0  [INTERNAL]
+  @ 180110d70
+    <- 18005a58b  type=DATA  in 180059fd0  FUN_180059fd0  [INTERNAL]
+  @ 180110d98
+    <- 18005a5b4  type=DATA  in 180059fd0  FUN_180059fd0  [INTERNAL]
+  @ 180110da0
+    <- 18005a7ba  type=DATA  in 180059fd0  FUN_180059fd0  [INTERNAL]
+  @ 180110dc8
+    <- 18005a7e3  type=DATA  in 180059fd0  FUN_180059fd0  [INTERNAL]
+  @ 180110dd8
+    <- 18005a9fb  type=DATA  in 180059fd0  FUN_180059fd0  [INTERNAL]
+  @ 18012a88c
+  @ 18012ab86
+  @ 18012adce
+STRING: disconnect
+  @ 18010d1a0
+    <- 1800064f0  type=DATA  in 1800062e0  FUN_1800062e0  [INTERNAL]
+  @ 180110da0
+    <- 18005a7ba  type=DATA  in 180059fd0  FUN_180059fd0  [INTERNAL]
+  @ 180110dc8
+    <- 18005a7e3  type=DATA  in 180059fd0  FUN_180059fd0  [INTERNAL]
+  @ 18012adce
+STRING: retry
+  @ 180110e10
+    <- 18005aa24  type=DATA  in 180059fd0  FUN_180059fd0  [INTERNAL]
+STRING: set_loading_screen
+  @ 18010d110
+    <- 180005e80  type=DATA  in 180005ad0  FUN_180005ad0  [INTERNAL]
+STRING: on_connection_succeeded
+  @ 18010d188
+    <- 180006343  type=DATA  in 1800062e0  FUN_1800062e0  [INTERNAL]
+STRING: on_disconnect
+  @ 18010d1a0
+    <- 1800064f0  type=DATA  in 1800062e0  FUN_1800062e0  [INTERNAL]
+STRING: failed_server_retrieving_resources
+  @ 18010d128
+    <- 1800060fd  type=DATA  in 180005ad0  FUN_180005ad0  [INTERNAL]
+STRING: failed_server_invalid_version
+  @ 18010d168
+    <- 180005755  type=DATA  in 1800050d0  FUN_1800050d0  [INTERNAL]
+
+================================================================================
+4. CANDIDATE FUNCTION CALLERS / CALLEES
+================================================================================
+EXTERNAL:00000003  Connect  [EXTERNAL]
+  CALLERS (direct refs): 1
+    <- 180004de0  FUN_180004de0  [INTERNAL]
+  CALLEES (direct calls): 0
+
+EXTERNAL:00000007  LoadAllResources  [EXTERNAL]
+  CALLERS (direct refs): 1
+    <- 180002f50  FUN_180002f50  [INTERNAL]
+  CALLEES (direct calls): 0
+
+EXTERNAL:00000008  DoesAllResourcesAreLoaded  [EXTERNAL]
+  CALLERS (direct refs): 1
+    <- 180002f50  FUN_180002f50  [INTERNAL]
+  CALLEES (direct calls): 0
+
+EXTERNAL:00000009  UnloadAllResources  [EXTERNAL]
+  CALLERS (direct refs): 1
+    <- 180004f50  FUN_180004f50  [INTERNAL]
+  CALLEES (direct calls): 0
+
+EXTERNAL:0000000d  Disconnect  [EXTERNAL]
+  CALLERS (direct refs): 3
+    <- 180005820  FUN_180005820  [INTERNAL]
+    <- 18005c700  FUN_18005c700  [INTERNAL]
+    <- 18005c910  FUN_18005c910  [INTERNAL]
+  CALLEES (direct calls): 0
+
+EXTERNAL:00000015  Connect  [EXTERNAL]
+  CALLERS (direct refs): 3
+    <- 180010bf0  FUN_180010bf0  [INTERNAL]
+    <- 18005b510  FUN_18005b510  [INTERNAL]
+    <- 18005cd60  FUN_18005cd60  [INTERNAL]
+  CALLEES (direct calls): 0
+
+EXTERNAL:0000001c  ClientWelcome  [EXTERNAL]
+  CALLERS (direct refs): 1
+    <- 180002f50  FUN_180002f50  [INTERNAL]
+  CALLEES (direct calls): 0
+
+EXTERNAL:00000032  RegisterFunction  [EXTERNAL]
+  CALLERS (direct refs): 2
+    <- 1800022d0  FUN_1800022d0  [INTERNAL]
+    <- 180002f50  FUN_180002f50  [INTERNAL]
+  CALLEES (direct calls): 0
+
+EXTERNAL:00000041  MainMenuClient  [EXTERNAL]
+  CALLERS (direct refs): 1
+    <- 18000ee20  FUN_18000ee20  [INTERNAL]
+  CALLEES (direct calls): 0
+
+1800022d0  FUN_1800022d0  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 24
+    -> EXTERNAL:00000020  GetCommand  [EXTERNAL]
+    -> EXTERNAL:00000032  RegisterFunction  [EXTERNAL]
+    -> EXTERNAL:0000003e  Get  [EXTERNAL]
+    -> EXTERNAL:00000042  Wait  [EXTERNAL]
+    -> EXTERNAL:00000043  Print  [EXTERNAL]
+    -> EXTERNAL:00000058  SetState  [EXTERNAL]
+    -> EXTERNAL:0000005a  Get  [EXTERNAL]
+    -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+    -> 180008730  FUN_180008730  [INTERNAL]
+    -> 18000ee20  FUN_18000ee20  [INTERNAL]
+    -> 180010100  FUN_180010100  [INTERNAL]
+    -> 180050430  FUN_180050430  [INTERNAL]
+    -> 1800529a0  FUN_1800529a0  [INTERNAL]
+    -> 1800539a0  FUN_1800539a0  [INTERNAL]
+    -> 180057660  FUN_180057660  [INTERNAL]
+    -> 180058060  FUN_180058060  [INTERNAL]
+    -> 180058350  FUN_180058350  [INTERNAL]
+    -> 1800674a0  FUN_1800674a0  [INTERNAL]
+    -> 1800f3098  FUN_1800f3098  [INTERNAL]
+    -> 1800f3ab0  __security_check_cookie  [INTERNAL]
+    -> 1800f3ad0  free  [INTERNAL]
+    -> 1800f3b84  _Init_thread_footer  [INTERNAL]
+    -> 1800f3bf0  FUN_1800f3bf0  [INTERNAL]
+    -> 1800f4cd2  memset  [INTERNAL]
+
+180002a70  FUN_180002a70  [INTERNAL]
+  CALLERS (direct refs): 1
+    <- 180002ca0  FUN_180002ca0  [INTERNAL]
+  CALLEES (direct calls): 8
+    -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+    -> 180050430  FUN_180050430  [INTERNAL]
+    -> 180054300  FUN_180054300  [INTERNAL]
+    -> 180054510  FUN_180054510  [INTERNAL]
+    -> 180055d90  FUN_180055d90  [INTERNAL]
+    -> 1800563e0  FUN_1800563e0  [INTERNAL]
+    -> 1800f3ab0  __security_check_cookie  [INTERNAL]
+    -> 1800f3ad0  free  [INTERNAL]
+
+180002ca0  FUN_180002ca0  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 15
+    -> EXTERNAL:00000042  Wait  [EXTERNAL]
+    -> EXTERNAL:00000051  Get  [EXTERNAL]
+    -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+    -> 180002a70  FUN_180002a70  [INTERNAL]
+    -> 1800088c0  FUN_1800088c0  [INTERNAL]
+    -> 180050430  FUN_180050430  [INTERNAL]
+    -> 180053c20  FUN_180053c20  [INTERNAL]
+    -> 180053da0  FUN_180053da0  [INTERNAL]
+    -> 180053f00  FUN_180053f00  [INTERNAL]
+    -> 180054060  FUN_180054060  [INTERNAL]
+    -> 1800541b0  FUN_1800541b0  [INTERNAL]
+    -> 180055d90  FUN_180055d90  [INTERNAL]
+    -> 1800f3ab0  __security_check_cookie  [INTERNAL]
+    -> 1800f3ad0  free  [INTERNAL]
+    -> 1800f4cd2  memset  [INTERNAL]
+
+1800050d0  FUN_1800050d0  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 21
+    -> EXTERNAL:0000000c  GetServerData  [EXTERNAL]
+    -> EXTERNAL:0000001b  Get  [EXTERNAL]
+    -> EXTERNAL:00000020  GetCommand  [EXTERNAL]
+    -> EXTERNAL:0000003e  Get  [EXTERNAL]
+    -> EXTERNAL:00000104  _Thrd_detach  [EXTERNAL]
+    -> EXTERNAL:00000105  _Throw_Cpp_error  [EXTERNAL]
+    -> EXTERNAL:0000015b  _beginthreadex  [EXTERNAL]
+    -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+    -> 180005820  FUN_180005820  [INTERNAL]
+    -> 1800061d0  FUN_1800061d0  [INTERNAL]
+    -> 180008730  FUN_180008730  [INTERNAL]
+    -> 180050430  FUN_180050430  [INTERNAL]
+    -> 1800563e0  FUN_1800563e0  [INTERNAL]
+    -> 18005f2d0  FUN_18005f2d0  [INTERNAL]
+    -> 1800f3ab0  __security_check_cookie  [INTERNAL]
+    -> 1800f3ad0  free  [INTERNAL]
+    -> 1800f3b0c  FUN_1800f3b0c  [INTERNAL]
+    -> 1800f3b84  _Init_thread_footer  [INTERNAL]
+    -> 1800f3bf0  FUN_1800f3bf0  [INTERNAL]
+    -> 1800f4cd2  memset  [INTERNAL]
+    -> 1800f4cf6  memcmp  [INTERNAL]
+
+180005820  FUN_180005820  [INTERNAL]
+  CALLERS (direct refs): 2
+    <- 1800050d0  FUN_1800050d0  [INTERNAL]
+    <- 180005ad0  FUN_180005ad0  [INTERNAL]
+  CALLEES (direct calls): 12
+    -> EXTERNAL:0000000d  Disconnect  [EXTERNAL]
+    -> EXTERNAL:0000001b  Get  [EXTERNAL]
+    -> EXTERNAL:00000035  SendProcessMessage  [EXTERNAL]
+    -> EXTERNAL:0000003e  Get  [EXTERNAL]
+    -> EXTERNAL:00000073  cef_string_utf8_to_utf16  [EXTERNAL]
+    -> EXTERNAL:00000074  cef_string_utf16_clear  [EXTERNAL]
+    -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+    -> 180050430  FUN_180050430  [INTERNAL]
+    -> 180065140  FUN_180065140  [INTERNAL]
+    -> 1800f3ab0  __security_check_cookie  [INTERNAL]
+    -> 1800f3ad0  free  [INTERNAL]
+    -> 1800f3b0c  FUN_1800f3b0c  [INTERNAL]
+
+180005ad0  FUN_180005ad0  [INTERNAL]
+  CALLERS (direct refs): 1
+    <- 180011710  FUN_180011710  [INTERNAL]
+  CALLEES (direct calls): 23
+    -> EXTERNAL:00000002  Get  [EXTERNAL]
+    -> EXTERNAL:00000004  DownloadResources  [EXTERNAL]
+    -> EXTERNAL:00000035  SendProcessMessage  [EXTERNAL]
+    -> EXTERNAL:0000003e  Get  [EXTERNAL]
+    -> EXTERNAL:00000052  Get  [EXTERNAL]
+    -> EXTERNAL:00000073  cef_string_utf8_to_utf16  [EXTERNAL]
+    -> EXTERNAL:00000074  cef_string_utf16_clear  [EXTERNAL]
+    -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+    -> 180005820  FUN_180005820  [INTERNAL]
+    -> 180009030  FUN_180009030  [INTERNAL]
+    -> 180010100  FUN_180010100  [INTERNAL]
+    -> 180050430  FUN_180050430  [INTERNAL]
+    -> 180052ef0  FUN_180052ef0  [INTERNAL]
+    -> 1800530e0  FUN_1800530e0  [INTERNAL]
+    -> 1800531b0  FUN_1800531b0  [INTERNAL]
+    -> 1800557b0  FUN_1800557b0  [INTERNAL]
+    -> 180057c40  FUN_180057c40  [INTERNAL]
+    -> 180058350  FUN_180058350  [INTERNAL]
+    -> 180065140  FUN_180065140  [INTERNAL]
+    -> 1800f3ab0  __security_check_cookie  [INTERNAL]
+    -> 1800f3ad0  free  [INTERNAL]
+    -> 1800f3b0c  FUN_1800f3b0c  [INTERNAL]
+    -> 1800f4ccc  memmove  [INTERNAL]
+
+1800062e0  FUN_1800062e0  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 12
+    -> EXTERNAL:00000010  OverrideSleepFunction  [EXTERNAL]
+    -> EXTERNAL:00000016  RegisterPacket  [EXTERNAL]
+    -> EXTERNAL:00000017  Start  [EXTERNAL]
+    -> EXTERNAL:0000001b  Get  [EXTERNAL]
+    -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+    -> 180010100  FUN_180010100  [INTERNAL]
+    -> 1800107f0  FUN_1800107f0  [INTERNAL]
+    -> 180050430  FUN_180050430  [INTERNAL]
+    -> 180053940  FUN_180053940  [INTERNAL]
+    -> 1800539a0  FUN_1800539a0  [INTERNAL]
+    -> 1800f3ad0  free  [INTERNAL]
+    -> 1800f3b0c  FUN_1800f3b0c  [INTERNAL]
+
+180053f00  FUN_180053f00  [INTERNAL]
+  CALLERS (direct refs): 2
+    <- 180002ca0  FUN_180002ca0  [INTERNAL]
+    <- 18005cb20  FUN_18005cb20  [INTERNAL]
+  CALLEES (direct calls): 5
+    -> EXTERNAL:00000020  GetCommand  [EXTERNAL]
+    -> 1800f3ab0  __security_check_cookie  [INTERNAL]
+    -> 1800f3b84  _Init_thread_footer  [INTERNAL]
+    -> 1800f3bf0  FUN_1800f3bf0  [INTERNAL]
+    -> 1800f4cd2  memset  [INTERNAL]
+
+180059fd0  FUN_180059fd0  [INTERNAL]
+  CALLERS (direct refs): 1
+    <- 18005d410  FUN_18005d410  [INTERNAL]
+  CALLEES (direct calls): 14
+    -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+    -> 180010100  FUN_180010100  [INTERNAL]
+    -> 180013e90  FUN_180013e90  [INTERNAL]
+    -> 180017710  FUN_180017710  [INTERNAL]
+    -> 180050430  FUN_180050430  [INTERNAL]
+    -> 180054510  FUN_180054510  [INTERNAL]
+    -> 18005b770  FUN_18005b770  [INTERNAL]
+    -> 18005bcc0  FUN_18005bcc0  [INTERNAL]
+    -> 18005be50  FUN_18005be50  [INTERNAL]
+    -> 18005c060  FUN_18005c060  [INTERNAL]
+    -> 18005c350  FUN_18005c350  [INTERNAL]
+    -> 1800f3ab0  __security_check_cookie  [INTERNAL]
+    -> 1800f3ad0  free  [INTERNAL]
+    -> 1800f3b0c  FUN_1800f3b0c  [INTERNAL]
+
+18005cb20  FUN_18005cb20  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 9
+    -> EXTERNAL:00000042  Wait  [EXTERNAL]
+    -> 180053c20  FUN_180053c20  [INTERNAL]
+    -> 180053da0  FUN_180053da0  [INTERNAL]
+    -> 180053f00  FUN_180053f00  [INTERNAL]
+    -> 180054060  FUN_180054060  [INTERNAL]
+    -> 1800541b0  FUN_1800541b0  [INTERNAL]
+    -> 180055d90  FUN_180055d90  [INTERNAL]
+    -> 1800f3ab0  __security_check_cookie  [INTERNAL]
+    -> 1800f4cd2  memset  [INTERNAL]
+
+1800c2210  FUN_1800c2210  [INTERNAL]
+  CALLERS (direct refs): 1
+    <- 1800b8af0  FUN_1800b8af0  [INTERNAL]
+  CALLEES (direct calls): 8
+    -> 1800b2f90  FUN_1800b2f90  [INTERNAL]
+    -> 1800b84e0  FUN_1800b84e0  [INTERNAL]
+    -> 1800ba740  FUN_1800ba740  [INTERNAL]
+    -> 1800c4220  FUN_1800c4220  [INTERNAL]
+    -> 1800c4920  FUN_1800c4920  [INTERNAL]
+    -> 1800d6500  FUN_1800d6500  [INTERNAL]
+    -> 1800d6f00  FUN_1800d6f00  [INTERNAL]
+    -> 1800f4d38  strcmp  [INTERNAL]
+
+
+================================================================================
+5. IMPORTANT PATH SEARCHES
+================================================================================
+PATH GROUP: CEF/main menu -> ENet Connect
+  TARGET: <no candidate functions>
+PATH GROUP: ENet Connect -> LoadOnline
+  START: <no candidate functions>
+PATH GROUP: LoadOnline -> ClientWelcome
+  START: <no candidate functions>
+PATH GROUP: ClientWelcome -> player actor lifecycle
+  START: <no candidate functions>
+PATH GROUP: StartScreen / UI unstream -> LoadOnline
+  START: <no candidate functions>
+
+================================================================================
+6. INDIRECT / UNRESOLVED CALL SITES IN CANDIDATES
+================================================================================
+FUNCTION: 1800022d0  FUN_1800022d0  [INTERNAL]
+  unresolved/indirect calls: 8
+    1800023c3  CALL RAX
+    18000265b  CALL qword ptr [RAX]
+    18000266f  CALL qword ptr [RAX + 0x8]
+    180002719  CALL qword ptr [RAX]
+    18000272d  CALL qword ptr [RAX + 0x8]
+    1800028e3  CALL qword ptr [RAX + 0x8]
+    180002995  CALL qword ptr [RAX]
+    1800029a7  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180002ca0  FUN_180002ca0  [INTERNAL]
+  unresolved/indirect calls: 3
+    180002dd5  CALL qword ptr [RBP + -0x80]
+    180002ec2  CALL qword ptr [RAX]
+    180002ed4  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 1800050d0  FUN_1800050d0  [INTERNAL]
+  unresolved/indirect calls: 16
+    18000513f  CALL qword ptr [RDX]
+    180005153  CALL qword ptr [RAX + 0x8]
+    1800051a3  CALL qword ptr [RAX]
+    1800051b7  CALL qword ptr [RAX + 0x8]
+    180005407  CALL RAX
+    1800054fc  CALL qword ptr [RAX]
+    18000550e  CALL qword ptr [RAX + 0x8]
+    180005531  CALL qword ptr [RAX]
+    180005584  CALL qword ptr [RAX]
+    1800055c7  CALL qword ptr [RAX]
+    1800055ff  CALL qword ptr [RAX]
+    180005683  CALL qword ptr [RAX]
+    1800056d0  CALL qword ptr [RAX + 0x8]
+    1800056fb  CALL qword ptr [RAX + 0x8]
+    1800057ce  CALL qword ptr [RAX + 0x8]
+    1800057e9  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180005820  FUN_180005820  [INTERNAL]
+  unresolved/indirect calls: 6
+    18000588c  CALL qword ptr [RAX]
+    1800058a0  CALL qword ptr [RAX + 0x8]
+    18000591b  CALL R14
+    180005a6e  CALL qword ptr [RAX]
+    180005a80  CALL qword ptr [RAX + 0x8]
+    180005a9f  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180005ad0  FUN_180005ad0  [INTERNAL]
+  unresolved/indirect calls: 10
+    180005bb2  CALL qword ptr [RAX]
+    180005bc6  CALL qword ptr [RAX + 0x8]
+    180005d97  CALL R15
+    180005f98  CALL qword ptr [RAX]
+    180005fac  CALL qword ptr [RAX + 0x8]
+    18000601d  CALL qword ptr [RAX]
+    180006031  CALL qword ptr [RAX + 0x8]
+    180006050  CALL qword ptr [RAX + 0x8]
+    1800060ca  CALL qword ptr [RAX]
+    1800060e0  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 1800062e0  FUN_1800062e0  [INTERNAL]
+  unresolved/indirect calls: 20
+    1800063b5  CALL qword ptr [RAX]
+    1800063d8  CALL qword ptr [RAX + 0x20]
+    18000649c  CALL qword ptr [RAX]
+    1800064b0  CALL qword ptr [RAX + 0x8]
+    180006564  CALL qword ptr [RAX]
+    18000658d  CALL qword ptr [RAX + 0x20]
+    18000664f  CALL qword ptr [RAX]
+    180006663  CALL qword ptr [RAX + 0x8]
+    1800066c4  CALL qword ptr [RAX]
+    1800066d8  CALL qword ptr [RAX + 0x8]
+    18000672f  CALL qword ptr [RAX]
+    180006743  CALL qword ptr [RAX + 0x8]
+    18000679d  CALL qword ptr [RAX]
+    1800067b1  CALL qword ptr [RAX + 0x8]
+    18000680b  CALL qword ptr [RAX]
+    18000681f  CALL qword ptr [RAX + 0x8]
+    180006893  CALL qword ptr [RAX]
+    1800068a7  CALL qword ptr [RAX + 0x8]
+    1800068dc  CALL qword ptr [RAX]
+    1800068ee  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180053f00  FUN_180053f00  [INTERNAL]
+  unresolved/indirect calls: 1
+    180053fe2  CALL RAX
+
+FUNCTION: 18005cb20  FUN_18005cb20  [INTERNAL]
+  unresolved/indirect calls: 1
+    18005cc30  CALL qword ptr [RBP + -0x80]
+
+
+================================================================================
+7. DECOMPILATION OF KEY CANDIDATES
+================================================================================
+
+================================================================================
+DECOMPILATION: 1800022d0  FUN_1800022d0  [INTERNAL]
+================================================================================
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* WARNING: Removing unreachable block (ram,0x000180002743) */
+/* WARNING: Removing unreachable block (ram,0x000180002807) */
+
+void FUN_1800022d0(void)
+
+{
+  longlong *plVar1;
+  int *piVar2;
+  int iVar3;
+  longlong lVar4;
+  DiscordRPC *this;
+  void *pvVar5;
+  uint uVar6;
+  undefined8 *puVar7;
+  LPCWSTR pWVar8;
+  undefined8 uVar9;
+  ulonglong uVar10;
+  uint *puVar11;
+  longlong *plVar12;
+  void *pvVar13;
+  ClientHandler *pCVar14;
+  undefined1 auStack_358 [32];
+  void *local_338;
+  undefined8 uStack_330;
+  undefined8 local_328;
+  ulonglong uStack_320;
+  void *local_318;
+  longlong *plStack_310;
+  undefined8 local_308;
+  ulonglong uStack_300;
+  undefined2 local_2f8;
+  undefined6 uStack_2f6;
+  undefined8 local_2e8;
+  ulonglong uStack_2e0;
+  void *local_2d8 [3];
+  ulonglong local_2c0;
+  undefined2 local_2b8;
+  undefined6 uStack_2b6;
+  undefined8 local_2a8;
+  ulonglong uStack_2a0;
+  undefined **local_298 [7];
+  undefined ***local_260;
+  undefined **local_258 [7];
+  function<void___cdecl(scoped_refptr<CefProcessMessage>_const&___ptr64)> *local_220;
+  ClientHandler *local_218;
+  undefined8 uStack_210;
+  undefined8 local_208;
+  ulonglong uStack_200;
+  char *local_1f8;
+  undefined4 local_1f0;
+  undefined4 local_1ec;
+  char *local_1e8;
+  uint local_1e0;
+  undefined1 local_1dc [4];
+  longlong alStack_1d8 [4];
+  undefined4 auStack_1b4 [39];
+  char local_118 [256];
+  ulonglong local_18;
+  
+  local_18 = DAT_18012f440 ^ (ulonglong)auStack_358;
+  local_218 = (ClientHandler *)((ulonglong)local_218 & 0xffffffff00000000);
+  lVar4 = *(longlong *)((longlong)ThreadLocalStoragePointer + (ulonglong)_tls_index * 8);
+  while( true ) {
+    local_1ec = 0;
+    memset(local_1dc,0,0x1c4);
+    local_1e8 = local_118;
+    local_1f8 = local_118;
+    local_1f0 = 0;
+    local_1e0 = 0;
+    memset(local_118,0,0x100);
+    if ((*(int *)(lVar4 + 4) < DAT_180133a50) &&
+       (FUN_1800f3bf0(&DAT_180133a50), DAT_180133a50 == -1)) {
+      DAT_180133a58 = rage::scrThread::GetCommand(0x82a290d4);
+      _Init_thread_footer(&DAT_180133a50);
+    }
+    uVar6 = local_1e0;
+    if (DAT_180133a58 != (_func_void_InfoBase_ptr *)0x0) {
+      (*DAT_180133a58)((InfoBase *)&local_1f8);
+      uVar6 = local_1e0;
+    }
+    while (uVar6 != 0) {
+      local_1e0 = uVar6 - 1;
+      *(undefined4 *)alStack_1d8[local_1e0] =
+           *(undefined4 *)((longlong)&local_1f8 + (ulonglong)((uVar6 + 3) * 0x10));
+      *(undefined4 *)(alStack_1d8[local_1e0] + 4) = auStack_1b4[(ulonglong)local_1e0 * 4];
+      *(undefined4 *)(alStack_1d8[local_1e0] + 8) = auStack_1b4[(ulonglong)local_1e0 * 4 + 1];
+      uVar6 = local_1e0;
+    }
+    local_1e0 = uVar6;
+    if (local_118[0] != '\0') break;
+    ThisFiber::Wait(0);
+  }
+  puVar7 = (undefined8 *)Singleton<CEFManager>::Get();
+  puVar7 = (undefined8 *)*puVar7;
+  pWVar8 = (LPCWSTR)FUN_180058350((uint *)&local_2b8,(uint *)"cef/cef_ui/mainmenu/index.html");
+  local_338 = (void *)0x0;
+  uStack_330 = 0;
+  local_328 = 0;
+  uStack_320 = 0;
+  FUN_180050430(&local_338,"mainmenu",8);
+  uVar9 = FUN_1800529a0(pWVar8);
+  if ((char)uVar9 == '\0') {
+    Log::Print(3,(char *)0x0,"Failed to create CEF browser, url file doesn\'t exist !");
+  }
+  else {
+    uVar10 = FUN_1800f3098();
+    local_218 = (ClientHandler *)0x18010d320;
+    uStack_210 = 7;
+    FUN_180058060((LPWSTR)local_2d8,(UINT)uVar10,&local_218);
+    puVar11 = FUN_180057660((uint *)&local_2f8,(uint *)local_2d8,(uint *)pWVar8);
+    FUN_18000ee20(puVar7,(longlong *)&local_338,(undefined8 *)puVar11);
+    if (7 < uStack_2e0) {
+      pvVar5 = (void *)CONCAT62(uStack_2f6,local_2f8);
+      pvVar13 = pvVar5;
+      if ((0xfff < uStack_2e0 * 2 + 2) &&
+         (pvVar13 = *(void **)((longlong)pvVar5 + -8),
+         0x1f < (ulonglong)((longlong)pvVar5 + (-8 - (longlong)pvVar13)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(pvVar13);
+    }
+    local_2e8 = 0;
+    uStack_2e0 = 7;
+    local_2f8 = 0;
+    if (7 < local_2c0) {
+      pvVar13 = local_2d8[0];
+      if ((0xfff < local_2c0 * 2 + 2) &&
+         (pvVar13 = *(void **)((longlong)local_2d8[0] + -8),
+         0x1f < (ulonglong)((longlong)local_2d8[0] + (-8 - (longlong)pvVar13)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(pvVar13);
+    }
+  }
+  if (0xf < uStack_320) {
+    pvVar13 = local_338;
+    if ((0xfff < uStack_320 + 1) &&
+       (pvVar13 = *(void **)((longlong)local_338 + -8),
+       0x1f < (ulonglong)((longlong)local_338 + (-8 - (longlong)pvVar13)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(pvVar13);
+  }
+  if (7 < uStack_2a0) {
+    pvVar5 = (void *)CONCAT62(uStack_2b6,local_2b8);
+    pvVar13 = pvVar5;
+    if ((0xfff < uStack_2a0 * 2 + 2) &&
+       (pvVar13 = *(void **)((longlong)pvVar5 + -8),
+       0x1f < (ulonglong)((longlong)pvVar5 + (-8 - (longlong)pvVar13)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(pvVar13);
+  }
+  plVar12 = plStack_310;
+  local_2a8 = 0;
+  uStack_2a0 = 7;
+  local_2b8 = 0;
+  if (plStack_310 != (longlong *)0x0) {
+    LOCK();
+    plVar1 = plStack_310 + 1;
+    lVar4 = *plVar1;
+    *(int *)plVar1 = (int)*plVar1 + -1;
+    UNLOCK();
+    if ((int)lVar4 == 1) {
+      (**(code **)*plStack_310)(plStack_310);
+      LOCK();
+      piVar2 = (int *)((longlong)plVar12 + 0xc);
+      iVar3 = *piVar2;
+      *piVar2 = *piVar2 + -1;
+      UNLOCK();
+      if (iVar3 == 1) {
+        (**(code **)(*plVar12 + 8))(plVar12);
+      }
+    }
+  }
+  plVar12 = (longlong *)Singleton<CEFManager>::Get();
+  lVar4 = *plVar12;
+  local_338 = (void *)0x0;
+  uStack_330 = 0;
+  local_328 = 0;
+  uStack_320 = 0;
+  FUN_180050430(&local_338,"mainmenu",8);
+  FUN_180008730(lVar4,(longlong *)&local_218,(longlong *)&local_338);
+  if (0xf < uStack_320) {
+    pvVar13 = local_338;
+    if ((0xfff < uStack_320 + 1) &&
+       (pvVar13 = *(void **)((longlong)local_338 + -8),
+       0x1f < (ulonglong)((longlong)local_338 + (-8 - (longlong)pvVar13)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(pvVar13);
+  }
+  plVar12 = plStack_310;
+  if (plStack_310 != (longlong *)0x0) {
+    LOCK();
+    plVar1 = plStack_310 + 1;
+    lVar4 = *plVar1;
+    *(int *)plVar1 = (int)*plVar1 + -1;
+    UNLOCK();
+    if ((int)lVar4 == 1) {
+      (**(code **)*plStack_310)(plStack_310);
+      LOCK();
+      piVar2 = (int *)((longlong)plVar12 + 0xc);
+      iVar3 = *piVar2;
+      *piVar2 = *piVar2 + -1;
+      UNLOCK();
+      if (iVar3 == 1) {
+        (**(code **)(*plVar12 + 8))(plVar12);
+      }
+    }
+  }
+  pCVar14 = local_218;
+  if (local_218 != (ClientHandler *)0x0) {
+    local_298[0] = std::
+                   _Func_impl_no_alloc<`void___cdecl_LoadMainMenu(void)'::`7'::<lambda_1>,void,void*___ptr64>
+                   ::vftable;
+    local_260 = local_298;
+    local_338 = (void *)0x0;
+    uStack_330 = 0;
+    local_328 = 0;
+    uStack_320 = 0;
+    FUN_180050430(&local_338,"OnConnect",9);
+    FUN_1800539a0((float *)(pCVar14 + 0x100),(longlong *)&local_318,(longlong *)&local_338,
+                  (longlong)local_298);
+    if (0xf < uStack_320) {
+      pvVar13 = local_338;
+      if ((0xfff < uStack_320 + 1) &&
+         (pvVar13 = *(void **)((longlong)local_338 + -8),
+         0x1f < (ulonglong)((longlong)local_338 + (-8 - (longlong)pvVar13)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(pvVar13);
+    }
+    if (local_260 != (undefined ***)0x0) {
+      (*(code *)(*local_260)[4])
+                (local_260,CONCAT71((int7)((ulonglong)local_298 >> 8),local_260 != local_298));
+    }
+    local_258[0] = std::
+                   _Func_impl_no_alloc<`void___cdecl_LoadMainMenu(void)'::`7'::<lambda_2>,void,scoped_refptr<CefProcessMessage>_const&___ptr64>
+                   ::vftable;
+    local_318 = (void *)0x0;
+    plStack_310 = (longlong *)0x0;
+    local_308 = 0;
+    uStack_300 = 0;
+    local_220 = (function<void___cdecl(scoped_refptr<CefProcessMessage>_const&___ptr64)> *)local_258
+    ;
+    FUN_180050430(&local_318,&DAT_18010cd94,4);
+    ClientHandler::RegisterFunction
+              (pCVar14,(basic_string<char,std::char_traits<char>,std::allocator<char>_> *)&local_318
+               ,(function<void___cdecl(scoped_refptr<CefProcessMessage>_const&___ptr64)> *)local_258
+              );
+    if (0xf < uStack_300) {
+      pvVar13 = local_318;
+      if ((0xfff < uStack_300 + 1) &&
+         (pvVar13 = *(void **)((longlong)local_318 + -8),
+         0x1f < (ulonglong)((longlong)local_318 + (-8 - (longlong)pvVar13)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(pvVar13);
+    }
+    local_308 = 0;
+    uStack_300 = 0xf;
+    local_318 = (void *)((ulonglong)local_318 & 0xffffffffffffff00);
+    if (local_220 != (function<void___cdecl(scoped_refptr<CefProcessMessage>_const&___ptr64)> *)0x0)
+    {
+      (**(code **)(*(longlong *)local_220 + 0x20))
+                (local_220,
+                 CONCAT71((int7)((ulonglong)local_258 >> 8),
+                          local_220 !=
+                          (function<void___cdecl(scoped_refptr<CefProcessMessage>_const&___ptr64)> *
+                          )local_258));
+    }
+  }
+  if (pCVar14 != (ClientHandler *)0x0) {
+    (**(code **)(*(longlong *)(pCVar14 + (longlong)*(int *)(*(longlong *)(pCVar14 + 8) + 4) + 8) + 8
+                ))();
+  }
+  puVar7 = (undefined8 *)Singleton<DiscordRPC>::Get();
+  this = (DiscordRPC *)*puVar7;
+  local_218 = (ClientHandler *)0x0;
+  uStack_210 = 0;
+  local_208 = 0;
+  uStack_200 = 0;
+  FUN_180050430(&local_218,"Main Menu",9);
+  DiscordRPC::SetState
+            (this,(basic_string<char,std::char_traits<char>,std::allocator<char>_> *)&local_218);
+  if (0xf < uStack_200) {
+    pCVar14 = local_218;
+    if ((0xfff < uStack_200 + 1) &&
+       (pCVar14 = *(ClientHandler **)(local_218 + -8),
+       (ClientHandler *)0x1f < local_218 + (-8 - (longlong)pCVar14))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(pCVar14);
+  }
+  plVar12 = plStack_310;
+  local_208 = 0;
+  uStack_200 = 0xf;
+  local_218 = (ClientHandler *)((ulonglong)local_218 & 0xffffffffffffff00);
+  if (plStack_310 != (longlong *)0x0) {
+    LOCK();
+    plVar1 = plStack_310 + 1;
+    lVar4 = *plVar1;
+    *(int *)plVar1 = (int)*plVar1 + -1;
+    UNLOCK();
+    if ((int)lVar4 == 1) {
+      (**(code **)*plStack_310)(plStack_310);
+      LOCK();
+      piVar2 = (int *)((longlong)plVar12 + 0xc);
+      iVar3 = *piVar2;
+      *piVar2 = *piVar2 + -1;
+      UNLOCK();
+      if (iVar3 == 1) {
+        (**(code **)(*plVar12 + 8))(plVar12);
+      }
+    }
+  }
+  return;
+}
+
+
+DIRECT CALL REFERENCES:
+  180002341 -> 1800f4cd2  memset  [INTERNAL]
+  180002371 -> 1800f4cd2  memset  [INTERNAL]
+  180002387 -> 1800f3bf0  FUN_1800f3bf0  [INTERNAL]
+  18000239a -> EXTERNAL:00000020  GetCommand  [EXTERNAL]
+  1800023ae -> 1800f3b84  _Init_thread_footer  [INTERNAL]
+  180002430 -> EXTERNAL:00000042  Wait  [EXTERNAL]
+  180002440 -> EXTERNAL:0000003e  Get  [EXTERNAL]
+  180002455 -> 180058350  FUN_180058350  [INTERNAL]
+  180002480 -> 180050430  FUN_180050430  [INTERNAL]
+  180002489 -> 1800529a0  FUN_1800529a0  [INTERNAL]
+  1800024a0 -> EXTERNAL:00000043  Print  [EXTERNAL]
+  1800024ab -> 1800f3098  FUN_1800f3098  [INTERNAL]
+  1800024cd -> 180058060  FUN_180058060  [INTERNAL]
+  1800024e4 -> 180057660  FUN_180057660  [INTERNAL]
+  1800024f5 -> 18000ee20  FUN_18000ee20  [INTERNAL]
+  180002534 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18000253b -> 1800f3ad0  free  [INTERNAL]
+  18000258a -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  180002591 -> 1800f3ad0  free  [INTERNAL]
+  1800025d2 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  1800025d9 -> 1800f3ad0  free  [INTERNAL]
+  18000261d -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  180002624 -> 1800f3ad0  free  [INTERNAL]
+  180002677 -> EXTERNAL:0000003e  Get  [EXTERNAL]
+  1800026a4 -> 180050430  FUN_180050430  [INTERNAL]
+  1800026b6 -> 180008730  FUN_180008730  [INTERNAL]
+  1800026f0 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  1800026f7 -> 1800f3ad0  free  [INTERNAL]
+  18000274b -> 1800674a0  FUN_1800674a0  [INTERNAL]
+  180002786 -> 180050430  FUN_180050430  [INTERNAL]
+  1800027a1 -> 1800539a0  FUN_1800539a0  [INTERNAL]
+  1800027db -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  1800027e2 -> 1800f3ad0  free  [INTERNAL]
+  1800027fe -> 180010100  FUN_180010100  [INTERNAL]
+  18000280b -> 1800674a0  FUN_1800674a0  [INTERNAL]
+  180002846 -> 180050430  FUN_180050430  [INTERNAL]
+  180002858 -> EXTERNAL:00000032  RegisterFunction  [EXTERNAL]
+  180002893 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18000289a -> 1800f3ad0  free  [INTERNAL]
+  1800028c8 -> 180010100  FUN_180010100  [INTERNAL]
+  1800028ec -> EXTERNAL:0000005a  Get  [EXTERNAL]
+  180002916 -> 180050430  FUN_180050430  [INTERNAL]
+  180002923 -> EXTERNAL:00000058  SetState  [EXTERNAL]
+  18000295c -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  180002963 -> 1800f3ad0  free  [INTERNAL]
+  1800029b4 -> 1800f3ab0  __security_check_cookie  [INTERNAL]
+
+================================================================================
+DECOMPILATION: 180002ca0  FUN_180002ca0  [INTERNAL]
+================================================================================
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void FUN_180002ca0(void)
+
+{
+  longlong *plVar1;
+  int *piVar2;
+  int iVar3;
+  wchar_t *pwVar4;
+  longlong lVar5;
+  longlong *plVar6;
+  char cVar7;
+  undefined8 *puVar8;
+  void *_Memory;
+  undefined **_Memory_00;
+  undefined1 auStack_2c8 [32];
+  longlong *local_2a8;
+  char *local_2a0;
+  longlong *local_298;
+  undefined8 local_290;
+  longlong local_288 [4];
+  void *local_268;
+  undefined8 uStack_260;
+  undefined8 local_258;
+  ulonglong uStack_250;
+  code *local_248;
+  undefined **local_240;
+  code **local_238;
+  ulonglong local_228;
+  undefined ***local_208;
+  undefined8 *local_1f8;
+  uint local_1f0;
+  undefined4 local_1ec;
+  undefined8 *local_1e8;
+  undefined4 local_1e0;
+  undefined1 local_1dc [196];
+  undefined8 local_118 [32];
+  ulonglong local_18;
+  
+  local_18 = DAT_18012f440 ^ (ulonglong)auStack_2c8;
+  FUN_1800541b0();
+  cVar7 = FUN_180054060();
+  while (cVar7 != '\0') {
+    ThisFiber::Wait(0);
+    cVar7 = FUN_180054060();
+  }
+  FUN_180053f00();
+  FUN_180053da0("fileSetForMPLoad");
+  FUN_180053da0("fileStartupChecksComplete");
+  local_248 = (code *)0x0;
+  local_2a0 = "UI_Unstreammovie";
+  local_298 = &DAT_18010ce90;
+  local_290 = 0;
+  local_240 = std::
+              _Func_impl_no_alloc<`void___cdecl_LoadOnline(void)'::`2'::<lambda_1>,void,Pattern_const&___ptr64>
+              ::vftable;
+  local_238 = &local_248;
+  local_208 = &local_240;
+  FUN_180055d90(&local_2a0,(longlong *)&local_240);
+  local_1ec = 0;
+  memset(local_1dc,0,0x1c4);
+  local_1e8 = local_118;
+  local_1f8 = local_118;
+  local_1f0 = 0;
+  local_1e0 = 0;
+  memset(local_118,0,0x100);
+  local_118[local_1f0] = 0;
+  *(undefined4 *)(local_118 + local_1f0) = 0;
+  local_118[local_1f0 + 1] = "startscreen";
+  local_1f0 = local_1f0 + 2;
+  (*local_248)(&local_1f8);
+  FUN_180053c20();
+  puVar8 = (undefined8 *)Singleton<Config>::Get();
+  pwVar4 = (wchar_t *)*puVar8;
+  local_2a8 = local_288;
+  local_288[0] = 0;
+  local_288[1] = 0;
+  local_288[2] = 0;
+  local_288[3] = 0;
+  FUN_180050430(local_288,"Guest",5);
+  local_268 = (void *)0x0;
+  uStack_260 = 0;
+  local_258 = 0;
+  uStack_250 = 0;
+  FUN_180050430(&local_268,"player_name",0xb);
+  FUN_1800088c0(pwVar4,(longlong *)&local_240,(longlong *)&local_268,local_288);
+  if (0xf < uStack_250) {
+    _Memory = local_268;
+    if ((0xfff < uStack_250 + 1) &&
+       (_Memory = *(void **)((longlong)local_268 + -8),
+       0x1f < (ulonglong)((longlong)local_268 + (-8 - (longlong)_Memory)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(_Memory);
+  }
+  plVar6 = local_298;
+  if (local_298 != (longlong *)0x0) {
+    LOCK();
+    plVar1 = local_298 + 1;
+    lVar5 = *plVar1;
+    *(int *)plVar1 = (int)*plVar1 + -1;
+    UNLOCK();
+    if ((int)lVar5 == 1) {
+      (**(code **)*local_298)(local_298);
+      LOCK();
+      piVar2 = (int *)((longlong)plVar6 + 0xc);
+      iVar3 = *piVar2;
+      *piVar2 = *piVar2 + -1;
+      UNLOCK();
+      if (iVar3 == 1) {
+        (**(code **)(*plVar6 + 8))(plVar6);
+      }
+    }
+  }
+  FUN_180002a70(&local_240);
+  if (0xf < local_228) {
+    _Memory_00 = local_240;
+    if ((0xfff < local_228 + 1) &&
+       (_Memory_00 = (undefined **)local_240[-1],
+       0x1f < (ulonglong)((longlong)local_240 + (-8 - (longlong)_Memory_00)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(_Memory_00);
+  }
+  return;
+}
+
+
+DIRECT CALL REFERENCES:
+  180002ccb -> 1800541b0  FUN_1800541b0  [INTERNAL]
+  180002cd0 -> 180054060  FUN_180054060  [INTERNAL]
+  180002ce2 -> EXTERNAL:00000042  Wait  [EXTERNAL]
+  180002ce8 -> 180054060  FUN_180054060  [INTERNAL]
+  180002cf1 -> 180053f00  FUN_180053f00  [INTERNAL]
+  180002cfd -> 180053da0  FUN_180053da0  [INTERNAL]
+  180002d09 -> 180053da0  FUN_180053da0  [INTERNAL]
+  180002d55 -> 180055d90  FUN_180055d90  [INTERNAL]
+  180002d6b -> 1800f4cd2  memset  [INTERNAL]
+  180002d9b -> 1800f4cd2  memset  [INTERNAL]
+  180002dd8 -> 180053c20  FUN_180053c20  [INTERNAL]
+  180002de2 -> EXTERNAL:00000051  Get  [EXTERNAL]
+  180002e1a -> 180050430  FUN_180050430  [INTERNAL]
+  180002e43 -> 180050430  FUN_180050430  [INTERNAL]
+  180002e5a -> 1800088c0  FUN_1800088c0  [INTERNAL]
+  180002e94 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  180002e9b -> 1800f3ad0  free  [INTERNAL]
+  180002edb -> 180002a70  FUN_180002a70  [INTERNAL]
+  180002f13 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  180002f1a -> 1800f3ad0  free  [INTERNAL]
+  180002f29 -> 1800f3ab0  __security_check_cookie  [INTERNAL]
+
+================================================================================
+DECOMPILATION: 180053f00  FUN_180053f00  [INTERNAL]
+================================================================================
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void FUN_180053f00(void)
+
+{
+  uint uVar1;
+  undefined1 auStack_218 [32];
+  undefined8 *local_1f8;
+  uint local_1f0;
+  undefined4 local_1ec;
+  undefined8 *local_1e8;
+  uint local_1e0;
+  undefined1 local_1dc [4];
+  longlong alStack_1d8 [4];
+  undefined4 auStack_1b4 [39];
+  undefined8 local_118 [32];
+  ulonglong local_18;
+  
+  local_18 = DAT_18012f440 ^ (ulonglong)auStack_218;
+  local_1ec = 0;
+  memset(local_1dc,0,0x1c4);
+  local_1f0 = 0;
+  local_1e0 = 0;
+  local_1f8 = local_118;
+  local_1e8 = local_118;
+  memset(local_118,0,0x100);
+  local_118[local_1f0] = "StartScreen1";
+  local_1f0 = local_1f0 + 1;
+  if ((*(int *)(*(longlong *)((longlong)ThreadLocalStoragePointer + (ulonglong)_tls_index * 8) + 4)
+       < DAT_180133a08) && (FUN_1800f3bf0(&DAT_180133a08), DAT_180133a08 == -1)) {
+    DAT_180133a10 = rage::scrThread::GetCommand(0x2df89c2e);
+    _Init_thread_footer(&DAT_180133a08);
+  }
+  uVar1 = local_1e0;
+  if (DAT_180133a10 != (_func_void_InfoBase_ptr *)0x0) {
+    (*DAT_180133a10)((InfoBase *)&local_1f8);
+    uVar1 = local_1e0;
+  }
+  while (uVar1 != 0) {
+    local_1e0 = uVar1 - 1;
+    *(undefined4 *)alStack_1d8[local_1e0] =
+         *(undefined4 *)((longlong)&local_1f8 + (ulonglong)((uVar1 + 3) * 0x10));
+    *(undefined4 *)(alStack_1d8[local_1e0] + 4) = auStack_1b4[(ulonglong)local_1e0 * 4];
+    *(undefined4 *)(alStack_1d8[local_1e0] + 8) = auStack_1b4[(ulonglong)local_1e0 * 4 + 1];
+    uVar1 = local_1e0;
+  }
+  return;
+}
+
+
+DIRECT CALL REFERENCES:
+  180053f35 -> 1800f4cd2  memset  [INTERNAL]
+  180053f62 -> 1800f4cd2  memset  [INTERNAL]
+  180053fa5 -> 1800f3bf0  FUN_1800f3bf0  [INTERNAL]
+  180053fb8 -> EXTERNAL:00000020  GetCommand  [EXTERNAL]
+  180053fcc -> 1800f3b84  _Init_thread_footer  [INTERNAL]
+  180054044 -> 1800f3ab0  __security_check_cookie  [INTERNAL]
+
+================================================================================
+DECOMPILATION: 18005cb20  FUN_18005cb20  [INTERNAL]
+================================================================================
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void FUN_18005cb20(void)
+
+{
+  char cVar1;
+  undefined1 auStack_288 [32];
+  char *local_268;
+  undefined8 *local_260;
+  undefined8 local_258;
+  undefined **local_248;
+  code **local_240;
+  undefined ***local_210;
+  code *local_208 [2];
+  undefined8 *local_1f8;
+  uint local_1f0;
+  undefined4 local_1ec;
+  undefined8 *local_1e8;
+  undefined4 local_1e0;
+  undefined1 local_1dc [196];
+  undefined8 local_118 [32];
+  ulonglong local_18;
+  
+  local_18 = DAT_18012f440 ^ (ulonglong)auStack_288;
+  FUN_1800541b0();
+  cVar1 = FUN_180054060();
+  while (cVar1 != '\0') {
+    ThisFiber::Wait(0);
+    cVar1 = FUN_180054060();
+  }
+  FUN_180053f00();
+  FUN_180053da0("fileStartupChecksComplete");
+  local_268 = "UI_Unstreammovie";
+  local_208[0] = (code *)0x0;
+  local_260 = &DAT_18010ce90;
+  local_258 = 0;
+  local_248 = std::
+              _Func_impl_no_alloc<`public:___cdecl_`public:___cdecl_`public:___cdecl_Commands::Commands(void)___ptr64'::`2'::<lambda_2>::operator()(std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>_>_const&___ptr64)const___ptr64'::`2'::<lambda_1>::operator()(void)const___ptr64'::`2'::<lambda_1>,void,Pattern_const&___ptr64>
+              ::vftable;
+  local_240 = local_208;
+  local_210 = &local_248;
+  FUN_180055d90(&local_268,(longlong *)&local_248);
+  local_1ec = 0;
+  memset(local_1dc,0,0x1c4);
+  local_1e8 = local_118;
+  local_1f0 = 0;
+  local_1f8 = local_118;
+  local_1e0 = 0;
+  memset(local_118,0,0x100);
+  local_118[local_1f0] = 0;
+  *(undefined4 *)(local_118 + local_1f0) = 0;
+  local_118[local_1f0 + 1] = "startscreen";
+  local_1f0 = local_1f0 + 2;
+  (*local_208[0])(&local_1f8);
+  FUN_180053c20();
+  return;
+}
+
+
+DIRECT CALL REFERENCES:
+  18005cb46 -> 1800541b0  FUN_1800541b0  [INTERNAL]
+  18005cb4b -> 180054060  FUN_180054060  [INTERNAL]
+  18005cb56 -> EXTERNAL:00000042  Wait  [EXTERNAL]
+  18005cb5c -> 180054060  FUN_180054060  [INTERNAL]
+  18005cb65 -> 180053f00  FUN_180053f00  [INTERNAL]
+  18005cb71 -> 180053da0  FUN_180053da0  [INTERNAL]
+  18005cbc2 -> 180055d90  FUN_180055d90  [INTERNAL]
+  18005cbd8 -> 1800f4cd2  memset  [INTERNAL]
+  18005cbff -> 1800f4cd2  memset  [INTERNAL]
+  18005cc33 -> 180053c20  FUN_180053c20  [INTERNAL]
+  18005cc42 -> 1800f3ab0  __security_check_cookie  [INTERNAL]
+
+================================================================================
+8. DIRECT CALLS THAT POINT OUTSIDE A FUNCTION BODY
+================================================================================
+FUNCTION: 1800022d0  FUN_1800022d0  [INTERNAL]
+  18000239a -> EXTERNAL:00000020  GetCommand  [EXTERNAL]
+  180002430 -> EXTERNAL:00000042  Wait  [EXTERNAL]
+  180002440 -> EXTERNAL:0000003e  Get  [EXTERNAL]
+  1800024a0 -> EXTERNAL:00000043  Print  [EXTERNAL]
+  180002534 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18000258a -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  1800025d2 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18000261d -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  180002677 -> EXTERNAL:0000003e  Get  [EXTERNAL]
+  1800026f0 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  1800027db -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  180002858 -> EXTERNAL:00000032  RegisterFunction  [EXTERNAL]
+  180002893 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  1800028ec -> EXTERNAL:0000005a  Get  [EXTERNAL]
+  180002923 -> EXTERNAL:00000058  SetState  [EXTERNAL]
+  18000295c -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+FUNCTION: 180002a70  FUN_180002a70  [INTERNAL]
+  180002be0 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  180002c6c -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+FUNCTION: 180002ca0  FUN_180002ca0  [INTERNAL]
+  180002ce2 -> EXTERNAL:00000042  Wait  [EXTERNAL]
+  180002de2 -> EXTERNAL:00000051  Get  [EXTERNAL]
+  180002e94 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  180002f13 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+FUNCTION: 1800050d0  FUN_1800050d0  [INTERNAL]
+  18000510c -> EXTERNAL:0000001b  Get  [EXTERNAL]
+  180005116 -> EXTERNAL:0000000c  GetServerData  [EXTERNAL]
+  180005178 -> EXTERNAL:0000001b  Get  [EXTERNAL]
+  180005268 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  180005323 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  1800053de -> EXTERNAL:00000020  GetCommand  [EXTERNAL]
+  18000545a -> EXTERNAL:0000003e  Get  [EXTERNAL]
+  1800054d4 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  1800056a6 -> EXTERNAL:0000015b  _beginthreadex  [EXTERNAL]
+  180005712 -> EXTERNAL:00000104  _Thrd_detach  [EXTERNAL]
+  180005726 -> EXTERNAL:00000105  _Throw_Cpp_error  [EXTERNAL]
+  180005736 -> EXTERNAL:00000105  _Throw_Cpp_error  [EXTERNAL]
+  1800057aa -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+FUNCTION: 180005820  FUN_180005820  [INTERNAL]
+  18000585b -> EXTERNAL:0000001b  Get  [EXTERNAL]
+  180005865 -> EXTERNAL:0000000d  Disconnect  [EXTERNAL]
+  18000590b -> EXTERNAL:00000073  cef_string_utf8_to_utf16  [EXTERNAL]
+  18000592e -> EXTERNAL:00000074  cef_string_utf16_clear  [EXTERNAL]
+  180005946 -> EXTERNAL:0000003e  Get  [EXTERNAL]
+  1800059b0 -> EXTERNAL:00000035  SendProcessMessage  [EXTERNAL]
+  1800059e9 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  180005a37 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+FUNCTION: 180005ad0  FUN_180005ad0  [INTERNAL]
+  180005b0d -> EXTERNAL:00000002  Get  [EXTERNAL]
+  180005b2f -> EXTERNAL:00000004  DownloadResources  [EXTERNAL]
+  180005b71 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  180005d86 -> EXTERNAL:00000073  cef_string_utf8_to_utf16  [EXTERNAL]
+  180005dac -> EXTERNAL:00000074  cef_string_utf16_clear  [EXTERNAL]
+  180005dfe -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  180005e4f -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  180005e60 -> EXTERNAL:0000003e  Get  [EXTERNAL]
+  180005ed2 -> EXTERNAL:00000035  SendProcessMessage  [EXTERNAL]
+  180005f0d -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  180005f5f -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  180005fb4 -> EXTERNAL:00000052  Get  [EXTERNAL]
+  180006059 -> EXTERNAL:00000052  Get  [EXTERNAL]
+  180006152 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+FUNCTION: 1800062e0  FUN_1800062e0  [INTERNAL]
+  180006304 -> EXTERNAL:0000001b  Get  [EXTERNAL]
+  180006451 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  1800064b8 -> EXTERNAL:0000001b  Get  [EXTERNAL]
+  180006609 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18000666b -> EXTERNAL:0000001b  Get  [EXTERNAL]
+  1800066a1 -> EXTERNAL:00000016  RegisterPacket  [EXTERNAL]
+  1800066e0 -> EXTERNAL:0000001b  Get  [EXTERNAL]
+  18000670c -> EXTERNAL:00000016  RegisterPacket  [EXTERNAL]
+  18000674b -> EXTERNAL:0000001b  Get  [EXTERNAL]
+  18000677a -> EXTERNAL:00000016  RegisterPacket  [EXTERNAL]
+  1800067b9 -> EXTERNAL:0000001b  Get  [EXTERNAL]
+  1800067e8 -> EXTERNAL:00000016  RegisterPacket  [EXTERNAL]
+  180006827 -> EXTERNAL:0000001b  Get  [EXTERNAL]
+  180006853 -> EXTERNAL:00000010  OverrideSleepFunction  [EXTERNAL]
+  1800068af -> EXTERNAL:0000001b  Get  [EXTERNAL]
+  1800068b9 -> EXTERNAL:00000017  Start  [EXTERNAL]
+FUNCTION: 180053f00  FUN_180053f00  [INTERNAL]
+  180053fb8 -> EXTERNAL:00000020  GetCommand  [EXTERNAL]
+FUNCTION: 180059fd0  FUN_180059fd0  [INTERNAL]
+  18005a26c -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18005a2ad -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18005a2ee -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18005a498 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18005a4d9 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18005a51a -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18005a6c7 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18005a708 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18005a749 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18005a8fc -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18005a93d -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18005a97e -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18005ab43 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18005ab84 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18005abc5 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18005ad8a -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18005adcb -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18005ae0c -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18005afd1 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18005b012 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18005b053 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18005b218 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18005b259 -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18005b29a -> EXTERNAL:00000161  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+FUNCTION: 18005cb20  FUN_18005cb20  [INTERNAL]
+  18005cb56 -> EXTERNAL:00000042  Wait  [EXTERNAL]
+
+================================================================================
+9. LIKELY BOOTSTRAP TRANSITION POINTS
+================================================================================
+TRANSITION CANDIDATE score=8  1800022d0  FUN_1800022d0  [INTERNAL]
+  markers: LoadMainMenu, CEFManager, mainmenu, cef/cef_ui/mainmenu/index.html, OnConnect, RegisterFunction, ClientHandler, connect
+  direct callers: 0
+  direct callees: 24
+TRANSITION CANDIDATE score=7  180002ca0  FUN_180002ca0  [INTERNAL]
+  markers: LoadOnline, UI_Unstreammovie, fileSetForMPLoad, fileStartupChecksComplete, startscreen, player_name, Guest
+  direct callers: 0
+  direct callees: 15
+TRANSITION CANDIDATE score=5  1800050d0  FUN_1800050d0  [INTERNAL]
+  markers: CEFManager, mainmenu, GameClient::Get, GameClient, failed_server_invalid_version
+  direct callers: 0
+  direct callees: 21
+TRANSITION CANDIDATE score=5  180005820  FUN_180005820  [INTERNAL]
+  markers: CEFManager, mainmenu, GameClient, connect, disconnect
+  direct callers: 2
+  direct callees: 12
+TRANSITION CANDIDATE score=5  180005ad0  FUN_180005ad0  [INTERNAL]
+  markers: CEFManager, mainmenu, HTTPClient::DownloadResources, set_loading_screen, failed_server_retrieving_resources
+  direct callers: 1
+  direct callees: 23
+TRANSITION CANDIDATE score=5  1800062e0  FUN_1800062e0  [INTERNAL]
+  markers: GameClient, connect, disconnect, on_connection_succeeded, on_disconnect
+  direct callers: 0
+  direct callees: 12
+TRANSITION CANDIDATE score=3  180059fd0  FUN_180059fd0  [INTERNAL]
+  markers: connect, disconnect, retry
+  direct callers: 1
+  direct callees: 14
+TRANSITION CANDIDATE score=3  18005cb20  FUN_18005cb20  [INTERNAL]
+  markers: UI_Unstreammovie, fileStartupChecksComplete, startscreen
+  direct callers: 0
+  direct callees: 9
+TRANSITION CANDIDATE score=2  180053f00  FUN_180053f00  [INTERNAL]
+  markers: StartScreen1, startscreen
+  direct callers: 2
+  direct callees: 5
+
+================================================================================
+10. WHAT THIS REPORT CAN / CANNOT PROVE
+================================================================================
+CAN:
+  - identify functions/symbols/strings related to CEF, ENet, ClientWelcome and player actor lifecycle
+  - show direct callers/callees recovered from static call/reference edges
+  - show short direct-call paths between important regions
+  - expose indirect-call sites where a native invoker / virtual dispatch may hide the true target
+
+CANNOT by itself:
+  - prove an indirect callback target when the binary uses function pointers without recoverable references
+  - prove runtime order when scripts/fibers/event dispatch change the order dynamically
+  - prove network success or actor creation at runtime
+  - replace dynamic tracing when a native invoker obscures the called native
+
+The most useful next evidence, when a path stops, is the decompilation and xref neighborhood printed for the last resolved function.

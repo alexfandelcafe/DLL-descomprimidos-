@@ -1,0 +1,479 @@
+
+================================================================================
+RDRMP / FRONTIER STATIC BOOTSTRAP INVESTIGATOR
+================================================================================
+Program: client-luascripting.dll
+Executable format: Portable Executable (PE)
+Language: x86:LE:64:default
+Image base: 180000000
+Timestamp: Sat Sep 26 01:55:46 ART 2026
+Mode: static only; no execution/emulation
+
+================================================================================
+1. SYMBOL / FUNCTION HITS
+================================================================================
+KEYWORD: LoadMainMenu
+  <no function-name match>
+KEYWORD: CEFManager
+  <no function-name match>
+KEYWORD: mainmenu
+  <no function-name match>
+KEYWORD: cef/cef_ui/mainmenu/index.html
+  <no function-name match>
+KEYWORD: OnConnect
+  <no function-name match>
+KEYWORD: RegisterFunction
+  <no function-name match>
+KEYWORD: ClientHandler
+  <no function-name match>
+KEYWORD: LoadOnline
+  <no function-name match>
+KEYWORD: UI_Unstreammovie
+  <no function-name match>
+KEYWORD: fileSetForMPLoad
+  <no function-name match>
+KEYWORD: fileStartupChecksComplete
+  <no function-name match>
+KEYWORD: StartScreen1
+  <no function-name match>
+KEYWORD: startscreen
+  <no function-name match>
+KEYWORD: player_name
+  <no function-name match>
+KEYWORD: Guest
+  <no function-name match>
+KEYWORD: ENetClient::Connect
+  <no function-name match>
+KEYWORD: ENetClient::GetHostAddress
+  <no function-name match>
+KEYWORD: ENetClient::GetHostPort
+  <no function-name match>
+KEYWORD: ClientWelcome
+  <no function-name match>
+KEYWORD: GameClient::Get
+  <no function-name match>
+KEYWORD: GameClient
+  <no function-name match>
+KEYWORD: init_native_actorenum_player
+  <no function-name match>
+KEYWORD: create_player_actor_in_layout
+  <no function-name match>
+KEYWORD: respawn_player_actor_in_layout
+  <no function-name match>
+KEYWORD: switch_player_to_enum
+  <no function-name match>
+KEYWORD: get_player_actor
+  <no function-name match>
+KEYWORD: is_local_player
+  <no function-name match>
+KEYWORD: is_local_player_valid
+  <no function-name match>
+KEYWORD: get_local_slot
+  <no function-name match>
+KEYWORD: get_slot_actor
+  <no function-name match>
+KEYWORD: get_actor_slot
+  <no function-name match>
+KEYWORD: is_slot_valid
+  <no function-name match>
+KEYWORD: is_actor_player
+  <no function-name match>
+KEYWORD: is_actor_local_player
+  <no function-name match>
+KEYWORD: create_actor_in_layout
+  <no function-name match>
+KEYWORD: get_actor_enum
+  <no function-name match>
+KEYWORD: is_actor_inited
+  <no function-name match>
+KEYWORD: is_actor_valid
+  <no function-name match>
+KEYWORD: ResourcesManager::LoadAllResources
+  <no function-name match>
+KEYWORD: ResourcesManager::DoesAllResourcesAreLoaded
+  <no function-name match>
+KEYWORD: LoadAllResources
+  1802019e0  LoadAllResources  [INTERNAL]
+  180201a20  UnloadAllResources  [INTERNAL]
+KEYWORD: DoesAllResourcesAreLoaded
+  180201ad0  DoesAllResourcesAreLoaded  [INTERNAL]
+KEYWORD: HTTPClient::Connect
+  <no function-name match>
+KEYWORD: HTTPClient::DownloadResources
+  <no function-name match>
+KEYWORD: connect
+  <no function-name match>
+KEYWORD: disconnect
+  <no function-name match>
+KEYWORD: retry
+  <no function-name match>
+KEYWORD: set_loading_screen
+  <no function-name match>
+KEYWORD: on_connection_succeeded
+  <no function-name match>
+KEYWORD: on_disconnect
+  <no function-name match>
+KEYWORD: failed_server_retrieving_resources
+  <no function-name match>
+KEYWORD: failed_server_invalid_version
+  <no function-name match>
+
+================================================================================
+2. SYMBOL TABLE HITS
+================================================================================
+KEYWORD: LoadMainMenu
+  <no symbol match>
+KEYWORD: CEFManager
+  <no symbol match>
+KEYWORD: mainmenu
+  <no symbol match>
+KEYWORD: cef/cef_ui/mainmenu/index.html
+  <no symbol match>
+KEYWORD: OnConnect
+  <no symbol match>
+KEYWORD: RegisterFunction
+  <no symbol match>
+KEYWORD: ClientHandler
+  <no symbol match>
+KEYWORD: LoadOnline
+  <no symbol match>
+KEYWORD: UI_Unstreammovie
+  <no symbol match>
+KEYWORD: fileSetForMPLoad
+  <no symbol match>
+KEYWORD: fileStartupChecksComplete
+  <no symbol match>
+KEYWORD: StartScreen1
+  <no symbol match>
+KEYWORD: startscreen
+  <no symbol match>
+KEYWORD: player_name
+  18026a2d0  s_get_local_player_name_18026a2d0  [src=DEFAULT, primary=true]
+KEYWORD: Guest
+  <no symbol match>
+KEYWORD: ENetClient::Connect
+  <no symbol match>
+KEYWORD: ENetClient::GetHostAddress
+  <no symbol match>
+KEYWORD: ENetClient::GetHostPort
+  <no symbol match>
+KEYWORD: ClientWelcome
+  <no symbol match>
+KEYWORD: GameClient::Get
+  <no symbol match>
+KEYWORD: GameClient
+  <no symbol match>
+KEYWORD: init_native_actorenum_player
+  180273dc8  s_init_native_actorenum_player_180273dc8  [src=DEFAULT, primary=true]
+KEYWORD: create_player_actor_in_layout
+  180273fa0  s_create_player_actor_in_layout_180273fa0  [src=DEFAULT, primary=true]
+KEYWORD: respawn_player_actor_in_layout
+  180273fe0  s_respawn_player_actor_in_layout_180273fe0  [src=DEFAULT, primary=true]
+KEYWORD: switch_player_to_enum
+  1802740d0  s_switch_player_to_enum_1802740d0  [src=DEFAULT, primary=true]
+KEYWORD: get_player_actor
+  180263240  s_get_player_actor_180263240  [src=DEFAULT, primary=true]
+KEYWORD: is_local_player
+  180263258  s_is_local_player_180263258  [src=DEFAULT, primary=true]
+  180263268  s_is_local_player_valid_180263268  [src=DEFAULT, primary=true]
+KEYWORD: is_local_player_valid
+  180263268  s_is_local_player_valid_180263268  [src=DEFAULT, primary=true]
+KEYWORD: get_local_slot
+  1802632b0  s_get_local_slot_1802632b0  [src=DEFAULT, primary=true]
+KEYWORD: get_slot_actor
+  180263290  s_get_slot_actor_180263290  [src=DEFAULT, primary=true]
+KEYWORD: get_actor_slot
+  1802632a0  s_get_actor_slot_1802632a0  [src=DEFAULT, primary=true]
+KEYWORD: is_slot_valid
+  180263280  s_is_slot_valid_180263280  [src=DEFAULT, primary=true]
+  180271088  s__net_is_slot_valid_in_client_bro_180271088  [src=DEFAULT, primary=true]
+KEYWORD: is_actor_player
+  180262f48  s_is_actor_player_180262f48  [src=DEFAULT, primary=true]
+KEYWORD: is_actor_local_player
+  180262f58  s_is_actor_local_player_180262f58  [src=DEFAULT, primary=true]
+KEYWORD: create_actor_in_layout
+  180273f88  s_create_actor_in_layout_180273f88  [src=DEFAULT, primary=true]
+KEYWORD: get_actor_enum
+  180274010  s_get_actor_enum_180274010  [src=DEFAULT, primary=true]
+  180274020  s_get_actor_enum_string_180274020  [src=DEFAULT, primary=true]
+  180274038  s_get_actor_enum_from_string_180274038  [src=DEFAULT, primary=true]
+  180274058  s_get_actor_enum_string_from_enum_180274058  [src=DEFAULT, primary=true]
+  180274078  s_get_actor_enum_variation_count_180274078  [src=DEFAULT, primary=true]
+  180274098  s_get_actor_enum_faction_180274098  [src=DEFAULT, primary=true]
+KEYWORD: is_actor_inited
+  180274000  s_is_actor_inited_180274000  [src=DEFAULT, primary=true]
+KEYWORD: is_actor_valid
+  18026b420  s_is_actor_valid_18026b420  [src=DEFAULT, primary=true]
+KEYWORD: ResourcesManager::LoadAllResources
+  <no symbol match>
+KEYWORD: ResourcesManager::DoesAllResourcesAreLoaded
+  <no symbol match>
+KEYWORD: LoadAllResources
+  1802019e0  LoadAllResources  [src=ANALYSIS, primary=true]
+  1802019e0  ?LoadAllResources@ResourcesManager@@QEAAXXZ  [src=IMPORTED, primary=false]
+  180201a20  UnloadAllResources  [src=ANALYSIS, primary=true]
+  180201a20  ?UnloadAllResources@ResourcesManager@@QEAAXXZ  [src=IMPORTED, primary=false]
+  1802ba314  s_?LoadAllResources@ResourcesManag_1802ba314  [src=DEFAULT, primary=true]
+  1802ba460  s_?UnloadAllResources@ResourcesMan_1802ba460  [src=DEFAULT, primary=true]
+KEYWORD: DoesAllResourcesAreLoaded
+  180201ad0  DoesAllResourcesAreLoaded  [src=ANALYSIS, primary=true]
+  180201ad0  ?DoesAllResourcesAreLoaded@ResourcesManager@@QEBA_NXZ  [src=IMPORTED, primary=false]
+  1802b9f89  s_?DoesAllResourcesAreLoaded@Resou_1802b9f89  [src=DEFAULT, primary=true]
+KEYWORD: HTTPClient::Connect
+  <no symbol match>
+KEYWORD: HTTPClient::DownloadResources
+  <no symbol match>
+KEYWORD: connect
+  <no symbol match>
+KEYWORD: disconnect
+  <no symbol match>
+KEYWORD: retry
+  <no symbol match>
+KEYWORD: set_loading_screen
+  <no symbol match>
+KEYWORD: on_connection_succeeded
+  <no symbol match>
+KEYWORD: on_disconnect
+  <no symbol match>
+KEYWORD: failed_server_retrieving_resources
+  <no symbol match>
+KEYWORD: failed_server_invalid_version
+  <no symbol match>
+
+================================================================================
+3. STRING XREFS (DEFINED DATA ONLY)
+================================================================================
+STRING: LoadMainMenu
+  <not found among defined data strings>
+STRING: CEFManager
+  @ 1802bafd2
+  @ 1802bb078
+STRING: mainmenu
+  <not found among defined data strings>
+STRING: cef/cef_ui/mainmenu/index.html
+  <not found among defined data strings>
+STRING: OnConnect
+  <not found among defined data strings>
+STRING: RegisterFunction
+  <not found among defined data strings>
+STRING: ClientHandler
+  @ 1802be4c0
+STRING: LoadOnline
+  <not found among defined data strings>
+STRING: UI_Unstreammovie
+  <not found among defined data strings>
+STRING: fileSetForMPLoad
+  <not found among defined data strings>
+STRING: fileStartupChecksComplete
+  <not found among defined data strings>
+STRING: StartScreen1
+  <not found among defined data strings>
+STRING: startscreen
+  <not found among defined data strings>
+STRING: player_name
+  @ 18026a2d0
+    <- 180028b49  type=DATA  in 180023460  FUN_180023460  [INTERNAL]
+  @ 180271d48
+    <- 18002eded  type=DATA  in 180023460  FUN_180023460  [INTERNAL]
+STRING: Guest
+  <not found among defined data strings>
+STRING: ENetClient::Connect
+  <not found among defined data strings>
+STRING: ENetClient::GetHostAddress
+  <not found among defined data strings>
+STRING: ENetClient::GetHostPort
+  <not found among defined data strings>
+STRING: ClientWelcome
+  <not found among defined data strings>
+STRING: GameClient::Get
+  <not found among defined data strings>
+STRING: GameClient
+  @ 1802bb1d8
+  @ 1802bb222
+STRING: init_native_actorenum_player
+  @ 180273dc8
+    <- 180030803  type=DATA  in 180023460  FUN_180023460  [INTERNAL]
+STRING: create_player_actor_in_layout
+  @ 180273fa0
+    <- 180030937  type=DATA  in 180023460  FUN_180023460  [INTERNAL]
+STRING: respawn_player_actor_in_layout
+  @ 180273fe0
+    <- 180030963  type=DATA  in 180023460  FUN_180023460  [INTERNAL]
+STRING: switch_player_to_enum
+  @ 1802740d0
+    <- 180030a29  type=DATA  in 180023460  FUN_180023460  [INTERNAL]
+STRING: get_player_actor
+  @ 180263240
+    <- 1800237f7  type=DATA  in 180023460  FUN_180023460  [INTERNAL]
+STRING: is_local_player
+  @ 180263258
+    <- 18002380d  type=DATA  in 180023460  FUN_180023460  [INTERNAL]
+  @ 180263268
+    <- 180023823  type=DATA  in 180023460  FUN_180023460  [INTERNAL]
+STRING: is_local_player_valid
+  @ 180263268
+    <- 180023823  type=DATA  in 180023460  FUN_180023460  [INTERNAL]
+STRING: get_local_slot
+  @ 1802632b0
+    <- 18002387b  type=DATA  in 180023460  FUN_180023460  [INTERNAL]
+STRING: get_slot_actor
+  @ 180263290
+    <- 18002384f  type=DATA  in 180023460  FUN_180023460  [INTERNAL]
+STRING: get_actor_slot
+  @ 1802632a0
+    <- 180023865  type=DATA  in 180023460  FUN_180023460  [INTERNAL]
+STRING: is_slot_valid
+  @ 180263280
+    <- 180023839  type=DATA  in 180023460  FUN_180023460  [INTERNAL]
+  @ 180271088
+    <- 18002e58b  type=DATA  in 180023460  FUN_180023460  [INTERNAL]
+STRING: is_actor_player
+  @ 180262f48
+    <- 1800235a5  type=DATA  in 180023460  FUN_180023460  [INTERNAL]
+STRING: is_actor_local_player
+  @ 180262f58
+    <- 1800235bb  type=DATA  in 180023460  FUN_180023460  [INTERNAL]
+STRING: create_actor_in_layout
+  @ 180273f88
+    <- 180030921  type=DATA  in 180023460  FUN_180023460  [INTERNAL]
+STRING: get_actor_enum
+  @ 180274010
+    <- 18003098f  type=DATA  in 180023460  FUN_180023460  [INTERNAL]
+  @ 180274020
+    <- 1800309a5  type=DATA  in 180023460  FUN_180023460  [INTERNAL]
+  @ 180274038
+    <- 1800309bb  type=DATA  in 180023460  FUN_180023460  [INTERNAL]
+  @ 180274058
+    <- 1800309d1  type=DATA  in 180023460  FUN_180023460  [INTERNAL]
+  @ 180274078
+    <- 1800309e7  type=DATA  in 180023460  FUN_180023460  [INTERNAL]
+  @ 180274098
+    <- 1800309fd  type=DATA  in 180023460  FUN_180023460  [INTERNAL]
+STRING: is_actor_inited
+  @ 180274000
+    <- 180030979  type=DATA  in 180023460  FUN_180023460  [INTERNAL]
+STRING: is_actor_valid
+  @ 18026b420
+    <- 180029878  type=DATA  in 180023460  FUN_180023460  [INTERNAL]
+STRING: ResourcesManager::LoadAllResources
+  <not found among defined data strings>
+STRING: ResourcesManager::DoesAllResourcesAreLoaded
+  <not found among defined data strings>
+STRING: LoadAllResources
+  @ 1802ba314
+    <- 1802b9c78  type=DATA
+  @ 1802ba460
+    <- 1802b9c8c  type=DATA
+STRING: DoesAllResourcesAreLoaded
+  @ 1802b9f89
+    <- 1802b9c50  type=DATA
+STRING: HTTPClient::Connect
+  <not found among defined data strings>
+STRING: HTTPClient::DownloadResources
+  <not found among defined data strings>
+STRING: connect
+  <not found among defined data strings>
+STRING: disconnect
+  <not found among defined data strings>
+STRING: retry
+  <not found among defined data strings>
+STRING: set_loading_screen
+  <not found among defined data strings>
+STRING: on_connection_succeeded
+  <not found among defined data strings>
+STRING: on_disconnect
+  <not found among defined data strings>
+STRING: failed_server_retrieving_resources
+  <not found among defined data strings>
+STRING: failed_server_invalid_version
+  <not found among defined data strings>
+
+================================================================================
+4. CANDIDATE FUNCTION CALLERS / CALLEES
+================================================================================
+180023460  FUN_180023460  [INTERNAL]
+  CALLERS (direct refs): 1
+    <- 1801a7270  Load  [INTERNAL]
+  CALLEES (direct calls): 5
+    -> 180004290  FUN_180004290  [INTERNAL]
+    -> 1800042e0  FUN_1800042e0  [INTERNAL]
+    -> 180004350  FUN_180004350  [INTERNAL]
+    -> 180004410  FUN_180004410  [INTERNAL]
+    -> 180004430  FUN_180004430  [INTERNAL]
+
+1802019e0  LoadAllResources  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 1
+    -> 1801a7270  Load  [INTERNAL]
+
+180201a20  UnloadAllResources  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 4
+    -> 1801a74d0  Unload  [INTERNAL]
+    -> 1801eab20  FUN_1801eab20  [INTERNAL]
+    -> 180201d00  FUN_180201d00  [INTERNAL]
+    -> 180202870  FUN_180202870  [INTERNAL]
+
+180201ad0  DoesAllResourcesAreLoaded  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 0
+
+
+================================================================================
+5. IMPORTANT PATH SEARCHES
+================================================================================
+PATH GROUP: CEF/main menu -> ENet Connect
+  START: <no candidate functions>
+PATH GROUP: ENet Connect -> LoadOnline
+  START: <no candidate functions>
+PATH GROUP: LoadOnline -> ClientWelcome
+  START: <no candidate functions>
+PATH GROUP: ClientWelcome -> player actor lifecycle
+  START: <no candidate functions>
+PATH GROUP: StartScreen / UI unstream -> LoadOnline
+  START: <no candidate functions>
+
+================================================================================
+6. INDIRECT / UNRESOLVED CALL SITES IN CANDIDATES
+================================================================================
+
+================================================================================
+7. DECOMPILATION OF KEY CANDIDATES
+================================================================================
+
+================================================================================
+8. DIRECT CALLS THAT POINT OUTSIDE A FUNCTION BODY
+================================================================================
+
+================================================================================
+9. LIKELY BOOTSTRAP TRANSITION POINTS
+================================================================================
+TRANSITION CANDIDATE score=18  180023460  FUN_180023460  [INTERNAL]
+  markers: player_name, init_native_actorenum_player, create_player_actor_in_layout, respawn_player_actor_in_layout, switch_player_to_enum, get_player_actor, is_local_player, is_local_player_valid, get_local_slot, get_slot_actor, get_actor_slot, is_slot_valid, is_actor_player, is_actor_local_player, create_actor_in_layout, get_actor_enum, is_actor_inited, is_actor_valid
+  direct callers: 1
+  direct callees: 5
+TRANSITION CANDIDATE score=2  1802019e0  LoadAllResources  [INTERNAL]
+  markers: ResourcesManager::LoadAllResources, LoadAllResources
+  direct callers: 0
+  direct callees: 1
+TRANSITION CANDIDATE score=2  180201ad0  DoesAllResourcesAreLoaded  [INTERNAL]
+  markers: ResourcesManager::DoesAllResourcesAreLoaded, DoesAllResourcesAreLoaded
+  direct callers: 0
+  direct callees: 0
+
+================================================================================
+10. WHAT THIS REPORT CAN / CANNOT PROVE
+================================================================================
+CAN:
+  - identify functions/symbols/strings related to CEF, ENet, ClientWelcome and player actor lifecycle
+  - show direct callers/callees recovered from static call/reference edges
+  - show short direct-call paths between important regions
+  - expose indirect-call sites where a native invoker / virtual dispatch may hide the true target
+
+CANNOT by itself:
+  - prove an indirect callback target when the binary uses function pointers without recoverable references
+  - prove runtime order when scripts/fibers/event dispatch change the order dynamically
+  - prove network success or actor creation at runtime
+  - replace dynamic tracing when a native invoker obscures the called native
+
+The most useful next evidence, when a path stops, is the decompilation and xref neighborhood printed for the last resolved function.

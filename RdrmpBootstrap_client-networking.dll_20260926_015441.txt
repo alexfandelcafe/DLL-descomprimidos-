@@ -1,0 +1,1158 @@
+
+================================================================================
+RDRMP / FRONTIER STATIC BOOTSTRAP INVESTIGATOR
+================================================================================
+Program: client-networking.dll
+Executable format: Portable Executable (PE)
+Language: x86:LE:64:default
+Image base: 180000000
+Timestamp: Sat Sep 26 01:54:41 ART 2026
+Mode: static only; no execution/emulation
+
+================================================================================
+1. SYMBOL / FUNCTION HITS
+================================================================================
+KEYWORD: LoadMainMenu
+  <no function-name match>
+KEYWORD: CEFManager
+  <no function-name match>
+KEYWORD: mainmenu
+  <no function-name match>
+KEYWORD: cef/cef_ui/mainmenu/index.html
+  <no function-name match>
+KEYWORD: OnConnect
+  18000a4f0  OnConnectionSucceeded  [INTERNAL]
+  18000a580  OnConnectionFailed  [INTERNAL]
+KEYWORD: RegisterFunction
+  <no function-name match>
+KEYWORD: ClientHandler
+  <no function-name match>
+KEYWORD: LoadOnline
+  <no function-name match>
+KEYWORD: UI_Unstreammovie
+  <no function-name match>
+KEYWORD: fileSetForMPLoad
+  <no function-name match>
+KEYWORD: fileStartupChecksComplete
+  <no function-name match>
+KEYWORD: StartScreen1
+  <no function-name match>
+KEYWORD: startscreen
+  <no function-name match>
+KEYWORD: player_name
+  <no function-name match>
+KEYWORD: Guest
+  <no function-name match>
+KEYWORD: ENetClient::Connect
+  <no function-name match>
+KEYWORD: ENetClient::GetHostAddress
+  <no function-name match>
+KEYWORD: ENetClient::GetHostPort
+  <no function-name match>
+KEYWORD: ClientWelcome
+  180007b80  ClientWelcome  [INTERNAL]
+KEYWORD: GameClient::Get
+  <no function-name match>
+KEYWORD: GameClient
+  180002540  ~Singleton<GameClient>  [INTERNAL]
+  180002560  Singleton<GameClient>  [INTERNAL]
+  1800025f0  GameClient  [INTERNAL]
+  180002710  ~GameClient  [INTERNAL]
+KEYWORD: init_native_actorenum_player
+  <no function-name match>
+KEYWORD: create_player_actor_in_layout
+  <no function-name match>
+KEYWORD: respawn_player_actor_in_layout
+  <no function-name match>
+KEYWORD: switch_player_to_enum
+  <no function-name match>
+KEYWORD: get_player_actor
+  <no function-name match>
+KEYWORD: is_local_player
+  <no function-name match>
+KEYWORD: is_local_player_valid
+  <no function-name match>
+KEYWORD: get_local_slot
+  <no function-name match>
+KEYWORD: get_slot_actor
+  <no function-name match>
+KEYWORD: get_actor_slot
+  <no function-name match>
+KEYWORD: is_slot_valid
+  <no function-name match>
+KEYWORD: is_actor_player
+  <no function-name match>
+KEYWORD: is_actor_local_player
+  <no function-name match>
+KEYWORD: create_actor_in_layout
+  <no function-name match>
+KEYWORD: get_actor_enum
+  <no function-name match>
+KEYWORD: is_actor_inited
+  <no function-name match>
+KEYWORD: is_actor_valid
+  <no function-name match>
+KEYWORD: ResourcesManager::LoadAllResources
+  <no function-name match>
+KEYWORD: ResourcesManager::DoesAllResourcesAreLoaded
+  <no function-name match>
+KEYWORD: LoadAllResources
+  <no function-name match>
+KEYWORD: DoesAllResourcesAreLoaded
+  <no function-name match>
+KEYWORD: HTTPClient::Connect
+  <no function-name match>
+KEYWORD: HTTPClient::DownloadResources
+  <no function-name match>
+KEYWORD: connect
+  1800085a0  Connect  [INTERNAL]
+  180008960  Disconnect  [INTERNAL]
+  180008b40  IsConnected  [INTERNAL]
+  18000a4f0  OnConnectionSucceeded  [INTERNAL]
+  18000a580  OnConnectionFailed  [INTERNAL]
+  18000a6e0  OnDisconnect  [INTERNAL]
+KEYWORD: disconnect
+  180008960  Disconnect  [INTERNAL]
+  18000a6e0  OnDisconnect  [INTERNAL]
+KEYWORD: retry
+  <no function-name match>
+KEYWORD: set_loading_screen
+  <no function-name match>
+KEYWORD: on_connection_succeeded
+  <no function-name match>
+KEYWORD: on_disconnect
+  <no function-name match>
+KEYWORD: failed_server_retrieving_resources
+  <no function-name match>
+KEYWORD: failed_server_invalid_version
+  <no function-name match>
+
+================================================================================
+2. SYMBOL TABLE HITS
+================================================================================
+KEYWORD: LoadMainMenu
+  <no symbol match>
+KEYWORD: CEFManager
+  <no symbol match>
+KEYWORD: mainmenu
+  180020818  s_mainmenu_180020818  [src=DEFAULT, primary=true]
+KEYWORD: cef/cef_ui/mainmenu/index.html
+  <no symbol match>
+KEYWORD: OnConnect
+  EXTERNAL:00000009  OnConnectionFailed  [src=IMPORTED, primary=true]
+  180002540  ?OnConnectionFailed@ENetClient@@UEAAXXZ  [src=IMPORTED, primary=false]
+  180002540  ?OnConnectionSucceeded@ENetClient@@UEAAXXZ  [src=IMPORTED, primary=false]
+  18000a4f0  OnConnectionSucceeded  [src=ANALYSIS, primary=true]
+  18000a4f0  ?OnConnectionSucceeded@GameClient@@UEAAXXZ  [src=IMPORTED, primary=false]
+  18000a580  OnConnectionFailed  [src=ANALYSIS, primary=true]
+  18000a580  ?OnConnectionFailed@GameClient@@UEAAXXZ  [src=IMPORTED, primary=false]
+  18001f470  PTR_OnConnectionFailed_18001f470  [src=DEFAULT, primary=true]
+  1800253ef  s_?OnConnectionFailed@ENetClient@@_1800253ef  [src=DEFAULT, primary=true]
+  180025417  s_?OnConnectionFailed@GameClient@@_180025417  [src=DEFAULT, primary=true]
+  18002543f  s_?OnConnectionSucceeded@ENetClien_18002543f  [src=DEFAULT, primary=true]
+  18002546a  s_?OnConnectionSucceeded@GameClien_18002546a  [src=DEFAULT, primary=true]
+KEYWORD: RegisterFunction
+  <no symbol match>
+KEYWORD: ClientHandler
+  <no symbol match>
+KEYWORD: LoadOnline
+  <no symbol match>
+KEYWORD: UI_Unstreammovie
+  <no symbol match>
+KEYWORD: fileSetForMPLoad
+  <no symbol match>
+KEYWORD: fileStartupChecksComplete
+  <no symbol match>
+KEYWORD: StartScreen1
+  <no symbol match>
+KEYWORD: startscreen
+  <no symbol match>
+KEYWORD: player_name
+  <no symbol match>
+KEYWORD: Guest
+  <no symbol match>
+KEYWORD: ENetClient::Connect
+  <no symbol match>
+KEYWORD: ENetClient::GetHostAddress
+  <no symbol match>
+KEYWORD: ENetClient::GetHostPort
+  <no symbol match>
+KEYWORD: ClientWelcome
+  180007b80  ClientWelcome  [src=ANALYSIS, primary=true]
+  180007b80  ?ClientWelcome@ClientSend@@SAXW4e_ActorModel@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBUVector3@@2@Z  [src=IMPORTED, primary=false]
+  180025079  s_?ClientWelcome@ClientSend@@SAXW4_180025079  [src=DEFAULT, primary=true]
+KEYWORD: GameClient::Get
+  <no symbol match>
+KEYWORD: GameClient
+  180002540  ~Singleton<GameClient>  [src=ANALYSIS, primary=true]
+  180002540  ??1?$Singleton@VGameClient@@@@QEAA@XZ  [src=IMPORTED, primary=false]
+  180002550  ?__autoclassinit2@GameClient@@QEAAX_K@Z  [src=IMPORTED, primary=false]
+  180002560  ??4?$Singleton@VGameClient@@@@QEAAAEAV0@AEBV0@@Z  [src=IMPORTED, primary=false]
+  180002560  Singleton<GameClient>  [src=ANALYSIS, primary=true]
+  180002560  ??0?$Singleton@VGameClient@@@@QEAA@XZ  [src=IMPORTED, primary=false]
+  180002570  ?GetTextChat@GameClient@@QEBA?BV?$shared_ptr@VTextChat@@@std@@XZ  [src=IMPORTED, primary=false]
+  1800025b0  ?GetPlayerManager@GameClient@@QEBA?BV?$shared_ptr@VPlayerManager@@@std@@XZ  [src=IMPORTED, primary=false]
+  1800025f0  GameClient  [src=ANALYSIS, primary=true]
+  1800025f0  ??0GameClient@@QEAA@XZ  [src=IMPORTED, primary=false]
+  180002710  ~GameClient  [src=ANALYSIS, primary=true]
+  180002710  ??1GameClient@@QEAA@XZ  [src=IMPORTED, primary=false]
+  180005dc0  ?Get@?$Singleton@VGameClient@@@@SA?BV?$shared_ptr@VGameClient@@@std@@XZ  [src=IMPORTED, primary=false]
+  18000a300  ?OnStart@GameClient@@UEAAXXZ  [src=IMPORTED, primary=false]
+  18000a4f0  ?OnConnectionSucceeded@GameClient@@UEAAXXZ  [src=IMPORTED, primary=false]
+  18000a580  ?OnConnectionFailed@GameClient@@UEAAXXZ  [src=IMPORTED, primary=false]
+  18000a6b0  ?OnTick@GameClient@@UEAAXXZ  [src=IMPORTED, primary=false]
+  18000a6d0  ?OnUpdate@GameClient@@UEAAXXZ  [src=IMPORTED, primary=false]
+  18000a6e0  ?OnDisconnect@GameClient@@UEAAXXZ  [src=IMPORTED, primary=false]
+  18000ad60  ?GetServerData@GameClient@@QEAAAEAUServerData@@XZ  [src=IMPORTED, primary=false]
+  18001f520  PTR_~Singleton<GameClient>_18001f520  [src=DEFAULT, primary=true]
+  18001f528  PTR_~Singleton<GameClient>_18001f528  [src=DEFAULT, primary=true]
+  180020200  ??_7GameClient@@6B@  [src=IMPORTED, primary=false]
+  180024ee8  s_??0?$Singleton@VGameClient@@@@QE_180024ee8  [src=DEFAULT, primary=true]
+  180024f25  s_??0GameClient@@QEAA@XZ_180024f25  [src=DEFAULT, primary=true]
+  180024f51  s_??1?$Singleton@VGameClient@@@@QE_180024f51  [src=DEFAULT, primary=true]
+  180024f8e  s_??1GameClient@@QEAA@XZ_180024f8e  [src=DEFAULT, primary=true]
+  180024fba  s_??4?$Singleton@VGameClient@@@@QE_180024fba  [src=DEFAULT, primary=true]
+  180025065  s_??_7GameClient@@6B@_180025065  [src=DEFAULT, primary=true]
+  1800251b3  s_?Get@?$Singleton@VGameClient@@@@_1800251b3  [src=DEFAULT, primary=true]
+  1800252d8  s_?GetPlayerManager@GameClient@@QE_1800252d8  [src=DEFAULT, primary=true]
+  180025323  s_?GetServerData@GameClient@@QEAAA_180025323  [src=DEFAULT, primary=true]
+  180025355  s_?GetTextChat@GameClient@@QEBA?BV_180025355  [src=DEFAULT, primary=true]
+  180025417  s_?OnConnectionFailed@GameClient@@_180025417  [src=DEFAULT, primary=true]
+  1800254b7  s_?OnDisconnect@GameClient@@UEAAXX_1800254b7  [src=DEFAULT, primary=true]
+  1800254f6  s_?OnStart@GameClient@@UEAAXXZ_1800254f6  [src=DEFAULT, primary=true]
+  18002552f  s_?OnTick@GameClient@@UEAAXXZ_18002552f  [src=DEFAULT, primary=true]
+  180025569  s_?OnUpdate@GameClient@@UEAAXXZ_180025569  [src=DEFAULT, primary=true]
+  180025942  s_?__autoclassinit2@GameClient@@QE_180025942  [src=DEFAULT, primary=true]
+  1800296cc  ?$TSS0@?1??Get@?$Singleton@VGameClient@@@@SA?BV?$shared_ptr@VGameClient@@@std@@XZ@4HA  [src=IMPORTED, primary=false]
+  1800297a8  ?singleton@?1??Get@?$Singleton@VGameClient@@@@SA?BV?$shared_ptr@VGameClient@@@std@@XZ@4V34@A  [src=IMPORTED, primary=false]
+KEYWORD: init_native_actorenum_player
+  <no symbol match>
+KEYWORD: create_player_actor_in_layout
+  <no symbol match>
+KEYWORD: respawn_player_actor_in_layout
+  <no symbol match>
+KEYWORD: switch_player_to_enum
+  <no symbol match>
+KEYWORD: get_player_actor
+  <no symbol match>
+KEYWORD: is_local_player
+  <no symbol match>
+KEYWORD: is_local_player_valid
+  <no symbol match>
+KEYWORD: get_local_slot
+  <no symbol match>
+KEYWORD: get_slot_actor
+  <no symbol match>
+KEYWORD: get_actor_slot
+  <no symbol match>
+KEYWORD: is_slot_valid
+  <no symbol match>
+KEYWORD: is_actor_player
+  <no symbol match>
+KEYWORD: is_actor_local_player
+  <no symbol match>
+KEYWORD: create_actor_in_layout
+  <no symbol match>
+KEYWORD: get_actor_enum
+  <no symbol match>
+KEYWORD: is_actor_inited
+  <no symbol match>
+KEYWORD: is_actor_valid
+  <no symbol match>
+KEYWORD: ResourcesManager::LoadAllResources
+  <no symbol match>
+KEYWORD: ResourcesManager::DoesAllResourcesAreLoaded
+  <no symbol match>
+KEYWORD: LoadAllResources
+  <no symbol match>
+KEYWORD: DoesAllResourcesAreLoaded
+  <no symbol match>
+KEYWORD: HTTPClient::Connect
+  <no symbol match>
+KEYWORD: HTTPClient::DownloadResources
+  <no symbol match>
+KEYWORD: connect
+  EXTERNAL:00000009  OnConnectionFailed  [src=IMPORTED, primary=true]
+  180002540  ?OnConnectionFailed@ENetClient@@UEAAXXZ  [src=IMPORTED, primary=false]
+  180002540  ?OnConnectionSucceeded@ENetClient@@UEAAXXZ  [src=IMPORTED, primary=false]
+  180002540  ?OnDisconnect@ENetClient@@UEAAXXZ  [src=IMPORTED, primary=false]
+  1800085a0  Connect  [src=ANALYSIS, primary=true]
+  1800085a0  ?Connect@ENetClient@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@G@Z  [src=IMPORTED, primary=false]
+  180008960  Disconnect  [src=ANALYSIS, primary=true]
+  180008960  ?Disconnect@ENetClient@@QEAA_NXZ  [src=IMPORTED, primary=false]
+  180008b40  IsConnected  [src=ANALYSIS, primary=true]
+  180008b40  ?IsConnected@ENetClient@@QEBA_NXZ  [src=IMPORTED, primary=false]
+  18000a4f0  OnConnectionSucceeded  [src=ANALYSIS, primary=true]
+  18000a4f0  ?OnConnectionSucceeded@GameClient@@UEAAXXZ  [src=IMPORTED, primary=false]
+  18000a580  OnConnectionFailed  [src=ANALYSIS, primary=true]
+  18000a580  ?OnConnectionFailed@GameClient@@UEAAXXZ  [src=IMPORTED, primary=false]
+  18000a6e0  OnDisconnect  [src=ANALYSIS, primary=true]
+  18000a6e0  ?OnDisconnect@GameClient@@UEAAXXZ  [src=IMPORTED, primary=false]
+  18001f470  PTR_OnConnectionFailed_18001f470  [src=DEFAULT, primary=true]
+  1800205c8  s_You_are_already_connected_to_a_s_1800205c8  [src=DEFAULT, primary=true]
+  1800205f0  s_Connecting_to_%s:%u..._1800205f0  [src=DEFAULT, primary=true]
+  180020640  s_Successfully_connected_to_%s:%u_180020640  [src=DEFAULT, primary=true]
+  180020660  s_Failed_to_connect_to_%s:%u,_unkn_180020660  [src=DEFAULT, primary=true]
+  180020690  s_Failed_to_connect_to_%s:%u,_serv_180020690  [src=DEFAULT, primary=true]
+  1800206c8  s_Disconnecting_from_server..._1800206c8  [src=DEFAULT, primary=true]
+  1800206e8  s_Disconnected_from_the_server_1800206e8  [src=DEFAULT, primary=true]
+  180020708  s_Disconnected_from_the_server_(Ti_180020708  [src=DEFAULT, primary=true]
+  180020750  s_Disconnection_was_not_acknowledg_180020750  [src=DEFAULT, primary=true]
+  180020790  s_You_are_not_connected_to_a_serve_180020790  [src=DEFAULT, primary=true]
+  1800207b8  s_Connection_to_the_server_has_bee_1800207b8  [src=DEFAULT, primary=true]
+  1800207e0  s_Connection_to_the_server_has_bee_1800207e0  [src=DEFAULT, primary=true]
+  180020828  s_on_connection_succeeded_180020828  [src=DEFAULT, primary=true]
+  180020840  s_on_disconnect_180020840  [src=DEFAULT, primary=true]
+  1800250f9  s_?Connect@ENetClient@@QEAA_NAEBV?_1800250f9  [src=DEFAULT, primary=true]
+  180025159  s_?Disconnect@ENetClient@@QEAA_NXZ_180025159  [src=DEFAULT, primary=true]
+  1800253cd  s_?IsConnected@ENetClient@@QEBA_NX_1800253cd  [src=DEFAULT, primary=true]
+  1800253ef  s_?OnConnectionFailed@ENetClient@@_1800253ef  [src=DEFAULT, primary=true]
+  180025417  s_?OnConnectionFailed@GameClient@@_180025417  [src=DEFAULT, primary=true]
+  18002543f  s_?OnConnectionSucceeded@ENetClien_18002543f  [src=DEFAULT, primary=true]
+  18002546a  s_?OnConnectionSucceeded@GameClien_18002546a  [src=DEFAULT, primary=true]
+  180025495  s_?OnDisconnect@ENetClient@@UEAAXX_180025495  [src=DEFAULT, primary=true]
+  1800254b7  s_?OnDisconnect@GameClient@@UEAAXX_1800254b7  [src=DEFAULT, primary=true]
+KEYWORD: disconnect
+  180002540  ?OnDisconnect@ENetClient@@UEAAXXZ  [src=IMPORTED, primary=false]
+  180008960  Disconnect  [src=ANALYSIS, primary=true]
+  180008960  ?Disconnect@ENetClient@@QEAA_NXZ  [src=IMPORTED, primary=false]
+  18000a6e0  OnDisconnect  [src=ANALYSIS, primary=true]
+  18000a6e0  ?OnDisconnect@GameClient@@UEAAXXZ  [src=IMPORTED, primary=false]
+  1800206c8  s_Disconnecting_from_server..._1800206c8  [src=DEFAULT, primary=true]
+  1800206e8  s_Disconnected_from_the_server_1800206e8  [src=DEFAULT, primary=true]
+  180020708  s_Disconnected_from_the_server_(Ti_180020708  [src=DEFAULT, primary=true]
+  180020750  s_Disconnection_was_not_acknowledg_180020750  [src=DEFAULT, primary=true]
+  180020840  s_on_disconnect_180020840  [src=DEFAULT, primary=true]
+  180025159  s_?Disconnect@ENetClient@@QEAA_NXZ_180025159  [src=DEFAULT, primary=true]
+  180025495  s_?OnDisconnect@ENetClient@@UEAAXX_180025495  [src=DEFAULT, primary=true]
+  1800254b7  s_?OnDisconnect@GameClient@@UEAAXX_1800254b7  [src=DEFAULT, primary=true]
+KEYWORD: retry
+  <no symbol match>
+KEYWORD: set_loading_screen
+  <no symbol match>
+KEYWORD: on_connection_succeeded
+  180020828  s_on_connection_succeeded_180020828  [src=DEFAULT, primary=true]
+KEYWORD: on_disconnect
+  180020840  s_on_disconnect_180020840  [src=DEFAULT, primary=true]
+KEYWORD: failed_server_retrieving_resources
+  <no symbol match>
+KEYWORD: failed_server_invalid_version
+  <no symbol match>
+
+================================================================================
+3. STRING XREFS (DEFINED DATA ONLY)
+================================================================================
+STRING: LoadMainMenu
+  <not found among defined data strings>
+STRING: CEFManager
+  @ 180026196
+  @ 1800261e0
+STRING: mainmenu
+  @ 180020818
+    <- 18000a5bf  type=DATA  in 18000a580  OnConnectionFailed  [INTERNAL]
+  @ 180026168
+  @ 180028360
+STRING: cef/cef_ui/mainmenu/index.html
+  <not found among defined data strings>
+STRING: OnConnect
+  @ 1800253ef
+    <- 180024d98  type=DATA
+  @ 180025417
+    <- 180024d9c  type=DATA
+  @ 18002543f
+    <- 180024da0  type=DATA
+  @ 18002546a
+    <- 180024da4  type=DATA
+  @ 180026168
+STRING: RegisterFunction
+  <not found among defined data strings>
+STRING: ClientHandler
+  @ 180028388
+STRING: LoadOnline
+  <not found among defined data strings>
+STRING: UI_Unstreammovie
+  <not found among defined data strings>
+STRING: fileSetForMPLoad
+  <not found among defined data strings>
+STRING: fileStartupChecksComplete
+  <not found among defined data strings>
+STRING: StartScreen1
+  <not found among defined data strings>
+STRING: startscreen
+  <not found among defined data strings>
+STRING: player_name
+  <not found among defined data strings>
+STRING: Guest
+  <not found among defined data strings>
+STRING: ENetClient::Connect
+  <not found among defined data strings>
+STRING: ENetClient::GetHostAddress
+  <not found among defined data strings>
+STRING: ENetClient::GetHostPort
+  <not found among defined data strings>
+STRING: ClientWelcome
+  @ 180025079
+    <- 180024d5c  type=DATA
+STRING: GameClient::Get
+  <not found among defined data strings>
+STRING: GameClient
+  @ 180024e92
+    <- 180024d20  type=DATA
+  @ 180024ee8
+    <- 180024d24  type=DATA
+  @ 180024f25
+    <- 180024d2c  type=DATA
+  @ 180024f51
+    <- 180024d34  type=DATA
+  @ 180024f8e
+    <- 180024d3c  type=DATA
+  @ 180024fba
+    <- 180024d44  type=DATA
+  @ 180025065
+    <- 180024d58  type=DATA
+  @ 1800251b3
+    <- 180024d70  type=DATA
+  @ 1800252d8
+    <- 180024d84  type=DATA
+  @ 180025323
+    <- 180024d88  type=DATA
+  @ 180025355
+    <- 180024d8c  type=DATA
+  @ 180025417
+    <- 180024d9c  type=DATA
+  @ 18002546a
+    <- 180024da4  type=DATA
+  @ 1800254b7
+    <- 180024dac  type=DATA
+  @ 1800254f6
+    <- 180024db4  type=DATA
+  @ 18002552f
+    <- 180024dbc  type=DATA
+  @ 180025569
+    <- 180024dc4  type=DATA
+  @ 180025942
+    <- 180024e00  type=DATA
+  @ 18002596a
+    <- 180024e04  type=DATA
+  @ 180028510
+  @ 180028650
+  @ 180028730
+STRING: init_native_actorenum_player
+  <not found among defined data strings>
+STRING: create_player_actor_in_layout
+  <not found among defined data strings>
+STRING: respawn_player_actor_in_layout
+  <not found among defined data strings>
+STRING: switch_player_to_enum
+  <not found among defined data strings>
+STRING: get_player_actor
+  <not found among defined data strings>
+STRING: is_local_player
+  <not found among defined data strings>
+STRING: is_local_player_valid
+  <not found among defined data strings>
+STRING: get_local_slot
+  <not found among defined data strings>
+STRING: get_slot_actor
+  <not found among defined data strings>
+STRING: get_actor_slot
+  <not found among defined data strings>
+STRING: is_slot_valid
+  <not found among defined data strings>
+STRING: is_actor_player
+  <not found among defined data strings>
+STRING: is_actor_local_player
+  <not found among defined data strings>
+STRING: create_actor_in_layout
+  <not found among defined data strings>
+STRING: get_actor_enum
+  <not found among defined data strings>
+STRING: is_actor_inited
+  <not found among defined data strings>
+STRING: is_actor_valid
+  <not found among defined data strings>
+STRING: ResourcesManager::LoadAllResources
+  <not found among defined data strings>
+STRING: ResourcesManager::DoesAllResourcesAreLoaded
+  <not found among defined data strings>
+STRING: LoadAllResources
+  <not found among defined data strings>
+STRING: DoesAllResourcesAreLoaded
+  <not found among defined data strings>
+STRING: HTTPClient::Connect
+  <not found among defined data strings>
+STRING: HTTPClient::DownloadResources
+  <not found among defined data strings>
+STRING: connect
+  @ 180020598
+    <- 1800085c7  type=DATA  in 1800085a0  Connect  [INTERNAL]
+  @ 1800205c8
+    <- 1800085f3  type=DATA  in 1800085a0  Connect  [INTERNAL]
+  @ 1800205f0
+    <- 18000863d  type=DATA  in 1800085a0  Connect  [INTERNAL]
+  @ 180020608
+    <- 180008691  type=DATA  in 1800085a0  Connect  [INTERNAL]
+  @ 180020640
+    <- 1800086f3  type=DATA  in 1800085a0  Connect  [INTERNAL]
+  @ 180020660
+    <- 180008724  type=DATA  in 1800085a0  Connect  [INTERNAL]
+  @ 180020690
+    <- 18000873c  type=DATA  in 1800085a0  Connect  [INTERNAL]
+  @ 1800206c8
+    <- 180008999  type=DATA  in 180008960  Disconnect  [INTERNAL]
+  @ 1800206e8
+    <- 180008a98  type=DATA  in 180008960  Disconnect  [INTERNAL]
+  @ 180020708
+    <- 180008a27  type=DATA  in 180008960  Disconnect  [INTERNAL]
+  @ 180020750
+    <- 180008ad5  type=DATA  in 180008960  Disconnect  [INTERNAL]
+  @ 180020790
+    <- 180008dc5  type=DATA  in 180008ce0  Send  [INTERNAL]
+  @ 1800207b8
+    <- 1800090b4  type=DATA  in 180008e00  Poll  [INTERNAL]
+  @ 1800207e0
+    <- 1800090cb  type=DATA  in 180008e00  Poll  [INTERNAL]
+  @ 180020828
+    <- 18000a514  type=DATA  in 18000a4f0  OnConnectionSucceeded  [INTERNAL]
+  @ 180020840
+    <- 18000acd1  type=DATA  in 18000a6e0  OnDisconnect  [INTERNAL]
+  @ 1800250f9
+    <- 180024d60  type=DATA
+  @ 180025159
+    <- 180024d64  type=DATA
+  @ 1800253cd
+    <- 180024d94  type=DATA
+  @ 1800253ef
+    <- 180024d98  type=DATA
+  @ 180025417
+    <- 180024d9c  type=DATA
+  @ 18002543f
+    <- 180024da0  type=DATA
+  @ 18002546a
+    <- 180024da4  type=DATA
+  @ 180025495
+    <- 180024da8  type=DATA
+  @ 1800254b7
+    <- 180024dac  type=DATA
+  @ 180026168
+STRING: disconnect
+  @ 1800206c8
+    <- 180008999  type=DATA  in 180008960  Disconnect  [INTERNAL]
+  @ 1800206e8
+    <- 180008a98  type=DATA  in 180008960  Disconnect  [INTERNAL]
+  @ 180020708
+    <- 180008a27  type=DATA  in 180008960  Disconnect  [INTERNAL]
+  @ 180020750
+    <- 180008ad5  type=DATA  in 180008960  Disconnect  [INTERNAL]
+  @ 180020840
+    <- 18000acd1  type=DATA  in 18000a6e0  OnDisconnect  [INTERNAL]
+  @ 180025159
+    <- 180024d64  type=DATA
+  @ 180025495
+    <- 180024da8  type=DATA
+  @ 1800254b7
+    <- 180024dac  type=DATA
+STRING: retry
+  <not found among defined data strings>
+STRING: set_loading_screen
+  <not found among defined data strings>
+STRING: on_connection_succeeded
+  @ 180020828
+    <- 18000a514  type=DATA  in 18000a4f0  OnConnectionSucceeded  [INTERNAL]
+STRING: on_disconnect
+  @ 180020840
+    <- 18000acd1  type=DATA  in 18000a6e0  OnDisconnect  [INTERNAL]
+STRING: failed_server_retrieving_resources
+  <not found among defined data strings>
+STRING: failed_server_invalid_version
+  <not found among defined data strings>
+
+================================================================================
+4. CANDIDATE FUNCTION CALLERS / CALLEES
+================================================================================
+EXTERNAL:00000009  OnConnectionFailed  [EXTERNAL]
+  CALLERS (direct refs): 1
+    <- 18000a580  OnConnectionFailed  [INTERNAL]
+  CALLEES (direct calls): 0
+
+180002540  ~Singleton<GameClient>  [INTERNAL]
+  CALLERS (direct refs): 96
+    <- 180016700  FUN_180016700  [INTERNAL]
+    <- 180016790  FUN_180016790  [INTERNAL]
+    <- 180016810  FUN_180016810  [INTERNAL]
+    <- 1800168a0  FUN_1800168a0  [INTERNAL]
+    <- 1800168d0  FUN_1800168d0  [INTERNAL]
+    <- 180016970  FUN_180016970  [INTERNAL]
+    <- 180016a10  FUN_180016a10  [INTERNAL]
+    <- 180016ab0  FUN_180016ab0  [INTERNAL]
+    <- 180016b50  FUN_180016b50  [INTERNAL]
+    <- 180016be0  FUN_180016be0  [INTERNAL]
+    <- 180016c80  FUN_180016c80  [INTERNAL]
+    <- 180016d00  FUN_180016d00  [INTERNAL]
+    <- 180016e80  FUN_180016e80  [INTERNAL]
+    <- 180016f10  FUN_180016f10  [INTERNAL]
+    <- 180017110  FUN_180017110  [INTERNAL]
+    <- 180017220  FUN_180017220  [INTERNAL]
+    <- 1800172a0  FUN_1800172a0  [INTERNAL]
+    <- 180017320  FUN_180017320  [INTERNAL]
+    <- 180017430  FUN_180017430  [INTERNAL]
+    <- 1800174b0  FUN_1800174b0  [INTERNAL]
+    <- 180017580  FUN_180017580  [INTERNAL]
+    <- 180017620  FUN_180017620  [INTERNAL]
+    <- 180017730  FUN_180017730  [INTERNAL]
+    <- 1800177d0  FUN_1800177d0  [INTERNAL]
+    <- 1800178e0  FUN_1800178e0  [INTERNAL]
+    <- 180017980  FUN_180017980  [INTERNAL]
+    <- 180017a20  FUN_180017a20  [INTERNAL]
+    <- 180017b30  FUN_180017b30  [INTERNAL]
+    <- 180017bd0  FUN_180017bd0  [INTERNAL]
+    <- 180017c70  FUN_180017c70  [INTERNAL]
+    <- 180017d10  FUN_180017d10  [INTERNAL]
+    <- 180018b30  FUN_180018b30  [INTERNAL]
+    <- 180018bd0  FUN_180018bd0  [INTERNAL]
+    <- 180018c30  FUN_180018c30  [INTERNAL]
+    <- 180018ca0  FUN_180018ca0  [INTERNAL]
+    <- 180018ce0  FUN_180018ce0  [INTERNAL]
+    <- 180018d80  FUN_180018d80  [INTERNAL]
+    <- 180018e70  FUN_180018e70  [INTERNAL]
+    <- 180018eb0  FUN_180018eb0  [INTERNAL]
+    <- 180018fa0  FUN_180018fa0  [INTERNAL]
+    <- 180018fe0  FUN_180018fe0  [INTERNAL]
+    <- 1800191b0  FUN_1800191b0  [INTERNAL]
+    <- 180019240  FUN_180019240  [INTERNAL]
+    <- 1800192c0  FUN_1800192c0  [INTERNAL]
+    <- 180019360  FUN_180019360  [INTERNAL]
+    <- 180019410  FUN_180019410  [INTERNAL]
+    <- 1800194c0  FUN_1800194c0  [INTERNAL]
+    <- 180019570  FUN_180019570  [INTERNAL]
+    <- 180019610  FUN_180019610  [INTERNAL]
+    <- 1800196b0  FUN_1800196b0  [INTERNAL]
+    <- 180019800  FUN_180019800  [INTERNAL]
+    <- 1800198b0  FUN_1800198b0  [INTERNAL]
+    <- 180019930  FUN_180019930  [INTERNAL]
+    <- 180019ad0  FUN_180019ad0  [INTERNAL]
+    <- 180019b70  FUN_180019b70  [INTERNAL]
+    <- 180019ca0  FUN_180019ca0  [INTERNAL]
+    <- 180019dc0  FUN_180019dc0  [INTERNAL]
+    <- 180019ed0  FUN_180019ed0  [INTERNAL]
+    <- 180019f50  FUN_180019f50  [INTERNAL]
+    <- 180019fd0  FUN_180019fd0  [INTERNAL]
+  CALLEES (direct calls): 0
+
+180002550  __autoclassinit2  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 1
+    -> 18001d738  memset  [INTERNAL]
+
+180002560  Singleton<GameClient>  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 0
+
+180002570  GetTextChat  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 0
+
+1800025b0  GetPlayerManager  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 0
+
+1800025f0  GameClient  [INTERNAL]
+  CALLERS (direct refs): 1
+    <- 180005dc0  Get  [INTERNAL]
+  CALLEES (direct calls): 3
+    -> 180006870  FUN_180006870  [INTERNAL]
+    -> 180008190  ENetClient  [INTERNAL]
+    -> 18001cae0  FUN_18001cae0  [INTERNAL]
+
+180002710  ~GameClient  [INTERNAL]
+  CALLERS (direct refs): 1
+    <- 1800072d0  FUN_1800072d0  [INTERNAL]
+  CALLEES (direct calls): 3
+    -> 180002030  FUN_180002030  [INTERNAL]
+    -> 180002800  FUN_180002800  [INTERNAL]
+    -> 1800083c0  ~ENetClient  [INTERNAL]
+
+180005dc0  Get  [INTERNAL]
+  CALLERS (direct refs): 11
+    <- 180002ea0  FUN_180002ea0  [INTERNAL]
+    <- 180003b10  FUN_180003b10  [INTERNAL]
+    <- 180005b30  FUN_180005b30  [INTERNAL]
+    <- 180007b80  ClientWelcome  [INTERNAL]
+    <- 180007e00  ServerEvent  [INTERNAL]
+    <- 18000b9b0  FUN_18000b9b0  [INTERNAL]
+    <- 18000c140  TextChat  [INTERNAL]
+    <- 18000c1e0  SetChatTitle  [INTERNAL]
+    <- 18000c490  UpdateChatPing  [INTERNAL]
+    <- 18000c6d0  SendChatMessage  [INTERNAL]
+    <- 18000c8c0  SendChatMessage  [INTERNAL]
+  CALLEES (direct calls): 6
+    -> 1800025f0  GameClient  [INTERNAL]
+    -> 18001c998  atexit  [INTERNAL]
+    -> 18001c9fc  _Init_thread_footer  [INTERNAL]
+    -> 18001ca68  FUN_18001ca68  [INTERNAL]
+    -> 18001cae0  FUN_18001cae0  [INTERNAL]
+    -> 18001d738  memset  [INTERNAL]
+
+180007b80  ClientWelcome  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 10
+    -> EXTERNAL:00000094  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+    -> 180005dc0  Get  [INTERNAL]
+    -> 180008ce0  Send  [INTERNAL]
+    -> 18000e940  FUN_18000e940  [INTERNAL]
+    -> 18000ea20  FUN_18000ea20  [INTERNAL]
+    -> 18000f5f0  FUN_18000f5f0  [INTERNAL]
+    -> 18000fc70  FUN_18000fc70  [INTERNAL]
+    -> 180010b00  FUN_180010b00  [INTERNAL]
+    -> 18001c620  __security_check_cookie  [INTERNAL]
+    -> 18001c9b8  FUN_18001c9b8  [INTERNAL]
+
+1800085a0  Connect  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 8
+    -> EXTERNAL:0000000b  Print  [EXTERNAL]
+    -> 180006710  FUN_180006710  [INTERNAL]
+    -> 180010e50  FUN_180010e50  [INTERNAL]
+    -> 180011240  FUN_180011240  [INTERNAL]
+    -> 180011c00  FUN_180011c00  [INTERNAL]
+    -> 180012a90  FUN_180012a90  [INTERNAL]
+    -> 180013220  FUN_180013220  [INTERNAL]
+    -> 18001c620  __security_check_cookie  [INTERNAL]
+
+180008960  Disconnect  [INTERNAL]
+  CALLERS (direct refs): 1
+    <- 180008500  Stop  [INTERNAL]
+  CALLEES (direct calls): 8
+    -> EXTERNAL:0000000b  Print  [EXTERNAL]
+    -> EXTERNAL:00000039  _Xtime_get_ticks  [EXTERNAL]
+    -> EXTERNAL:0000003a  _Xbad_function_call  [EXTERNAL]
+    -> 180010e20  FUN_180010e20  [INTERNAL]
+    -> 180011c00  FUN_180011c00  [INTERNAL]
+    -> 180012170  FUN_180012170  [INTERNAL]
+    -> 180012a90  FUN_180012a90  [INTERNAL]
+    -> 18001c620  __security_check_cookie  [INTERNAL]
+
+180008b40  IsConnected  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 0
+
+180008ce0  Send  [INTERNAL]
+  CALLERS (direct refs): 4
+    <- 180005b30  FUN_180005b30  [INTERNAL]
+    <- 180007b80  ClientWelcome  [INTERNAL]
+    <- 180007e00  ServerEvent  [INTERNAL]
+    <- 18000c8c0  SendChatMessage  [INTERNAL]
+  CALLEES (direct calls): 7
+    -> EXTERNAL:0000000b  Print  [EXTERNAL]
+    -> 1800072b0  FUN_1800072b0  [INTERNAL]
+    -> 180008c10  SendPeerMessage  [INTERNAL]
+    -> 180009d70  FUN_180009d70  [INTERNAL]
+    -> 1800107f0  FUN_1800107f0  [INTERNAL]
+    -> 18001c620  __security_check_cookie  [INTERNAL]
+    -> 18001cae0  FUN_18001cae0  [INTERNAL]
+
+180008e00  Poll  [INTERNAL]
+  CALLERS (direct refs): 1
+    <- 180008790  DoTick  [INTERNAL]
+  CALLEES (direct calls): 16
+    -> EXTERNAL:0000000b  Print  [EXTERNAL]
+    -> EXTERNAL:0000003a  _Xbad_function_call  [EXTERNAL]
+    -> EXTERNAL:00000094  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+    -> 1800072b0  FUN_1800072b0  [INTERNAL]
+    -> 180008070  FUN_180008070  [INTERNAL]
+    -> 1800080f0  FUN_1800080f0  [INTERNAL]
+    -> 180009d70  FUN_180009d70  [INTERNAL]
+    -> 180009e20  FUN_180009e20  [INTERNAL]
+    -> 18000e340  FUN_18000e340  [INTERNAL]
+    -> 18000f5f0  FUN_18000f5f0  [INTERNAL]
+    -> 1800108c0  FUN_1800108c0  [INTERNAL]
+    -> 180010e20  FUN_180010e20  [INTERNAL]
+    -> 180011c00  FUN_180011c00  [INTERNAL]
+    -> 18001c620  __security_check_cookie  [INTERNAL]
+    -> 18001c9b8  FUN_18001c9b8  [INTERNAL]
+    -> 18001cae0  FUN_18001cae0  [INTERNAL]
+
+18000a300  OnStart  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 5
+    -> 180002ea0  FUN_180002ea0  [INTERNAL]
+    -> 180008b60  RegisterPacket  [INTERNAL]
+    -> 18000b9b0  FUN_18000b9b0  [INTERNAL]
+    -> 18000c140  TextChat  [INTERNAL]
+    -> 18001cae0  FUN_18001cae0  [INTERNAL]
+
+18000a4f0  OnConnectionSucceeded  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 4
+    -> EXTERNAL:00000094  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+    -> 180007110  FUN_180007110  [INTERNAL]
+    -> 18000a0c0  FUN_18000a0c0  [INTERNAL]
+    -> 18001c9b8  FUN_18001c9b8  [INTERNAL]
+
+18000a580  OnConnectionFailed  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 7
+    -> EXTERNAL:00000008  Get  [EXTERNAL]
+    -> EXTERNAL:00000009  OnConnectionFailed  [EXTERNAL]
+    -> EXTERNAL:00000094  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+    -> 180007110  FUN_180007110  [INTERNAL]
+    -> 18000af90  FUN_18000af90  [INTERNAL]
+    -> 18001c620  __security_check_cookie  [INTERNAL]
+    -> 18001c9b8  FUN_18001c9b8  [INTERNAL]
+
+18000a6b0  OnTick  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 2
+    -> EXTERNAL:00000005  GetLocalPlayer  [EXTERNAL]
+    -> 180005b30  FUN_180005b30  [INTERNAL]
+
+18000a6d0  OnUpdate  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 1
+    -> 1800034e0  FUN_1800034e0  [INTERNAL]
+
+18000a6e0  OnDisconnect  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 12
+    -> EXTERNAL:00000001  GetCommand  [EXTERNAL]
+    -> EXTERNAL:00000094  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+    -> 1800051d0  FUN_1800051d0  [INTERNAL]
+    -> 1800069b0  FUN_1800069b0  [INTERNAL]
+    -> 180007110  FUN_180007110  [INTERNAL]
+    -> 18000a0c0  FUN_18000a0c0  [INTERNAL]
+    -> 18000a190  FUN_18000a190  [INTERNAL]
+    -> 18001c620  __security_check_cookie  [INTERNAL]
+    -> 18001c9b8  FUN_18001c9b8  [INTERNAL]
+    -> 18001c9fc  _Init_thread_footer  [INTERNAL]
+    -> 18001ca68  FUN_18001ca68  [INTERNAL]
+    -> 18001d738  memset  [INTERNAL]
+
+18000ad60  GetServerData  [INTERNAL]
+  CALLERS (direct refs): 0
+  CALLEES (direct calls): 0
+
+
+================================================================================
+5. IMPORTANT PATH SEARCHES
+================================================================================
+PATH GROUP: CEF/main menu -> ENet Connect
+  START: <no candidate functions>
+PATH GROUP: ENet Connect -> LoadOnline
+  START: <no candidate functions>
+PATH GROUP: LoadOnline -> ClientWelcome
+  START: <no candidate functions>
+PATH GROUP: ClientWelcome -> player actor lifecycle
+  TARGET: <no candidate functions>
+PATH GROUP: StartScreen / UI unstream -> LoadOnline
+  START: <no candidate functions>
+
+================================================================================
+6. INDIRECT / UNRESOLVED CALL SITES IN CANDIDATES
+================================================================================
+FUNCTION: 180002710  ~GameClient  [INTERNAL]
+  unresolved/indirect calls: 6
+    180002745  CALL qword ptr [RAX]
+    180002759  CALL qword ptr [RAX + 0x8]
+    18000277a  CALL qword ptr [RAX]
+    18000278e  CALL qword ptr [RAX + 0x8]
+    1800027af  CALL qword ptr [RAX]
+    1800027c1  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 180007b80  ClientWelcome  [INTERNAL]
+  unresolved/indirect calls: 2
+    180007d87  CALL qword ptr [RAX]
+    180007d99  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 1800085a0  Connect  [INTERNAL]
+  unresolved/indirect calls: 2
+    18000870d  CALL qword ptr [RAX + 0x8]
+    18000876e  CALL qword ptr [RAX + 0x10]
+
+FUNCTION: 180008960  Disconnect  [INTERNAL]
+  unresolved/indirect calls: 3
+    180008a41  CALL qword ptr [RAX + 0x28]
+    180008a90  CALL qword ptr [RAX + 0x10]
+    180008ab2  CALL qword ptr [RAX + 0x28]
+
+FUNCTION: 180008e00  Poll  [INTERNAL]
+  unresolved/indirect calls: 3
+    1800090b1  CALL qword ptr [RAX + 0x28]
+    1800090c8  CALL qword ptr [RAX + 0x28]
+    1800090fa  CALL qword ptr [RAX + 0x10]
+
+FUNCTION: 18000a300  OnStart  [INTERNAL]
+  unresolved/indirect calls: 6
+    18000a385  CALL qword ptr [RAX]
+    18000a399  CALL qword ptr [RAX + 0x8]
+    18000a405  CALL qword ptr [RAX]
+    18000a419  CALL qword ptr [RAX + 0x8]
+    18000a485  CALL qword ptr [RAX]
+    18000a497  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 18000a580  OnConnectionFailed  [INTERNAL]
+  unresolved/indirect calls: 3
+    18000a646  CALL qword ptr [RAX]
+    18000a658  CALL qword ptr [RAX + 0x8]
+    18000a686  CALL qword ptr [RAX + 0x8]
+
+FUNCTION: 18000a6e0  OnDisconnect  [INTERNAL]
+  unresolved/indirect calls: 5
+    18000a7e6  CALL RAX
+    18000a8e2  CALL RAX
+    18000a9fc  CALL RAX
+    18000ab23  CALL RAX
+    18000ac5f  CALL RAX
+
+
+================================================================================
+7. DECOMPILATION OF KEY CANDIDATES
+================================================================================
+
+================================================================================
+DECOMPILATION: 180007b80  ClientWelcome  [INTERNAL]
+================================================================================
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* public: static void __cdecl ClientSend::ClientWelcome(enum e_ActorModel,class
+   std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &
+   __ptr64,struct Vector3 const & __ptr64,struct Vector3 const & __ptr64) */
+
+void __cdecl
+ClientSend::ClientWelcome
+          (e_ActorModel param_1,
+          basic_string<char,std::char_traits<char>,std::allocator<char>_> *param_2,Vector3 *param_3,
+          Vector3 *param_4)
+
+{
+  longlong *plVar1;
+  int *piVar2;
+  int iVar3;
+  ushort uVar4;
+  longlong lVar5;
+  undefined8 *puVar6;
+  void *pvVar7;
+  ulonglong uVar8;
+  undefined1 auStack_88 [32];
+  basic_string<char,std::char_traits<char>,std::allocator<char>_> local_68 [8];
+  undefined8 local_60;
+  longlong lStack_58;
+  void *local_50;
+  basic_string<char,std::char_traits<char>,std::allocator<char>_> *pbStack_48;
+  basic_string<char,std::char_traits<char>,std::allocator<char>_> *local_40;
+  ulonglong local_38;
+  longlong *local_30;
+  ulonglong local_28;
+  
+                    /* 0x7b80  16
+                       ?ClientWelcome@ClientSend@@SAXW4e_ActorModel@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBUVector3@@2@Z
+                        */
+  local_28 = DAT_1800280c0 ^ (ulonglong)auStack_88;
+  local_50 = (void *)0x0;
+  pbStack_48 = (basic_string<char,std::char_traits<char>,std::allocator<char>_> *)0x0;
+  local_40 = (basic_string<char,std::char_traits<char>,std::allocator<char>_> *)0x0;
+  local_60 = 0;
+  lStack_58 = 0;
+  local_38 = 0x400;
+  FUN_18000f5f0((longlong *)&local_50,&local_38);
+  FUN_18000ea20((longlong)&local_60,(ulonglong)param_1);
+  uVar4 = *(ushort *)(param_2 + 0x10);
+  uVar8 = (ulonglong)uVar4;
+  if (uVar4 < 0x1000) {
+    FUN_18000e940((longlong)&local_60,uVar4);
+    if (0xf < *(ulonglong *)(param_2 + 0x18)) {
+      param_2 = *(basic_string<char,std::char_traits<char>,std::allocator<char>_> **)param_2;
+    }
+    if (uVar4 != 0) {
+      do {
+        local_68[0] = *param_2;
+        if (pbStack_48 == local_40) {
+          FUN_18000fc70((longlong *)&local_50,pbStack_48,local_68);
+        }
+        else {
+          *pbStack_48 = local_68[0];
+          pbStack_48 = pbStack_48 + 1;
+        }
+        lStack_58 = lStack_58 + 1;
+        param_2 = param_2 + 1;
+        uVar8 = uVar8 - 1;
+      } while (uVar8 != 0);
+    }
+  }
+  else {
+    FUN_18000e940((longlong)&local_60,0);
+  }
+  uVar8 = FUN_180010b00((double)*(float *)param_3,' ','\b');
+  FUN_18000ea20((longlong)&local_60,uVar8);
+  uVar8 = FUN_180010b00((double)*(float *)(param_3 + 4),' ','\b');
+  FUN_18000ea20((longlong)&local_60,uVar8);
+  uVar8 = FUN_180010b00((double)*(float *)(param_3 + 8),' ','\b');
+  FUN_18000ea20((longlong)&local_60,uVar8);
+  uVar8 = FUN_180010b00((double)*(float *)param_4,' ','\b');
+  FUN_18000ea20((longlong)&local_60,uVar8);
+  uVar8 = FUN_180010b00((double)*(float *)(param_4 + 4),' ','\b');
+  FUN_18000ea20((longlong)&local_60,uVar8);
+  uVar8 = FUN_180010b00((double)*(float *)(param_4 + 8),' ','\b');
+  FUN_18000ea20((longlong)&local_60,uVar8);
+  puVar6 = (undefined8 *)Singleton<GameClient>::Get();
+  ENetClient::Send((ENetClient *)*puVar6,0,0,(StreamBuffer *)&local_60);
+  if (local_30 != (longlong *)0x0) {
+    LOCK();
+    plVar1 = local_30 + 1;
+    lVar5 = *plVar1;
+    *(int *)plVar1 = (int)*plVar1 + -1;
+    UNLOCK();
+    if ((int)lVar5 == 1) {
+      (**(code **)*local_30)(local_30);
+      LOCK();
+      piVar2 = (int *)((longlong)local_30 + 0xc);
+      iVar3 = *piVar2;
+      *piVar2 = *piVar2 + -1;
+      UNLOCK();
+      if (iVar3 == 1) {
+        (**(code **)(*local_30 + 8))(local_30);
+      }
+    }
+  }
+  if (local_50 != (void *)0x0) {
+    pvVar7 = local_50;
+    if ((0xfff < (ulonglong)((longlong)local_40 - (longlong)local_50)) &&
+       (pvVar7 = *(void **)((longlong)local_50 + -8),
+       0x1f < (ulonglong)((longlong)local_50 + (-8 - (longlong)pvVar7)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    FUN_18001c9b8(pvVar7);
+  }
+  return;
+}
+
+
+DIRECT CALL REFERENCES:
+  180007be4 -> 18000f5f0  FUN_18000f5f0  [INTERNAL]
+  180007bf0 -> 18000ea20  FUN_18000ea20  [INTERNAL]
+  180007c0c -> 18000e940  FUN_18000e940  [INTERNAL]
+  180007c53 -> 18000fc70  FUN_18000fc70  [INTERNAL]
+  180007c6d -> 18000e940  FUN_18000e940  [INTERNAL]
+  180007c85 -> 180010b00  FUN_180010b00  [INTERNAL]
+  180007c91 -> 18000ea20  FUN_18000ea20  [INTERNAL]
+  180007caa -> 180010b00  FUN_180010b00  [INTERNAL]
+  180007cb6 -> 18000ea20  FUN_18000ea20  [INTERNAL]
+  180007ccf -> 180010b00  FUN_180010b00  [INTERNAL]
+  180007cdb -> 18000ea20  FUN_18000ea20  [INTERNAL]
+  180007cf2 -> 180010b00  FUN_180010b00  [INTERNAL]
+  180007cfe -> 18000ea20  FUN_18000ea20  [INTERNAL]
+  180007d16 -> 180010b00  FUN_180010b00  [INTERNAL]
+  180007d22 -> 18000ea20  FUN_18000ea20  [INTERNAL]
+  180007d3a -> 180010b00  FUN_180010b00  [INTERNAL]
+  180007d46 -> 18000ea20  FUN_18000ea20  [INTERNAL]
+  180007d4f -> 180005dc0  Get  [INTERNAL]
+  180007d61 -> 180008ce0  Send  [INTERNAL]
+  180007dca -> EXTERNAL:00000094  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  180007dd1 -> 18001c9b8  FUN_18001c9b8  [INTERNAL]
+  180007ddd -> 18001c620  __security_check_cookie  [INTERNAL]
+
+================================================================================
+8. DIRECT CALLS THAT POINT OUTSIDE A FUNCTION BODY
+================================================================================
+FUNCTION: 180007b80  ClientWelcome  [INTERNAL]
+  180007dca -> EXTERNAL:00000094  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+FUNCTION: 1800085a0  Connect  [INTERNAL]
+  1800085d5 -> EXTERNAL:0000000b  Print  [EXTERNAL]
+  180008601 -> EXTERNAL:0000000b  Print  [EXTERNAL]
+  18000864f -> EXTERNAL:0000000b  Print  [EXTERNAL]
+  18000869f -> EXTERNAL:0000000b  Print  [EXTERNAL]
+  180008701 -> EXTERNAL:0000000b  Print  [EXTERNAL]
+  180008751 -> EXTERNAL:0000000b  Print  [EXTERNAL]
+FUNCTION: 180008960  Disconnect  [INTERNAL]
+  1800089b3 -> EXTERNAL:0000000b  Print  [EXTERNAL]
+  1800089c4 -> EXTERNAL:00000039  _Xtime_get_ticks  [EXTERNAL]
+  180008a35 -> EXTERNAL:0000000b  Print  [EXTERNAL]
+  180008a4e -> EXTERNAL:00000039  _Xtime_get_ticks  [EXTERNAL]
+  180008aa6 -> EXTERNAL:0000000b  Print  [EXTERNAL]
+  180008aba -> EXTERNAL:0000003a  _Xbad_function_call  [EXTERNAL]
+  180008acf -> EXTERNAL:0000000b  Print  [EXTERNAL]
+  180008ae3 -> EXTERNAL:0000000b  Print  [EXTERNAL]
+FUNCTION: 180008ce0  Send  [INTERNAL]
+  180008dd3 -> EXTERNAL:0000000b  Print  [EXTERNAL]
+FUNCTION: 180008e00  Poll  [INTERNAL]
+  1800090dd -> EXTERNAL:0000000b  Print  [EXTERNAL]
+  180009127 -> EXTERNAL:0000000b  Print  [EXTERNAL]
+  180009157 -> EXTERNAL:00000094  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18000915e -> EXTERNAL:00000094  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  180009165 -> EXTERNAL:0000003a  _Xbad_function_call  [EXTERNAL]
+FUNCTION: 18000a4f0  OnConnectionSucceeded  [INTERNAL]
+  18000a568 -> EXTERNAL:00000094  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+FUNCTION: 18000a580  OnConnectionFailed  [INTERNAL]
+  18000a59e -> EXTERNAL:00000008  Get  [EXTERNAL]
+  18000a618 -> EXTERNAL:00000094  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+  18000a668 -> EXTERNAL:00000009  OnConnectionFailed  [EXTERNAL]
+FUNCTION: 18000a6b0  OnTick  [INTERNAL]
+  18000a6b4 -> EXTERNAL:00000005  GetLocalPlayer  [EXTERNAL]
+FUNCTION: 18000a6e0  OnDisconnect  [INTERNAL]
+  18000a7bc -> EXTERNAL:00000001  GetCommand  [EXTERNAL]
+  18000a8b6 -> EXTERNAL:00000001  GetCommand  [EXTERNAL]
+  18000a9d0 -> EXTERNAL:00000001  GetCommand  [EXTERNAL]
+  18000aaf7 -> EXTERNAL:00000001  GetCommand  [EXTERNAL]
+  18000ac35 -> EXTERNAL:00000001  GetCommand  [EXTERNAL]
+  18000ad29 -> EXTERNAL:00000094  _invalid_parameter_noinfo_noreturn  [EXTERNAL]
+
+================================================================================
+9. LIKELY BOOTSTRAP TRANSITION POINTS
+================================================================================
+TRANSITION CANDIDATE score=5  18000a580  OnConnectionFailed  [INTERNAL]
+  markers: CEFManager, mainmenu, OnConnect, GameClient, connect
+  direct callers: 0
+  direct callees: 7
+TRANSITION CANDIDATE score=4  180002540  ~Singleton<GameClient>  [INTERNAL]
+  markers: OnConnect, GameClient, connect, disconnect
+  direct callers: 96
+  direct callees: 0
+TRANSITION CANDIDATE score=4  18000a4f0  OnConnectionSucceeded  [INTERNAL]
+  markers: OnConnect, GameClient, connect, on_connection_succeeded
+  direct callers: 0
+  direct callees: 4
+TRANSITION CANDIDATE score=4  18000a6e0  OnDisconnect  [INTERNAL]
+  markers: GameClient, connect, disconnect, on_disconnect
+  direct callers: 0
+  direct callees: 12
+TRANSITION CANDIDATE score=2  180002570  GetTextChat  [INTERNAL]
+  markers: GameClient::Get, GameClient
+  direct callers: 0
+  direct callees: 0
+TRANSITION CANDIDATE score=2  1800025b0  GetPlayerManager  [INTERNAL]
+  markers: GameClient::Get, GameClient
+  direct callers: 0
+  direct callees: 0
+TRANSITION CANDIDATE score=2  180007b80  ClientWelcome  [INTERNAL]
+  markers: ClientWelcome, GameClient
+  direct callers: 0
+  direct callees: 10
+TRANSITION CANDIDATE score=2  1800085a0  Connect  [INTERNAL]
+  markers: ENetClient::Connect, connect
+  direct callers: 0
+  direct callees: 8
+TRANSITION CANDIDATE score=2  180008960  Disconnect  [INTERNAL]
+  markers: connect, disconnect
+  direct callers: 1
+  direct callees: 8
+TRANSITION CANDIDATE score=2  18000ad60  GetServerData  [INTERNAL]
+  markers: GameClient::Get, GameClient
+  direct callers: 0
+  direct callees: 0
+
+================================================================================
+10. WHAT THIS REPORT CAN / CANNOT PROVE
+================================================================================
+CAN:
+  - identify functions/symbols/strings related to CEF, ENet, ClientWelcome and player actor lifecycle
+  - show direct callers/callees recovered from static call/reference edges
+  - show short direct-call paths between important regions
+  - expose indirect-call sites where a native invoker / virtual dispatch may hide the true target
+
+CANNOT by itself:
+  - prove an indirect callback target when the binary uses function pointers without recoverable references
+  - prove runtime order when scripts/fibers/event dispatch change the order dynamically
+  - prove network success or actor creation at runtime
+  - replace dynamic tracing when a native invoker obscures the called native
+
+The most useful next evidence, when a path stops, is the decompilation and xref neighborhood printed for the last resolved function.

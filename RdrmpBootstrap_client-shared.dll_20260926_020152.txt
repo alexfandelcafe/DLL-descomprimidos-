@@ -1,0 +1,386 @@
+
+================================================================================
+RDRMP / FRONTIER STATIC BOOTSTRAP INVESTIGATOR
+================================================================================
+Program: client-shared.dll
+Executable format: Portable Executable (PE)
+Language: x86:LE:64:default
+Image base: 180000000
+Timestamp: Sat Sep 26 02:01:52 ART 2026
+Mode: static only; no execution/emulation
+
+================================================================================
+1. SYMBOL / FUNCTION HITS
+================================================================================
+KEYWORD: LoadMainMenu
+  <no function-name match>
+KEYWORD: CEFManager
+  <no function-name match>
+KEYWORD: mainmenu
+  <no function-name match>
+KEYWORD: cef/cef_ui/mainmenu/index.html
+  <no function-name match>
+KEYWORD: OnConnect
+  <no function-name match>
+KEYWORD: RegisterFunction
+  <no function-name match>
+KEYWORD: ClientHandler
+  <no function-name match>
+KEYWORD: LoadOnline
+  <no function-name match>
+KEYWORD: UI_Unstreammovie
+  <no function-name match>
+KEYWORD: fileSetForMPLoad
+  <no function-name match>
+KEYWORD: fileStartupChecksComplete
+  <no function-name match>
+KEYWORD: StartScreen1
+  <no function-name match>
+KEYWORD: startscreen
+  <no function-name match>
+KEYWORD: player_name
+  <no function-name match>
+KEYWORD: Guest
+  <no function-name match>
+KEYWORD: ENetClient::Connect
+  <no function-name match>
+KEYWORD: ENetClient::GetHostAddress
+  <no function-name match>
+KEYWORD: ENetClient::GetHostPort
+  <no function-name match>
+KEYWORD: ClientWelcome
+  <no function-name match>
+KEYWORD: GameClient::Get
+  <no function-name match>
+KEYWORD: GameClient
+  <no function-name match>
+KEYWORD: init_native_actorenum_player
+  <no function-name match>
+KEYWORD: create_player_actor_in_layout
+  <no function-name match>
+KEYWORD: respawn_player_actor_in_layout
+  <no function-name match>
+KEYWORD: switch_player_to_enum
+  <no function-name match>
+KEYWORD: get_player_actor
+  <no function-name match>
+KEYWORD: is_local_player
+  <no function-name match>
+KEYWORD: is_local_player_valid
+  <no function-name match>
+KEYWORD: get_local_slot
+  <no function-name match>
+KEYWORD: get_slot_actor
+  <no function-name match>
+KEYWORD: get_actor_slot
+  <no function-name match>
+KEYWORD: is_slot_valid
+  <no function-name match>
+KEYWORD: is_actor_player
+  <no function-name match>
+KEYWORD: is_actor_local_player
+  <no function-name match>
+KEYWORD: create_actor_in_layout
+  <no function-name match>
+KEYWORD: get_actor_enum
+  <no function-name match>
+KEYWORD: is_actor_inited
+  <no function-name match>
+KEYWORD: is_actor_valid
+  <no function-name match>
+KEYWORD: ResourcesManager::LoadAllResources
+  <no function-name match>
+KEYWORD: ResourcesManager::DoesAllResourcesAreLoaded
+  <no function-name match>
+KEYWORD: LoadAllResources
+  <no function-name match>
+KEYWORD: DoesAllResourcesAreLoaded
+  <no function-name match>
+KEYWORD: HTTPClient::Connect
+  <no function-name match>
+KEYWORD: HTTPClient::DownloadResources
+  <no function-name match>
+KEYWORD: connect
+  <no function-name match>
+KEYWORD: disconnect
+  <no function-name match>
+KEYWORD: retry
+  <no function-name match>
+KEYWORD: set_loading_screen
+  <no function-name match>
+KEYWORD: on_connection_succeeded
+  <no function-name match>
+KEYWORD: on_disconnect
+  <no function-name match>
+KEYWORD: failed_server_retrieving_resources
+  <no function-name match>
+KEYWORD: failed_server_invalid_version
+  <no function-name match>
+
+================================================================================
+2. SYMBOL TABLE HITS
+================================================================================
+KEYWORD: LoadMainMenu
+  <no symbol match>
+KEYWORD: CEFManager
+  <no symbol match>
+KEYWORD: mainmenu
+  <no symbol match>
+KEYWORD: cef/cef_ui/mainmenu/index.html
+  <no symbol match>
+KEYWORD: OnConnect
+  <no symbol match>
+KEYWORD: RegisterFunction
+  <no symbol match>
+KEYWORD: ClientHandler
+  <no symbol match>
+KEYWORD: LoadOnline
+  <no symbol match>
+KEYWORD: UI_Unstreammovie
+  <no symbol match>
+KEYWORD: fileSetForMPLoad
+  <no symbol match>
+KEYWORD: fileStartupChecksComplete
+  <no symbol match>
+KEYWORD: StartScreen1
+  <no symbol match>
+KEYWORD: startscreen
+  <no symbol match>
+KEYWORD: player_name
+  <no symbol match>
+KEYWORD: Guest
+  <no symbol match>
+KEYWORD: ENetClient::Connect
+  <no symbol match>
+KEYWORD: ENetClient::GetHostAddress
+  <no symbol match>
+KEYWORD: ENetClient::GetHostPort
+  <no symbol match>
+KEYWORD: ClientWelcome
+  <no symbol match>
+KEYWORD: GameClient::Get
+  <no symbol match>
+KEYWORD: GameClient
+  <no symbol match>
+KEYWORD: init_native_actorenum_player
+  <no symbol match>
+KEYWORD: create_player_actor_in_layout
+  <no symbol match>
+KEYWORD: respawn_player_actor_in_layout
+  <no symbol match>
+KEYWORD: switch_player_to_enum
+  <no symbol match>
+KEYWORD: get_player_actor
+  <no symbol match>
+KEYWORD: is_local_player
+  <no symbol match>
+KEYWORD: is_local_player_valid
+  <no symbol match>
+KEYWORD: get_local_slot
+  <no symbol match>
+KEYWORD: get_slot_actor
+  <no symbol match>
+KEYWORD: get_actor_slot
+  <no symbol match>
+KEYWORD: is_slot_valid
+  <no symbol match>
+KEYWORD: is_actor_player
+  <no symbol match>
+KEYWORD: is_actor_local_player
+  <no symbol match>
+KEYWORD: create_actor_in_layout
+  <no symbol match>
+KEYWORD: get_actor_enum
+  <no symbol match>
+KEYWORD: is_actor_inited
+  <no symbol match>
+KEYWORD: is_actor_valid
+  <no symbol match>
+KEYWORD: ResourcesManager::LoadAllResources
+  <no symbol match>
+KEYWORD: ResourcesManager::DoesAllResourcesAreLoaded
+  <no symbol match>
+KEYWORD: LoadAllResources
+  <no symbol match>
+KEYWORD: DoesAllResourcesAreLoaded
+  <no symbol match>
+KEYWORD: HTTPClient::Connect
+  <no symbol match>
+KEYWORD: HTTPClient::DownloadResources
+  <no symbol match>
+KEYWORD: connect
+  <no symbol match>
+KEYWORD: disconnect
+  <no symbol match>
+KEYWORD: retry
+  <no symbol match>
+KEYWORD: set_loading_screen
+  <no symbol match>
+KEYWORD: on_connection_succeeded
+  <no symbol match>
+KEYWORD: on_disconnect
+  <no symbol match>
+KEYWORD: failed_server_retrieving_resources
+  <no symbol match>
+KEYWORD: failed_server_invalid_version
+  <no symbol match>
+
+================================================================================
+3. STRING XREFS (DEFINED DATA ONLY)
+================================================================================
+STRING: LoadMainMenu
+  <not found among defined data strings>
+STRING: CEFManager
+  <not found among defined data strings>
+STRING: mainmenu
+  <not found among defined data strings>
+STRING: cef/cef_ui/mainmenu/index.html
+  <not found among defined data strings>
+STRING: OnConnect
+  <not found among defined data strings>
+STRING: RegisterFunction
+  <not found among defined data strings>
+STRING: ClientHandler
+  <not found among defined data strings>
+STRING: LoadOnline
+  <not found among defined data strings>
+STRING: UI_Unstreammovie
+  <not found among defined data strings>
+STRING: fileSetForMPLoad
+  <not found among defined data strings>
+STRING: fileStartupChecksComplete
+  <not found among defined data strings>
+STRING: StartScreen1
+  <not found among defined data strings>
+STRING: startscreen
+  <not found among defined data strings>
+STRING: player_name
+  <not found among defined data strings>
+STRING: Guest
+  <not found among defined data strings>
+STRING: ENetClient::Connect
+  <not found among defined data strings>
+STRING: ENetClient::GetHostAddress
+  <not found among defined data strings>
+STRING: ENetClient::GetHostPort
+  <not found among defined data strings>
+STRING: ClientWelcome
+  <not found among defined data strings>
+STRING: GameClient::Get
+  <not found among defined data strings>
+STRING: GameClient
+  <not found among defined data strings>
+STRING: init_native_actorenum_player
+  <not found among defined data strings>
+STRING: create_player_actor_in_layout
+  <not found among defined data strings>
+STRING: respawn_player_actor_in_layout
+  <not found among defined data strings>
+STRING: switch_player_to_enum
+  <not found among defined data strings>
+STRING: get_player_actor
+  <not found among defined data strings>
+STRING: is_local_player
+  <not found among defined data strings>
+STRING: is_local_player_valid
+  <not found among defined data strings>
+STRING: get_local_slot
+  <not found among defined data strings>
+STRING: get_slot_actor
+  <not found among defined data strings>
+STRING: get_actor_slot
+  <not found among defined data strings>
+STRING: is_slot_valid
+  <not found among defined data strings>
+STRING: is_actor_player
+  <not found among defined data strings>
+STRING: is_actor_local_player
+  <not found among defined data strings>
+STRING: create_actor_in_layout
+  <not found among defined data strings>
+STRING: get_actor_enum
+  <not found among defined data strings>
+STRING: is_actor_inited
+  <not found among defined data strings>
+STRING: is_actor_valid
+  <not found among defined data strings>
+STRING: ResourcesManager::LoadAllResources
+  <not found among defined data strings>
+STRING: ResourcesManager::DoesAllResourcesAreLoaded
+  <not found among defined data strings>
+STRING: LoadAllResources
+  <not found among defined data strings>
+STRING: DoesAllResourcesAreLoaded
+  <not found among defined data strings>
+STRING: HTTPClient::Connect
+  <not found among defined data strings>
+STRING: HTTPClient::DownloadResources
+  <not found among defined data strings>
+STRING: connect
+  <not found among defined data strings>
+STRING: disconnect
+  <not found among defined data strings>
+STRING: retry
+  <not found among defined data strings>
+STRING: set_loading_screen
+  <not found among defined data strings>
+STRING: on_connection_succeeded
+  <not found among defined data strings>
+STRING: on_disconnect
+  <not found among defined data strings>
+STRING: failed_server_retrieving_resources
+  <not found among defined data strings>
+STRING: failed_server_invalid_version
+  <not found among defined data strings>
+
+================================================================================
+4. CANDIDATE FUNCTION CALLERS / CALLEES
+================================================================================
+
+================================================================================
+5. IMPORTANT PATH SEARCHES
+================================================================================
+PATH GROUP: CEF/main menu -> ENet Connect
+  START: <no candidate functions>
+PATH GROUP: ENet Connect -> LoadOnline
+  START: <no candidate functions>
+PATH GROUP: LoadOnline -> ClientWelcome
+  START: <no candidate functions>
+PATH GROUP: ClientWelcome -> player actor lifecycle
+  START: <no candidate functions>
+PATH GROUP: StartScreen / UI unstream -> LoadOnline
+  START: <no candidate functions>
+
+================================================================================
+6. INDIRECT / UNRESOLVED CALL SITES IN CANDIDATES
+================================================================================
+
+================================================================================
+7. DECOMPILATION OF KEY CANDIDATES
+================================================================================
+
+================================================================================
+8. DIRECT CALLS THAT POINT OUTSIDE A FUNCTION BODY
+================================================================================
+
+================================================================================
+9. LIKELY BOOTSTRAP TRANSITION POINTS
+================================================================================
+<no multi-marker transition candidate>
+
+================================================================================
+10. WHAT THIS REPORT CAN / CANNOT PROVE
+================================================================================
+CAN:
+  - identify functions/symbols/strings related to CEF, ENet, ClientWelcome and player actor lifecycle
+  - show direct callers/callees recovered from static call/reference edges
+  - show short direct-call paths between important regions
+  - expose indirect-call sites where a native invoker / virtual dispatch may hide the true target
+
+CANNOT by itself:
+  - prove an indirect callback target when the binary uses function pointers without recoverable references
+  - prove runtime order when scripts/fibers/event dispatch change the order dynamically
+  - prove network success or actor creation at runtime
+  - replace dynamic tracing when a native invoker obscures the called native
+
+The most useful next evidence, when a path stops, is the decompilation and xref neighborhood printed for the last resolved function.
