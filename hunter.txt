@@ -1,0 +1,4115 @@
+RDRMP PLAYER / ACTOR SPAWN HUNTER
+Program: client-networking.dll
+ImageBase: 180000000
+
+
+============================================================
+ TARGET SYMBOLS
+============================================================
+[SYMBOL] GetPlayerActor -> EXTERNAL:00000002  name=GetPlayerActor
+         function=EXTERNAL:00000002 GetPlayerActor
+[SYMBOL] GetActor -> EXTERNAL:00000003  name=GetActor
+         function=EXTERNAL:00000003 GetActor
+[SYMBOL] GetLocalPlayer -> EXTERNAL:00000005  name=GetLocalPlayer
+         function=EXTERNAL:00000005 GetLocalPlayer
+[SYMBOL] GetPlayerManager -> 1800025b0  name=GetPlayerManager
+         function=1800025b0 GetPlayerManager
+[SYMBOL] GetPlayerManager -> 1800025b0  name=?GetPlayerManager@GameClient@@QEBA?BV?$shared_ptr@VPlayerManager@@@std@@XZ
+         function=1800025b0 GetPlayerManager
+[SYMBOL] ClientWelcome -> 180007b80  name=ClientWelcome
+         function=180007b80 ClientWelcome
+[SYMBOL] ClientWelcome -> 180007b80  name=?ClientWelcome@ClientSend@@SAXW4e_ActorModel@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBUVector3@@2@Z
+         function=180007b80 ClientWelcome
+[SYMBOL] ServerEvent -> 180007e00  name=ServerEvent
+         function=180007e00 ServerEvent
+[SYMBOL] ServerEvent -> 180007e00  name=?ServerEvent@ClientSend@@SAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVDataSerializer@Scripting@@@Z
+         function=180007e00 ServerEvent
+[SYMBOL] RegisterPacket -> 180008b60  name=RegisterPacket
+         function=180008b60 RegisterPacket
+[SYMBOL] RegisterPacket -> 180008b60  name=?RegisterPacket@ENetClient@@QEAAXGV?$function@$$A6AXAEBVStreamBuffer@@@Z@std@@@Z
+         function=180008b60 RegisterPacket
+[SYMBOL] GetPlayerActor -> 18001f488  name=PTR_GetPlayerActor_18001f488
+[SYMBOL] GetActor -> 18001f490  name=PTR_GetActor_18001f490
+[SYMBOL] GetLocalPlayer -> 18001f4a0  name=PTR_GetLocalPlayer_18001f4a0
+[SYMBOL] ClientWelcome -> 180025079  name=s_?ClientWelcome@ClientSend@@SAXW4_180025079
+[SYMBOL] GetPlayerManager -> 1800252d8  name=s_?GetPlayerManager@GameClient@@QE_1800252d8
+[SYMBOL] RegisterPacket -> 180025648  name=s_?RegisterPacket@ENetClient@@QEAA_180025648
+[SYMBOL] ServerEvent -> 180025823  name=s_?ServerEvent@ClientSend@@SAXAEBV_180025823
+
+============================================================
+ RELEVANT STRINGS
+============================================================
+[STRING] 1800202a0  "PlayerLayout"
+[STRING] 1800202e8  "core:on_player_joined"
+[STRING] 180020300  "core:on_player_left"
+[STRING] 180020320  "Failed to create player with id %u, a player with this id already exist !"
+[STRING] 180020320  "Failed to create player with id %u, a player with this id already exist !"
+[STRING] 180020370  "Failed to create player %s (%u)"
+[STRING] 180020370  "Failed to create player %s (%u)"
+[STRING] 180020390  "Failed to delete player with id %u, no player with this id exist !"
+[STRING] 180020390  "Failed to delete player with id %u, no player with this id exist !"
+[STRING] 180020828  "on_connection_succeeded"
+[STRING] 180020840  "on_disconnect"
+[STRING] 1800260b0  "?GetPlayerActor@sagPlayer@rage@@QEBAPEAUsagActor@2@XZ"
+[STRING] 1800260e8  "?GetLocalPlayer@sagPlayerMgr@rage@@SAPEAUsagPlayer@2@XZ"
+
+============================================================
+ TARGET FUNCTION XREFS
+============================================================
+
+[TARGET] GetPlayerActor @ EXTERNAL:00000002
+  XREF 18001f488 -> EXTERNAL:00000002 type=DATA
+  XREF 180005b56 -> EXTERNAL:00000002 type=COMPUTED_CALL
+       caller=180005b30 FUN_180005b30
+      --- context ---
+      180005b35  MOV qword ptr [RSP + 0x18],RDI
+      180005b3a  PUSH RBP
+      180005b3b  MOV RBP,RSP
+      180005b3e  SUB RSP,0x80
+      180005b45  MOV RAX,qword ptr [0x1800280c0]
+      180005b4c  XOR RAX,RSP
+      180005b4f  MOV qword ptr [RBP + -0x8],RAX
+      180005b53  MOV RCX,RDX
+      >>> 180005b56  CALL qword ptr [0x18001f488]
+      180005b5c  TEST RAX,RAX
+      180005b5f  JZ 0x180005d93
+      180005b65  MOV RCX,RAX
+      180005b68  CALL qword ptr [0x18001f498]
+      180005b6e  MOV RBX,RAX
+      -------------------
+
+[TARGET] GetPlayerActor @ 18001f488
+  XREF 180005b56 -> 18001f488 type=READ
+       caller=180005b30 FUN_180005b30
+      --- context ---
+      180005b35  MOV qword ptr [RSP + 0x18],RDI
+      180005b3a  PUSH RBP
+      180005b3b  MOV RBP,RSP
+      180005b3e  SUB RSP,0x80
+      180005b45  MOV RAX,qword ptr [0x1800280c0]
+      180005b4c  XOR RAX,RSP
+      180005b4f  MOV qword ptr [RBP + -0x8],RAX
+      180005b53  MOV RCX,RDX
+      >>> 180005b56  CALL qword ptr [0x18001f488]
+      180005b5c  TEST RAX,RAX
+      180005b5f  JZ 0x180005d93
+      180005b65  MOV RCX,RAX
+      180005b68  CALL qword ptr [0x18001f498]
+      180005b6e  MOV RBX,RAX
+      -------------------
+
+[TARGET] GetActor @ EXTERNAL:00000003
+  XREF 18001f490 -> EXTERNAL:00000003 type=DATA
+  XREF 180005085 -> EXTERNAL:00000003 type=COMPUTED_CALL
+       caller=180004cc0 FUN_180004cc0
+      --- context ---
+      18000506e  POP RDI
+      18000506f  POP RBP
+      180005070  RET
+      180005071  MOV ECX,dword ptr [RBX + 0x18]
+      180005074  CALL qword ptr [0x18001f4a8]
+      18000507a  TEST RAX,RAX
+      18000507d  JZ 0x18000504a
+      18000507f  MOV ECX,dword ptr [RAX + 0xb0]
+      >>> 180005085  CALL qword ptr [0x18001f490]
+      18000508b  TEST RAX,RAX
+      18000508e  JZ 0x18000504a
+      180005090  MOV dword ptr [RAX + 0x108],ESI
+      180005096  MOV EBX,dword ptr [RBX + 0x18]
+      180005099  XOR EAX,EAX
+      -------------------
+
+[TARGET] GetActor @ 18001f490
+  XREF 180005085 -> 18001f490 type=READ
+       caller=180004cc0 FUN_180004cc0
+      --- context ---
+      18000506e  POP RDI
+      18000506f  POP RBP
+      180005070  RET
+      180005071  MOV ECX,dword ptr [RBX + 0x18]
+      180005074  CALL qword ptr [0x18001f4a8]
+      18000507a  TEST RAX,RAX
+      18000507d  JZ 0x18000504a
+      18000507f  MOV ECX,dword ptr [RAX + 0xb0]
+      >>> 180005085  CALL qword ptr [0x18001f490]
+      18000508b  TEST RAX,RAX
+      18000508e  JZ 0x18000504a
+      180005090  MOV dword ptr [RAX + 0x108],ESI
+      180005096  MOV EBX,dword ptr [RBX + 0x18]
+      180005099  XOR EAX,EAX
+      -------------------
+
+[TARGET] GetLocalPlayer @ EXTERNAL:00000005
+  XREF 18001f4a0 -> EXTERNAL:00000005 type=DATA
+  XREF 18000a6b4 -> EXTERNAL:00000005 type=COMPUTED_CALL
+       caller=18000a6b0 OnTick
+      --- context ---
+      18000a68a  MOV RCX,qword ptr [RSP + 0x58]
+      18000a68f  XOR RCX,RSP
+      18000a692  CALL 0x18001c620
+      18000a697  MOV RBX,qword ptr [RSP + 0x70]
+      18000a69c  ADD RSP,0x60
+      18000a6a0  POP RDI
+      18000a6a1  RET
+      18000a6b0  SUB RSP,0x28
+      >>> 18000a6b4  CALL qword ptr [0x18001f4a0]
+      18000a6ba  TEST RAX,RAX
+      18000a6bd  JZ 0x18000a6cb
+      18000a6bf  MOV RDX,RAX
+      18000a6c2  ADD RSP,0x28
+      18000a6c6  JMP 0x180005b30
+      -------------------
+
+[TARGET] GetLocalPlayer @ 18001f4a0
+  XREF 18000a6b4 -> 18001f4a0 type=READ
+       caller=18000a6b0 OnTick
+      --- context ---
+      18000a68a  MOV RCX,qword ptr [RSP + 0x58]
+      18000a68f  XOR RCX,RSP
+      18000a692  CALL 0x18001c620
+      18000a697  MOV RBX,qword ptr [RSP + 0x70]
+      18000a69c  ADD RSP,0x60
+      18000a6a0  POP RDI
+      18000a6a1  RET
+      18000a6b0  SUB RSP,0x28
+      >>> 18000a6b4  CALL qword ptr [0x18001f4a0]
+      18000a6ba  TEST RAX,RAX
+      18000a6bd  JZ 0x18000a6cb
+      18000a6bf  MOV RDX,RAX
+      18000a6c2  ADD RSP,0x28
+      18000a6c6  JMP 0x180005b30
+      -------------------
+
+[TARGET] GetPlayerManager @ 1800025b0
+  XREF 180024c9c -> 1800025b0 type=DATA
+  XREF Entry Point -> 1800025b0 type=EXTERNAL
+
+[TARGET] GetPlayerManager @ 1800025b0
+  XREF 180024c9c -> 1800025b0 type=DATA
+  XREF Entry Point -> 1800025b0 type=EXTERNAL
+
+[TARGET] GetPlayerManager @ 1800252d8
+  XREF 180024d84 -> 1800252d8 type=DATA
+
+[TARGET] ClientWelcome @ 180007b80
+  XREF 180024c74 -> 180007b80 type=DATA
+  XREF 18002a4b0 -> 180007b80 type=DATA
+  XREF Entry Point -> 180007b80 type=EXTERNAL
+
+[TARGET] ClientWelcome @ 180007b80
+  XREF 180024c74 -> 180007b80 type=DATA
+  XREF 18002a4b0 -> 180007b80 type=DATA
+  XREF Entry Point -> 180007b80 type=EXTERNAL
+
+[TARGET] ClientWelcome @ 180025079
+  XREF 180024d5c -> 180025079 type=DATA
+
+[TARGET] ServerEvent @ 180007e00
+  XREF 180024d00 -> 180007e00 type=DATA
+  XREF 18002a4bc -> 180007e00 type=DATA
+  XREF Entry Point -> 180007e00 type=EXTERNAL
+
+[TARGET] ServerEvent @ 180007e00
+  XREF 180024d00 -> 180007e00 type=DATA
+  XREF 18002a4bc -> 180007e00 type=DATA
+  XREF Entry Point -> 180007e00 type=EXTERNAL
+
+[TARGET] ServerEvent @ 180025823
+  XREF 180024de8 -> 180025823 type=DATA
+
+[TARGET] RegisterPacket @ 180008b60
+  XREF 180024ce8 -> 180008b60 type=DATA
+  XREF 18002a57c -> 180008b60 type=DATA
+  XREF Entry Point -> 180008b60 type=EXTERNAL
+  XREF 180002fb0 -> 180008b60 type=UNCONDITIONAL_CALL
+       caller=180002ea0 FUN_180002ea0
+      --- context ---
+      180002f8d  MOV RCX,qword ptr [RAX]
+      180002f90  LEA RAX,[0x180020158]
+      180002f97  MOV qword ptr [RBP + -0x31],RAX
+      180002f9b  MOV qword ptr [RBP + -0x29],R14
+      180002f9f  LEA RAX,[RBP + -0x31]
+      180002fa3  MOV qword ptr [RBP + 0x7],RAX
+      180002fa7  MOV EDX,0x6
+      180002fac  LEA R8,[RBP + -0x31]
+      >>> 180002fb0  CALL 0x180008b60
+      180002fb5  NOP
+      180002fb6  MOV EDI,0xffffffff
+      180002fbb  MOV RBX,qword ptr [RBP + 0x17]
+      180002fbf  TEST RBX,RBX
+      180002fc2  JZ 0x180002fed
+      -------------------
+  XREF 18000301a -> 180008b60 type=UNCONDITIONAL_CALL
+       caller=180002ea0 FUN_180002ea0
+      --- context ---
+      180002ff7  MOV RCX,qword ptr [RAX]
+      180002ffa  LEA RAX,[0x180020190]
+      180003001  MOV qword ptr [RBP + -0x31],RAX
+      180003005  MOV qword ptr [RBP + -0x29],R14
+      180003009  LEA RAX,[RBP + -0x31]
+      18000300d  MOV qword ptr [RBP + 0x7],RAX
+      180003011  MOV EDX,0x8
+      180003016  LEA R8,[RBP + -0x31]
+      >>> 18000301a  CALL 0x180008b60
+      18000301f  NOP
+      180003020  MOV RBX,qword ptr [RBP + 0x17]
+      180003024  TEST RBX,RBX
+      180003027  JZ 0x180003052
+      180003029  MOV EAX,EDI
+      -------------------
+  XREF 18000307f -> 180008b60 type=UNCONDITIONAL_CALL
+       caller=180002ea0 FUN_180002ea0
+      --- context ---
+      18000305c  MOV RCX,qword ptr [RAX]
+      18000305f  LEA RAX,[0x1800201c8]
+      180003066  MOV qword ptr [RBP + -0x31],RAX
+      18000306a  MOV qword ptr [RBP + -0x29],R14
+      18000306e  LEA RAX,[RBP + -0x31]
+      180003072  MOV qword ptr [RBP + 0x7],RAX
+      180003076  MOV EDX,0x9
+      18000307b  LEA R8,[RBP + -0x31]
+      >>> 18000307f  CALL 0x180008b60
+      180003084  NOP
+      180003085  MOV RBX,qword ptr [RBP + 0x17]
+      180003089  TEST RBX,RBX
+      18000308c  JZ 0x1800030b7
+      18000308e  MOV EAX,EDI
+      -------------------
+  XREF 1800030e4 -> 180008b60 type=UNCONDITIONAL_CALL
+       caller=180002ea0 FUN_180002ea0
+      --- context ---
+      1800030c1  MOV RCX,qword ptr [RAX]
+      1800030c4  LEA RAX,[0x180020440]
+      1800030cb  MOV qword ptr [RBP + -0x31],RAX
+      1800030cf  MOV qword ptr [RBP + -0x29],R14
+      1800030d3  LEA RAX,[RBP + -0x31]
+      1800030d7  MOV qword ptr [RBP + 0x7],RAX
+      1800030db  MOV EDX,0x7
+      1800030e0  LEA R8,[RBP + -0x31]
+      >>> 1800030e4  CALL 0x180008b60
+      1800030e9  NOP
+      1800030ea  MOV RBX,qword ptr [RBP + 0x17]
+      1800030ee  TEST RBX,RBX
+      1800030f1  JZ 0x18000311c
+      1800030f3  MOV EAX,EDI
+      -------------------
+  XREF 18000a4c9 -> 180008b60 type=UNCONDITIONAL_CALL
+       caller=18000a300 OnStart
+      --- context ---
+      18000a4a1  MOV qword ptr [RSP + 0x28],RAX
+      18000a4a6  LEA RAX,[0x1800012b0]
+      18000a4ad  MOV qword ptr [RSP + 0x30],RAX
+      18000a4b2  LEA RAX,[RSP + 0x28]
+      18000a4b7  MOV qword ptr [RSP + 0x60],RAX
+      18000a4bc  MOV EDX,0x3
+      18000a4c1  LEA R8,[RSP + 0x28]
+      18000a4c6  MOV RCX,RBP
+      >>> 18000a4c9  CALL 0x180008b60
+      18000a4ce  LEA R11,[RSP + 0x70]
+      18000a4d3  MOV RBX,qword ptr [R11 + 0x18]
+      18000a4d7  MOV RBP,qword ptr [R11 + 0x20]
+      18000a4db  MOV RSI,qword ptr [R11 + 0x28]
+      18000a4df  MOV RSP,R11
+      -------------------
+  XREF 18000b9f5 -> 180008b60 type=UNCONDITIONAL_CALL
+       caller=18000b9b0 FUN_18000b9b0
+      --- context ---
+      18000b9cd  MOV RCX,qword ptr [RAX]
+      18000b9d0  LEA RAX,[0x180020908]
+      18000b9d7  MOV qword ptr [RSP + 0x30],RAX
+      18000b9dc  MOV qword ptr [RSP + 0x38],RSI
+      18000b9e1  LEA RAX,[RSP + 0x30]
+      18000b9e6  MOV qword ptr [RSP + 0x68],RAX
+      18000b9eb  MOV EDX,0x5
+      18000b9f0  LEA R8,[RSP + 0x30]
+      >>> 18000b9f5  CALL 0x180008b60
+      18000b9fa  NOP
+      18000b9fb  MOV RBX,qword ptr [RSP + 0x28]
+      18000ba00  TEST RBX,RBX
+      18000ba03  JZ 0x18000ba31
+      18000ba05  MOV EDI,0xffffffff
+      -------------------
+  XREF 18000c185 -> 180008b60 type=UNCONDITIONAL_CALL
+       caller=18000c140 TextChat
+      --- context ---
+      18000c15d  MOV RCX,qword ptr [RAX]
+      18000c160  LEA RAX,[0x180020a80]
+      18000c167  MOV qword ptr [RSP + 0x30],RAX
+      18000c16c  MOV qword ptr [RSP + 0x38],RSI
+      18000c171  LEA RAX,[RSP + 0x30]
+      18000c176  MOV qword ptr [RSP + 0x68],RAX
+      18000c17b  MOV EDX,0xa
+      18000c180  LEA R8,[RSP + 0x30]
+      >>> 18000c185  CALL 0x180008b60
+      18000c18a  NOP
+      18000c18b  MOV RBX,qword ptr [RSP + 0x28]
+      18000c190  TEST RBX,RBX
+      18000c193  JZ 0x18000c1c1
+      18000c195  MOV EDI,0xffffffff
+      -------------------
+
+[TARGET] RegisterPacket @ 180008b60
+  XREF 180024ce8 -> 180008b60 type=DATA
+  XREF 18002a57c -> 180008b60 type=DATA
+  XREF Entry Point -> 180008b60 type=EXTERNAL
+  XREF 180002fb0 -> 180008b60 type=UNCONDITIONAL_CALL
+       caller=180002ea0 FUN_180002ea0
+      --- context ---
+      180002f8d  MOV RCX,qword ptr [RAX]
+      180002f90  LEA RAX,[0x180020158]
+      180002f97  MOV qword ptr [RBP + -0x31],RAX
+      180002f9b  MOV qword ptr [RBP + -0x29],R14
+      180002f9f  LEA RAX,[RBP + -0x31]
+      180002fa3  MOV qword ptr [RBP + 0x7],RAX
+      180002fa7  MOV EDX,0x6
+      180002fac  LEA R8,[RBP + -0x31]
+      >>> 180002fb0  CALL 0x180008b60
+      180002fb5  NOP
+      180002fb6  MOV EDI,0xffffffff
+      180002fbb  MOV RBX,qword ptr [RBP + 0x17]
+      180002fbf  TEST RBX,RBX
+      180002fc2  JZ 0x180002fed
+      -------------------
+  XREF 18000301a -> 180008b60 type=UNCONDITIONAL_CALL
+       caller=180002ea0 FUN_180002ea0
+      --- context ---
+      180002ff7  MOV RCX,qword ptr [RAX]
+      180002ffa  LEA RAX,[0x180020190]
+      180003001  MOV qword ptr [RBP + -0x31],RAX
+      180003005  MOV qword ptr [RBP + -0x29],R14
+      180003009  LEA RAX,[RBP + -0x31]
+      18000300d  MOV qword ptr [RBP + 0x7],RAX
+      180003011  MOV EDX,0x8
+      180003016  LEA R8,[RBP + -0x31]
+      >>> 18000301a  CALL 0x180008b60
+      18000301f  NOP
+      180003020  MOV RBX,qword ptr [RBP + 0x17]
+      180003024  TEST RBX,RBX
+      180003027  JZ 0x180003052
+      180003029  MOV EAX,EDI
+      -------------------
+  XREF 18000307f -> 180008b60 type=UNCONDITIONAL_CALL
+       caller=180002ea0 FUN_180002ea0
+      --- context ---
+      18000305c  MOV RCX,qword ptr [RAX]
+      18000305f  LEA RAX,[0x1800201c8]
+      180003066  MOV qword ptr [RBP + -0x31],RAX
+      18000306a  MOV qword ptr [RBP + -0x29],R14
+      18000306e  LEA RAX,[RBP + -0x31]
+      180003072  MOV qword ptr [RBP + 0x7],RAX
+      180003076  MOV EDX,0x9
+      18000307b  LEA R8,[RBP + -0x31]
+      >>> 18000307f  CALL 0x180008b60
+      180003084  NOP
+      180003085  MOV RBX,qword ptr [RBP + 0x17]
+      180003089  TEST RBX,RBX
+      18000308c  JZ 0x1800030b7
+      18000308e  MOV EAX,EDI
+      -------------------
+  XREF 1800030e4 -> 180008b60 type=UNCONDITIONAL_CALL
+       caller=180002ea0 FUN_180002ea0
+      --- context ---
+      1800030c1  MOV RCX,qword ptr [RAX]
+      1800030c4  LEA RAX,[0x180020440]
+      1800030cb  MOV qword ptr [RBP + -0x31],RAX
+      1800030cf  MOV qword ptr [RBP + -0x29],R14
+      1800030d3  LEA RAX,[RBP + -0x31]
+      1800030d7  MOV qword ptr [RBP + 0x7],RAX
+      1800030db  MOV EDX,0x7
+      1800030e0  LEA R8,[RBP + -0x31]
+      >>> 1800030e4  CALL 0x180008b60
+      1800030e9  NOP
+      1800030ea  MOV RBX,qword ptr [RBP + 0x17]
+      1800030ee  TEST RBX,RBX
+      1800030f1  JZ 0x18000311c
+      1800030f3  MOV EAX,EDI
+      -------------------
+  XREF 18000a4c9 -> 180008b60 type=UNCONDITIONAL_CALL
+       caller=18000a300 OnStart
+      --- context ---
+      18000a4a1  MOV qword ptr [RSP + 0x28],RAX
+      18000a4a6  LEA RAX,[0x1800012b0]
+      18000a4ad  MOV qword ptr [RSP + 0x30],RAX
+      18000a4b2  LEA RAX,[RSP + 0x28]
+      18000a4b7  MOV qword ptr [RSP + 0x60],RAX
+      18000a4bc  MOV EDX,0x3
+      18000a4c1  LEA R8,[RSP + 0x28]
+      18000a4c6  MOV RCX,RBP
+      >>> 18000a4c9  CALL 0x180008b60
+      18000a4ce  LEA R11,[RSP + 0x70]
+      18000a4d3  MOV RBX,qword ptr [R11 + 0x18]
+      18000a4d7  MOV RBP,qword ptr [R11 + 0x20]
+      18000a4db  MOV RSI,qword ptr [R11 + 0x28]
+      18000a4df  MOV RSP,R11
+      -------------------
+  XREF 18000b9f5 -> 180008b60 type=UNCONDITIONAL_CALL
+       caller=18000b9b0 FUN_18000b9b0
+      --- context ---
+      18000b9cd  MOV RCX,qword ptr [RAX]
+      18000b9d0  LEA RAX,[0x180020908]
+      18000b9d7  MOV qword ptr [RSP + 0x30],RAX
+      18000b9dc  MOV qword ptr [RSP + 0x38],RSI
+      18000b9e1  LEA RAX,[RSP + 0x30]
+      18000b9e6  MOV qword ptr [RSP + 0x68],RAX
+      18000b9eb  MOV EDX,0x5
+      18000b9f0  LEA R8,[RSP + 0x30]
+      >>> 18000b9f5  CALL 0x180008b60
+      18000b9fa  NOP
+      18000b9fb  MOV RBX,qword ptr [RSP + 0x28]
+      18000ba00  TEST RBX,RBX
+      18000ba03  JZ 0x18000ba31
+      18000ba05  MOV EDI,0xffffffff
+      -------------------
+  XREF 18000c185 -> 180008b60 type=UNCONDITIONAL_CALL
+       caller=18000c140 TextChat
+      --- context ---
+      18000c15d  MOV RCX,qword ptr [RAX]
+      18000c160  LEA RAX,[0x180020a80]
+      18000c167  MOV qword ptr [RSP + 0x30],RAX
+      18000c16c  MOV qword ptr [RSP + 0x38],RSI
+      18000c171  LEA RAX,[RSP + 0x30]
+      18000c176  MOV qword ptr [RSP + 0x68],RAX
+      18000c17b  MOV EDX,0xa
+      18000c180  LEA R8,[RSP + 0x30]
+      >>> 18000c185  CALL 0x180008b60
+      18000c18a  NOP
+      18000c18b  MOV RBX,qword ptr [RSP + 0x28]
+      18000c190  TEST RBX,RBX
+      18000c193  JZ 0x18000c1c1
+      18000c195  MOV EDI,0xffffffff
+      -------------------
+
+[TARGET] RegisterPacket @ 180025648
+  XREF 180024dd0 -> 180025648 type=DATA
+
+============================================================
+ TARGET STRING XREFS
+============================================================
+
+[STRING TARGET] PlayerLayout
+  string=1800202a0
+      XREF 180002a72 -> 1800202a0 type=DATA
+           function=1800028b0 FUN_1800028b0
+      --- context ---
+      180002a45  MOV qword ptr [RBP + 0x100],RAX
+      180002a4c  MOV dword ptr [RBP + 0x108],ESI
+      180002a52  MOV dword ptr [RBP + 0x118],ESI
+      180002a58  XOR EDX,EDX
+      180002a5a  MOV R8D,0x100
+      180002a60  LEA RCX,[RBP + 0x1e0]
+      180002a67  CALL 0x18001d738
+      180002a6c  MOV EAX,dword ptr [RBP + 0x108]
+      >>> 180002a72  LEA RCX,[0x1800202a0]
+      180002a79  MOV qword ptr [RBP + RAX*0x8 + 0x1e0],RCX
+      180002a81  INC dword ptr [RBP + 0x108]
+      180002a87  MOV EAX,dword ptr [RDI]
+      180002a89  CMP dword ptr [0x180029740],EAX
+      180002a8f  JLE 0x180002ac4
+      -------------------
+      XREF 180002a79 -> 1800202a0 type=DATA
+           function=1800028b0 FUN_1800028b0
+      --- context ---
+      180002a4c  MOV dword ptr [RBP + 0x108],ESI
+      180002a52  MOV dword ptr [RBP + 0x118],ESI
+      180002a58  XOR EDX,EDX
+      180002a5a  MOV R8D,0x100
+      180002a60  LEA RCX,[RBP + 0x1e0]
+      180002a67  CALL 0x18001d738
+      180002a6c  MOV EAX,dword ptr [RBP + 0x108]
+      180002a72  LEA RCX,[0x1800202a0]
+      >>> 180002a79  MOV qword ptr [RBP + RAX*0x8 + 0x1e0],RCX
+      180002a81  INC dword ptr [RBP + 0x108]
+      180002a87  MOV EAX,dword ptr [RDI]
+      180002a89  CMP dword ptr [0x180029740],EAX
+      180002a8f  JLE 0x180002ac4
+      180002a91  LEA RCX,[0x180029740]
+      -------------------
+      XREF 180006a1b -> 1800202a0 type=DATA
+           function=1800069b0 FUN_1800069b0
+      --- context ---
+      1800069fc  XOR EAX,EAX
+      1800069fe  MOV dword ptr [RSP + 0x28],EAX
+      180006a02  MOV dword ptr [RSP + 0x38],EAX
+      180006a06  XOR EDX,EDX
+      180006a08  MOV R8D,0x100
+      180006a0e  LEA RCX,[RBP]
+      180006a12  CALL 0x18001d738
+      180006a17  MOV EAX,dword ptr [RSP + 0x28]
+      >>> 180006a1b  LEA RCX,[0x1800202a0]
+      180006a22  MOV qword ptr [RBP + RAX*0x8],RCX
+      180006a27  INC dword ptr [RSP + 0x28]
+      180006a2b  MOV ECX,dword ptr [0x18002965c]
+      180006a31  MOV RAX,qword ptr GS:[0x58]
+      180006a3a  MOV EDX,0x4
+      -------------------
+      XREF 180006a22 -> 1800202a0 type=DATA
+           function=1800069b0 FUN_1800069b0
+      --- context ---
+      1800069fe  MOV dword ptr [RSP + 0x28],EAX
+      180006a02  MOV dword ptr [RSP + 0x38],EAX
+      180006a06  XOR EDX,EDX
+      180006a08  MOV R8D,0x100
+      180006a0e  LEA RCX,[RBP]
+      180006a12  CALL 0x18001d738
+      180006a17  MOV EAX,dword ptr [RSP + 0x28]
+      180006a1b  LEA RCX,[0x1800202a0]
+      >>> 180006a22  MOV qword ptr [RBP + RAX*0x8],RCX
+      180006a27  INC dword ptr [RSP + 0x28]
+      180006a2b  MOV ECX,dword ptr [0x18002965c]
+      180006a31  MOV RAX,qword ptr GS:[0x58]
+      180006a3a  MOV EDX,0x4
+      180006a3f  MOV RAX,qword ptr [RAX + RCX*0x8]
+      -------------------
+
+[STRING TARGET] core:on_player_joined
+  string=1800202e8
+      XREF 18000313f -> 1800202e8 type=DATA
+           function=180002ea0 FUN_180002ea0
+      --- context ---
+      180003120  CALL qword ptr [0x18001f450]
+      180003126  NOP
+      180003127  MOV R15,qword ptr [RAX]
+      18000312a  XORPS XMM0,XMM0
+      18000312d  MOVUPS xmmword ptr [RBP + -0x31],XMM0
+      180003131  MOV qword ptr [RBP + -0x21],R13
+      180003135  MOV qword ptr [RBP + -0x19],R13
+      180003139  MOV R8D,0x15
+      >>> 18000313f  LEA RDX,[0x1800202e8]
+      180003146  LEA RCX,[RBP + -0x31]
+      18000314a  CALL 0x180007110
+      18000314f  NOP
+      180003150  LEA RBX,[R15 + 0x40]
+      180003154  MOV qword ptr [RBP + -0x39],RBX
+      -------------------
+      XREF 1800049f6 -> 1800202e8 type=DATA
+           function=180003b10 FUN_180003b10
+      --- context ---
+      1800049d5  CALL qword ptr [0x18001f450]
+      1800049db  NOP
+      1800049dc  MOV RDI,qword ptr [RAX]
+      1800049df  XORPS XMM0,XMM0
+      1800049e2  MOVUPS xmmword ptr [RSP + 0x68],XMM0
+      1800049e7  XORPS XMM1,XMM1
+      1800049ea  MOVDQU xmmword ptr [RSP + 0x78],XMM1
+      1800049f0  MOV R8D,0x15
+      >>> 1800049f6  LEA RDX,[0x1800202e8]
+      1800049fd  LEA RCX,[RSP + 0x68]
+      180004a02  CALL 0x180007110
+      180004a07  NOP
+      180004a08  LEA RBX,[RDI + 0x40]
+      180004a0c  MOV qword ptr [RBP + -0x40],RBX
+      -------------------
+
+[STRING TARGET] core:on_player_left
+  string=180020300
+      XREF 180005952 -> 180020300 type=DATA
+           function=1800051d0 FUN_1800051d0
+      --- context ---
+      180005931  CALL qword ptr [0x18001f450]
+      180005937  NOP
+      180005938  MOV RDI,qword ptr [RAX]
+      18000593b  XORPS XMM0,XMM0
+      18000593e  MOVUPS xmmword ptr [RSP + 0x30],XMM0
+      180005943  XORPS XMM1,XMM1
+      180005946  MOVDQU xmmword ptr [RSP + 0x40],XMM1
+      18000594c  MOV R8D,0x13
+      >>> 180005952  LEA RDX,[0x180020300]
+      180005959  LEA RCX,[RSP + 0x30]
+      18000595e  CALL 0x180007110
+      180005963  NOP
+      180005964  LEA RBX,[RDI + 0x40]
+      180005968  MOV qword ptr [RSP + 0x28],RBX
+      -------------------
+      XREF 1800032b9 -> 180020300 type=DATA
+           function=180002ea0 FUN_180002ea0
+      --- context ---
+      18000329a  CALL qword ptr [0x18001f450]
+      1800032a0  NOP
+      1800032a1  MOV R15,qword ptr [RAX]
+      1800032a4  XORPS XMM0,XMM0
+      1800032a7  MOVUPS xmmword ptr [RBP + -0x31],XMM0
+      1800032ab  MOV qword ptr [RBP + -0x21],R13
+      1800032af  MOV qword ptr [RBP + -0x19],R13
+      1800032b3  MOV R8D,0x13
+      >>> 1800032b9  LEA RDX,[0x180020300]
+      1800032c0  LEA RCX,[RBP + -0x31]
+      1800032c4  CALL 0x180007110
+      1800032c9  NOP
+      1800032ca  LEA RBX,[R15 + 0x40]
+      1800032ce  MOV qword ptr [RBP + -0x39],RBX
+      -------------------
+
+[STRING TARGET] Failed to create player
+  string=180020320
+      XREF 180003bf3 -> 180020320 type=DATA
+           function=180003b10 FUN_180003b10
+      --- context ---
+      180003bdd  MOV RAX,qword ptr [RAX + 0x8]
+      180003be1  CMP DI,word ptr [RAX + 0x10]
+      180003be5  JNZ 0x180003bd8
+      180003be7  JMP 0x180003beb
+      180003be9  XOR EAX,EAX
+      180003beb  TEST RAX,RAX
+      180003bee  JZ 0x180003c0c
+      180003bf0  MOV R9D,EDI
+      >>> 180003bf3  LEA R8,[0x180020320]
+      180003bfa  XOR EDX,EDX
+      180003bfc  MOV ECX,0x3
+      180003c01  CALL qword ptr [0x18001f448]
+      180003c07  JMP 0x180004c04
+      180003c0c  CALL 0x1800028b0
+      -------------------
+  string=180020370
+      XREF 180004bb1 -> 180020370 type=DATA
+           function=180003b10 FUN_180003b10
+      --- context ---
+      180004b8f  JBE 0x180004b98
+      180004b91  CALL qword ptr [0x18001f428]
+      180004b98  CALL 0x18001c9b8
+      180004b9d  JMP 0x180004bc6
+      180004b9f  LEA R9,[RBP + -0x28]
+      180004ba3  CMP qword ptr [RBP + -0x10],0xf
+      180004ba8  CMOVA R9,qword ptr [RBP + -0x28]
+      180004bad  MOV dword ptr [RSP + 0x20],EDI
+      >>> 180004bb1  LEA R8,[0x180020370]
+      180004bb8  XOR EDX,EDX
+      180004bba  MOV ECX,0x3
+      180004bbf  CALL qword ptr [0x18001f448]
+      180004bc5  NOP
+      180004bc6  MOV RDX,qword ptr [RBP + -0x10]
+      -------------------
+
+[STRING TARGET] Failed to create player with id
+  string=180020320
+      XREF 180003bf3 -> 180020320 type=DATA
+           function=180003b10 FUN_180003b10
+      --- context ---
+      180003bdd  MOV RAX,qword ptr [RAX + 0x8]
+      180003be1  CMP DI,word ptr [RAX + 0x10]
+      180003be5  JNZ 0x180003bd8
+      180003be7  JMP 0x180003beb
+      180003be9  XOR EAX,EAX
+      180003beb  TEST RAX,RAX
+      180003bee  JZ 0x180003c0c
+      180003bf0  MOV R9D,EDI
+      >>> 180003bf3  LEA R8,[0x180020320]
+      180003bfa  XOR EDX,EDX
+      180003bfc  MOV ECX,0x3
+      180003c01  CALL qword ptr [0x18001f448]
+      180003c07  JMP 0x180004c04
+      180003c0c  CALL 0x1800028b0
+      -------------------
+
+[STRING TARGET] Failed to create player %s
+  string=180020370
+      XREF 180004bb1 -> 180020370 type=DATA
+           function=180003b10 FUN_180003b10
+      --- context ---
+      180004b8f  JBE 0x180004b98
+      180004b91  CALL qword ptr [0x18001f428]
+      180004b98  CALL 0x18001c9b8
+      180004b9d  JMP 0x180004bc6
+      180004b9f  LEA R9,[RBP + -0x28]
+      180004ba3  CMP qword ptr [RBP + -0x10],0xf
+      180004ba8  CMOVA R9,qword ptr [RBP + -0x28]
+      180004bad  MOV dword ptr [RSP + 0x20],EDI
+      >>> 180004bb1  LEA R8,[0x180020370]
+      180004bb8  XOR EDX,EDX
+      180004bba  MOV ECX,0x3
+      180004bbf  CALL qword ptr [0x18001f448]
+      180004bc5  NOP
+      180004bc6  MOV RDX,qword ptr [RBP + -0x10]
+      -------------------
+
+[STRING TARGET] Failed to delete player
+  string=180020390
+      XREF 18000528c -> 180020390 type=DATA
+           function=1800051d0 FUN_1800051d0
+      --- context ---
+      180005275  MOV RAX,qword ptr [RAX + 0x8]
+      180005279  CMP SI,word ptr [RAX + 0x10]
+      18000527d  JNZ 0x180005270
+      18000527f  JMP 0x180005284
+      180005281  MOV RAX,R12
+      180005284  TEST RAX,RAX
+      180005287  JNZ 0x1800052cb
+      180005289  MOV R9D,ESI
+      >>> 18000528c  LEA R8,[0x180020390]
+      180005293  XOR EDX,EDX
+      180005295  MOV ECX,0x3
+      18000529a  CALL qword ptr [0x18001f448]
+      1800052a0  MOV RCX,qword ptr [RBP + 0x710]
+      1800052a7  XOR RCX,RSP
+      -------------------
+
+[STRING TARGET] Failed to delete player with id
+  string=180020390
+      XREF 18000528c -> 180020390 type=DATA
+           function=1800051d0 FUN_1800051d0
+      --- context ---
+      180005275  MOV RAX,qword ptr [RAX + 0x8]
+      180005279  CMP SI,word ptr [RAX + 0x10]
+      18000527d  JNZ 0x180005270
+      18000527f  JMP 0x180005284
+      180005281  MOV RAX,R12
+      180005284  TEST RAX,RAX
+      180005287  JNZ 0x1800052cb
+      180005289  MOV R9D,ESI
+      >>> 18000528c  LEA R8,[0x180020390]
+      180005293  XOR EDX,EDX
+      180005295  MOV ECX,0x3
+      18000529a  CALL qword ptr [0x18001f448]
+      1800052a0  MOV RCX,qword ptr [RBP + 0x710]
+      1800052a7  XOR RCX,RSP
+      -------------------
+
+[STRING TARGET] on_connection_succeeded
+  string=180020828
+      XREF 18000a514 -> 180020828 type=DATA
+           function=18000a4f0 OnConnectionSucceeded
+      --- context ---
+      18000a4f0  PUSH RBX
+      18000a4f2  SUB RSP,0x40
+      18000a4f6  LEA RBX,[RCX + 0xd0]
+      18000a4fd  XORPS XMM0,XMM0
+      18000a500  MOVUPS xmmword ptr [RSP + 0x20],XMM0
+      18000a505  XORPS XMM1,XMM1
+      18000a508  MOVDQU xmmword ptr [RSP + 0x30],XMM1
+      18000a50e  MOV R8D,0x17
+      >>> 18000a514  LEA RDX,[0x180020828]
+      18000a51b  LEA RCX,[RSP + 0x20]
+      18000a520  CALL 0x180007110
+      18000a525  NOP
+      18000a526  LEA RDX,[RSP + 0x20]
+      18000a52b  MOV RCX,RBX
+      -------------------
+
+[STRING TARGET] on_disconnect
+  string=180020840
+      XREF 18000acd1 -> 180020840 type=DATA
+           function=18000a6e0 OnDisconnect
+      --- context ---
+      18000acb2  MOV EAX,dword ptr [RSP + 0x58]
+      18000acb6  TEST EAX,EAX
+      18000acb8  JNZ 0x18000ac70
+      18000acba  XORPS XMM0,XMM0
+      18000acbd  MOVUPS xmmword ptr [RSP + 0x20],XMM0
+      18000acc2  XORPS XMM1,XMM1
+      18000acc5  MOVDQU xmmword ptr [RSP + 0x30],XMM1
+      18000accb  MOV R8D,0xd
+      >>> 18000acd1  LEA RDX,[0x180020840]
+      18000acd8  LEA RCX,[RSP + 0x20]
+      18000acdd  CALL 0x180007110
+      18000ace2  NOP
+      18000ace3  LEA RDX,[RSP + 0x20]
+      18000ace8  LEA RCX,[R14 + 0xd0]
+      -------------------
+
+[STRING TARGET] GetPlayerActor
+  string=1800260b0
+      No direct XREFs.
+
+[STRING TARGET] GetLocalPlayer
+  string=1800260e8
+      No direct XREFs.
+
+============================================================
+ s_LocalPlayer READ / WRITE XREFS
+============================================================
+No symbol containing s_LocalPlayer found.
+Puede estar sin resolver o tener otro nombre.
+
+============================================================
+ RegisterPacket CALL SITES
+============================================================
+
+[RegisterPacket] target=180008b60
+CALL @ 180002fb0  function=180002ea0 FUN_180002ea0
+    --- packet registration context ---
+    180002f7e  CALL 0x180007080
+    180002f83  LEA RCX,[RBP + 0xf]
+    180002f87  CALL 0x180005dc0
+    180002f8c  NOP
+    180002f8d  MOV RCX,qword ptr [RAX]
+    180002f90  LEA RAX,[0x180020158]
+    180002f97  MOV qword ptr [RBP + -0x31],RAX
+    180002f9b  MOV qword ptr [RBP + -0x29],R14
+    180002f9f  LEA RAX,[RBP + -0x31]
+    180002fa3  MOV qword ptr [RBP + 0x7],RAX
+    180002fa7  MOV EDX,0x6
+    >>> POSSIBLE PACKET ID = 0x6 @ 180002fa7
+    >>> PACKET IMMEDIATE = 0x6 @ 180002fa7
+    180002fac  LEA R8,[RBP + -0x31]
+    >>> 180002fb0  CALL 0x180008b60
+    180002fb5  NOP
+    180002fb6  MOV EDI,0xffffffff
+    180002fbb  MOV RBX,qword ptr [RBP + 0x17]
+    180002fbf  TEST RBX,RBX
+    ------------------------------------
+CALL @ 18000301a  function=180002ea0 FUN_180002ea0
+    --- packet registration context ---
+    180002fea  CALL qword ptr [RAX + 0x8]
+    180002fed  LEA RCX,[RBP + 0xf]
+    180002ff1  CALL 0x180005dc0
+    180002ff6  NOP
+    180002ff7  MOV RCX,qword ptr [RAX]
+    180002ffa  LEA RAX,[0x180020190]
+    180003001  MOV qword ptr [RBP + -0x31],RAX
+    180003005  MOV qword ptr [RBP + -0x29],R14
+    180003009  LEA RAX,[RBP + -0x31]
+    18000300d  MOV qword ptr [RBP + 0x7],RAX
+    180003011  MOV EDX,0x8
+    >>> POSSIBLE PACKET ID = 0x8 @ 180003011
+    >>> PACKET IMMEDIATE = 0x8 @ 180003011
+    180003016  LEA R8,[RBP + -0x31]
+    >>> 18000301a  CALL 0x180008b60
+    18000301f  NOP
+    180003020  MOV RBX,qword ptr [RBP + 0x17]
+    180003024  TEST RBX,RBX
+    180003027  JZ 0x180003052
+    ------------------------------------
+CALL @ 18000307f  function=180002ea0 FUN_180002ea0
+    --- packet registration context ---
+    18000304f  CALL qword ptr [RAX + 0x8]
+    180003052  LEA RCX,[RBP + 0xf]
+    180003056  CALL 0x180005dc0
+    18000305b  NOP
+    18000305c  MOV RCX,qword ptr [RAX]
+    18000305f  LEA RAX,[0x1800201c8]
+    180003066  MOV qword ptr [RBP + -0x31],RAX
+    18000306a  MOV qword ptr [RBP + -0x29],R14
+    18000306e  LEA RAX,[RBP + -0x31]
+    180003072  MOV qword ptr [RBP + 0x7],RAX
+    180003076  MOV EDX,0x9
+    >>> POSSIBLE PACKET ID = 0x9 @ 180003076
+    >>> PACKET IMMEDIATE = 0x9 @ 180003076
+    18000307b  LEA R8,[RBP + -0x31]
+    >>> 18000307f  CALL 0x180008b60
+    180003084  NOP
+    180003085  MOV RBX,qword ptr [RBP + 0x17]
+    180003089  TEST RBX,RBX
+    18000308c  JZ 0x1800030b7
+    ------------------------------------
+CALL @ 1800030e4  function=180002ea0 FUN_180002ea0
+    --- packet registration context ---
+    1800030b4  CALL qword ptr [RAX + 0x8]
+    1800030b7  LEA RCX,[RBP + 0xf]
+    1800030bb  CALL 0x180005dc0
+    1800030c0  NOP
+    1800030c1  MOV RCX,qword ptr [RAX]
+    1800030c4  LEA RAX,[0x180020440]
+    1800030cb  MOV qword ptr [RBP + -0x31],RAX
+    1800030cf  MOV qword ptr [RBP + -0x29],R14
+    1800030d3  LEA RAX,[RBP + -0x31]
+    1800030d7  MOV qword ptr [RBP + 0x7],RAX
+    1800030db  MOV EDX,0x7
+    >>> POSSIBLE PACKET ID = 0x7 @ 1800030db
+    >>> PACKET IMMEDIATE = 0x7 @ 1800030db
+    1800030e0  LEA R8,[RBP + -0x31]
+    >>> 1800030e4  CALL 0x180008b60
+    1800030e9  NOP
+    1800030ea  MOV RBX,qword ptr [RBP + 0x17]
+    1800030ee  TEST RBX,RBX
+    1800030f1  JZ 0x18000311c
+    ------------------------------------
+CALL @ 18000a4c9  function=18000a300 OnStart
+    --- packet registration context ---
+    18000a491  MOV RAX,qword ptr [RBX]
+    18000a494  MOV RCX,RBX
+    18000a497  CALL qword ptr [RAX + 0x8]
+    18000a49a  LEA RAX,[0x1800208a8]
+    18000a4a1  MOV qword ptr [RSP + 0x28],RAX
+    18000a4a6  LEA RAX,[0x1800012b0]
+    18000a4ad  MOV qword ptr [RSP + 0x30],RAX
+    18000a4b2  LEA RAX,[RSP + 0x28]
+    18000a4b7  MOV qword ptr [RSP + 0x60],RAX
+    18000a4bc  MOV EDX,0x3
+    >>> POSSIBLE PACKET ID = 0x3 @ 18000a4bc
+    >>> PACKET IMMEDIATE = 0x3 @ 18000a4bc
+    18000a4c1  LEA R8,[RSP + 0x28]
+    18000a4c6  MOV RCX,RBP
+    >>> 18000a4c9  CALL 0x180008b60
+    18000a4ce  LEA R11,[RSP + 0x70]
+    18000a4d3  MOV RBX,qword ptr [R11 + 0x18]
+    18000a4d7  MOV RBP,qword ptr [R11 + 0x20]
+    18000a4db  MOV RSI,qword ptr [R11 + 0x28]
+    ------------------------------------
+CALL @ 18000b9f5  function=18000b9b0 FUN_18000b9b0
+    --- packet registration context ---
+    18000b9bf  MOV RSI,RCX
+    18000b9c2  LEA RCX,[RSP + 0x20]
+    18000b9c7  CALL 0x180005dc0
+    18000b9cc  NOP
+    18000b9cd  MOV RCX,qword ptr [RAX]
+    18000b9d0  LEA RAX,[0x180020908]
+    18000b9d7  MOV qword ptr [RSP + 0x30],RAX
+    18000b9dc  MOV qword ptr [RSP + 0x38],RSI
+    18000b9e1  LEA RAX,[RSP + 0x30]
+    18000b9e6  MOV qword ptr [RSP + 0x68],RAX
+    18000b9eb  MOV EDX,0x5
+    >>> POSSIBLE PACKET ID = 0x5 @ 18000b9eb
+    >>> PACKET IMMEDIATE = 0x5 @ 18000b9eb
+    18000b9f0  LEA R8,[RSP + 0x30]
+    >>> 18000b9f5  CALL 0x180008b60
+    18000b9fa  NOP
+    18000b9fb  MOV RBX,qword ptr [RSP + 0x28]
+    18000ba00  TEST RBX,RBX
+    18000ba03  JZ 0x18000ba31
+    ------------------------------------
+CALL @ 18000c185  function=18000c140 TextChat
+    --- packet registration context ---
+    18000c14f  MOV RSI,RCX
+    18000c152  LEA RCX,[RSP + 0x20]
+    18000c157  CALL 0x180005dc0
+    18000c15c  NOP
+    18000c15d  MOV RCX,qword ptr [RAX]
+    18000c160  LEA RAX,[0x180020a80]
+    18000c167  MOV qword ptr [RSP + 0x30],RAX
+    18000c16c  MOV qword ptr [RSP + 0x38],RSI
+    18000c171  LEA RAX,[RSP + 0x30]
+    18000c176  MOV qword ptr [RSP + 0x68],RAX
+    18000c17b  MOV EDX,0xa
+    >>> POSSIBLE PACKET ID = 0xa @ 18000c17b
+    >>> PACKET IMMEDIATE = 0xa @ 18000c17b
+    18000c180  LEA R8,[RSP + 0x30]
+    >>> 18000c185  CALL 0x180008b60
+    18000c18a  NOP
+    18000c18b  MOV RBX,qword ptr [RSP + 0x28]
+    18000c190  TEST RBX,RBX
+    18000c193  JZ 0x18000c1c1
+    ------------------------------------
+
+[RegisterPacket] target=180008b60
+CALL @ 180002fb0  function=180002ea0 FUN_180002ea0
+    --- packet registration context ---
+    180002f7e  CALL 0x180007080
+    180002f83  LEA RCX,[RBP + 0xf]
+    180002f87  CALL 0x180005dc0
+    180002f8c  NOP
+    180002f8d  MOV RCX,qword ptr [RAX]
+    180002f90  LEA RAX,[0x180020158]
+    180002f97  MOV qword ptr [RBP + -0x31],RAX
+    180002f9b  MOV qword ptr [RBP + -0x29],R14
+    180002f9f  LEA RAX,[RBP + -0x31]
+    180002fa3  MOV qword ptr [RBP + 0x7],RAX
+    180002fa7  MOV EDX,0x6
+    >>> POSSIBLE PACKET ID = 0x6 @ 180002fa7
+    >>> PACKET IMMEDIATE = 0x6 @ 180002fa7
+    180002fac  LEA R8,[RBP + -0x31]
+    >>> 180002fb0  CALL 0x180008b60
+    180002fb5  NOP
+    180002fb6  MOV EDI,0xffffffff
+    180002fbb  MOV RBX,qword ptr [RBP + 0x17]
+    180002fbf  TEST RBX,RBX
+    ------------------------------------
+CALL @ 18000301a  function=180002ea0 FUN_180002ea0
+    --- packet registration context ---
+    180002fea  CALL qword ptr [RAX + 0x8]
+    180002fed  LEA RCX,[RBP + 0xf]
+    180002ff1  CALL 0x180005dc0
+    180002ff6  NOP
+    180002ff7  MOV RCX,qword ptr [RAX]
+    180002ffa  LEA RAX,[0x180020190]
+    180003001  MOV qword ptr [RBP + -0x31],RAX
+    180003005  MOV qword ptr [RBP + -0x29],R14
+    180003009  LEA RAX,[RBP + -0x31]
+    18000300d  MOV qword ptr [RBP + 0x7],RAX
+    180003011  MOV EDX,0x8
+    >>> POSSIBLE PACKET ID = 0x8 @ 180003011
+    >>> PACKET IMMEDIATE = 0x8 @ 180003011
+    180003016  LEA R8,[RBP + -0x31]
+    >>> 18000301a  CALL 0x180008b60
+    18000301f  NOP
+    180003020  MOV RBX,qword ptr [RBP + 0x17]
+    180003024  TEST RBX,RBX
+    180003027  JZ 0x180003052
+    ------------------------------------
+CALL @ 18000307f  function=180002ea0 FUN_180002ea0
+    --- packet registration context ---
+    18000304f  CALL qword ptr [RAX + 0x8]
+    180003052  LEA RCX,[RBP + 0xf]
+    180003056  CALL 0x180005dc0
+    18000305b  NOP
+    18000305c  MOV RCX,qword ptr [RAX]
+    18000305f  LEA RAX,[0x1800201c8]
+    180003066  MOV qword ptr [RBP + -0x31],RAX
+    18000306a  MOV qword ptr [RBP + -0x29],R14
+    18000306e  LEA RAX,[RBP + -0x31]
+    180003072  MOV qword ptr [RBP + 0x7],RAX
+    180003076  MOV EDX,0x9
+    >>> POSSIBLE PACKET ID = 0x9 @ 180003076
+    >>> PACKET IMMEDIATE = 0x9 @ 180003076
+    18000307b  LEA R8,[RBP + -0x31]
+    >>> 18000307f  CALL 0x180008b60
+    180003084  NOP
+    180003085  MOV RBX,qword ptr [RBP + 0x17]
+    180003089  TEST RBX,RBX
+    18000308c  JZ 0x1800030b7
+    ------------------------------------
+CALL @ 1800030e4  function=180002ea0 FUN_180002ea0
+    --- packet registration context ---
+    1800030b4  CALL qword ptr [RAX + 0x8]
+    1800030b7  LEA RCX,[RBP + 0xf]
+    1800030bb  CALL 0x180005dc0
+    1800030c0  NOP
+    1800030c1  MOV RCX,qword ptr [RAX]
+    1800030c4  LEA RAX,[0x180020440]
+    1800030cb  MOV qword ptr [RBP + -0x31],RAX
+    1800030cf  MOV qword ptr [RBP + -0x29],R14
+    1800030d3  LEA RAX,[RBP + -0x31]
+    1800030d7  MOV qword ptr [RBP + 0x7],RAX
+    1800030db  MOV EDX,0x7
+    >>> POSSIBLE PACKET ID = 0x7 @ 1800030db
+    >>> PACKET IMMEDIATE = 0x7 @ 1800030db
+    1800030e0  LEA R8,[RBP + -0x31]
+    >>> 1800030e4  CALL 0x180008b60
+    1800030e9  NOP
+    1800030ea  MOV RBX,qword ptr [RBP + 0x17]
+    1800030ee  TEST RBX,RBX
+    1800030f1  JZ 0x18000311c
+    ------------------------------------
+CALL @ 18000a4c9  function=18000a300 OnStart
+    --- packet registration context ---
+    18000a491  MOV RAX,qword ptr [RBX]
+    18000a494  MOV RCX,RBX
+    18000a497  CALL qword ptr [RAX + 0x8]
+    18000a49a  LEA RAX,[0x1800208a8]
+    18000a4a1  MOV qword ptr [RSP + 0x28],RAX
+    18000a4a6  LEA RAX,[0x1800012b0]
+    18000a4ad  MOV qword ptr [RSP + 0x30],RAX
+    18000a4b2  LEA RAX,[RSP + 0x28]
+    18000a4b7  MOV qword ptr [RSP + 0x60],RAX
+    18000a4bc  MOV EDX,0x3
+    >>> POSSIBLE PACKET ID = 0x3 @ 18000a4bc
+    >>> PACKET IMMEDIATE = 0x3 @ 18000a4bc
+    18000a4c1  LEA R8,[RSP + 0x28]
+    18000a4c6  MOV RCX,RBP
+    >>> 18000a4c9  CALL 0x180008b60
+    18000a4ce  LEA R11,[RSP + 0x70]
+    18000a4d3  MOV RBX,qword ptr [R11 + 0x18]
+    18000a4d7  MOV RBP,qword ptr [R11 + 0x20]
+    18000a4db  MOV RSI,qword ptr [R11 + 0x28]
+    ------------------------------------
+CALL @ 18000b9f5  function=18000b9b0 FUN_18000b9b0
+    --- packet registration context ---
+    18000b9bf  MOV RSI,RCX
+    18000b9c2  LEA RCX,[RSP + 0x20]
+    18000b9c7  CALL 0x180005dc0
+    18000b9cc  NOP
+    18000b9cd  MOV RCX,qword ptr [RAX]
+    18000b9d0  LEA RAX,[0x180020908]
+    18000b9d7  MOV qword ptr [RSP + 0x30],RAX
+    18000b9dc  MOV qword ptr [RSP + 0x38],RSI
+    18000b9e1  LEA RAX,[RSP + 0x30]
+    18000b9e6  MOV qword ptr [RSP + 0x68],RAX
+    18000b9eb  MOV EDX,0x5
+    >>> POSSIBLE PACKET ID = 0x5 @ 18000b9eb
+    >>> PACKET IMMEDIATE = 0x5 @ 18000b9eb
+    18000b9f0  LEA R8,[RSP + 0x30]
+    >>> 18000b9f5  CALL 0x180008b60
+    18000b9fa  NOP
+    18000b9fb  MOV RBX,qword ptr [RSP + 0x28]
+    18000ba00  TEST RBX,RBX
+    18000ba03  JZ 0x18000ba31
+    ------------------------------------
+CALL @ 18000c185  function=18000c140 TextChat
+    --- packet registration context ---
+    18000c14f  MOV RSI,RCX
+    18000c152  LEA RCX,[RSP + 0x20]
+    18000c157  CALL 0x180005dc0
+    18000c15c  NOP
+    18000c15d  MOV RCX,qword ptr [RAX]
+    18000c160  LEA RAX,[0x180020a80]
+    18000c167  MOV qword ptr [RSP + 0x30],RAX
+    18000c16c  MOV qword ptr [RSP + 0x38],RSI
+    18000c171  LEA RAX,[RSP + 0x30]
+    18000c176  MOV qword ptr [RSP + 0x68],RAX
+    18000c17b  MOV EDX,0xa
+    >>> POSSIBLE PACKET ID = 0xa @ 18000c17b
+    >>> PACKET IMMEDIATE = 0xa @ 18000c17b
+    18000c180  LEA R8,[RSP + 0x30]
+    >>> 18000c185  CALL 0x180008b60
+    18000c18a  NOP
+    18000c18b  MOV RBX,qword ptr [RSP + 0x28]
+    18000c190  TEST RBX,RBX
+    18000c193  JZ 0x18000c1c1
+    ------------------------------------
+
+[RegisterPacket] target=180025648
+
+============================================================
+ IMPORTANT FUNCTION CALLERS
+============================================================
+
+[TARGET] GetLocalPlayer @ EXTERNAL:00000005
+  caller=18000a6b0 OnTick @ 18000a6b4
+      --- context ---
+      18000a68a  MOV RCX,qword ptr [RSP + 0x58]
+      18000a68f  XOR RCX,RSP
+      18000a692  CALL 0x18001c620
+      18000a697  MOV RBX,qword ptr [RSP + 0x70]
+      18000a69c  ADD RSP,0x60
+      18000a6a0  POP RDI
+      18000a6a1  RET
+      18000a6b0  SUB RSP,0x28
+      >>> 18000a6b4  CALL qword ptr [0x18001f4a0]
+      18000a6ba  TEST RAX,RAX
+      18000a6bd  JZ 0x18000a6cb
+      18000a6bf  MOV RDX,RAX
+      18000a6c2  ADD RSP,0x28
+      18000a6c6  JMP 0x180005b30
+      -------------------
+
+[TARGET] GetLocalPlayer @ 18001f4a0
+  caller=18000a6b0 OnTick @ 18000a6b4
+      --- context ---
+      18000a68a  MOV RCX,qword ptr [RSP + 0x58]
+      18000a68f  XOR RCX,RSP
+      18000a692  CALL 0x18001c620
+      18000a697  MOV RBX,qword ptr [RSP + 0x70]
+      18000a69c  ADD RSP,0x60
+      18000a6a0  POP RDI
+      18000a6a1  RET
+      18000a6b0  SUB RSP,0x28
+      >>> 18000a6b4  CALL qword ptr [0x18001f4a0]
+      18000a6ba  TEST RAX,RAX
+      18000a6bd  JZ 0x18000a6cb
+      18000a6bf  MOV RDX,RAX
+      18000a6c2  ADD RSP,0x28
+      18000a6c6  JMP 0x180005b30
+      -------------------
+
+[TARGET] GetPlayerActor @ EXTERNAL:00000002
+  caller=180005b30 FUN_180005b30 @ 180005b56
+      --- context ---
+      180005b35  MOV qword ptr [RSP + 0x18],RDI
+      180005b3a  PUSH RBP
+      180005b3b  MOV RBP,RSP
+      180005b3e  SUB RSP,0x80
+      180005b45  MOV RAX,qword ptr [0x1800280c0]
+      180005b4c  XOR RAX,RSP
+      180005b4f  MOV qword ptr [RBP + -0x8],RAX
+      180005b53  MOV RCX,RDX
+      >>> 180005b56  CALL qword ptr [0x18001f488]
+      180005b5c  TEST RAX,RAX
+      180005b5f  JZ 0x180005d93
+      180005b65  MOV RCX,RAX
+      180005b68  CALL qword ptr [0x18001f498]
+      180005b6e  MOV RBX,RAX
+      -------------------
+
+[TARGET] GetPlayerActor @ 18001f488
+  caller=180005b30 FUN_180005b30 @ 180005b56
+      --- context ---
+      180005b35  MOV qword ptr [RSP + 0x18],RDI
+      180005b3a  PUSH RBP
+      180005b3b  MOV RBP,RSP
+      180005b3e  SUB RSP,0x80
+      180005b45  MOV RAX,qword ptr [0x1800280c0]
+      180005b4c  XOR RAX,RSP
+      180005b4f  MOV qword ptr [RBP + -0x8],RAX
+      180005b53  MOV RCX,RDX
+      >>> 180005b56  CALL qword ptr [0x18001f488]
+      180005b5c  TEST RAX,RAX
+      180005b5f  JZ 0x180005d93
+      180005b65  MOV RCX,RAX
+      180005b68  CALL qword ptr [0x18001f498]
+      180005b6e  MOV RBX,RAX
+      -------------------
+
+[TARGET] GetPlayerManager @ 1800025b0
+
+[TARGET] GetPlayerManager @ 1800025b0
+
+[TARGET] GetPlayerManager @ 1800252d8
+
+[TARGET] ClientWelcome @ 180007b80
+
+[TARGET] ClientWelcome @ 180007b80
+
+[TARGET] ClientWelcome @ 180025079
+
+[TARGET] ServerEvent @ 180007e00
+
+[TARGET] ServerEvent @ 180007e00
+
+[TARGET] ServerEvent @ 180025823
+
+[TARGET] GetActor @ EXTERNAL:00000003
+  caller=180004cc0 FUN_180004cc0 @ 180005085
+      --- context ---
+      18000506e  POP RDI
+      18000506f  POP RBP
+      180005070  RET
+      180005071  MOV ECX,dword ptr [RBX + 0x18]
+      180005074  CALL qword ptr [0x18001f4a8]
+      18000507a  TEST RAX,RAX
+      18000507d  JZ 0x18000504a
+      18000507f  MOV ECX,dword ptr [RAX + 0xb0]
+      >>> 180005085  CALL qword ptr [0x18001f490]
+      18000508b  TEST RAX,RAX
+      18000508e  JZ 0x18000504a
+      180005090  MOV dword ptr [RAX + 0x108],ESI
+      180005096  MOV EBX,dword ptr [RBX + 0x18]
+      180005099  XOR EAX,EAX
+      -------------------
+
+[TARGET] GetActor @ 18001f490
+  caller=180004cc0 FUN_180004cc0 @ 180005085
+      --- context ---
+      18000506e  POP RDI
+      18000506f  POP RBP
+      180005070  RET
+      180005071  MOV ECX,dword ptr [RBX + 0x18]
+      180005074  CALL qword ptr [0x18001f4a8]
+      18000507a  TEST RAX,RAX
+      18000507d  JZ 0x18000504a
+      18000507f  MOV ECX,dword ptr [RAX + 0xb0]
+      >>> 180005085  CALL qword ptr [0x18001f490]
+      18000508b  TEST RAX,RAX
+      18000508e  JZ 0x18000504a
+      180005090  MOV dword ptr [RAX + 0x108],ESI
+      180005096  MOV EBX,dword ptr [RBX + 0x18]
+      180005099  XOR EAX,EAX
+      -------------------
+
+============================================================
+ PLAYER / PLAYERMANAGER SYMBOLS
+============================================================
+EXTERNAL:00000002  GetPlayerActor
+EXTERNAL:00000005  GetLocalPlayer
+1800025b0  GetPlayerManager
+1800025b0  ?GetPlayerManager@GameClient@@QEBA?BV?$shared_ptr@VPlayerManager@@@std@@XZ
+180003a10  ?Get@PlayerManager@@QEBA?BV?$optional@UPlayer@@@std@@G@Z
+
+============================================================
+ CANDIDATE SCORES
+============================================================
+ 60  180003b10  FUN_180003b10  [string:core:on_player_joined, string:Failed to create player, string:Failed to create player with id, string:Failed to create player %s]
+ 41  180002ea0  FUN_180002ea0  [xref:RegisterPacket, string:core:on_player_joined, string:core:on_player_left, RegisterPacket]
+ 24  18000a300  OnStart  [xref:RegisterPacket, RegisterPacket]
+ 24  18000b9b0  FUN_18000b9b0  [xref:RegisterPacket, RegisterPacket]
+ 24  18000c140  TextChat  [xref:RegisterPacket, RegisterPacket]
+ 22  1800051d0  FUN_1800051d0  [string:core:on_player_left, string:Failed to delete player, string:Failed to delete player with id]
+ 17  180005b30  FUN_180005b30  [xref:GetPlayerActor, call:GetPlayerActor]
+ 17  18000a6b0  OnTick  [xref:GetLocalPlayer, call:GetLocalPlayer]
+ 12  180008b60  RegisterPacket  [symbol:RegisterPacket]
+  4  EXTERNAL:00000002  GetPlayerActor  [symbol:GetPlayerActor, player/player-manager symbol]
+  4  EXTERNAL:00000005  GetLocalPlayer  [symbol:GetLocalPlayer, player/player-manager symbol]
+  4  1800025b0  GetPlayerManager  [symbol:GetPlayerManager, player/player-manager symbol]
+  4  180004cc0  FUN_180004cc0  [xref:GetActor, call:GetActor]
+  2  EXTERNAL:00000003  GetActor  [symbol:GetActor]
+  2  1800028b0  FUN_1800028b0  [string:PlayerLayout]
+  2  180003a10  Get  [player/player-manager symbol]
+  2  1800069b0  FUN_1800069b0  [string:PlayerLayout]
+  2  180007b80  ClientWelcome  [symbol:ClientWelcome]
+  2  180007e00  ServerEvent  [symbol:ServerEvent]
+  2  18000a4f0  OnConnectionSucceeded  [string:on_connection_succeeded]
+  2  18000a6e0  OnDisconnect  [string:on_disconnect]
+
+============================================================
+ DECOMPILATION OF TOP CANDIDATES
+============================================================
+
+############################################################
+# SCORE 60
+# FUNCTION 180003b10 FUN_180003b10
+# REASONS [string:core:on_player_joined, string:Failed to create player, string:Failed to create player with id, string:Failed to create player %s]
+############################################################
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void FUN_180003b10(float *param_1,ushort param_2,undefined4 param_3,undefined8 *******param_4,
+                  undefined8 *param_5,undefined8 *param_6)
+
+{
+  undefined8 *******pppppppuVar1;
+  int *piVar2;
+  float *pfVar3;
+  undefined4 uVar4;
+  ushort uVar5;
+  code *pcVar6;
+  undefined8 uVar7;
+  uint uVar8;
+  char cVar9;
+  undefined4 uVar10;
+  int iVar11;
+  BOOL BVar12;
+  longlong *plVar13;
+  longlong lVar14;
+  longlong lVar15;
+  undefined8 uVar16;
+  undefined8 *puVar17;
+  LPVOID pvVar18;
+  ULONGLONG UVar19;
+  ulonglong uVar20;
+  void *pvVar21;
+  undefined8 ************ppppppppppppuVar22;
+  longlong *plVar23;
+  undefined1 auStackY_978 [32];
+  undefined4 local_938;
+  undefined4 local_934;
+  undefined4 local_930;
+  undefined4 uStack_92c;
+  undefined8 *local_928;
+  undefined4 local_920;
+  undefined4 local_91c;
+  undefined4 local_918;
+  void *local_910;
+  undefined8 uStack_908;
+  undefined8 local_900;
+  ulonglong uStack_8f8;
+  undefined1 local_8f0 [8];
+  ushort local_8e8 [4];
+  undefined8 local_8e0;
+  longlong lStack_8d8;
+  void *local_8d0;
+  undefined1 *puStack_8c8;
+  undefined1 *local_8c0;
+  float *local_8b8 [2];
+  undefined4 local_8a8 [2];
+  undefined8 ***********local_8a0;
+  undefined8 uStack_898;
+  undefined8 local_890;
+  ulonglong local_888;
+  undefined8 local_880;
+  undefined4 local_878;
+  undefined4 uStack_874;
+  undefined4 uStack_870;
+  undefined4 uStack_86c;
+  undefined8 local_868;
+  undefined8 uStack_860;
+  undefined8 local_858;
+  undefined8 uStack_850;
+  undefined4 local_848;
+  char local_844;
+  undefined8 *local_838;
+  uint local_830;
+  undefined4 local_82c;
+  undefined8 *local_828;
+  uint local_820;
+  undefined1 local_81c [4];
+  longlong alStack_818 [4];
+  undefined4 auStack_7f4 [39];
+  undefined8 local_758 [32];
+  undefined8 *local_658;
+  uint local_650;
+  undefined4 local_64c;
+  undefined8 *local_648;
+  uint local_640;
+  undefined1 local_63c [4];
+  longlong alStack_638 [4];
+  undefined4 auStack_614 [39];
+  undefined8 local_578 [32];
+  undefined8 *local_478;
+  uint local_470;
+  undefined4 local_46c;
+  undefined8 *local_468;
+  uint local_460;
+  undefined1 local_45c [4];
+  longlong alStack_458 [4];
+  undefined4 auStack_434 [39];
+  undefined8 local_398 [32];
+  undefined8 *local_298;
+  uint local_290;
+  undefined4 local_28c;
+  undefined8 *local_288;
+  uint local_280;
+  undefined1 local_27c [4];
+  longlong alStack_278 [4];
+  undefined4 auStack_254 [39];
+  undefined8 local_1b8 [32];
+  ulonglong local_b8;
+  
+  local_b8 = DAT_1800280c0 ^ (ulonglong)auStackY_978;
+  uVar20 = *(ulonglong *)(param_1 + 0xc) &
+           (((ulonglong)param_2 & 0xff ^ 0xcbf29ce484222325) * 0x100000001b3 ^
+           (ulonglong)(param_2 >> 8)) * 0x100000001b3;
+  lVar14 = *(longlong *)(*(longlong *)(param_1 + 6) + 8 + uVar20 * 0x10);
+  if (lVar14 == *(longlong *)(param_1 + 2)) {
+LAB_180003be9:
+    lVar14 = 0;
+  }
+  else {
+    uVar5 = *(ushort *)(lVar14 + 0x10);
+    while (param_2 != uVar5) {
+      if (lVar14 == *(longlong *)(*(longlong *)(param_1 + 6) + uVar20 * 0x10)) goto LAB_180003be9;
+      lVar14 = *(longlong *)(lVar14 + 8);
+      uVar5 = *(ushort *)(lVar14 + 0x10);
+    }
+  }
+  local_8e8[0] = param_2;
+  local_8b8[0] = param_1;
+  if (lVar14 == 0) {
+    uVar10 = FUN_1800028b0();
+    local_928 = (undefined8 *)CONCAT44(local_928._4_4_,uVar10);
+    local_8a8[0] = 0xffffffff;
+    uStack_898 = 0;
+    local_890 = 0;
+    local_888 = 0xf;
+    local_8a0 = (undefined8 ************)0x0;
+    local_880 = 0;
+    local_878 = 0;
+    uStack_874 = 0;
+    uStack_870 = 0;
+    uStack_86c = 0;
+    local_868 = 0;
+    uStack_860 = 0;
+    local_858 = 0;
+    uStack_850 = 0;
+    local_848 = 0;
+    local_844 = 0;
+    if (&local_8a0 != (undefined8 ************)param_4) {
+      pppppppuVar1 = param_4 + 2;
+      if ((undefined8 ******)0xf < param_4[3]) {
+        param_4 = (undefined8 *******)*param_4;
+      }
+      FUN_180006710((longlong *)&local_8a0,param_4,(size_t)*pppppppuVar1);
+    }
+    local_880 = *param_5;
+    local_878 = *(undefined4 *)(param_5 + 1);
+    uStack_874 = (undefined4)*param_6;
+    uStack_870 = (undefined4)((ulonglong)*param_6 >> 0x20);
+    uStack_86c = *(undefined4 *)(param_6 + 1);
+    plVar13 = (longlong *)Singleton<GameClient>::Get();
+    uVar5 = *(ushort *)(*plVar13 + 0x110);
+    plVar13 = (longlong *)CONCAT44(uStack_92c,local_930);
+    if (plVar13 != (longlong *)0x0) {
+      LOCK();
+      plVar23 = plVar13 + 1;
+      lVar14 = *plVar23;
+      *(int *)plVar23 = (int)*plVar23 + -1;
+      UNLOCK();
+      if ((int)lVar14 == 1) {
+        (**(code **)*plVar13)(plVar13);
+        LOCK();
+        piVar2 = (int *)((longlong)plVar13 + 0xc);
+        iVar11 = *piVar2;
+        *piVar2 = *piVar2 + -1;
+        UNLOCK();
+        if (iVar11 == 1) {
+          (**(code **)(*plVar13 + 8))(plVar13);
+        }
+      }
+    }
+    uVar16 = *param_6;
+    uVar10 = *(undefined4 *)(param_6 + 1);
+    uVar7 = *param_5;
+    uVar4 = *(undefined4 *)(param_5 + 1);
+    if (uVar5 == param_2) {
+      FUN_180002210(param_3);
+      lVar14 = _Xtime_get_ticks();
+      cVar9 = FUN_1800023b0(param_3);
+      while (cVar9 == '\0') {
+        ThisFiber::Wait(0);
+        cVar9 = FUN_1800023b0(param_3);
+      }
+      lVar15 = _Xtime_get_ticks();
+      lVar15 = lVar15 / 10 - lVar14 / 10;
+      lVar14 = lVar15;
+      if (20000 < lVar15) {
+        lVar14 = 0;
+        Log::Print(2,(char *)0x0,"Player model request took: %llu microsecond(s)",lVar15);
+      }
+      uVar10 = FUN_180006b10(local_928._0_4_,lVar14,param_3,uVar7,uVar4,uVar16,uVar10);
+      local_844 = '\x01';
+      local_64c = 0;
+      local_8a8[0] = uVar10;
+      memset(local_63c,0,0x1c4);
+      local_648 = local_578;
+      local_658 = local_578;
+      local_650 = 0;
+      local_640 = 0;
+      memset(local_578,0,0x100);
+      local_578[local_650] = 0;
+      *(undefined4 *)(local_578 + local_650) = uVar10;
+      local_650 = local_650 + 1;
+      uVar20 = (ulonglong)_tls_index;
+      lVar14 = *(longlong *)((longlong)ThreadLocalStoragePointer + uVar20 * 8);
+      if ((*(int *)(lVar14 + 4) < DAT_1800296d0) &&
+         (FUN_18001ca68(&DAT_1800296d0), DAT_1800296d0 == -1)) {
+        DAT_180029778 = rage::scrThread::GetCommand(0x8efdfe89);
+        _Init_thread_footer(&DAT_1800296d0);
+      }
+      uVar8 = local_640;
+      if (DAT_180029778 != (_func_void_InfoBase_ptr *)0x0) {
+        (*DAT_180029778)((InfoBase *)&local_658);
+        uVar8 = local_640;
+      }
+      while (uVar8 != 0) {
+        local_640 = uVar8 - 1;
+        *(undefined4 *)alStack_638[local_640] =
+             *(undefined4 *)((longlong)&local_658 + (ulonglong)((uVar8 + 3) * 0x10));
+        *(undefined4 *)(alStack_638[local_640] + 4) = auStack_614[(ulonglong)local_640 * 4];
+        *(undefined4 *)(alStack_638[local_640] + 8) = auStack_614[(ulonglong)local_640 * 4 + 1];
+        uVar8 = local_640;
+      }
+      local_82c = 0;
+      local_640 = uVar8;
+      memset(local_81c,0,0x1c4);
+      local_828 = local_758;
+      local_838 = local_758;
+      local_830 = 0;
+      local_820 = 0;
+      memset(local_758,0,0x100);
+      local_758[local_830] = 0;
+      *(undefined4 *)(local_758 + local_830) = 0;
+      local_758[local_830 + 1] = 0;
+      *(undefined1 *)(local_758 + (local_830 + 1)) = 1;
+      local_758[local_830 + 2] = 0;
+      *(undefined4 *)(local_758 + (local_830 + 2)) = 0;
+      local_758[local_830 + 3] = 0;
+      *(undefined4 *)(local_758 + (local_830 + 3)) = 0;
+      local_830 = local_830 + 4;
+      if ((*(int *)(lVar14 + 4) < DAT_180029720) &&
+         (FUN_18001ca68(&DAT_180029720), DAT_180029720 == -1)) {
+        DAT_1800297c0 = rage::scrThread::GetCommand(0xd17afcd8);
+        _Init_thread_footer(&DAT_180029720);
+      }
+      uVar8 = local_820;
+      if (DAT_1800297c0 != (_func_void_InfoBase_ptr *)0x0) {
+        (*DAT_1800297c0)((InfoBase *)&local_838);
+        uVar8 = local_820;
+      }
+      while (local_820 = uVar8, uVar8 != 0) {
+        local_820 = uVar8 - 1;
+        *(undefined4 *)alStack_818[local_820] =
+             *(undefined4 *)((longlong)&local_838 + (ulonglong)((uVar8 + 3) * 0x10));
+        *(undefined4 *)(alStack_818[local_820] + 4) = auStack_7f4[(ulonglong)local_820 * 4];
+        *(undefined4 *)(alStack_818[local_820] + 8) = auStack_7f4[(ulonglong)local_820 * 4 + 1];
+        uVar8 = local_820;
+      }
+    }
+    else {
+      local_938 = *(undefined4 *)param_5;
+      local_934 = *(undefined4 *)((longlong)param_5 + 4);
+      local_930 = uVar4;
+      local_920 = *(undefined4 *)param_6;
+      local_91c = *(undefined4 *)((longlong)param_6 + 4);
+      local_918 = uVar10;
+      uVar10 = FUN_180002b90(local_928._0_4_,param_3,&local_938,&local_920);
+      local_844 = '\0';
+      local_82c = 0;
+      local_8a8[0] = uVar10;
+      memset(local_81c,0,0x1c4);
+      local_828 = local_758;
+      local_838 = local_758;
+      local_830 = 0;
+      local_820 = 0;
+      memset(local_758,0,0x100);
+      local_758[local_830] = 0;
+      *(undefined4 *)(local_758 + local_830) = uVar10;
+      local_758[local_830 + 1] = 0;
+      *(undefined1 *)(local_758 + (local_830 + 1)) = 1;
+      local_830 = local_830 + 2;
+      uVar20 = (ulonglong)_tls_index;
+      lVar14 = *(longlong *)((longlong)ThreadLocalStoragePointer + uVar20 * 8);
+      if ((*(int *)(lVar14 + 4) < DAT_180029790) &&
+         (FUN_18001ca68(&DAT_180029790), DAT_180029790 == -1)) {
+        DAT_1800296e8 = rage::scrThread::GetCommand(0xe38ef526);
+        _Init_thread_footer(&DAT_180029790);
+      }
+      uVar8 = local_820;
+      if (DAT_1800296e8 != (_func_void_InfoBase_ptr *)0x0) {
+        (*DAT_1800296e8)((InfoBase *)&local_838);
+        uVar8 = local_820;
+      }
+      while (uVar8 != 0) {
+        local_820 = uVar8 - 1;
+        *(undefined4 *)alStack_818[local_820] =
+             *(undefined4 *)((longlong)&local_838 + (ulonglong)((uVar8 + 3) * 0x10));
+        *(undefined4 *)(alStack_818[local_820] + 4) = auStack_7f4[(ulonglong)local_820 * 4];
+        *(undefined4 *)(alStack_818[local_820] + 8) = auStack_7f4[(ulonglong)local_820 * 4 + 1];
+        uVar8 = local_820;
+      }
+      local_64c = 0;
+      local_820 = uVar8;
+      memset(local_63c,0,0x1c4);
+      local_648 = local_578;
+      local_658 = local_578;
+      local_650 = 0;
+      local_640 = 0;
+      memset(local_578,0,0x100);
+      local_578[local_650] = 0;
+      *(undefined4 *)(local_578 + local_650) = local_8a8[0];
+      local_650 = local_650 + 1;
+      if ((*(int *)(lVar14 + 4) < DAT_180029760) &&
+         (FUN_18001ca68(&DAT_180029760), DAT_180029760 == -1)) {
+        DAT_180029768 = rage::scrThread::GetCommand(0x17d270e);
+        _Init_thread_footer(&DAT_180029760);
+      }
+      uVar8 = local_640;
+      if (DAT_180029768 != (_func_void_InfoBase_ptr *)0x0) {
+        (*DAT_180029768)((InfoBase *)&local_658);
+        uVar8 = local_640;
+      }
+      while (local_640 = uVar8, uVar8 != 0) {
+        local_640 = uVar8 - 1;
+        *(undefined4 *)alStack_638[local_640] =
+             *(undefined4 *)((longlong)&local_658 + (ulonglong)((uVar8 + 3) * 0x10));
+        *(undefined4 *)(alStack_638[local_640] + 4) = auStack_614[(ulonglong)local_640 * 4];
+        *(undefined4 *)(alStack_638[local_640] + 8) = auStack_614[(ulonglong)local_640 * 4 + 1];
+        uVar8 = local_640;
+      }
+    }
+    cVar9 = FUN_1800020a0(local_8a8[0]);
+    if (cVar9 == '\0') {
+      ppppppppppppuVar22 = &local_8a0;
+      if (0xf < local_888) {
+        ppppppppppppuVar22 = (undefined8 ************)local_8a0;
+      }
+      Log::Print(3,(char *)0x0,"Failed to create player %s (%u)",ppppppppppppuVar22);
+    }
+    else {
+      local_46c = 0;
+      memset(local_45c,0,0x1c4);
+      local_468 = local_398;
+      local_478 = local_398;
+      local_470 = 0;
+      local_460 = 0;
+      memset(local_398,0,0x100);
+      local_398[local_470] = 0;
+      *(undefined4 *)(local_398 + local_470) = local_8a8[0];
+      local_470 = local_470 + 1;
+      lVar14 = *(longlong *)((longlong)ThreadLocalStoragePointer + uVar20 * 8);
+      if ((*(int *)(lVar14 + 4) < DAT_1800296a0) &&
+         (FUN_18001ca68(&DAT_1800296a0), DAT_1800296a0 == -1)) {
+        DAT_180029710 = rage::scrThread::GetCommand(0x1f7f405c);
+        _Init_thread_footer(&DAT_1800296a0);
+      }
+      uVar8 = local_460;
+      if (DAT_180029710 != (_func_void_InfoBase_ptr *)0x0) {
+        (*DAT_180029710)((InfoBase *)&local_478);
+        uVar8 = local_460;
+      }
+      while (uVar8 != 0) {
+        local_460 = uVar8 - 1;
+        *(undefined4 *)alStack_458[local_460] =
+             *(undefined4 *)((longlong)&local_478 + (ulonglong)((uVar8 + 3) * 0x10));
+        *(undefined4 *)(alStack_458[local_460] + 4) = auStack_434[(ulonglong)local_460 * 4];
+        *(undefined4 *)(alStack_458[local_460] + 8) = auStack_434[(ulonglong)local_460 * 4 + 1];
+        uVar8 = local_460;
+      }
+      local_28c = 0;
+      local_460 = uVar8;
+      memset(local_27c,0,0x1c4);
+      local_288 = local_1b8;
+      local_298 = local_1b8;
+      local_290 = 0;
+      local_280 = 0;
+      memset(local_1b8,0,0x100);
+      local_1b8[local_290] = 0;
+      *(undefined4 *)(local_1b8 + local_290) = local_8a8[0];
+      local_290 = local_290 + 1;
+      if ((*(int *)(lVar14 + 4) < DAT_180029764) &&
+         (FUN_18001ca68(&DAT_180029764), DAT_180029764 == -1)) {
+        DAT_1800296e0 = rage::scrThread::GetCommand(0xe4d418d1);
+        _Init_thread_footer(&DAT_180029764);
+      }
+      uVar8 = local_280;
+      if (DAT_1800296e0 != (_func_void_InfoBase_ptr *)0x0) {
+        (*DAT_1800296e0)((InfoBase *)&local_298);
+        uVar8 = local_280;
+      }
+      while (uVar8 != 0) {
+        local_280 = uVar8 - 1;
+        *(undefined4 *)alStack_278[local_280] =
+             *(undefined4 *)((longlong)&local_298 + (ulonglong)((uVar8 + 3) * 0x10));
+        *(undefined4 *)(alStack_278[local_280] + 4) = auStack_254[(ulonglong)local_280 * 4];
+        *(undefined4 *)(alStack_278[local_280] + 8) = auStack_254[(ulonglong)local_280 * 4 + 1];
+        uVar8 = local_280;
+      }
+      local_82c = 0;
+      local_280 = uVar8;
+      memset(local_81c,0,0x1c4);
+      local_828 = local_758;
+      local_838 = local_758;
+      local_830 = 0;
+      local_820 = 0;
+      memset(local_758,0,0x100);
+      local_758[local_830] = 0;
+      *(undefined4 *)(local_758 + local_830) = local_8a8[0];
+      local_758[local_830 + 1] = 0;
+      *(undefined4 *)(local_758 + (local_830 + 1)) = 0x42c80000;
+      local_830 = local_830 + 2;
+      if ((*(int *)(lVar14 + 4) < DAT_180029688) &&
+         (FUN_18001ca68(&DAT_180029688), DAT_180029688 == -1)) {
+        DAT_1800296b8 = rage::scrThread::GetCommand(0x165bd4c5);
+        _Init_thread_footer(&DAT_180029688);
+      }
+      uVar8 = local_820;
+      if (DAT_1800296b8 != (_func_void_InfoBase_ptr *)0x0) {
+        (*DAT_1800296b8)((InfoBase *)&local_838);
+        uVar8 = local_820;
+      }
+      while (uVar8 != 0) {
+        local_820 = uVar8 - 1;
+        *(undefined4 *)alStack_818[local_820] =
+             *(undefined4 *)((longlong)&local_838 + (ulonglong)((uVar8 + 3) * 0x10));
+        *(undefined4 *)(alStack_818[local_820] + 4) = auStack_7f4[(ulonglong)local_820 * 4];
+        *(undefined4 *)(alStack_818[local_820] + 8) = auStack_7f4[(ulonglong)local_820 * 4 + 1];
+        uVar8 = local_820;
+      }
+      local_64c = 0;
+      local_820 = uVar8;
+      memset(local_63c,0,0x1c4);
+      local_648 = local_578;
+      local_658 = local_578;
+      local_650 = 0;
+      local_640 = 0;
+      memset(local_578,0,0x100);
+      local_578[local_650] = 0;
+      *(undefined4 *)(local_578 + local_650) = local_8a8[0];
+      local_578[local_650 + 1] = 0;
+      *(undefined4 *)(local_578 + (local_650 + 1)) = 0x42c80000;
+      local_650 = local_650 + 2;
+      if ((*(int *)(lVar14 + 4) < DAT_180029708) &&
+         (FUN_18001ca68(&DAT_180029708), DAT_180029708 == -1)) {
+        DAT_180029758 = rage::scrThread::GetCommand(0xfa090024);
+        _Init_thread_footer(&DAT_180029708);
+      }
+      uVar8 = local_640;
+      if (DAT_180029758 != (_func_void_InfoBase_ptr *)0x0) {
+        (*DAT_180029758)((InfoBase *)&local_658);
+        uVar8 = local_640;
+      }
+      while (uVar8 != 0) {
+        local_640 = uVar8 - 1;
+        *(undefined4 *)alStack_638[local_640] =
+             *(undefined4 *)((longlong)&local_658 + (ulonglong)((uVar8 + 3) * 0x10));
+        *(undefined4 *)(alStack_638[local_640] + 4) = auStack_614[(ulonglong)local_640 * 4];
+        *(undefined4 *)(alStack_638[local_640] + 8) = auStack_614[(ulonglong)local_640 * 4 + 1];
+        uVar8 = local_640;
+      }
+      local_640 = uVar8;
+      FUN_180006d50(local_8b8[0],(undefined8 *)&local_938,(byte *)local_8e8,local_8a8);
+      local_928 = &local_8e0;
+      local_8d0 = (void *)0x0;
+      puStack_8c8 = (undefined1 *)0x0;
+      local_8c0 = (undefined1 *)0x0;
+      local_8e0 = 0;
+      lStack_8d8 = 0;
+      local_8b8[0] = (float *)0x400;
+      FUN_18000f5f0((longlong *)&local_8d0,(ulonglong *)local_8b8);
+      local_8f0[0] = 3;
+      if (puStack_8c8 == local_8c0) {
+        FUN_18000fc70((longlong *)&local_8d0,puStack_8c8,local_8f0);
+      }
+      else {
+        *puStack_8c8 = 3;
+        puStack_8c8 = puStack_8c8 + 1;
+      }
+      lStack_8d8 = lStack_8d8 + 1;
+      uVar20 = (ulonglong)local_8e8[0];
+      local_8f0[0] = 1;
+      if (puStack_8c8 == local_8c0) {
+        FUN_18000fc70((longlong *)&local_8d0,puStack_8c8,local_8f0);
+      }
+      else {
+        *puStack_8c8 = 1;
+        puStack_8c8 = puStack_8c8 + 1;
+      }
+      lStack_8d8 = lStack_8d8 + 1;
+      FUN_18000eb20((longlong)&local_8e0,uVar20);
+      plVar13 = FUN_180006190(&local_910,&local_8a0);
+      FUN_180001110((longlong)&local_8e0,plVar13);
+      cVar9 = local_844;
+      local_8f0[0] = 3;
+      if (puStack_8c8 == local_8c0) {
+        FUN_18000fc70((longlong *)&local_8d0,puStack_8c8,local_8f0);
+      }
+      else {
+        *puStack_8c8 = 3;
+        puStack_8c8 = puStack_8c8 + 1;
+      }
+      lStack_8d8 = lStack_8d8 + 1;
+      local_8f0[0] = cVar9 != '\0';
+      if (puStack_8c8 == local_8c0) {
+        FUN_18000fc70((longlong *)&local_8d0,puStack_8c8,local_8f0);
+      }
+      else {
+        *puStack_8c8 = local_8f0[0];
+        puStack_8c8 = puStack_8c8 + 1;
+      }
+      lStack_8d8 = lStack_8d8 + 1;
+      plVar13 = (longlong *)Singleton<Scripting::ClientEventsHandler>::Get();
+      lVar14 = *plVar13;
+      local_910 = (void *)0x0;
+      uStack_908 = 0;
+      local_900 = 0;
+      uStack_8f8 = 0;
+      FUN_180007110(&local_910,"core:on_player_joined",0x15);
+      pfVar3 = (float *)(lVar14 + 0x40);
+      local_8b8[0] = pfVar3;
+      iVar11 = _Mtx_lock(pfVar3);
+      if (iVar11 != 0) {
+        std::_Throw_Cpp_error(5);
+        pcVar6 = (code *)swi(3);
+        (*pcVar6)();
+        return;
+      }
+      if (*(int *)(lVar14 + 0x8c) == 0x7fffffff) {
+        *(undefined4 *)(lVar14 + 0x8c) = 0x7ffffffe;
+        std::_Throw_Cpp_error(6);
+      }
+      uVar16 = FUN_180001a70(lVar14,&local_910);
+      if ((char)uVar16 != '\0') {
+        puVar17 = (undefined8 *)FUN_18000db80(lVar14,&local_910);
+        plVar13 = (longlong *)puVar17[1];
+        for (plVar23 = (longlong *)*puVar17; plVar23 != plVar13; plVar23 = plVar23 + 2) {
+          puVar17 = (undefined8 *)*plVar23;
+          BVar12 = IsThreadAFiber();
+          pvVar18 = FiberData;
+          if (BVar12 == 0) {
+            pvVar18 = ConvertThreadToFiber((LPVOID)0x0);
+          }
+          puVar17[1] = pvVar18;
+          UVar19 = GetTickCount64();
+          if ((ulonglong)puVar17[2] <= UVar19) {
+            puVar17[5] = local_8e0;
+            puVar17[6] = lStack_8d8;
+            if ((void **)(puVar17 + 7) != &local_8d0) {
+              FUN_18000e340(puVar17 + 7,local_8d0,(longlong)puStack_8c8 - (longlong)local_8d0);
+            }
+            SwitchToFiber((LPVOID)*puVar17);
+          }
+        }
+      }
+      _Mtx_unlock(pfVar3);
+      if (0xf < uStack_8f8) {
+        pvVar21 = local_910;
+        if ((0xfff < uStack_8f8 + 1) &&
+           (pvVar21 = *(void **)((longlong)local_910 + -8),
+           0x1f < (ulonglong)((longlong)local_910 + (-8 - (longlong)pvVar21)))) {
+                    /* WARNING: Subroutine does not return */
+          _invalid_parameter_noinfo_noreturn();
+        }
+        FUN_18001c9b8(pvVar21);
+      }
+      plVar13 = (longlong *)CONCAT44(uStack_92c,local_930);
+      if (plVar13 != (longlong *)0x0) {
+        LOCK();
+        plVar23 = plVar13 + 1;
+        lVar14 = *plVar23;
+        *(int *)plVar23 = (int)*plVar23 + -1;
+        UNLOCK();
+        if ((int)lVar14 == 1) {
+          (**(code **)*plVar13)(plVar13);
+          LOCK();
+          piVar2 = (int *)((longlong)plVar13 + 0xc);
+          iVar11 = *piVar2;
+          *piVar2 = *piVar2 + -1;
+          UNLOCK();
+          if (iVar11 == 1) {
+            (**(code **)(*plVar13 + 8))(plVar13);
+          }
+        }
+      }
+      if (local_8d0 != (void *)0x0) {
+        pvVar21 = local_8d0;
+        if ((0xfff < (ulonglong)((longlong)local_8c0 - (longlong)local_8d0)) &&
+           (pvVar21 = *(void **)((longlong)local_8d0 + -8),
+           0x1f < (ulonglong)((longlong)local_8d0 + (-8 - (longlong)pvVar21)))) {
+                    /* WARNING: Subroutine does not return */
+          _invalid_parameter_noinfo_noreturn();
+        }
+        FUN_18001c9b8(pvVar21);
+      }
+    }
+    if (0xf < local_888) {
+      ppppppppppppuVar22 = (undefined8 ************)local_8a0;
+      if ((0xfff < local_888 + 1) &&
+         (ppppppppppppuVar22 = (undefined8 ************)local_8a0[-1],
+         0x1f < (ulonglong)((longlong)local_8a0 + (-8 - (longlong)ppppppppppppuVar22)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      FUN_18001c9b8(ppppppppppppuVar22);
+    }
+  }
+  else {
+    Log::Print(3,(char *)0x0,
+               "Failed to create player with id %u, a player with this id already exist !",
+               (ulonglong)param_2);
+  }
+  return;
+}
+
+
+>>> MATCH: core:on_player_joined
+
+############################################################
+# SCORE 41
+# FUNCTION 180002ea0 FUN_180002ea0
+# REASONS [xref:RegisterPacket, string:core:on_player_joined, string:core:on_player_left, RegisterPacket]
+############################################################
+
+undefined4 * FUN_180002ea0(float *param_1)
+
+{
+  longlong *plVar1;
+  int *piVar2;
+  float *pfVar3;
+  float *pfVar4;
+  code *pcVar5;
+  int iVar6;
+  longlong lVar7;
+  undefined8 *puVar8;
+  undefined4 *puVar9;
+  longlong *plVar10;
+  ulonglong uVar11;
+  ulonglong uVar12;
+  undefined *****pppppuVar13;
+  ulonglong uVar14;
+  ulonglong uVar15;
+  float *local_98;
+  undefined ****local_90;
+  float *pfStack_88;
+  ulonglong local_80;
+  ulonglong local_78;
+  undefined ****local_58;
+  longlong *local_48;
+  longlong local_40 [2];
+  float *local_30;
+  
+  uVar12 = 0;
+  *param_1 = 0.0;
+  param_1[2] = 0.0;
+  param_1[3] = 0.0;
+  param_1[4] = 0.0;
+  param_1[5] = 0.0;
+  local_98 = param_1;
+  local_30 = param_1;
+  lVar7 = FUN_18001cae0(0x80);
+  *(longlong *)lVar7 = lVar7;
+  *(longlong *)(lVar7 + 8) = lVar7;
+  *(longlong *)(param_1 + 2) = lVar7;
+  param_1[6] = 0.0;
+  param_1[7] = 0.0;
+  param_1[8] = 0.0;
+  param_1[9] = 0.0;
+  param_1[10] = 0.0;
+  param_1[0xb] = 0.0;
+  param_1[0xc] = 9.80909e-45;
+  param_1[0xd] = 0.0;
+  param_1[0xe] = 1.12104e-44;
+  param_1[0xf] = 0.0;
+  *param_1 = 1.0;
+  FUN_180006870((ulonglong *)(param_1 + 6),0x10,*(undefined8 *)(param_1 + 2));
+  uVar11 = *(ulonglong *)(param_1 + 4);
+  if (uVar11 != 0) {
+    plVar10 = *(longlong **)(param_1 + 2);
+    if (uVar11 < *(ulonglong *)(param_1 + 0xe) >> 3) {
+      FUN_1800062b0((longlong)param_1,(longlong *)*plVar10,plVar10);
+    }
+    else {
+      FUN_180007210(uVar11,plVar10);
+      *(undefined8 *)*(undefined8 *)(param_1 + 2) = *(undefined8 *)(param_1 + 2);
+      *(longlong *)(*(longlong *)(param_1 + 2) + 8) = *(longlong *)(param_1 + 2);
+      param_1[4] = 0.0;
+      param_1[5] = 0.0;
+      local_98 = *(float **)(param_1 + 2);
+      FUN_180007080(*(undefined8 **)(param_1 + 6),*(undefined8 **)(param_1 + 8),&local_98);
+    }
+  }
+  puVar8 = (undefined8 *)Singleton<GameClient>::Get();
+  local_90 = (undefined ****)
+             std::
+             _Func_impl_no_alloc<`public:___cdecl_PlayerManager::PlayerManager(void)___ptr64'::`2'::<lambda_1>,void,StreamBuffer_const&___ptr64>
+             ::vftable;
+  local_58 = (undefined ****)&local_90;
+  pfStack_88 = param_1;
+  ENetClient::RegisterPacket((ENetClient *)*puVar8,6,&local_90);
+  plVar10 = local_48;
+  if (local_48 != (longlong *)0x0) {
+    LOCK();
+    plVar1 = local_48 + 1;
+    lVar7 = *plVar1;
+    *(int *)plVar1 = (int)*plVar1 + -1;
+    UNLOCK();
+    if ((int)lVar7 == 1) {
+      (**(code **)*local_48)(local_48);
+      LOCK();
+      piVar2 = (int *)((longlong)plVar10 + 0xc);
+      iVar6 = *piVar2;
+      *piVar2 = *piVar2 + -1;
+      UNLOCK();
+      if (iVar6 == 1) {
+        (**(code **)(*plVar10 + 8))(plVar10);
+      }
+    }
+  }
+  puVar8 = (undefined8 *)Singleton<GameClient>::Get();
+  local_90 = (undefined ****)
+             std::
+             _Func_impl_no_alloc<`public:___cdecl_PlayerManager::PlayerManager(void)___ptr64'::`2'::<lambda_2>,void,StreamBuffer_const&___ptr64>
+             ::vftable;
+  local_58 = (undefined ****)&local_90;
+  pfStack_88 = param_1;
+  ENetClient::RegisterPacket((ENetClient *)*puVar8,8,&local_90);
+  plVar10 = local_48;
+  if (local_48 != (longlong *)0x0) {
+    LOCK();
+    plVar1 = local_48 + 1;
+    lVar7 = *plVar1;
+    *(int *)plVar1 = (int)*plVar1 + -1;
+    UNLOCK();
+    if ((int)lVar7 == 1) {
+      (**(code **)*local_48)(local_48);
+      LOCK();
+      piVar2 = (int *)((longlong)plVar10 + 0xc);
+      iVar6 = *piVar2;
+      *piVar2 = *piVar2 + -1;
+      UNLOCK();
+      if (iVar6 == 1) {
+        (**(code **)(*plVar10 + 8))(plVar10);
+      }
+    }
+  }
+  puVar8 = (undefined8 *)Singleton<GameClient>::Get();
+  local_90 = (undefined ****)
+             std::
+             _Func_impl_no_alloc<`public:___cdecl_PlayerManager::PlayerManager(void)___ptr64'::`2'::<lambda_3>,void,StreamBuffer_const&___ptr64>
+             ::vftable;
+  local_58 = (undefined ****)&local_90;
+  pfStack_88 = param_1;
+  ENetClient::RegisterPacket((ENetClient *)*puVar8,9,&local_90);
+  plVar10 = local_48;
+  if (local_48 != (longlong *)0x0) {
+    LOCK();
+    plVar1 = local_48 + 1;
+    lVar7 = *plVar1;
+    *(int *)plVar1 = (int)*plVar1 + -1;
+    UNLOCK();
+    if ((int)lVar7 == 1) {
+      (**(code **)*local_48)(local_48);
+      LOCK();
+      piVar2 = (int *)((longlong)plVar10 + 0xc);
+      iVar6 = *piVar2;
+      *piVar2 = *piVar2 + -1;
+      UNLOCK();
+      if (iVar6 == 1) {
+        (**(code **)(*plVar10 + 8))(plVar10);
+      }
+    }
+  }
+  puVar8 = (undefined8 *)Singleton<GameClient>::Get();
+  local_90 = (undefined ****)
+             std::
+             _Func_impl_no_alloc<`public:___cdecl_PlayerManager::PlayerManager(void)___ptr64'::`2'::<lambda_4>,void,StreamBuffer_const&___ptr64>
+             ::vftable;
+  local_58 = (undefined ****)&local_90;
+  pfStack_88 = param_1;
+  ENetClient::RegisterPacket((ENetClient *)*puVar8,7,&local_90);
+  plVar10 = local_48;
+  if (local_48 != (longlong *)0x0) {
+    LOCK();
+    plVar1 = local_48 + 1;
+    lVar7 = *plVar1;
+    *(int *)plVar1 = (int)*plVar1 + -1;
+    UNLOCK();
+    if ((int)lVar7 == 1) {
+      (**(code **)*local_48)(local_48);
+      LOCK();
+      piVar2 = (int *)((longlong)plVar10 + 0xc);
+      iVar6 = *piVar2;
+      *piVar2 = *piVar2 + -1;
+      UNLOCK();
+      if (iVar6 == 1) {
+        (**(code **)(*plVar10 + 8))(plVar10);
+      }
+    }
+  }
+  puVar8 = (undefined8 *)Singleton<Scripting::ClientEventsHandler>::Get();
+  pfVar4 = (float *)*puVar8;
+  local_90 = (undefined ****)0x0;
+  pfStack_88 = (float *)0x0;
+  local_80 = 0;
+  local_78 = 0;
+  FUN_180007110(&local_90,"core:on_player_joined",0x15);
+  pfVar3 = pfVar4 + 0x10;
+  local_98 = pfVar3;
+  iVar6 = _Mtx_lock(pfVar3);
+  if (iVar6 != 0) {
+    std::_Throw_Cpp_error(5);
+    pcVar5 = (code *)swi(3);
+    puVar9 = (undefined4 *)(*pcVar5)();
+    return puVar9;
+  }
+  if (pfVar4[0x23] == NAN) {
+    pfVar4[0x23] = NAN;
+    std::_Throw_Cpp_error(6);
+  }
+  pppppuVar13 = &local_90;
+  if (0xf < local_78) {
+    pppppuVar13 = (undefined *****)local_90;
+  }
+  uVar14 = 0xcbf29ce484222325;
+  uVar15 = 0xcbf29ce484222325;
+  uVar11 = uVar12;
+  if (local_80 != 0) {
+    do {
+      uVar15 = (uVar15 ^ *(byte *)(uVar11 + (longlong)pppppuVar13)) * 0x100000001b3;
+      uVar11 = uVar11 + 1;
+    } while (uVar11 < local_80);
+  }
+  plVar10 = FUN_180001b60((longlong)pfVar4,local_40,&local_90,uVar15);
+  if (plVar10[1] == 0) {
+    plVar10 = FUN_18000dfe0(pfVar4,local_40,(longlong *)&local_90);
+    FUN_18000dc90((longlong *)(*plVar10 + 0x30),(longlong *)0x0,0);
+  }
+  _Mtx_unlock(pfVar3);
+  if (0xf < local_78) {
+    pppppuVar13 = (undefined *****)local_90;
+    if ((0xfff < local_78 + 1) &&
+       (pppppuVar13 = (undefined *****)local_90[-1],
+       0x1f < (ulonglong)((longlong)local_90 + (-8 - (longlong)pppppuVar13)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    FUN_18001c9b8(pppppuVar13);
+  }
+  plVar10 = local_48;
+  local_80 = 0;
+  local_78 = 0xf;
+  local_90 = (undefined ****)((ulonglong)local_90 & 0xffffffffffffff00);
+  if (local_48 != (longlong *)0x0) {
+    LOCK();
+    plVar1 = local_48 + 1;
+    lVar7 = *plVar1;
+    *(int *)plVar1 = (int)*plVar1 + -1;
+    UNLOCK();
+    if ((int)lVar7 == 1) {
+      (**(code **)*local_48)(local_48);
+      LOCK();
+      piVar2 = (int *)((longlong)plVar10 + 0xc);
+      iVar6 = *piVar2;
+      *piVar2 = *piVar2 + -1;
+      UNLOCK();
+      if (iVar6 == 1) {
+        (**(code **)(*plVar10 + 8))(plVar10);
+      }
+    }
+  }
+  puVar8 = (undefined8 *)Singleton<Scripting::ClientEventsHandler>::Get();
+  pfVar4 = (float *)*puVar8;
+  local_90 = (undefined ****)0x0;
+  pfStack_88 = (float *)0x0;
+  local_80 = 0;
+  local_78 = 0;
+  FUN_180007110(&local_90,"core:on_player_left",0x13);
+  pfVar3 = pfVar4 + 0x10;
+  local_98 = pfVar3;
+  iVar6 = _Mtx_lock(pfVar3);
+  if (iVar6 != 0) {
+    std::_Throw_Cpp_error(5);
+    pcVar5 = (code *)swi(3);
+    puVar9 = (undefined4 *)(*pcVar5)();
+    return puVar9;
+  }
+  if (pfVar4[0x23] == NAN) {
+    pfVar4[0x23] = NAN;
+    std::_Throw_Cpp_error(6);
+  }
+  pppppuVar13 = &local_90;
+  if (0xf < local_78) {
+    pppppuVar13 = (undefined *****)local_90;
+  }
+  if (local_80 != 0) {
+    do {
+      uVar14 = (uVar14 ^ *(byte *)(uVar12 + (longlong)pppppuVar13)) * 0x100000001b3;
+      uVar12 = uVar12 + 1;
+    } while (uVar12 < local_80);
+  }
+  plVar10 = FUN_180001b60((longlong)pfVar4,local_40,&local_90,uVar14);
+  if (plVar10[1] == 0) {
+    plVar10 = FUN_18000dfe0(pfVar4,local_40,(longlong *)&local_90);
+    FUN_18000dc90((longlong *)(*plVar10 + 0x30),(longlong *)0x0,0);
+  }
+  _Mtx_unlock(pfVar3);
+  if (0xf < local_78) {
+    pppppuVar13 = (undefined *****)local_90;
+    if ((0xfff < local_78 + 1) &&
+       (pppppuVar13 = (undefined *****)local_90[-1],
+       0x1f < (ulonglong)((longlong)local_90 + (-8 - (longlong)pppppuVar13)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    FUN_18001c9b8(pppppuVar13);
+  }
+  local_80 = 0;
+  local_78 = 0xf;
+  local_90 = (undefined ****)((ulonglong)local_90 & 0xffffffffffffff00);
+  if (local_48 != (longlong *)0x0) {
+    LOCK();
+    plVar10 = local_48 + 1;
+    lVar7 = *plVar10;
+    *(int *)plVar10 = (int)*plVar10 + -1;
+    UNLOCK();
+    if ((int)lVar7 == 1) {
+      (**(code **)*local_48)(local_48);
+      LOCK();
+      piVar2 = (int *)((longlong)local_48 + 0xc);
+      iVar6 = *piVar2;
+      *piVar2 = *piVar2 + -1;
+      UNLOCK();
+      if (iVar6 == 1) {
+        (**(code **)(*local_48 + 8))(local_48);
+      }
+    }
+  }
+  return param_1;
+}
+
+
+>>> MATCH: PlayerManager
+>>> MATCH: core:on_player_joined
+>>> MATCH: core:on_player_left
+
+############################################################
+# SCORE 24
+# FUNCTION 18000a300 OnStart
+# REASONS [xref:RegisterPacket, RegisterPacket]
+############################################################
+
+/* public: virtual void __cdecl GameClient::OnStart(void) __ptr64 */
+
+void __thiscall GameClient::OnStart(GameClient *this)
+
+{
+  longlong *plVar1;
+  int *piVar2;
+  int iVar3;
+  longlong *plVar4;
+  longlong lVar5;
+  undefined8 *puVar6;
+  undefined8 *puVar7;
+  undefined8 in_R9;
+  undefined **local_50;
+  code *local_48;
+  undefined ***local_18;
+  
+                    /* 0xa300  38  ?OnStart@GameClient@@UEAAXXZ */
+  puVar6 = (undefined8 *)FUN_18001cae0(0x18);
+  *puVar6 = 0;
+  puVar6[1] = 0;
+  *(undefined4 *)(puVar6 + 1) = 1;
+  *(undefined4 *)((longlong)puVar6 + 0xc) = 1;
+  *puVar6 = std::_Ref_count_obj2<TextChat>::vftable;
+  TextChat::TextChat((TextChat *)(puVar6 + 2));
+  *(TextChat **)(this + 0x158) = (TextChat *)(puVar6 + 2);
+  plVar4 = *(longlong **)(this + 0x160);
+  *(undefined8 **)(this + 0x160) = puVar6;
+  if (plVar4 != (longlong *)0x0) {
+    LOCK();
+    plVar1 = plVar4 + 1;
+    lVar5 = *plVar1;
+    *(int *)plVar1 = (int)*plVar1 + -1;
+    UNLOCK();
+    if ((int)lVar5 == 1) {
+      (**(code **)*plVar4)(plVar4);
+      LOCK();
+      piVar2 = (int *)((longlong)plVar4 + 0xc);
+      iVar3 = *piVar2;
+      *piVar2 = *piVar2 + -1;
+      UNLOCK();
+      if (iVar3 == 1) {
+        (**(code **)(*plVar4 + 8))(plVar4);
+      }
+    }
+  }
+  puVar6 = (undefined8 *)FUN_18001cae0(0x18);
+  *puVar6 = 0;
+  puVar6[1] = 0;
+  *(undefined4 *)(puVar6 + 1) = 1;
+  *(undefined4 *)((longlong)puVar6 + 0xc) = 1;
+  *puVar6 = std::_Ref_count_obj2<TimeOfDayManager>::vftable;
+  FUN_18000b9b0(puVar6 + 2);
+  *(undefined8 **)(this + 0x168) = puVar6 + 2;
+  plVar4 = *(longlong **)(this + 0x170);
+  *(undefined8 **)(this + 0x170) = puVar6;
+  if (plVar4 != (longlong *)0x0) {
+    LOCK();
+    plVar1 = plVar4 + 1;
+    lVar5 = *plVar1;
+    *(int *)plVar1 = (int)*plVar1 + -1;
+    UNLOCK();
+    if ((int)lVar5 == 1) {
+      (**(code **)*plVar4)(plVar4);
+      LOCK();
+      piVar2 = (int *)((longlong)plVar4 + 0xc);
+      iVar3 = *piVar2;
+      *piVar2 = *piVar2 + -1;
+      UNLOCK();
+      if (iVar3 == 1) {
+        (**(code **)(*plVar4 + 8))(plVar4);
+      }
+    }
+  }
+  puVar7 = (undefined8 *)FUN_18001cae0(0x50);
+  *puVar7 = 0;
+  puVar7[1] = 0;
+  *(undefined4 *)(puVar7 + 1) = 1;
+  *(undefined4 *)((longlong)puVar7 + 0xc) = 1;
+  *puVar7 = std::_Ref_count_obj2<PlayerManager>::vftable;
+  puVar6 = puVar7;
+  FUN_180002ea0((float *)(puVar7 + 2));
+  *(undefined8 **)(this + 0x178) = puVar7 + 2;
+  plVar4 = *(longlong **)(this + 0x180);
+  *(undefined8 **)(this + 0x180) = puVar7;
+  if (plVar4 != (longlong *)0x0) {
+    LOCK();
+    plVar1 = plVar4 + 1;
+    lVar5 = *plVar1;
+    *(int *)plVar1 = (int)*plVar1 + -1;
+    UNLOCK();
+    if ((int)lVar5 == 1) {
+      (**(code **)*plVar4)(plVar4);
+      LOCK();
+      piVar2 = (int *)((longlong)plVar4 + 0xc);
+      iVar3 = *piVar2;
+      *piVar2 = *piVar2 + -1;
+      UNLOCK();
+      if (iVar3 == 1) {
+        (**(code **)(*plVar4 + 8))(plVar4);
+      }
+    }
+  }
+  local_50 = std::
+             _Func_impl_no_alloc<void_(__cdecl*)(StreamBuffer_const&___ptr64),void,StreamBuffer_const&___ptr64>
+             ::vftable;
+  local_48 = FUN_1800012b0;
+  local_18 = &local_50;
+  ENetClient::RegisterPacket((ENetClient *)this,3,&local_50,in_R9,puVar6);
+  return;
+}
+
+
+>>> MATCH: PlayerManager
+
+############################################################
+# SCORE 24
+# FUNCTION 18000b9b0 FUN_18000b9b0
+# REASONS [xref:RegisterPacket, RegisterPacket]
+############################################################
+
+undefined8 FUN_18000b9b0(undefined8 param_1)
+
+{
+  longlong *plVar1;
+  int *piVar2;
+  int iVar3;
+  longlong lVar4;
+  undefined8 *puVar5;
+  longlong *local_50;
+  undefined **local_48;
+  undefined8 local_40;
+  undefined ***local_10;
+  
+  puVar5 = (undefined8 *)Singleton<GameClient>::Get();
+  local_48 = std::
+             _Func_impl_no_alloc<`public:___cdecl_TimeOfDayManager::TimeOfDayManager(void)___ptr64'::`2'::<lambda_1>,void,StreamBuffer_const&___ptr64>
+             ::vftable;
+  local_10 = &local_48;
+  local_40 = param_1;
+  ENetClient::RegisterPacket((ENetClient *)*puVar5,5,&local_48);
+  if (local_50 != (longlong *)0x0) {
+    LOCK();
+    plVar1 = local_50 + 1;
+    lVar4 = *plVar1;
+    *(int *)plVar1 = (int)*plVar1 + -1;
+    UNLOCK();
+    if ((int)lVar4 == 1) {
+      (**(code **)*local_50)(local_50);
+      LOCK();
+      piVar2 = (int *)((longlong)local_50 + 0xc);
+      iVar3 = *piVar2;
+      *piVar2 = *piVar2 + -1;
+      UNLOCK();
+      if (iVar3 == 1) {
+        (**(code **)(*local_50 + 8))(local_50);
+      }
+    }
+  }
+  return param_1;
+}
+
+
+
+############################################################
+# SCORE 24
+# FUNCTION 18000c140 TextChat
+# REASONS [xref:RegisterPacket, RegisterPacket]
+############################################################
+
+/* public: __cdecl TextChat::TextChat(void) __ptr64 */
+
+TextChat * __thiscall TextChat::TextChat(TextChat *this)
+
+{
+  longlong *plVar1;
+  int *piVar2;
+  int iVar3;
+  longlong lVar4;
+  undefined8 *puVar5;
+  longlong *local_50;
+  undefined **local_48;
+  TextChat *local_40;
+  undefined ***local_10;
+  
+                    /* 0xc140  5  ??0TextChat@@QEAA@XZ */
+  puVar5 = (undefined8 *)Singleton<GameClient>::Get();
+  local_48 = std::
+             _Func_impl_no_alloc<`public:___cdecl_TextChat::TextChat(void)___ptr64'::`2'::<lambda_1>,void,StreamBuffer_const&___ptr64>
+             ::vftable;
+  local_10 = &local_48;
+  local_40 = this;
+  ENetClient::RegisterPacket((ENetClient *)*puVar5,10,&local_48);
+  if (local_50 != (longlong *)0x0) {
+    LOCK();
+    plVar1 = local_50 + 1;
+    lVar4 = *plVar1;
+    *(int *)plVar1 = (int)*plVar1 + -1;
+    UNLOCK();
+    if ((int)lVar4 == 1) {
+      (**(code **)*local_50)(local_50);
+      LOCK();
+      piVar2 = (int *)((longlong)local_50 + 0xc);
+      iVar3 = *piVar2;
+      *piVar2 = *piVar2 + -1;
+      UNLOCK();
+      if (iVar3 == 1) {
+        (**(code **)(*local_50 + 8))(local_50);
+      }
+    }
+  }
+  return this;
+}
+
+
+
+############################################################
+# SCORE 22
+# FUNCTION 1800051d0 FUN_1800051d0
+# REASONS [string:core:on_player_left, string:Failed to delete player, string:Failed to delete player with id]
+############################################################
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void FUN_1800051d0(longlong param_1,ushort param_2)
+
+{
+  char *pcVar1;
+  char cVar2;
+  ushort uVar3;
+  undefined4 uVar4;
+  longlong lVar5;
+  code *pcVar6;
+  uint uVar7;
+  int iVar8;
+  BOOL BVar9;
+  longlong lVar10;
+  longlong *plVar11;
+  undefined8 uVar12;
+  undefined8 *puVar13;
+  LPVOID pvVar14;
+  ULONGLONG UVar15;
+  ulonglong uVar16;
+  void *pvVar17;
+  longlong *plVar18;
+  int *piVar19;
+  undefined1 auStack_848 [32];
+  undefined2 local_828;
+  undefined8 *local_820;
+  void *local_818;
+  undefined8 uStack_810;
+  undefined8 local_808;
+  ulonglong uStack_800;
+  undefined1 local_7f8 [8];
+  undefined8 local_7f0;
+  longlong lStack_7e8;
+  void *local_7e0;
+  undefined1 *puStack_7d8;
+  undefined1 *local_7d0;
+  ulonglong local_7c8;
+  longlong *local_7c0;
+  undefined8 *local_7b8;
+  uint local_7b0;
+  undefined4 local_7ac;
+  undefined8 *local_7a8;
+  uint local_7a0;
+  undefined1 local_79c [4];
+  longlong alStack_798 [4];
+  undefined4 auStack_774 [39];
+  undefined8 local_6d8 [32];
+  char *local_5d8;
+  uint local_5d0;
+  undefined4 local_5cc;
+  char *local_5c8;
+  uint local_5c0;
+  undefined1 local_5bc [4];
+  longlong alStack_5b8 [4];
+  undefined4 auStack_594 [39];
+  char local_4f8 [256];
+  undefined8 *local_3f8;
+  uint local_3f0;
+  undefined4 local_3ec;
+  undefined8 *local_3e8;
+  uint local_3e0;
+  undefined1 local_3dc [4];
+  longlong alStack_3d8 [4];
+  undefined4 auStack_3b4 [39];
+  undefined8 local_318 [32];
+  undefined8 *local_218;
+  uint local_210;
+  undefined4 local_20c;
+  undefined8 *local_208;
+  uint local_200;
+  undefined1 local_1fc [4];
+  longlong alStack_1f8 [4];
+  undefined4 auStack_1d4 [39];
+  undefined8 local_138 [32];
+  ulonglong local_38;
+  
+  local_38 = DAT_1800280c0 ^ (ulonglong)auStack_848;
+  uVar16 = *(ulonglong *)(param_1 + 0x30) &
+           (((ulonglong)(byte)param_2 ^ 0xcbf29ce484222325) * 0x100000001b3 ^
+           (ulonglong)(param_2 >> 8)) * 0x100000001b3;
+  lVar5 = *(longlong *)(param_1 + 0x18);
+  lVar10 = *(longlong *)(lVar5 + 8 + uVar16 * 0x10);
+  if (lVar10 == *(longlong *)(param_1 + 8)) {
+LAB_180005281:
+    lVar10 = 0;
+  }
+  else {
+    uVar3 = *(ushort *)(lVar10 + 0x10);
+    while (param_2 != uVar3) {
+      if (lVar10 == *(longlong *)(lVar5 + uVar16 * 0x10)) goto LAB_180005281;
+      lVar10 = *(longlong *)(lVar10 + 8);
+      uVar3 = *(ushort *)(lVar10 + 0x10);
+    }
+  }
+  local_828 = param_2;
+  if (lVar10 == 0) {
+    Log::Print(3,(char *)0x0,"Failed to delete player with id %u, no player with this id exist !",
+               (ulonglong)param_2);
+  }
+  else {
+    local_828._1_1_ = (byte)(param_2 >> 8);
+    uVar16 = *(ulonglong *)(param_1 + 0x30) &
+             (((ulonglong)(byte)param_2 ^ 0xcbf29ce484222325) * 0x100000001b3 ^
+             (ulonglong)local_828._1_1_) * 0x100000001b3;
+    lVar10 = *(longlong *)(lVar5 + 8 + uVar16 * 0x10);
+    if (lVar10 == *(longlong *)(param_1 + 8)) {
+LAB_180005b1a:
+      std::_Xout_of_range("invalid unordered_map<K, T> key");
+      pcVar6 = (code *)swi(3);
+      (*pcVar6)();
+      return;
+    }
+    uVar3 = *(ushort *)(lVar10 + 0x10);
+    while (param_2 != uVar3) {
+      if (lVar10 == *(longlong *)(lVar5 + uVar16 * 0x10)) goto LAB_180005b1a;
+      lVar10 = *(longlong *)(lVar10 + 8);
+      uVar3 = *(ushort *)(lVar10 + 0x10);
+    }
+    uVar4 = *(undefined4 *)(lVar10 + 0x18);
+    local_7ac = 0;
+    memset(local_79c,0,0x1c4);
+    local_7a8 = local_6d8;
+    local_7b8 = local_6d8;
+    local_7b0 = 0;
+    local_7a0 = 0;
+    memset(local_6d8,0,0x100);
+    local_6d8[local_7b0] = 0;
+    *(undefined4 *)(local_6d8 + local_7b0) = uVar4;
+    local_7b0 = local_7b0 + 1;
+    piVar19 = (int *)(*(longlong *)((longlong)ThreadLocalStoragePointer + (ulonglong)_tls_index * 8)
+                     + 4);
+    if ((*piVar19 < DAT_1800297cc) && (FUN_18001ca68(&DAT_1800297cc), DAT_1800297cc == -1)) {
+      DAT_180029718 = rage::scrThread::GetCommand(0x1449ee9e);
+      _Init_thread_footer(&DAT_1800297cc);
+    }
+    uVar7 = local_7a0;
+    if (DAT_180029718 != (_func_void_InfoBase_ptr *)0x0) {
+      (*DAT_180029718)((InfoBase *)&local_7b8);
+      uVar7 = local_7a0;
+    }
+    while (uVar7 != 0) {
+      local_7a0 = uVar7 - 1;
+      *(undefined4 *)alStack_798[local_7a0] =
+           *(undefined4 *)((longlong)&local_7b8 + (ulonglong)((uVar7 + 3) * 0x10));
+      *(undefined4 *)(alStack_798[local_7a0] + 4) = auStack_774[(ulonglong)local_7a0 * 4];
+      *(undefined4 *)(alStack_798[local_7a0] + 8) = auStack_774[(ulonglong)local_7a0 * 4 + 1];
+      uVar7 = local_7a0;
+    }
+    local_5cc = 0;
+    local_7a0 = uVar7;
+    memset(local_5bc,0,0x1c4);
+    local_5c8 = local_4f8;
+    local_5d8 = local_4f8;
+    local_5d0 = 0;
+    local_5c0 = 0;
+    memset(local_4f8,0,0x100);
+    pcVar1 = local_4f8 + (ulonglong)local_5d0 * 8;
+    pcVar1[0] = '\0';
+    pcVar1[1] = '\0';
+    pcVar1[2] = '\0';
+    pcVar1[3] = '\0';
+    pcVar1[4] = '\0';
+    pcVar1[5] = '\0';
+    pcVar1[6] = '\0';
+    pcVar1[7] = '\0';
+    *(undefined4 *)(local_4f8 + (ulonglong)local_5d0 * 8) = (undefined4)local_6d8[0];
+    local_5d0 = local_5d0 + 1;
+    if ((*piVar19 < DAT_1800296c4) && (FUN_18001ca68(&DAT_1800296c4), DAT_1800296c4 == -1)) {
+      DAT_1800296f8 = rage::scrThread::GetCommand(0xdcc10ba9);
+      _Init_thread_footer(&DAT_1800296c4);
+    }
+    uVar7 = local_5c0;
+    if (DAT_1800296f8 != (_func_void_InfoBase_ptr *)0x0) {
+      (*DAT_1800296f8)((InfoBase *)&local_5d8);
+      uVar7 = local_5c0;
+    }
+    while (uVar7 != 0) {
+      local_5c0 = uVar7 - 1;
+      *(undefined4 *)alStack_5b8[local_5c0] =
+           *(undefined4 *)((longlong)&local_5d8 + (ulonglong)((uVar7 + 3) * 0x10));
+      *(undefined4 *)(alStack_5b8[local_5c0] + 4) = auStack_594[(ulonglong)local_5c0 * 4];
+      *(undefined4 *)(alStack_5b8[local_5c0] + 8) = auStack_594[(ulonglong)local_5c0 * 4 + 1];
+      uVar7 = local_5c0;
+    }
+    local_5c0 = uVar7;
+    if (local_4f8[0] != '\0') {
+      local_3ec = 0;
+      memset(local_3dc,0,0x1c4);
+      local_3e8 = local_318;
+      local_3f8 = local_318;
+      local_3f0 = 0;
+      local_3e0 = 0;
+      memset(local_318,0,0x100);
+      local_318[local_3f0] = 0;
+      *(undefined4 *)(local_318 + local_3f0) = (undefined4)local_6d8[0];
+      local_3f0 = local_3f0 + 1;
+      if ((*piVar19 < DAT_18002973c) && (FUN_18001ca68(&DAT_18002973c), DAT_18002973c == -1)) {
+        DAT_180029788 = rage::scrThread::GetCommand(0xd8c3c1cd);
+        _Init_thread_footer(&DAT_18002973c);
+      }
+      uVar7 = local_3e0;
+      if (DAT_180029788 != (_func_void_InfoBase_ptr *)0x0) {
+        (*DAT_180029788)((InfoBase *)&local_3f8);
+        uVar7 = local_3e0;
+      }
+      while (local_3e0 = uVar7, uVar7 != 0) {
+        local_3e0 = uVar7 - 1;
+        *(undefined4 *)alStack_3d8[local_3e0] =
+             *(undefined4 *)((longlong)&local_3f8 + (ulonglong)((uVar7 + 3) * 0x10));
+        *(undefined4 *)(alStack_3d8[local_3e0] + 4) = auStack_3b4[(ulonglong)local_3e0 * 4];
+        *(undefined4 *)(alStack_3d8[local_3e0] + 8) = auStack_3b4[(ulonglong)local_3e0 * 4 + 1];
+        uVar7 = local_3e0;
+      }
+    }
+    uVar4 = *(undefined4 *)(lVar10 + 0x18);
+    local_20c = 0;
+    memset(local_1fc,0,0x1c4);
+    local_208 = local_138;
+    local_218 = local_138;
+    local_210 = 0;
+    local_200 = 0;
+    memset(local_138,0,0x100);
+    local_138[local_210] = 0;
+    *(undefined4 *)(local_138 + local_210) = uVar4;
+    local_210 = local_210 + 1;
+    if ((*piVar19 < DAT_1800296c8) && (FUN_18001ca68(&DAT_1800296c8), DAT_1800296c8 == -1)) {
+      DAT_1800297b8 = rage::scrThread::GetCommand(0x8bd21869);
+      _Init_thread_footer(&DAT_1800296c8);
+    }
+    uVar7 = local_200;
+    if (DAT_1800297b8 != (_func_void_InfoBase_ptr *)0x0) {
+      (*DAT_1800297b8)((InfoBase *)&local_218);
+      uVar7 = local_200;
+    }
+    while (uVar7 != 0) {
+      local_200 = uVar7 - 1;
+      *(undefined4 *)alStack_1f8[local_200] =
+           *(undefined4 *)((longlong)&local_218 + (ulonglong)((uVar7 + 3) * 0x10));
+      *(undefined4 *)(alStack_1f8[local_200] + 4) = auStack_1d4[(ulonglong)local_200 * 4];
+      *(undefined4 *)(alStack_1f8[local_200] + 8) = auStack_1d4[(ulonglong)local_200 * 4 + 1];
+      uVar7 = local_200;
+    }
+    local_820 = &local_7f0;
+    local_7e0 = (void *)0x0;
+    puStack_7d8 = (undefined1 *)0x0;
+    local_7d0 = (undefined1 *)0x0;
+    local_7f0 = 0;
+    lStack_7e8 = 0;
+    local_7c8 = 0x400;
+    local_200 = uVar7;
+    FUN_18000f5f0((longlong *)&local_7e0,&local_7c8);
+    local_7f8[0] = 3;
+    if (puStack_7d8 == local_7d0) {
+      FUN_18000fc70((longlong *)&local_7e0,puStack_7d8,local_7f8);
+    }
+    else {
+      *puStack_7d8 = 3;
+      puStack_7d8 = puStack_7d8 + 1;
+    }
+    lStack_7e8 = lStack_7e8 + 1;
+    local_7f8[0] = 1;
+    if (puStack_7d8 == local_7d0) {
+      FUN_18000fc70((longlong *)&local_7e0,puStack_7d8,local_7f8);
+    }
+    else {
+      *puStack_7d8 = 1;
+      puStack_7d8 = puStack_7d8 + 1;
+    }
+    lStack_7e8 = lStack_7e8 + 1;
+    FUN_18000eb20((longlong)&local_7f0,(ulonglong)param_2);
+    plVar11 = FUN_180006190(&local_818,(undefined8 *)(lVar10 + 0x20));
+    FUN_180001110((longlong)&local_7f0,plVar11);
+    cVar2 = *(char *)(lVar10 + 0x7c);
+    local_7f8[0] = 3;
+    if (puStack_7d8 == local_7d0) {
+      FUN_18000fc70((longlong *)&local_7e0,puStack_7d8,local_7f8);
+    }
+    else {
+      *puStack_7d8 = 3;
+      puStack_7d8 = puStack_7d8 + 1;
+    }
+    lStack_7e8 = lStack_7e8 + 1;
+    local_7f8[0] = cVar2 != '\0';
+    if (puStack_7d8 == local_7d0) {
+      FUN_18000fc70((longlong *)&local_7e0,puStack_7d8,local_7f8);
+    }
+    else {
+      *puStack_7d8 = local_7f8[0];
+      puStack_7d8 = puStack_7d8 + 1;
+    }
+    lStack_7e8 = lStack_7e8 + 1;
+    plVar11 = (longlong *)Singleton<Scripting::ClientEventsHandler>::Get();
+    lVar10 = *plVar11;
+    local_818 = (void *)0x0;
+    uStack_810 = 0;
+    local_808 = 0;
+    uStack_800 = 0;
+    FUN_180007110(&local_818,"core:on_player_left",0x13);
+    lVar5 = lVar10 + 0x40;
+    local_820 = (undefined8 *)lVar5;
+    iVar8 = _Mtx_lock(lVar5);
+    if (iVar8 != 0) {
+      std::_Throw_Cpp_error(5);
+      pcVar6 = (code *)swi(3);
+      (*pcVar6)();
+      return;
+    }
+    if (*(int *)(lVar10 + 0x8c) == 0x7fffffff) {
+      *(undefined4 *)(lVar10 + 0x8c) = 0x7ffffffe;
+      std::_Throw_Cpp_error(6);
+    }
+    uVar12 = FUN_180001a70(lVar10,&local_818);
+    if ((char)uVar12 != '\0') {
+      puVar13 = (undefined8 *)FUN_18000db80(lVar10,&local_818);
+      plVar11 = (longlong *)puVar13[1];
+      for (plVar18 = (longlong *)*puVar13; plVar18 != plVar11; plVar18 = plVar18 + 2) {
+        puVar13 = (undefined8 *)*plVar18;
+        BVar9 = IsThreadAFiber();
+        pvVar14 = FiberData;
+        if (BVar9 == 0) {
+          pvVar14 = ConvertThreadToFiber((LPVOID)0x0);
+        }
+        puVar13[1] = pvVar14;
+        UVar15 = GetTickCount64();
+        if ((ulonglong)puVar13[2] <= UVar15) {
+          puVar13[5] = local_7f0;
+          puVar13[6] = lStack_7e8;
+          if ((void **)(puVar13 + 7) != &local_7e0) {
+            FUN_18000e340(puVar13 + 7,local_7e0,(longlong)puStack_7d8 - (longlong)local_7e0);
+          }
+          SwitchToFiber((LPVOID)*puVar13);
+        }
+      }
+    }
+    _Mtx_unlock(lVar5);
+    if (0xf < uStack_800) {
+      pvVar17 = local_818;
+      if ((0xfff < uStack_800 + 1) &&
+         (pvVar17 = *(void **)((longlong)local_818 + -8),
+         0x1f < (ulonglong)((longlong)local_818 + (-8 - (longlong)pvVar17)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      FUN_18001c9b8(pvVar17);
+    }
+    if (local_7c0 != (longlong *)0x0) {
+      LOCK();
+      plVar11 = local_7c0 + 1;
+      lVar5 = *plVar11;
+      *(int *)plVar11 = (int)*plVar11 + -1;
+      UNLOCK();
+      if ((int)lVar5 == 1) {
+        (**(code **)*local_7c0)(local_7c0);
+        LOCK();
+        piVar19 = (int *)((longlong)local_7c0 + 0xc);
+        iVar8 = *piVar19;
+        *piVar19 = *piVar19 + -1;
+        UNLOCK();
+        if (iVar8 == 1) {
+          (**(code **)(*local_7c0 + 8))(local_7c0);
+        }
+      }
+    }
+    FUN_180006f40(param_1,(byte *)&local_828);
+    if (local_7e0 != (void *)0x0) {
+      pvVar17 = local_7e0;
+      if ((0xfff < (ulonglong)((longlong)local_7d0 - (longlong)local_7e0)) &&
+         (pvVar17 = *(void **)((longlong)local_7e0 + -8),
+         0x1f < (ulonglong)((longlong)local_7e0 + (-8 - (longlong)pvVar17)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      FUN_18001c9b8(pvVar17);
+    }
+  }
+  return;
+}
+
+
+>>> MATCH: core:on_player_left
+
+############################################################
+# SCORE 17
+# FUNCTION 180005b30 FUN_180005b30
+# REASONS [xref:GetPlayerActor, call:GetPlayerActor]
+############################################################
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void FUN_180005b30(undefined8 param_1,sagPlayer *param_2)
+
+{
+  longlong *plVar1;
+  int *piVar2;
+  int iVar3;
+  longlong lVar4;
+  char cVar5;
+  sagActor *this;
+  gohBase *pgVar6;
+  ulonglong uVar7;
+  undefined8 *puVar8;
+  void *pvVar9;
+  undefined1 auStack_88 [32];
+  undefined8 local_68;
+  float local_60;
+  undefined8 local_58;
+  float local_50;
+  undefined8 local_48;
+  undefined8 uStack_40;
+  void *local_38;
+  undefined8 uStack_30;
+  longlong local_28;
+  ulonglong local_20;
+  longlong *local_18;
+  ulonglong local_10;
+  
+  local_10 = DAT_1800280c0 ^ (ulonglong)auStack_88;
+  this = rage::sagPlayer::GetPlayerActor(param_2);
+  if (this != (sagActor *)0x0) {
+    pgVar6 = rage::sagActor::GetGohObject(this);
+    if (pgVar6 != (gohBase *)0x0) {
+      local_58 = 0;
+      local_50 = 0.0;
+      cVar5 = (**(code **)(*(longlong *)pgVar6 + 0x98))(pgVar6,&local_58);
+      if (cVar5 != '\0') {
+        local_68 = 0;
+        local_60 = 0.0;
+        (**(code **)(*(longlong *)pgVar6 + 0xa0))(pgVar6,&local_68);
+        local_68._4_4_ = local_68._4_4_ * 57.295776;
+        local_60 = local_60 * 57.295776;
+        local_38 = (void *)0x0;
+        uStack_30 = 0;
+        local_28 = 0;
+        local_48 = 0;
+        uStack_40 = 0;
+        local_20 = 0x400;
+        local_68._0_4_ = (float)local_68 * 57.295776;
+        FUN_18000f5f0((longlong *)&local_38,&local_20);
+        uVar7 = FUN_180010b00((double)(float)local_58,' ','\b');
+        FUN_18000ea20((longlong)&local_48,uVar7);
+        uVar7 = FUN_180010b00((double)local_58._4_4_,' ','\b');
+        FUN_18000ea20((longlong)&local_48,uVar7);
+        uVar7 = FUN_180010b00((double)local_50,' ','\b');
+        FUN_18000ea20((longlong)&local_48,uVar7);
+        uVar7 = FUN_180010b00((double)(float)local_68,' ','\b');
+        FUN_18000ea20((longlong)&local_48,uVar7);
+        uVar7 = FUN_180010b00((double)local_68._4_4_,' ','\b');
+        FUN_18000ea20((longlong)&local_48,uVar7);
+        uVar7 = FUN_180010b00((double)local_60,' ','\b');
+        FUN_18000ea20((longlong)&local_48,uVar7);
+        puVar8 = (undefined8 *)Singleton<GameClient>::Get();
+        ENetClient::Send((ENetClient *)*puVar8,1,2,(StreamBuffer *)&local_48);
+        if (local_18 != (longlong *)0x0) {
+          LOCK();
+          plVar1 = local_18 + 1;
+          lVar4 = *plVar1;
+          *(int *)plVar1 = (int)*plVar1 + -1;
+          UNLOCK();
+          if ((int)lVar4 == 1) {
+            (**(code **)*local_18)(local_18);
+            LOCK();
+            piVar2 = (int *)((longlong)local_18 + 0xc);
+            iVar3 = *piVar2;
+            *piVar2 = *piVar2 + -1;
+            UNLOCK();
+            if (iVar3 == 1) {
+              (**(code **)(*local_18 + 8))(local_18);
+            }
+          }
+        }
+        if (local_38 != (void *)0x0) {
+          pvVar9 = local_38;
+          if ((0xfff < (ulonglong)(local_28 - (longlong)local_38)) &&
+             (pvVar9 = *(void **)((longlong)local_38 + -8),
+             0x1f < (ulonglong)((longlong)local_38 + (-8 - (longlong)pvVar9)))) {
+                    /* WARNING: Subroutine does not return */
+            _invalid_parameter_noinfo_noreturn();
+          }
+          FUN_18001c9b8(pvVar9);
+        }
+      }
+    }
+  }
+  return;
+}
+
+
+>>> MATCH: GetPlayerActor
+
+############################################################
+# SCORE 17
+# FUNCTION 18000a6b0 OnTick
+# REASONS [xref:GetLocalPlayer, call:GetLocalPlayer]
+############################################################
+
+/* public: virtual void __cdecl GameClient::OnTick(void) __ptr64 */
+
+void __thiscall GameClient::OnTick(GameClient *this)
+
+{
+  sagPlayer *psVar1;
+  
+                    /* 0xa6b0  40  ?OnTick@GameClient@@UEAAXXZ */
+  psVar1 = rage::sagPlayerMgr::GetLocalPlayer();
+  if (psVar1 != (sagPlayer *)0x0) {
+    FUN_180005b30(this,psVar1);
+    return;
+  }
+  return;
+}
+
+
+>>> MATCH: GetLocalPlayer
+
+############################################################
+# SCORE 12
+# FUNCTION 180008b60 RegisterPacket
+# REASONS [symbol:RegisterPacket]
+############################################################
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* public: void __cdecl ENetClient::RegisterPacket(unsigned short,class std::function<void
+   __cdecl(class StreamBuffer const & __ptr64)>) __ptr64 */
+
+void __thiscall ENetClient::RegisterPacket(ENetClient *this,undefined2 param_1,longlong *param_3)
+
+{
+  ENetClient *SRWLock;
+  longlong *plVar1;
+  undefined1 auStack_78 [32];
+  undefined8 local_58 [2];
+  longlong *local_48;
+  undefined2 local_40 [4];
+  ENetClient *local_38;
+  undefined8 uStack_30;
+  ulonglong local_28;
+  
+                    /* 0x8b60  45
+                       ?RegisterPacket@ENetClient@@QEAAXGV?$function@$$A6AXAEBVStreamBuffer@@@Z@std@@@Z
+                        */
+  local_28 = DAT_1800280c0 ^ (ulonglong)auStack_78;
+  uStack_30 = 0;
+  SRWLock = this + 0x88;
+  local_48 = param_3;
+  local_40[0] = param_1;
+  local_38 = SRWLock;
+  AcquireSRWLockExclusive((PSRWLOCK)SRWLock);
+  uStack_30 = CONCAT71(uStack_30._1_7_,1);
+  plVar1 = FUN_1800099f0((float *)(this + 0x48),local_58,(byte *)local_40);
+  FUN_180009480((longlong *)(*plVar1 + 0x18),(longlong)param_3);
+  ReleaseSRWLockExclusive((PSRWLOCK)SRWLock);
+  plVar1 = (longlong *)param_3[7];
+  if (plVar1 != (longlong *)0x0) {
+    (**(code **)(*plVar1 + 0x20))(plVar1,plVar1 != param_3);
+    param_3[7] = 0;
+  }
+  return;
+}
+
+
+
+############################################################
+# SCORE 4
+# FUNCTION EXTERNAL:00000002 GetPlayerActor
+# REASONS [symbol:GetPlayerActor, player/player-manager symbol]
+############################################################
+[DECOMP FAIL] Exception while decompiling EXTERNAL:00000002: Cannot marshal address space: EXTERNAL
+
+
+############################################################
+# SCORE 4
+# FUNCTION EXTERNAL:00000005 GetLocalPlayer
+# REASONS [symbol:GetLocalPlayer, player/player-manager symbol]
+############################################################
+[DECOMP FAIL] Exception while decompiling EXTERNAL:00000005: Cannot marshal address space: EXTERNAL
+
+
+############################################################
+# SCORE 4
+# FUNCTION 1800025b0 GetPlayerManager
+# REASONS [symbol:GetPlayerManager, player/player-manager symbol]
+############################################################
+
+/* public: class std::shared_ptr<class PlayerManager> const __cdecl
+   GameClient::GetPlayerManager(void)const __ptr64 */
+
+void __thiscall GameClient::GetPlayerManager(GameClient *this)
+
+{
+  int *piVar1;
+  undefined8 *in_RDX;
+  
+                    /* 0x25b0  26
+                       ?GetPlayerManager@GameClient@@QEBA?BV?$shared_ptr@VPlayerManager@@@std@@XZ */
+  *in_RDX = 0;
+  in_RDX[1] = 0;
+  if (*(longlong *)(this + 0x180) != 0) {
+    LOCK();
+    piVar1 = (int *)(*(longlong *)(this + 0x180) + 8);
+    *piVar1 = *piVar1 + 1;
+    UNLOCK();
+  }
+  *in_RDX = *(undefined8 *)(this + 0x178);
+  in_RDX[1] = *(undefined8 *)(this + 0x180);
+  return;
+}
+
+
+>>> MATCH: PlayerManager
+
+############################################################
+# SCORE 4
+# FUNCTION 180004cc0 FUN_180004cc0
+# REASONS [xref:GetActor, call:GetActor]
+############################################################
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void FUN_180004cc0(longlong param_1,ulonglong param_2,int param_3)
+
+{
+  int *piVar1;
+  short sVar2;
+  int iVar3;
+  longlong lVar4;
+  code *pcVar5;
+  uint uVar6;
+  longlong lVar7;
+  gohBase *pgVar8;
+  sagActor *psVar9;
+  int *piVar10;
+  ulonglong uVar11;
+  ulonglong uVar12;
+  undefined1 auStack_408 [32];
+  int *local_3e8;
+  uint local_3e0;
+  undefined4 local_3dc;
+  int *local_3d8;
+  uint local_3d0;
+  undefined1 local_3cc [4];
+  longlong alStack_3c8 [4];
+  undefined4 auStack_3a4 [39];
+  int local_308 [64];
+  int *local_208;
+  uint local_200;
+  undefined4 local_1fc;
+  int *local_1f8;
+  uint local_1f0;
+  undefined1 local_1ec [4];
+  longlong alStack_1e8 [4];
+  undefined4 auStack_1c4 [39];
+  int local_128 [64];
+  ulonglong local_28;
+  
+  local_28 = DAT_1800280c0 ^ (ulonglong)auStack_408;
+  uVar12 = (param_2 & 0xff ^ 0xcbf29ce484222325) * 0x100000001b3;
+  uVar11 = ((param_2 & 0xffff) >> 8 ^ uVar12) * 0x100000001b3 & *(ulonglong *)(param_1 + 0x30);
+  lVar4 = *(longlong *)(param_1 + 0x18);
+  lVar7 = *(longlong *)(lVar4 + 8 + uVar11 * 0x10);
+  if (lVar7 == *(longlong *)(param_1 + 8)) {
+LAB_180004d61:
+    lVar7 = 0;
+  }
+  else {
+    sVar2 = *(short *)(lVar7 + 0x10);
+    while ((short)param_2 != sVar2) {
+      if (lVar7 == *(longlong *)(lVar4 + uVar11 * 0x10)) goto LAB_180004d61;
+      lVar7 = *(longlong *)(lVar7 + 8);
+      sVar2 = *(short *)(lVar7 + 0x10);
+    }
+  }
+  if (lVar7 != 0) {
+    uVar11 = *(ulonglong *)(param_1 + 0x30) & (param_2 >> 8 & 0xff ^ uVar12) * 0x100000001b3;
+    lVar7 = *(longlong *)(lVar4 + 8 + uVar11 * 0x10);
+    if (lVar7 == *(longlong *)(param_1 + 8)) {
+LAB_1800051bf:
+      std::_Xout_of_range("invalid unordered_map<K, T> key");
+      pcVar5 = (code *)swi(3);
+      (*pcVar5)();
+      return;
+    }
+    sVar2 = *(short *)(lVar7 + 0x10);
+    while ((short)param_2 != sVar2) {
+      if (lVar7 == *(longlong *)(lVar4 + uVar11 * 0x10)) goto LAB_1800051bf;
+      lVar7 = *(longlong *)(lVar7 + 8);
+      sVar2 = *(short *)(lVar7 + 0x10);
+    }
+    FUN_1800028b0();
+    local_1fc = 0;
+    memset(local_1ec,0,0x1c4);
+    local_1f8 = local_128;
+    local_208 = local_128;
+    local_200 = 0;
+    local_1f0 = 0;
+    memset(local_128,0,0x100);
+    (local_128 + (ulonglong)local_200 * 2)[0] = 0;
+    (local_128 + (ulonglong)local_200 * 2)[1] = 0;
+    local_128[(ulonglong)local_200 * 2] = param_3;
+    local_200 = local_200 + 1;
+    piVar10 = (int *)(*(longlong *)((longlong)ThreadLocalStoragePointer + (ulonglong)_tls_index * 8)
+                     + 4);
+    if ((*piVar10 < DAT_180029738) && (FUN_18001ca68(&DAT_180029738), DAT_180029738 == -1)) {
+      DAT_180029728 = rage::scrThread::GetCommand(0x6ac01fcb);
+      _Init_thread_footer(&DAT_180029738);
+    }
+    uVar6 = local_1f0;
+    if (DAT_180029728 != (_func_void_InfoBase_ptr *)0x0) {
+      (*DAT_180029728)((InfoBase *)&local_208);
+      uVar6 = local_1f0;
+    }
+    while (uVar6 != 0) {
+      local_1f0 = uVar6 - 1;
+      *(undefined4 *)alStack_1e8[local_1f0] =
+           *(undefined4 *)((longlong)&local_208 + (ulonglong)((uVar6 + 3) * 0x10));
+      *(undefined4 *)(alStack_1e8[local_1f0] + 4) = auStack_1c4[(ulonglong)local_1f0 * 4];
+      *(undefined4 *)(alStack_1e8[local_1f0] + 8) = auStack_1c4[(ulonglong)local_1f0 * 4 + 1];
+      uVar6 = local_1f0;
+    }
+    if (local_128[0] == 0) {
+      local_3e8 = local_308;
+      local_3d8 = local_308;
+      local_1f0 = uVar6;
+      if (*(char *)(lVar7 + 0x7c) == '\0') {
+        pgVar8 = rage::gohObjectManager::GetObjectFromGuid(*(uint *)(lVar7 + 0x18));
+        if ((pgVar8 != (gohBase *)0x0) &&
+           (psVar9 = rage::sagActorManager::GetActor(*(uint *)(pgVar8 + 0xb0)),
+           psVar9 != (sagActor *)0x0)) {
+          *(int *)(psVar9 + 0x108) = param_3;
+          iVar3 = *(int *)(lVar7 + 0x18);
+          local_3dc = 0;
+          memset(local_3cc,0,0x1c4);
+          local_3e0 = 0;
+          local_3d0 = 0;
+          memset(local_308,0,0x100);
+          piVar1 = local_308 + (ulonglong)local_3e0 * 2;
+          piVar1[0] = 0;
+          piVar1[1] = 0;
+          local_308[(ulonglong)local_3e0 * 2] = iVar3;
+          piVar1 = local_308 + (ulonglong)(local_3e0 + 1) * 2;
+          piVar1[0] = 0;
+          piVar1[1] = 0;
+          local_308[(ulonglong)(local_3e0 + 1) * 2] = 0;
+          local_3e0 = local_3e0 + 2;
+          if ((*piVar10 < DAT_180029750) && (FUN_18001ca68(&DAT_180029750), DAT_180029750 == -1)) {
+            DAT_180029780 = rage::scrThread::GetCommand(0x7ab17813);
+            _Init_thread_footer(&DAT_180029750);
+          }
+          uVar6 = local_3d0;
+          if (DAT_180029780 != (_func_void_InfoBase_ptr *)0x0) {
+            (*DAT_180029780)((InfoBase *)&local_3e8);
+            uVar6 = local_3d0;
+          }
+          while (uVar6 != 0) {
+            local_3d0 = uVar6 - 1;
+            *(undefined4 *)alStack_3c8[local_3d0] =
+                 *(undefined4 *)((longlong)&local_3e8 + (ulonglong)((uVar6 + 3) * 0x10));
+            *(undefined4 *)(alStack_3c8[local_3d0] + 4) = auStack_3a4[(ulonglong)local_3d0 * 4];
+            *(undefined4 *)(alStack_3c8[local_3d0] + 8) = auStack_3a4[(ulonglong)local_3d0 * 4 + 1];
+            uVar6 = local_3d0;
+          }
+        }
+      }
+      else {
+        local_3dc = 0;
+        memset(local_3cc,0,0x1c4);
+        local_3e0 = 0;
+        local_3d0 = 0;
+        memset(local_308,0,0x100);
+        piVar1 = local_308 + (ulonglong)local_3e0 * 2;
+        piVar1[0] = 0;
+        piVar1[1] = 0;
+        local_308[(ulonglong)local_3e0 * 2] = param_3;
+        piVar1 = local_308 + (ulonglong)(local_3e0 + 1) * 2;
+        piVar1[0] = 0;
+        piVar1[1] = 0;
+        local_308[(ulonglong)(local_3e0 + 1) * 2] = 0;
+        local_3e0 = local_3e0 + 2;
+        if ((*piVar10 < DAT_1800296f4) && (FUN_18001ca68(&DAT_1800296f4), DAT_1800296f4 == -1)) {
+          DAT_180029748 = rage::scrThread::GetCommand(0x95fba0b0);
+          _Init_thread_footer(&DAT_1800296f4);
+        }
+        uVar6 = local_3d0;
+        if (DAT_180029748 != (_func_void_InfoBase_ptr *)0x0) {
+          (*DAT_180029748)((InfoBase *)&local_3e8);
+          uVar6 = local_3d0;
+        }
+        while (uVar6 != 0) {
+          local_3d0 = uVar6 - 1;
+          *(undefined4 *)alStack_3c8[local_3d0] =
+               *(undefined4 *)((longlong)&local_3e8 + (ulonglong)((uVar6 + 3) * 0x10));
+          *(undefined4 *)(alStack_3c8[local_3d0] + 4) = auStack_3a4[(ulonglong)local_3d0 * 4];
+          *(undefined4 *)(alStack_3c8[local_3d0] + 8) = auStack_3a4[(ulonglong)local_3d0 * 4 + 1];
+          uVar6 = local_3d0;
+        }
+      }
+    }
+  }
+  return;
+}
+
+
+
+############################################################
+# SCORE 2
+# FUNCTION EXTERNAL:00000003 GetActor
+# REASONS [symbol:GetActor]
+############################################################
+[DECOMP FAIL] Exception while decompiling EXTERNAL:00000003: Cannot marshal address space: EXTERNAL
+
+
+############################################################
+# SCORE 2
+# FUNCTION 1800028b0 FUN_1800028b0
+# REASONS [string:PlayerLayout]
+############################################################
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+undefined4 FUN_1800028b0(void)
+
+{
+  char *pcVar1;
+  uint uVar2;
+  undefined4 uVar3;
+  int *piVar4;
+  undefined1 auStack_3f8 [32];
+  char *local_3d8;
+  uint local_3d0;
+  undefined4 local_3cc;
+  char *local_3c8;
+  uint local_3c0;
+  undefined1 local_3bc [4];
+  longlong alStack_3b8 [4];
+  undefined4 auStack_394 [39];
+  char local_2f8 [256];
+  undefined8 *local_1f8;
+  uint local_1f0;
+  undefined4 local_1ec;
+  undefined8 *local_1e8;
+  uint local_1e0;
+  undefined1 local_1dc [4];
+  longlong alStack_1d8 [4];
+  undefined4 auStack_1b4 [39];
+  undefined8 local_118 [32];
+  ulonglong local_18;
+  
+  local_18 = DAT_1800280c0 ^ (ulonglong)auStack_3f8;
+  uVar3 = FUN_1800069b0();
+  local_3cc = 0;
+  memset(local_3bc,0,0x1c4);
+  local_3d0 = 0;
+  local_3c0 = 0;
+  local_3d8 = local_2f8;
+  local_3c8 = local_2f8;
+  memset(local_2f8,0,0x100);
+  pcVar1 = local_2f8 + (ulonglong)local_3d0 * 8;
+  pcVar1[0] = '\0';
+  pcVar1[1] = '\0';
+  pcVar1[2] = '\0';
+  pcVar1[3] = '\0';
+  pcVar1[4] = '\0';
+  pcVar1[5] = '\0';
+  pcVar1[6] = '\0';
+  pcVar1[7] = '\0';
+  *(undefined4 *)(local_2f8 + (ulonglong)local_3d0 * 8) = uVar3;
+  local_3d0 = local_3d0 + 1;
+  piVar4 = (int *)(*(longlong *)((longlong)ThreadLocalStoragePointer + (ulonglong)_tls_index * 8) +
+                  4);
+  if ((*piVar4 < DAT_1800297d0) && (FUN_18001ca68(&DAT_1800297d0), DAT_1800297d0 == -1)) {
+    DAT_1800296a8 = rage::scrThread::GetCommand(0xfc8e55ed);
+    _Init_thread_footer(&DAT_1800297d0);
+  }
+  uVar2 = local_3c0;
+  if (DAT_1800296a8 != (_func_void_InfoBase_ptr *)0x0) {
+    (*DAT_1800296a8)((InfoBase *)&local_3d8);
+    uVar2 = local_3c0;
+  }
+  while (uVar2 != 0) {
+    local_3c0 = uVar2 - 1;
+    *(undefined4 *)alStack_3b8[local_3c0] =
+         *(undefined4 *)((longlong)&local_3d8 + (ulonglong)((uVar2 + 3) * 0x10));
+    *(undefined4 *)(alStack_3b8[local_3c0] + 4) = auStack_394[(ulonglong)local_3c0 * 4];
+    *(undefined4 *)(alStack_3b8[local_3c0] + 8) = auStack_394[(ulonglong)local_3c0 * 4 + 1];
+    uVar2 = local_3c0;
+  }
+  if (local_2f8[0] == '\0') {
+    local_1ec = 0;
+    local_3c0 = uVar2;
+    memset(local_1dc,0,0x1c4);
+    local_1e8 = local_118;
+    local_1f8 = local_118;
+    local_1f0 = 0;
+    local_1e0 = 0;
+    memset(local_118,0,0x100);
+    local_118[local_1f0] = "PlayerLayout";
+    local_1f0 = local_1f0 + 1;
+    if ((*piVar4 < DAT_180029740) && (FUN_18001ca68(&DAT_180029740), DAT_180029740 == -1)) {
+      DAT_180029798 = rage::scrThread::GetCommand(0x6ca53214);
+      _Init_thread_footer(&DAT_180029740);
+    }
+    uVar2 = local_1e0;
+    if (DAT_180029798 != (_func_void_InfoBase_ptr *)0x0) {
+      (*DAT_180029798)((InfoBase *)&local_1f8);
+      uVar2 = local_1e0;
+    }
+    while (uVar3 = (undefined4)local_118[0], uVar2 != 0) {
+      local_1e0 = uVar2 - 1;
+      *(undefined4 *)alStack_1d8[local_1e0] =
+           *(undefined4 *)((longlong)&local_1f8 + (ulonglong)((uVar2 + 3) * 0x10));
+      *(undefined4 *)(alStack_1d8[local_1e0] + 4) = auStack_1b4[(ulonglong)local_1e0 * 4];
+      *(undefined4 *)(alStack_1d8[local_1e0] + 8) = auStack_1b4[(ulonglong)local_1e0 * 4 + 1];
+      uVar2 = local_1e0;
+    }
+  }
+  return uVar3;
+}
+
+
+>>> MATCH: PlayerLayout
+
+############################################################
+# SCORE 2
+# FUNCTION 180003a10 Get
+# REASONS [player/player-manager symbol]
+############################################################
+
+/* public: class std::optional<struct Player> const __cdecl PlayerManager::Get(unsigned short)const
+   __ptr64 */
+
+undefined4 * __thiscall PlayerManager::Get(PlayerManager *this,ushort param_1)
+
+{
+  ushort uVar1;
+  longlong lVar2;
+  longlong lVar3;
+  code *pcVar4;
+  undefined4 *puVar5;
+  undefined6 in_register_00000012;
+  ulonglong uVar6;
+  ushort in_R8W;
+  longlong lVar7;
+  ulonglong uVar8;
+  byte bStackX_19;
+  
+                    /* 0x3a10  22  ?Get@PlayerManager@@QEBA?BV?$optional@UPlayer@@@std@@G@Z */
+  puVar5 = (undefined4 *)CONCAT62(in_register_00000012,param_1);
+  lVar2 = *(longlong *)(this + 0x18);
+  uVar8 = ((ulonglong)(byte)in_R8W ^ 0xcbf29ce484222325) * 0x100000001b3;
+  uVar6 = (in_R8W >> 8 ^ uVar8) * 0x100000001b3 & *(ulonglong *)(this + 0x30);
+  lVar3 = *(longlong *)(lVar2 + 8 + uVar6 * 0x10);
+  lVar7 = 0;
+  if (lVar3 != *(longlong *)(this + 8)) {
+    uVar1 = *(ushort *)(lVar3 + 0x10);
+    while ((lVar7 = lVar3, in_R8W != uVar1 &&
+           (lVar7 = 0, lVar3 != *(longlong *)(lVar2 + uVar6 * 0x10)))) {
+      lVar3 = *(longlong *)(lVar3 + 8);
+      uVar1 = *(ushort *)(lVar3 + 0x10);
+    }
+  }
+  if (lVar7 == 0) {
+    *(undefined1 *)(puVar5 + 0x1a) = 0;
+  }
+  else {
+    bStackX_19 = (byte)(in_R8W >> 8);
+    uVar6 = *(ulonglong *)(this + 0x30) & (bStackX_19 ^ uVar8) * 0x100000001b3;
+    lVar3 = *(longlong *)(lVar2 + 8 + uVar6 * 0x10);
+    if (lVar3 == *(longlong *)(this + 8)) {
+LAB_180003ae6:
+      std::_Xout_of_range("invalid unordered_map<K, T> key");
+      pcVar4 = (code *)swi(3);
+      puVar5 = (undefined4 *)(*pcVar4)();
+      return puVar5;
+    }
+    uVar1 = *(ushort *)(lVar3 + 0x10);
+    while (in_R8W != uVar1) {
+      if (lVar3 == *(longlong *)(lVar2 + uVar6 * 0x10)) goto LAB_180003ae6;
+      lVar3 = *(longlong *)(lVar3 + 8);
+      uVar1 = *(ushort *)(lVar3 + 0x10);
+    }
+    FUN_180007af0(puVar5,(undefined4 *)(lVar3 + 0x18));
+    *(undefined1 *)(puVar5 + 0x1a) = 1;
+  }
+  return puVar5;
+}
+
+
+>>> MATCH: PlayerManager
+
+############################################################
+# SCORE 2
+# FUNCTION 1800069b0 FUN_1800069b0
+# REASONS [string:PlayerLayout]
+############################################################
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+undefined4 FUN_1800069b0(void)
+
+{
+  uint uVar1;
+  undefined1 auStack_218 [32];
+  undefined8 *local_1f8;
+  uint local_1f0;
+  undefined4 local_1ec;
+  undefined8 *local_1e8;
+  uint local_1e0;
+  undefined1 local_1dc [4];
+  longlong alStack_1d8 [4];
+  undefined4 auStack_1b4 [39];
+  undefined4 local_118 [64];
+  ulonglong local_18;
+  
+  local_18 = DAT_1800280c0 ^ (ulonglong)auStack_218;
+  local_1ec = 0;
+  memset(local_1dc,0,0x1c4);
+  local_1f0 = 0;
+  local_1e0 = 0;
+  local_1f8 = (undefined8 *)local_118;
+  local_1e8 = (undefined8 *)local_118;
+  memset(local_118,0,0x100);
+  *(char **)((longlong)local_118 + (ulonglong)local_1f0 * 8) = "PlayerLayout";
+  local_1f0 = local_1f0 + 1;
+  if ((*(int *)(*(longlong *)((longlong)ThreadLocalStoragePointer + (ulonglong)_tls_index * 8) + 4)
+       < DAT_1800297a0) && (FUN_18001ca68(&DAT_1800297a0), DAT_1800297a0 == -1)) {
+    DAT_1800296d8 = rage::scrThread::GetCommand(0x5699de7e);
+    _Init_thread_footer(&DAT_1800297a0);
+  }
+  uVar1 = local_1e0;
+  if (DAT_1800296d8 != (_func_void_InfoBase_ptr *)0x0) {
+    (*DAT_1800296d8)((InfoBase *)&local_1f8);
+    uVar1 = local_1e0;
+  }
+  while (uVar1 != 0) {
+    local_1e0 = uVar1 - 1;
+    *(undefined4 *)alStack_1d8[local_1e0] =
+         *(undefined4 *)((longlong)&local_1f8 + (ulonglong)((uVar1 + 3) * 0x10));
+    *(undefined4 *)(alStack_1d8[local_1e0] + 4) = auStack_1b4[(ulonglong)local_1e0 * 4];
+    *(undefined4 *)(alStack_1d8[local_1e0] + 8) = auStack_1b4[(ulonglong)local_1e0 * 4 + 1];
+    uVar1 = local_1e0;
+  }
+  return local_118[0];
+}
+
+
+>>> MATCH: PlayerLayout
+
+############################################################
+# SCORE 2
+# FUNCTION 180007b80 ClientWelcome
+# REASONS [symbol:ClientWelcome]
+############################################################
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* public: static void __cdecl ClientSend::ClientWelcome(enum e_ActorModel,class
+   std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &
+   __ptr64,struct Vector3 const & __ptr64,struct Vector3 const & __ptr64) */
+
+void __cdecl
+ClientSend::ClientWelcome
+          (e_ActorModel param_1,
+          basic_string<char,std::char_traits<char>,std::allocator<char>_> *param_2,Vector3 *param_3,
+          Vector3 *param_4)
+
+{
+  longlong *plVar1;
+  int *piVar2;
+  int iVar3;
+  ushort uVar4;
+  longlong lVar5;
+  undefined8 *puVar6;
+  void *pvVar7;
+  ulonglong uVar8;
+  undefined1 auStack_88 [32];
+  basic_string<char,std::char_traits<char>,std::allocator<char>_> local_68 [8];
+  undefined8 local_60;
+  longlong lStack_58;
+  void *local_50;
+  basic_string<char,std::char_traits<char>,std::allocator<char>_> *pbStack_48;
+  basic_string<char,std::char_traits<char>,std::allocator<char>_> *local_40;
+  ulonglong local_38;
+  longlong *local_30;
+  ulonglong local_28;
+  
+                    /* 0x7b80  16
+                       ?ClientWelcome@ClientSend@@SAXW4e_ActorModel@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBUVector3@@2@Z
+                        */
+  local_28 = DAT_1800280c0 ^ (ulonglong)auStack_88;
+  local_50 = (void *)0x0;
+  pbStack_48 = (basic_string<char,std::char_traits<char>,std::allocator<char>_> *)0x0;
+  local_40 = (basic_string<char,std::char_traits<char>,std::allocator<char>_> *)0x0;
+  local_60 = 0;
+  lStack_58 = 0;
+  local_38 = 0x400;
+  FUN_18000f5f0((longlong *)&local_50,&local_38);
+  FUN_18000ea20((longlong)&local_60,(ulonglong)param_1);
+  uVar4 = *(ushort *)(param_2 + 0x10);
+  uVar8 = (ulonglong)uVar4;
+  if (uVar4 < 0x1000) {
+    FUN_18000e940((longlong)&local_60,uVar4);
+    if (0xf < *(ulonglong *)(param_2 + 0x18)) {
+      param_2 = *(basic_string<char,std::char_traits<char>,std::allocator<char>_> **)param_2;
+    }
+    if (uVar4 != 0) {
+      do {
+        local_68[0] = *param_2;
+        if (pbStack_48 == local_40) {
+          FUN_18000fc70((longlong *)&local_50,pbStack_48,local_68);
+        }
+        else {
+          *pbStack_48 = local_68[0];
+          pbStack_48 = pbStack_48 + 1;
+        }
+        lStack_58 = lStack_58 + 1;
+        param_2 = param_2 + 1;
+        uVar8 = uVar8 - 1;
+      } while (uVar8 != 0);
+    }
+  }
+  else {
+    FUN_18000e940((longlong)&local_60,0);
+  }
+  uVar8 = FUN_180010b00((double)*(float *)param_3,' ','\b');
+  FUN_18000ea20((longlong)&local_60,uVar8);
+  uVar8 = FUN_180010b00((double)*(float *)(param_3 + 4),' ','\b');
+  FUN_18000ea20((longlong)&local_60,uVar8);
+  uVar8 = FUN_180010b00((double)*(float *)(param_3 + 8),' ','\b');
+  FUN_18000ea20((longlong)&local_60,uVar8);
+  uVar8 = FUN_180010b00((double)*(float *)param_4,' ','\b');
+  FUN_18000ea20((longlong)&local_60,uVar8);
+  uVar8 = FUN_180010b00((double)*(float *)(param_4 + 4),' ','\b');
+  FUN_18000ea20((longlong)&local_60,uVar8);
+  uVar8 = FUN_180010b00((double)*(float *)(param_4 + 8),' ','\b');
+  FUN_18000ea20((longlong)&local_60,uVar8);
+  puVar6 = (undefined8 *)Singleton<GameClient>::Get();
+  ENetClient::Send((ENetClient *)*puVar6,0,0,(StreamBuffer *)&local_60);
+  if (local_30 != (longlong *)0x0) {
+    LOCK();
+    plVar1 = local_30 + 1;
+    lVar5 = *plVar1;
+    *(int *)plVar1 = (int)*plVar1 + -1;
+    UNLOCK();
+    if ((int)lVar5 == 1) {
+      (**(code **)*local_30)(local_30);
+      LOCK();
+      piVar2 = (int *)((longlong)local_30 + 0xc);
+      iVar3 = *piVar2;
+      *piVar2 = *piVar2 + -1;
+      UNLOCK();
+      if (iVar3 == 1) {
+        (**(code **)(*local_30 + 8))(local_30);
+      }
+    }
+  }
+  if (local_50 != (void *)0x0) {
+    pvVar7 = local_50;
+    if ((0xfff < (ulonglong)((longlong)local_40 - (longlong)local_50)) &&
+       (pvVar7 = *(void **)((longlong)local_50 + -8),
+       0x1f < (ulonglong)((longlong)local_50 + (-8 - (longlong)pvVar7)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    FUN_18001c9b8(pvVar7);
+  }
+  return;
+}
+
+
+
+############################################################
+# SCORE 2
+# FUNCTION 180007e00 ServerEvent
+# REASONS [symbol:ServerEvent]
+############################################################
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* public: static void __cdecl ClientSend::ServerEvent(class std::basic_string<char,struct
+   std::char_traits<char>,class std::allocator<char> > const & __ptr64,class
+   Scripting::DataSerializer const & __ptr64) */
+
+void __cdecl
+ClientSend::ServerEvent
+          (basic_string<char,std::char_traits<char>,std::allocator<char>_> *param_1,
+          DataSerializer *param_2)
+
+{
+  longlong *plVar1;
+  int *piVar2;
+  int iVar3;
+  ushort uVar4;
+  longlong lVar5;
+  undefined8 *puVar6;
+  void *pvVar7;
+  ulonglong uVar8;
+  undefined1 auStack_d8 [32];
+  undefined8 local_b8;
+  undefined8 local_b0;
+  void *local_a8;
+  undefined8 local_a0;
+  longlong lStack_98;
+  basic_string<char,std::char_traits<char>,std::allocator<char>_> local_90 [8];
+  undefined8 local_88;
+  longlong lStack_80;
+  void *local_78;
+  basic_string<char,std::char_traits<char>,std::allocator<char>_> *pbStack_70;
+  basic_string<char,std::char_traits<char>,std::allocator<char>_> *local_68;
+  ulonglong local_60;
+  longlong *local_58;
+  undefined8 local_50;
+  undefined8 uStack_48;
+  void *local_40;
+  undefined8 uStack_38;
+  longlong local_30;
+  ulonglong local_28;
+  
+                    /* 0x7e00  51
+                       ?ServerEvent@ClientSend@@SAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVDataSerializer@Scripting@@@Z
+                        */
+  local_28 = DAT_1800280c0 ^ (ulonglong)auStack_d8;
+  local_78 = (void *)0x0;
+  pbStack_70 = (basic_string<char,std::char_traits<char>,std::allocator<char>_> *)0x0;
+  local_68 = (basic_string<char,std::char_traits<char>,std::allocator<char>_> *)0x0;
+  local_88 = 0;
+  lStack_80 = 0;
+  local_60 = 0x400;
+  FUN_18000f5f0((longlong *)&local_78,&local_60);
+  uVar4 = *(ushort *)(param_1 + 0x10);
+  uVar8 = (ulonglong)uVar4;
+  if (uVar4 < 0x1000) {
+    FUN_18000e940((longlong)&local_88,uVar4);
+    if (0xf < *(ulonglong *)(param_1 + 0x18)) {
+      param_1 = *(basic_string<char,std::char_traits<char>,std::allocator<char>_> **)param_1;
+    }
+    if (uVar4 != 0) {
+      do {
+        local_90[0] = *param_1;
+        if (pbStack_70 == local_68) {
+          FUN_18000fc70((longlong *)&local_78,pbStack_70,local_90);
+        }
+        else {
+          *pbStack_70 = local_90[0];
+          pbStack_70 = pbStack_70 + 1;
+        }
+        lStack_80 = lStack_80 + 1;
+        param_1 = param_1 + 1;
+        uVar8 = uVar8 - 1;
+      } while (uVar8 != 0);
+    }
+  }
+  else {
+    FUN_18000e940((longlong)&local_88,0);
+  }
+  local_50 = 0;
+  uStack_48 = 0;
+  local_40 = (void *)0x0;
+  uStack_38 = 0;
+  local_30 = 0;
+  local_b8 = *(undefined8 *)param_2;
+  local_b0 = *(undefined8 *)(param_2 + 8);
+  FUN_180008070((ulonglong *)&local_a8,(longlong *)(param_2 + 0x10));
+  FUN_18000f070(&local_50,(longlong)&local_88,(longlong)&local_b8);
+  if (local_a8 != (void *)0x0) {
+    pvVar7 = local_a8;
+    if ((0xfff < (ulonglong)(lStack_98 - (longlong)local_a8)) &&
+       (pvVar7 = *(void **)((longlong)local_a8 + -8),
+       0x1f < (ulonglong)((longlong)local_a8 + (-8 - (longlong)pvVar7)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    FUN_18001c9b8(pvVar7);
+    local_a8 = (void *)0x0;
+    local_a0 = 0;
+    lStack_98 = 0;
+  }
+  puVar6 = (undefined8 *)Singleton<GameClient>::Get();
+  ENetClient::Send((ENetClient *)*puVar6,0,1,(StreamBuffer *)&local_50);
+  if (local_58 != (longlong *)0x0) {
+    LOCK();
+    plVar1 = local_58 + 1;
+    lVar5 = *plVar1;
+    *(int *)plVar1 = (int)*plVar1 + -1;
+    UNLOCK();
+    if ((int)lVar5 == 1) {
+      (**(code **)*local_58)(local_58);
+      LOCK();
+      piVar2 = (int *)((longlong)local_58 + 0xc);
+      iVar3 = *piVar2;
+      *piVar2 = *piVar2 + -1;
+      UNLOCK();
+      if (iVar3 == 1) {
+        (**(code **)(*local_58 + 8))(local_58);
+      }
+    }
+  }
+  if (local_40 != (void *)0x0) {
+    pvVar7 = local_40;
+    if ((0xfff < (ulonglong)(local_30 - (longlong)local_40)) &&
+       (pvVar7 = *(void **)((longlong)local_40 + -8),
+       0x1f < (ulonglong)((longlong)local_40 + (-8 - (longlong)pvVar7)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    FUN_18001c9b8(pvVar7);
+    local_40 = (void *)0x0;
+    uStack_38 = 0;
+    local_30 = 0;
+  }
+  if (local_78 != (void *)0x0) {
+    pvVar7 = local_78;
+    if ((0xfff < (ulonglong)((longlong)local_68 - (longlong)local_78)) &&
+       (pvVar7 = *(void **)((longlong)local_78 + -8),
+       0x1f < (ulonglong)((longlong)local_78 + (-8 - (longlong)pvVar7)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    FUN_18001c9b8(pvVar7);
+  }
+  return;
+}
+
+
+
+############################################################
+# SCORE 2
+# FUNCTION 18000a4f0 OnConnectionSucceeded
+# REASONS [string:on_connection_succeeded]
+############################################################
+
+/* public: virtual void __cdecl GameClient::OnConnectionSucceeded(void) __ptr64 */
+
+void __thiscall GameClient::OnConnectionSucceeded(GameClient *this)
+
+{
+  void *pvVar1;
+  void *local_28;
+  undefined8 uStack_20;
+  undefined8 local_18;
+  ulonglong uStack_10;
+  
+                    /* 0xa4f0  34  ?OnConnectionSucceeded@GameClient@@UEAAXXZ */
+  local_28 = (void *)0x0;
+  uStack_20 = 0;
+  local_18 = 0;
+  uStack_10 = 0;
+  FUN_180007110(&local_28,"on_connection_succeeded",0x17);
+  FUN_18000a0c0((float *)(this + 0xd0),(longlong *)&local_28);
+  if (0xf < uStack_10) {
+    pvVar1 = local_28;
+    if ((0xfff < uStack_10 + 1) &&
+       (pvVar1 = *(void **)((longlong)local_28 + -8),
+       0x1f < (ulonglong)((longlong)local_28 + (-8 - (longlong)pvVar1)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    FUN_18001c9b8(pvVar1);
+  }
+  return;
+}
+
+
+
+############################################################
+# SCORE 2
+# FUNCTION 18000a6e0 OnDisconnect
+# REASONS [string:on_disconnect]
+############################################################
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* public: virtual void __cdecl GameClient::OnDisconnect(void) __ptr64 */
+
+void __thiscall GameClient::OnDisconnect(GameClient *this)
+
+{
+  longlong lVar1;
+  undefined8 *puVar2;
+  undefined8 *puVar3;
+  uint uVar4;
+  undefined4 uVar5;
+  void *pvVar6;
+  int *piVar7;
+  undefined1 auStack_7e8 [32];
+  void *local_7c8;
+  undefined8 uStack_7c0;
+  undefined8 local_7b8;
+  ulonglong uStack_7b0;
+  undefined8 *local_7a8;
+  uint local_7a0;
+  undefined4 local_79c;
+  undefined8 *local_798;
+  uint local_790;
+  undefined1 local_78c [4];
+  longlong alStack_788 [4];
+  undefined4 auStack_764 [39];
+  undefined8 local_6c8 [32];
+  undefined4 *local_5c8;
+  undefined4 local_5c0;
+  undefined4 local_5bc;
+  undefined4 *local_5b8;
+  uint local_5b0;
+  undefined1 local_5ac [4];
+  longlong alStack_5a8 [4];
+  undefined4 auStack_584 [39];
+  undefined4 local_4e8 [64];
+  undefined4 *local_3e8;
+  undefined4 local_3e0;
+  undefined4 local_3dc;
+  undefined4 *local_3d8;
+  uint local_3d0;
+  undefined1 local_3cc [4];
+  longlong alStack_3c8 [4];
+  undefined4 auStack_3a4 [39];
+  undefined4 local_308 [64];
+  undefined1 *local_208;
+  undefined4 local_200;
+  undefined4 local_1fc;
+  undefined1 *local_1f8;
+  uint local_1f0;
+  undefined1 local_1ec [4];
+  longlong alStack_1e8 [4];
+  undefined4 auStack_1c4 [39];
+  undefined1 local_128 [256];
+  ulonglong local_28;
+  
+                    /* 0xa6e0  36  ?OnDisconnect@GameClient@@UEAAXXZ */
+  local_28 = DAT_1800280c0 ^ (ulonglong)auStack_7e8;
+  lVar1 = *(longlong *)(this + 0x178);
+  puVar2 = *(undefined8 **)(lVar1 + 8);
+  for (puVar3 = (undefined8 *)*puVar2; puVar3 != puVar2; puVar3 = (undefined8 *)*puVar3) {
+    FUN_1800051d0(lVar1,*(ushort *)(puVar3 + 2));
+  }
+  local_79c = 0;
+  memset(local_78c,0,0x1c4);
+  local_798 = local_6c8;
+  local_7a8 = local_6c8;
+  local_7a0 = 0;
+  local_790 = 0;
+  memset(local_6c8,0,0x100);
+  piVar7 = (int *)(*(longlong *)((longlong)ThreadLocalStoragePointer + (ulonglong)_tls_index * 8) +
+                  4);
+  if ((*piVar7 < DAT_180029810) && (FUN_18001ca68(&DAT_180029810), DAT_180029810 == -1)) {
+    DAT_1800297e8 = rage::scrThread::GetCommand(0xb52a3d48);
+    _Init_thread_footer(&DAT_180029810);
+  }
+  uVar4 = local_790;
+  if (DAT_1800297e8 != (_func_void_InfoBase_ptr *)0x0) {
+    (*DAT_1800297e8)((InfoBase *)&local_7a8);
+    uVar4 = local_790;
+  }
+  while (uVar4 != 0) {
+    local_790 = uVar4 - 1;
+    *(undefined4 *)alStack_788[local_790] =
+         *(undefined4 *)((longlong)&local_7a8 + (ulonglong)((uVar4 + 3) * 0x10));
+    *(undefined4 *)(alStack_788[local_790] + 4) = auStack_764[(ulonglong)local_790 * 4];
+    *(undefined4 *)(alStack_788[local_790] + 8) = auStack_764[(ulonglong)local_790 * 4 + 1];
+    uVar4 = local_790;
+  }
+  local_5bc = 0;
+  local_790 = uVar4;
+  memset(local_5ac,0,0x1c4);
+  local_5b8 = local_4e8;
+  local_5c8 = local_4e8;
+  local_5c0 = 0;
+  local_5b0 = 0;
+  memset(local_4e8,0,0x100);
+  if ((*piVar7 < DAT_1800297f0) && (FUN_18001ca68(&DAT_1800297f0), DAT_1800297f0 == -1)) {
+    DAT_180029818 = rage::scrThread::GetCommand(0xade13224);
+    _Init_thread_footer(&DAT_1800297f0);
+  }
+  uVar4 = local_5b0;
+  if (DAT_180029818 != (_func_void_InfoBase_ptr *)0x0) {
+    (*DAT_180029818)((InfoBase *)&local_5c8);
+    uVar4 = local_5b0;
+  }
+  while (uVar4 != 0) {
+    local_5b0 = uVar4 - 1;
+    *(undefined4 *)alStack_5a8[local_5b0] =
+         *(undefined4 *)((longlong)&local_5c8 + (ulonglong)((uVar4 + 3) * 0x10));
+    *(undefined4 *)(alStack_5a8[local_5b0] + 4) = auStack_584[(ulonglong)local_5b0 * 4];
+    *(undefined4 *)(alStack_5a8[local_5b0] + 8) = auStack_584[(ulonglong)local_5b0 * 4 + 1];
+    uVar4 = local_5b0;
+  }
+  local_3dc = 0;
+  local_5b0 = uVar4;
+  memset(local_3cc,0,0x1c4);
+  local_3d8 = local_308;
+  local_3e8 = local_308;
+  local_3e0 = 0;
+  local_3d0 = 0;
+  memset(local_308,0,0x100);
+  if ((*piVar7 < DAT_1800297e0) && (FUN_18001ca68(&DAT_1800297e0), DAT_1800297e0 == -1)) {
+    DAT_180029808 = rage::scrThread::GetCommand(0x76fbf412);
+    _Init_thread_footer(&DAT_1800297e0);
+  }
+  uVar4 = local_3d0;
+  if (DAT_180029808 != (_func_void_InfoBase_ptr *)0x0) {
+    (*DAT_180029808)((InfoBase *)&local_3e8);
+    uVar4 = local_3d0;
+  }
+  while (uVar4 != 0) {
+    local_3d0 = uVar4 - 1;
+    *(undefined4 *)alStack_3c8[local_3d0] =
+         *(undefined4 *)((longlong)&local_3e8 + (ulonglong)((uVar4 + 3) * 0x10));
+    *(undefined4 *)(alStack_3c8[local_3d0] + 4) = auStack_3a4[(ulonglong)local_3d0 * 4];
+    *(undefined4 *)(alStack_3c8[local_3d0] + 8) = auStack_3a4[(ulonglong)local_3d0 * 4 + 1];
+    uVar4 = local_3d0;
+  }
+  local_3d0 = uVar4;
+  uVar5 = FUN_1800069b0();
+  local_1fc = 0;
+  memset(local_1ec,0,0x1c4);
+  local_1f8 = local_128;
+  local_208 = local_128;
+  local_200 = 0;
+  local_1f0 = 0;
+  memset(local_128,0,0x100);
+  if ((*piVar7 < DAT_180029800) && (FUN_18001ca68(&DAT_180029800), DAT_180029800 == -1)) {
+    DAT_180029820 = rage::scrThread::GetCommand(0x9028b082);
+    _Init_thread_footer(&DAT_180029800);
+  }
+  uVar4 = local_1f0;
+  if (DAT_180029820 != (_func_void_InfoBase_ptr *)0x0) {
+    (*DAT_180029820)((InfoBase *)&local_208);
+    uVar4 = local_1f0;
+  }
+  while (uVar4 != 0) {
+    local_1f0 = uVar4 - 1;
+    *(undefined4 *)alStack_1e8[local_1f0] =
+         *(undefined4 *)((longlong)&local_208 + (ulonglong)((uVar4 + 3) * 0x10));
+    *(undefined4 *)(alStack_1e8[local_1f0] + 4) = auStack_1c4[(ulonglong)local_1f0 * 4];
+    *(undefined4 *)(alStack_1e8[local_1f0] + 8) = auStack_1c4[(ulonglong)local_1f0 * 4 + 1];
+    uVar4 = local_1f0;
+  }
+  local_1f0 = uVar4;
+  FUN_18000a190((undefined4)local_6c8[0]);
+  FUN_18000a190(local_4e8[0]);
+  FUN_18000a190(local_308[0]);
+  FUN_18000a190(uVar5);
+  local_79c = 0;
+  memset(local_78c,0,0x1c4);
+  local_798 = local_6c8;
+  local_7a8 = local_6c8;
+  local_7a0 = 0;
+  local_790 = 0;
+  memset(local_6c8,0,0x100);
+  local_6c8[local_7a0] = 0;
+  *(undefined4 *)(local_6c8 + local_7a0) = uVar5;
+  local_7a0 = local_7a0 + 1;
+  if ((*piVar7 < DAT_180029814) && (FUN_18001ca68(&DAT_180029814), DAT_180029814 == -1)) {
+    DAT_1800297f8 = rage::scrThread::GetCommand(0xc1756f39);
+    _Init_thread_footer(&DAT_180029814);
+  }
+  uVar4 = local_790;
+  if (DAT_1800297f8 != (_func_void_InfoBase_ptr *)0x0) {
+    (*DAT_1800297f8)((InfoBase *)&local_7a8);
+    uVar4 = local_790;
+  }
+  while (uVar4 != 0) {
+    local_790 = uVar4 - 1;
+    *(undefined4 *)alStack_788[local_790] =
+         *(undefined4 *)((longlong)&local_7a8 + (ulonglong)((uVar4 + 3) * 0x10));
+    *(undefined4 *)(alStack_788[local_790] + 4) = auStack_764[(ulonglong)local_790 * 4];
+    *(undefined4 *)(alStack_788[local_790] + 8) = auStack_764[(ulonglong)local_790 * 4 + 1];
+    uVar4 = local_790;
+  }
+  local_7c8 = (void *)0x0;
+  uStack_7c0 = 0;
+  local_7b8 = 0;
+  uStack_7b0 = 0;
+  local_790 = uVar4;
+  FUN_180007110(&local_7c8,"on_disconnect",0xd);
+  FUN_18000a0c0((float *)(this + 0xd0),(longlong *)&local_7c8);
+  if (0xf < uStack_7b0) {
+    pvVar6 = local_7c8;
+    if ((0xfff < uStack_7b0 + 1) &&
+       (pvVar6 = *(void **)((longlong)local_7c8 + -8),
+       0x1f < (ulonglong)((longlong)local_7c8 + (-8 - (longlong)pvVar6)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    FUN_18001c9b8(pvVar6);
+  }
+  return;
+}
+
+
+
+============================================================
+ FINAL SUMMARY
+============================================================
+Total candidate functions: 21
+ 60  180003b10  FUN_180003b10  [string:core:on_player_joined, string:Failed to create player, string:Failed to create player with id, string:Failed to create player %s]
+ 41  180002ea0  FUN_180002ea0  [xref:RegisterPacket, string:core:on_player_joined, string:core:on_player_left, RegisterPacket]
+ 24  18000a300  OnStart  [xref:RegisterPacket, RegisterPacket]
+ 24  18000b9b0  FUN_18000b9b0  [xref:RegisterPacket, RegisterPacket]
+ 24  18000c140  TextChat  [xref:RegisterPacket, RegisterPacket]
+ 22  1800051d0  FUN_1800051d0  [string:core:on_player_left, string:Failed to delete player, string:Failed to delete player with id]
+ 17  180005b30  FUN_180005b30  [xref:GetPlayerActor, call:GetPlayerActor]
+ 17  18000a6b0  OnTick  [xref:GetLocalPlayer, call:GetLocalPlayer]
+ 12  180008b60  RegisterPacket  [symbol:RegisterPacket]
+  4  EXTERNAL:00000002  GetPlayerActor  [symbol:GetPlayerActor, player/player-manager symbol]
+  4  EXTERNAL:00000005  GetLocalPlayer  [symbol:GetLocalPlayer, player/player-manager symbol]
+  4  1800025b0  GetPlayerManager  [symbol:GetPlayerManager, player/player-manager symbol]
+  4  180004cc0  FUN_180004cc0  [xref:GetActor, call:GetActor]
+  2  EXTERNAL:00000003  GetActor  [symbol:GetActor]
+  2  1800028b0  FUN_1800028b0  [string:PlayerLayout]
+  2  180003a10  Get  [player/player-manager symbol]
+  2  1800069b0  FUN_1800069b0  [string:PlayerLayout]
+  2  180007b80  ClientWelcome  [symbol:ClientWelcome]
+  2  180007e00  ServerEvent  [symbol:ServerEvent]
+  2  18000a4f0  OnConnectionSucceeded  [string:on_connection_succeeded]
+  2  18000a6e0  OnDisconnect  [string:on_disconnect]
+
+PRIORIDAD DE INVESTIGACION:
+1. funciones que escriben s_LocalPlayer
+2. handlers registrados mediante RegisterPacket
+3. funciones referenciadas por Failed to create player
+4. funciones relacionadas con core:on_player_joined
+5. create_player_actor / create_actor / respawn
+6. GetPlayerActor / GetLocalPlayer callers
