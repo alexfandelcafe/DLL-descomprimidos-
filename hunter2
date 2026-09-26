@@ -1,0 +1,313 @@
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+undefined4
+FUN_180006b10(undefined4 param_1,undefined8 param_2,undefined4 param_3,undefined8 param_4,
+             undefined4 param_5,undefined8 param_6,undefined4 param_7)
+
+{
+  uint uVar1;
+  undefined1 auStack_228 [32];
+  undefined8 *local_208;
+  uint local_200;
+  undefined4 local_1fc;
+  undefined8 *local_1f8;
+  uint local_1f0;
+  undefined1 local_1ec [4];
+  longlong alStack_1e8 [4];
+  undefined4 auStack_1c4 [39];
+  undefined4 local_128 [64];
+  ulonglong local_28;
+  
+  local_28 = DAT_1800280c0 ^ (ulonglong)auStack_228;
+  local_1fc = 0;
+  memset(local_1ec,0,0x1c4);
+  local_200 = 0;
+  local_1f0 = 0;
+  local_208 = (undefined8 *)local_128;
+  local_1f8 = (undefined8 *)local_128;
+  memset(local_128,0,0x100);
+  *(undefined8 *)((longlong)local_128 + (ulonglong)local_200 * 8) = 0;
+  *(undefined4 *)((longlong)local_128 + (ulonglong)local_200 * 8) = param_1;
+  *(char **)((longlong)local_128 + (ulonglong)(local_200 + 1) * 8) = "player";
+  *(undefined8 *)((longlong)local_128 + (ulonglong)(local_200 + 2) * 8) = 0;
+  *(undefined4 *)((longlong)local_128 + (ulonglong)(local_200 + 2) * 8) = param_3;
+  *(undefined8 *)((longlong)local_128 + (ulonglong)(local_200 + 3) * 8) = param_4;
+  *(undefined8 *)((longlong)local_128 + (ulonglong)(local_200 + 4) * 8) = 0;
+  *(undefined4 *)((longlong)local_128 + (ulonglong)(local_200 + 4) * 8) = param_5;
+  *(undefined8 *)((longlong)local_128 + (ulonglong)(local_200 + 5) * 8) = param_6;
+  *(undefined8 *)((longlong)local_128 + (ulonglong)(local_200 + 6) * 8) = 0;
+  *(undefined4 *)((longlong)local_128 + (ulonglong)(local_200 + 6) * 8) = param_7;
+  *(undefined8 *)((longlong)local_128 + (ulonglong)(local_200 + 7) * 8) = 0;
+  *(undefined4 *)((longlong)local_128 + (ulonglong)(local_200 + 7) * 8) = 0;
+  local_200 = local_200 + 8;
+  if ((*(int *)(*(longlong *)((longlong)ThreadLocalStoragePointer + (ulonglong)_tls_index * 8) + 4)
+       < DAT_1800296f0) && (FUN_18001ca68(&DAT_1800296f0), DAT_1800296f0 == -1)) {
+    DAT_180029680 = rage::scrThread::GetCommand(0x6a307d5f);
+    _Init_thread_footer(&DAT_1800296f0);
+  }
+  uVar1 = local_1f0;
+  if (DAT_180029680 != (_func_void_InfoBase_ptr *)0x0) {
+    (*DAT_180029680)((InfoBase *)&local_208);
+    uVar1 = local_1f0;
+  }
+  while (uVar1 != 0) {
+    local_1f0 = uVar1 - 1;
+    *(undefined4 *)alStack_1e8[local_1f0] =
+         *(undefined4 *)((longlong)&local_208 + (ulonglong)((uVar1 + 3) * 0x10));
+    *(undefined4 *)(alStack_1e8[local_1f0] + 4) = auStack_1c4[(ulonglong)local_1f0 * 4];
+    *(undefined4 *)(alStack_1e8[local_1f0] + 8) = auStack_1c4[(ulonglong)local_1f0 * 4 + 1];
+    uVar1 = local_1f0;
+  }
+  return local_128[0];
+}
+
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+undefined4
+FUN_180002b90(undefined4 param_1,undefined4 param_2,undefined4 *param_3,undefined4 *param_4)
+
+{
+  undefined4 uVar1;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  undefined4 uVar5;
+  undefined4 uVar6;
+  uint uVar7;
+  char cVar8;
+  longlong lVar9;
+  longlong lVar10;
+  undefined1 auStack_298 [32];
+  undefined8 *local_278;
+  uint local_270;
+  undefined4 local_26c;
+  undefined8 *local_268;
+  uint local_260;
+  undefined1 local_25c [4];
+  longlong alStack_258 [4];
+  undefined4 auStack_234 [39];
+  undefined4 local_198;
+  undefined4 auStack_194 [63];
+  ulonglong local_98;
+  
+  local_98 = DAT_1800280c0 ^ (ulonglong)auStack_298;
+  FUN_180002210(param_2);
+  lVar9 = _Xtime_get_ticks();
+  cVar8 = FUN_1800023b0(param_2);
+  while (cVar8 == '\0') {
+    ThisFiber::Wait(0);
+    cVar8 = FUN_1800023b0(param_2);
+  }
+  lVar10 = _Xtime_get_ticks();
+  if (20000 < lVar10 / 10 - lVar9 / 10) {
+    Log::Print(2,(char *)0x0,"Player model request took: %llu microsecond(s)");
+  }
+  uVar1 = param_4[2];
+  uVar2 = param_4[1];
+  uVar3 = *param_4;
+  uVar4 = param_3[2];
+  uVar5 = param_3[1];
+  uVar6 = *param_3;
+  local_26c = 0;
+  memset(local_25c,0,0x1c4);
+  local_270 = 0;
+  local_260 = 0;
+  local_278 = (undefined8 *)&local_198;
+  local_268 = (undefined8 *)&local_198;
+  memset(&local_198,0,0x100);
+  *(undefined8 *)((longlong)&local_198 + (ulonglong)local_270 * 8) = 0;
+  *(undefined4 *)((longlong)&local_198 + (ulonglong)local_270 * 8) = param_1;
+  *(undefined **)((longlong)&local_198 + (ulonglong)(local_270 + 1) * 8) = &DAT_180020298;
+  *(undefined8 *)((longlong)&local_198 + (ulonglong)(local_270 + 2) * 8) = 0;
+  *(undefined4 *)((longlong)&local_198 + (ulonglong)(local_270 + 2) * 8) = param_2;
+  *(undefined4 *)((longlong)&local_198 + (ulonglong)(local_270 + 3) * 8) = uVar6;
+  auStack_194[(ulonglong)(local_270 + 3) * 2] = uVar5;
+  *(undefined8 *)((longlong)&local_198 + (ulonglong)(local_270 + 4) * 8) = 0;
+  *(undefined4 *)((longlong)&local_198 + (ulonglong)(local_270 + 4) * 8) = uVar4;
+  *(undefined4 *)((longlong)&local_198 + (ulonglong)(local_270 + 5) * 8) = uVar3;
+  auStack_194[(ulonglong)(local_270 + 5) * 2] = uVar2;
+  *(undefined8 *)((longlong)&local_198 + (ulonglong)(local_270 + 6) * 8) = 0;
+  *(undefined4 *)((longlong)&local_198 + (ulonglong)(local_270 + 6) * 8) = uVar1;
+  local_270 = local_270 + 7;
+  if ((*(int *)(*(longlong *)((longlong)ThreadLocalStoragePointer + (ulonglong)_tls_index * 8) + 4)
+       < DAT_180029794) && (FUN_18001ca68(&DAT_180029794), DAT_180029794 == -1)) {
+    DAT_180029700 = rage::scrThread::GetCommand(0x8d67f397);
+    _Init_thread_footer(&DAT_180029794);
+  }
+  uVar7 = local_260;
+  if (DAT_180029700 != (_func_void_InfoBase_ptr *)0x0) {
+    (*DAT_180029700)((InfoBase *)&local_278);
+    uVar7 = local_260;
+  }
+  while (uVar7 != 0) {
+    local_260 = uVar7 - 1;
+    *(undefined4 *)alStack_258[local_260] =
+         *(undefined4 *)((longlong)&local_278 + (ulonglong)((uVar7 + 3) * 0x10));
+    *(undefined4 *)(alStack_258[local_260] + 4) = auStack_234[(ulonglong)local_260 * 4];
+    *(undefined4 *)(alStack_258[local_260] + 8) = auStack_234[(ulonglong)local_260 * 4 + 1];
+    uVar7 = local_260;
+  }
+  return local_198;
+}
+
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+undefined1 FUN_1800020a0(undefined4 param_1)
+
+{
+  uint uVar1;
+  undefined1 auStack_218 [32];
+  undefined8 *local_1f8;
+  uint local_1f0;
+  undefined4 local_1ec;
+  undefined8 *local_1e8;
+  uint local_1e0;
+  undefined1 local_1dc [4];
+  longlong alStack_1d8 [4];
+  undefined4 auStack_1b4 [39];
+  undefined1 local_118 [256];
+  ulonglong local_18;
+  
+  local_18 = DAT_1800280c0 ^ (ulonglong)auStack_218;
+  local_1ec = 0;
+  memset(local_1dc,0,0x1c4);
+  local_1f0 = 0;
+  local_1e0 = 0;
+  local_1f8 = (undefined8 *)local_118;
+  local_1e8 = (undefined8 *)local_118;
+  memset(local_118,0,0x100);
+  *(undefined8 *)((longlong)local_118 + (ulonglong)local_1f0 * 8) = 0;
+  *(undefined4 *)((longlong)local_118 + (ulonglong)local_1f0 * 8) = param_1;
+  local_1f0 = local_1f0 + 1;
+  if ((*(int *)(*(longlong *)((longlong)ThreadLocalStoragePointer + (ulonglong)_tls_index * 8) + 4)
+       < DAT_180029698) && (FUN_18001ca68(&DAT_180029698), DAT_180029698 == -1)) {
+    DAT_1800296b0 = rage::scrThread::GetCommand(0xba6c3e92);
+    _Init_thread_footer(&DAT_180029698);
+  }
+  uVar1 = local_1e0;
+  if (DAT_1800296b0 != (_func_void_InfoBase_ptr *)0x0) {
+    (*DAT_1800296b0)((InfoBase *)&local_1f8);
+    uVar1 = local_1e0;
+  }
+  while (uVar1 != 0) {
+    local_1e0 = uVar1 - 1;
+    *(undefined4 *)alStack_1d8[local_1e0] =
+         *(undefined4 *)((longlong)&local_1f8 + (ulonglong)((uVar1 + 3) * 0x10));
+    *(undefined4 *)(alStack_1d8[local_1e0] + 4) = auStack_1b4[(ulonglong)local_1e0 * 4];
+    *(undefined4 *)(alStack_1d8[local_1e0] + 8) = auStack_1b4[(ulonglong)local_1e0 * 4 + 1];
+    uVar1 = local_1e0;
+  }
+  return local_118[0];
+}
+
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void FUN_180002210(undefined4 param_1)
+
+{
+  uint uVar1;
+  undefined1 auStack_218 [32];
+  undefined8 *local_1f8;
+  uint local_1f0;
+  undefined4 local_1ec;
+  undefined8 *local_1e8;
+  uint local_1e0;
+  undefined1 local_1dc [4];
+  longlong alStack_1d8 [4];
+  undefined4 auStack_1b4 [39];
+  undefined8 local_118 [32];
+  ulonglong local_18;
+  
+  local_18 = DAT_1800280c0 ^ (ulonglong)auStack_218;
+  local_1ec = 0;
+  memset(local_1dc,0,0x1c4);
+  local_1f0 = 0;
+  local_1e0 = 0;
+  local_1f8 = local_118;
+  local_1e8 = local_118;
+  memset(local_118,0,0x100);
+  local_118[local_1f0] = 0;
+  *(undefined4 *)(local_118 + local_1f0) = param_1;
+  local_118[local_1f0 + 1] = 0;
+  *(undefined1 *)(local_118 + (local_1f0 + 1)) = 1;
+  local_118[local_1f0 + 2] = 0;
+  *(undefined1 *)(local_118 + (local_1f0 + 2)) = 0;
+  local_1f0 = local_1f0 + 3;
+  if ((*(int *)(*(longlong *)((longlong)ThreadLocalStoragePointer + (ulonglong)_tls_index * 8) + 4)
+       < DAT_1800296c0) && (FUN_18001ca68(&DAT_1800296c0), DAT_1800296c0 == -1)) {
+    DAT_180029690 = rage::scrThread::GetCommand(0xb0a79fee);
+    _Init_thread_footer(&DAT_1800296c0);
+  }
+  uVar1 = local_1e0;
+  if (DAT_180029690 != (_func_void_InfoBase_ptr *)0x0) {
+    (*DAT_180029690)((InfoBase *)&local_1f8);
+    uVar1 = local_1e0;
+  }
+  while (uVar1 != 0) {
+    local_1e0 = uVar1 - 1;
+    *(undefined4 *)alStack_1d8[local_1e0] =
+         *(undefined4 *)((longlong)&local_1f8 + (ulonglong)((uVar1 + 3) * 0x10));
+    *(undefined4 *)(alStack_1d8[local_1e0] + 4) = auStack_1b4[(ulonglong)local_1e0 * 4];
+    *(undefined4 *)(alStack_1d8[local_1e0] + 8) = auStack_1b4[(ulonglong)local_1e0 * 4 + 1];
+    uVar1 = local_1e0;
+  }
+  return;
+}
+
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+undefined1 FUN_1800023b0(undefined4 param_1)
+
+{
+  uint uVar1;
+  undefined1 auStack_218 [32];
+  undefined8 *local_1f8;
+  uint local_1f0;
+  undefined4 local_1ec;
+  undefined8 *local_1e8;
+  uint local_1e0;
+  undefined1 local_1dc [4];
+  longlong alStack_1d8 [4];
+  undefined4 auStack_1b4 [39];
+  undefined1 local_118 [256];
+  ulonglong local_18;
+  
+  local_18 = DAT_1800280c0 ^ (ulonglong)auStack_218;
+  local_1ec = 0;
+  memset(local_1dc,0,0x1c4);
+  local_1f0 = 0;
+  local_1e0 = 0;
+  local_1f8 = (undefined8 *)local_118;
+  local_1e8 = (undefined8 *)local_118;
+  memset(local_118,0,0x100);
+  *(undefined8 *)((longlong)local_118 + (ulonglong)local_1f0 * 8) = 0;
+  *(undefined4 *)((longlong)local_118 + (ulonglong)local_1f0 * 8) = param_1;
+  *(undefined8 *)((longlong)local_118 + (ulonglong)(local_1f0 + 1) * 8) = 0;
+  *(undefined4 *)((longlong)local_118 + (ulonglong)(local_1f0 + 1) * 8) = 0xffffffff;
+  local_1f0 = local_1f0 + 2;
+  if ((*(int *)(*(longlong *)((longlong)ThreadLocalStoragePointer + (ulonglong)_tls_index * 8) + 4)
+       < DAT_1800297c8) && (FUN_18001ca68(&DAT_1800297c8), DAT_1800297c8 == -1)) {
+    DAT_180029730 = rage::scrThread::GetCommand(0x7df72579);
+    _Init_thread_footer(&DAT_1800297c8);
+  }
+  uVar1 = local_1e0;
+  if (DAT_180029730 != (_func_void_InfoBase_ptr *)0x0) {
+    (*DAT_180029730)((InfoBase *)&local_1f8);
+    uVar1 = local_1e0;
+  }
+  while (uVar1 != 0) {
+    local_1e0 = uVar1 - 1;
+    *(undefined4 *)alStack_1d8[local_1e0] =
+         *(undefined4 *)((longlong)&local_1f8 + (ulonglong)((uVar1 + 3) * 0x10));
+    *(undefined4 *)(alStack_1d8[local_1e0] + 4) = auStack_1b4[(ulonglong)local_1e0 * 4];
+    *(undefined4 *)(alStack_1d8[local_1e0] + 8) = auStack_1b4[(ulonglong)local_1e0 * 4 + 1];
+    uVar1 = local_1e0;
+  }
+  return local_118[0];
+}
+
